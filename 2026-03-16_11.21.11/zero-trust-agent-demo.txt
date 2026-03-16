@@ -1,0 +1,73 @@
+deploy/k8s/base/deployments.yaml:251:        seccompProfile:
+deploy/k8s/base/realm-spiffe-demo.json:1732:            "oidc-sha256-pairwise-sub-mapper"
+deploy/k8s/base/realm-spiffe-demo.json:1753:            "oidc-sha256-pairwise-sub-mapper",
+deploy/k8s/base/realm-spiffe-demo.json:1848:        "name": "rsa-generated",
+deploy/k8s/base/realm-spiffe-demo.json:1849:        "providerId": "rsa-generated",
+deploy/k8s/base/realm-spiffe-demo.json:1859:        "name": "aes-generated",
+deploy/k8s/base/realm-spiffe-demo.json:1860:        "providerId": "aes-generated",
+deploy/k8s/base/realm-spiffe-demo.json:1870:        "name": "rsa-enc-generated",
+deploy/k8s/base/realm-spiffe-demo.json:1871:        "providerId": "rsa-enc-generated",
+deploy/k8s/overlays/openshift-authbridge/agent-service-authbridge-openshift-patch.yaml:22:          image: ghcr.io/kagenti/kagenti-extensions/proxy-init@sha256:401885edb969a53ef21f4ced1ba02e5141469fe0b32bb461ab4daec9d6a47cfe
+deploy/k8s/overlays/openshift-authbridge/ai-agents-sidecars-patch.yaml:21:          image: ghcr.io/kagenti/kagenti-extensions/proxy-init@sha256:401885edb969a53ef21f4ced1ba02e5141469fe0b32bb461ab4daec9d6a47cfe
+deploy/k8s/overlays/openshift-authbridge/ai-agents-sidecars-patch.yaml:229:          image: ghcr.io/kagenti/kagenti-extensions/proxy-init@sha256:401885edb969a53ef21f4ced1ba02e5141469fe0b32bb461ab4daec9d6a47cfe
+docs/ARCHITECTURE.md:2189:        Signature Algorithm: sha256WithRSAEncryption
+docs/ARCHITECTURE.md:2196:            Public Key Algorithm: rsaEncryption
+docs/ARCHITECTURE.md:2433:| **SPIFFE**                  | Secure Production Identity Framework for Everyone - universal identity framework for services   |
+docs/LEARNING_GUIDE.md:833:- [SPIFFE and SPIRE: Universal Workload Identity - KubeCon](https://www.youtube.com/watch?v=Q2SiGeebRKY)
+docs/deployment/OPENSHIFT_VS_KUBERNETES.md:156:- Prefer UBI (Universal Base Image) for OpenShift: `registry.access.redhat.com/ubi9/ubi`
+docs/dev/PHASE3_PRODUCTION_READINESS.md:536:        seccompProfile:
+docs/dev/realm-export-kagenti-demo-realm.json:622:      "id": "f24aeccb-048e-476f-96a8-e932e017179b",
+docs/dev/realm-export-kagenti-demo-realm.json:1690:            "oidc-sha256-pairwise-sub-mapper",
+docs/dev/realm-export-kagenti-demo-realm.json:1752:            "oidc-sha256-pairwise-sub-mapper",
+docs/dev/realm-export-kagenti-demo-realm.json:1789:        "name": "rsa-enc-generated",
+docs/dev/realm-export-kagenti-demo-realm.json:1790:        "providerId": "rsa-enc-generated",
+docs/dev/realm-export-kagenti-demo-realm.json:1803:        "name": "aes-generated",
+docs/dev/realm-export-kagenti-demo-realm.json:1804:        "providerId": "aes-generated",
+docs/dev/realm-export-kagenti-demo-realm.json:1814:        "name": "rsa-generated",
+docs/dev/realm-export-kagenti-demo-realm.json:1815:        "providerId": "rsa-generated",
+docs/dev/realm-export-kagenti-demo-realm.json:1910:      "id": "fa0185f2-c355-456a-b3e6-b3b42edcecc6",
+docs/dev/realm-export-kagenti-demo.json:1273:          "id": "0bd1e1bc-06ac-46de-8ec5-eccdd2a1dfcb",
+docs/dev/realm-export-kagenti-demo.json:1862:            "oidc-sha256-pairwise-sub-mapper",
+docs/dev/realm-export-kagenti-demo.json:1939:            "oidc-sha256-pairwise-sub-mapper"
+docs/dev/realm-export-kagenti-demo.json:1959:        "name": "rsa-enc-generated",
+docs/dev/realm-export-kagenti-demo.json:1960:        "providerId": "rsa-enc-generated",
+docs/dev/realm-export-kagenti-demo.json:1973:        "name": "aes-generated",
+docs/dev/realm-export-kagenti-demo.json:1974:        "providerId": "aes-generated",
+docs/dev/realm-export-kagenti-demo.json:1984:        "name": "rsa-generated",
+docs/dev/realm-export-kagenti-demo.json:1985:        "providerId": "rsa-generated",
+docs/dev/realm-export-kagenti-demo.json:2461:      "id": "e8123ecc-dd94-440a-aea5-61e6718de344",
+go.mod:119:	github.com/x448/float16 v0.8.4 // indirect
+go.sum:288:github.com/x448/float16 v0.8.4 h1:qLwI1I70+NjRFUR3zs1JPUCgaCXSh3SW62uAKT1mSBM=
+go.sum:289:github.com/x448/float16 v0.8.4/go.mod h1:14CWIYCyZA/cWjXOioeEpHeN/83MdbZDRQHoFcYsOfg=
+learn/jwt-validation/README.md:266:func FetchJWKS(jwksURL string) (map[string]*rsa.PublicKey, error)
+learn/jwt-validation/README.md:275:- Use `crypto/rsa` and `math/big` for key construction
+learn/jwt-validation/README.md:301:func VerifySignature(tokenString string, publicKey *rsa.PublicKey) error
+learn/jwt-validation/README.md:309:- Use `crypto/rsa.VerifyPKCS1v15` with `crypto.SHA256`
+learn/jwt-validation/jwks.go:5:	"crypto/rsa"
+learn/jwt-validation/jwks.go:39://     c. Construct rsa.PublicKey{N: n, E: e}
+learn/jwt-validation/jwks.go:50://	"crypto/rsa"
+learn/jwt-validation/jwks.go:57:func FetchJWKS(jwksURL string) (map[string]*rsa.PublicKey, error) {
+learn/jwt-validation/jwks.go:71:	publicKeys := make(map[string]*rsa.PublicKey)
+learn/jwt-validation/jwks.go:87:				publicKey := rsa.PublicKey{N: n, E: int(e.Int64())}
+learn/jwt-validation/jwt.go:6:	"crypto/rsa"
+learn/jwt-validation/jwt.go:7:	"crypto/sha256"
+learn/jwt-validation/jwt.go:81:// - Use crypto/sha256 to hash the signed content
+learn/jwt-validation/jwt.go:82:// - Use crypto/rsa.VerifyPKCS1v15 for verification
+learn/jwt-validation/jwt.go:88://	"crypto/rsa"
+learn/jwt-validation/jwt.go:89://	"crypto/sha256"
+learn/jwt-validation/jwt.go:92:func VerifySignature(tokenString string, publicKey *rsa.PublicKey) error {
+learn/jwt-validation/jwt.go:98:	hash := sha256.Sum256([]byte(content))
+learn/jwt-validation/jwt.go:103:	if err := rsa.VerifyPKCS1v15(publicKey, crypto.SHA256, hash[:], signature); err != nil {
+learn/jwt-validation/jwt_test.go:5:	"crypto/rsa"
+learn/jwt-validation/jwt_test.go:78:	var jwtKey, err = rsa.GenerateKey(rand.Reader, 2048)
+learn/jwt-validation/scaffolding/jwks.go:30://     c. Construct rsa.PublicKey{N: n, E: e}
+learn/jwt-validation/scaffolding/jwks.go:41://	"crypto/rsa"
+learn/jwt-validation/scaffolding/jwt.go:54:// - Use crypto/sha256 to hash the signed content
+learn/jwt-validation/scaffolding/jwt.go:55:// - Use crypto/rsa.VerifyPKCS1v15 for verification
+learn/jwt-validation/scaffolding/jwt.go:61://	"crypto/rsa"
+learn/jwt-validation/scaffolding/jwt.go:62://	"crypto/sha256"
+learn/jwt-validation/testhelpers_test.go:5:	"crypto/rsa"
+learn/jwt-validation/testhelpers_test.go:15:	PrivateKey *rsa.PrivateKey
+learn/jwt-validation/testhelpers_test.go:16:	PublicKey  *rsa.PublicKey
+learn/jwt-validation/testhelpers_test.go:23:	privateKey, err := rsa.GenerateKey(rand.Reader, 2048)
+learn/sts-token-exchange/README.md:488:but `act` claim nesting is not universally implemented. This is an open

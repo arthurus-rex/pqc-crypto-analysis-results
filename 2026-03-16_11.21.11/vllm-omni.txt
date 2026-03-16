@@ -1,0 +1,49 @@
+.git/packed-refs:12:1998c9d4ccce09680f6f475decc61aed7a9a8d5b refs/remotes/origin/dev/rebase_0.14.0
+.buildkite/scripts/hardware_ci/run-xpu-test.sh:41:    --security-opt seccomp=unconfined \
+benchmarks/distributed/omni_connectors/README.md:26:    --security-opt seccomp=unconfined \
+benchmarks/distributed/omni_connectors/README.md:36:- `--security-opt seccomp=unconfined`: Disable seccomp restrictions
+benchmarks/qwen3-omni/transformers/qwen3_omni_moe_transformers.py:60:        conversation = [
+benchmarks/qwen3-omni/transformers/qwen3_omni_moe_transformers.py:68:        text = processor.apply_chat_template(conversation, add_generation_prompt=True, tokenize=False)
+benchmarks/qwen3-omni/transformers/qwen3_omni_moe_transformers.py:69:        audios, images, videos = process_mm_info(conversation, use_audio_in_video=use_audio_in_video)
+docker/Dockerfile.xpu:57:# This oneccl contains the BMG support which is not the case for default version of oneapi 2025.2.
+docker/Dockerfile.xpu:58:ARG ONECCL_INSTALLER="intel-oneccl-2021.15.7.8_offline.sh"
+docker/Dockerfile.xpu:142:# remove torch bundled oneccl to avoid conflicts
+docker/Dockerfile.xpu:144:    uv pip uninstall oneccl oneccl-devel
+docs/design/feature/omni_connectors/mooncake_transfer_engine_connector.md:134:    --security-opt seccomp=unconfined \
+docs/getting_started/installation/gpu/rocm.inc.md:85:--security-opt seccomp=unconfined \
+docs/getting_started/installation/gpu/rocm.inc.md:104:--security-opt seccomp=unconfined \
+docs/getting_started/installation/gpu/rocm.inc.md:126:  --security-opt seccomp=unconfined \
+docs/getting_started/installation/gpu/rocm.inc.md:145:  --security-opt seccomp=unconfined \
+examples/online_serving/mimo_audio/openai_chat_completion_client_for_multimodal_generation.py:518:        help="Path to message.json file containing conversation history. When provided, "
+tests/entrypoints/openai_api/test_serving_speech.py:869:        # Test path traversal attempts
+tests/perf/scripts/run_benchmark.py:134:        command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, bufsize=1, universal_newlines=True
+vllm_omni/benchmarks/patch/patch.py:58:            no_oversample=args.no_oversample,
+vllm_omni/core/sched/omni_ar_scheduler.py:98:        # Universal duplicate check for once semantics
+vllm_omni/diffusion/models/flux2/pipeline_flux2.py:158:    Format a batch of text prompts into the conversation format expected by apply_chat_template. Optionally, add images
+vllm_omni/diffusion/models/flux2/pipeline_flux2.py:167:        `list[list[dict[str, Any]]]`: List of conversations, where each conversation is a list of message dicts
+vllm_omni/diffusion/models/hunyuan_image_3/hunyuan_image_3_tokenizer.py:37:class Conversation:
+vllm_omni/diffusion/models/hunyuan_image_3/hunyuan_image_3_tokenizer.py:926:        conv = Conversation()
+vllm_omni/entrypoints/openai/serving_chat.py:31:    ConversationMessage,
+vllm_omni/entrypoints/openai/serving_chat.py:242:                conversation, engine_prompts = await self._preprocess_chat(
+vllm_omni/entrypoints/openai/serving_chat.py:259:                conversation, engine_prompts = self._make_request_with_harmony(request, should_include_tools)
+vllm_omni/entrypoints/openai/serving_chat.py:401:                conversation,
+vllm_omni/entrypoints/openai/serving_chat.py:413:                conversation,
+vllm_omni/entrypoints/openai/serving_chat.py:436:    ) -> tuple[list[ConversationMessage], list[TokPrompt]]:
+vllm_omni/entrypoints/openai/serving_chat.py:469:        (conversation,), (engine_prompt,) = await renderer.render_chat_async(
+vllm_omni/entrypoints/openai/serving_chat.py:526:        return conversation, [engine_prompt]
+vllm_omni/entrypoints/openai/serving_chat.py:737:        conversation: list[ConversationMessage],
+vllm_omni/entrypoints/openai/serving_chat.py:773:            history_tool_call_cnt = get_history_tool_calls_cnt(conversation)
+vllm_omni/entrypoints/openai/serving_chat.py:871:                        if conversation and "content" in conversation[-1] and conversation[-1].get("role") == role:
+vllm_omni/entrypoints/openai/serving_chat.py:872:                            last_msg_content = conversation[-1]["content"] or ""
+vllm_omni/entrypoints/openai/serving_chat.py:1466:        conversation: list[ConversationMessage],
+vllm_omni/entrypoints/openai/serving_chat.py:1520:                    conversation,
+vllm_omni/entrypoints/openai/serving_chat.py:1584:        conversation: list[ConversationMessage],
+vllm_omni/entrypoints/openai/serving_chat.py:1590:            history_tool_call_cnt = get_history_tool_calls_cnt(conversation)
+vllm_omni/entrypoints/openai/serving_chat.py:1791:            if conversation and "content" in conversation[-1] and conversation[-1].get("role") == role:
+vllm_omni/entrypoints/openai/serving_chat.py:1792:                last_msg_content = conversation[-1]["content"] or ""
+vllm_omni/entrypoints/openai/serving_speech.py:94:    """Sanitize filename to prevent path traversal attacks.
+vllm_omni/entrypoints/openai/serving_speech.py:115:    Prevents path traversal attacks by ensuring the resolved path
+vllm_omni/entrypoints/openai/serving_speech.py:397:        # Sanitize name and consent to prevent path traversal
+vllm_omni/entrypoints/openai/serving_speech.py:415:            raise ValueError("Invalid file path: potential path traversal attack detected")
+vllm_omni/lora/utils.py:17:    digest = hashlib.sha256(lora_path.encode("utf-8")).digest()
+vllm_omni/platforms/__init__.py:93:            import oneccl_bindings_for_pytorch  # noqa: F401

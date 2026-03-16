@@ -1,0 +1,10 @@
+README.md:47:key_name: "slurm-cluster-key"  # Your SSH key pair name. Expects key to be on your local system as ~/.ssh/id_rsa
+README.md:87:ssh -i ~/.ssh/slurm-cluster-key.rsa ec2-user@<controller-public-ip>
+VLLM_DEPLOYMENT.md:815:JOB1=$(sbatch --parsable serve_phi3.sh)
+VLLM_DEPLOYMENT.md:816:JOB2=$(sbatch --parsable --dependency=afterany:$JOB1 serve_mistral.sh)
+VLLM_DEPLOYMENT.md:817:JOB3=$(sbatch --parsable --dependency=afterany:$JOB2 serve_llama3.sh)
+examples/vllm_multi_model_serve.sh:27:PHI3_JOB=$(sbatch --parsable serve_phi3.sh)
+examples/vllm_multi_model_serve.sh:32:MISTRAL_JOB=$(sbatch --parsable serve_mistral.sh)
+examples/vllm_multi_model_serve.sh:37:LLAMA_JOB=$(sbatch --parsable serve_llama3.sh)
+playbook.yml:130:        ansible_ssh_private_key_file: "~/.ssh/id_rsa"
+playbook.yml:154:          ansible_ssh_private_key_file=~/.ssh/id_rsa

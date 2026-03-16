@@ -1,0 +1,21 @@
+README.md:267:openssl genpkey -algorithm ed25519 > privateKey
+README.md:311:                "alg": "sha256",
+config/manager/manager.yaml:69:        # seccompProfile:
+docs/ibmse.md:22:└── rsa
+docs/ita.md:45:openssl genpkey -algorithm ed25519 > privateKey
+docs/sticky-sessions.md:26:openssl genpkey -algorithm ed25519 > privateKey
+go.mod:61:	github.com/x448/float16 v0.8.4 // indirect
+go.sum:137:github.com/x448/float16 v0.8.4 h1:qLwI1I70+NjRFUR3zs1JPUCgaCXSh3SW62uAKT1mSBM=
+go.sum:138:github.com/x448/float16 v0.8.4/go.mod h1:14CWIYCyZA/cWjXOioeEpHeN/83MdbZDRQHoFcYsOfg=
+internal/controller/crypto_helper.go:20:	"crypto/ed25519"
+internal/controller/crypto_helper.go:26:func encodeEd25519PrivateKeyToPEM(privateKey ed25519.PrivateKey) ([]byte, error) {
+internal/controller/crypto_helper.go:43:func encodeEd25519PublicKeyToPEM(publicKey ed25519.PublicKey) ([]byte, error) {
+internal/controller/kbsconfig_controller.go:625:		SeccompProfile: &corev1.SeccompProfile{
+internal/controller/kbsconfig_controller.go:626:			Type: corev1.SeccompProfileTypeRuntimeDefault,
+internal/controller/trusteeconfig_controller.go:21:	"crypto/ed25519"
+internal/controller/trusteeconfig_controller.go:667:	publicKey, privateKey, err := ed25519.GenerateKey(rand.Reader)
+tests/e2e/sample-attester-https/01-auth-secret.yaml:5:  - script: openssl genpkey -algorithm ed25519 > privateKey
+tests/e2e/sample-attester-https/01-auth-secret.yaml:9:  - script: 'openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout https.key -out https.crt -config kbs-service-509.conf -passin pass: -subj "/C=UK/ST=England/L=Bristol/O=Red Hat/OU=Development/CN=kbs-service"'
+tests/e2e/sample-attester/01-auth-secret.yaml:4:  - script: openssl genpkey -algorithm ed25519 > privateKey
+tests/scripts/config-trustee.sh:3:openssl genpkey -algorithm ed25519 > privateKey
+tests/tee/sealed-secrets/pod-sealed.yaml.in:31:        seccompProfile:

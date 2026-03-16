@@ -1,0 +1,17 @@
+grpo_wordle/valid_guesses.csv:115:aesir
+grpo_wordle/valid_guesses.csv:935:blaes
+grpo_wordle/valid_guesses.csv:1150:braes
+grpo_wordle/valid_guesses.csv:1304:bursa
+grpo_wordle/valid_guesses.csv:1351:caese
+grpo_wordle/valid_guesses.csv:1649:claes
+grpo_wordle/valid_guesses.csv:2435:dorsa
+grpo_wordle/valid_guesses.csv:5071:leccy
+grpo_wordle/valid_guesses.csv:7437:recce
+grpo_wordle/valid_guesses.csv:7438:recco
+grpo_wordle/valid_guesses.csv:7439:reccy
+grpo_wordle/valid_guesses.csv:8046:secco
+grpo_wordle/valid_guesses.csv:8400:slaes
+grpo_wordle/valid_guesses.csv:8653:spaes
+grpo_wordle/valid_guesses.csv:9633:twaes
+grpo_wordle/valid_guesses.csv:9823:ursae
+grpo_wordle/valid_guesses.csv:10439:yecch

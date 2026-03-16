@@ -1,0 +1,265 @@
+CI_FIX_COMPLETE.md:29:  image: kindest/node:v1.28.0@sha256:9f3ff58f19dcf1a0611d11e8ac989fdb30a28f40f236f59f0bea31fb956ccf5c
+TODO_ARGO_CLEANUP.md:196:    style E fill:#2ecc71
+TODO_SECURITY.md:417:  - aescbc:
+TODO_SECURITY.md:677:        seccompProfile:
+TODO_SECURITY.md:2976:    fd.name in (/etc/shadow, /etc/passwd, /root/.ssh/id_rsa)
+TODO_SECURITY.md:4428:        seccompProfile:
+TODO_SECURITY.md:4443:          seccompProfile:
+TODO_SECURITY.md:4476:        seccompProfile:
+TODO_SECURITY.md:4490:          seccompProfile:
+TODO_SECURITY.md:4526:        seccompProfile:
+TODO_SECURITY.md:4540:          seccompProfile:
+TODO_SECURITY.md:4562:        seccompProfile:
+TODO_SECURITY.md:4575:          seccompProfile:
+TODO_SECURITY.md:4607:        seccompProfile:
+TODO_SECURITY.md:4620:          seccompProfile:
+TODO_SECURITY.md:4640:        seccompProfile:
+TODO_SECURITY.md:4653:          seccompProfile:
+TODO_TESTS.md:22:- 🔴 **No E2E workflow tests** for agent conversations or monitoring agents
+TODO_TESTS.md:485:- 🔴 Agent conversation with tools (MCP)
+TODO_TESTS.md:498:- 🔴 100 concurrent agent conversations
+TODO_TESTS.md:566:| 3.2 | 🔴 Create E2E test: Agent conversation with MCP tools | HIGH | 🔴 Not Started | Platform | Week 8 |
+TODO_TESTS.md:1374:| FAILED tests/integration/test_agent_conversation.py::TestAgentConversation::test_agent_health_check | ✗ FAILED | - |
+TODO_TESTS.md:1375:| FAILED tests/integration/test_agent_conversation.py::TestAgentConversation::test_agent_card_accessible | ✗ FAILED | - |
+TODO_TESTS.md:1439:| FAILED tests/integration/test_agent_conversation.py::TestAgentConversation::test_agent_health_check | ✗ FAILED | - |
+TODO_TESTS.md:1440:| FAILED tests/integration/test_agent_conversation.py::TestAgentConversation::test_agent_card_accessible | ✗ FAILED | - |
+TODO_TESTS.md:1504:| FAILED tests/integration/test_agent_conversation.py::TestAgentConversation::test_agent_health_check | ✗ FAILED | - |
+TODO_TESTS.md:1505:| FAILED tests/integration/test_agent_conversation.py::TestAgentConversation::test_agent_card_accessible | ✗ FAILED | - |
+TODO_TESTS.md:1570:| FAILED tests/integration/test_agent_conversation.py::TestAgentConversation::test_agent_health_check | ✗ FAILED | - |
+TODO_TESTS.md:1571:| FAILED tests/integration/test_agent_conversation.py::TestAgentConversation::test_agent_card_accessible | ✗ FAILED | - |
+TODO_TESTS.md:1636:| FAILED tests/integration/test_agent_conversation.py::TestAgentConversation::test_agent_health_check | ✗ FAILED | - |
+TODO_TESTS.md:1637:| FAILED tests/integration/test_agent_conversation.py::TestAgentConversation::test_agent_card_accessible | ✗ FAILED | - |
+TODO_TESTS.md:1722:| integration/test_agent_conversation.py::TestAgentConversation::test_research_agent_simple_question SKIPPED [ 25%] | ○ SKIPPED | - |
+TODO_TESTS.md:1723:| integration/test_agent_conversation.py::TestAgentConversation::test_agent_health_check FAILED [ 26%] | ✗ FAILED | - |
+TODO_TESTS.md:1724:| integration/test_agent_conversation.py::TestAgentConversation::test_agent_card_accessible FAILED [ 27%] | ✗ FAILED | - |
+TODO_TESTS.md:1725:| integration/test_agent_conversation.py::TestAgentConversationManual::test_simple_factual_question SKIPPED [ 27%] | ○ SKIPPED | - |
+TODO_TESTS.md:1726:| integration/test_agent_conversation.py::TestAgentConversationManual::test_multi_turn_conversation SKIPPED [ 28%] | ○ SKIPPED | - |
+TODO_TESTS.md:1732:| integration/test_agents.py::TestAgentConversationAPI::test_research_agent_chat_endpoint SKIPPED [ 31%] | ○ SKIPPED | - |
+TODO_TESTS.md:1733:| integration/test_agents.py::TestAgentConversationAPI::test_agent_health_endpoint SKIPPED [ 32%] | ○ SKIPPED | - |
+TODO_TESTS.md:1859:| FAILED tests/integration/test_agent_conversation.py::TestAgentConversation::test_agent_health_check | ✗ FAILED | - |
+TODO_TESTS.md:1860:| FAILED tests/integration/test_agent_conversation.py::TestAgentConversation::test_agent_card_accessible | ✗ FAILED | - |
+TODO_TESTS.md:1945:| integration/test_agent_conversation.py::TestAgentConversation::test_research_agent_simple_question SKIPPED [ 25%] | ○ SKIPPED | - |
+TODO_TESTS.md:1946:| integration/test_agent_conversation.py::TestAgentConversation::test_agent_health_check FAILED [ 26%] | ✗ FAILED | - |
+TODO_TESTS.md:1947:| integration/test_agent_conversation.py::TestAgentConversation::test_agent_card_accessible FAILED [ 27%] | ✗ FAILED | - |
+TODO_TESTS.md:1948:| integration/test_agent_conversation.py::TestAgentConversationManual::test_simple_factual_question SKIPPED [ 27%] | ○ SKIPPED | - |
+TODO_TESTS.md:1949:| integration/test_agent_conversation.py::TestAgentConversationManual::test_multi_turn_conversation SKIPPED [ 28%] | ○ SKIPPED | - |
+TODO_TESTS.md:1955:| integration/test_agents.py::TestAgentConversationAPI::test_research_agent_chat_endpoint SKIPPED [ 31%] | ○ SKIPPED | - |
+TODO_TESTS.md:1956:| integration/test_agents.py::TestAgentConversationAPI::test_agent_health_endpoint SKIPPED [ 32%] | ○ SKIPPED | - |
+TODO_TESTS.md:2088:| FAILED tests/integration/test_agent_conversation.py::TestAgentConversation::test_agent_health_check | ✗ FAILED | - |
+TODO_TESTS.md:2089:| FAILED tests/integration/test_agent_conversation.py::TestAgentConversation::test_agent_card_accessible | ✗ FAILED | - |
+TODO_TESTS.md:2177:| integration/test_agent_conversation.py::TestAgentConversation::test_research_agent_simple_question SKIPPED [ 25%] | ○ SKIPPED | - |
+TODO_TESTS.md:2178:| integration/test_agent_conversation.py::TestAgentConversation::test_agent_health_check FAILED [ 26%] | ✗ FAILED | - |
+TODO_TESTS.md:2179:| integration/test_agent_conversation.py::TestAgentConversation::test_agent_card_accessible FAILED [ 27%] | ✗ FAILED | - |
+TODO_TESTS.md:2180:| integration/test_agent_conversation.py::TestAgentConversationManual::test_simple_factual_question SKIPPED [ 27%] | ○ SKIPPED | - |
+TODO_TESTS.md:2181:| integration/test_agent_conversation.py::TestAgentConversationManual::test_multi_turn_conversation SKIPPED [ 28%] | ○ SKIPPED | - |
+TODO_TESTS.md:2187:| integration/test_agents.py::TestAgentConversationAPI::test_research_agent_chat_endpoint SKIPPED [ 31%] | ○ SKIPPED | - |
+TODO_TESTS.md:2188:| integration/test_agents.py::TestAgentConversationAPI::test_agent_health_endpoint SKIPPED [ 32%] | ○ SKIPPED | - |
+TODO_TESTS.md:2313:| FAILED tests/integration/test_agent_conversation.py::TestAgentConversation::test_agent_health_check | ✗ FAILED | - |
+TODO_TESTS.md:2314:| FAILED tests/integration/test_agent_conversation.py::TestAgentConversation::test_agent_card_accessible | ✗ FAILED | - |
+TODO_TESTS.md:2395:| integration/test_agent_conversation.py::TestAgentConversation::test_research_agent_simple_question SKIPPED [ 25%] | ○ SKIPPED | - |
+TODO_TESTS.md:2396:| integration/test_agent_conversation.py::TestAgentConversation::test_agent_health_check FAILED [ 26%] | ✗ FAILED | - |
+TODO_TESTS.md:2397:| integration/test_agent_conversation.py::TestAgentConversation::test_agent_card_accessible FAILED [ 27%] | ✗ FAILED | - |
+TODO_TESTS.md:2398:| integration/test_agent_conversation.py::TestAgentConversationManual::test_simple_factual_question SKIPPED [ 27%] | ○ SKIPPED | - |
+TODO_TESTS.md:2399:| integration/test_agent_conversation.py::TestAgentConversationManual::test_multi_turn_conversation SKIPPED [ 28%] | ○ SKIPPED | - |
+TODO_TESTS.md:2405:| integration/test_agents.py::TestAgentConversationAPI::test_research_agent_chat_endpoint SKIPPED [ 31%] | ○ SKIPPED | - |
+TODO_TESTS.md:2406:| integration/test_agents.py::TestAgentConversationAPI::test_agent_health_endpoint SKIPPED [ 32%] | ○ SKIPPED | - |
+TODO_TESTS.md:2525:| FAILED tests/integration/test_agent_conversation.py::TestAgentConversation::test_agent_health_check | ✗ FAILED | - |
+TODO_TESTS.md:2526:| FAILED tests/integration/test_agent_conversation.py::TestAgentConversation::test_agent_card_accessible | ✗ FAILED | - |
+TODO_TESTS.md:2620:| integration/test_agent_conversation.py::TestAgentConversation::test_research_agent_simple_question SKIPPED [ 25%] | ○ SKIPPED | - |
+TODO_TESTS.md:2621:| integration/test_agent_conversation.py::TestAgentConversation::test_agent_health_check FAILED [ 26%] | ✗ FAILED | - |
+TODO_TESTS.md:2622:| integration/test_agent_conversation.py::TestAgentConversation::test_agent_card_accessible FAILED [ 27%] | ✗ FAILED | - |
+TODO_TESTS.md:2623:| integration/test_agent_conversation.py::TestAgentConversationManual::test_simple_factual_question SKIPPED [ 27%] | ○ SKIPPED | - |
+TODO_TESTS.md:2624:| integration/test_agent_conversation.py::TestAgentConversationManual::test_multi_turn_conversation SKIPPED [ 28%] | ○ SKIPPED | - |
+TODO_TESTS.md:2630:| integration/test_agents.py::TestAgentConversationAPI::test_research_agent_chat_endpoint SKIPPED [ 31%] | ○ SKIPPED | - |
+TODO_TESTS.md:2631:| integration/test_agents.py::TestAgentConversationAPI::test_agent_health_endpoint SKIPPED [ 32%] | ○ SKIPPED | - |
+TODO_TESTS.md:2749:| FAILED tests/integration/test_agent_conversation.py::TestAgentConversation::test_agent_health_check | ✗ FAILED | - |
+TODO_TESTS.md:2750:| FAILED tests/integration/test_agent_conversation.py::TestAgentConversation::test_agent_card_accessible | ✗ FAILED | - |
+TODO_TESTS.md:2833:| integration/test_agent_conversation.py::TestAgentConversation::test_research_agent_simple_question SKIPPED [ 25%] | ○ SKIPPED | - |
+TODO_TESTS.md:2834:| integration/test_agent_conversation.py::TestAgentConversation::test_agent_health_check FAILED [ 26%] | ✗ FAILED | - |
+TODO_TESTS.md:2835:| integration/test_agent_conversation.py::TestAgentConversation::test_agent_card_accessible FAILED [ 27%] | ✗ FAILED | - |
+TODO_TESTS.md:2836:| integration/test_agent_conversation.py::TestAgentConversationManual::test_simple_factual_question SKIPPED [ 27%] | ○ SKIPPED | - |
+TODO_TESTS.md:2837:| integration/test_agent_conversation.py::TestAgentConversationManual::test_multi_turn_conversation SKIPPED [ 28%] | ○ SKIPPED | - |
+TODO_TESTS.md:2843:| integration/test_agents.py::TestAgentConversationAPI::test_research_agent_chat_endpoint SKIPPED [ 31%] | ○ SKIPPED | - |
+TODO_TESTS.md:2844:| integration/test_agents.py::TestAgentConversationAPI::test_agent_health_endpoint SKIPPED [ 32%] | ○ SKIPPED | - |
+TODO_TESTS.md:2961:| FAILED tests/integration/test_agent_conversation.py::TestAgentConversation::test_agent_health_check | ✗ FAILED | - |
+TODO_TESTS.md:2962:| FAILED tests/integration/test_agent_conversation.py::TestAgentConversation::test_agent_card_accessible | ✗ FAILED | - |
+TODO_TESTS.md:3043:| integration/test_agent_conversation.py::TestAgentConversation::test_research_agent_simple_question SKIPPED [ 25%] | ○ SKIPPED | - |
+TODO_TESTS.md:3044:| integration/test_agent_conversation.py::TestAgentConversation::test_agent_health_check FAILED [ 26%] | ✗ FAILED | - |
+TODO_TESTS.md:3045:| integration/test_agent_conversation.py::TestAgentConversation::test_agent_card_accessible FAILED [ 27%] | ✗ FAILED | - |
+TODO_TESTS.md:3046:| integration/test_agent_conversation.py::TestAgentConversationManual::test_simple_factual_question SKIPPED [ 27%] | ○ SKIPPED | - |
+TODO_TESTS.md:3047:| integration/test_agent_conversation.py::TestAgentConversationManual::test_multi_turn_conversation SKIPPED [ 28%] | ○ SKIPPED | - |
+TODO_TESTS.md:3053:| integration/test_agents.py::TestAgentConversationAPI::test_research_agent_chat_endpoint SKIPPED [ 31%] | ○ SKIPPED | - |
+TODO_TESTS.md:3054:| integration/test_agents.py::TestAgentConversationAPI::test_agent_health_endpoint SKIPPED [ 32%] | ○ SKIPPED | - |
+TODO_TESTS.md:3178:| FAILED tests/integration/test_agent_conversation.py::TestAgentConversation::test_agent_health_check | ✗ FAILED | - |
+TODO_TESTS.md:3179:| FAILED tests/integration/test_agent_conversation.py::TestAgentConversation::test_agent_card_accessible | ✗ FAILED | - |
+TODO_TESTS.md:3262:| integration/test_agent_conversation.py::TestAgentConversation::test_research_agent_simple_question SKIPPED [ 25%] | ○ SKIPPED | - |
+TODO_TESTS.md:3263:| integration/test_agent_conversation.py::TestAgentConversation::test_agent_health_check FAILED [ 26%] | ✗ FAILED | - |
+TODO_TESTS.md:3264:| integration/test_agent_conversation.py::TestAgentConversation::test_agent_card_accessible FAILED [ 27%] | ✗ FAILED | - |
+TODO_TESTS.md:3265:| integration/test_agent_conversation.py::TestAgentConversationManual::test_simple_factual_question SKIPPED [ 27%] | ○ SKIPPED | - |
+TODO_TESTS.md:3266:| integration/test_agent_conversation.py::TestAgentConversationManual::test_multi_turn_conversation SKIPPED [ 28%] | ○ SKIPPED | - |
+TODO_TESTS.md:3272:| integration/test_agents.py::TestAgentConversationAPI::test_research_agent_chat_endpoint SKIPPED [ 31%] | ○ SKIPPED | - |
+TODO_TESTS.md:3273:| integration/test_agents.py::TestAgentConversationAPI::test_agent_health_endpoint SKIPPED [ 32%] | ○ SKIPPED | - |
+TODO_TESTS.md:3399:| FAILED tests/integration/test_agent_conversation.py::TestAgentConversation::test_agent_health_check | ✗ FAILED | - |
+TODO_TESTS.md:3400:| FAILED tests/integration/test_agent_conversation.py::TestAgentConversation::test_agent_card_accessible | ✗ FAILED | - |
+TODO_TESTS.md:3489:| integration/test_agent_conversation.py::TestAgentConversation::test_research_agent_simple_question SKIPPED [ 23%] | ○ SKIPPED | - |
+TODO_TESTS.md:3490:| integration/test_agent_conversation.py::TestAgentConversation::test_agent_health_check FAILED [ 24%] | ✗ FAILED | - |
+TODO_TESTS.md:3491:| integration/test_agent_conversation.py::TestAgentConversation::test_agent_card_accessible FAILED [ 24%] | ✗ FAILED | - |
+TODO_TESTS.md:3492:| integration/test_agent_conversation.py::TestAgentConversationManual::test_simple_factual_question SKIPPED [ 25%] | ○ SKIPPED | - |
+TODO_TESTS.md:3493:| integration/test_agent_conversation.py::TestAgentConversationManual::test_multi_turn_conversation SKIPPED [ 25%] | ○ SKIPPED | - |
+TODO_TESTS.md:3499:| integration/test_agents.py::TestAgentConversationAPI::test_research_agent_chat_endpoint SKIPPED [ 28%] | ○ SKIPPED | - |
+TODO_TESTS.md:3500:| integration/test_agents.py::TestAgentConversationAPI::test_agent_health_endpoint SKIPPED [ 29%] | ○ SKIPPED | - |
+TODO_TESTS.md:3638:| FAILED tests/integration/test_agent_conversation.py::TestAgentConversation::test_agent_health_check | ✗ FAILED | - |
+TODO_TESTS.md:3639:| FAILED tests/integration/test_agent_conversation.py::TestAgentConversation::test_agent_card_accessible | ✗ FAILED | - |
+TODO_TESTS.md:3717:| integration/test_agent_conversation.py::TestAgentConversation::test_research_agent_simple_question SKIPPED [ 23%] | ○ SKIPPED | - |
+TODO_TESTS.md:3718:| integration/test_agent_conversation.py::TestAgentConversation::test_agent_health_check PASSED [ 24%] | ✓ PASSED | - |
+TODO_TESTS.md:3719:| integration/test_agent_conversation.py::TestAgentConversation::test_agent_card_accessible PASSED [ 24%] | ✓ PASSED | - |
+TODO_TESTS.md:3720:| integration/test_agent_conversation.py::TestAgentConversationManual::test_simple_factual_question SKIPPED [ 25%] | ○ SKIPPED | - |
+TODO_TESTS.md:3721:| integration/test_agent_conversation.py::TestAgentConversationManual::test_multi_turn_conversation SKIPPED [ 25%] | ○ SKIPPED | - |
+TODO_TESTS.md:3727:| integration/test_agents.py::TestAgentConversationAPI::test_research_agent_chat_endpoint SKIPPED [ 28%] | ○ SKIPPED | - |
+TODO_TESTS.md:3728:| integration/test_agents.py::TestAgentConversationAPI::test_agent_health_endpoint SKIPPED [ 29%] | ○ SKIPPED | - |
+TODO_TESTS.md:3945:| integration/test_agent_conversation.py::TestAgentConversation::test_research_agent_simple_question SKIPPED [ 23%] | ○ SKIPPED | - |
+TODO_TESTS.md:3946:| integration/test_agent_conversation.py::TestAgentConversation::test_agent_health_check PASSED [ 23%] | ✓ PASSED | - |
+TODO_TESTS.md:3947:| integration/test_agent_conversation.py::TestAgentConversation::test_agent_card_accessible PASSED [ 24%] | ✓ PASSED | - |
+TODO_TESTS.md:3948:| integration/test_agent_conversation.py::TestAgentConversationManual::test_simple_factual_question SKIPPED [ 24%] | ○ SKIPPED | - |
+TODO_TESTS.md:3949:| integration/test_agent_conversation.py::TestAgentConversationManual::test_multi_turn_conversation SKIPPED [ 25%] | ○ SKIPPED | - |
+TODO_TESTS.md:3955:| integration/test_agents.py::TestAgentConversationAPI::test_research_agent_chat_endpoint SKIPPED [ 27%] | ○ SKIPPED | - |
+TODO_TESTS.md:3956:| integration/test_agents.py::TestAgentConversationAPI::test_agent_health_endpoint SKIPPED [ 28%] | ○ SKIPPED | - |
+TODO_TESTS.md:4216:| integration/test_agent_conversation.py::TestAgentConversation::test_research_agent_simple_question SKIPPED [ 23%] | ○ SKIPPED | - |
+TODO_TESTS.md:4217:| integration/test_agent_conversation.py::TestAgentConversation::test_agent_health_check PASSED [ 23%] | ✓ PASSED | - |
+TODO_TESTS.md:4218:| integration/test_agent_conversation.py::TestAgentConversation::test_agent_card_accessible PASSED [ 24%] | ✓ PASSED | - |
+TODO_TESTS.md:4219:| integration/test_agent_conversation.py::TestAgentConversationManual::test_simple_factual_question SKIPPED [ 24%] | ○ SKIPPED | - |
+TODO_TESTS.md:4220:| integration/test_agent_conversation.py::TestAgentConversationManual::test_multi_turn_conversation SKIPPED [ 25%] | ○ SKIPPED | - |
+TODO_TESTS.md:4226:| integration/test_agents.py::TestAgentConversationAPI::test_research_agent_chat_endpoint SKIPPED [ 27%] | ○ SKIPPED | - |
+TODO_TESTS.md:4227:| integration/test_agents.py::TestAgentConversationAPI::test_agent_health_endpoint SKIPPED [ 28%] | ○ SKIPPED | - |
+TODO_TESTS.md:4481:| integration/test_agent_conversation.py::TestAgentConversation::test_research_agent_simple_question SKIPPED [ 21%] | ○ SKIPPED | - |
+TODO_TESTS.md:4482:| integration/test_agent_conversation.py::TestAgentConversation::test_agent_health_check PASSED [ 22%] | ✓ PASSED | - |
+TODO_TESTS.md:4483:| integration/test_agent_conversation.py::TestAgentConversation::test_agent_card_accessible PASSED [ 22%] | ✓ PASSED | - |
+TODO_TESTS.md:4484:| integration/test_agent_conversation.py::TestAgentConversationManual::test_simple_factual_question SKIPPED [ 23%] | ○ SKIPPED | - |
+TODO_TESTS.md:4485:| integration/test_agent_conversation.py::TestAgentConversationManual::test_multi_turn_conversation SKIPPED [ 23%] | ○ SKIPPED | - |
+TODO_TESTS.md:4491:| integration/test_agents.py::TestAgentConversationAPI::test_research_agent_chat_endpoint SKIPPED [ 26%] | ○ SKIPPED | - |
+TODO_TESTS.md:4492:| integration/test_agents.py::TestAgentConversationAPI::test_agent_health_endpoint SKIPPED [ 26%] | ○ SKIPPED | - |
+TODO_TESTS.md:4761:| integration/test_agent_conversation.py::TestAgentConversation::test_research_agent_simple_question SKIPPED [ 21%] | ○ SKIPPED | - |
+TODO_TESTS.md:4762:| integration/test_agent_conversation.py::TestAgentConversation::test_agent_health_check PASSED [ 22%] | ✓ PASSED | - |
+TODO_TESTS.md:4763:| integration/test_agent_conversation.py::TestAgentConversation::test_agent_card_accessible PASSED [ 22%] | ✓ PASSED | - |
+TODO_TESTS.md:4764:| integration/test_agent_conversation.py::TestAgentConversationManual::test_simple_factual_question SKIPPED [ 23%] | ○ SKIPPED | - |
+TODO_TESTS.md:4765:| integration/test_agent_conversation.py::TestAgentConversationManual::test_multi_turn_conversation SKIPPED [ 23%] | ○ SKIPPED | - |
+TODO_TESTS.md:4771:| integration/test_agents.py::TestAgentConversationAPI::test_research_agent_chat_endpoint SKIPPED [ 26%] | ○ SKIPPED | - |
+TODO_TESTS.md:4772:| integration/test_agents.py::TestAgentConversationAPI::test_agent_health_endpoint SKIPPED [ 26%] | ○ SKIPPED | - |
+TODO_TESTS.md:5057:| integration/test_agent_conversation.py::TestAgentConversation::test_research_agent_simple_question SKIPPED [ 18%] | ○ SKIPPED | - |
+TODO_TESTS.md:5058:| integration/test_agent_conversation.py::TestAgentConversation::test_agent_health_check PASSED [ 18%] | ✓ PASSED | - |
+TODO_TESTS.md:5059:| integration/test_agent_conversation.py::TestAgentConversation::test_agent_card_accessible PASSED [ 19%] | ✓ PASSED | - |
+TODO_TESTS.md:5060:| integration/test_agent_conversation.py::TestAgentConversationManual::test_simple_factual_question SKIPPED [ 19%] | ○ SKIPPED | - |
+TODO_TESTS.md:5061:| integration/test_agent_conversation.py::TestAgentConversationManual::test_multi_turn_conversation SKIPPED [ 19%] | ○ SKIPPED | - |
+TODO_TESTS.md:5067:| integration/test_agents.py::TestAgentConversationAPI::test_research_agent_chat_endpoint SKIPPED [ 21%] | ○ SKIPPED | - |
+TODO_TESTS.md:5068:| integration/test_agents.py::TestAgentConversationAPI::test_agent_health_endpoint SKIPPED [ 22%] | ○ SKIPPED | - |
+TODO_TESTS.md:5459:| integration/test_agent_conversation.py::TestAgentConversation::test_research_agent_simple_question SKIPPED [ 17%] | ○ SKIPPED | - |
+TODO_TESTS.md:5460:| integration/test_agent_conversation.py::TestAgentConversation::test_agent_health_check PASSED [ 18%] | ✓ PASSED | - |
+TODO_TESTS.md:5461:| integration/test_agent_conversation.py::TestAgentConversation::test_agent_card_accessible PASSED [ 18%] | ✓ PASSED | - |
+TODO_TESTS.md:5462:| integration/test_agent_conversation.py::TestAgentConversationManual::test_simple_factual_question SKIPPED [ 18%] | ○ SKIPPED | - |
+TODO_TESTS.md:5463:| integration/test_agent_conversation.py::TestAgentConversationManual::test_multi_turn_conversation SKIPPED [ 19%] | ○ SKIPPED | - |
+TODO_TESTS.md:5469:| integration/test_agents.py::TestAgentConversationAPI::test_research_agent_chat_endpoint SKIPPED [ 21%] | ○ SKIPPED | - |
+TODO_TESTS.md:5470:| integration/test_agents.py::TestAgentConversationAPI::test_agent_health_endpoint SKIPPED [ 21%] | ○ SKIPPED | - |
+TODO_TESTS.md:5779:| integration/test_agent_conversation.py::TestAgentConversation::test_research_agent_simple_question SKIPPED [ 17%] | ○ SKIPPED | - |
+TODO_TESTS.md:5780:| integration/test_agent_conversation.py::TestAgentConversation::test_agent_health_check PASSED [ 18%] | ✓ PASSED | - |
+TODO_TESTS.md:5781:| integration/test_agent_conversation.py::TestAgentConversation::test_agent_card_accessible PASSED [ 18%] | ✓ PASSED | - |
+TODO_TESTS.md:5782:| integration/test_agent_conversation.py::TestAgentConversationManual::test_simple_factual_question SKIPPED [ 18%] | ○ SKIPPED | - |
+TODO_TESTS.md:5783:| integration/test_agent_conversation.py::TestAgentConversationManual::test_multi_turn_conversation SKIPPED [ 19%] | ○ SKIPPED | - |
+TODO_TESTS.md:5789:| integration/test_agents.py::TestAgentConversationAPI::test_research_agent_chat_endpoint SKIPPED [ 21%] | ○ SKIPPED | - |
+TODO_TESTS.md:5790:| integration/test_agents.py::TestAgentConversationAPI::test_agent_health_endpoint SKIPPED [ 21%] | ○ SKIPPED | - |
+TODO_TESTS.md:6109:|   2025-11-17T04:30:01Z	ERROR	Reconciler error	{"controller": "component", "controllerGroup": "kagenti.operator.dev", "controllerKind": "Component", "Component": {"name":"weather-service","namespace":"team1"}, "namespace": "team1", "name": "weather-service", "reconcileID": "0c2dca94-7db4-4aec-91b7-65ecca4a428c", "error": "failed to load pipeline steps: step ConfigMap github-clone-step not found"} | ✗ ERROR | - |
+TODO_TESTS.md:6125:|   2025-11-17T07:06:29Z	ERROR	Reconciler error	{"controller": "component", "controllerGroup": "kagenti.operator.dev", "controllerKind": "Component", "Component": {"name":"weather-service","namespace":"team1"}, "namespace": "team1", "name": "weather-service", "reconcileID": "eeccc2c0-1b13-4e6b-b05b-0b726ed288a4", "error": "failed to load pipeline steps: step ConfigMap github-clone-step not found"} | ✗ ERROR | - |
+TODO_TESTS.md:6278:| integration/test_agent_conversation.py::TestAgentConversation::test_research_agent_simple_question SKIPPED [ 17%] | ○ SKIPPED | - |
+TODO_TESTS.md:6279:| integration/test_agent_conversation.py::TestAgentConversation::test_agent_health_check PASSED [ 18%] | ✓ PASSED | - |
+TODO_TESTS.md:6280:| integration/test_agent_conversation.py::TestAgentConversation::test_agent_card_accessible PASSED [ 18%] | ✓ PASSED | - |
+TODO_TESTS.md:6281:| integration/test_agent_conversation.py::TestAgentConversationManual::test_simple_factual_question SKIPPED [ 18%] | ○ SKIPPED | - |
+TODO_TESTS.md:6282:| integration/test_agent_conversation.py::TestAgentConversationManual::test_multi_turn_conversation SKIPPED [ 19%] | ○ SKIPPED | - |
+TODO_TESTS.md:6288:| integration/test_agents.py::TestAgentConversationAPI::test_research_agent_chat_endpoint SKIPPED [ 21%] | ○ SKIPPED | - |
+TODO_TESTS.md:6289:| integration/test_agents.py::TestAgentConversationAPI::test_agent_health_endpoint SKIPPED [ 21%] | ○ SKIPPED | - |
+TODO_TESTS.md:6604:|   2025-11-17T04:30:01Z	ERROR	Reconciler error	{"controller": "component", "controllerGroup": "kagenti.operator.dev", "controllerKind": "Component", "Component": {"name":"weather-service","namespace":"team1"}, "namespace": "team1", "name": "weather-service", "reconcileID": "0c2dca94-7db4-4aec-91b7-65ecca4a428c", "error": "failed to load pipeline steps: step ConfigMap github-clone-step not found"} | ✗ ERROR | - |
+TODO_TESTS.md:6620:|   2025-11-17T07:06:29Z	ERROR	Reconciler error	{"controller": "component", "controllerGroup": "kagenti.operator.dev", "controllerKind": "Component", "Component": {"name":"weather-service","namespace":"team1"}, "namespace": "team1", "name": "weather-service", "reconcileID": "eeccc2c0-1b13-4e6b-b05b-0b726ed288a4", "error": "failed to load pipeline steps: step ConfigMap github-clone-step not found"} | ✗ ERROR | - |
+TODO_TESTS.md:6926:| integration/test_agent_conversation.py::TestAgentConversation::test_research_agent_simple_question SKIPPED [ 17%] | ○ SKIPPED | - |
+TODO_TESTS.md:6927:| integration/test_agent_conversation.py::TestAgentConversation::test_agent_health_check FAILED [ 18%] | ✗ FAILED | - |
+TODO_TESTS.md:6928:| integration/test_agent_conversation.py::TestAgentConversation::test_agent_card_accessible FAILED [ 18%] | ✗ FAILED | - |
+TODO_TESTS.md:6929:| integration/test_agent_conversation.py::TestAgentConversationManual::test_simple_factual_question SKIPPED [ 18%] | ○ SKIPPED | - |
+TODO_TESTS.md:6930:| integration/test_agent_conversation.py::TestAgentConversationManual::test_multi_turn_conversation SKIPPED [ 19%] | ○ SKIPPED | - |
+TODO_TESTS.md:6936:| integration/test_agents.py::TestAgentConversationAPI::test_research_agent_chat_endpoint SKIPPED [ 21%] | ○ SKIPPED | - |
+TODO_TESTS.md:6937:| integration/test_agents.py::TestAgentConversationAPI::test_agent_health_endpoint SKIPPED [ 21%] | ○ SKIPPED | - |
+TODO_TESTS.md:7199:| FAILED tests/integration/test_agent_conversation.py::TestAgentConversation::test_agent_health_check - AssertionError: research-agent pod not running | ✗ FAILED | - |
+TODO_TESTS.md:7200:| FAILED tests/integration/test_agent_conversation.py::TestAgentConversation::test_agent_card_accessible - Failed: Failed to fetch agent card: (0) | ✗ FAILED | - |
+TODO_TESTS.md:7373:| integration/test_agent_conversation.py::TestAgentConversation::test_research_agent_simple_question SKIPPED [ 17%] | ○ SKIPPED | - |
+TODO_TESTS.md:7374:| integration/test_agent_conversation.py::TestAgentConversation::test_agent_health_check FAILED [ 18%] | ✗ FAILED | - |
+TODO_TESTS.md:7375:| integration/test_agent_conversation.py::TestAgentConversation::test_agent_card_accessible FAILED [ 18%] | ✗ FAILED | - |
+TODO_TESTS.md:7376:| integration/test_agent_conversation.py::TestAgentConversationManual::test_simple_factual_question SKIPPED [ 18%] | ○ SKIPPED | - |
+TODO_TESTS.md:7377:| integration/test_agent_conversation.py::TestAgentConversationManual::test_multi_turn_conversation SKIPPED [ 19%] | ○ SKIPPED | - |
+TODO_TESTS.md:7383:| integration/test_agents.py::TestAgentConversationAPI::test_research_agent_chat_endpoint SKIPPED [ 21%] | ○ SKIPPED | - |
+TODO_TESTS.md:7384:| integration/test_agents.py::TestAgentConversationAPI::test_agent_health_endpoint SKIPPED [ 21%] | ○ SKIPPED | - |
+TODO_TESTS.md:7654:| FAILED tests/integration/test_agent_conversation.py::TestAgentConversation::test_agent_health_check - AssertionError: No pods found for research-agent | ✗ FAILED | - |
+TODO_TESTS.md:7655:| FAILED tests/integration/test_agent_conversation.py::TestAgentConversation::test_agent_card_accessible - AssertionError: No pods found for research-agent | ✗ FAILED | - |
+TODO_TRACING.md:1835:   - `gen_ai.conversation.id` (conversation/session ID)
+TODO_TRACING.md:1837:6. ✅ **Propagate conversation context**: `gen_ai.conversation.id`
+TODO_TRACING.md:1946:    def invoke(self, task: Task, conversation_id: str = None):
+TODO_TRACING.md:1947:        conversation_id = conversation_id or f"conv-{uuid.uuid4()}"
+TODO_TRACING.md:1960:            span.set_attribute("gen_ai.conversation.id", conversation_id)
+TODO_TRACING.md:2942:  "manifest_digest": "sha256:60ec0caf...",
+TODO_TRACING.md:2948:  "manifest_digest": "sha256:60ec0caf...",
+TODO_TRACING.md:2954:  "manifest_digest": "sha256:ddedb7f3...",
+components/00-infrastructure/cert-manager/cert-manager.yaml:5361:        seccompProfile:
+components/00-infrastructure/cert-manager/cert-manager.yaml:5419:        seccompProfile:
+components/00-infrastructure/cert-manager/cert-manager.yaml:5483:        seccompProfile:
+components/00-infrastructure/kagenti-deps-rendered.yaml:850:          seccompProfile:
+components/02-observability/alertmanager/deployment.yaml:28:        checksum/config: "{{ include (print $.Template.BasePath \"/configmap.yaml\") . | sha256sum }}"
+components/02-observability/alertmanager/deployment.yaml:37:        seccompProfile:
+components/02-observability/kubernetes-dashboard/deployment.yaml:139:        seccompProfile:
+components/02-observability/kubernetes-dashboard/deployment.yaml:214:        seccompProfile:
+components/02-observability/otel-collector/configmap.yaml:52:      # Privacy: Metrics only, no span details or conversation content
+components/02-observability/otel-collector/configmap.yaml:118:      # - OpenInference traces (LLM conversations) → Phoenix ONLY
+components/02-observability/otel-collector/configmap.yaml:129:      # - Privacy: Infrastructure admins shouldn't see user conversations
+components/02-observability/otel-collector/configmap.yaml:135:      # without exposing conversation content.
+docs/01-infrastructure/cert-manager.md:123:openssl genrsa -out tls.key 2048
+docs/03-authentication/oauth2-proxy.md:1151:- **Istio Integration**: [Keycloak with Istio](https://chrishaessig.medium.com/keycloak-with-istio-and-oauth2-proxy-65227a383c15)
+docs/04-observability/genai-semantic-conventions.md:369:| `gen_ai.conversation.id` | string | Conversation/session ID | `conv-abc123` |
+docs/04-observability/genai-semantic-conventions.md:398:    span.set_attribute("gen_ai.conversation.id", conversation_id)
+docs/04-observability/genai-semantic-conventions.md:428:8. ✅ **Propagate conversation context**: `gen_ai.conversation.id`
+docs/04-observability/genai-semantic-conventions.md:560:    def invoke(self, task: Task, conversation_id: str = None):
+docs/04-observability/genai-semantic-conventions.md:564:        conversation_id = conversation_id or f"conv-{uuid.uuid4()}"
+docs/04-observability/genai-semantic-conventions.md:579:            span.set_attribute("gen_ai.conversation.id", conversation_id)
+docs/04-observability/korrel8r.md:295:Korrel8r builds a **relationship graph** and supports traversal queries:
+docs/07-platform/agents.md:1575:- Define conversable agents
+docs/07-platform/agents.md:1581:- ✅ Strong multi-agent conversation support
+docs/07-platform/agents.md:1590:**When to Use**: Microsoft ecosystem, GPT-based agents, conversational workflows
+docs/08-security/encryption.md:305:  - aescbc:
+docs/08-security/secrets-management.md:121:  - aescbc:
+docs/08-security/secrets-management.md:131:- **aescbc**: AES-CBC encryption (recommended)
+docs/08-security/secrets-management.md:132:- **aes-gcm**: AES-GCM encryption (higher security, Kubernetes 1.24+)
+docs/08-security/secrets-management.md:217:# After encryption: Binary data starting with "k8s:enc:aescbc:v1:key1:..."
+docs/08-security/secrets-management.md:1174:  - aescbc:
+docs/08-security/secrets-management.md:1281:openssl req -x509 -days 365 -nodes -newkey rsa:4096 \
+docs/08-security/security-roadmap.md:207:     - aescbc:
+docs/08-security/security-roadmap.md:339:       seccompProfile:
+docs/CI_CD_TESTING.md:401:- ⏭️ E2E workflow tests (agent conversations, UI interactions)
+environments/openshift-prod/patches/grafana-openshift-scc.yaml:13:        seccompProfile:
+environments/openshift-prod/patches/grafana-openshift-scc.yaml:23:            seccompProfile:
+environments/openshift-stage/patches/grafana-openshift-scc.yaml:13:        seccompProfile:
+environments/openshift-stage/patches/grafana-openshift-scc.yaml:23:            seccompProfile:
+tests/README.md:15:│   └── test_agents.py                 # Agent creation and conversations
+tests/README.md:31:- Agents: Agent creation, conversations, tool execution (14 tests)
+tests/integration/README.md:86:- Agent conversation API (HTTP endpoints)
+tests/integration/test_agent_conversation.py:2:Agent Conversation Tests
+tests/integration/test_agent_conversation.py:4:Tests actual conversations with deployed agents to verify they can respond to queries.
+tests/integration/test_agent_conversation.py:21:class TestAgentConversation:
+tests/integration/test_agent_conversation.py:22:    """Test actual conversations with agents."""
+tests/integration/test_agent_conversation.py:41:        pytest.skip("Agent conversation tests require in-cluster access or port-forward")
+tests/integration/test_agent_conversation.py:169:class TestAgentConversationManual:
+tests/integration/test_agent_conversation.py:171:    Manual agent conversation tests.
+tests/integration/test_agent_conversation.py:177:    2. Run tests: pytest tests/integration/test_agent_conversation.py::TestAgentConversationManual -v
+tests/integration/test_agent_conversation.py:190:    def test_multi_turn_conversation(self):
+tests/integration/test_agent_conversation.py:191:        """Test agent can maintain conversation context."""
+tests/integration/test_agents.py:7:- Agent conversation API (HTTP endpoints, chat API)
+tests/integration/test_agents.py:202:# Test: Agent Conversation API
+tests/integration/test_agents.py:205:class TestAgentConversationAPI:
+tests/integration/test_agents.py:206:    """Test agent HTTP conversation API endpoints."""
+tests/integration/test_agents.py:221:                    "conversation_id": str(uuid.uuid4())
+tests/integration/test_agents.py:273:        """Test agent conversation generates trace in Phoenix."""
+tests/integration/test_agents.py:286:            # Send agent conversation request
+tests/integration/test_agents.py:287:            conversation_id = str(uuid.uuid4())
+tests/integration/test_agents.py:292:                    "conversation_id": conversation_id

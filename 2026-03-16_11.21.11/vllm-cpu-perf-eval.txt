@@ -1,0 +1,41 @@
+automation/platform-setup/bash/intel/setup-guidellm-platform.sh:482:  --security-opt seccomp=unconfined --cap-add SYS_NICE \\
+automation/test-execution/ansible/inventory/group_vars/all/infrastructure.yml:26:    - "seccomp=unconfined"
+automation/test-execution/ansible/inventory/hosts.yml:45:    ansible_ssh_private_key_file: "{{ lookup('env', 'ANSIBLE_SSH_KEY') | default('~/.ssh/id_rsa', true) }}"
+docs/methodology/manual-sweep.md:7:This guide describes how to manually execute each stage of the sweep test process. While GuideLLM provides an automated `sweep` profile, manual execution gives you greater control and insight into system behavior, especially for detecting oversaturation, undersaturation, and determining optimal stopping points.
+docs/methodology/manual-sweep.md:13:- **Limited Saturation Detection**: May not accurately detect when a system becomes oversaturated or remains undersaturated
+docs/methodology/manual-sweep.md:151:- **Queue Depth**: Increasing queue indicates oversaturation
+docs/methodology/manual-sweep.md:180:This table helps you identify whether your system is undersaturated, at
+docs/methodology/manual-sweep.md:181:optimal load, or oversaturated. All metrics come from the GuideLLM report
+docs/methodology/manual-sweep.md:184:| Indicator | Undersaturated | Optimal | Oversaturated | Where to Find This |
+docs/methodology/manual-sweep.md:198:  - Oversaturated: TTFT at end is 2x+ higher than at start
+docs/methodology/manual-sweep.md:206:- **Oversaturated**: Cannot achieve target rate or rate is decreasing
+docs/methodology/manual-sweep.md:246:**Oversaturated System** 🔴:
+docs/methodology/manual-sweep.md:251:→ Decreasing throughput, increasing TTFT and concurrency = oversaturated
+docs/methodology/manual-sweep.md:358:3. **If warning/oversaturated** → Test 25% (halfway between 0% and 50%)
+docs/methodology/manual-sweep.md:363:- Test 75%: Oversaturated 🔴 → Test between 50-75%
+docs/methodology/manual-sweep.md:433:   - Oversaturation: > 5x baseline
+docs/methodology/manual-sweep.md:437:   - Drops indicate oversaturation or errors
+docs/methodology/manual-sweep.md:441:   - Gap indicates system cannot keep up (oversaturated)
+docs/methodology/manual-sweep.md:445:   - Continuously growing = oversaturated
+docs/methodology/manual-sweep.md:471:| 3c | 117.2 | 115.8 | 1.2s | 8.3x | 3.4s | 🔴 Oversaturated |
+docs/methodology/manual-sweep.md:472:| 2 (Max) | - | 156.3 | 2.1s | 14.5x | 4.8s | 🔴 Oversaturated |
+docs/methodology/manual-sweep.md:488:**If current load is oversaturated** (TTFT > 5x baseline):
+docs/methodology/manual-sweep.md:508:   - 70% is oversaturated
+docs/methodology/manual-sweep.md:629:3. **Testing beyond saturation**: Once oversaturated, stop and test lower rates
+docs/methodology/manual-sweep.md:675:# TTFT increased 14x - system is oversaturated at max throughput
+docs/methodology/manual-sweep.md:723:# Status: 🔴 Oversaturated - do not go higher
+docs/methodology/manual-sweep.md:756:- **Maximum capacity**: 185.7 req/sec (oversaturated)
+docs/methodology/manual-sweep.md:839:- Check CPU governor settings (should be "performance" not "powersave" for
+docs/methodology/manual-sweep.md:907:        └─ NO → 🔴 Oversaturated - stop testing higher rates
+docs/methodology/testing-phases.md:215:- Chat (variable) - benefits from prefix caching with realistic conversation patterns
+docs/methodology/testing-phases.md:310:- **Chat workloads**: Expect 20-40% improvement (conversation history caching)
+docs/platform-setup/x86/intel/deterministic-benchmarking.md:260:- **powersave/schedutil** (common defaults): Dynamically adjust frequency
+docs/platform-setup/x86/intel/deterministic-benchmarking.md:502:  --security-opt seccomp=unconfined \
+docs/platform-setup/x86/intel/deterministic-benchmarking.md:582:  --security-opt seccomp=unconfined \
+docs/platform-setup/x86/intel/deterministic-benchmarking.md:608:  --security-opt seccomp=unconfined \
+models/llm-models/model-matrix.yaml:184:        - chat      # Baseline conversational
+models/llm-models/model-matrix.yaml:203:      description: "Balanced prefill/decode, typical conversational AI"
+models/llm-models/model-matrix.yaml:238:      use_case: "Realistic conversational AI with variable message lengths"
+models/models.md:71:- **Chat (512:256)**: Balanced prefill/decode, typical conversational AI
+models/models.md:181:- **Input**: 512 tokens (conversation history)
+models/models.md:184:- **Use Case**: Conversational AI, chatbots

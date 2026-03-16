@@ -1,0 +1,15 @@
+demos/maas-policy-gui/package-lock.json:8860:        "universalify": "^2.0.0"
+demos/maas-policy-gui/package-lock.json:8948:        "universalify": "^2.0.0"
+demos/maas-policy-gui/package-lock.json:11495:      "integrity": "sha512-xbbCH5dCYU5T8LcEhhuh7HJ88HXuW3qsI3Y0zOZFKfZEHcpWiHU/Jxzk629Brsab/mMiHQti9wMP+845RPe3Vg==",
+demos/maas-policy-gui/package-lock.json:11522:        "universalify": "^2.0.0"
+demos/maas-policy-gui/package-lock.json:11771:      "integrity": "sha512-KpNARQA3Iwv+jTA0utUVVbrh+Jlrr1Fv0e56GGzAFOXN7dk/FviaDW8LHmK52DlcH4WP2n6gI8vN1aesBFgo9w==",
+demos/maas-policy-gui/package-lock.json:12861:    "node_modules/postcss-color-rebeccapurple": {
+demos/maas-policy-gui/package-lock.json:12863:      "resolved": "https://registry.npmjs.org/postcss-color-rebeccapurple/-/postcss-color-rebeccapurple-7.1.1.tgz",
+demos/maas-policy-gui/package-lock.json:13821:        "postcss-color-rebeccapurple": "^7.1.1",
+demos/maas-policy-gui/package-lock.json:16719:        "universalify": "^0.2.0",
+demos/maas-policy-gui/package-lock.json:16726:    "node_modules/tough-cookie/node_modules/universalify": {
+demos/maas-policy-gui/package-lock.json:16728:      "resolved": "https://registry.npmjs.org/universalify/-/universalify-0.2.0.tgz",
+demos/maas-policy-gui/package-lock.json:17043:    "node_modules/universalify": {
+demos/maas-policy-gui/package-lock.json:17045:      "resolved": "https://registry.npmjs.org/universalify/-/universalify-2.0.1.tgz",
+demos/maas-policy-gui/package-lock.json:17777:        "universalify": "^2.0.0"
+llm-d/README.md:105:Deploy a forked Limitador image with user/group tracking capabilities. This is a demo [Limitador patch](https://github.com/Kuadrant/limitador/compare/main...nerdalert:limitador:user-tracking-prom-metrics) for upstream conversations:

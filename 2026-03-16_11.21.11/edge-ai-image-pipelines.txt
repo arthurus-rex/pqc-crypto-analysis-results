@@ -1,0 +1,4 @@
+tegra/physically-bound-images/embed_image.sh:8:fsha=$(echo "$image" | sha256sum | awk '{ print $1 }')
+tegra/physically-bound-images/embed_image.sh:13:# Skopeo does not support references of type $REPO:$TAG@sha256:$SHA, so if
+tegra/physically-bound-images/embed_image.sh:16:# Unfortunately, this means that if there are two images $REPO:$TAG@sha256:$FIRST_SHA and $REPO:$TAG@sha256:$SECOND_SHA
+tegra/physically-bound-images/embed_image.sh:21:if [[ $image =~ .*:.*@sha256:.* ]]; then

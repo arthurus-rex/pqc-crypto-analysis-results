@@ -1,0 +1,1 @@
+kubernetes-single-node.yaml:167:          seccomp_profile = ""

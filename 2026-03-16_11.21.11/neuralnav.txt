@@ -1,0 +1,234 @@
+CLAUDE.md:7:This repository contains the architecture design for **NeuralNav**, an open-source system that guides users from concept to production-ready LLM deployments through a conversational AI and intelligent capacity planning.
+CLAUDE.md:58:  - Chat interface for conversational requirement gathering
+CLAUDE.md:95:A **4-stage conversational flow**:
+CLAUDE.md:115:- **Conversational Interface, Specification Editor, Recommendation Visualizer, Monitoring Dashboard**
+CLAUDE.md:119:1. **Intent & Specification Engine** - Transform conversation into complete deployment spec
+CLAUDE.md:283:- Conversational clarification flow (future phase)
+README.md:15:NeuralNav guides you from concept to production LLM deployments through SLO-driven capacity planning. Conversationally define your requirements—NeuralNav translates them into traffic profiles, performance targets, and cost constraints. Get intelligent model and GPU recommendations based on real benchmarks. Explore alternatives, compare tradeoffs, deploy with one click, and monitor actual performance—staying on course as your needs evolve.
+README.md:21:- **🗣️ Conversational Requirements Gathering** - Describe your use case in natural language
+README.md:179:- ✅ **Experience-Driven SLOs** - 9 use cases mapped to 5 experience classes (instant, conversational, interactive, deferred, batch)
+data/archive/ACCURACY_MAPPING_README.md:64:| **Chatbot Conversational** | **86.7%** | τ²-Bench + MMLU-Pro |
+data/archive/all_usecases_config.json:8:    "chatbot_conversational": {
+data/archive/all_usecases_config.json:9:      "description": "Real-time conversational chatbots (short prompts, short responses)",
+data/archive/optimized_weights.json:2:  "chatbot_conversational": {
+data/archive/optimized_weights.json:3:    "description": "Real-time conversational chatbots",
+data/archive/optimized_weights.json:10:    "justification": "Conversational AI = agentic workflow. \u03c4\u00b2-Bench (91%) + MMLU-Pro (83%) + GPQA (82%)"
+data/archive/slo_ranges.json:8:    "512/256": {"use_cases": ["chatbot_conversational", "code_completion", "translation", "content_creation"], "total_configs": 344},
+data/archive/slo_ranges.json:80:    "chatbot_conversational": {
+data/archive/slo_ranges.json:81:      "description": "Real-time conversational chatbots",
+data/archive/usecase_weights.json:7:    "chatbot_conversational": {
+data/archive/usecase_weights.json:8:      "description": "Real-time conversational chatbots (short prompts, short responses)",
+data/archive/workload_patterns.json:20:    "chatbot_conversational": {
+data/archive/workload_patterns.json:147:    "chatbot_conversational": {"prompt_tokens": 512, "output_tokens": 256, "blis_samples": 345},
+data/benchmarks/performance/benchmarks_estimated_performance.json:604:      "best_use_case": "chatbot_conversational"
+data/benchmarks/performance/benchmarks_estimated_performance.json:637:      "best_use_case": "chatbot_conversational"
+data/benchmarks/performance/benchmarks_estimated_performance.json:670:      "best_use_case": "chatbot_conversational"
+data/benchmarks/performance/benchmarks_estimated_performance.json:703:      "best_use_case": "chatbot_conversational"
+data/benchmarks/performance/benchmarks_estimated_performance.json:736:      "best_use_case": "chatbot_conversational"
+data/benchmarks/performance/benchmarks_estimated_performance.json:769:      "best_use_case": "chatbot_conversational"
+data/benchmarks/performance/benchmarks_estimated_performance.json:802:      "best_use_case": "chatbot_conversational"
+data/benchmarks/performance/benchmarks_estimated_performance.json:901:      "best_use_case": "chatbot_conversational"
+data/benchmarks/performance/benchmarks_estimated_performance.json:934:      "best_use_case": "chatbot_conversational"
+data/benchmarks/performance/benchmarks_estimated_performance.json:967:      "best_use_case": "chatbot_conversational"
+data/benchmarks/performance/benchmarks_estimated_performance.json:1000:      "best_use_case": "chatbot_conversational"
+data/benchmarks/performance/benchmarks_estimated_performance.json:1033:      "best_use_case": "chatbot_conversational"
+data/benchmarks/performance/benchmarks_estimated_performance.json:1231:      "best_use_case": "chatbot_conversational"
+data/benchmarks/performance/benchmarks_estimated_performance.json:1264:      "best_use_case": "chatbot_conversational"
+data/benchmarks/performance/benchmarks_estimated_performance.json:1297:      "best_use_case": "chatbot_conversational"
+data/benchmarks/performance/benchmarks_estimated_performance.json:1495:      "best_use_case": "chatbot_conversational"
+data/benchmarks/performance/benchmarks_estimated_performance.json:1528:      "best_use_case": "chatbot_conversational"
+data/benchmarks/performance/benchmarks_estimated_performance.json:1561:      "best_use_case": "chatbot_conversational"
+data/benchmarks/performance/benchmarks_estimated_performance.json:2155:      "best_use_case": "chatbot_conversational"
+data/benchmarks/performance/benchmarks_estimated_performance.json:2188:      "best_use_case": "chatbot_conversational"
+data/benchmarks/performance/benchmarks_estimated_performance.json:2287:      "best_use_case": "chatbot_conversational"
+data/benchmarks/performance/benchmarks_estimated_performance.json:2320:      "best_use_case": "chatbot_conversational"
+data/benchmarks/performance/benchmarks_estimated_performance.json:2353:      "best_use_case": "chatbot_conversational"
+data/configuration/model_catalog.json:23:        "chatbot_conversational",
+data/configuration/model_catalog.json:53:        "chatbot_conversational",
+data/configuration/model_catalog.json:114:        "chatbot_conversational",
+data/configuration/model_catalog.json:141:        "chatbot_conversational",
+data/configuration/model_catalog.json:167:        "chatbot_conversational",
+data/configuration/model_catalog.json:194:        "chatbot_conversational",
+data/configuration/model_catalog.json:222:        "chatbot_conversational",
+data/configuration/model_catalog.json:250:        "chatbot_conversational",
+data/configuration/model_catalog.json:340:        "chatbot_conversational",
+data/configuration/model_catalog.json:369:        "chatbot_conversational",
+data/configuration/model_catalog.json:399:        "chatbot_conversational",
+data/configuration/model_catalog.json:428:        "chatbot_conversational",
+data/configuration/model_catalog.json:458:        "chatbot_conversational",
+data/configuration/model_catalog.json:490:        "chatbot_conversational"
+data/configuration/model_catalog.json:542:        "chatbot_conversational",
+data/configuration/model_catalog.json:595:        "chatbot_conversational",
+data/configuration/model_catalog.json:697:        "chatbot_conversational",
+data/configuration/model_catalog.json:723:        "chatbot_conversational",
+data/configuration/model_catalog.json:775:        "chatbot_conversational",
+data/configuration/model_catalog.json:802:        "chatbot_conversational",
+data/configuration/model_catalog.json:828:        "chatbot_conversational",
+data/configuration/model_catalog.json:854:        "chatbot_conversational",
+data/configuration/model_catalog.json:881:        "chatbot_conversational",
+data/configuration/model_catalog.json:909:        "chatbot_conversational"
+data/configuration/model_catalog.json:988:        "chatbot_conversational",
+data/configuration/model_catalog.json:1017:        "chatbot_conversational",
+data/configuration/model_catalog.json:1045:        "chatbot_conversational",
+data/configuration/model_catalog.json:1073:        "chatbot_conversational",
+data/configuration/model_catalog.json:1098:        "chatbot_conversational",
+data/configuration/model_catalog.json:1122:        "chatbot_conversational",
+data/configuration/model_catalog.json:1147:        "chatbot_conversational",
+data/configuration/model_catalog.json:1174:        "chatbot_conversational",
+data/configuration/model_catalog.json:1200:        "chatbot_conversational"
+data/configuration/model_catalog.json:1224:        "chatbot_conversational",
+data/configuration/model_catalog.json:1249:        "chatbot_conversational",
+data/configuration/slo_templates.json:4:    "chatbot_conversational": {
+data/configuration/slo_templates.json:5:      "use_case": "Chatbot Conversational",
+data/configuration/slo_templates.json:6:      "description": "Real-time conversational chatbots for customer service",
+data/configuration/slo_templates.json:11:      "experience_class": "conversational",
+data/configuration/usecase_slo_workload.json:7:    "chatbot_conversational": {
+data/configuration/usecase_slo_workload.json:8:      "description": "Real-time conversational chatbots (short prompts, short responses)",
+docs/AGENTIC_DESIGN.md:152:| **AutoGen** | Strong multi-agent coordination, Microsoft backing, good debugging tools | More focused on conversational agents |
+docs/AGENTIC_DESIGN.md:281:       needs to be fast—users are waiting. We expect about 500 conversations
+docs/AGENTIC_DESIGN.md:299:    - Capabilities: High quality, conversational
+docs/ARCHITECTURE.md:42:1. **Conversational requirements gathering** - Natural language input eliminates
+docs/ARCHITECTURE.md:61:│  Conversational Interface | Spec Editor | Recommendation Viewer | Config  │
+docs/ARCHITECTURE.md:71:│   Conversation     │   User Intent      │   Specification    │  Selected  │
+docs/ARCHITECTURE.md:92:│  │Conversational│  │Specification │  │Recommendation│  │ Config │ │
+docs/ARCHITECTURE.md:100:│  User Conversation ────────────────────────────▶ Config Files     │
+docs/ARCHITECTURE.md:110:#### a. Conversational Interface
+docs/ARCHITECTURE.md:180:│  User Conversation ─────────────────────────▶ Structured Intent   │
+docs/ARCHITECTURE.md:184:**Purpose**: Transform natural language conversation into structured user intent
+docs/ARCHITECTURE.md:186:**Input**: User's conversational description of use case and requirements
+docs/ARCHITECTURE.md:457:- Orchestrate multi-step flows (conversation → recommendation → deployment)
+docs/ARCHITECTURE.md:491:### Primary Path: Conversational Requirements (Current)
+docs/ARCHITECTURE.md:553:- Initial conversational path relies on assumptions (use case, request rate,
+docs/ARCHITECTURE.md:654:1. **Conversational-First**: All complexity hidden behind natural language (no
+docs/ARCHITECTURE.md:695:demonstrates the viability of the conversational approach to LLM deployment
+docs/DEVELOPER_GUIDE.md:62:This means if you quit Docker Desktop, the Makefile will automatically use Podman (if its machine is running), and vice versa.
+docs/DEVELOPER_GUIDE.md:214:**Purpose:** Conversational interface, recommendation display
+docs/LOGGING.md:202:- Full user messages and conversation history
+docs/Recommendation Flow.md:56:- `experience_class`: instant, conversational, interactive, deferred, batch
+docs/Recommendation Flow.md:60:intent = intent_extractor.extract_intent(user_message, conversation_history)
+docs/Recommendation Flow.md:83:| chatbot_conversational | 512 | 256 |
+docs/Recommendation Flow.md:406:- use_case: chatbot_conversational
+docs/Recommendation Flow.md:409:- experience_class: conversational
+docs/TESTING.md:59:    use_case='chatbot_conversational',
+docs/TESTING.md:60:    experience_class='conversational',
+docs/TESTING.md:90:    experience_class='conversational',
+docs/USE_CASE_METHODOLOGY.md:46:### 1. chatbot_conversational
+docs/USE_CASE_METHODOLOGY.md:47:**Description**: Real-time conversational chatbots (short prompts, short responses)
+docs/USE_CASE_METHODOLOGY.md:50:- τ²-Bench: 45% (Conversational AI is agentic workflow)
+docs/USE_CASE_METHODOLOGY.md:178:1. `opensource_chatbot_conversational.csv`
+docs/USE_CASE_METHODOLOGY.md:196:| Chatbot Conversational | Kimi K2 | **86.5%** |
+docs/refactor-recommendation-api.md:46:    use_case=business_context.get("use_case", "chatbot_conversational"),
+docs/simplified-architecture-diagram.md:107:        Chat["💬 Conversational Interface"]
+docs/traffic_and_slos.md:47:| **Chatbot / Q&A** | Conversational assistants, customer support, knowledge search | **512 → 256** | **Conversational / Instant** | ≤150 ms | ≤25 ms/token | ≤7 s | Highly interactive; perceived responsiveness drives satisfaction. |
+docs/traffic_and_slos.md:67:| **Conversational** | Feels natural; output streams smoothly | Chatbots, Q&A, support bots | TTFT ≤300 ms; ITL ≤30 ms |
+docs/traffic_and_slos.md:84:| Instant / Conversational | Premium GPU (A100/H100) | Small batches (≤4) | Low TTFT & ITL |
+scripts/generate_estimated_performance.py:25:    "chatbot_conversational": {"prompt": 512, "output": 256},
+scripts/generate_estimated_performance.py:298:        "best_use_case": "chatbot_conversational",
+scripts/generate_estimated_performance.py:306:        "best_use_case": "chatbot_conversational",
+scripts/generate_estimated_performance.py:314:        "best_use_case": "chatbot_conversational",
+scripts/generate_estimated_performance.py:330:        "best_use_case": "chatbot_conversational",
+scripts/generate_estimated_performance.py:338:        "best_use_case": "chatbot_conversational",
+scripts/generate_estimated_performance.py:362:        "best_use_case": "chatbot_conversational",
+scripts/generate_estimated_performance.py:386:        "best_use_case": "chatbot_conversational",
+scripts/generate_estimated_performance.py:459:        "best_use_case": "chatbot_conversational",
+scripts/generate_estimated_performance.py:475:        "best_use_case": "chatbot_conversational",
+scripts/recalculate_weighted_scores.py:15:    "chatbot_conversational": {
+simulator/README.md:35:- **Chat** - Returns conversational responses
+simulator/README.md:147:- Handle complex multi-turn conversations
+src/neuralnav/api/routes/recommendation.py:81:            user_message=request.message, conversation_history=None
+src/neuralnav/api/routes/recommendation.py:87:                user_message=request.message, conversation_history=None
+src/neuralnav/api/routes/reference_data.py:130:            "chatbot_conversational": "opensource_chatbot_conversational.csv",
+src/neuralnav/configuration/generator.py:151:            "chatbot_conversational": 4096,
+src/neuralnav/intent_extraction/extractor.py:1:"""Intent extraction from conversational input."""
+src/neuralnav/intent_extraction/extractor.py:9:from neuralnav.shared.schemas import ConversationMessage, DeploymentIntent
+src/neuralnav/intent_extraction/extractor.py:19:    """Extract structured deployment intent from natural language conversation."""
+src/neuralnav/intent_extraction/extractor.py:31:        self, user_message: str, conversation_history: list[ConversationMessage] | None = None
+src/neuralnav/intent_extraction/extractor.py:38:            conversation_history: Optional previous conversation context
+src/neuralnav/intent_extraction/extractor.py:46:        # Convert conversation history to dict format for LLM
+src/neuralnav/intent_extraction/extractor.py:48:        if conversation_history:
+src/neuralnav/intent_extraction/extractor.py:50:                {"role": msg.role, "content": msg.content} for msg in conversation_history
+src/neuralnav/intent_extraction/extractor.py:151:                "chatbot_conversational",
+src/neuralnav/intent_extraction/extractor.py:157:                cleaned["experience_class"] = "conversational"  # Interactive real-time
+src/neuralnav/intent_extraction/extractor.py:165:                cleaned["experience_class"] = "conversational"  # Default
+src/neuralnav/knowledge_base/slo_templates.py:104:            use_case_id: Use case identifier (e.g., 'chatbot_conversational')
+src/neuralnav/knowledge_base/slo_templates.py:143:            experience_class: Experience class (instant, conversational, interactive, deferred, batch)
+src/neuralnav/llm/__init__.py:1:"""LLM Backend - Component 7: Interface to Ollama for intent extraction and conversation."""
+src/neuralnav/llm/prompts.py:6:  "use_case": "chatbot_conversational|code_completion|code_generation_detailed|translation|content_generation|summarization_short|document_analysis_rag|long_document_summarization|research_legal_analysis",
+src/neuralnav/llm/prompts.py:7:  "experience_class": "instant|conversational|interactive|deferred|batch",
+src/neuralnav/llm/prompts.py:19:- chatbot_conversational: Real-time conversational chatbots (short prompts, short responses)
+src/neuralnav/llm/prompts.py:31:- conversational: Real-time user interaction - chatbots, interactive tools
+src/neuralnav/llm/prompts.py:39:    user_message: str, conversation_history: list | None = None
+src/neuralnav/llm/prompts.py:42:    Build prompt for extracting deployment intent from user conversation.
+src/neuralnav/llm/prompts.py:46:        conversation_history: Optional list of previous messages
+src/neuralnav/llm/prompts.py:52:    if conversation_history:
+src/neuralnav/llm/prompts.py:53:        context = "Previous conversation:\n"
+src/neuralnav/llm/prompts.py:54:        for msg in conversation_history[-3:]:  # Last 3 messages for context
+src/neuralnav/llm/prompts.py:79:- "chatbot" or "customer service" or "conversational" → use_case: chatbot_conversational
+src/neuralnav/llm/prompts_experimental.py:2:Experimental prompt templates for future conversational features.
+src/neuralnav/llm/prompts_experimental.py:5:preserved for potential Phase 2 conversational interface enhancements.
+src/neuralnav/llm/prompts_experimental.py:12:The user is working on deploying a Large Language Model for their use case. You are here to have a natural conversation with them to understand their needs.
+src/neuralnav/llm/prompts_experimental.py:22:Respond naturally to the user. If we still need critical information (use case, scale, latency requirements), ask clarifying questions in a conversational way. If we have enough information, let them know we're ready to generate recommendations.
+src/neuralnav/llm/prompts_experimental.py:28:def build_conversational_prompt(
+src/neuralnav/llm/prompts_experimental.py:29:    user_message: str, current_understanding: dict, conversation_history: list | None = None
+src/neuralnav/llm/prompts_experimental.py:32:    Build prompt for conversational AI responses.
+src/neuralnav/llm/prompts_experimental.py:35:    multi-turn conversation features where the system asks follow-up
+src/neuralnav/llm/prompts_experimental.py:41:        conversation_history: Previous conversation messages
+src/neuralnav/llm/prompts_experimental.py:47:    if conversation_history:
+src/neuralnav/llm/prompts_experimental.py:49:        for msg in conversation_history[-2:]:
+src/neuralnav/orchestration/workflow.py:10:    ConversationMessage,
+src/neuralnav/orchestration/workflow.py:44:        self, user_message: str, conversation_history: list[ConversationMessage] | None = None
+src/neuralnav/orchestration/workflow.py:49:        This extracts intent and generates traffic/SLO specs from conversation.
+src/neuralnav/orchestration/workflow.py:58:        intent = self.intent_extractor.extract_intent(user_message, conversation_history)
+src/neuralnav/orchestration/workflow.py:83:        self, user_message: str, conversation_history: list[ConversationMessage] | None = None
+src/neuralnav/orchestration/workflow.py:89:        1. Extract intent from conversation
+src/neuralnav/orchestration/workflow.py:95:            conversation_history: Optional conversation context
+src/neuralnav/orchestration/workflow.py:105:        # Generate specification from conversation
+src/neuralnav/orchestration/workflow.py:107:            user_message, conversation_history
+src/neuralnav/orchestration/workflow.py:124:        - generate_recommendation() - after extracting specs from conversation
+src/neuralnav/orchestration/workflow.py:148:                "chatbot_conversational",
+src/neuralnav/orchestration/workflow.py:154:                intent_data["experience_class"] = "conversational"
+src/neuralnav/orchestration/workflow.py:162:                intent_data["experience_class"] = "conversational"  # Default
+src/neuralnav/orchestration/workflow.py:229:        conversation_history: list[ConversationMessage] | None = None,
+src/neuralnav/orchestration/workflow.py:244:            conversation_history: Optional conversation context
+src/neuralnav/orchestration/workflow.py:256:        # Generate specification from conversation
+src/neuralnav/orchestration/workflow.py:258:            user_message, conversation_history
+src/neuralnav/orchestration/workflow.py:357:                "chatbot_conversational",
+src/neuralnav/orchestration/workflow.py:363:                intent_data["experience_class"] = "conversational"
+src/neuralnav/orchestration/workflow.py:371:                intent_data["experience_class"] = "conversational"
+src/neuralnav/recommendation/analyzer.py:52:    "chatbot_conversational": {
+src/neuralnav/recommendation/quality/usecase_scorer.py:29:    - chatbot_conversational: MMLU-Pro (30%), IFBench (30%), HLE (20%), etc.
+src/neuralnav/recommendation/quality/usecase_scorer.py:36:        "chatbot_conversational": "opensource_chatbot_conversational.csv",
+src/neuralnav/recommendation/quality/usecase_scorer.py:201:            logger.warning(f"Unknown use case: {use_case}, using chatbot_conversational")
+src/neuralnav/recommendation/quality/usecase_scorer.py:202:            use_case_normalized = "chatbot_conversational"
+src/neuralnav/shared/schemas/__init__.py:5:- intent: User intent and conversation schemas
+src/neuralnav/shared/schemas/__init__.py:12:from .intent import ConversationMessage, DeploymentIntent
+src/neuralnav/shared/schemas/intent.py:9:    """Extracted deployment requirements from user conversation."""
+src/neuralnav/shared/schemas/intent.py:12:        "chatbot_conversational",
+src/neuralnav/shared/schemas/intent.py:23:    experience_class: Literal["instant", "conversational", "interactive", "deferred", "batch"] = (
+src/neuralnav/shared/schemas/intent.py:56:        None, description="Any other relevant details from conversation"
+src/neuralnav/shared/schemas/intent.py:60:class ConversationMessage(BaseModel):
+src/neuralnav/shared/schemas/intent.py:61:    """Single message in the conversation history."""
+tests/test_postgresql_integration.py:182:        template = repo.get_template("chatbot_conversational")
+tests/test_postgresql_integration.py:192:        template = repo.get_template("chatbot_conversational")
+tests/test_postgresql_integration.py:197:        valid_classes = ["instant", "conversational", "interactive", "deferred", "batch"]
+tests/test_postgresql_integration.py:202:        template = repo.get_template("chatbot_conversational")
+tests/test_postgresql_integration.py:217:            "chatbot_conversational",
+tests/test_yaml_generation.py:33:        use_case="chatbot_conversational",
+tests/test_yaml_generation.py:34:        experience_class="conversational",
+ui/TESTING.md:51:- [ ] Two-column layout visible (Conversation | Recommendation)
+ui/TESTING.md:121:- [ ] "🔄 New Conversation" button clears state and reloads
+ui/TESTING.md:155:- [ ] Conversation history not persisted across sessions
+ui/api_client.py:165:        use_case: Use case identifier (e.g., "chatbot_conversational")
+ui/app.py:329:                    "use_case", "chatbot_conversational"
+ui/app.py:438:    use_case = final_extraction.get("use_case", "chatbot_conversational")
+ui/components/dialogs.py:190:        use_case = extraction.get("use_case", "chatbot_conversational")
+ui/components/dialogs.py:410:    use_case = st.session_state.get("detected_use_case", "chatbot_conversational")
+ui/components/extraction.py:101:        "chatbot_conversational",
+ui/components/extraction.py:112:        "chatbot_conversational": "Chatbot / Conversational AI",
+ui/components/extraction.py:123:    current_use_case = extraction.get("use_case", "chatbot_conversational")
+ui/components/recommendations.py:178:    use_case = st.session_state.get("detected_use_case", "chatbot_conversational")
+ui/components/slo.py:20:    "chatbot_conversational": [
+ui/components/slo.py:21:        ("τ²-Bench", 45, "Conversational AI agentic workflow (114 tasks)"),
+ui/components/slo.py:229:    datasets = TASK_DATASETS.get(use_case, TASK_DATASETS["chatbot_conversational"])
+ui/components/slo.py:412:    use_case = extraction.get("use_case", "chatbot_conversational")
+ui/state.py:39:    "detected_use_case": "chatbot_conversational",

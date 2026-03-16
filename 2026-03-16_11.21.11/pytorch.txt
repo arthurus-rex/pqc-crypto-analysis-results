@@ -1,0 +1,1173 @@
+.git/packed-refs:171:08ed338270102708832d4492ceccb23729ba2628 refs/remotes/origin/context_test
+.git/packed-refs:400:ce375ac53189aade6feecca763eb439dce4843e4 refs/remotes/origin/gh/IvanKobzarev/180/head
+.git/packed-refs:483:0d2281115d94c3845d3a3db771a4841d872becca refs/remotes/origin/gh/IvanKobzarev/227/head
+.git/packed-refs:511:97b5ad09726a40ecc3a12f2b9f9ef2a2c4baf04a refs/remotes/origin/gh/IvanKobzarev/236/orig
+.git/packed-refs:537:b56baa1b691582162409137cea3beb95a6e6ecc9 refs/remotes/origin/gh/NicolasHug/2/head
+.git/packed-refs:545:043638a1dbf969c606da7a1852c38ecca797a278 refs/remotes/origin/gh/NicolasHug/5/base
+.git/packed-refs:661:3becc0152a20d00c0ce86644cd0b1c65ef501ebd refs/remotes/origin/gh/NikhilAPatel/47/orig
+.git/packed-refs:714:bfbfcc275b5b8d49c2925cbbd74cd209f0816ecc refs/remotes/origin/gh/NikhilAPatel/72/head
+.git/packed-refs:716:bfbfcc275b5b8d49c2925cbbd74cd209f0816ecc refs/remotes/origin/gh/NikhilAPatel/73/base
+.git/packed-refs:930:599fc777ecc5365ef0e1840e1f7ae24b6555c765 refs/remotes/origin/gh/ZhiweiYan-96/39/orig
+.git/packed-refs:1112:073aaabdc655947fc7901fecce54acf4e14ad73d refs/remotes/origin/gh/anijain2305/1039/head
+.git/packed-refs:1180:bdbf4a12f3495d6caa74599e5b3d5eccd9769ada refs/remotes/origin/gh/anijain2305/1062/base
+.git/packed-refs:1344:4019a642e50200f45f0817e727a1cdaecc2e5d39 refs/remotes/origin/gh/anshul-si/87/base
+.git/packed-refs:1423:1dc861db13252418f39c7b13bfecccb75f899990 refs/remotes/origin/gh/aorenste/192/base
+.git/packed-refs:1428:5fa4d1a2fbaca56c59244cc68705e5641eccef5c refs/remotes/origin/gh/aorenste/193/orig
+.git/packed-refs:1580:7eaecc3b6dfa4a1346a70bdd31820aca29245dca refs/remotes/origin/gh/benjaminglass1/97/base
+.git/packed-refs:1672:b51c99d18c33bb17b70053db338d979828d52ecc refs/remotes/origin/gh/clee2000/1/base
+.git/packed-refs:1741:7eee3f79b9ff77ecc09f49510fa46b6d85751059 refs/remotes/origin/gh/daisyden/7/orig
+.git/packed-refs:1764:a13ecc9532b0eca6aef4916d4bba874bb6b8a363 refs/remotes/origin/gh/desertfire/649/head
+.git/packed-refs:1766:a13ecc9532b0eca6aef4916d4bba874bb6b8a363 refs/remotes/origin/gh/desertfire/650/base
+.git/packed-refs:1803:c0ecccb2de535a81692e45b668c613bc32bc53c9 refs/remotes/origin/gh/desertfire/662/head
+.git/packed-refs:1990:2217decc3b07ab924e3e56fb49fff428052715f3 refs/remotes/origin/gh/eellison/934/head
+.git/packed-refs:2028:0ecca00fa122932d6460d2f94a41480343a7d02c refs/remotes/origin/gh/eellison/951/base
+.git/packed-refs:2068:70026a6c9ff18648ca516d4fc49eccf234a1460c refs/remotes/origin/gh/eellison/964/head
+.git/packed-refs:2238:fa2cd1924a3705c8268a7aeccbd19a7827622b46 refs/remotes/origin/gh/ezyang/3279/orig
+.git/packed-refs:2295:36d1aecc66c27368575075357e7d74f55d736431 refs/remotes/origin/gh/frgossen/1/base
+.git/packed-refs:2452:08f685073af5ecc48f868991f2e1b406f0b04e93 refs/remotes/origin/gh/guangyey/268/head
+.git/packed-refs:2885:4668a4e383bb671f8fececc6360cba87a4557f95 refs/remotes/origin/gh/kwen2501/283/base
+.git/packed-refs:2914:ea14e33230c0976cecc8f710d77867febc52c793 refs/remotes/origin/gh/kwen2501/317/orig
+.git/packed-refs:3065:4e7e7b0e90f94b59e035c252051bf4b7ee7ecce1 refs/remotes/origin/gh/laithsakka/416/orig
+.git/packed-refs:3097:cf814d582daa136ed968c313ecc734e3cc20af27 refs/remotes/origin/gh/liangel-02/10/head
+.git/packed-refs:3220:233ecccbb61b55adcef37f81e84ae6beddba33a8 refs/remotes/origin/gh/malfet/716/head
+.git/packed-refs:3234:9710ce46684abecc4e3cb4fa41bb6d2dbfaa7b55 refs/remotes/origin/gh/malfet/721/base
+.git/packed-refs:3247:c3cf862e46eccf4a36dda545682a3b0d8afc18a8 refs/remotes/origin/gh/malfet/725/head
+.git/packed-refs:3261:54d17808dc99ecc7245e4d9e7500383c10441a08 refs/remotes/origin/gh/malfet/730/orig
+.git/packed-refs:3590:9374f0ecc2512eaa03002d9e82ebcf79a9cf24f5 refs/remotes/origin/gh/mlazos/150/head
+.git/packed-refs:3742:c595dfe6a9f645572d40017ecc261f5550afd509 refs/remotes/origin/gh/nikitaved/8/head
+.git/packed-refs:3788:1733897861c92ac90ecce4b0fda19eacb13ca540 refs/remotes/origin/gh/pianpwk/100/head
+.git/packed-refs:4026:21134c0fc142bd58d3f60a05970a2c78e03ecc5b refs/remotes/origin/gh/rtimpe/45/orig
+.git/packed-refs:4872:038ecc90653d0f65f311f49ad2741f1acd737918 refs/remotes/origin/gh/williamwen42/310/base
+.git/packed-refs:4919:ef2b0ecce8da908f636d5b96eda69f9c7764d079 refs/remotes/origin/gh/williamwen42/399/orig
+.git/packed-refs:4993:10317a24191bd46616d1a1ecc85849da814ee555 refs/remotes/origin/gh/xmfan/327/base
+.git/packed-refs:5167:48a3416df1f3754a2edb086ecc057a38b74fda8e refs/remotes/origin/gh/yf225/140/orig
+.git/packed-refs:5493:21aa086ecceb006f8a070935af115ce59e68d1ac refs/remotes/origin/mlazos/tuple-fixes2
+.git/packed-refs:5504:39733b38d1217a953738ec899ecc67046408e261 refs/remotes/origin/nativert_num_outputs
+.git/packed-refs:5809:aeca99aecc44c9fcb1f710b5a4af7851167b9891 refs/remotes/origin/whc/pp_fix
+.git/packed-refs:6091:70026a6c9ff18648ca516d4fc49eccf234a1460c refs/tags/ciflow/inductor/176928
+.git/packed-refs:6526:08f685073af5ecc48f868991f2e1b406f0b04e93 refs/tags/ciflow/trunk/171313
+.git/packed-refs:6570:1f02beccbb651458c73dd288b77e4f80e589e94d refs/tags/ciflow/trunk/176857
+.git/packed-refs:6631:1f02beccbb651458c73dd288b77e4f80e589e94d refs/tags/ciflow/xpu/176857
+.git/packed-refs:6651:86631eccdaf27f7f018007649f85f16c7f062007 refs/tags/cslpull91
+.git/packed-refs:6688:144d14945e2d76f96d5c944a87484d38c11d4ecc refs/tags/trunk/144d14945e2d76f96d5c944a87484d38c11d4ecc
+.git/packed-refs:6712:220ecc24733874a0c7de2b717a93d36bb06923c2 refs/tags/trunk/220ecc24733874a0c7de2b717a93d36bb06923c2
+.git/packed-refs:6837:78eae0472f45575d2d45b7d45d5fe5eccc4a8dcd refs/tags/trunk/78eae0472f45575d2d45b7d45d5fe5eccc4a8dcd
+.git/packed-refs:6884:966b96f16c36ecc346ae84102b13071471b41a39 refs/tags/trunk/966b96f16c36ecc346ae84102b13071471b41a39
+.git/packed-refs:6955:c4fd6ef5d938cf39a0cb09407ccd1888be455ecc refs/tags/trunk/c4fd6ef5d938cf39a0cb09407ccd1888be455ecc
+.git/packed-refs:7001:e552584375eaaec5c412842a21fa1b00ffceccb8 refs/tags/trunk/e552584375eaaec5c412842a21fa1b00ffceccb8
+.git/packed-refs:7009:eccc7be10726ebabb8f064e8e9990984a83226ec refs/tags/trunk/eccc7be10726ebabb8f064e8e9990984a83226ec
+.git/packed-refs:7466:f06e669f6c5a0b1840dc57224fecc1a27d46b049 refs/tags/viable/strict/1760628335
+.git/packed-refs:7728:73078f305fb91d8f3e0101aac1c8eccfc98be839 refs/tags/viable/strict/1762467909
+.git/packed-refs:7925:31451777c195be25e1e127ca1c6eccd9ae0e45d2 refs/tags/viable/strict/1763696088
+.git/packed-refs:8026:e1f51479c89dc67dd0aecc1adac8cd9400beedab refs/tags/viable/strict/1765173081
+.git/packed-refs:8106:a205f8aab426171435ecca0d727912b3ad21b8a8 refs/tags/viable/strict/1765736789
+.git/packed-refs:8177:d74f9ecce649b52c52bea857c1c7d1e859ff6826 refs/tags/viable/strict/1766184636
+.git/packed-refs:8237:3cd6766108c76fac50de3deca135122ecc6837e1 refs/tags/viable/strict/1766569861
+.git/packed-refs:8444:75fd1a27b67676af464eccf43d3f59e9a675a95a refs/tags/viable/strict/1768431156
+.git/packed-refs:8517:ecc07d082ab3c9837e3b87102d968db36038ca89 refs/tags/viable/strict/1768951552
+.git/packed-refs:8521:eccdfecddc887e1c48a73f6cd2e2bf837e2fcb04 refs/tags/viable/strict/1768976844
+.git/packed-refs:8556:499d02a39c7b87b9c3ecc406b4366f86d154ea8b refs/tags/viable/strict/1769154702
+.git/packed-refs:8674:d232676bfd7f7bd6436fddfeccf6aa4fc5a70259 refs/tags/viable/strict/1770350524
+.git/packed-refs:8838:144d14945e2d76f96d5c944a87484d38c11d4ecc refs/tags/viable/strict/1773138509
+.git/packed-refs:8871:e552584375eaaec5c412842a21fa1b00ffceccb8 refs/tags/viable/strict/1773478698
+.ci/docker/common/install_torch_tpu.sh:131:    echo "e1508323f347ad1465a887bc5d2bfb91cffc232d11e8e997b623227c6b32fb76  ${temp_dir}/bazel" | sha256sum --check
+.ci/docker/manywheel/build_scripts/build.sh:8:# openssl version to build, with expected sha256 hash of .tar.gz
+.ci/docker/manywheel/build_scripts/build.sh:74:# check_sha256sum patchelf-0.9njs2.tar.gz $PATCHELF_HASH
+.ci/docker/manywheel/build_scripts/build_utils.sh:26:function check_sha256sum {
+.ci/docker/manywheel/build_scripts/build_utils.sh:29:    local sha256=$2
+.ci/docker/manywheel/build_scripts/build_utils.sh:30:    check_var ${sha256}
+.ci/docker/manywheel/build_scripts/build_utils.sh:32:    echo "${sha256}  ${fname}" > ${fname}.sha256
+.ci/docker/manywheel/build_scripts/build_utils.sh:33:    sha256sum -c ${fname}.sha256
+.ci/docker/manywheel/build_scripts/build_utils.sh:34:    rm -f ${fname}.sha256
+.ci/docker/manywheel/build_scripts/build_utils.sh:41:    local openssl_sha256=$2
+.ci/docker/manywheel/build_scripts/build_utils.sh:42:    check_var ${openssl_sha256}
+.ci/docker/manywheel/build_scripts/build_utils.sh:45:    check_sha256sum ${openssl_fname}.tar.gz ${openssl_sha256}
+.ci/docker/manywheel/build_scripts/build_utils.sh:62:    local curl_sha256=$2
+.ci/docker/manywheel/build_scripts/build_utils.sh:63:    check_var ${curl_sha256}
+.ci/docker/manywheel/build_scripts/build_utils.sh:66:    check_sha256sum ${curl_fname}.tar.bz2 ${curl_sha256}
+.ci/docker/manywheel/build_scripts/build_utils.sh:83:    local autoconf_sha256=$2
+.ci/docker/manywheel/build_scripts/build_utils.sh:84:    check_var ${autoconf_sha256}
+.ci/docker/manywheel/build_scripts/build_utils.sh:87:    check_sha256sum ${autoconf_fname}.tar.gz ${autoconf_sha256}
+.ci/magma/build_magma.sh:23:sha256sum --check < ${PACKAGE_FILES}/magma-${MAGMA_VERSION}.sha256
+.ci/magma/build_magma.sh:47:cp ${PACKAGE_FILES}/magma-${MAGMA_VERSION}.sha256 ${PACKAGE_RECIPE}/magma-${MAGMA_VERSION}.sha256
+.ci/manywheel/build_common.sh:220:fname_with_sha256() {
+.ci/manywheel/build_common.sh:221:    HASH=$(sha256sum $1 | cut -c1-8)
+.ci/manywheel/build_common.sh:247:        HASH=$(openssl dgst -sha256 -binary $FPATH | openssl base64 | sed -e 's/+/-/g' | sed -e 's/\//_/g' | sed -e 's/=//g')
+.ci/manywheel/build_common.sh:249:        echo "\"$FPATH\",sha256=$HASH,$FSIZE"
+.ci/manywheel/build_common.sh:323:                patchedpath=$(fname_with_sha256 $destpath)
+.ci/manywheel/build_libtorch.sh:196:fname_with_sha256() {
+.ci/manywheel/build_libtorch.sh:197:    HASH=$(sha256sum $1 | cut -c1-8)
+.ci/manywheel/build_libtorch.sh:220:        HASH=$(openssl dgst -sha256 -binary $FPATH | openssl base64 | sed -e 's/+/-/g' | sed -e 's/\//_/g' | sed -e 's/=//g')
+.ci/manywheel/build_libtorch.sh:222:        echo "\"$FPATH\",sha256=$HASH,$FSIZE"
+.ci/manywheel/build_libtorch.sh:267:                patchedpath=$(fname_with_sha256 $destpath)
+.ci/pytorch/binary_upload.sh:57:        shm_id=$(sha256sum "${pkg}" | awk '{print $1}')
+.ci/pytorch/binary_upload.sh:59:          --metadata "checksum-sha256=${shm_id}"
+.ci/pytorch/binary_upload.sh:90:        shm_id=$(sha256sum "${pkg}" | awk '{print $1}')
+.ci/pytorch/binary_upload.sh:96:          --metadata "checksum-sha256=${shm_id}" \
+.ci/pytorch/run_tests.sh:219:# Universal flaky tests
+.ci/pytorch/smoke_test/smoke_test.py:480:                    universal_newlines=True,
+.ci/pytorch/test.sh:361:      inductor/test_nv_universal_gemm \
+.ci/pytorch/win-test-helpers/build_pytorch.bat:54:    call "C:\Program Files (x86)\Microsoft Visual Studio\%VC_YEAR%\%VC_PRODUCT%\VC\Auxiliary\Build\vcvarsall.bat" x64
+.ci/pytorch/win-test-helpers/build_pytorch.bat:56:    call "C:\Program Files (x86)\Microsoft Visual Studio\%VC_YEAR%\%VC_PRODUCT%\VC\Auxiliary\Build\vcvarsall.bat" x64 -vcvars_ver=%VC_VERSION%
+.ci/pytorch/win-test-helpers/setup_pytorch_env.bat:21:    call "C:\Program Files (x86)\Microsoft Visual Studio\%VC_YEAR%\%VC_PRODUCT%\VC\Auxiliary\Build\vcvarsall.bat" x64
+.ci/pytorch/win-test-helpers/setup_pytorch_env.bat:23:    call "C:\Program Files (x86)\Microsoft Visual Studio\%VC_YEAR%\%VC_PRODUCT%\VC\Auxiliary\Build\vcvarsall.bat" x64 -vcvars_ver=%VC_VERSION%
+.ci/pytorch/windows/arm64/bootstrap_libuv.bat:10:call "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Auxiliary\Build\vcvarsall.bat" arm64
+.ci/pytorch/windows/arm64/bootstrap_openblas.bat:10:call "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Auxiliary\Build\vcvarsall.bat" arm64
+.ci/pytorch/windows/arm64/bootstrap_tests.bat:5:call "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Auxiliary\Build\vcvarsall.bat" arm64
+.ci/pytorch/windows/arm64/build_libtorch.bat:24:call "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Auxiliary\Build\vcvarsall.bat" arm64
+.ci/pytorch/windows/arm64/build_pytorch.bat:24:call "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Auxiliary\Build\vcvarsall.bat" arm64
+.ci/pytorch/windows/arm64/smoke_test.bat:36:call "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Auxiliary\Build\vcvarsall.bat" arm64
+.ci/pytorch/windows/internal/check_deps.bat:32:if NOT "%VS15INSTALLDIR%" == "" if exist "%VS15INSTALLDIR%\VC\Auxiliary\Build\vcvarsall.bat" (
+.ci/pytorch/windows/internal/check_deps.bat:33:    set "VS15VCVARSALL=%VS15INSTALLDIR%\VC\Auxiliary\Build\vcvarsall.bat"
+.ci/pytorch/windows/internal/check_deps.bat:38:    if exist "%%i" if exist "%%i\VC\Auxiliary\Build\vcvarsall.bat" (
+.ci/pytorch/windows/internal/check_deps.bat:40:        set "VS15VCVARSALL=%%i\VC\Auxiliary\Build\vcvarsall.bat"
+.ci/pytorch/windows/internal/clone.bat:25:set "DATE_CMD=Get-Date ([System.TimeZoneInfo]::ConvertTimeFromUtc((Get-Date).ToUniversalTime(), [System.TimeZoneInfo]::FindSystemTimeZoneById('Pacific Standard Time'))) -f 'yyyy_MM_dd'"
+.ci/pytorch/windows/internal/clone.bat:26:set "DATE_COMPACT_CMD=Get-Date ([System.TimeZoneInfo]::ConvertTimeFromUtc((Get-Date).ToUniversalTime(), [System.TimeZoneInfo]::FindSystemTimeZoneById('Pacific Standard Time'))) -f 'yyyyMMdd'"
+.ci/pytorch/windows/internal/smoke_test.bat:119:    if exist "%%i" if exist "%%i\VC\Auxiliary\Build\vcvarsall.bat" (
+.ci/pytorch/windows/internal/smoke_test.bat:121:        set "VS15VCVARSALL=%%i\VC\Auxiliary\Build\vcvarsall.bat"
+.ci/pytorch/windows/internal/static_lib_test.bat:92:    if exist "%%i" if exist "%%i\VC\Auxiliary\Build\vcvarsall.bat" (
+.ci/pytorch/windows/internal/static_lib_test.bat:94:        set "VS15VCVARSALL=%%i\VC\Auxiliary\Build\vcvarsall.bat"
+.ci/pytorch/windows/internal/vc_install_helper.bat:7:    if exist "%%i" if exist "%%i\VC\Auxiliary\Build\vcvarsall.bat" (
+.claude/skills/document-public-apis/SKILL.md:323:- Always match the existing style of the target doc file — don't mix `.md` style directives into `.rst` files or vice versa.
+.claude/skills/triaging-issues/labels.json:352:      "description": "Adversarial inputs unlikely to occur in practice. Add when inputs are at dtype limits (torch.finfo.max/min), extreme tensor shapes, or unusual values that stress numerical limits."
+.git-blame-ignore-revs:70:aecc746fccc4495313167e3a7f94210daf457e1d
+.github/actions/linux-test/action.yml:262:          --security-opt seccomp=unconfined \
+.github/actions/setup-rocm/action.yml:113:        echo "GPU_FLAG=--device=/dev/mem --device=/dev/kfd $DEVICE_FLAG --group-add video --group-add $render_gid --group-add daemon --group-add bin --cap-add=SYS_PTRACE --security-opt seccomp=unconfined --network=host" >> "${GITHUB_ENV}"
+.github/scripts/generate_binary_build_matrix.py:90:        "oneccl-devel==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | "
+.github/scripts/generate_binary_build_matrix.py:91:        "oneccl==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | "
+.github/scripts/gitutils.py:417:    m = hashlib.sha256()
+.github/scripts/prepare_vllm_wheels.sh:14:    fhash=$(openssl dgst -sha256 -binary $fpath | openssl base64 | sed -e 's/+/-/g' | sed -e 's/\//_/g' | sed -e 's/=//g')
+.github/scripts/prepare_vllm_wheels.sh:16:    echo "$fpath,sha256=$fhash,$fsize"
+.github/scripts/prepare_vllm_wheels.sh:43:  sed -i '/METADATA,sha256/d' RECORD
+.github/scripts/s390x-ci/self-hosted-builder/helpers/app_token.sh:64:    openssl dgst -binary -sha256 -sign <(echo "$1")
+.github/scripts/test_trymerge.py:17:from hashlib import sha256
+.github/scripts/test_trymerge.py:107:        return f"query_sha={sha256(query.encode('utf-8')).hexdigest()} " + " ".join(
+.github/scripts/windows/build_triton.bat:11:call "%VC_INSTALL_PATH%\VC\Auxiliary\Build\vcvarsall.bat" x64
+.github/workflows/_bazel-build-test.yml:177:            --security-opt seccomp=unconfined \
+.github/workflows/_docs.yml:163:            --security-opt seccomp=unconfined \
+.github/workflows/_linux-build.yml:351:            --security-opt seccomp=unconfined \
+.github/workflows/_linux-test-stable-fa3.yml:212:            --security-opt seccomp=unconfined \
+.github/workflows/_linux-test.yml:467:            --security-opt seccomp=unconfined \
+.github/workflows/_rocm-test.yml:262:            --security-opt seccomp=unconfined \
+.github/workflows/_win-build.yml:103:              call "C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Auxiliary\Build\vcvarsall.bat" x64
+.github/workflows/_win-test.yml:92:              call "C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Auxiliary\Build\vcvarsall.bat" x64
+.github/workflows/_xpu-test.yml:257:            --security-opt seccomp=unconfined \
+.github/workflows/build-magma-windows.yml:35:        uses: ilammy/msvc-dev-cmd@dd5e2fa0a7de1e7929605d9ecc020e749d9856a3
+.github/workflows/generated-linux-binary-manywheel-nightly.yml:646:      PYTORCH_EXTRA_INSTALL_REQUIREMENTS: intel-cmplr-lib-rt==2025.3.2 | intel-cmplr-lib-ur==2025.3.2 | intel-cmplr-lic-rt==2025.3.2 | intel-sycl-rt==2025.3.2 | oneccl-devel==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | oneccl==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | impi-rt==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | onemkl-license==2025.3.1 | onemkl-sycl-blas==2025.3.1 | onemkl-sycl-dft==2025.3.1 | onemkl-sycl-lapack==2025.3.1 | onemkl-sycl-rng==2025.3.1 | onemkl-sycl-sparse==2025.3.1 | dpcpp-cpp-rt==2025.3.2 | intel-opencl-rt==2025.3.2 | mkl==2025.3.1 | intel-openmp==2025.3.2 | tbb==2022.3.1 | tcmlib==1.4.1 | umf==1.0.3 | intel-pti==0.16.0
+.github/workflows/generated-linux-binary-manywheel-nightly.yml:1328:      PYTORCH_EXTRA_INSTALL_REQUIREMENTS: intel-cmplr-lib-rt==2025.3.2 | intel-cmplr-lib-ur==2025.3.2 | intel-cmplr-lic-rt==2025.3.2 | intel-sycl-rt==2025.3.2 | oneccl-devel==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | oneccl==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | impi-rt==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | onemkl-license==2025.3.1 | onemkl-sycl-blas==2025.3.1 | onemkl-sycl-dft==2025.3.1 | onemkl-sycl-lapack==2025.3.1 | onemkl-sycl-rng==2025.3.1 | onemkl-sycl-sparse==2025.3.1 | dpcpp-cpp-rt==2025.3.2 | intel-opencl-rt==2025.3.2 | mkl==2025.3.1 | intel-openmp==2025.3.2 | tbb==2022.3.1 | tcmlib==1.4.1 | umf==1.0.3 | intel-pti==0.16.0
+.github/workflows/generated-linux-binary-manywheel-nightly.yml:2010:      PYTORCH_EXTRA_INSTALL_REQUIREMENTS: intel-cmplr-lib-rt==2025.3.2 | intel-cmplr-lib-ur==2025.3.2 | intel-cmplr-lic-rt==2025.3.2 | intel-sycl-rt==2025.3.2 | oneccl-devel==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | oneccl==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | impi-rt==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | onemkl-license==2025.3.1 | onemkl-sycl-blas==2025.3.1 | onemkl-sycl-dft==2025.3.1 | onemkl-sycl-lapack==2025.3.1 | onemkl-sycl-rng==2025.3.1 | onemkl-sycl-sparse==2025.3.1 | dpcpp-cpp-rt==2025.3.2 | intel-opencl-rt==2025.3.2 | mkl==2025.3.1 | intel-openmp==2025.3.2 | tbb==2022.3.1 | tcmlib==1.4.1 | umf==1.0.3 | intel-pti==0.16.0
+.github/workflows/generated-linux-binary-manywheel-nightly.yml:2692:      PYTORCH_EXTRA_INSTALL_REQUIREMENTS: intel-cmplr-lib-rt==2025.3.2 | intel-cmplr-lib-ur==2025.3.2 | intel-cmplr-lic-rt==2025.3.2 | intel-sycl-rt==2025.3.2 | oneccl-devel==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | oneccl==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | impi-rt==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | onemkl-license==2025.3.1 | onemkl-sycl-blas==2025.3.1 | onemkl-sycl-dft==2025.3.1 | onemkl-sycl-lapack==2025.3.1 | onemkl-sycl-rng==2025.3.1 | onemkl-sycl-sparse==2025.3.1 | dpcpp-cpp-rt==2025.3.2 | intel-opencl-rt==2025.3.2 | mkl==2025.3.1 | intel-openmp==2025.3.2 | tbb==2022.3.1 | tcmlib==1.4.1 | umf==1.0.3 | intel-pti==0.16.0
+.github/workflows/generated-linux-binary-manywheel-nightly.yml:3374:      PYTORCH_EXTRA_INSTALL_REQUIREMENTS: intel-cmplr-lib-rt==2025.3.2 | intel-cmplr-lib-ur==2025.3.2 | intel-cmplr-lic-rt==2025.3.2 | intel-sycl-rt==2025.3.2 | oneccl-devel==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | oneccl==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | impi-rt==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | onemkl-license==2025.3.1 | onemkl-sycl-blas==2025.3.1 | onemkl-sycl-dft==2025.3.1 | onemkl-sycl-lapack==2025.3.1 | onemkl-sycl-rng==2025.3.1 | onemkl-sycl-sparse==2025.3.1 | dpcpp-cpp-rt==2025.3.2 | intel-opencl-rt==2025.3.2 | mkl==2025.3.1 | intel-openmp==2025.3.2 | tbb==2022.3.1 | tcmlib==1.4.1 | umf==1.0.3 | intel-pti==0.16.0
+.github/workflows/generated-linux-binary-manywheel-nightly.yml:4056:      PYTORCH_EXTRA_INSTALL_REQUIREMENTS: intel-cmplr-lib-rt==2025.3.2 | intel-cmplr-lib-ur==2025.3.2 | intel-cmplr-lic-rt==2025.3.2 | intel-sycl-rt==2025.3.2 | oneccl-devel==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | oneccl==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | impi-rt==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | onemkl-license==2025.3.1 | onemkl-sycl-blas==2025.3.1 | onemkl-sycl-dft==2025.3.1 | onemkl-sycl-lapack==2025.3.1 | onemkl-sycl-rng==2025.3.1 | onemkl-sycl-sparse==2025.3.1 | dpcpp-cpp-rt==2025.3.2 | intel-opencl-rt==2025.3.2 | mkl==2025.3.1 | intel-openmp==2025.3.2 | tbb==2022.3.1 | tcmlib==1.4.1 | umf==1.0.3 | intel-pti==0.16.0
+.github/workflows/generated-linux-binary-manywheel-nightly.yml:4738:      PYTORCH_EXTRA_INSTALL_REQUIREMENTS: intel-cmplr-lib-rt==2025.3.2 | intel-cmplr-lib-ur==2025.3.2 | intel-cmplr-lic-rt==2025.3.2 | intel-sycl-rt==2025.3.2 | oneccl-devel==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | oneccl==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | impi-rt==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | onemkl-license==2025.3.1 | onemkl-sycl-blas==2025.3.1 | onemkl-sycl-dft==2025.3.1 | onemkl-sycl-lapack==2025.3.1 | onemkl-sycl-rng==2025.3.1 | onemkl-sycl-sparse==2025.3.1 | dpcpp-cpp-rt==2025.3.2 | intel-opencl-rt==2025.3.2 | mkl==2025.3.1 | intel-openmp==2025.3.2 | tbb==2022.3.1 | tcmlib==1.4.1 | umf==1.0.3 | intel-pti==0.16.0
+.github/workflows/generated-windows-binary-wheel-nightly.yml:988:      PYTORCH_EXTRA_INSTALL_REQUIREMENTS: intel-cmplr-lib-rt==2025.3.2 | intel-cmplr-lib-ur==2025.3.2 | intel-cmplr-lic-rt==2025.3.2 | intel-sycl-rt==2025.3.2 | oneccl-devel==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | oneccl==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | impi-rt==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | onemkl-license==2025.3.1 | onemkl-sycl-blas==2025.3.1 | onemkl-sycl-dft==2025.3.1 | onemkl-sycl-lapack==2025.3.1 | onemkl-sycl-rng==2025.3.1 | onemkl-sycl-sparse==2025.3.1 | dpcpp-cpp-rt==2025.3.2 | intel-opencl-rt==2025.3.2 | mkl==2025.3.1 | intel-openmp==2025.3.2 | tbb==2022.3.1 | tcmlib==1.4.1 | umf==1.0.3 | intel-pti==0.16.0
+.github/workflows/generated-windows-binary-wheel-nightly.yml:2148:      PYTORCH_EXTRA_INSTALL_REQUIREMENTS: intel-cmplr-lib-rt==2025.3.2 | intel-cmplr-lib-ur==2025.3.2 | intel-cmplr-lic-rt==2025.3.2 | intel-sycl-rt==2025.3.2 | oneccl-devel==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | oneccl==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | impi-rt==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | onemkl-license==2025.3.1 | onemkl-sycl-blas==2025.3.1 | onemkl-sycl-dft==2025.3.1 | onemkl-sycl-lapack==2025.3.1 | onemkl-sycl-rng==2025.3.1 | onemkl-sycl-sparse==2025.3.1 | dpcpp-cpp-rt==2025.3.2 | intel-opencl-rt==2025.3.2 | mkl==2025.3.1 | intel-openmp==2025.3.2 | tbb==2022.3.1 | tcmlib==1.4.1 | umf==1.0.3 | intel-pti==0.16.0
+.github/workflows/generated-windows-binary-wheel-nightly.yml:3308:      PYTORCH_EXTRA_INSTALL_REQUIREMENTS: intel-cmplr-lib-rt==2025.3.2 | intel-cmplr-lib-ur==2025.3.2 | intel-cmplr-lic-rt==2025.3.2 | intel-sycl-rt==2025.3.2 | oneccl-devel==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | oneccl==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | impi-rt==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | onemkl-license==2025.3.1 | onemkl-sycl-blas==2025.3.1 | onemkl-sycl-dft==2025.3.1 | onemkl-sycl-lapack==2025.3.1 | onemkl-sycl-rng==2025.3.1 | onemkl-sycl-sparse==2025.3.1 | dpcpp-cpp-rt==2025.3.2 | intel-opencl-rt==2025.3.2 | mkl==2025.3.1 | intel-openmp==2025.3.2 | tbb==2022.3.1 | tcmlib==1.4.1 | umf==1.0.3 | intel-pti==0.16.0
+.github/workflows/generated-windows-binary-wheel-nightly.yml:4468:      PYTORCH_EXTRA_INSTALL_REQUIREMENTS: intel-cmplr-lib-rt==2025.3.2 | intel-cmplr-lib-ur==2025.3.2 | intel-cmplr-lic-rt==2025.3.2 | intel-sycl-rt==2025.3.2 | oneccl-devel==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | oneccl==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | impi-rt==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | onemkl-license==2025.3.1 | onemkl-sycl-blas==2025.3.1 | onemkl-sycl-dft==2025.3.1 | onemkl-sycl-lapack==2025.3.1 | onemkl-sycl-rng==2025.3.1 | onemkl-sycl-sparse==2025.3.1 | dpcpp-cpp-rt==2025.3.2 | intel-opencl-rt==2025.3.2 | mkl==2025.3.1 | intel-openmp==2025.3.2 | tbb==2022.3.1 | tcmlib==1.4.1 | umf==1.0.3 | intel-pti==0.16.0
+.github/workflows/generated-windows-binary-wheel-nightly.yml:5628:      PYTORCH_EXTRA_INSTALL_REQUIREMENTS: intel-cmplr-lib-rt==2025.3.2 | intel-cmplr-lib-ur==2025.3.2 | intel-cmplr-lic-rt==2025.3.2 | intel-sycl-rt==2025.3.2 | oneccl-devel==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | oneccl==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | impi-rt==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | onemkl-license==2025.3.1 | onemkl-sycl-blas==2025.3.1 | onemkl-sycl-dft==2025.3.1 | onemkl-sycl-lapack==2025.3.1 | onemkl-sycl-rng==2025.3.1 | onemkl-sycl-sparse==2025.3.1 | dpcpp-cpp-rt==2025.3.2 | intel-opencl-rt==2025.3.2 | mkl==2025.3.1 | intel-openmp==2025.3.2 | tbb==2022.3.1 | tcmlib==1.4.1 | umf==1.0.3 | intel-pti==0.16.0
+.github/workflows/generated-windows-binary-wheel-nightly.yml:6788:      PYTORCH_EXTRA_INSTALL_REQUIREMENTS: intel-cmplr-lib-rt==2025.3.2 | intel-cmplr-lib-ur==2025.3.2 | intel-cmplr-lic-rt==2025.3.2 | intel-sycl-rt==2025.3.2 | oneccl-devel==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | oneccl==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | impi-rt==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | onemkl-license==2025.3.1 | onemkl-sycl-blas==2025.3.1 | onemkl-sycl-dft==2025.3.1 | onemkl-sycl-lapack==2025.3.1 | onemkl-sycl-rng==2025.3.1 | onemkl-sycl-sparse==2025.3.1 | dpcpp-cpp-rt==2025.3.2 | intel-opencl-rt==2025.3.2 | mkl==2025.3.1 | intel-openmp==2025.3.2 | tbb==2022.3.1 | tcmlib==1.4.1 | umf==1.0.3 | intel-pti==0.16.0
+.github/workflows/generated-windows-binary-wheel-nightly.yml:7948:      PYTORCH_EXTRA_INSTALL_REQUIREMENTS: intel-cmplr-lib-rt==2025.3.2 | intel-cmplr-lib-ur==2025.3.2 | intel-cmplr-lic-rt==2025.3.2 | intel-sycl-rt==2025.3.2 | oneccl-devel==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | oneccl==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | impi-rt==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | onemkl-license==2025.3.1 | onemkl-sycl-blas==2025.3.1 | onemkl-sycl-dft==2025.3.1 | onemkl-sycl-lapack==2025.3.1 | onemkl-sycl-rng==2025.3.1 | onemkl-sycl-sparse==2025.3.1 | dpcpp-cpp-rt==2025.3.2 | intel-opencl-rt==2025.3.2 | mkl==2025.3.1 | intel-openmp==2025.3.2 | tbb==2022.3.1 | tcmlib==1.4.1 | umf==1.0.3 | intel-pti==0.16.0
+.github/workflows/target-determination-indexer.yml:113:            --security-opt seccomp=unconfined \
+.github/workflows/win-arm64-build-test.yml:112:          call "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Auxiliary\Build\vcvarsall.bat" arm64
+.spin/cmds.py:24:        hash = file_digest(f, "sha256")
+.spin/cmds.py:69:        Path(".lintbin/.pytorch-type-stubs.sha256"),
+.spin/cmds.py:208:    Path(".lintbin/.lintrunner.sha256"),
+CMakeLists.txt:869:  # We need to compile a universal protoc to not fail protobuf build We set
+CMakeLists.txt:890:    message(FATAL_ERROR "Could not compile universal protoc.")
+Makefile:49:setup-lint .lintbin/.lintrunner.sha256: requirements.txt pyproject.toml .lintrunner.toml
+Makefile:53:	@echo "Generating .lintrunner.sha256..."
+Makefile:55:	@sha256sum requirements.txt pyproject.toml .lintrunner.toml > .lintbin/.lintrunner.sha256
+Makefile:58:lazy-setup-lint: .lintbin/.lintrunner.sha256
+README.md:191:$ call "C:\Program Files\Microsoft Visual Studio\<VERSION>\Community\VC\Auxiliary\Build\vcvarsall.bat" x64
+README.md:347:for /f "usebackq tokens=*" %i in (`"%ProgramFiles(x86)%\Microsoft Visual Studio\Installer\vswhere.exe" -version [15^,17^) -products * -latest -property installationPath`) do call "%i\VC\Auxiliary\Build\vcvarsall.bat" x64 -vcvars_ver=%CMAKE_GENERATOR_TOOLSET_VERSION%
+SECURITY.md:35:- **Internal or "unsafe" functions**: Some PyTorch functions are intentionally low-level or unchecked (e.g., functions prefixed with `_`, internal C++ APIs, or APIs documented as unsafe). These exist for performance or flexibility and are not intended to be hardened against adversarial callers. If an attacker can invoke such functions with arbitrary arguments, they likely have local execution access already.
+WORKSPACE:31:    # sha256 = "218efe8ee736d26a3572663b374a253c012b716d8af0c07e842e82f238a0a7ee",
+WORKSPACE:195:    sha256 = "59154b30dd74561e90d547f9a3af26c75b6f4546210888f09c9d4db8f4bf9d4c",
+WORKSPACE:205:    sha256 = "2af3494a4bebe5ddccfdc43bacc80fcd78d14c1954b81d2c8e3d73b55527af90",
+WORKSPACE:215:    # sha256 = "94750828b18044533e98a129003b6a68001204038dc4749f40b195b24c38f49f",
+aten/src/ATen/TensorIterator.cpp:212:// improve traversal order of the second tensor. We chose the former option to better propagate channels last layout
+aten/src/ATen/TensorIterator.cpp:216:// As a bonus, it also result in reasonably well-behaved traversal order of the inputs and outputs - in the kernels
+aten/src/ATen/core/Dict.h:252:   * Changes in it are not reflected in the original dict or vice versa.
+aten/src/ATen/core/IListRef.h:34: * Calling unboxed kernels from the boxed "world" and vice-versa may
+aten/src/ATen/core/List.h:283:   * Changes in it are not reflected in the original list or vice versa.
+aten/src/ATen/core/boxing/BoxedKernel.h:76:// boxing is universally supported this can be removed.
+aten/src/ATen/core/boxing/impl/make_boxed_from_unboxed_functor.h:25: * to be forwarding a universal reference but the && is missing. This is a
+aten/src/ATen/core/boxing/impl/make_boxed_from_unboxed_functor.h:27: * universal references:
+aten/src/ATen/core/boxing/impl/make_boxed_from_unboxed_functor.h:51: * For universal references, that means that in the following function
+aten/src/ATen/core/boxing/impl/make_boxed_from_unboxed_functor.h:64: * But std::forward can also be used outside of the common "universal
+aten/src/ATen/core/boxing/impl/make_boxed_from_unboxed_functor.h:680:  // case. This is still not a universal reference though because OutputType is
+aten/src/ATen/core/dispatch/DispatchKeyExtractor.h:104:// NB: take by const reference (Don't do universal forwarding here! You
+aten/src/ATen/core/dispatch/OperatorEntry.h:105:  // versa that is an error.  (Refcounting for the registrations is
+aten/src/ATen/core/ivalue.cpp:430:  // 1. Undefined_tensor is None and vice versa.
+aten/src/ATen/core/ivalue_inl.h:2452:  // 3. Undefined_tensor is None and vice versa should be true
+aten/src/ATen/core/jit_type.h:1776:// then `t2` will be returned (and vice versa).
+aten/src/ATen/core/stack.h:183:  // NB: *Not* a universal reference.
+aten/src/ATen/cpu/Utils.cpp:130:  capabilities["aes"] = cpuinfo_has_x86_aes();
+aten/src/ATen/cpu/Utils.cpp:153:  capabilities["aes"] = cpuinfo_has_arm_aes();
+aten/src/ATen/cuda/CUDAApplyUtils.cuh:430:  // (or vice versa), the contiguous tensor can be collapsed to one
+aten/src/ATen/native/Distance.cpp:89:  // TODO: This is bad; this test should apply universally
+aten/src/ATen/native/Distributions.h:94:  // This implements the acceptance-rejection method of Marsaglia and Tsang (2000)
+aten/src/ATen/native/README.md:146:only simple, universal types, as well as a handful of fundamental Tensor structures
+aten/src/ATen/native/cpu/int4mm_kernel.cpp:1324:    // Extract weights, sclaes and biases form from packed tensor
+aten/src/ATen/native/cuda/GroupMM.cu:38:#include <cutlass/gemm/device/gemm_universal.h>
+aten/src/ATen/native/cuda/GroupMM.cu:39:#include <cutlass/gemm/device/gemm_universal_adapter.h>
+aten/src/ATen/native/cuda/GroupMM.cu:40:#include <cutlass/gemm/kernel/default_gemm_universal_with_visitor.h>
+aten/src/ATen/native/cuda/GroupMM.cu:44:#include <cutlass/gemm/kernel/gemm_universal.hpp>
+aten/src/ATen/native/cuda/GroupMM.cu:162:  using GemmKernelBase = cutlass::gemm::kernel::GemmUniversal<
+aten/src/ATen/native/cuda/GroupMM.cu:172:  using Gemm = cutlass::gemm::device::GemmUniversalAdapter<GemmKernel>;
+aten/src/ATen/native/cuda/GroupMM.cu:278:      cutlass::gemm::GemmUniversalMode::kGrouped,
+aten/src/ATen/native/cuda/MixedDtypesLinear.cu:14:#include <cutlass/gemm/device/gemm_universal_base.h>
+aten/src/ATen/native/cuda/MixedDtypesLinear.cu:112:  using Gemm = cutlass::gemm::device::GemmUniversalBase<GemmKernel>;
+aten/src/ATen/native/cuda/RowwiseScaledMM.cu:35:#include <cutlass/gemm/device/gemm_universal.h>
+aten/src/ATen/native/cuda/RowwiseScaledMM.cu:36:#include <cutlass/gemm/device/gemm_universal_adapter.h>
+aten/src/ATen/native/cuda/RowwiseScaledMM.cu:37:#include <cutlass/gemm/kernel/default_gemm_universal_with_visitor.h>
+aten/src/ATen/native/cuda/RowwiseScaledMM.cu:43:#include <cutlass/gemm/kernel/gemm_universal.hpp>
+aten/src/ATen/native/cuda/RowwiseScaledMM.cu:229:      cutlass::gemm::kernel::GemmUniversal<
+aten/src/ATen/native/cuda/RowwiseScaledMM.cu:234:  using Gemm = cutlass::gemm::device::GemmUniversalAdapter<GemmKernel>;
+aten/src/ATen/native/cuda/RowwiseScaledMM.cu:248:      cutlass::gemm::GemmUniversalMode::kGemm,
+aten/src/ATen/native/cuda/RowwiseScaledMM.cu:422:      cutlass::gemm::kernel::GemmUniversal<
+aten/src/ATen/native/cuda/RowwiseScaledMM.cu:427:  using Gemm = cutlass::gemm::device::GemmUniversalAdapter<GemmKernel>;
+aten/src/ATen/native/cuda/RowwiseScaledMM.cu:441:      cutlass::gemm::GemmUniversalMode::kGemm,
+aten/src/ATen/native/cuda/RowwiseScaledMM.cu:623:  using Gemm = cutlass::gemm::device::GemmUniversalAdapter<EVTKernel>;
+aten/src/ATen/native/cuda/RowwiseScaledMM.cu:665:    cutlass::gemm::GemmUniversalMode::kGemm,
+aten/src/ATen/native/cuda/ScaledGroupMM.cu:38:#include <cutlass/gemm/device/gemm_universal.h>
+aten/src/ATen/native/cuda/ScaledGroupMM.cu:39:#include <cutlass/gemm/device/gemm_universal_adapter.h>
+aten/src/ATen/native/cuda/ScaledGroupMM.cu:40:#include <cutlass/gemm/kernel/default_gemm_universal_with_visitor.h>
+aten/src/ATen/native/cuda/ScaledGroupMM.cu:44:#include <cutlass/gemm/kernel/gemm_universal.hpp>
+aten/src/ATen/native/cuda/ScaledGroupMM.cu:221:      GemmUniversal<ProblemShape, CollectiveMainloop, CollectiveEpilogue>;
+aten/src/ATen/native/cuda/ScaledGroupMM.cu:223:  using Gemm = cutlass::gemm::device::GemmUniversalAdapter<GemmKernel>;
+aten/src/ATen/native/cuda/ScaledGroupMM.cu:386:      cutlass::gemm::GemmUniversalMode::kGrouped,
+aten/src/ATen/native/cuda/WeightNorm.cu:29:// However, this is less efficient for short rows.  256 is pretty versatile.
+aten/src/ATen/native/cuda/WeightNorm.cu:39:// Somewhat versatile strategy: max out intra-block parallelism by extending
+aten/src/ATen/native/cuda/cutlass_extensions/gemm/kernel/fpA_intB_gemm.h:100:        GemmUniversalMode mode = GemmUniversalMode::kGemm;
+aten/src/ATen/native/cuda/cutlass_extensions/gemm/kernel/fpA_intB_gemm.h:119:        // Included so we can use Gemm Universal
+aten/src/ATen/native/transformers/cuda/attention.cu:1557:                  " (gfx90a:sramecc+:xnack-/gfx942:sramecc+:xnack-/gfx1100)")
+aten/src/ATen/native/transformers/cuda/sdp_utils.cpp:103:// flash_attention V2 is universally faster than efficient_attention and Math
+aten/src/ATen/native/transformers/hip/flash_attn/aot/mha_all_aot.hip:78:                  " (gfx90a:sramecc+:xnack-/gfx942:sramecc+:xnack-/gfx1100)")
+c10/core/Contiguity.h:147:          // but not vice-versa. so its ok.
+c10/core/Contiguity.h:152:          // but not vice-versa. so its ok.
+c10/core/Contiguity.h:232:          // but not vice-versa. so its ok.
+c10/core/Contiguity.h:237:          // but not vice-versa. so its ok.
+c10/core/InferenceMode.h:27:  // - Setting InferenceMode will set GradMode accordingly, but not vice versa.
+c10/core/Stream.cpp:25:// Not very parsable, but I don't know a good compact syntax for streams.
+c10/cuda/CUDACachingAllocator.cpp:1338:  // Incremental reverse-traversal state cached per graph.
+c10/cuda/CUDADeviceAssertion.h:21:static __device__ void dsa_add_new_assertion_failure(
+c10/cuda/CUDADeviceAssertion.h:79:      c10::cuda::dsa_add_new_assertion_failure(                          \
+c10/cuda/CUDADeviceAssertionHost.cpp:34:int dsa_get_device_id() {
+c10/cuda/CUDADeviceAssertionHost.cpp:47:int dsa_get_device_compute_capability(const int device_num) {
+c10/cuda/CUDADeviceAssertionHost.cpp:58:int dsa_get_device_count() {
+c10/cuda/CUDADeviceAssertionHost.cpp:64:bool dsa_check_if_all_devices_support_managed_memory() {
+c10/cuda/CUDADeviceAssertionHost.cpp:72:  for (const auto i : c10::irange(dsa_get_device_count())) {
+c10/cuda/CUDADeviceAssertionHost.cpp:73:    if (dsa_get_device_compute_capability(i) < 6) {
+c10/cuda/CUDADeviceAssertionHost.cpp:197:          dsa_check_if_all_devices_support_managed_memory()),
+c10/cuda/CUDADeviceAssertionHost.cpp:199:      enabled_at_runtime(check_env_for_dsa_enabled()) {
+c10/cuda/CUDADeviceAssertionHost.cpp:200:  for ([[maybe_unused]] const auto _ : c10::irange(dsa_get_device_count())) {
+c10/cuda/CUDADeviceAssertionHost.cpp:212:bool CUDAKernelLaunchRegistry::check_env_for_dsa_enabled() const {
+c10/cuda/CUDADeviceAssertionHost.cpp:240:      dsa_get_device_id(),
+c10/cuda/CUDADeviceAssertionHost.cpp:275:  const auto device_num = dsa_get_device_id();
+c10/cuda/CUDADeviceAssertionHost.h:111:  bool check_env_for_dsa_enabled() const;
+c10/cuda/test/build.bzl:1:dsa_tests = [
+c10/cuda/test/build.bzl:23:    for src in dsa_tests:
+c10/util/LeftRight.h:64:  // Copying and moving would not be threadsafe.
+c10/util/Registry.h:212:// definition caes.
+c10/util/llvmMathExtras.h:283:/// Macro compressed bit reversal table for 256 bits.
+c10/xpu/XPUDeviceProp.h:132:  /* the device descriptor for device Universal Unique ID, 16 bytes*/         \
+caffe2/serialize/crc_alt.h:862:    0x46C49A98,0x4706F0AF,0x45404EF6,0x448224C1,0x41CD3244,0x400F5873,0x4249E62A,0x438B8C1D,
+caffe2/serialize/crc_alt.h:1198:    0x448DEE14,0xDF28A27B,0xA8B6708B,0x33133CE4,0x478BD56B,0xDC2E9904,0xABB04BF4,0x3015079B,
+caffe2/serialize/inline_container.h:49:// 3. We universally write in ZIP64 format for consistency.
+cmake/public/cuda.cmake:145:    "import hashlib;hash=hashlib.sha256();hash.update(open('${CUDA_NVRTC_LIB}','rb').read());print(hash.hexdigest()[:8])"
+docs/source/community/contribution_guide.rst:136:It's best to strike up a conversation on the issue and discuss your
+docs/source/notes/autograd.rst:736:Some functions map from complex inputs to real outputs, or vice versa.
+docs/source/notes/cuda.rst:1350::class:`torch.cuda.graph` is a simple, versatile context manager that
+docs/source/notes/get_start_xpu.rst:18:   * - Intel® Data Center GPU Max Series (CodeName: Ponte Vecchio)
+docs/source/quantization-support.md:705:mapped linearly to the quantized data and vice versa
+docs/source/user_guide/torch_compiler/compile/dynamic_shapes_core_concepts.md:102:- **`ShapeEnv`**: Per-compile context state that tracks all free symbols and guards accumulated so far. Every `SymNode` records its `ShapeEnv` (but not vice versa; `SymNodes` are only used if they participate in a guard).
+docs/source/user_guide/torch_compiler/torch.compiler_dynamo_deepdive.md:438:[LocalSource](https://github.com/pytorch/pytorch/blob/40dc0580a69565b06ec5263efe5d87cecc8200f7/torch/_dynamo/source.py#L80-L92)
+docs/source/user_guide/torch_compiler/torch.compiler_dynamo_deepdive.md:440:[GetItemSource](https://github.com/pytorch/pytorch/blob/40dc0580a69565b06ec5263efe5d87cecc8200f7/torch/_dynamo/source.py#L302),
+functorch/README.md:345:your use cases by starting a conversation in the issue tracker or trying our
+functorch/docs/source/tutorials/whirlwind_tour.ipynb:300:    "Check out our other tutorials (in the left bar) for more detailed explanations of how to apply functorch transforms for various use cases. `functorch` is very much a work in progress and we'd love to hear how you're using it -- we encourage you to start a conversation at our [issues tracker](https://github.com/pytorch/functorch) to discuss your use case."
+scripts/lintrunner.py:42:    hasher = hashlib.sha256()
+test/backends/xeon/test_launch.py:21:        lscpu_info = """# The following is the parsable format, which can be fed to other
+test/cpp/jit/test_subgraph_matcher.cpp:514:  // covered by a traversal up from the first output (`%z = ...` is not
+test/distributed/_composable/fsdp/test_fully_shard_ignore_params.py:128:            # post order traversal
+test/distributed/fsdp/test_fsdp_fine_tune.py:190:    def _init_multi_traversal_module(self, device) -> nn.Module:
+test/distributed/fsdp/test_fsdp_fine_tune.py:217:    def test_hooks_multi_traversal(self):
+test/distributed/fsdp/test_fsdp_fine_tune.py:233:            self._test_hooks_multi_traversal,
+test/distributed/fsdp/test_fsdp_fine_tune.py:236:    def _test_hooks_multi_traversal(
+test/distributed/fsdp/test_fsdp_fine_tune.py:243:        seq = self._init_multi_traversal_module(device_type.type)
+test/distributed/fsdp/test_fsdp_hybrid_shard.py:12:import torch.distributed.fsdp._traversal_utils as traversal_utils
+test/distributed/fsdp/test_fsdp_hybrid_shard.py:333:            num_flat_params = len(list(traversal_utils._get_fsdp_handles(hsdp_model)))
+test/distributed/fsdp/test_fsdp_hybrid_shard.py:338:                list(traversal_utils._get_fsdp_handles(hsdp_model.transformer))
+test/distributed/fsdp/test_fsdp_hybrid_shard.py:340:            num_flat_params = len(list(traversal_utils._get_fsdp_handles(hsdp_model)))
+test/distributed/fsdp/test_fsdp_ignored_modules.py:8:import torch.distributed.fsdp._traversal_utils as traversal_utils
+test/distributed/fsdp/test_fsdp_ignored_modules.py:169:            for handle in traversal_utils._get_fsdp_handles(wrapped_model):
+test/distributed/fsdp/test_fsdp_misc.py:15:import torch.distributed.fsdp._traversal_utils as traversal_utils
+test/distributed/fsdp/test_fsdp_misc.py:762:        for handle in traversal_utils._get_fsdp_handles(fsdp_model):
+test/distributed/fsdp/test_fsdp_pure_fp16.py:6:import torch.distributed.fsdp._traversal_utils as traversal_utils
+test/distributed/fsdp/test_fsdp_pure_fp16.py:124:        for handle in traversal_utils._get_fsdp_handles(fsdp_model):
+test/distributed/fsdp/test_fsdp_traversal.py:29:class TestTraversal(FSDPTestContinuous):
+test/distributed/fsdp/test_fsdp_traversal.py:66:    TestTraversal, globals(), only_for=devices, allow_xpu=True
+test/distributed/fsdp/test_fsdp_unshard_params.py:9:import torch.distributed.fsdp._traversal_utils as traversal_utils
+test/distributed/fsdp/test_fsdp_unshard_params.py:179:                for handle in traversal_utils._get_fsdp_handles(fsdp_model):
+test/distributed/fsdp/test_fsdp_unshard_params.py:192:        for fsdp_state in traversal_utils._get_fsdp_states(fsdp_model):
+test/distributed/fsdp/test_fsdp_use_orig_params.py:321:        with ``offload_params=False`` followed by ``True`` but not vice versa).
+test/distributed/tensor/test_strategy_validation.py:430:                # flips the the partial output from max to min or vice versa.
+test/distributed/test_inductor_collectives.py:1532:        - confirm peak memory is respected in some adversarial case
+test/distributions/test_distributions.py:1385:    def test_rsample_requires_grad(self):
+test/distributions/test_distributions.py:1391:                if not dist.has_rsample:
+test/distributions/test_distributions.py:1393:                sample = dist.rsample()
+test/distributions/test_distributions.py:1396:                    msg=f"{Dist.__name__} example {i + 1}/{len(params)}, .rsample() does not require grad",
+test/distributions/test_distributions.py:1543:        self.assertRaises(NotImplementedError, Bernoulli(r).rsample)
+test/distributions/test_distributions.py:1594:        self.assertRaises(NotImplementedError, Geometric(r).rsample)
+test/distributions/test_distributions.py:1643:        self.assertRaises(NotImplementedError, Binomial(10, p).rsample)
+test/distributions/test_distributions.py:1761:        self.assertRaises(NotImplementedError, NegativeBinomial(10, p).rsample)
+test/distributions/test_distributions.py:1854:        self.assertRaises(NotImplementedError, Multinomial(10, p).rsample)
+test/distributions/test_distributions.py:1933:        self.assertRaises(NotImplementedError, Categorical(p).rsample)
+test/distributions/test_distributions.py:1989:        self.assertRaises(NotImplementedError, OneHotCategorical(p).rsample)
+test/distributions/test_distributions.py:2100:        # test that rsample doesn't fail
+test/distributions/test_distributions.py:2101:        s = RelaxedBernoulli(temp, p).rsample()
+test/distributions/test_distributions.py:2126:            s = dist.rsample()
+test/distributions/test_distributions.py:2210:            s = dist.rsample()
+test/distributions/test_distributions.py:2244:        u = Uniform(low, high).rsample()
+test/distributions/test_distributions.py:2295:        c = Cauchy(loc, scale).rsample()
+test/distributions/test_distributions.py:2323:        c = HalfCauchy(scale).rsample()
+test/distributions/test_distributions.py:2701:        z = Normal(loc, scale).rsample()
+test/distributions/test_distributions.py:2913:        samples = d.rsample((100000,))
+test/distributions/test_distributions.py:3144:        samples = d.rsample((100000,))
+test/distributions/test_distributions.py:3373:        samples = d.rsample((ndim * ndim * 100000,))
+test/distributions/test_distributions.py:3394:        z = Exponential(rate).rsample()
+test/distributions/test_distributions.py:3461:        z = Laplace(loc, scale).rsample()
+test/distributions/test_distributions.py:4125:                    self.assertEqual(indep_dist.has_rsample, base_dist.has_rsample)
+test/distributions/test_distributions.py:4126:                    if indep_dist.has_rsample:
+test/distributions/test_distributions.py:4587:# reparameterized gradients. Most .rsample() implementations simply rely on
+test/distributions/test_distributions.py:4599:            x = Gamma(alphas, betas).rsample()
+test/distributions/test_distributions.py:4635:            x = Chi2(dfs).rsample()
+test/distributions/test_distributions.py:4671:            x = Dirichlet(alphas).rsample()[:, 0]
+test/distributions/test_distributions.py:4713:            x = Beta(con1s, con0s).rsample()
+test/distributions/test_distributions.py:4753:            x = Beta(con1s, con0s).rsample()
+test/distributions/test_distributions.py:4789:            z = Dirichlet(alpha_vec.expand(num_samples, 3)).rsample()
+test/distributions/test_distributions.py:4832:            x = Dirichlet(alpha).rsample()
+test/distributions/test_distributions.py:6948:    def test_rsample(self):
+test/distributions/test_distributions.py:6950:            if not Dist.has_rsample:
+test/distributions/test_distributions.py:6956:                return dist.rsample()
+test/distributions/test_transforms.py:367:    x = dist.rsample()
+test/dynamo/cpython/3_13/test_enum.py:135:        FLUFL = 'Barry Warsaw'
+test/dynamo/cpython/3_13/test_enum.py:2643:                # universal gravitational constant  (m3 kg-1 s-2)
+test/dynamo/cpython/3_13/test_sys.py:1085:                              universal_newlines=True)
+test/dynamo/test_misc.py:782:            # Test reversal by putting int arg first.
+test/dynamo/test_misc.py:1099:            # Test reversal by putting constant first
+test/dynamo/test_misc.py:1193:                # Test reversal by putting param shape arg first.
+test/dynamo/test_misc.py:10220:                dsamples = self.sample_discrete(logits)
+test/dynamo/test_misc.py:10221:                return dsamples
+test/dynamo/test_modes.py:743:                b = d.log_prob(d.rsample((10,)))
+test/dynamo/test_tree_map.py:1105:        """is_leaf stops traversal and passes the subtree as a leaf."""
+test/functorch/test_vmap.py:1808:        # Python number overload: op(Tensor, Number) (and vice-versa)
+test/functorch/test_vmap.py:1819:        # Type promotion: op(Tensor, Logical Scalar Tensor) (and vice-versa)
+test/fx/test_graph_pickler.py:166:        a frozenset to ensure container traversal works.
+test/inductor/test_nv_universal_gemm.py:10:from torch._inductor.template_heuristics.nv_universal_gemm import (
+test/inductor/test_nv_universal_gemm.py:12:    NVUniversalGemmHeuristics,
+test/inductor/test_nv_universal_gemm.py:16:    ensure_nv_universal_gemm_available,
+test/inductor/test_nv_universal_gemm.py:29:    not (ensure_nv_universal_gemm_available() and is_datacenter_blackwell_arch()),
+test/inductor/test_nv_universal_gemm.py:30:    "NVIDIA Universal GEMM (cutlass_api) library not available or not on Blackwell",
+test/inductor/test_nv_universal_gemm.py:33:class TestNVUniversalGemm(TestCase):
+test/inductor/test_nv_universal_gemm.py:34:    """Test cases for NVIDIA Universal GEMM functionality."""
+test/inductor/test_nv_universal_gemm.py:140:        they become ReinterpretViews with non-contiguous strides. NVIDIA Universal GEMM must
+test/inductor/test_nv_universal_gemm.py:479:class TestNVUniversalGemmHeuristics(TestCase):
+test/inductor/test_nv_universal_gemm.py:480:    """Unit tests for NVUniversalGemmHeuristics without requiring actual libraries."""
+test/inductor/test_nv_universal_gemm.py:501:        heuristics = NVUniversalGemmHeuristics()
+test/inductor/test_nv_universal_gemm.py:514:        heuristics = NVUniversalGemmHeuristics()
+test/inductor/test_nv_universal_gemm.py:532:        heuristics = NVUniversalGemmHeuristics()
+test/inductor/test_nv_universal_gemm.py:571:        ensure_nv_universal_gemm_available()
+test/inductor/test_nv_universal_gemm.py:577:class TestNVUniversalGemmHeuristicsIntegration(TestCase):
+test/inductor/test_nv_universal_gemm.py:582:        heuristics = NVUniversalGemmHeuristics()
+test/inductor/test_nv_universal_gemm.py:609:    not (ensure_nv_universal_gemm_available() and is_datacenter_blackwell_arch()),
+test/inductor/test_nv_universal_gemm.py:610:    "NVIDIA Universal GEMM (cutlass_api) library not available or not on Blackwell",
+test/inductor/test_nv_universal_gemm.py:612:class TestNVUniversalGemmDynamicShapes(TestCase):
+test/inductor/test_nv_universal_gemm.py:613:    """Test cases for NVIDIA Universal GEMM with dynamic shapes."""
+test/inductor/test_torchinductor.py:6272:        # where element sizes differ (complex64 -> float32 or vice versa).
+test/jit/test_attr.py:45:                getattr(x, "x", "fdsa"),
+test/profiler/test_profiler.py:198:            universal_newlines=True,
+test/pytest_shard_custom.py:47:    def sha256hash(self, x: str) -> int:
+test/pytest_shard_custom.py:48:        return int.from_bytes(hashlib.sha256(x.encode()).digest(), "little")
+test/pytest_shard_custom.py:55:            if self.sha256hash(item.nodeid) % num_shards == shard_id - 1
+test/python_native/test_native_dsl_ops.py:200:        """_available_version parses valid versions and rejects unparsable ones."""
+test/python_native/test_native_dsl_ops.py:217:        # Completely unparsable -> None
+test/test_binary_ufuncs.py:89:    # Generic tests for elementwise binary (AKA binary universal (u) functions (funcs))
+test/test_cuda.py:1527:                universal_newlines=True,
+test/test_cuda.py:3211:        # avoid syncing noncapturing streams with captured events or vice versa.
+test/test_hub.py:322:    def test_safe_extract_zip_blocks_directory_traversal(self):
+test/test_hub.py:323:        """Test that _safe_extract_zip blocks directory traversal attacks."""
+test/test_hub.py:329:            # Test various directory traversal patterns
+test/test_hub.py:346:                        # Verify the error message indicates directory traversal
+test/test_hub.py:347:                        self.assertIn("directory traversal", str(cm.exception))
+test/test_hub.py:387:            # Create a legacy-style malicious zip (single entry with traversal)
+test/test_hub.py:395:            self.assertIn("directory traversal", str(cm.exception))
+test/test_hub.py:424:                self.assertIn("directory traversal", str(cm.exception))
+test/test_legacy_vmap.py:1184:            # Python number overload: op(Tensor, Number) (and vice-versa)
+test/test_legacy_vmap.py:1195:            # Type promotion: op(Tensor, Logical Scalar Tensor) (and vice-versa)
+test/test_mps.py:1512:        u = Uniform(low, high).rsample()
+test/test_nn.py:8672:        gridsample_ary = torch.nn.functional.grid_sample(
+test/test_nn.py:8679:        self.assertEqual(scipy_ary.mean(), gridsample_ary.mean())
+test/test_nn.py:8680:        self.assertEqual(scipy_ary, gridsample_ary.reshape_as(scipy_ary))
+test/test_nn.py:8722:            gridsample_ary = torch.nn.functional.grid_sample(
+test/test_nn.py:8729:            self.assertEqual(scipy_ary.mean(), gridsample_ary.mean())
+test/test_nn.py:8730:            self.assertEqual(scipy_ary, gridsample_ary.reshape_as(scipy_ary))
+test/test_nn.py:8764:        gridsample_ary = torch.nn.functional.grid_sample(
+test/test_nn.py:8771:        self.assertEqual(scipy_ary, gridsample_ary.reshape_as(scipy_ary))
+test/test_nn.py:8973:            gridsample_ary = torch.nn.functional.grid_sample(
+test/test_nn.py:8987:            self.assertEqual(scipy_ary, gridsample_ary.reshape_as(scipy_ary))
+test/test_nn.py:9029:            gridsample_ary = torch.nn.functional.grid_sample(
+test/test_nn.py:9044:            self.assertEqual(scipy_ary, gridsample_ary.reshape_as(scipy_ary))
+test/test_serialization.py:204:        # it as one object not two (and vice versa)
+test/test_spectral_ops.py:982:            # spectral oversample
+test/test_torch.py:5507:                self.assertEqual(b._per_optimizer_states["fdsa"],
+test/test_unary_ufuncs.py:66:# Tests for unary "universal functions (ufuncs)" that accept a single
+test/test_unary_ufuncs.py:74:# See NumPy's universal function documentation
+test/torch_np/numpy_tests/core/test_einsum.py:1133:        self.optimize_compare("aab,fa,df,ecc->bde")
+third_party/miniz-3.0.2/miniz.h:928:/* This is a universal API, i.e. it can be used as a building block to build any desired higher level decompression API. In the limit case, it can be called once per every byte input or output. */
+third_party/miniz-3.0.2/miniz.h:1323:/* Universal end function - calls either mz_zip_reader_end() or mz_zip_writer_end(). */
+tools/build/bazel/requirements.txt:4:    --hash=sha256:6b31f564a415d79ee77df69d757bb49a5bb53bd9f756cbbe24394ffd6fc1f4b2 \
+tools/build/bazel/requirements.txt:5:    --hash=sha256:8ea99dbdfaaf2ba2f9bac77b9249ef62ec5218e7c2b2e903378ed5fccf765995
+tools/build/bazel/requirements.txt:8:    --hash=sha256:005fa3432484527f9732ebd315da8da8001593e2cf46a3d817669f062c3d9ed4 \
+tools/build/bazel/requirements.txt:9:    --hash=sha256:046595208aae0120559a67693ecc65dd75d46f7bf687f159127046628178dc45 \
+tools/build/bazel/requirements.txt:10:    --hash=sha256:0c29de6a1a95f24b9a1aa7aefd27d2487263f00dfd55a77719b530788f75cff7 \
+tools/build/bazel/requirements.txt:11:    --hash=sha256:0c8c57f84ccfc871a48a47321cfa49ae1df56cd1d965a09abe84066f6853b9c0 \
+tools/build/bazel/requirements.txt:12:    --hash=sha256:0f5d9ed7f254402c9e7d35d2f5972c9bbea9040e99cd2861bd77dc68263277c7 \
+tools/build/bazel/requirements.txt:13:    --hash=sha256:18dd2e350387c87dabe711b86f83c9c78af772c748904d372ade190b5c7c9d4d \
+tools/build/bazel/requirements.txt:14:    --hash=sha256:1b1bde144d98e446b056ef98e59c256e9294f6b74d7af6846bf5ffdafd687a7d \
+tools/build/bazel/requirements.txt:15:    --hash=sha256:1c95a1e2902a8b722868587c0e1184ad5c55631de5afc0eb96bc4b0d738092c0 \
+tools/build/bazel/requirements.txt:16:    --hash=sha256:1cad5f45b3146325bb38d6855642f6fd609c3f7cad4dbaf75549bf3b904d3184 \
+tools/build/bazel/requirements.txt:17:    --hash=sha256:21b2899062867b0e1fde9b724f8aecb1af14f2778d69aacd1a5a1853a597a5db \
+tools/build/bazel/requirements.txt:18:    --hash=sha256:24498ba8ed6c2e0b56d4acbf83f2d989720a93b41d712ebd4f4979660db4417b \
+tools/build/bazel/requirements.txt:19:    --hash=sha256:25a23ea5c7edc53e0f29bae2c44fcb5a1aa10591aae107f2a2b2583a9c5cbc64 \
+tools/build/bazel/requirements.txt:20:    --hash=sha256:289200a18fa698949d2b39c671c2cc7a24d44096784e76614899a7ccf2574b7b \
+tools/build/bazel/requirements.txt:21:    --hash=sha256:28a1005facc94196e1fb3e82a3d442a9d9110b8434fc1ded7a24a2983c9888d8 \
+tools/build/bazel/requirements.txt:22:    --hash=sha256:32fc0341d72e0f73f80acb0a2c94216bd704f4f0bce10aedea38f30502b271ff \
+tools/build/bazel/requirements.txt:23:    --hash=sha256:36b31da18b8890a76ec181c3cf44326bf2c48e36d393ca1b72b3f484113ea344 \
+tools/build/bazel/requirements.txt:24:    --hash=sha256:3c21d4fca343c805a52c0c78edc01e3477f6dd1ad7c47653241cf2a206d4fc58 \
+tools/build/bazel/requirements.txt:25:    --hash=sha256:3fddb7e2c84ac87ac3a947cb4e66d143ca5863ef48e4a5ecb83bd48619e4634e \
+tools/build/bazel/requirements.txt:26:    --hash=sha256:43e0933a0eff183ee85833f341ec567c0980dae57c464d8a508e1b2ceb336471 \
+tools/build/bazel/requirements.txt:27:    --hash=sha256:4a476b06fbcf359ad25d34a057b7219281286ae2477cc5ff5e3f70a246971148 \
+tools/build/bazel/requirements.txt:28:    --hash=sha256:4e594135de17ab3866138f496755f302b72157d115086d100c3f19370839dd3a \
+tools/build/bazel/requirements.txt:29:    --hash=sha256:50bf98d5e563b83cc29471fa114366e6806bc06bc7a25fd59641e41445327836 \
+tools/build/bazel/requirements.txt:30:    --hash=sha256:5a9979887252a82fefd3d3ed2a8e3b937a7a809f65dcb1e068b090e165bbe99e \
+tools/build/bazel/requirements.txt:31:    --hash=sha256:5baececa9ecba31eff645232d59845c07aa030f0c81ee70184a90d35099a0e63 \
+tools/build/bazel/requirements.txt:32:    --hash=sha256:5bf4545e3b962767e5c06fe1738f951f77d27967cb2caa64c28be7c4563e162c \
+tools/build/bazel/requirements.txt:33:    --hash=sha256:6333b3aa5a12c26b2a4d4e7335a28f1475e0e5e17d69d55141ee3cab736f66d1 \
+tools/build/bazel/requirements.txt:34:    --hash=sha256:65c981bdbd3f57670af8b59777cbfae75364b483fa8a9f420f08094531d54a01 \
+tools/build/bazel/requirements.txt:35:    --hash=sha256:68a328e5f55ec37c57f19ebb1fdc56a248db2e3e9ad769919a58672958e8f366 \
+tools/build/bazel/requirements.txt:36:    --hash=sha256:6a0289e4589e8bdfef02a80478f1dfcb14f0ab696b5a00e1f4b8a14a307a3c58 \
+tools/build/bazel/requirements.txt:37:    --hash=sha256:6b66f92b17849b85cad91259efc341dce9c1af48e2173bf38a85c6329f1033e5 \
+tools/build/bazel/requirements.txt:38:    --hash=sha256:6c9379d65defcab82d07b2a9dfbfc2e95bc8fe0ebb1b176a3190230a3ef0e07c \
+tools/build/bazel/requirements.txt:39:    --hash=sha256:6fc1f5b51fa4cecaa18f2bd7a003f3dd039dd615cd69a2afd6d3b19aed6775f2 \
+tools/build/bazel/requirements.txt:40:    --hash=sha256:70f7172939fdf8790425ba31915bfbe8335030f05b9913d7ae00a87d4395620a \
+tools/build/bazel/requirements.txt:41:    --hash=sha256:721c76e84fe669be19c5791da68232ca2e05ba5185575086e384352e2c309597 \
+tools/build/bazel/requirements.txt:42:    --hash=sha256:7222ffd5e4de8e57e03ce2cef95a4c43c98fcb72ad86909abdfc2c17d227fc1b \
+tools/build/bazel/requirements.txt:43:    --hash=sha256:75d10d37a47afee94919c4fab4c22b9bc2a8bf7d4f46f87363bcf0573f3ff4f5 \
+tools/build/bazel/requirements.txt:44:    --hash=sha256:76af085e67e56c8816c3ccf256ebd136def2ed9654525348cfa744b6802b69eb \
+tools/build/bazel/requirements.txt:45:    --hash=sha256:770cab594ecf99ae64c236bc9ee3439c3f46be49796e265ce0cc8bc17b10294f \
+tools/build/bazel/requirements.txt:46:    --hash=sha256:7a6ab32f7210554a96cd9e33abe3ddd86732beeafc7a28e9955cdf22ffadbab0 \
+tools/build/bazel/requirements.txt:47:    --hash=sha256:7c48ed483eb946e6c04ccbe02c6b4d1d48e51944b6db70f697e089c193404941 \
+tools/build/bazel/requirements.txt:48:    --hash=sha256:7f56930ab0abd1c45cd15be65cc741c28b1c9a34876ce8c17a2fa107810c0af0 \
+tools/build/bazel/requirements.txt:49:    --hash=sha256:8075c35cd58273fee266c58c0c9b670947c19df5fb98e7b66710e04ad4e9ff86 \
+tools/build/bazel/requirements.txt:50:    --hash=sha256:8272b73e1c5603666618805fe821edba66892e2870058c94c53147602eab29c7 \
+tools/build/bazel/requirements.txt:51:    --hash=sha256:82d8fd25b7f4675d0c47cf95b594d4e7b158aca33b76aa63d07186e13c0e0ab7 \
+tools/build/bazel/requirements.txt:52:    --hash=sha256:844da2b5728b5ce0e32d863af26f32b5ce61bc4273a9c720a9f3aa9df73b1455 \
+tools/build/bazel/requirements.txt:53:    --hash=sha256:8755483f3c00d6c9a77f490c17e6ab0c8729e39e6390328e42521ef175380ae6 \
+tools/build/bazel/requirements.txt:54:    --hash=sha256:915f3849a011c1f593ab99092f3cecfcb4d65d8feb4a64cf1bf2d22074dc0ec4 \
+tools/build/bazel/requirements.txt:55:    --hash=sha256:926ca93accd5d36ccdabd803392ddc3e03e6d4cd1cf17deff3b989ab8e9dbcf0 \
+tools/build/bazel/requirements.txt:56:    --hash=sha256:982bb1e8b4ffda883b3d0a521e23abcd6fd17418f6d2c4118d257a10199c0ce3 \
+tools/build/bazel/requirements.txt:57:    --hash=sha256:98f862da73774290f251b9df8d11161b6cf25b599a66baf087c1ffe340e9bfd1 \
+tools/build/bazel/requirements.txt:58:    --hash=sha256:9cbfacf36cb0ec2897ce0ebc5d08ca44213af24265bd56eca54bee7923c48fd6 \
+tools/build/bazel/requirements.txt:59:    --hash=sha256:a370b3e078e418187da8c3674eddb9d983ec09445c99a3a263c2011993522981 \
+tools/build/bazel/requirements.txt:60:    --hash=sha256:a955b438e62efdf7e0b7b52a64dc5c3396e2634baa62471768a64bc2adb73d5c \
+tools/build/bazel/requirements.txt:61:    --hash=sha256:aa6af9e7d59f9c12b33ae4e9450619cf2488e2bbe9b44030905877f0b2324980 \
+tools/build/bazel/requirements.txt:62:    --hash=sha256:aa88ca0b1932e93f2d961bf3addbb2db902198dca337d88c89e1559e066e7645 \
+tools/build/bazel/requirements.txt:63:    --hash=sha256:aaeeb6a479c7667fbe1099af9617c83aaca22182d6cf8c53966491a0f1b7ffb7 \
+tools/build/bazel/requirements.txt:64:    --hash=sha256:aaf27faa992bfee0264dc1f03f4c75e9fcdda66a519db6b957a3f826e285cf12 \
+tools/build/bazel/requirements.txt:65:    --hash=sha256:b2680962a4848b3c4f155dc2ee64505a9c57186d0d56b43123b17ca3de18f0fa \
+tools/build/bazel/requirements.txt:66:    --hash=sha256:b2d318c11350e10662026ad0eb71bb51c7812fc8590825304ae0bdd4ac283acd \
+tools/build/bazel/requirements.txt:67:    --hash=sha256:b33de11b92e9f75a2b545d6e9b6f37e398d86c3e9e9653c4864eb7e89c5773ef \
+tools/build/bazel/requirements.txt:68:    --hash=sha256:b3daeac64d5b371dea99714f08ffc2c208522ec6b06fbc7866a450dd446f5c0f \
+tools/build/bazel/requirements.txt:69:    --hash=sha256:be1e352acbe3c78727a16a455126d9ff83ea2dfdcbc83148d2982305a04714c2 \
+tools/build/bazel/requirements.txt:70:    --hash=sha256:bee093bf902e1d8fc0ac143c88902c3dfc8941f7ea1d6a8dd2bcb786d33db03d \
+tools/build/bazel/requirements.txt:71:    --hash=sha256:c72fbbe68c6f32f251bdc08b8611c7b3060612236e960ef848e0a517ddbe76c5 \
+tools/build/bazel/requirements.txt:72:    --hash=sha256:c9e36a97bee9b86ef9a1cf7bb96747eb7a15c2f22bdb5b516434b00f2a599f02 \
+tools/build/bazel/requirements.txt:73:    --hash=sha256:cddf7bd982eaa998934a91f69d182aec997c6c468898efe6679af88283b498d3 \
+tools/build/bazel/requirements.txt:74:    --hash=sha256:cf713fe9a71ef6fd5adf7a79670135081cd4431c2943864757f0fa3a65b1fafd \
+tools/build/bazel/requirements.txt:75:    --hash=sha256:d11b54acf878eef558599658b0ffca78138c8c3655cf4f3a4a673c437e67732e \
+tools/build/bazel/requirements.txt:76:    --hash=sha256:d41c4d287cfc69060fa91cae9683eacffad989f1a10811995fa309df656ec214 \
+tools/build/bazel/requirements.txt:77:    --hash=sha256:d524ba3f1581b35c03cb42beebab4a13e6cdad7b36246bd22541fa585a56cccd \
+tools/build/bazel/requirements.txt:78:    --hash=sha256:daac4765328a919a805fa5e2720f3e94767abd632ae410a9062dff5412bae65a \
+tools/build/bazel/requirements.txt:79:    --hash=sha256:db4c7bf0e07fc3b7d89ac2a5880a6a8062056801b83ff56d8464b70f65482b6c \
+tools/build/bazel/requirements.txt:80:    --hash=sha256:dc7039885fa1baf9be153a0626e337aa7ec8bf96b0128605fb0d77788ddc1681 \
+tools/build/bazel/requirements.txt:81:    --hash=sha256:dccab8d5fa1ef9bfba0590ecf4d46df048d18ffe3eec01eeb73a42e0d9e7a8ba \
+tools/build/bazel/requirements.txt:82:    --hash=sha256:dedb8adb91d11846ee08bec4c8236c8549ac721c245678282dcb06b221aab59f \
+tools/build/bazel/requirements.txt:83:    --hash=sha256:e45ba65510e2647721e35323d6ef54c7974959f6081b58d4ef5d87c60c84919a \
+tools/build/bazel/requirements.txt:84:    --hash=sha256:e53efc7c7cee4c1e70661e2e112ca46a575f90ed9ae3fef200f2a25e954f4b28 \
+tools/build/bazel/requirements.txt:85:    --hash=sha256:e635b87f01ebc977342e2697d05b56632f5f879a4f15955dfe8cef2448b51691 \
+tools/build/bazel/requirements.txt:86:    --hash=sha256:e70e990b2137b29dc5564715de1e12701815dacc1d056308e2b17e9095372a82 \
+tools/build/bazel/requirements.txt:87:    --hash=sha256:e8082b26888e2f8b36a042a58307d5b917ef2b1cacab921ad3323ef91901c71a \
+tools/build/bazel/requirements.txt:88:    --hash=sha256:e8323a9b031aa0393768b87f04b4164a40037fb2a3c11ac06a03ffecd3618027 \
+tools/build/bazel/requirements.txt:89:    --hash=sha256:e92fca20c46e9f5e1bb485887d074918b13543b1c2a1185e69bb8d17ab6236a7 \
+tools/build/bazel/requirements.txt:90:    --hash=sha256:eb30abc20df9ab0814b5a2524f23d75dcf83cde762c161917a2b4b7b55b1e518 \
+tools/build/bazel/requirements.txt:91:    --hash=sha256:eba9904b0f38a143592d9fc0e19e2df0fa2e41c3c3745554761c5f6447eedabf \
+tools/build/bazel/requirements.txt:92:    --hash=sha256:ef8de666d6179b009dce7bcb2ad4c4a779f113f12caf8dc77f0162c29d20490b \
+tools/build/bazel/requirements.txt:93:    --hash=sha256:efd387a49825780ff861998cd959767800d54f8308936b21025326de4b5a42b9 \
+tools/build/bazel/requirements.txt:94:    --hash=sha256:f0aa37f3c979cf2546b73e8222bbfa3dc07a641585340179d768068e3455e544 \
+tools/build/bazel/requirements.txt:95:    --hash=sha256:f4074c5a429281bf056ddd4c5d3b740ebca4d43ffffe2ef4bf4d2d05114299da \
+tools/build/bazel/requirements.txt:96:    --hash=sha256:f69a27e45c43520f5487f27627059b64aaf160415589230992cec34c5e18a509 \
+tools/build/bazel/requirements.txt:97:    --hash=sha256:fb707f3e15060adf5b7ada797624a6c6e0138e2a26baa089df64c68ee98e040f \
+tools/build/bazel/requirements.txt:98:    --hash=sha256:fcbe676a55d7445b22c10967bceaaf0ee69407fbe0ece4d032b6eb8d4565982a \
+tools/build/bazel/requirements.txt:99:    --hash=sha256:fdb20a30fe1175ecabed17cbf7812f7b804b8a315a25f24678bcdf120a90077f
+tools/build/bazel/requirements.txt:102:    --hash=sha256:12f65c9b470abda6dc35cf8e63cc574b1c52b11df2c86030af0ac09b01b13ea9 \
+tools/build/bazel/requirements.txt:103:    --hash=sha256:946d195a0d259cbba61165e88e65941f16e9b36ea6ddb97f00452bae8b1287d3
+tools/build/bazel/requirements.txt:106:    --hash=sha256:7a28eb2a9774d00c7bc92411c19a89209d5da7c4c9a9e227be8330a23a25b91f \
+tools/build/bazel/requirements.txt:107:    --hash=sha256:a0b2b9fe80bbcd81a6647ff13108738cfb482d481d826cc0e02f5b35e5c88d2c
+tools/build/bazel/requirements.txt:110:    --hash=sha256:230d388117af870fce5647a3c52401fcf753e94720e6ea6b4197a5355648885e \
+tools/build/bazel/requirements.txt:111:    --hash=sha256:e435dfa75b1d7195c7b8378c3859f0445cd88c6b0375c181ed66823a9ceb7524
+tools/build/bazel/requirements.txt:114:    --hash=sha256:03a8c78d01d9781b28a6989f6fa1bb2c4f2d51201cf99d3dd875df6fbd96b23b \
+tools/build/bazel/requirements.txt:115:    --hash=sha256:08beddf13648eb95f8d867350f6a018a4be2e5ad54c8d8caed89ebca558b2818 \
+tools/build/bazel/requirements.txt:116:    --hash=sha256:1af303d6b2210eb850fcf03064d364652b7120803a0b872f5211f5234b399f20 \
+tools/build/bazel/requirements.txt:117:    --hash=sha256:1dda2e7b4ec9dd512f84935c5f126c8bd8b9f2fc001e9f54af255e8c5f16b0e0 \
+tools/build/bazel/requirements.txt:118:    --hash=sha256:2a02aba9ed12e4ac4eb3ea9421c420301a0c6460d9830d74a9df87efa4912010 \
+tools/build/bazel/requirements.txt:119:    --hash=sha256:2e4ee3380d6de9c9ec04745830fd9e2eccb3e6cf790d39d7b98ffd19b0dd754a \
+tools/build/bazel/requirements.txt:120:    --hash=sha256:3373d5d70a5fe74a2c1bb6d2cfd9609ecf686d47a2d7b1d37a8f3b6bf6003aea \
+tools/build/bazel/requirements.txt:121:    --hash=sha256:47711010ad8555514b434df65f7d7b076bb8261df1ca9bb78f53d3b2db02e95c \
+tools/build/bazel/requirements.txt:122:    --hash=sha256:4c66707fabe114439db9068ee468c26bbdf909cac0fb58686a42a24de1760c71 \
+tools/build/bazel/requirements.txt:123:    --hash=sha256:50193e430acfc1346175fcbdaa28ffec49947a06918b7b92130744e81e640110 \
+tools/build/bazel/requirements.txt:124:    --hash=sha256:52b8b60467cd7dd1e9ed082188b4e6bb35aa5cdd01777621a1658910745b90be \
+tools/build/bazel/requirements.txt:125:    --hash=sha256:60dedbb91afcbfdc9bc0b1f3f402804070deed7392c23eb7a7f07fa857868e8a \
+tools/build/bazel/requirements.txt:126:    --hash=sha256:62b8e4b1e28009ef2846b4c7852046736bab361f7aeadeb6a5b89ebec3c7055a \
+tools/build/bazel/requirements.txt:127:    --hash=sha256:666dbfb6ec68962c033a450943ded891bed2d54e6755e35e5835d63f4f6931d5 \
+tools/build/bazel/requirements.txt:128:    --hash=sha256:675d61ffbfa78604709862923189bad94014bef562cc35cf61d3a07bba02a7ed \
+tools/build/bazel/requirements.txt:129:    --hash=sha256:679b0076f67ecc0138fd2ede3a8fd196dddc2ad3254069bcb9faf9a79b1cebcd \
+tools/build/bazel/requirements.txt:130:    --hash=sha256:7349ab0fa0c429c82442a27a9673fc802ffdb7c7775fad780226cb234965e53c \
+tools/build/bazel/requirements.txt:131:    --hash=sha256:7ab55401287bfec946ced39700c053796e7cc0e3acbef09993a9ad2adba6ca6e \
+tools/build/bazel/requirements.txt:132:    --hash=sha256:7e50d0a0cc3189f9cb0aeb3a6a6af18c16f59f004b866cd2be1c14b36134a4a0 \
+tools/build/bazel/requirements.txt:133:    --hash=sha256:95a7476c59002f2f6c590b9b7b998306fba6a5aa646b1e22ddfeaf8f78c3a29c \
+tools/build/bazel/requirements.txt:134:    --hash=sha256:96ff0b2ad353d8f990b63294c8986f1ec3cb19d749234014f4e7eb0112ceba5a \
+tools/build/bazel/requirements.txt:135:    --hash=sha256:9fad7dcb1aac3c7f0584a5a8133e3a43eeb2fe127f47e3632d43d677c66c102b \
+tools/build/bazel/requirements.txt:136:    --hash=sha256:9ff0f4f29c51e2803569d7a51c2304de5554655a60c5d776e35b4a41413830d0 \
+tools/build/bazel/requirements.txt:137:    --hash=sha256:a354325ee03388678242a4d7ebcd08b5c727033fcff3b2f536aea978e15ee9e6 \
+tools/build/bazel/requirements.txt:138:    --hash=sha256:a4abb4f9001ad2858e7ac189089c42178fcce737e4169dc61321660f1a96c7d2 \
+tools/build/bazel/requirements.txt:139:    --hash=sha256:ab47dbe5cc8210f55aa58e4805fe224dac469cde56b9f731a4c098b91917159a \
+tools/build/bazel/requirements.txt:140:    --hash=sha256:afedb719a9dcfc7eaf2287b839d8198e06dcd4cb5d276a3df279231138e83d30 \
+tools/build/bazel/requirements.txt:141:    --hash=sha256:b3ce300f3644fb06443ee2222c2201dd3a89ea6040541412b8fa189341847218 \
+tools/build/bazel/requirements.txt:142:    --hash=sha256:b97fe8060236edf3662adfc2c633f56a08ae30560c56310562cb4f95500022d5 \
+tools/build/bazel/requirements.txt:143:    --hash=sha256:bfe25acf8b437eb2a8b2d49d443800a5f18508cd811fea3181723922a8a82b07 \
+tools/build/bazel/requirements.txt:144:    --hash=sha256:cd25bcecc4974d09257ffcd1f098ee778f7834c3ad767fe5db785be9a4aa9cb2 \
+tools/build/bazel/requirements.txt:145:    --hash=sha256:d209d8969599b27ad20994c8e41936ee0964e6da07478d6c35016bc386b66ad4 \
+tools/build/bazel/requirements.txt:146:    --hash=sha256:d5241e0a80d808d70546c697135da2c613f30e28251ff8307eb72ba696945764 \
+tools/build/bazel/requirements.txt:147:    --hash=sha256:edd8b5fe47dab091176d21bb6de568acdd906d1887a4584a15a9a96a1dca06ef \
+tools/build/bazel/requirements.txt:148:    --hash=sha256:f870204a840a60da0b12273ef34f7051e98c3b5961b61b0c2c1be6dfd64fbcd3 \
+tools/build/bazel/requirements.txt:149:    --hash=sha256:ffa75af20b44f8dba823498024771d5ac50620e6915abac414251bd971b4529f
+tools/build/bazel/requirements.txt:152:    --hash=sha256:01179a4a8559ab5de078078f37e5c1a30d76bb88519906844fd7bdea1b7729ff \
+tools/build/bazel/requirements.txt:153:    --hash=sha256:0833f8694549e586547b576dcfaba4a6b55b9e96098b36cdc7ebefe667dfed48 \
+tools/build/bazel/requirements.txt:154:    --hash=sha256:0a9a2848a5b7feac301353437eb7d5957887edbf81d56e903999a75a3d743086 \
+tools/build/bazel/requirements.txt:155:    --hash=sha256:0b69e4ce7a131fe56b7e4d770c67429700908fc0752af059838b1cfb41960e4e \
+tools/build/bazel/requirements.txt:156:    --hash=sha256:0ffe8360bab4910ef1b9e87fb812d8bc0a308b0d0eef8c8f44e0254ab3b07133 \
+tools/build/bazel/requirements.txt:157:    --hash=sha256:11d8f3dd2b9c1207dcaf2ee0bbbfd5991f571186ec9cc78427ba5bd32afae4b5 \
+tools/build/bazel/requirements.txt:158:    --hash=sha256:17e311b6c678207928d649faa7cb0d7b4c26a0ba73d41e99c4fff6b6c3276484 \
+tools/build/bazel/requirements.txt:159:    --hash=sha256:1e2120ef853f59c7419231f3bf4e7021f1b936f6ebd222406c3b60212205d2ee \
+tools/build/bazel/requirements.txt:160:    --hash=sha256:1f71ea527786de97d1a0cc0eacd1defc0985dcf6b3f17bb77dcfc8c34bec4dc5 \
+tools/build/bazel/requirements.txt:161:    --hash=sha256:23502f431948090f597378482b4812b0caae32c22213aecf3b55325e049a6c68 \
+tools/build/bazel/requirements.txt:162:    --hash=sha256:24471b829b3bf607e04e88d79542a9d48bb037c2267d7927a874e6c205ca7e9a \
+tools/build/bazel/requirements.txt:163:    --hash=sha256:29717114e51c84ddfba879543fb232a6ed60086602313ca38cce623c1d62cfbf \
+tools/build/bazel/requirements.txt:164:    --hash=sha256:2e99c6826ffa974fe6e27cdb5ed0021786b03fc98e5ee3c5bfe1fd5015f42b99 \
+tools/build/bazel/requirements.txt:165:    --hash=sha256:39693e1f8320ae4f43943590b49779ffb98acb81f788220ea932a6b6c51004d8 \
+tools/build/bazel/requirements.txt:166:    --hash=sha256:3ad2a3decf9aaba3d29c8f537ac4b243e36bef957511b4766cb0057d32b0be85 \
+tools/build/bazel/requirements.txt:167:    --hash=sha256:3b1fdb9dc17f5a7677423d508ab4f243a726dea51fa5e70992e59a7411c89d19 \
+tools/build/bazel/requirements.txt:168:    --hash=sha256:41e4e3953a79407c794916fa277a82531dd93aad34e29c2a514c2c0c5fe971cc \
+tools/build/bazel/requirements.txt:169:    --hash=sha256:43fa96a3ca0d6b1812e01ced1044a003533c47f6ee8aca31724f78e93ccc089a \
+tools/build/bazel/requirements.txt:170:    --hash=sha256:50187695423ffe49e2deacb8cd10510bc361faac997de9efef88badc3bb9e2d1 \
+tools/build/bazel/requirements.txt:171:    --hash=sha256:5ac9328ec4831237bec75defaf839f7d4564be1e6b25ac710bd1a96321cc8317 \
+tools/build/bazel/requirements.txt:172:    --hash=sha256:5d225db5a45f21e78dd9358e58a98702a0302f2659a3c6cd320564b75b86f47c \
+tools/build/bazel/requirements.txt:173:    --hash=sha256:6395c297d42274772abc367baaa79683958044e5d3835486c16da75d2a694631 \
+tools/build/bazel/requirements.txt:174:    --hash=sha256:688ba32a1cffef67fd2e9398a2efebaea461578b0923624778664cc1c914db5d \
+tools/build/bazel/requirements.txt:175:    --hash=sha256:68ccc6023a3400877818152ad9a1033e3db8625d899c72eacb5a668902e4d652 \
+tools/build/bazel/requirements.txt:176:    --hash=sha256:70b189594dbe54f75ab3a1acec5f1e3faa7e8cf2f1e08d9b561cb41b845f69d5 \
+tools/build/bazel/requirements.txt:177:    --hash=sha256:797b4f722ffa07cc8d62053e4cff1486fa6dc094105d13fea7b1de7d8bf71c9e \
+tools/build/bazel/requirements.txt:178:    --hash=sha256:7c36280e6fb8385e520936c3cb3b8042851904eba0e58d277dca80a5cfed590b \
+tools/build/bazel/requirements.txt:179:    --hash=sha256:7e7401d0de89a9a855c839bc697c079a4af81cf878373abd7dc625847d25cbd8 \
+tools/build/bazel/requirements.txt:180:    --hash=sha256:80bab7bfc629882493af4aa31a4cfa43a4c57c83813253626916b8c7ada83476 \
+tools/build/bazel/requirements.txt:181:    --hash=sha256:82d09873e40955485746739bcb8b4586983670466c23382c19cffecbf1fd8706 \
+tools/build/bazel/requirements.txt:182:    --hash=sha256:8388ee1976c416731879ac16da0aff3f63b286ffdd57cdeb95f3f2e085687563 \
+tools/build/bazel/requirements.txt:183:    --hash=sha256:8824b5a04a04a047e72eea5cec3bc266db09e35de6bdfe34c9436ac5ee27d237 \
+tools/build/bazel/requirements.txt:184:    --hash=sha256:8b9c7197f7cb2738065c481a0461e50ad02f18c78cd75775628afb4d7137fb3b \
+tools/build/bazel/requirements.txt:185:    --hash=sha256:9056c1ecd25795207ad294bcf39f2db3d845767be0ea6e6a34d856f006006083 \
+tools/build/bazel/requirements.txt:186:    --hash=sha256:936d68689298c36b53b29f23c6dbb74de12b4ac12ca6cfe0e047bedceea56180 \
+tools/build/bazel/requirements.txt:187:    --hash=sha256:9b22676e8097e9e22e36d6b7bda33190d0d400f345f23d4065d48f4ca7ae0425 \
+tools/build/bazel/requirements.txt:188:    --hash=sha256:a4d3091415f010369ae4ed1fc6b79def9416358877534caf6a0fdd2146c87a3e \
+tools/build/bazel/requirements.txt:189:    --hash=sha256:a8786accb172bd8afb8be14490a16625cbc387036876ab6ba70912730faf8e1f \
+tools/build/bazel/requirements.txt:190:    --hash=sha256:a9f8c2e67970f13b16084e04f134610fd1d374bf477b17ec1599185cf611d725 \
+tools/build/bazel/requirements.txt:191:    --hash=sha256:bc2fa7c6b47d6bc618dd7fb02ef6fdedb1090ec036abab80d4681424b84c1183 \
+tools/build/bazel/requirements.txt:192:    --hash=sha256:c70c95198c015b85feafc136515252a261a84561b7b1d51e3384e0655ddf25ab \
+tools/build/bazel/requirements.txt:193:    --hash=sha256:cc1c1159b3d456576af7a3e4d1ba7e6924cb39de8f67111c735f6fc832082774 \
+tools/build/bazel/requirements.txt:194:    --hash=sha256:ce826d6ef20b1bc864f0a68340c8b3287705cae2f8b4b1d932177dcc76721725 \
+tools/build/bazel/requirements.txt:195:    --hash=sha256:d584d9ec91ad65861cc08d42e834324ef890a082e591037abe114850ff7bbc3e \
+tools/build/bazel/requirements.txt:196:    --hash=sha256:d7fded462629cfa4b685c5416b949ebad6cec74af5e2d42905d41e257e0869f5 \
+tools/build/bazel/requirements.txt:197:    --hash=sha256:d84a1718ee396f54f3a086ea0a66d8e552b2ab2017ef8b420e92edbc841c352d \
+tools/build/bazel/requirements.txt:198:    --hash=sha256:d8e03406cac8513435335dbab54c0d385e4a49e4945d2909a581c83647ca0290 \
+tools/build/bazel/requirements.txt:199:    --hash=sha256:e10ce637b18caea04431ce14fabcf5c64a1c61ec9c56b071a4b7ca131ca52d44 \
+tools/build/bazel/requirements.txt:200:    --hash=sha256:ec031d5d2feb36d1d1a24380e4db6d43695f3748343d99434e6f5f9156aaa2ed \
+tools/build/bazel/requirements.txt:201:    --hash=sha256:ef6107725bd54b262d6dedcc2af448a266975032bc85ef0172c5f059da6325b4 \
+tools/build/bazel/requirements.txt:202:    --hash=sha256:efdca5630322a10774e8e98e1af481aad470dd62c3170801852d752aa7a783ba \
+tools/build/bazel/requirements.txt:203:    --hash=sha256:f753120cb8181e736c57ef7636e83f31b9c0d1722c516f7e86cf15b7aa57ff12 \
+tools/build/bazel/requirements.txt:204:    --hash=sha256:ff3824dc5261f50c9b0dfb3be22b4567a6f938ccce4587b38952d85fd9e9afe4
+tools/build/bazel/requirements.txt:207:    --hash=sha256:27babd3cda2a6d50b30443204ee89830707d396671944c998b5975b031ac2b2c \
+tools/build/bazel/requirements.txt:208:    --hash=sha256:27d0316682c8a29834d3264820024b62a36942083d52caf2f14c0591336d3422
+tools/build/bazel/requirements.txt:211:    --hash=sha256:c3a9c4211ff4c309edb8b8c4f1cbfa7ae324c4ba9f91ff254e3d305b9fd54561 \
+tools/build/bazel/requirements.txt:212:    --hash=sha256:fcc17fd9cd898242f6b4adfaca46137a9edef687f43e6f78469692a5e70d851d
+tools/build/bazel/requirements.txt:215:    --hash=sha256:c3588cd4295d0c0f603d0f2ae780587e64e2efeedb3521e46b9bb1d08d184fa5 \
+tools/build/bazel/requirements.txt:216:    --hash=sha256:ebf595c8dac3e0fdc4152c51878b498396ec7f30e7a914d6071e674d49420fb8
+tools/build/bazel/requirements.txt:219:    --hash=sha256:83f085bd5ca59c80295fc2a82ab5dac679cbe02b9f33f7d83af68e241bea51b0 \
+tools/build/bazel/requirements.txt:220:    --hash=sha256:c1f94d72897edaf4ce775bb7558d5b79d8126906a14ea5ed1635921406c0387a
+tools/build/bazel/requirements.txt:223:    --hash=sha256:3fc47733c7e419d4bc3f6b3dc2b4f890bb743906a30d56ba4a5bfa4bbff92760 \
+tools/build/bazel/requirements.txt:224:    --hash=sha256:e6b01673c0fa6a13e374b50871808eb3bf7046c4b125b216f6bf1cc604cff0dc
+tools/linter/adapters/_linter/file_linter.py:106:        """Called on files that are unparsable"""
+tools/linter/adapters/bazel_linter.py:24:SHA256_REGEX = re.compile(r"\s*sha256\s*=\s*['\"](?P<sha256>[a-zA-Z0-9]{64})['\"]\s*,")
+tools/linter/adapters/bazel_linter.py:86:        checksum_node = rule.find('.//string[@name="sha256"]')
+tools/linter/adapters/bazel_linter.py:113:                sha256 = m.group("sha256")
+tools/linter/adapters/bazel_linter.py:115:                if sha256 in disallowed_checksums:
+tools/linter/adapters/docstring_linter-grandfather.json:90:  "torch/_inductor/codegen/rocm/ck_universal_gemm_template.py": {
+tools/linter/adapters/s3_init.py:34:def compute_file_sha256(path: str) -> str:
+tools/linter/adapters/s3_init.py:40:    hash = hashlib.sha256()
+tools/linter/adapters/s3_init.py:73:    existing_binary_hash = compute_file_sha256(str(binary_path))
+tools/linter/adapters/s3_init_config.json:5:        "'Hash' is the sha256 of the uploaded file.",
+tools/linter/adapters/s3_init_config.json:20:            "hash": "bfa9ef6eccb372f79ffcb6196af966fd84519ea9567f5ae7b6ad30208cd82109"
+tools/linter/adapters/s3_init_config.json:42:            "hash": "cd6708ca9731002abd8ecc1b616716d8a21cf682a3cb931dd3265c3f3f600d30"
+tools/linter/adapters/update_s3.py:17:def compute_file_sha256(path: str) -> str:
+tools/linter/adapters/update_s3.py:23:    hash = hashlib.sha256()
+tools/linter/adapters/update_s3.py:84:    hash_of_new_binary = compute_file_sha256(args.file)
+tools/testing/target_determination/heuristics/interface.py:60:                    f"All includes should have been excluded elsewhere, and vice versa. "
+torch/_dynamo/decorators.py:555:          region, and vice versa. The compiled graph may reorder or eliminate
+torch/_dynamo/graph_break_registry.json:2531:      "Explanation": "setattr() on Tensor.requires_grad not supported. Mutating requires_grad can introduce a new leaf from non-leaf or vice versa in the middle of the graph, which AOTAutograd does not currently know how to handle.",
+torch/_dynamo/graph_bytecode_inputs.py:101:# directly, because higher-order ops should not depend on dynamo (dynamo depends on them, not vice versa).
+torch/_dynamo/graph_region_tracker.py:237:        from torch._inductor.codecache import sha256_hash
+torch/_dynamo/graph_region_tracker.py:246:        return sha256_hash(self.input_pickler.dumps(key))
+torch/_dynamo/guards.py:306:        # TENSOR_MATCH guards as diff guard managers. So, we do a tree traversal
+torch/_dynamo/guards.py:397:        prune traversal: if a tag-safe root's dictionary tag matches, the entire
+torch/_dynamo/guards.py:410:        The search runs in post-order traversal
+torch/_dynamo/output_graph.py:238:    Performs a DFS traversal and collects all visited grad_fns.
+torch/_dynamo/output_graph.py:239:    Optionally stops traversal nodes in stop_at set. This signals the
+torch/_dynamo/output_graph.py:244:        stop_at: Optional set of grad_fns where traversal should stop (excluded from result).
+torch/_dynamo/output_graph.py:265:        # Stop traversal at stop_at nodes and don't include them
+torch/_dynamo/package.py:532:    sha256_hash = hashlib.sha256()
+torch/_dynamo/package.py:533:    sha256_hash.update(source.encode())
+torch/_dynamo/package.py:534:    return sha256_hash.hexdigest()
+torch/_dynamo/package.py:906:        sha256_hash = hashlib.sha256()
+torch/_dynamo/package.py:907:        sha256_hash.update(innermost_fn_.__qualname__.encode())
+torch/_dynamo/package.py:908:        sha256_hash.update(str(innermost_fn_.__code__.co_firstlineno).encode())
+torch/_dynamo/package.py:909:        return sha256_hash.hexdigest()
+torch/_dynamo/side_effects.py:1244:                # for this reversal, we iterate through the mutable attributes
+torch/_dynamo/variables/builtin.py:2804:                        "Mutating requires_grad can introduce a new leaf from non-leaf or vice versa in "
+torch/_export/passes/add_runtime_assertions_for_constraints_pass.py:112:                # We use post-order traversal to collect all the proxies callbacks needed, construct
+torch/_export/passes/add_runtime_assertions_for_constraints_pass.py:113:                # the error message callbacks, and at the top-level traversal tree we execute all the callbacks.
+torch/_export/serde/schema_check.py:631:    return hashlib.sha256(s.strip().encode("utf-8")).hexdigest()
+torch/_functorch/_aot_autograd/autograd_cache.py:37:    sha256_hash,
+torch/_functorch/_aot_autograd/autograd_cache.py:1044:        path = os.path.join(subdir, sha256_hash(content))
+torch/_functorch/_aot_autograd/collect_metadata_analysis.py:82:# Coercing and collecting traced tangents memory format in one recursive traversal
+torch/_functorch/_aot_autograd/descriptors.py:125:   vice versa (but in the future we could!)
+torch/_functorch/_aot_autograd/runtime_wrappers.py:3063:            # (vice versa is OK; we compute a gradient and then throw
+torch/_functorch/_aot_autograd/schemas.py:1476:        from hashlib import sha256
+torch/_functorch/_aot_autograd/schemas.py:1478:        return sha256(str(self).encode("utf-8")).hexdigest()
+torch/_functorch/partitioners.py:1484:    way to the end of the graph. At each op in this traversal, we insert this op
+torch/_functorch/partitioners.py:1521:            # Bias traversal towards the nodes that have higher depth - prioritizes
+torch/_functorch/partitioners.py:1553:    # The output node is already built by the traversal.
+torch/_functorch/partitioners.py:3286:        inputs = hashlib.sha256(node_str.encode("utf-8")).hexdigest()
+torch/_higher_order_ops/triton_kernel_wrap.py:1004:        """DFS traversal to find argument indices that are accessed (and how many times they are accessed)."""
+torch/_inductor/async_compile.py:654:    def nv_universal_gemm(self, kernel_name: str, source_code: str):
+torch/_inductor/async_compile.py:656:        Compile NVIDIA Universal GEMM kernels.
+torch/_inductor/async_compile.py:663:            NVIDIA Universal GEMM kernels are Python code that calls the cutlass_api library.
+torch/_inductor/async_compile.py:666:        from torch._inductor.codegen.nv_universal_gemm.nv_universal_gemm_kernel import (
+torch/_inductor/async_compile.py:667:            NVUniversalGemmKernelWrapper,
+torch/_inductor/async_compile.py:669:        from torch._inductor.codegen.nv_universal_gemm.nv_universal_gemm_scheduling import (
+torch/_inductor/async_compile.py:673:        kernel_code_log.info("NVIDIA Universal GEMM Kernel:\n%s", source_code)
+torch/_inductor/async_compile.py:684:                    f"Could not find NVIDIA Universal GEMM main kernel function "
+torch/_inductor/async_compile.py:688:            return NVUniversalGemmKernelWrapper(
+torch/_inductor/cache.py:7:from hashlib import sha256
+torch/_inductor/cache.py:290:            return self.base_dir / sha256(pickle.dumps(key)).hexdigest()[:32]
+torch/_inductor/cache.py:320:        return sha256(str(OnDiskCache.version).encode()).digest()[:4]
+torch/_inductor/codecache.py:210:        system["hash"] = hashlib.sha256(
+torch/_inductor/codecache.py:329:def sha256_hash(data: bytes) -> str:
+torch/_inductor/codecache.py:331:    return base64.b32encode(hashlib.sha256(data).digest())[:51].decode("utf-8").lower()
+torch/_inductor/codecache.py:339:    return "c" + sha256_hash(hashing_str)
+torch/_inductor/codecache.py:652:        return sha256_hash(serialized_data)
+torch/_inductor/codecache.py:748:                hasher = hashlib.sha256()
+torch/_inductor/codecache.py:1490:        path = os.path.join(subdir, sha256_hash(content))
+torch/_inductor/codecache.py:3496:        return sha256_hash(
+torch/_inductor/codecache.py:3873:    combined_hash = hashlib.sha256()
+torch/_inductor/codegen/block_analysis.py:53:        for sub in sympy.preorder_traversal(expr):
+torch/_inductor/codegen/cuda_combined_scheduling.py:15:from .nv_universal_gemm.nv_universal_gemm_scheduling import NVUniversalGemmScheduling
+torch/_inductor/codegen/cuda_combined_scheduling.py:50:        self._nv_universal_gemm_scheduling = NVUniversalGemmScheduling(scheduler)
+torch/_inductor/codegen/cuda_combined_scheduling.py:62:        if self._nv_universal_gemm_scheduling.is_nv_universal_gemm_template(node):
+torch/_inductor/codegen/cuda_combined_scheduling.py:63:            return self._nv_universal_gemm_scheduling
+torch/_inductor/codegen/cuda_combined_scheduling.py:80:        # NVIDIA Universal GEMM doesn't support vertical fusion currently
+torch/_inductor/codegen/cuda_combined_scheduling.py:81:        elif self._nv_universal_gemm_scheduling.is_nv_universal_gemm_template(
+torch/_inductor/codegen/cuda_combined_scheduling.py:83:        ) or self._nv_universal_gemm_scheduling.is_nv_universal_gemm_template(node2):
+torch/_inductor/codegen/cuda_combined_scheduling.py:99:            if self._nv_universal_gemm_scheduling.is_nv_universal_gemm_template(node):
+torch/_inductor/codegen/cuda_combined_scheduling.py:100:                return self._nv_universal_gemm_scheduling.can_fuse_horizontal(
+torch/_inductor/codegen/cuda_combined_scheduling.py:134:        elif self._nv_universal_gemm_scheduling.is_nv_universal_gemm_template(
+torch/_inductor/codegen/cuda_combined_scheduling.py:137:            # NVIDIA Universal GEMM doesn't support epilogue/prologue fusion yet
+torch/_inductor/codegen/cuda_combined_scheduling.py:140:            return self._nv_universal_gemm_scheduling.codegen_template(
+torch/_inductor/codegen/cutedsl/cutedsl_scheduling.py:81:            kernel_hash = hashlib.sha256(src_code_str.encode("utf-8")).hexdigest()[:8]
+torch/_inductor/codegen/cutlass/cache.py:41:            return hashlib.sha256(f.read()).hexdigest()
+torch/_inductor/codegen/cutlass/cache.py:56:    return hashlib.sha256(hash_target.encode("utf-8")).hexdigest()[0:8]
+torch/_inductor/codegen/cutlass/gemm_template.py:120:  // Initialize GemmUniversal3xInstance arguments.
+torch/_inductor/codegen/cutlass/gemm_template.py:122:    {{template.gemm_mode()}},  // GemmUniversalMode mode
+torch/_inductor/codegen/cutlass/gemm_template.py:245:  // Initialize GemmUniversalInstance arguments.
+torch/_inductor/codegen/cutlass/gemm_template.py:247:    {{template.gemm_mode()}},  // GemmUniversalMode mode
+torch/_inductor/codegen/cutlass/gemm_template.py:622:                #include "cutlass/gemm/device/gemm_universal.h"
+torch/_inductor/codegen/cutlass/gemm_template.py:623:                #include "cutlass/gemm/device/gemm_universal_adapter.h"
+torch/_inductor/codegen/cutlass/gemm_template.py:624:                #include "cutlass/gemm/kernel/gemm_universal.hpp"
+torch/_inductor/codegen/cutlass/gemm_template.py:673:        to ColumnMajor or vice versa"""
+torch/_inductor/codegen/cutlass/gemm_template.py:1055:            "cutlass::gemm::GemmUniversalMode::kBatched" is returned, otherwise
+torch/_inductor/codegen/cutlass/gemm_template.py:1056:            "cutlass::gemm::GemmUniversalMode::kGemm" is returned.
+torch/_inductor/codegen/cutlass/gemm_template.py:1060:            return "cutlass::gemm::GemmUniversalMode::kBatched"
+torch/_inductor/codegen/cutlass/gemm_template.py:1062:            return "cutlass::gemm::GemmUniversalMode::kGemm"
+torch/_inductor/codegen/cutlass/gemm_template.py:1398:        return [cutlass_lib.GemmKind.Universal3x]
+torch/_inductor/codegen/cutlass/gemm_template.py:1418:        if op.gemm_kind == cutlass_lib.GemmKind.Universal3x:
+torch/_inductor/codegen/cutlass/gemm_template.py:1608:        emitter = gemm_extensions.EmitGemmUniversal3xInstanceWithEVT(evt_name=evt_name)  # type: ignore[call-arg]
+torch/_inductor/codegen/cutlass/gemm_template.py:1624:        if op.gemm_kind == cutlass_lib.GemmKind.Universal3x:
+torch/_inductor/codegen/cutlass/gemm_template.py:1625:            op_def += f"\n  using {op_type}_device_type = cutlass::gemm::device::GemmUniversalAdapter<{op_type}>;\n"
+torch/_inductor/codegen/cutlass/gemm_template.py:1780:        return [cutlass_lib.GemmKind.Universal, cutlass_lib.GemmKind.Sparse]
+torch/_inductor/codegen/cutlass/gemm_template.py:1903:            "cutlass::gemm::device::Gemm", "cutlass::gemm::device::GemmUniversal"
+torch/_inductor/codegen/cutlass/lib_extensions/gemm_operation_extensions.py:16:    class EmitGemmUniversal3xInstanceWithEVT:
+torch/_inductor/codegen/cutlass/lib_extensions/gemm_operation_extensions.py:25:                "cutlass/gemm/kernel/gemm_universal.hpp",
+torch/_inductor/codegen/cutlass/lib_extensions/gemm_operation_extensions.py:66:using ${operation_name}_base = cutlass::gemm::kernel::GemmUniversal<
+torch/_inductor/codegen/cutlass/lib_extensions/gemm_operation_extensions.py:83:    using GemmKernel = cutlass::gemm::device::GemmUniversalAdapter<${operation_name}>;
+torch/_inductor/codegen/cutlass/scheduling.py:100:            kernel_hash = hashlib.sha256(src_code.encode("utf-8")).hexdigest()[:8]
+torch/_inductor/codegen/cutlass/template.py:98:        return hashlib.sha256(
+torch/_inductor/codegen/cutlass/template.py:207:        kernel_hash = hashlib.sha256(code.encode("utf-8")).hexdigest()[:8]
+torch/_inductor/codegen/nv_universal_gemm/__init__.py:2:from .nv_universal_gemm import (
+torch/_inductor/codegen/nv_universal_gemm/__init__.py:3:    add_nv_universal_gemm_choices,
+torch/_inductor/codegen/nv_universal_gemm/__init__.py:4:    add_nv_universal_grouped_gemm_choices,
+torch/_inductor/codegen/nv_universal_gemm/__init__.py:5:    add_nv_universal_scaled_gemm_choices,
+torch/_inductor/codegen/nv_universal_gemm/__init__.py:7:    NVUniversalGemmCaller,
+torch/_inductor/codegen/nv_universal_gemm/__init__.py:13:    "NVUniversalGemmCaller",
+torch/_inductor/codegen/nv_universal_gemm/__init__.py:14:    "add_nv_universal_gemm_choices",
+torch/_inductor/codegen/nv_universal_gemm/__init__.py:15:    "add_nv_universal_grouped_gemm_choices",
+torch/_inductor/codegen/nv_universal_gemm/__init__.py:16:    "add_nv_universal_scaled_gemm_choices",
+torch/_inductor/codegen/nv_universal_gemm/kernel_cache.py:3:Global kernel cache for NVIDIA Universal GEMM.
+torch/_inductor/codegen/nv_universal_gemm/nv_universal_gemm.py:3:NVIDIA Universal GEMM (NVGEMM) backend for PyTorch Inductor.
+torch/_inductor/codegen/nv_universal_gemm/nv_universal_gemm.py:21:from torch._inductor.codegen.nv_universal_gemm.nv_universal_gemm_utils import (
+torch/_inductor/codegen/nv_universal_gemm/nv_universal_gemm.py:26:from torch._inductor.template_heuristics.nv_universal_gemm import get_nvgemm_heuristics
+torch/_inductor/codegen/nv_universal_gemm/nv_universal_gemm.py:27:from torch._inductor.utils import ensure_nv_universal_gemm_available
+torch/_inductor/codegen/nv_universal_gemm/nv_universal_gemm.py:36:    Enum for different GEMM operation types supported by NVIDIA Universal GEMM.
+torch/_inductor/codegen/nv_universal_gemm/nv_universal_gemm.py:49:            return "nv_universal_grouped_gemm"
+torch/_inductor/codegen/nv_universal_gemm/nv_universal_gemm.py:51:            return "nv_universal_scaled_gemm"
+torch/_inductor/codegen/nv_universal_gemm/nv_universal_gemm.py:52:        return "nv_universal_gemm"
+torch/_inductor/codegen/nv_universal_gemm/nv_universal_gemm.py:62:class NVUniversalGemmBenchmarkRequest(GPUDeviceBenchmarkMixin, BenchmarkRequest):
+torch/_inductor/codegen/nv_universal_gemm/nv_universal_gemm.py:63:    """Benchmark request for NVIDIA Universal GEMM kernels."""
+torch/_inductor/codegen/nv_universal_gemm/nv_universal_gemm.py:96:        """Benchmark the NVIDIA Universal GEMM kernel.
+torch/_inductor/codegen/nv_universal_gemm/nv_universal_gemm.py:115:        """Create a function to run the NVIDIA Universal GEMM kernel."""
+torch/_inductor/codegen/nv_universal_gemm/nv_universal_gemm.py:190:class NVUniversalGemmCaller(ChoiceCaller):
+torch/_inductor/codegen/nv_universal_gemm/nv_universal_gemm.py:192:    ChoiceCaller for NVIDIA Universal GEMM kernels.
+torch/_inductor/codegen/nv_universal_gemm/nv_universal_gemm.py:230:        self.bmreq = NVUniversalGemmBenchmarkRequest(
+torch/_inductor/codegen/nv_universal_gemm/nv_universal_gemm.py:245:        return f"NVUniversalGemmCaller({self.kernel.metadata.kernel_name})"
+torch/_inductor/codegen/nv_universal_gemm/nv_universal_gemm.py:251:        from torch._inductor.ir import NVUniversalGemmBuffer
+torch/_inductor/codegen/nv_universal_gemm/nv_universal_gemm.py:253:        buffer = NVUniversalGemmBuffer(
+torch/_inductor/codegen/nv_universal_gemm/nv_universal_gemm.py:306:    Since NVGEMM doesn't support epilogue fusion yet (see nv_universal_gemm_scheduling.py),
+torch/_inductor/codegen/nv_universal_gemm/nv_universal_gemm.py:326:    Unified implementation for adding NVIDIA Universal GEMM choices.
+torch/_inductor/codegen/nv_universal_gemm/nv_universal_gemm.py:342:    from torch._inductor.codegen.nv_universal_gemm.kernel_cache import (
+torch/_inductor/codegen/nv_universal_gemm/nv_universal_gemm.py:431:        name = f"{variant.op_name}_{next(NVUniversalGemmCaller.index_counter)}"
+torch/_inductor/codegen/nv_universal_gemm/nv_universal_gemm.py:434:            caller = NVUniversalGemmCaller(
+torch/_inductor/codegen/nv_universal_gemm/nv_universal_gemm.py:455:def add_nv_universal_gemm_choices(
+torch/_inductor/codegen/nv_universal_gemm/nv_universal_gemm.py:462:    Add NVIDIA Universal GEMM kernels to the autotune choices.
+torch/_inductor/codegen/nv_universal_gemm/nv_universal_gemm.py:466:    if not ensure_nv_universal_gemm_available():
+torch/_inductor/codegen/nv_universal_gemm/nv_universal_gemm.py:467:        log.debug("cutlass_api not available, skipping NVIDIA Universal GEMM choices")
+torch/_inductor/codegen/nv_universal_gemm/nv_universal_gemm.py:480:def add_nv_universal_grouped_gemm_choices(
+torch/_inductor/codegen/nv_universal_gemm/nv_universal_gemm.py:487:    Add NVIDIA Universal Grouped GEMM kernels to the autotune choices.
+torch/_inductor/codegen/nv_universal_gemm/nv_universal_gemm.py:497:    if not ensure_nv_universal_gemm_available():
+torch/_inductor/codegen/nv_universal_gemm/nv_universal_gemm.py:499:            "cutlass_api not available, skipping NVIDIA Universal Grouped GEMM choices"
+torch/_inductor/codegen/nv_universal_gemm/nv_universal_gemm.py:512:def add_nv_universal_scaled_gemm_choices(
+torch/_inductor/codegen/nv_universal_gemm/nv_universal_gemm.py:520:    Add NVIDIA Universal Scaled GEMM (FP8) kernels to the autotune choices.
+torch/_inductor/codegen/nv_universal_gemm/nv_universal_gemm.py:526:    if not ensure_nv_universal_gemm_available():
+torch/_inductor/codegen/nv_universal_gemm/nv_universal_gemm_kernel.py:3:NVIDIA Universal GEMM kernel code generation.
+torch/_inductor/codegen/nv_universal_gemm/nv_universal_gemm_kernel.py:20:from torch._inductor.codegen.nv_universal_gemm.nv_universal_gemm_utils import (
+torch/_inductor/codegen/nv_universal_gemm/nv_universal_gemm_kernel.py:35:    from torch._inductor.codegen.nv_universal_gemm.nv_universal_gemm import GemmVariant
+torch/_inductor/codegen/nv_universal_gemm/nv_universal_gemm_kernel.py:41:class NVUniversalGemmKernelWrapper:
+torch/_inductor/codegen/nv_universal_gemm/nv_universal_gemm_kernel.py:42:    """Wrapper to provide .run() interface for NVIDIA Universal GEMM kernels."""
+torch/_inductor/codegen/nv_universal_gemm/nv_universal_gemm_kernel.py:49:        """Execute the NVIDIA Universal GEMM kernel."""
+torch/_inductor/codegen/nv_universal_gemm/nv_universal_gemm_kernel.py:53:class NVUniversalGemmKernel(Kernel):
+torch/_inductor/codegen/nv_universal_gemm/nv_universal_gemm_kernel.py:55:    Kernel implementation for NVIDIA Universal GEMM.
+torch/_inductor/codegen/nv_universal_gemm/nv_universal_gemm_kernel.py:99:        Render the NVIDIA Universal GEMM kernel code as a Python source string.
+torch/_inductor/codegen/nv_universal_gemm/nv_universal_gemm_kernel.py:103:           _nv_universal_gemm_kernel_cache to avoid repeated manifest searches)
+torch/_inductor/codegen/nv_universal_gemm/nv_universal_gemm_kernel.py:106:           _nv_universal_gemm_artifact_cache keyed by (shape, dtype) tuple)
+torch/_inductor/codegen/nv_universal_gemm/nv_universal_gemm_kernel.py:116:            via async_compile.nv_universal_gemm()
+torch/_inductor/codegen/nv_universal_gemm/nv_universal_gemm_kernel.py:118:        from torch._inductor.codegen.nv_universal_gemm.nv_universal_gemm import (
+torch/_inductor/codegen/nv_universal_gemm/nv_universal_gemm_kernel.py:200:            from torch._inductor.codegen.nv_universal_gemm.kernel_cache import get_kernel_by_name
+torch/_inductor/codegen/nv_universal_gemm/nv_universal_gemm_kernel.py:240:        Similar to CuteDSLTemplateKernel.call_kernel but simplified for NVIDIA Universal GEMM.
+torch/_inductor/codegen/nv_universal_gemm/nv_universal_gemm_scheduling.py:3:NVIDIA Universal GEMM scheduling for PyTorch Inductor.
+torch/_inductor/codegen/nv_universal_gemm/nv_universal_gemm_scheduling.py:20:from ...ir import NVUniversalGemmBuffer
+torch/_inductor/codegen/nv_universal_gemm/nv_universal_gemm_scheduling.py:36:class NVUniversalGemmScheduling(BaseScheduling):
+torch/_inductor/codegen/nv_universal_gemm/nv_universal_gemm_scheduling.py:38:    Scheduling implementation for NVIDIA Universal GEMM kernels.
+torch/_inductor/codegen/nv_universal_gemm/nv_universal_gemm_scheduling.py:49:    def is_nv_universal_gemm_template(node: BaseSchedulerNode) -> bool:
+torch/_inductor/codegen/nv_universal_gemm/nv_universal_gemm_scheduling.py:50:        """Check if a node is a NVIDIA Universal GEMM template."""
+torch/_inductor/codegen/nv_universal_gemm/nv_universal_gemm_scheduling.py:52:            node.node, NVUniversalGemmBuffer
+torch/_inductor/codegen/nv_universal_gemm/nv_universal_gemm_scheduling.py:55:    def is_nv_universal_gemm_fused_template(self, node: BaseSchedulerNode) -> bool:
+torch/_inductor/codegen/nv_universal_gemm/nv_universal_gemm_scheduling.py:56:        """Check if a node is a fused NVIDIA Universal GEMM template."""
+torch/_inductor/codegen/nv_universal_gemm/nv_universal_gemm_scheduling.py:59:        ) and self.is_nv_universal_gemm_template(node)
+torch/_inductor/codegen/nv_universal_gemm/nv_universal_gemm_scheduling.py:64:        # NVIDIA Universal GEMM templates don't support vertical fusion yet
+torch/_inductor/codegen/nv_universal_gemm/nv_universal_gemm_scheduling.py:70:        # NVIDIA Universal GEMM templates don't support horizontal fusion yet
+torch/_inductor/codegen/nv_universal_gemm/nv_universal_gemm_scheduling.py:75:        Define a NVIDIA Universal GEMM kernel by writing source code and generating wrapper.
+torch/_inductor/codegen/nv_universal_gemm/nv_universal_gemm_scheduling.py:91:        kernel_hash = hashlib.sha256(src_code.encode("utf-8")).hexdigest()[:8]
+torch/_inductor/codegen/nv_universal_gemm/nv_universal_gemm_scheduling.py:93:            kernel_name = f"nv_universal_gemm_{kernel_hash}"
+torch/_inductor/codegen/nv_universal_gemm/nv_universal_gemm_scheduling.py:95:            kernel_name = f"nv_universal_gemm_{fused_name}_{kernel_hash}"
+torch/_inductor/codegen/nv_universal_gemm/nv_universal_gemm_scheduling.py:105:            f"async_compile.nv_universal_gemm({kernel_name!r}, r'''"
+torch/_inductor/codegen/nv_universal_gemm/nv_universal_gemm_scheduling.py:124:        Codegen a NVIDIA Universal GEMM template. Currently doesn't support fusion.
+torch/_inductor/codegen/nv_universal_gemm/nv_universal_gemm_scheduling.py:126:        assert self.is_nv_universal_gemm_template(template_node), (
+torch/_inductor/codegen/nv_universal_gemm/nv_universal_gemm_scheduling.py:127:            "Template node passed to NVUniversalGemmScheduling.codegen_template must be a "
+torch/_inductor/codegen/nv_universal_gemm/nv_universal_gemm_scheduling.py:128:            "SchedulerNode that wraps a NVUniversalGemmBuffer"
+torch/_inductor/codegen/nv_universal_gemm/nv_universal_gemm_scheduling.py:132:            "NVIDIA Universal GEMM doesn't support epilogue fusion yet"
+torch/_inductor/codegen/nv_universal_gemm/nv_universal_gemm_scheduling.py:135:            "NVIDIA Universal GEMM doesn't support prologue fusion yet"
+torch/_inductor/codegen/nv_universal_gemm/nv_universal_gemm_scheduling.py:139:        ctb: NVUniversalGemmBuffer = cast(NVUniversalGemmBuffer, template_node.node)
+torch/_inductor/codegen/nv_universal_gemm/nv_universal_gemm_utils.py:3:Utility functions for NVIDIA Universal GEMM.
+torch/_inductor/codegen/pallas.py:1734:                # fall within the r_var's traversal range
+torch/_inductor/codegen/pallas.py:4475:        kernel_hash = hashlib.sha256(src_code.encode("utf-8")).hexdigest()[:8]
+torch/_inductor/codegen/rocm/ck_conv_template.py:496:        # The Jinja template for generating a C++ type alias *definition* for a Universal GEMM instance
+torch/_inductor/codegen/rocm/ck_conv_template.py:504:        # The Jinja template for generating a C++ type alias *usage* for a Universal GEMM instance
+torch/_inductor/codegen/rocm/ck_tile_universal_gemm_template.py:83:        return "ck_tile_gemm_universal_" + "_".join(
+torch/_inductor/codegen/rocm/ck_tile_universal_gemm_template.py:229:    This class is used for rendering CK-Tile Universal GEMM kernels
+torch/_inductor/codegen/rocm/ck_tile_universal_gemm_template.py:248:        auto kargs = ck_tile::UniversalGemmKernelArgs<> {
+torch/_inductor/codegen/rocm/ck_tile_universal_gemm_template.py:647:        using GemmUniversalTraits =
+torch/_inductor/codegen/rocm/ck_tile_universal_gemm_template.py:648:            ck_tile::TileGemmUniversalTraits<kPadM, kPadN, kPadK, DoubleSmemBuffer,
+torch/_inductor/codegen/rocm/ck_tile_universal_gemm_template.py:657:        using UniversalGemmProblem =
+torch/_inductor/codegen/rocm/ck_tile_universal_gemm_template.py:658:            ck_tile::UniversalGemmPipelineProblem<ADataType,
+torch/_inductor/codegen/rocm/ck_tile_universal_gemm_template.py:662:                                                  GemmUniversalTraits,
+torch/_inductor/codegen/rocm/ck_tile_universal_gemm_template.py:729:            using GemmPipeline = ck_tile::GemmPipelineAgBgCr{pipeline_type}<UniversalGemmProblem<has_hot_loop_v, tail_number_v>>;
+torch/_inductor/codegen/rocm/ck_tile_universal_gemm_template.py:877:                "No Composable Kernel Universal GEMM instances found. "
+torch/_inductor/codegen/rocm/ck_tile_universal_gemm_template.py:906:        Add Composable Kernel Universal GEMM instance choices to the auto-tuning list.
+torch/_inductor/codegen/rocm/ck_universal_gemm_template.py:66:    # the JINJA template for rendering CK Universal GEMMs
+torch/_inductor/codegen/rocm/ck_universal_gemm_template.py:567:        # The Jinja template for generating a C++ type alias *definition* for a Universal GEMM instance
+torch/_inductor/codegen/rocm/ck_universal_gemm_template.py:580:        # The Jinja template for generating a C++ type alias *usage* for a Universal GEMM instance
+torch/_inductor/codegen/rocm/ck_universal_gemm_template.py:916:            from ck4inductor.batched_universal_gemm.gen_instances import (  # type: ignore[import]
+torch/_inductor/codegen/rocm/ck_universal_gemm_template.py:919:            from ck4inductor.universal_gemm.gen_instances import (  # type: ignore[import]
+torch/_inductor/codegen/rocm/ck_universal_gemm_template.py:974:        Add Composable Kernel Universal GEMM instance choices to the auto-tuning list.
+torch/_inductor/config.py:590:# NVGEMM: NVIDIA Universal GEMM via cutlass_api (NVidia GPUs only).
+torch/_inductor/config.py:599:# Configures the maximum number of NVIDIA Universal GEMM (NVGEMM) configs to profile
+torch/_inductor/config.py:2230:    # Configures the maximum number of NVIDIA Universal GEMM (NVGEMM) configs to profile in max_autotune.
+torch/_inductor/custom_graph_pass.py:115:    hasher = hashlib.sha256()
+torch/_inductor/debug.py:883:    and post_grad graph code nodes, and vice versa.
+torch/_inductor/debug.py:978:    graph code nodes, and vice versa.
+torch/_inductor/ir.py:5636:class NVUniversalGemmBuffer(TemplateBuffer):
+torch/_inductor/ir.py:5638:    Buffer for NVIDIA Universal GEMM kernels.
+torch/_inductor/ir.py:5691:        - kernel: NVUniversalGemmKernel object with call_kernel() method
+torch/_inductor/ir.py:5694:        from torch._inductor.codegen.nv_universal_gemm.nv_universal_gemm_kernel import (
+torch/_inductor/ir.py:5695:            NVUniversalGemmKernel,
+torch/_inductor/ir.py:5709:        render_kernel = NVUniversalGemmKernel(
+torch/_inductor/ir.py:8764:    """View a complex number as two dtyped numbers or vice versa"""
+torch/_inductor/kernel/bmm.py:7:from torch._inductor.codegen.rocm.ck_universal_gemm_template import CKGemmTemplate
+torch/_inductor/kernel/bmm.py:25:    use_nv_universal_gemm_template,
+torch/_inductor/kernel/bmm.py:223:    if is_nonzero and use_nv_universal_gemm_template(layout, m, n, k, mat1, mat2):
+torch/_inductor/kernel/bmm.py:224:        from ..codegen.nv_universal_gemm import add_nv_universal_gemm_choices
+torch/_inductor/kernel/bmm.py:226:        add_nv_universal_gemm_choices(choices, layout, kernel_inputs)
+torch/_inductor/kernel/mm.py:24:from ..codegen.rocm.ck_tile_universal_gemm_template import CKTileGemmTemplate
+torch/_inductor/kernel/mm.py:25:from ..codegen.rocm.ck_universal_gemm_template import CKGemmTemplate
+torch/_inductor/kernel/mm.py:52:    use_nv_universal_gemm_template,
+torch/_inductor/kernel/mm.py:476:        and use_nv_universal_gemm_template(layout, m, n, k, mat1, mat2)
+torch/_inductor/kernel/mm.py:478:        from ..codegen.nv_universal_gemm import add_nv_universal_gemm_choices
+torch/_inductor/kernel/mm.py:480:        add_nv_universal_gemm_choices(choices, layout, kernel_inputs)
+torch/_inductor/kernel/mm.py:1028:    if is_nonzero and use_nv_universal_gemm_template(layout, m, n, k, mat_a, mat_b):
+torch/_inductor/kernel/mm.py:1029:        from ..codegen.nv_universal_gemm import add_nv_universal_scaled_gemm_choices
+torch/_inductor/kernel/mm.py:1031:        add_nv_universal_scaled_gemm_choices(
+torch/_inductor/kernel/mm_grouped.py:28:    use_nv_universal_gemm_template,
+torch/_inductor/kernel/mm_grouped.py:431:        and use_nv_universal_gemm_template(layout, m, n, k, mat_a, mat_b, offs, g)
+torch/_inductor/kernel/mm_grouped.py:433:        from torch._inductor.codegen.nv_universal_gemm.nv_universal_gemm import (
+torch/_inductor/kernel/mm_grouped.py:434:            add_nv_universal_grouped_gemm_choices,
+torch/_inductor/kernel/mm_grouped.py:437:        add_nv_universal_grouped_gemm_choices(
+torch/_inductor/memory.py:808:    # A back edge (cycle) is detected when we encounter a GRAY node during DFS traversal
+torch/_inductor/runtime/autotune_cache.py:140:        # base of filename is already sha256 hash the source contents
+torch/_inductor/runtime/autotune_cache.py:142:        return hashlib.sha256(key.encode("utf-8")).hexdigest()
+torch/_inductor/runtime/autotune_cache.py:187:        hasher = hashlib.sha256()
+torch/_inductor/runtime/autotune_cache.py:217:        key = hashlib.sha256(key.encode("utf-8")).hexdigest()
+torch/_inductor/runtime/autotune_cache.py:478:        key = hashlib.sha256(key.encode("utf-8")).hexdigest()
+torch/_inductor/runtime/caching/context.py:12:from hashlib import sha256
+torch/_inductor/runtime/caching/context.py:308:    return sha256(
+torch/_inductor/runtime/caching/implementations.py:13:from hashlib import sha256
+torch/_inductor/runtime/caching/implementations.py:229:        return sha256(str(cls._version).encode()).digest()[: cls._version_header_length]
+torch/_inductor/runtime/caching/interfaces.py:17:from hashlib import sha256
+torch/_inductor/runtime/caching/interfaces.py:382:        hash_obj = sha256(pickled_params)
+torch/_inductor/runtime/triton_heuristics.py:133:    fn_hash = hashlib.sha256(hash_str.encode("utf-8")).hexdigest()
+torch/_inductor/runtime/triton_heuristics.py:2301:    hasher = hashlib.sha256()
+torch/_inductor/scheduler.py:5060:        Finds whether there's a path from node1 to node2 (or vice-versa)
+torch/_inductor/select_algorithm.py:1991:        super().__init__(name, hash=hashlib.sha256(source.encode("utf-8")).hexdigest())
+torch/_inductor/template_heuristics/__init__.py:8:    nv_universal_gemm,
+torch/_inductor/template_heuristics/nv_universal_gemm.py:83:class NVUniversalGemmHeuristics(GemmMaxAutotuneTemplateConfigHeuristics):
+torch/_inductor/template_heuristics/nv_universal_gemm.py:388:# Singleton instance for use in add_nv_universal_gemm_choices
+torch/_inductor/template_heuristics/nv_universal_gemm.py:389:_nvgemm_heuristics: NVUniversalGemmHeuristics | None = None
+torch/_inductor/template_heuristics/nv_universal_gemm.py:392:def get_nvgemm_heuristics() -> NVUniversalGemmHeuristics:
+torch/_inductor/template_heuristics/nv_universal_gemm.py:393:    """Get the singleton NVUniversalGemmHeuristics instance."""
+torch/_inductor/template_heuristics/nv_universal_gemm.py:396:        _nvgemm_heuristics = NVUniversalGemmHeuristics()
+torch/_inductor/utils.py:1413:    # inner dimension should come before an outer dimension, and vice versa
+torch/_inductor/utils.py:2013:def ensure_nv_universal_gemm_available() -> bool:
+torch/_inductor/utils.py:2014:    """Check if NVIDIA Universal GEMM (cutlass_api) is importable; cache the result for reuse.
+torch/_inductor/utils.py:2016:    Call ensure_nv_universal_gemm_available.cache_clear() after installing cutlass_api
+torch/_inductor/utils.py:2181:def use_nv_universal_gemm_template(
+torch/_inductor/utils.py:2192:    Return True if we can use the NVIDIA Universal GEMM Template.
+torch/_inductor/utils.py:2216:    if not ensure_nv_universal_gemm_available():
+torch/_inductor/utils.py:2377:        from ck4inductor.universal_gemm.gen_instances import (  # type: ignore[import]
+torch/_inductor/utils.py:2381:        from ck4inductor.universal_gemm.op import (  # type: ignore[import]
+torch/_native/README.md:154:Some universal utilities are provided in `common_utils.py`:
+torch/_numpy/testing/utils.py:1964:    Like ``catch_warnings`` this context manager is not threadsafe.
+torch/_refs/__init__.py:3908:    # if a reshape from (5, 5) to (5, 5, 1) or vice versa.
+torch/_tensor.py:932:        # If get_infos is True, then we don't need to check for errors and vice versa
+torch/_tensor_docs.py:3719:and vice versa.
+torch/_tensor_docs.py:6007:        and destination is on the GPU or vice versa, the copy is performed
+torch/_torch_docs.py:4368:the tensor will be reflected in the :attr:`ndarray` and vice versa. The returned
+torch/_torch_docs.py:4414:the tensor will be reflected in the buffer and vice versa. The returned
+torch/_utils.py:32:            and destination is on the GPU or vice versa, the copy is performed
+torch/_utils.py:314:                # TODO: Validation currently involves an expensive traversal
+torch/backends/_coreml/preprocess.py:152:        "hash": str(hashlib.sha256(mlmodel).hexdigest()),
+torch/backends/xeon/run_cpu.py:158:            # # The following is the parsable format, which can be fed to other
+torch/backends/xeon/run_cpu.py:168:                    lscpu_cmd, universal_newlines=True
+torch/cpu/__init__.py:56:        - Other: f16c, bmi, bmi2, popcnt, lzcnt, aes, sha, clflush, clflushopt, clwb
+torch/cpu/__init__.py:62:        - Other: atomics, fhm, rdm, crc32, aes, sha1, sha2, pmull
+torch/csrc/README.md:6:versa.
+torch/csrc/api/include/torch/nn/module.h:283:  /// destination is on the GPU or vice versa, the copy is performed
+torch/csrc/api/include/torch/nn/module.h:294:  /// destination is on the GPU or vice versa, the copy is performed
+torch/csrc/api/include/torch/nn/module.h:302:  /// destination is on the GPU or vice versa, the copy is performed
+torch/csrc/api/include/torch/nn/modules/container/any_value.h:108:    /// A template because T&& would not be universal reference here.
+torch/csrc/autograd/functions/accumulate_grad.h:283:      // auto result = variable_grad + new_grad (or vice versa), checking
+torch/csrc/autograd/init.cpp:1063:// Lambda returning true means short circuit, traversal stops after that.
+torch/csrc/autograd/python_cpp_function.cpp:90:    // NOTE [retains_grad_hook PyObject traversal]
+torch/csrc/autograd/python_variable.cpp:3735:/// NOTE [ PyObject Traversal ]
+torch/csrc/autograd/python_variable.cpp:3787:    // WARNING: The grad_fn traversal logic is very subtle, if you change
+torch/csrc/autograd/python_variable.cpp:3791:    // We ensure that we follow NOTE [ PyObject Traversal ] he by checking
+torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:1591:    // doing anything and just let things leak. Adversarial example:
+torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:2338:        // look like, so it is better to let all ranks universally sleep for a
+torch/csrc/distributed/c10d/cuda/AsyncMM.cu:30:#include <cutlass/gemm/device/gemm_universal_adapter.h>
+torch/csrc/distributed/c10d/cuda/AsyncMM.cu:35:#include <cutlass/gemm/kernel/gemm_universal.hpp>
+torch/csrc/distributed/c10d/cuda/AsyncMM.cu:107:  using GemmKernel = cutlass::gemm::kernel::GemmUniversal<
+torch/csrc/distributed/c10d/cuda/AsyncMM.cu:112:  using Gemm = cutlass::gemm::device::GemmUniversalAdapter<GemmKernel>;
+torch/csrc/distributed/c10d/cuda/AsyncMM.cu:145:      cutlass::gemm::GemmUniversalMode::kGemm,
+torch/csrc/distributed/c10d/cuda/cutlass/gemm/kernel/persistent_async_input_scheduler.cuh:20: * using GemmKernel = cutlass::gemm::kernel::GemmUniversal<
+torch/csrc/distributed/c10d/reducer.cpp:1505:        "results in an extra traversal of the autograd graph every iteration, "
+torch/csrc/distributed/c10d/symm_mem/nvshmem_extension.cu:437:    // (or vice versa).
+torch/csrc/dynamo/guards.cpp:3196:    //      All tags match means guard passes with no further traversal.
+torch/csrc/jit/api/module.h:198:  /// destination is on the GPU or vice versa, the copy is performed
+torch/csrc/jit/api/module.h:206:  /// destination is on the GPU or vice versa, the copy is performed
+torch/csrc/jit/api/module.h:214:  /// destination is on the GPU or vice versa, the copy is performed
+torch/csrc/jit/api/module.h:398:// traversal of the module. The Policy template parameter determines
+torch/csrc/jit/api/module.h:457:  // advance to the next slot in a depth first pre-order traversal of the
+torch/csrc/jit/api/module.h:468:    // the last traversal action advanced beyond the number of slots in the
+torch/csrc/jit/api/module.h:478:    // traversals. We do this by adding a new SlotCursor to track the traversal.
+torch/csrc/jit/codegen/fuser/compiler.cpp:99:// Run a DFS traversal to find all inputs that affect a given output value
+torch/csrc/jit/codegen/fuser/cpu/fused_kernel.cpp:98:  // Checking whether the activation script `vcvarsall.bat` exists
+torch/csrc/jit/codegen/fuser/cpu/fused_kernel.cpp:104:  path += L"\\vcvarsall.bat";
+torch/csrc/jit/frontend/concrete_module_type.h:35:// ConcreteModuleType can share a JIT type, and vice versa.
+torch/csrc/jit/ir/ir.cpp:1595:  // vector traversal still is probably faster than linked list
+torch/csrc/jit/passes/bailout_graph.cpp:241:    // Returns an int so that we have an easy way to do graph traversal
+torch/csrc/jit/passes/loop_unrolling.cpp:276:  // we do a pre-order traversal to reduce the number
+torch/csrc/jit/passes/onnx/fixup_onnx_controlflow.cpp:327:    // vice-versa.
+torch/csrc/jit/passes/symbolic_shape_analysis.cpp:400:    // vice versa. to do this we collect all Value * for a particular symbolic
+torch/csrc/jit/passes/utils/memory_dag.h:100:  // Does `a` hold reference to any memory that is stored in `b`, or vice versa?
+torch/csrc/jit/runtime/graph_iterator.h:50:      // the end of the traversal.
+torch/csrc/jit/runtime/interpreter/can_emit_inline.h:24:traversal from where it is used in a tree.
+torch/csrc/jit/runtime/interpreter/can_emit_inline.h:33:these traversal line up we know it is safe to emit the tree in this way. We
+torch/csrc/jit/runtime/register_prim_ops_fulljit.cpp:217:          // Returns an int so that we have an easy way to do graph traversal
+torch/csrc/jit/runtime/static/ops.cpp:1623:// NB: This impl doesn't work for cpu->cuda copy/cast or vice versa.
+torch/csrc/jit/serialization/python_print.cpp:214:  // we do a left-to-right postorder traversal of the expression tree (emit
+torch/csrc/jit/serialization/python_print.cpp:216:  // traversal of the tree. By doing a right-to-left preorder traversal of the
+torch/csrc/jit/serialization/python_print.cpp:268:  // nodes v is the current value in the tree traversal that may match with
+torch/csrc/jit/serialization/python_print.cpp:276:                        // tree traversal
+torch/csrc/jit/tensorexpr/loopnest.h:377:  // each with shape (x_factor, y_factor). The traversal over the domain turns
+torch/csrc/jit/tensorexpr/loopnest.h:378:  // into an outer iteration over the blocks and an inner traversal over all
+torch/csrc/jit/tensorexpr/lowerings.cpp:503:              // value needs to promote to input, not vice versa
+torch/csrc/lazy/backend/backend_device.h:69:// Helpers for converting a c10::Device to BackendDevice and vice versa.
+torch/csrc/lazy/core/tensor.h:176:// Utils to convert at::Tensor to LazyTensor, and vice versa.
+torch/csrc/profiler/collection.cpp:1442:    // Only begin traversal for root nodes.
+torch/csrc/profiler/standalone/execution_trace_observer.cpp:7:#include <processthreadsapi.h>
+torch/csrc/utils/python_arg_parser.cpp:1632:  // Note that this dict traversal is NoGil safe as the kwargs dict is only
+torch/distributed/checkpoint/_nested_dict.py:51:    # traversal so that we can reconstruct those checkpoints.
+torch/distributed/checkpoint/_traverse.py:79:    Traversal is short-circuited when if finds a collection for which ``keep_visiting_tensors`` evaluates
+torch/distributed/checkpoint/state_dict.py:176:        The canonical FQNs based on the model traversal.
+torch/distributed/fsdp/_common_utils.py:65:    ``tree_flatten``).  Uses the same traversal order as
+torch/distributed/fsdp/_common_utils.py:107:    Tensors are consumed from tensor_iter in the same traversal order as
+torch/distributed/fsdp/_common_utils.py:301:        # Save these static lists to avoid the repeated tree traversals
+torch/distributed/fsdp/_common_utils.py:463:            shared parameter in the module traversal; if ``False``, then
+torch/distributed/fsdp/_common_utils.py:491:                    # overwrite the flat_parameters traversal result to only obtain
+torch/distributed/fsdp/_common_utils.py:551:    Performs a pre-order traversal of the modules in the hierarchy rooted at
+torch/distributed/fsdp/_common_utils.py:553:    returning a value using ``return_fn``. The traversal constructs the full
+torch/distributed/fsdp/_common_utils.py:583:                    # DMP's named_parameter() will mess up the traversal with
+torch/distributed/fsdp/_common_utils.py:585:                    # This hack is a must to make the traversal work.
+torch/distributed/fsdp/_exec_order_utils.py:8:import torch.distributed.fsdp._traversal_utils as traversal_utils
+torch/distributed/fsdp/_exec_order_utils.py:75:        for handle in traversal_utils._get_fsdp_handles(root_module):
+torch/distributed/fsdp/_init_utils.py:12:import torch.distributed.fsdp._traversal_utils as traversal_utils
+torch/distributed/fsdp/_init_utils.py:693:        if not traversal_utils._composable(module):
+torch/distributed/fsdp/_init_utils.py:876:    # refactoring the initialization holistically to avoid so many traversals.
+torch/distributed/fsdp/_optim_utils.py:14:import torch.distributed.fsdp._traversal_utils as traversal_utils
+torch/distributed/fsdp/_optim_utils.py:1954:    _reset_flat_param_grad_info_if_needed(traversal_utils._get_fsdp_handles(model))
+torch/distributed/fsdp/_runtime_utils.py:10:import torch.distributed.fsdp._traversal_utils as traversal_utils
+torch/distributed/fsdp/_runtime_utils.py:66:    traversal order (which is assumed to be depth-first).
+torch/distributed/fsdp/_runtime_utils.py:137:    state._all_fsdp_states = traversal_utils._get_fsdp_states(root_module)
+torch/distributed/fsdp/_runtime_utils.py:152:    for handle in traversal_utils._get_fsdp_handles(module):
+torch/distributed/fsdp/_runtime_utils.py:544:            handles = traversal_utils._get_fsdp_handles(module)
+torch/distributed/fsdp/_runtime_utils.py:1595:    fsdp_states, fsdp_modules = traversal_utils._get_fsdp_states_with_modules(
+torch/distributed/fsdp/_traversal_utils.py:3:``import torch.distributed.fsdp._traversal_utils`` and not like
+torch/distributed/fsdp/_traversal_utils.py:4:``from torch.distributed.fsdp._traversal_utils import ...`` to avoid circular
+torch/distributed/fsdp/_traversal_utils.py:5:imports. For brevity, we may import the file as ``traversal_utils``.
+torch/distributed/fsdp/_traversal_utils.py:16:[Note: FSDP State Traversal]
+torch/distributed/fsdp/_traversal_utils.py:22:There are three common traversal idioms: Given a root module,
+torch/distributed/fsdp/_traversal_utils.py:30:traversal, whereas ``nn.Module`` has ``nn.Module.modules()`` for traversal.
+torch/distributed/fsdp/_traversal_utils.py:55:    traversal order (which is assumed to be depth-first).
+torch/distributed/fsdp/_traversal_utils.py:64:    NOTE: The traversal does not proceed into any module annotated by an
+torch/distributed/fsdp/_unshard_param_utils.py:8:import torch.distributed.fsdp._traversal_utils as traversal_utils
+torch/distributed/fsdp/_unshard_param_utils.py:296:        states_and_modules = traversal_utils._get_fsdp_states_with_modules(module)
+torch/distributed/fsdp/_wrap_utils.py:36:    following a post-order traversal.
+torch/distributed/fsdp/_wrap_utils.py:40:    forwarded into the post-order traversal function.
+torch/distributed/fsdp/_wrap_utils.py:185:    This returns the named modules following a post-order traversal, which is a
+torch/distributed/fsdp/_wrap_utils.py:244:    # Run BFS (or any tree traversal works)
+torch/distributed/fsdp/fully_sharded_data_parallel.py:16:import torch.distributed.fsdp._traversal_utils as traversal_utils
+torch/distributed/fsdp/fully_sharded_data_parallel.py:257:            ``recurse=False`` or if the traversal should continue into the
+torch/distributed/fsdp/fully_sharded_data_parallel.py:567:        return traversal_utils._get_fsdp_states(module)
+torch/distributed/fsdp/fully_sharded_data_parallel.py:604:            for module in traversal_utils._get_fsdp_states(self):
+torch/distributed/fsdp/fully_sharded_data_parallel.py:717:        for submodule in traversal_utils._get_fsdp_states(module):
+torch/distributed/fsdp/fully_sharded_data_parallel.py:950:        for fsdp_module in traversal_utils._get_fsdp_states(self):
+torch/distributed/fsdp/fully_sharded_data_parallel.py:955:            for fsdp_module in traversal_utils._get_fsdp_states(self):
+torch/distributed/fsdp/fully_sharded_data_parallel.py:2025:        for fsdp_state in traversal_utils._get_fsdp_states(self):
+torch/distributed/fsdp/wrap.py:37:    following a post-order traversal. If ``fn`` returns an :class:`nn.Module`,
+torch/distributed/tensor/_ops/strategy_validation.py:270:    Uses pytree traversal to match the same order as _replace_with_local
+torch/distributed/tensor/examples/torchrec_sharding_example.py:67:        # TensorStorageMetadata that includes it. Vice versa, the wrapper's properties
+torch/distributions/__init__.py:59::meth:`~torch.distributions.Distribution.rsample` method, where the
+torch/distributions/__init__.py:67:    # Any distribution with .has_rsample == True could work based on the application
+torch/distributions/__init__.py:68:    action = m.rsample()
+torch/distributions/beta.py:39:    has_rsample = True
+torch/distributions/beta.py:84:    def rsample(self, sample_shape: _size = ()) -> Tensor:
+torch/distributions/beta.py:85:        return self._dirichlet.rsample(sample_shape).select(-1, 0)
+torch/distributions/cauchy.py:36:    has_rsample = True
+torch/distributions/cauchy.py:76:    def rsample(self, sample_shape: _size = torch.Size()) -> Tensor:
+torch/distributions/continuous_bernoulli.py:53:    has_rsample = True
+torch/distributions/continuous_bernoulli.py:182:    def rsample(self, sample_shape: _size = torch.Size()) -> Tensor:
+torch/distributions/dirichlet.py:59:    has_rsample = True
+torch/distributions/dirichlet.py:85:    def rsample(self, sample_shape: _size = ()) -> Tensor:
+torch/distributions/distribution.py:25:    has_rsample = False
+torch/distributions/distribution.py:173:            return self.rsample(sample_shape)
+torch/distributions/distribution.py:175:    def rsample(self, sample_shape: _size = torch.Size()) -> Tensor:
+torch/distributions/exponential.py:32:    has_rsample = True
+torch/distributions/exponential.py:68:    def rsample(self, sample_shape: _size = torch.Size()) -> Tensor:
+torch/distributions/fishersnedecor.py:34:    has_rsample = True
+torch/distributions/fishersnedecor.py:86:    def rsample(self, sample_shape: _size = torch.Size(())) -> Tensor:
+torch/distributions/fishersnedecor.py:90:        X1 = self._gamma1.rsample(sample_shape).view(shape)
+torch/distributions/fishersnedecor.py:91:        X2 = self._gamma2.rsample(sample_shape).view(shape)
+torch/distributions/gamma.py:42:    has_rsample = True
+torch/distributions/gamma.py:79:    def rsample(self, sample_shape: _size = torch.Size()) -> Tensor:
+torch/distributions/generalized_pareto.py:44:    has_rsample = True
+torch/distributions/generalized_pareto.py:70:    def rsample(self, sample_shape=torch.Size()):
+torch/distributions/half_cauchy.py:36:    has_rsample = True
+torch/distributions/half_normal.py:36:    has_rsample = True
+torch/distributions/independent.py:85:    def has_rsample(self) -> bool:  # type: ignore[override]
+torch/distributions/independent.py:86:        return self.base_dist.has_rsample
+torch/distributions/independent.py:117:    def rsample(self, sample_shape: _size = torch.Size()) -> Tensor:
+torch/distributions/independent.py:118:        return self.base_dist.rsample(sample_shape)
+torch/distributions/inverse_gamma.py:42:    has_rsample = True
+torch/distributions/kumaraswamy.py:48:    has_rsample = True
+torch/distributions/laplace.py:33:    has_rsample = True
+torch/distributions/laplace.py:73:    def rsample(self, sample_shape: _size = torch.Size()) -> Tensor:
+torch/distributions/log_normal.py:36:    has_rsample = True
+torch/distributions/logistic_normal.py:40:    has_rsample = True
+torch/distributions/lowrank_multivariate_normal.py:95:    has_rsample = True
+torch/distributions/lowrank_multivariate_normal.py:214:    def rsample(self, sample_shape: _size = torch.Size()) -> Tensor:
+torch/distributions/mixture_same_family.py:57:    has_rsample = False
+torch/distributions/multivariate_normal.py:133:    has_rsample = True
+torch/distributions/multivariate_normal.py:251:    def rsample(self, sample_shape: _size = torch.Size()) -> Tensor:
+torch/distributions/normal.py:36:    has_rsample = True
+torch/distributions/normal.py:82:    def rsample(self, sample_shape: _size = torch.Size()) -> Tensor:
+torch/distributions/one_hot_categorical.py:138:    has_rsample = True
+torch/distributions/one_hot_categorical.py:140:    def rsample(self, sample_shape: _size = torch.Size()) -> Tensor:
+torch/distributions/relaxed_bernoulli.py:104:    def rsample(self, sample_shape: _size = torch.Size()) -> Tensor:
+torch/distributions/relaxed_bernoulli.py:146:    has_rsample = True
+torch/distributions/relaxed_categorical.py:45:    has_rsample = True
+torch/distributions/relaxed_categorical.py:87:    def rsample(self, sample_shape: _size = torch.Size()) -> Tensor:
+torch/distributions/relaxed_categorical.py:133:    has_rsample = True
+torch/distributions/studentT.py:40:    has_rsample = True
+torch/distributions/studentT.py:87:    def rsample(self, sample_shape: _size = torch.Size()) -> Tensor:
+torch/distributions/studentT.py:97:        Z = self._chi2.rsample(sample_shape)
+torch/distributions/transformed_distribution.py:140:    def has_rsample(self) -> bool:  # type: ignore[override]
+torch/distributions/transformed_distribution.py:141:        return self.base_dist.has_rsample
+torch/distributions/transformed_distribution.py:156:    def rsample(self, sample_shape: _size = torch.Size()) -> Tensor:
+torch/distributions/transformed_distribution.py:163:        x = self.base_dist.rsample(sample_shape)
+torch/distributions/transforms.py:62:    However the following will error when caching due to dependency reversal::
+torch/distributions/uniform.py:31:    has_rsample = True
+torch/distributions/uniform.py:85:    def rsample(self, sample_shape: _size = torch.Size()) -> Tensor:
+torch/distributions/von_mises.py:131:    has_rsample = False
+torch/distributions/wishart.py:68:    has_rsample = True
+torch/distributions/wishart.py:239:            self._dist_chi2.rsample(sample_shape).sqrt()
+torch/distributions/wishart.py:251:    def rsample(
+torch/distributions/wishart.py:260:            or adjust `max_try_correction` value for argument in `.rsample` accordingly.
+torch/export/unflatten.py:1812:    # explicitly want duplicate modules to show up in the traversal.
+torch/functional.py:2152:    # If get_infos is True, then we don't need to check for errors and vice versa
+torch/fx/_graph_pickler.py:207:            max_depth: Maximum recursion depth before stopping traversal.
+torch/fx/_graph_pickler.py:209:            verbose: If True, prints detailed traversal information.
+torch/fx/experimental/symbolic_shapes.py:1036:    from sympy.core.traversal import iterargs
+torch/fx/experimental/symbolic_shapes.py:5669:        # vice versa.  However, consider an analogous case (1,) versus (2,).
+torch/fx/experimental/symbolic_shapes.py:7361:                        t.is_integer for t in sympy.preorder_traversal(r[1])
+torch/fx/experimental/symbolic_shapes.py:7490:        attempt = int(hashlib.sha256(source_name.encode()).hexdigest(), 16) % 100
+torch/fx/graph_module.py:393:        base64.b32encode(hashlib.sha256(hashing_str).digest())[:51]
+torch/fx/interpreter.py:77:        ``torch.sigmoid`` and vice versa (including their ``Tensor``
+torch/fx/interpreter.py:530:        ``torch.sigmoid`` and vice versa (including their ``Tensor``
+torch/fx/passes/infra/pass_manager.py:221:        Finds a valid traversal order based on the given constraints and orders
+torch/fx/passes/net_min_base.py:98:        1. Sequential traversal: this will traverse the graph node by node and generate
+torch/fx/passes/net_min_base.py:100:        2. Binary searching: this will do a binary search style traversal on the graph.
+torch/fx/passes/net_min_base.py:763:        # find_all is not supported for accumulate traversal because all the
+torch/fx/passes/net_min_base.py:766:            print("'Find All' mode is not supported in accumulate traversal.")
+torch/fx/passes/splitter_base.py:1056:        # We start graph traversal from leaf nodes
+torch/fx/passes/utils/matcher_utils.py:208:                # traversal
+torch/fx/passes/utils/matcher_utils.py:230:        # traversal
+torch/fx/passes/utils/matcher_utils.py:341:        pattern and target graphs. For every pattern nodes along traversal path, we compare it
+torch/fx/passes/utils/matcher_utils.py:351:        Notice: graph traversal must be done in the reverser order because a tensor can have multiple
+torch/headeronly/macros/Macros.h:285:// and versatility across all architectures.
+torch/headeronly/macros/Macros.h:309:              // versatility across all architectures.
+torch/hub.py:148:        # Check for directory traversal attempts
+torch/hub.py:157:                f"Archive entry contains directory traversal: {member.filename}"
+torch/hub.py:759:            sha256 = hashlib.sha256() if hash_prefix is not None else None
+torch/hub.py:772:                    if sha256 is not None:
+torch/hub.py:773:                        sha256.update(buffer)
+torch/hub.py:777:            if sha256 is not None and hash_prefix is not None:
+torch/hub.py:778:                digest = sha256.hexdigest()
+torch/hub.py:855:            ``filename-<sha256>.ext`` where ``<sha256>`` is the first eight or more
+torch/nn/attention/flex_attention.py:171:    Allows optimizing block traversal. For example, causal masks would satisfy this,
+torch/nn/modules/loss.py:1538:    (have a larger value) than the second input, and vice-versa for :math:`y = -1`.
+torch/nn/utils/parametrizations.py:554:    in Generative Adversarial Networks (GANs) by reducing the Lipschitz constant
+torch/nn/utils/parametrizations.py:561:    See `Spectral Normalization for Generative Adversarial Networks`_ .
+torch/nn/utils/parametrizations.py:564:    .. _`Spectral Normalization for Generative Adversarial Networks`: https://arxiv.org/abs/1802.05957
+torch/nn/utils/spectral_norm.py:280:    in Generative Adversarial Networks (GANs) by rescaling the weight tensor
+torch/nn/utils/spectral_norm.py:287:    See `Spectral Normalization for Generative Adversarial Networks`_ .
+torch/nn/utils/spectral_norm.py:289:    .. _`Spectral Normalization for Generative Adversarial Networks`: https://arxiv.org/abs/1802.05957
+torch/onnx/_internal/exporter/_ir_passes.py:59:    for node in ir.traversal.RecursiveGraphIterator(model.graph):
+torch/onnx/_internal/exporter/_ir_passes.py:64:        for node in ir.traversal.RecursiveGraphIterator(function):
+torch/onnx/_internal/exporter/_ir_passes.py:154:    for node in ir.traversal.RecursiveGraphIterator(model.graph):
+torch/onnx/_internal/exporter/_ir_passes.py:159:        for node in ir.traversal.RecursiveGraphIterator(function):
+torch/optim/lr_scheduler.py:246:                    universally supported. Use :meth:`step` without arguments
+torch/profiler/_pattern_matcher.py:51:    def eventTreeTraversal(self):
+torch/profiler/_pattern_matcher.py:54:        Override this method in subclass to customize the traversal.
+torch/profiler/_pattern_matcher.py:102:            event for event in self.eventTreeTraversal() if self.match(event)
+torch/profiler/_pattern_matcher.py:260:    def eventTreeTraversal(self):
+torch/profiler/_pattern_matcher.py:262:        We need to use BFS traversal order to avoid duplicate match.
+torch/random.py:223:        # multiple times but a generator will be exhausted upon first traversal
+torch/testing/_internal/common_cuda.py:61:    # gcnArchName can be complicated strings like gfx90a:sramecc+:xnack-
+torch/testing/_internal/common_dist_composable.py:85:        # This nested structure exercises traversal order to catch differences
+torch/testing/_internal/common_dist_composable.py:86:        # between valid traversals (e.g. BFS and DFS variations).
+torch/testing/_internal/common_utils.py:439:                    int.from_bytes(hashlib.sha256(
+torch/testing/_internal/common_utils.py:1087:    p = subprocess.Popen(command, universal_newlines=True, cwd=cwd, env=env, stdout=stdout, stderr=stderr)
+torch/testing/_internal/common_utils.py:1337:            processes.append(subprocess.Popen(command, universal_newlines=True))
+torch/testing/_internal/opinfo/core.py:2477:# Metadata class for binary "universal functions (ufuncs)" that accept two
+torch/testing/_internal/opinfo/core.py:2480:    """Operator information for 'universal binary functions (binary ufuncs).'
+torch/testing/_internal/opinfo/core.py:2487:    See NumPy's universal function documentation
+torch/testing/_internal/opinfo/core.py:2829:# Metadata class for unary "universal functions (ufuncs)" that accept a single
+torch/testing/_internal/opinfo/core.py:2832:    """Operator information for 'universal unary functions (unary ufuncs).'
+torch/testing/_internal/opinfo/core.py:2839:    See NumPy's universal function documentation
+torch/utils/_content_store.py:81:    # This is a standard shift-multiply universal hash family
+torch/utils/_cxx_pytree.py:362:    corresponding to a left-to-right depth-first tree traversal.
+torch/utils/_sympy/functions.py:19:from sympy.core.traversal import walk
+torch/utils/_sympy/functions.py:831:        # and vice versa when swapping Min/Max -- do this only for the
+torch/utils/_sympy/functions.py:1157:# TODO: As an indicator, this != 0 implies == 1 (and vice versa).
+torch/utils/_triton.py:211:                parts.append(f"{name}-{hashlib.sha256(f.read()).hexdigest()}")
+torch/utils/_triton.py:223:    return hashlib.sha256(key.encode("utf-8")).hexdigest().upper()
+torch/utils/collect_env.py:99:    "oneccl",
+torch/utils/collect_env.py:100:    "oneccl-devel",
+torch/utils/collect_env.py:456:#                             pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand
+torch/utils/collect_env.py:460:#                             xsaves wbnoinvd ida arat avx512vbmi pku ospke avx512_vbmi2 gfni vaes vpclmulqdq
+torch/utils/collect_env.py:481:#      Spec store bypass:     Mitigation; Speculative Store Bypass disabled via prctl and seccomp
+torch/xpu/__init__.py:301:    - ``uuid`` (Any): device UUID (Universal Unique ID), 16 bytes.

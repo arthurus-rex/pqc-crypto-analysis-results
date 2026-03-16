@@ -1,0 +1,2 @@
+docs/exampleUploads/EXAMPLE_UPLOAD.json:1580:        "subject-uuid": "812cbe37-4bde-4985-ba58-3606ecccbc34",
+src/utils/oscalParser.js:248:        console.warn("No reviewed controls or findings with parsable control IDs found in the document.");

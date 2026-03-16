@@ -1,0 +1,820 @@
+.git/packed-refs:228:71905ecc0bd54160c300e9ce5827d8eb0f87de8d refs/tags/v0.11.3
+.github/workflows/scripts/build_linux_artifacts.sh:43:    local checksum="${OUTDIR}/spire-${TAG}-linux-${arch}-musl_sha256sum.txt"
+.github/workflows/scripts/build_linux_artifacts.sh:46:    local extras_checksum="${OUTDIR}/spire-extras-${TAG}-linux-${arch}-musl_sha256sum.txt"
+.github/workflows/scripts/build_windows_artifacts.sh:14:CHECKSUM="${OUTDIR}/spire-${TAG}-windows-${ARCH}_sha256sum.txt"
+.github/workflows/scripts/build_windows_artifacts.sh:17:EXTRAS_CHECKSUM="${OUTDIR}/spire-extras-${TAG}-windows-${ARCH}_sha256sum.txt"
+CHANGELOG.md:1001:- The `windows` workload attestor gained a new `sha256` selector that can attest the SHA256 digest of the workload binary (#3100)
+CHANGELOG.md:1702:- UNIX attestor now returns binary path and sha256 (#590)
+Dockerfile:1:# syntax = docker/dockerfile:1.6.0@sha256:ac85f380a63b13dfcefa89046420e1781752bab202122f8f50032edf31be0021
+Dockerfile:17:FROM --platform=$BUILDPLATFORM tonistiigi/xx:1.7.0@sha256:010d4b66aed389848b0694f91c7aaee9df59a6f20be7f5d12e53663a37bd14e2 AS xx
+Dockerfile:26:RUN set -e ; xx-apk --no-cache --update add build-base musl-dev libseccomp-dev
+MAINTAINERS.md:90:* Be generally available on the SPIFFE Slack, and engage in questions/conversations raised in the #help and #spire channels.
+cmd/spire-agent/cli/run/run_test.go:821:				c.Agent.WorkloadX509SVIDKeyType = "rsa-2048"
+cmd/spire-server/cli/run/run_test.go:185:				c.Server.CAKeyType = "rsa-2048"
+cmd/spire-server/cli/run/run_test.go:189:				require.Equal(t, "rsa-2048", c.Server.CAKeyType)
+cmd/spire-server/cli/run/run_test.go:891:			msg: "rsa-2048 ca_key_type is correctly parsed and is set as default for jwt key",
+cmd/spire-server/cli/run/run_test.go:893:				c.Server.CAKeyType = "rsa-2048"
+cmd/spire-server/cli/run/run_test.go:901:			msg: "rsa-4096 ca_key_type is correctly parsed and is set as default for jwt key",
+cmd/spire-server/cli/run/run_test.go:903:				c.Server.CAKeyType = "rsa-4096"
+cmd/spire-server/cli/run/run_test.go:934:				c.Server.CAKeyType = "rsa-1024"
+cmd/spire-server/cli/run/run_test.go:941:			msg: "rsa-2048 jwt_key_type is correctly parsed and ca_key_type is unspecified",
+cmd/spire-server/cli/run/run_test.go:943:				c.Server.JWTKeyType = "rsa-2048"
+cmd/spire-server/cli/run/run_test.go:951:			msg: "rsa-4096 jwt_key_type is correctly parsed and ca_key_type is unspecified",
+cmd/spire-server/cli/run/run_test.go:953:				c.Server.JWTKeyType = "rsa-4096"
+cmd/spire-server/cli/run/run_test.go:984:				c.Server.JWTKeyType = "rsa-1024"
+cmd/spire-server/cli/run/run_test.go:993:				c.Server.CAKeyType = "rsa-2048"
+cmd/spire-server/cli/wit/mint.go:224:		case "rsa-2048":
+cmd/spire-server/cli/wit/mint.go:226:		case "rsa-4096":
+cmd/spire-server/cli/wit/mint_test.go:452:			name:             "unknown rsa key type with valid signing algorithm",
+cmd/spire-server/cli/wit/mint_test.go:453:			keyType:          "rsa-3333",
+cmd/spire-server/cli/wit/mint_test.go:455:			err:              errors.New("unsupported key type 'rsa-3333' for signing algorithm 'RS512'"),
+cmd/spire-server/cli/wit/mint_test.go:465:	for _, rsaKeyType := range []string{"rsa-2048", "rsa-4096"} {
+cmd/spire-server/cli/wit/mint_test.go:466:		expectedKeyType, err := keymanager.KeyTypeFromString(rsaKeyType)
+cmd/spire-server/cli/wit/mint_test.go:469:		for _, rsaSigningAlgorithm := range []string{"RS256", "RS384", "RS512", "PS256", "PS384", "PS512"} {
+cmd/spire-server/cli/wit/mint_test.go:471:				name:             fmt.Sprintf("key type '%s' with '%s' signing algorithm", rsaKeyType, rsaSigningAlgorithm),
+cmd/spire-server/cli/wit/mint_test.go:472:				keyType:          rsaKeyType,
+cmd/spire-server/cli/wit/mint_test.go:473:				signingAlgorithm: rsaSigningAlgorithm,
+cmd/spire-server/cli/x509/mint.go:7:	"crypto/ecdsa"
+cmd/spire-server/cli/x509/mint.go:38:			return ecdsa.GenerateKey(elliptic.P256(), rand.Reader)
+conf/agent/agent_full.conf:77:    # workload_x509_svid_key_type: The workload X509 SVID key type <rsa-2048|ec-p256>. Default: ec-p256
+conf/agent/agent_full.conf:136:#         # plugin_checksum: An optional sha256 of the plugin binary (optional,
+conf/agent/agent_full.conf:224:            # host_key_path: The path to the private key on disk in openssh format.	Default: /etc/ssh/ssh_host_rsa_key
+conf/agent/agent_full.conf:225:            # host_key_path = "/etc/ssh/ssh_host_rsa_key"
+conf/agent/agent_full.conf:228:            # format. Default: /etc/ssh/ssh_host_rsa_key-cert.pub.
+conf/agent/agent_full.conf:229:            # host_cert_path = "/etc/ssh/ssh_host_rsa_key-cert.pub"
+conf/agent/agent_full.conf:355:                    # skipped_images = ["registry/image@sha256:examplehash"]
+conf/agent/agent_full.conf:460:                    # skipped_images = ["registry/image@sha256:examplehash"]
+conf/agent/agent_full.conf:510:            # calculating certain selectors (e.g. sha256). If zero, no limit is
+conf/server/server_full.conf:20:    # <rsa-2048|rsa-4096|ec-p256|ec-p384>. Default: ec-p256.
+conf/server/server_full.conf:115:    # <rsa-2048|rsa-4096|ec-p256|ec-p384>. Default: the value of
+conf/server/server_full.conf:221:#         # plugin_checksum: An optional sha256 of the plugin binary (optional,
+doc/plugin_agent_nodeattestor_sshpop.md:11:which is an unpadded url-safe base64 encoded sha256 hash of the certificate in openssh format.
+doc/plugin_agent_nodeattestor_sshpop.md:19:| `host_key_path`  | The path to the private key on disk in openssh format. | `"/etc/ssh/ssh_host_rsa_key"`          |
+doc/plugin_agent_nodeattestor_sshpop.md:20:| `host_cert_path` | The path to the certificate on disk in openssh format. | `"/etc/ssh/ssh_host_rsa_key-cert.pub"` |
+doc/plugin_agent_workloadattestor_docker.md:64:| `docker:image_config_digest` | `docker:image_config_digest:sha256:9f86d1..5f00a08` | The image config digest (content-addressed, registry-agnostic).        |
+doc/plugin_agent_workloadattestor_docker.md:144:    -selector docker:image_config_digest:sha256:9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08
+doc/plugin_agent_workloadattestor_k8s.md:101:| k8s:container-image      | The Image OR ImageID of the container in the workload's pod which is requesting an SVID, [as reported by K8S](https://pkg.go.dev/k8s.io/api/core/v1#ContainerStatus). Selector value may be an image tag, such as: `docker.io/envoyproxy/envoy-alpine:v1.16.0`, or a resolved SHA256 image digest, such as `docker.io/envoyproxy/envoy-alpine@sha256:bf862e5f5eca0a73e7e538224578c5cf867ce2be91b5eaed22afc153c00363eb` |
+doc/plugin_agent_workloadattestor_k8s.md:109:| k8s:pod-image            | An Image OR ImageID of any container in the workload's pod, [as reported by K8S](https://pkg.go.dev/k8s.io/api/core/v1#ContainerStatus). Selector value may be an image tag, such as: `docker.io/envoyproxy/envoy-alpine:v1.16.0`, or a resolved SHA256 image digest, such as `docker.io/envoyproxy/envoy-alpine@sha256:bf862e5f5eca0a73e7e538224578c5cf867ce2be91b5eaed22afc153c00363eb`                              |
+doc/plugin_agent_workloadattestor_k8s.md:111:| k8s:pod-init-image       | An Image OR ImageID of any init container in the workload's pod, [as reported by K8S](https://pkg.go.dev/k8s.io/api/core/v1#ContainerStatus). Selector value may be an image tag, such as: `docker.io/envoyproxy/envoy-alpine:v1.16.0`, or a resolved SHA256 image digest, such as `docker.io/envoyproxy/envoy-alpine@sha256:bf862e5f5eca0a73e7e538224578c5cf867ce2be91b5eaed22afc153c00363eb`                         |
+doc/plugin_agent_workloadattestor_unix.md:8:| `workload_size_limit`    | The limit of workload binary sizes when calculating certain selectors (e.g. sha256). If zero, no limit is enforced. If negative, never calculate the hash. | 0       |
+doc/plugin_agent_workloadattestor_unix.md:36:| `unix:sha256` | The SHA256 digest of the workload binary (e.g. `unix:sha256:3a6eb0790f39ac87c94f3856b2dd2c5d110e6811602261a9a923d3bb23adc8b7`) |
+doc/plugin_agent_workloadattestor_unix.md:41:calculating a sha256 for large workload binaries, causing a denial-of-service.
+doc/plugin_agent_workloadattestor_windows.md:9:| `workload_size_limit`    | The limit of workload binary sizes when calculating certain selectors (e.g. sha256). If zero, no limit is enforced. If negative, never calculate the hash. | 0       |
+doc/plugin_agent_workloadattestor_windows.md:27:| `windows:sha256` | The SHA256 digest of the workload binary (e.g. `windows:sha256:3a6eb0790f39ac87c94f3856b2dd2c5d110e6811602261a9a923d3bb23adc8b7`) |
+doc/plugin_agent_workloadattestor_windows.md:32:calculating a sha256 for large workload binaries, causing a denial-of-service.
+doc/plugin_server_keymanager_aws_kms.md:160:The plugin supports all the key types supported by SPIRE: `rsa-2048`, `rsa-4096`, `ec-p256`, and `ec-p384`.
+doc/plugin_server_keymanager_azure_key_vault.md:101:The plugin supports all the key types supported by SPIRE: `rsa-2048`,
+doc/plugin_server_keymanager_azure_key_vault.md:102:`rsa-4096`, `ec-p256`, and `ec-p384`.
+doc/plugin_server_keymanager_gcp_kms.md:168:The plugin supports all the key types supported by SPIRE: `rsa-2048`,
+doc/plugin_server_keymanager_gcp_kms.md:169:`rsa-4096`, `ec-p256`, and `ec-p384`.
+doc/plugin_server_nodeattestor_sshpop.md:12:which is an unpadded url-safe base64 encoded sha256 hash of the certificate in openssh format.
+doc/plugin_server_nodeattestor_sshpop.md:45:            cert_authorities = ["ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEAWPAsKJ/qMYUIBeH7BLMRCE/bkUvMHX+7OZhANk45S"]
+doc/plugin_server_nodeattestor_x509pop.md:27:| `max_rsa_key_size`    | Maximum RSA key size in bits allowed in certificates. This limit helps prevent resource exhaustion attacks from excessively large keys.                                                                                                        | 8192                                                            |
+doc/plugin_server_nodeattestor_x509pop.md:43:            # max_rsa_key_size = 8192
+doc/spire_agent.md:75:| `workload_x509_svid_key_type`     | The workload X509 SVID key type &lt;rsa-2048&vert;ec-p256&vert;ec-p384&gt;                                                                                                                                                                                     | ec-p256                          |
+doc/spire_agent.md:179:| plugin_checksum  | An optional sha256 of the plugin binary  (optional, not needed for built-ins)          |
+doc/spire_server.md:65:| `ca_key_type`                       | The key type used for the server CA (both X509 and JWT), &lt;rsa-2048&vert;rsa-4096&vert;ec-p256&vert;ec-p384&gt;                                                                                                                               | ec-p256 (the JWT key type can be overridden by `jwt_key_type`) |
+doc/spire_server.md:74:| `jwt_key_type`                      | The key type used for the server CA (JWT), &lt;rsa-2048&vert;rsa-4096&vert;ec-p256&vert;ec-p384&gt;                                                                                                                                             | The value of `ca_key_type` or ec-p256 if not defined           |
+doc/spire_server.md:153:| plugin_checksum  | An optional sha256 of the plugin binary  (optional, not needed for built-ins)          |
+go.mod:294:	github.com/x448/float16 v0.8.4 // indirect
+go.sum:508:github.com/hashicorp/go-secure-stdlib/parseutil v0.2.0 h1:U+kC2dOhMFQctRfhK0gRctKAPTloZdMU5ZJxaesJ/VM=
+go.sum:867:github.com/x448/float16 v0.8.4 h1:qLwI1I70+NjRFUR3zs1JPUCgaCXSh3SW62uAKT1mSBM=
+go.sum:868:github.com/x448/float16 v0.8.4/go.mod h1:14CWIYCyZA/cWjXOioeEpHeN/83MdbZDRQHoFcYsOfg=
+pkg/agent/api/debug/v1/service_test.go:5:	"crypto/ecdsa"
+pkg/agent/api/debug/v1/service_test.go:47:		Key:  x509SVID.PrivateKey.(*ecdsa.PrivateKey),
+pkg/agent/api/debug/v1/service_test.go:71:		Key:  svidWithIntermediate.PrivateKey.(*ecdsa.PrivateKey),
+pkg/agent/common/sigstore/config_test.go:23:				SkippedImages:      []string{"registry/image@sha256:examplehash"},
+pkg/agent/common/sigstore/config_test.go:40:				SkippedImages:      map[string]struct{}{"registry/image@sha256:examplehash": {}},
+pkg/agent/common/sigstore/sigstore.go:138:// The imageID parameter is expected to be in the format "repository@sha256:digest".
+pkg/agent/common/sigstore/sigstore_test.go:5:	"crypto/sha256"
+pkg/agent/common/sigstore/sigstore_test.go:143:	hash := sha256.Sum256(manifest)
+pkg/agent/common/sigstore/sigstore_test.go:144:	digest := "sha256:" + hex.EncodeToString(hash[:])
+pkg/agent/manager/cache/jwt_cache.go:6:	"crypto/sha256"
+pkg/agent/manager/cache/jwt_cache.go:163:	h := sha256.New()
+pkg/agent/manager/manager_test.go:6:	"crypto/ecdsa"
+pkg/agent/manager/manager_test.go:1831:	caKey  *ecdsa.PrivateKey
+pkg/agent/manager/manager_test.go:2061:func createCA(t *testing.T, clk clock.Clock) (*x509.Certificate, *ecdsa.PrivateKey) {
+pkg/agent/manager/manager_test.go:2074:func createSVID(t *testing.T, km keymanager.KeyManager, clk clock.Clock, ca *x509.Certificate, caKey *ecdsa.PrivateKey, spiffeID spiffeid.ID, ttl time.Duration) ([]*x509.Certificate, keymanager.Key) {
+pkg/agent/manager/manager_test.go:2081:func createSVIDWithKey(t *testing.T, clk clock.Clock, ca *x509.Certificate, caKey *ecdsa.PrivateKey, spiffeID spiffeid.ID, ttl time.Duration, svidKey crypto.Signer) []*x509.Certificate {
+pkg/agent/manager/manager_test.go:2094:func createSVIDFromCSR(t *testing.T, clk clock.Clock, ca *x509.Certificate, caKey *ecdsa.PrivateKey, spiffeID spiffeid.ID, csr []byte, ttl int) []*x509.Certificate {
+pkg/agent/plugin/keymanager/base/keymanagerbase.go:6:	"crypto/ecdsa"
+pkg/agent/plugin/keymanager/base/keymanagerbase.go:9:	"crypto/rsa"
+pkg/agent/plugin/keymanager/base/keymanagerbase.go:10:	"crypto/sha256"
+pkg/agent/plugin/keymanager/base/keymanagerbase.go:182:		signerOpts = &rsa.PSSOptions{
+pkg/agent/plugin/keymanager/base/keymanagerbase.go:260:	case *ecdsa.PrivateKey:
+pkg/agent/plugin/keymanager/base/keymanagerbase.go:261:		keyType, err := ecdsaKeyType(privateKey)
+pkg/agent/plugin/keymanager/base/keymanagerbase.go:266:	case *rsa.PrivateKey:
+pkg/agent/plugin/keymanager/base/keymanagerbase.go:267:		keyType, err := rsaKeyType(privateKey)
+pkg/agent/plugin/keymanager/base/keymanagerbase.go:277:func rsaKeyType(privateKey *rsa.PrivateKey) (keymanagerv1.KeyType, error) {
+pkg/agent/plugin/keymanager/base/keymanagerbase.go:289:func ecdsaKeyType(privateKey *ecdsa.PrivateKey) (keymanagerv1.KeyType, error) {
+pkg/agent/plugin/keymanager/base/keymanagerbase.go:304:	return rsa.GenerateKey(rand.Reader, 2048)
+pkg/agent/plugin/keymanager/base/keymanagerbase.go:308:	return rsa.GenerateKey(rand.Reader, 4096)
+pkg/agent/plugin/keymanager/base/keymanagerbase.go:312:	return ecdsa.GenerateKey(elliptic.P256(), rand.Reader)
+pkg/agent/plugin/keymanager/base/keymanagerbase.go:316:	return ecdsa.GenerateKey(elliptic.P384(), rand.Reader)
+pkg/agent/plugin/keymanager/base/keymanagerbase.go:341:	s := sha256.Sum256(pkixData)
+pkg/agent/plugin/keymanager/keymanager.go:6:	"crypto/ecdsa"
+pkg/agent/plugin/keymanager/keymanager.go:9:	"crypto/rsa"
+pkg/agent/plugin/keymanager/keymanager.go:54:		return ecdsa.GenerateKey(elliptic.P256(), rand.Reader)
+pkg/agent/plugin/keymanager/keymanager.go:56:		return ecdsa.GenerateKey(elliptic.P384(), rand.Reader)
+pkg/agent/plugin/keymanager/keymanager.go:58:		return rsa.GenerateKey(rand.Reader, 2048)
+pkg/agent/plugin/keymanager/keymanager.go:60:		return rsa.GenerateKey(rand.Reader, 4096)
+pkg/agent/plugin/keymanager/keymanager.go:75:		return "rsa-2048"
+pkg/agent/plugin/keymanager/keymanager.go:77:		return "rsa-4096"
+pkg/agent/plugin/keymanager/test/keymanagertest.go:6:	"crypto/ecdsa"
+pkg/agent/plugin/keymanager/test/keymanagertest.go:9:	"crypto/rsa"
+pkg/agent/plugin/keymanager/test/keymanagertest.go:10:	"crypto/sha256"
+pkg/agent/plugin/keymanager/test/keymanagertest.go:104:	rsaAlgorithms := []x509.SignatureAlgorithm{
+pkg/agent/plugin/keymanager/test/keymanagertest.go:113:	ecdsaAlgorithms := []x509.SignatureAlgorithm{
+pkg/agent/plugin/keymanager/test/keymanagertest.go:121:		keymanager.ECP256:  ecdsaAlgorithms,
+pkg/agent/plugin/keymanager/test/keymanagertest.go:122:		keymanager.ECP384:  ecdsaAlgorithms,
+pkg/agent/plugin/keymanager/test/keymanagertest.go:123:		keymanager.RSA2048: rsaAlgorithms,
+pkg/agent/plugin/keymanager/test/keymanagertest.go:124:		keymanager.RSA4096: rsaAlgorithms,
+pkg/agent/plugin/keymanager/test/keymanagertest.go:177:		digest := sha256.Sum256([]byte("DATA"))
+pkg/agent/plugin/keymanager/test/keymanagertest.go:253:	publicKey, ok := key.Public().(*ecdsa.PublicKey)
+pkg/agent/plugin/keymanager/test/keymanagertest.go:259:	publicKey, ok := key.Public().(*rsa.PublicKey)
+pkg/agent/plugin/keymanager/v1.go:6:	"crypto/rsa"
+pkg/agent/plugin/keymanager/v1.go:156:	case *rsa.PSSOptions:
+pkg/agent/plugin/keymanager/v1_test.go:7:	"crypto/rsa"
+pkg/agent/plugin/keymanager/v1_test.go:281:			signerOpts: &rsa.PSSOptions{
+pkg/agent/plugin/nodeattestor/awsiid/iid.go:26:	sigRSA2048Path = "instance-identity/rsa2048"
+pkg/agent/plugin/nodeattestor/awsiid/iid_test.go:7:	"crypto/rsa"
+pkg/agent/plugin/nodeattestor/awsiid/iid_test.go:8:	"crypto/sha256"
+pkg/agent/plugin/nodeattestor/awsiid/iid_test.go:37:	identitySignatureRSA2048Path = "/latest/dynamic/instance-identity/rsa2048"
+pkg/agent/plugin/nodeattestor/awsiid/iid_test.go:173:	docHash := sha256.Sum256(docBytes)
+pkg/agent/plugin/nodeattestor/awsiid/iid_test.go:174:	sig, err := rsa.SignPKCS1v15(rng, signingKey, crypto.SHA256, docHash[:])
+pkg/agent/plugin/nodeattestor/awsiid/iid_test.go:182:func (s *Suite) generatePKCS7Signature(docBytes []byte, key *rsa.PrivateKey) []byte {
+pkg/agent/plugin/nodeattestor/tpmdevid/tpmutil/session.go:275:		rsaParams := pub.RSAParameters
+pkg/agent/plugin/nodeattestor/tpmdevid/tpmutil/session.go:276:		if rsaParams != nil {
+pkg/agent/plugin/nodeattestor/tpmdevid/tpmutil/session.go:277:			sigHashAlg = rsaParams.Sign.Hash
+pkg/agent/plugin/nodeattestor/tpmdevid/tpmutil/session.go:282:		eccParams := pub.ECCParameters
+pkg/agent/plugin/nodeattestor/tpmdevid/tpmutil/session.go:283:		if eccParams != nil {
+pkg/agent/plugin/nodeattestor/tpmdevid/tpmutil/session.go:284:			sigHashAlg = eccParams.Sign.Hash
+pkg/agent/plugin/workloadattestor/docker/docker_test.go:187:        					skipped_images = ["registry/image@sha256:examplehash"]
+pkg/agent/plugin/workloadattestor/docker/docker_test.go:260:				SkippedImages:      []string{"registry/image@sha256:examplehash"},
+pkg/agent/plugin/workloadattestor/docker/docker_test.go:277:				SkippedImages:      map[string]struct{}{"registry/image@sha256:examplehash": {}},
+pkg/agent/plugin/workloadattestor/docker/docker_test.go:421:	return image.InspectResponse{ID: "sha256:abc"}, nil, nil
+pkg/agent/plugin/workloadattestor/k8s/k8s.go:786:	// docker.io/envoyproxy/envoy-alpine@sha256:bf862e5f5eca0a73e7e538224578c5cf867ce2be91b5eaed22afc153c00363eb
+pkg/agent/plugin/workloadattestor/k8s/k8s_posix_test.go:40:		{Type: "k8s", Value: "container-image:gcr.io/spiffe-io/spire-agent@sha256:1e4c481d76e9ecbd3d8684891e0e46aa021a30920ca04936e1fdcc552747d941"},
+pkg/agent/plugin/workloadattestor/k8s/k8s_posix_test.go:46:		{Type: "k8s", Value: "pod-image:gcr.io/spiffe-io/spire-agent@sha256:1e4c481d76e9ecbd3d8684891e0e46aa021a30920ca04936e1fdcc552747d941"},
+pkg/agent/plugin/workloadattestor/k8s/k8s_posix_test.go:59:		{Type: "k8s", Value: "container-image:gcr.io/spiffe-io/spire-agent@sha256:1e4c481d76e9ecbd3d8684891e0e46aa021a30920ca04936e1fdcc552747d941"},
+pkg/agent/plugin/workloadattestor/k8s/k8s_posix_test.go:65:		{Type: "k8s", Value: "pod-image:gcr.io/spiffe-io/spire-agent@sha256:1e4c481d76e9ecbd3d8684891e0e46aa021a30920ca04936e1fdcc552747d941"},
+pkg/agent/plugin/workloadattestor/k8s/k8s_posix_test.go:77:		{Type: "k8s", Value: "container-image:docker-pullable://quay.io/coreos/flannel@sha256:1b401bf0c30bada9a539389c3be652b58fe38463361edf488e6543c8761d4970"},
+pkg/agent/plugin/workloadattestor/k8s/k8s_posix_test.go:83:		{Type: "k8s", Value: "pod-image:docker-pullable://quay.io/coreos/flannel@sha256:1b401bf0c30bada9a539389c3be652b58fe38463361edf488e6543c8761d4970"},
+pkg/agent/plugin/workloadattestor/k8s/k8s_posix_test.go:86:		{Type: "k8s", Value: "pod-init-image:docker-pullable://quay.io/coreos/flannel@sha256:1b401bf0c30bada9a539389c3be652b58fe38463361edf488e6543c8761d4970"},
+pkg/agent/plugin/workloadattestor/k8s/k8s_posix_test.go:344:			cgroupPath:        "/kubepods/kubepods/besteffort/pod6bd2a4d3-a55a-4450-b6fd-2a7ecc72c904/a55d9ac3b312d8a2627824b6d6dd8af66fbec439bf4e0ec22d6d9945ad337a38",
+pkg/agent/plugin/workloadattestor/k8s/k8s_posix_test.go:345:			expectPodUID:      "6bd2a4d3-a55a-4450-b6fd-2a7ecc72c904",
+pkg/agent/plugin/workloadattestor/k8s/k8s_test.go:5:	"crypto/ecdsa"
+pkg/agent/plugin/workloadattestor/k8s/k8s_test.go:63:	imageID          = "docker-pullable://localhost/spiffe/blog@sha256:0cfdaced91cb46dd7af48309799a3c351e4ca2d5e1ee9737ca0cbd932cb79898"
+pkg/agent/plugin/workloadattestor/k8s/k8s_test.go:68:		{Type: "k8s", Value: "pod-image:docker-pullable://localhost/spiffe/blog@sha256:0cfdaced91cb46dd7af48309799a3c351e4ca2d5e1ee9737ca0cbd932cb79898"},
+pkg/agent/plugin/workloadattestor/k8s/k8s_test.go:69:		{Type: "k8s", Value: "pod-image:docker-pullable://localhost/spiffe/ghostunnel@sha256:b2fc20676c92a433b9a91f3f4535faddec0c2c3613849ac12f02c1d5cfcd4c3a"},
+pkg/agent/plugin/workloadattestor/k8s/k8s_test.go:82:		{Type: "k8s", Value: "container-image:docker-pullable://localhost/spiffe/blog@sha256:0cfdaced91cb46dd7af48309799a3c351e4ca2d5e1ee9737ca0cbd932cb79898"},
+pkg/agent/plugin/workloadattestor/k8s/k8s_test.go:654:        					skipped_images = ["registry/image@sha256:examplehash"]
+pkg/agent/plugin/workloadattestor/k8s/k8s_test.go:923:func (s *Suite) createCert(tmpl *x509.Certificate, key *ecdsa.PrivateKey) *x509.Certificate {
+pkg/agent/plugin/workloadattestor/k8s/k8s_test.go:935:func (s *Suite) writeKey(path string, key *ecdsa.PrivateKey) {
+pkg/agent/plugin/workloadattestor/k8s/testdata/crio_pod_list.json:132:                      "imageID": "gcr.io/spiffe-io/spire-agent@sha256:1e4c481d76e9ecbd3d8684891e0e46aa021a30920ca04936e1fdcc552747d941",
+pkg/agent/plugin/workloadattestor/k8s/testdata/crio_pod_list_duplicate_containerId.json:132:                        "imageID": "gcr.io/spiffe-io/spire-agent@sha256:1e4c481d76e9ecbd3d8684891e0e46aa021a30920ca04936e1fdcc552747d941",
+pkg/agent/plugin/workloadattestor/k8s/testdata/crio_pod_list_duplicate_containerId.json:279:                        "imageID": "gcr.io/spiffe-io/spire-agent@sha256:1e4c481d76e9ecbd3d8684891e0e46aa021a30920ca04936e1fdcc552747d941",
+pkg/agent/plugin/workloadattestor/k8s/testdata/kind_pod_list.json:132:                      "imageID": "gcr.io/spiffe-io/spire-agent@sha256:1e4c481d76e9ecbd3d8684891e0e46aa021a30920ca04936e1fdcc552747d941",
+pkg/agent/plugin/workloadattestor/k8s/testdata/pod_list.json:26:        "pod.alpha.kubernetes.io/init-container-statuses": "[{\"name\":\"install-cni\",\"state\":{\"terminated\":{\"exitCode\":0,\"reason\":\"Completed\",\"startedAt\":\"2017-10-16T18:35:53Z\",\"finishedAt\":\"2017-10-16T18:35:54Z\",\"containerID\":\"docker://34a2062fd26c805aa8cf814cdfe479322b791f80afb9ea4db02d50375df14b41\"}},\"lastState\":{},\"ready\":true,\"restartCount\":0,\"image\":\"quay.io/coreos/flannel:v0.9.0-amd64\",\"imageID\":\"docker-pullable://quay.io/coreos/flannel@sha256:1b401bf0c30bada9a539389c3be652b58fe38463361edf488e6543c8761d4970\",\"containerID\":\"docker://34a2062fd26c805aa8cf814cdfe479322b791f80afb9ea4db02d50375df14b41\"}]",
+pkg/agent/plugin/workloadattestor/k8s/testdata/pod_list.json:28:        "pod.beta.kubernetes.io/init-container-statuses": "[{\"name\":\"install-cni\",\"state\":{\"terminated\":{\"exitCode\":0,\"reason\":\"Completed\",\"startedAt\":\"2017-10-16T18:35:53Z\",\"finishedAt\":\"2017-10-16T18:35:54Z\",\"containerID\":\"docker://34a2062fd26c805aa8cf814cdfe479322b791f80afb9ea4db02d50375df14b41\"}},\"lastState\":{},\"ready\":true,\"restartCount\":0,\"image\":\"quay.io/coreos/flannel:v0.9.0-amd64\",\"imageID\":\"docker-pullable://quay.io/coreos/flannel@sha256:1b401bf0c30bada9a539389c3be652b58fe38463361edf488e6543c8761d4970\",\"containerID\":\"docker://34a2062fd26c805aa8cf814cdfe479322b791f80afb9ea4db02d50375df14b41\"}]",
+pkg/agent/plugin/workloadattestor/k8s/testdata/pod_list.json:213:        "imageID": "docker-pullable://quay.io/coreos/flannel@sha256:1b401bf0c30bada9a539389c3be652b58fe38463361edf488e6543c8761d4970",
+pkg/agent/plugin/workloadattestor/k8s/testdata/pod_list.json:235:        "imageID": "docker-pullable://quay.io/coreos/flannel@sha256:1b401bf0c30bada9a539389c3be652b58fe38463361edf488e6543c8761d4970",
+pkg/agent/plugin/workloadattestor/k8s/testdata/pod_list.json:392:          "imageID": "docker-pullable://gcr.io/google_containers/kube-proxy-amd64@sha256:6694ee06912054cf56999ff18be8f7ae26c962b06cef073324ccb719e0a45b60",
+pkg/agent/plugin/workloadattestor/k8s/testdata/pod_list.json:548:          "imageID": "docker-pullable://gcr.io/google_containers/kube-registry-proxy@sha256:1040f25a5273de0d72c54865a8efd47e3292de9fb8e5353e3fa76736b854f2da",
+pkg/agent/plugin/workloadattestor/k8s/testdata/pod_list.json:746:          "imageID": "docker-pullable://localhost/spiffe/blog@sha256:0cfdaced91cb46dd7af48309799a3c351e4ca2d5e1ee9737ca0cbd932cb79898",
+pkg/agent/plugin/workloadattestor/k8s/testdata/pod_list.json:768:            "imageID": "docker-pullable://localhost/spiffe/ghostunnel@sha256:b2fc20676c92a433b9a91f3f4535faddec0c2c3613849ac12f02c1d5cfcd4c3a",
+pkg/agent/plugin/workloadattestor/k8s/testdata/pod_list_not_running.json:26:        "pod.alpha.kubernetes.io/init-container-statuses": "[{\"name\":\"install-cni\",\"state\":{\"terminated\":{\"exitCode\":0,\"reason\":\"Completed\",\"startedAt\":\"2017-10-16T18:35:53Z\",\"finishedAt\":\"2017-10-16T18:35:54Z\",\"containerID\":\"docker://34a2062fd26c805aa8cf814cdfe479322b791f80afb9ea4db02d50375df14b41\"}},\"lastState\":{},\"ready\":true,\"restartCount\":0,\"image\":\"quay.io/coreos/flannel:v0.9.0-amd64\",\"imageID\":\"docker-pullable://quay.io/coreos/flannel@sha256:1b401bf0c30bada9a539389c3be652b58fe38463361edf488e6543c8761d4970\",\"containerID\":\"docker://34a2062fd26c805aa8cf814cdfe479322b791f80afb9ea4db02d50375df14b41\"}]",
+pkg/agent/plugin/workloadattestor/k8s/testdata/pod_list_not_running.json:28:        "pod.beta.kubernetes.io/init-container-statuses": "[{\"name\":\"install-cni\",\"state\":{\"terminated\":{\"exitCode\":0,\"reason\":\"Completed\",\"startedAt\":\"2017-10-16T18:35:53Z\",\"finishedAt\":\"2017-10-16T18:35:54Z\",\"containerID\":\"docker://34a2062fd26c805aa8cf814cdfe479322b791f80afb9ea4db02d50375df14b41\"}},\"lastState\":{},\"ready\":true,\"restartCount\":0,\"image\":\"quay.io/coreos/flannel:v0.9.0-amd64\",\"imageID\":\"docker-pullable://quay.io/coreos/flannel@sha256:1b401bf0c30bada9a539389c3be652b58fe38463361edf488e6543c8761d4970\",\"containerID\":\"docker://34a2062fd26c805aa8cf814cdfe479322b791f80afb9ea4db02d50375df14b41\"}]",
+pkg/agent/plugin/workloadattestor/k8s/testdata/pod_list_not_running.json:213:        "imageID": "docker-pullable://quay.io/coreos/flannel@sha256:1b401bf0c30bada9a539389c3be652b58fe38463361edf488e6543c8761d4970",
+pkg/agent/plugin/workloadattestor/k8s/testdata/pod_list_not_running.json:235:        "imageID": "docker-pullable://quay.io/coreos/flannel@sha256:1b401bf0c30bada9a539389c3be652b58fe38463361edf488e6543c8761d4970",
+pkg/agent/plugin/workloadattestor/k8s/testdata/pod_list_not_running.json:392:          "imageID": "docker-pullable://gcr.io/google_containers/kube-proxy-amd64@sha256:6694ee06912054cf56999ff18be8f7ae26c962b06cef073324ccb719e0a45b60",
+pkg/agent/plugin/workloadattestor/k8s/testdata/pod_list_not_running.json:548:          "imageID": "docker-pullable://gcr.io/google_containers/kube-registry-proxy@sha256:1040f25a5273de0d72c54865a8efd47e3292de9fb8e5353e3fa76736b854f2da",
+pkg/agent/plugin/workloadattestor/k8s/testdata/pod_list_not_running.json:737:          "imageID": "docker-pullable://localhost/spiffe/blog@sha256:0cfdaced91cb46dd7af48309799a3c351e4ca2d5e1ee9737ca0cbd932cb79898"
+pkg/agent/plugin/workloadattestor/k8s/testdata/pod_list_not_running.json:758:            "imageID": "docker-pullable://localhost/spiffe/ghostunnel@sha256:b2fc20676c92a433b9a91f3f4535faddec0c2c3613849ac12f02c1d5cfcd4c3a",
+pkg/agent/plugin/workloadattestor/unix/unix_posix.go:195:			sha256Digest, err := util.GetSHA256Digest(exePath, config.WorkloadSizeLimit)
+pkg/agent/plugin/workloadattestor/unix/unix_posix.go:199:			selectorValues = append(selectorValues, makeSelectorValue("sha256", sha256Digest))
+pkg/agent/plugin/workloadattestor/unix/unix_posix_test.go:171:				"sha256:3a6eb0790f39ac87c94f3856b2dd2c5d110e6811602261a9a923d3bb23adc8b7",
+pkg/agent/plugin/workloadattestor/unix/unix_posix_test.go:186:				"sha256:3a6eb0790f39ac87c94f3856b2dd2c5d110e6811602261a9a923d3bb23adc8b7",
+pkg/agent/plugin/workloadattestor/windows/windows_windows.go:101:			sha256Digest, err := util.GetSHA256Digest(process.path, config.WorkloadSizeLimit)
+pkg/agent/plugin/workloadattestor/windows/windows_windows.go:106:			selectorValues = append(selectorValues, makeSelectorValue("sha256", sha256Digest))
+pkg/agent/plugin/workloadattestor/windows/windows_windows_test.go:134:				"windows:sha256:3a6eb0790f39ac87c94f3856b2dd2c5d110e6811602261a9a923d3bb23adc8b7",
+pkg/agent/workloadkey/workloadkey.go:5:	"crypto/ecdsa"
+pkg/agent/workloadkey/workloadkey.go:8:	"crypto/rsa"
+pkg/agent/workloadkey/workloadkey.go:15:	case "rsa-2048":
+pkg/agent/workloadkey/workloadkey.go:22:		return KeyTypeUnset, fmt.Errorf("key type %q is unknown; must be one of [rsa-2048, ec-p256, ec-p384]", s)
+pkg/agent/workloadkey/workloadkey.go:40:		return ecdsa.GenerateKey(elliptic.P256(), rand.Reader)
+pkg/agent/workloadkey/workloadkey.go:42:		return ecdsa.GenerateKey(elliptic.P384(), rand.Reader)
+pkg/agent/workloadkey/workloadkey.go:44:		return rsa.GenerateKey(rand.Reader, 2048)
+pkg/agent/workloadkey/workloadkey.go:60:		return "rsa-2048"
+pkg/agent/workloadkey/workloadkey_test.go:19:			keyType:       "rsa-2048",
+pkg/agent/workloadkey/workloadkey_test.go:36:			errMsg:        "key type \"Unsupported\" is unknown; must be one of [rsa-2048, ec-p256, ec-p384]",
+pkg/common/agentpathtemplate/template.go:44:	"sha256sum",
+pkg/common/catalog/catalog_test.go:5:	"crypto/sha256"
+pkg/common/catalog/catalog_test.go:507:	h := sha256.New()
+pkg/common/catalog/external.go:5:	"crypto/sha256"
+pkg/common/catalog/external.go:198:	hash := sha256.New()
+pkg/common/catalog/external.go:205:		Hash:     sha256.New(),
+pkg/common/cryptoutil/keys.go:5:	"crypto/ecdsa"
+pkg/common/cryptoutil/keys.go:6:	"crypto/rsa"
+pkg/common/cryptoutil/keys.go:12:func RSAPublicKeyEqual(a, b *rsa.PublicKey) bool {
+pkg/common/cryptoutil/keys.go:16:func ECDSAPublicKeyEqual(a, b *ecdsa.PublicKey) bool {
+pkg/common/cryptoutil/keys.go:20:func ECDSAKeyMatches(privateKey *ecdsa.PrivateKey, publicKey *ecdsa.PublicKey) bool {
+pkg/common/cryptoutil/keys.go:24:func RSAKeyMatches(privateKey *rsa.PrivateKey, publicKey *rsa.PublicKey) bool {
+pkg/common/cryptoutil/keys.go:30:	case *rsa.PublicKey:
+pkg/common/cryptoutil/keys.go:31:		rsaPublicKey, ok := b.(*rsa.PublicKey)
+pkg/common/cryptoutil/keys.go:32:		return ok && RSAPublicKeyEqual(a, rsaPublicKey), nil
+pkg/common/cryptoutil/keys.go:33:	case *ecdsa.PublicKey:
+pkg/common/cryptoutil/keys.go:34:		ecdsaPublicKey, ok := b.(*ecdsa.PublicKey)
+pkg/common/cryptoutil/keys.go:35:		return ok && ECDSAPublicKeyEqual(a, ecdsaPublicKey), nil
+pkg/common/cryptoutil/keys.go:43:	case *rsa.PrivateKey:
+pkg/common/cryptoutil/keys.go:44:		rsaPublicKey, ok := publicKey.(*rsa.PublicKey)
+pkg/common/cryptoutil/keys.go:45:		return ok && RSAKeyMatches(privateKey, rsaPublicKey), nil
+pkg/common/cryptoutil/keys.go:46:	case *ecdsa.PrivateKey:
+pkg/common/cryptoutil/keys.go:47:		ecdsaPublicKey, ok := publicKey.(*ecdsa.PublicKey)
+pkg/common/cryptoutil/keys.go:48:		return ok && ECDSAKeyMatches(privateKey, ecdsaPublicKey), nil
+pkg/common/cryptoutil/keys.go:57:	case *rsa.PublicKey:
+pkg/common/cryptoutil/keys.go:63:	case *ecdsa.PublicKey:
+pkg/common/cryptoutil/keys_test.go:4:	"crypto/ecdsa"
+pkg/common/cryptoutil/keys_test.go:7:	"crypto/rsa"
+pkg/common/cryptoutil/keys_test.go:43:func genRSA(bits int) *rsa.PrivateKey {
+pkg/common/cryptoutil/keys_test.go:44:	key, err := rsa.GenerateKey(rand.Reader, bits)
+pkg/common/cryptoutil/keys_test.go:49:func genEC(curve elliptic.Curve) *ecdsa.PrivateKey {
+pkg/common/cryptoutil/keys_test.go:50:	key, err := ecdsa.GenerateKey(curve, rand.Reader)
+pkg/common/health/health.go:94:	mutex sync.Mutex // Mutex protects non-threadsafe
+pkg/common/jwtsvid/validate_test.go:28:	rsa2048Key = testkey.MustRSA2048()
+pkg/common/jwtsvid/validate_test.go:29:	rsa4096Key = testkey.MustRSA4096()
+pkg/common/jwtsvid/validate_test.go:48:			"rsa2048Key": rsa2048Key.Public(),
+pkg/common/jwtsvid/validate_test.go:49:			"rsa4096Key": rsa4096Key.Public(),
+pkg/common/jwtsvid/validate_test.go:69:			kid: "rsa2048Key",
+pkg/common/jwtsvid/validate_test.go:70:			key: rsa2048Key,
+pkg/common/jwtsvid/validate_test.go:73:			kid: "rsa4096Key",
+pkg/common/jwtsvid/validate_test.go:74:			key: rsa4096Key,
+pkg/common/peertracker/tracker_windows.go:18:	stillActive = 259 // https://docs.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-getexitcodeprocess
+pkg/common/pemutil/block.go:84:		case rsaPrivateKeyType:
+pkg/common/pemutil/common.go:8:	rsaPrivateKeyType      = "RSA PRIVATE KEY"
+pkg/common/pemutil/keys.go:5:	"crypto/ecdsa"
+pkg/common/pemutil/keys.go:6:	"crypto/rsa"
+pkg/common/pemutil/keys.go:29:	block, err := parseBlock(pemBytes, privateKeyType, rsaPrivateKeyType, ecPrivateKeyType)
+pkg/common/pemutil/keys.go:37:	block, err := loadBlock(path, privateKeyType, rsaPrivateKeyType, ecPrivateKeyType)
+pkg/common/pemutil/keys.go:60:func ParseRSAPrivateKey(pemBytes []byte) (*rsa.PrivateKey, error) {
+pkg/common/pemutil/keys.go:61:	block, err := parseBlock(pemBytes, privateKeyType, rsaPrivateKeyType)
+pkg/common/pemutil/keys.go:65:	return rsaPrivateKeyFromObject(block.Object)
+pkg/common/pemutil/keys.go:68:func LoadRSAPrivateKey(path string) (*rsa.PrivateKey, error) {
+pkg/common/pemutil/keys.go:69:	block, err := loadBlock(path, privateKeyType, rsaPrivateKeyType)
+pkg/common/pemutil/keys.go:73:	return rsaPrivateKeyFromObject(block.Object)
+pkg/common/pemutil/keys.go:76:func EncodeRSAPrivateKey(privateKey *rsa.PrivateKey) ([]byte, error) {
+pkg/common/pemutil/keys.go:83:func rsaPrivateKeyFromObject(object any) (*rsa.PrivateKey, error) {
+pkg/common/pemutil/keys.go:84:	key, ok := object.(*rsa.PrivateKey)
+pkg/common/pemutil/keys.go:91:func ParseECPrivateKey(pemBytes []byte) (*ecdsa.PrivateKey, error) {
+pkg/common/pemutil/keys.go:96:	return ecdsaPrivateKeyFromObject(block.Object)
+pkg/common/pemutil/keys.go:99:func LoadECPrivateKey(path string) (*ecdsa.PrivateKey, error) {
+pkg/common/pemutil/keys.go:104:	return ecdsaPrivateKeyFromObject(block.Object)
+pkg/common/pemutil/keys.go:107:func EncodeECPrivateKey(privateKey *ecdsa.PrivateKey) ([]byte, error) {
+pkg/common/pemutil/keys.go:131:func ecdsaPrivateKeyFromObject(object any) (*ecdsa.PrivateKey, error) {
+pkg/common/pemutil/keys.go:132:	key, ok := object.(*ecdsa.PrivateKey)
+pkg/common/pemutil/pemutil_test.go:4:	"crypto/ecdsa"
+pkg/common/pemutil/pemutil_test.go:5:	"crypto/rsa"
+pkg/common/pemutil/pemutil_test.go:26:	key, err := ParsePrivateKey(s.readFile("testdata/rsa-key.pem"))
+pkg/common/pemutil/pemutil_test.go:29:	_, ok := key.(*rsa.PrivateKey)
+pkg/common/pemutil/pemutil_test.go:33:	key, err = ParsePrivateKey(s.readFile("testdata/rsa-key-pkcs8.pem"))
+pkg/common/pemutil/pemutil_test.go:36:	_, ok = key.(*rsa.PrivateKey)
+pkg/common/pemutil/pemutil_test.go:40:	key, err = ParsePrivateKey(s.readFile("testdata/ecdsa-key.pem"))
+pkg/common/pemutil/pemutil_test.go:43:	_, ok = key.(*ecdsa.PrivateKey)
+pkg/common/pemutil/pemutil_test.go:47:	key, err = ParsePrivateKey(s.readFile("testdata/ecdsa-key-pkcs8.pem"))
+pkg/common/pemutil/pemutil_test.go:50:	_, ok = key.(*ecdsa.PrivateKey)
+pkg/common/pemutil/pemutil_test.go:60:	key, err := LoadPrivateKey("testdata/rsa-key.pem")
+pkg/common/pemutil/pemutil_test.go:63:	_, ok := key.(*rsa.PrivateKey)
+pkg/common/pemutil/pemutil_test.go:67:	key, err = LoadPrivateKey("testdata/rsa-key-pkcs8.pem")
+pkg/common/pemutil/pemutil_test.go:70:	_, ok = key.(*rsa.PrivateKey)
+pkg/common/pemutil/pemutil_test.go:74:	key, err = LoadPrivateKey("testdata/ecdsa-key.pem")
+pkg/common/pemutil/pemutil_test.go:77:	_, ok = key.(*ecdsa.PrivateKey)
+pkg/common/pemutil/pemutil_test.go:80:	key, err = LoadPrivateKey("testdata/ecdsa-key-pkcs8.pem")
+pkg/common/pemutil/pemutil_test.go:83:	_, ok = key.(*ecdsa.PrivateKey)
+pkg/common/pemutil/pemutil_test.go:93:	_, err = ParseRSAPrivateKey(s.readFile("testdata/ecdsa-key-pkcs8.pem"))
+pkg/common/pemutil/pemutil_test.go:94:	s.Require().EqualError(err, "expected *rsa.PrivateKey; got *ecdsa.PrivateKey")
+pkg/common/pemutil/pemutil_test.go:97:	key, err := ParseRSAPrivateKey(s.readFile("testdata/rsa-key.pem"))
+pkg/common/pemutil/pemutil_test.go:102:	key, err = ParseRSAPrivateKey(s.readFile("testdata/rsa-key-pkcs8.pem"))
+pkg/common/pemutil/pemutil_test.go:113:	_, err = LoadRSAPrivateKey("testdata/ecdsa-key-pkcs8.pem")
+pkg/common/pemutil/pemutil_test.go:114:	s.Require().EqualError(err, "expected *rsa.PrivateKey; got *ecdsa.PrivateKey")
+pkg/common/pemutil/pemutil_test.go:117:	key, err := LoadRSAPrivateKey("testdata/rsa-key.pem")
+pkg/common/pemutil/pemutil_test.go:122:	key, err = LoadRSAPrivateKey("testdata/rsa-key-pkcs8.pem")
+pkg/common/pemutil/pemutil_test.go:133:	_, err = ParseECPrivateKey(s.readFile("testdata/rsa-key-pkcs8.pem"))
+pkg/common/pemutil/pemutil_test.go:134:	s.Require().EqualError(err, "expected *ecdsa.PrivateKey; got *rsa.PrivateKey")
+pkg/common/pemutil/pemutil_test.go:137:	key, err := ParseECPrivateKey(s.readFile("testdata/ecdsa-key.pem"))
+pkg/common/pemutil/pemutil_test.go:142:	key, err = ParseECPrivateKey(s.readFile("testdata/ecdsa-key-pkcs8.pem"))
+pkg/common/pemutil/pemutil_test.go:153:	_, err = LoadECPrivateKey("testdata/rsa-key-pkcs8.pem")
+pkg/common/pemutil/pemutil_test.go:154:	s.Require().EqualError(err, "expected *ecdsa.PrivateKey; got *rsa.PrivateKey")
+pkg/common/pemutil/pemutil_test.go:157:	key, err := LoadECPrivateKey("testdata/ecdsa-key.pem")
+pkg/common/pemutil/pemutil_test.go:162:	key, err = LoadECPrivateKey("testdata/ecdsa-key-pkcs8.pem")
+pkg/common/pemutil/pemutil_test.go:169:	_, err := ParseCertificate(s.readFile("testdata/rsa-key-pkcs8.pem"))
+pkg/common/pemutil/pemutil_test.go:180:	_, err := LoadCertificate("testdata/rsa-key-pkcs8.pem")
+pkg/common/pemutil/pemutil_test.go:191:	_, err := ParseCertificates(s.readFile("testdata/rsa-key-pkcs8.pem"))
+pkg/common/pemutil/pemutil_test.go:207:	_, err := LoadCertificates("testdata/rsa-key-pkcs8.pem")
+pkg/common/pemutil/pemutil_test.go:223:	_, err := ParseCertificateRequest(s.readFile("testdata/rsa-key-pkcs8.pem"))
+pkg/common/pemutil/pemutil_test.go:234:	_, err := LoadCertificateRequest("testdata/rsa-key-pkcs8.pem")
+pkg/common/pemutil/pemutil_test.go:280:	key, err := LoadSigner("testdata/rsa-key.pem")
+pkg/common/pemutil/pemutil_test.go:291:	key, err := ParseSigner(s.readFile("testdata/rsa-key.pem"))
+pkg/common/pemutil/pemutil_test.go:298:	key, err := LoadPublicKey("testdata/rsa-key.pem")
+pkg/common/pemutil/pemutil_test.go:303:	key, err = LoadPublicKey("testdata/public-rsa-key.pem")
+pkg/common/pemutil/pemutil_test.go:310:	keyBytes, err := os.ReadFile("testdata/rsa-key.pem")
+pkg/common/pemutil/pemutil_test.go:317:	keyBytes, err = os.ReadFile("testdata/public-rsa-key.pem")
+pkg/common/pemutil/pemutil_test.go:333:	key, err := LoadPrivateKey("testdata/rsa-key.pem")
+pkg/common/pemutil/pemutil_test.go:340:	expKeyPKCS8, err := os.ReadFile("testdata/rsa-key-pkcs8.pem")
+pkg/common/plugin/aws/iid.go:12:	SignatureRSA2048 string `json:"rsa2048"`
+pkg/common/plugin/sshpop/handshake.go:5:	"crypto/sha256"
+pkg/common/plugin/sshpop/handshake.go:218:	h := sha256.New()
+pkg/common/plugin/sshpop/handshake.go:243:	sha256sum := sha256.Sum256(pubKey.Marshal())
+pkg/common/plugin/sshpop/handshake.go:244:	return base64.RawURLEncoding.EncodeToString(sha256sum[:])
+pkg/common/plugin/sshpop/handshake_test.go:4:	"crypto/ecdsa"
+pkg/common/plugin/sshpop/handshake_test.go:34:	privkey, err := ecdsa.GenerateKey(elliptic.P256(), rand.Reader)
+pkg/common/plugin/sshpop/sshpop.go:23:	defaultHostKeyPath  = "/etc/ssh/ssh_host_rsa_key"
+pkg/common/plugin/sshpop/sshpop.go:24:	defaultHostCertPath = "/etc/ssh/ssh_host_rsa_key-cert.pub"
+pkg/common/plugin/sshpop/sshpop_test.go:14:	testCertAuthority = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEAWPAsKJ/qMYUIBeH7BLMRCE/bkUvMHX+7OZhANk45S"
+pkg/common/plugin/sshpop/sshpop_test.go:16:	testCertAuthority2 = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIItL+PtmvrTxqrUt3GtgoQEoIFzNb4xpVwtOXa5WLCOQ"
+pkg/common/plugin/sshpop/sshpop_test.go:18:	testCertAuthority3 = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIL9zEd6mtBjOIG+lWt0cxmrE4Sp7LwpLEXLa3CbSuxKu"
+pkg/common/plugin/sshpop/sshpop_test.go:180:			expectPubkeys: []string{"ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEAWPAsKJ/qMYUIBeH7BLMRCE/bkUvMHX+7OZhANk45S"},
+pkg/common/plugin/sshpop/sshpop_test.go:186:				"ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEAWPAsKJ/qMYUIBeH7BLMRCE/bkUvMHX+7OZhANk45S",
+pkg/common/plugin/sshpop/sshpop_test.go:187:				"ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIItL+PtmvrTxqrUt3GtgoQEoIFzNb4xpVwtOXa5WLCOQ",
+pkg/common/plugin/sshpop/testdata/dummy_agent_ssh_key-cert.pub:1:ssh-ed25519-cert-v01@openssh.com AAAAIHNzaC1lZDI1NTE5LWNlcnQtdjAxQG9wZW5zc2guY29tAAAAIHKePFvG6YhtFQBeMVEw+5cvlZ65YHP2vYpHJuBI/fVxAAAAIEAWPAsKJ/qMYUIBeH7BLMRCE/bkUvMHX+7OZhANk45SAAAAAAAAAAAAAAACAAAACGZvby1ob3N0AAAADAAAAAhmb28taG9zdAAAAAAAAAAA//////////8AAAAAAAAAAAAAAAAAAAAzAAAAC3NzaC1lZDI1NTE5AAAAIEAWPAsKJ/qMYUIBeH7BLMRCE/bkUvMHX+7OZhANk45SAAAAUwAAAAtzc2gtZWQyNTUxOQAAAEAJGYmukpFo0c0B5lj7OU1Zn4bFA11DFHKwwYgFSJyx0gAdW74KV8wlfIU+wPj6ot0zojZ2F6eDyfETSDESZy4C
+pkg/common/plugin/sshpop/testdata/dummy_ssh_cert_authority.pub:1:ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEAWPAsKJ/qMYUIBeH7BLMRCE/bkUvMHX+7OZhANk45S
+pkg/common/plugin/sshpop/testdata/many_ssh_cert_authorities.pub:1:ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEAWPAsKJ/qMYUIBeH7BLMRCE/bkUvMHX+7OZhANk45S
+pkg/common/plugin/sshpop/testdata/many_ssh_cert_authorities.pub:2:ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIItL+PtmvrTxqrUt3GtgoQEoIFzNb4xpVwtOXa5WLCOQ
+pkg/common/plugin/x509pop/x509pop.go:5:	"crypto/ecdsa"
+pkg/common/plugin/x509pop/x509pop.go:7:	"crypto/rsa"
+pkg/common/plugin/x509pop/x509pop.go:9:	"crypto/sha256"
+pkg/common/plugin/x509pop/x509pop.go:81:	RSASignature   *RSASignatureChallenge   `json:"rsa_signature"`
+pkg/common/plugin/x509pop/x509pop.go:82:	ECDSASignature *ECDSASignatureChallenge `json:"ecdsa_signature"`
+pkg/common/plugin/x509pop/x509pop.go:86:	RSASignature   *RSASignatureResponse   `json:"rsa_signature"`
+pkg/common/plugin/x509pop/x509pop.go:87:	ECDSASignature *ECDSASignatureResponse `json:"ecdsa_signature"`
+pkg/common/plugin/x509pop/x509pop.go:97:	case *rsa.PublicKey:
+pkg/common/plugin/x509pop/x509pop.go:105:	case *ecdsa.PublicKey:
+pkg/common/plugin/x509pop/x509pop.go:120:	case *rsa.PrivateKey:
+pkg/common/plugin/x509pop/x509pop.go:121:		rsaChallenge := challenge.RSASignature
+pkg/common/plugin/x509pop/x509pop.go:122:		if rsaChallenge == nil {
+pkg/common/plugin/x509pop/x509pop.go:125:		response, err := CalculateRSASignatureResponse(privateKey, rsaChallenge)
+pkg/common/plugin/x509pop/x509pop.go:132:	case *ecdsa.PrivateKey:
+pkg/common/plugin/x509pop/x509pop.go:150:	case *rsa.PublicKey:
+pkg/common/plugin/x509pop/x509pop.go:158:	case *ecdsa.PublicKey:
+pkg/common/plugin/x509pop/x509pop.go:182:func CalculateRSASignatureResponse(privateKey *rsa.PrivateKey, challenge *RSASignatureChallenge) (*RSASignatureResponse, error) {
+pkg/common/plugin/x509pop/x509pop.go:193:	signature, err := rsa.SignPSS(rand.Reader, privateKey, crypto.SHA256, combined, nil)
+pkg/common/plugin/x509pop/x509pop.go:204:func VerifyRSASignatureResponse(publicKey *rsa.PublicKey, challenge *RSASignatureChallenge, response *RSASignatureResponse) error {
+pkg/common/plugin/x509pop/x509pop.go:210:	if err := rsa.VerifyPSS(publicKey, crypto.SHA256, combined, response.Signature, nil); err != nil {
+pkg/common/plugin/x509pop/x509pop.go:227:func CalculateECDSASignatureResponse(privateKey *ecdsa.PrivateKey, challenge *ECDSASignatureChallenge) (*ECDSASignatureResponse, error) {
+pkg/common/plugin/x509pop/x509pop.go:238:	r, s, err := ecdsa.Sign(rand.Reader, privateKey, combined)
+pkg/common/plugin/x509pop/x509pop.go:250:func VerifyECDSASignatureResponse(publicKey *ecdsa.PublicKey, challenge *ECDSASignatureChallenge, response *ECDSASignatureResponse) error {
+pkg/common/plugin/x509pop/x509pop.go:260:	if !ecdsa.Verify(publicKey, combined, r, s) {
+pkg/common/plugin/x509pop/x509pop.go:316:	h := sha256.New()
+pkg/common/plugin/x509pop/x509pop_test.go:25:	rsaPrivateKey := testRSAKey
+pkg/common/plugin/x509pop/x509pop_test.go:26:	rsaPublicKey := &rsaPrivateKey.PublicKey
+pkg/common/plugin/x509pop/x509pop_test.go:27:	rsaCert, err := createCertificate(rsaPrivateKey, rsaPublicKey)
+pkg/common/plugin/x509pop/x509pop_test.go:31:	rsaChallenge, err := GenerateChallenge(rsaCert)
+pkg/common/plugin/x509pop/x509pop_test.go:33:	rsaResponse, err := CalculateResponse(rsaPrivateKey, rsaChallenge)
+pkg/common/plugin/x509pop/x509pop_test.go:35:	err = VerifyChallengeResponse(rsaPublicKey, rsaChallenge, rsaResponse)
+pkg/common/plugin/x509pop/x509pop_test.go:39:	ecdsaPrivateKey := testECDSAKey
+pkg/common/plugin/x509pop/x509pop_test.go:40:	ecdsaPublicKey := &ecdsaPrivateKey.PublicKey
+pkg/common/plugin/x509pop/x509pop_test.go:41:	ecdsaCert, err := createCertificate(ecdsaPrivateKey, ecdsaPublicKey)
+pkg/common/plugin/x509pop/x509pop_test.go:45:	ecdsaChallenge, err := GenerateChallenge(ecdsaCert)
+pkg/common/plugin/x509pop/x509pop_test.go:47:	ecdsaResponse, err := CalculateResponse(ecdsaPrivateKey, ecdsaChallenge)
+pkg/common/plugin/x509pop/x509pop_test.go:49:	err = VerifyChallengeResponse(ecdsaPublicKey, ecdsaChallenge, ecdsaResponse)
+pkg/common/plugin/x509pop/x509pop_test.go:53:	_, err = CalculateResponse(rsaPrivateKey, ecdsaChallenge)
+pkg/common/plugin/x509pop/x509pop_test.go:55:	_, err = CalculateResponse(ecdsaPrivateKey, rsaChallenge)
+pkg/common/plugin/x509pop/x509pop_test.go:57:	err = VerifyChallengeResponse(rsaPublicKey, ecdsaChallenge, rsaResponse)
+pkg/common/plugin/x509pop/x509pop_test.go:59:	err = VerifyChallengeResponse(rsaPublicKey, rsaChallenge, ecdsaResponse)
+pkg/common/plugin/x509pop/x509pop_test.go:61:	err = VerifyChallengeResponse(ecdsaPublicKey, rsaChallenge, ecdsaResponse)
+pkg/common/plugin/x509pop/x509pop_test.go:63:	err = VerifyChallengeResponse(ecdsaPublicKey, ecdsaChallenge, rsaResponse)
+pkg/common/plugin/x509pop/x509pop_test.go:67:	rsaResponse.RSASignature.Signature[0]++
+pkg/common/plugin/x509pop/x509pop_test.go:68:	err = VerifyChallengeResponse(rsaPublicKey, rsaChallenge, rsaResponse)
+pkg/common/plugin/x509pop/x509pop_test.go:70:	ecdsaResponse.ECDSASignature.R[0]++
+pkg/common/plugin/x509pop/x509pop_test.go:71:	err = VerifyChallengeResponse(ecdsaPublicKey, ecdsaChallenge, ecdsaResponse)
+pkg/common/plugin/x509pop/x509pop_test.go:75:	badCert, err := createBadCertificate(rsaPrivateKey, rsaPublicKey)
+pkg/common/telemetry/names.go:350:	// ImageID tags the image identifier in the format "repository@sha256:digest"
+pkg/common/telemetry/names.go:369:	JWTAuthorityPublicKeySHA256 = "jwt_authority_public_key_sha256"
+pkg/common/telemetry/names.go:640:	X509AuthoritiesASN1SHA256 = "x509_authorities_asn1_sha256"
+pkg/common/util/hash.go:4:	"crypto/sha256"
+pkg/common/util/hash.go:11:// GetSHA256Digest calculates the sha256 digest of a file specified by path. If the size of the file exceeds the provided
+pkg/common/util/hash.go:30:	h := sha256.New()
+pkg/common/x509svid/common_test.go:4:	"crypto/ecdsa"
+pkg/common/x509svid/common_test.go:37:	csrKey  *ecdsa.PrivateKey
+pkg/common/x509svid/common_test.go:49:func (s *caSuite) createCA(key *ecdsa.PrivateKey, ttl time.Duration) *x509.Certificate {
+pkg/common/x509svid/common_test.go:63:func (s *caSuite) loadKey(pemBytes []byte) *ecdsa.PrivateKey {
+pkg/common/x509svid/common_test.go:69:	key, ok := rawKey.(*ecdsa.PrivateKey)
+pkg/common/x509svid/uniqueid.go:4:	"crypto/sha256"
+pkg/common/x509svid/uniqueid.go:37:	h := sha256.New()
+pkg/common/x509util/keyid.go:5:	"crypto/sha256"
+pkg/common/x509util/keyid.go:14:var x509utilsha256skid = util.FIPS140Only()
+pkg/common/x509util/keyid.go:33:	if x509utilsha256skid {
+pkg/common/x509util/keyid.go:38:		h := sha256.Sum256(subjectKeyInfo.SubjectPublicKey.Bytes)
+pkg/common/x509util/keyid_test.go:30:	originalSKISetting := x509utilsha256skid
+pkg/common/x509util/keyid_test.go:32:		x509utilsha256skid = originalSKISetting
+pkg/common/x509util/keyid_test.go:35:	x509utilsha256skid = false // fips140.Enabled == false
+pkg/common/x509util/keyid_test.go:44:	x509utilsha256skid = true // fips140.Enabled == true
+pkg/server/api/bundle.go:4:	"crypto/sha256"
+pkg/server/api/bundle.go:160:	s := sha256.Sum256(b)
+pkg/server/api/bundle/v1/service_test.go:468:						"jwt_authority_public_key_sha256.0": pkixBytesHashed,
+pkg/server/api/bundle/v1/service_test.go:469:						"x509_authorities_asn1_sha256.0":    x509CertHashed,
+pkg/server/api/bundle/v1/service_test.go:494:						"jwt_authority_public_key_sha256.0": pkixBytesHashed,
+pkg/server/api/bundle/v1/service_test.go:495:						"x509_authorities_asn1_sha256.0":    x509CertHashed,
+pkg/server/api/bundle/v1/service_test.go:517:						"x509_authorities_asn1_sha256.0": x509CertHashed,
+pkg/server/api/bundle/v1/service_test.go:541:						"jwt_authority_public_key_sha256.0": pkixBytesHashed,
+pkg/server/api/bundle/v1/service_test.go:566:						"jwt_authority_public_key_sha256.0": pkixBytesHashed,
+pkg/server/api/bundle/v1/service_test.go:567:						"x509_authorities_asn1_sha256.0":    x509CertHashed,
+pkg/server/api/bundle/v1/service_test.go:619:						"x509_authorities_asn1_sha256.0": api.HashByte([]byte("malformed")),
+pkg/server/api/bundle/v1/service_test.go:654:						"jwt_authority_public_key_sha256.0": api.HashByte([]byte("malformed")),
+pkg/server/api/bundle/v1/service_test.go:688:						"jwt_authority_public_key_sha256.0": pkixBytesHashed,
+pkg/server/api/bundle/v1/service_test.go:716:						"x509_authorities_asn1_sha256.0": x509CertHashed,
+pkg/server/api/bundle/v1/service_test.go:734:						"jwt_authority_public_key_sha256.0": pkixBytesHashed,
+pkg/server/api/bundle/v1/service_test.go:735:						"x509_authorities_asn1_sha256.0":    x509CertHashed,
+pkg/server/api/bundle/v1/service_test.go:1790:						"x509_authorities_asn1_sha256.0":    x509BundleHash,
+pkg/server/api/bundle/v1/service_test.go:1793:						"jwt_authority_public_key_sha256.0": jwtKeyHash,
+pkg/server/api/bundle/v1/service_test.go:1825:						"x509_authorities_asn1_sha256.0":    x509BundleHash,
+pkg/server/api/bundle/v1/service_test.go:1828:						"jwt_authority_public_key_sha256.0": jwtKeyHash,
+pkg/server/api/bundle/v1/service_test.go:1859:						"x509_authorities_asn1_sha256.0":    x509BundleHash,
+pkg/server/api/bundle/v1/service_test.go:1862:						"jwt_authority_public_key_sha256.0": jwtKeyHash,
+pkg/server/api/bundle/v1/service_test.go:1903:						"x509_authorities_asn1_sha256.0":    x509BundleHash,
+pkg/server/api/bundle/v1/service_test.go:1906:						"jwt_authority_public_key_sha256.0": jwtKeyHash,
+pkg/server/api/bundle/v1/service_test.go:1942:						"x509_authorities_asn1_sha256.0":    x509BundleHash,
+pkg/server/api/bundle/v1/service_test.go:1945:						"jwt_authority_public_key_sha256.0": jwtKeyHash,
+pkg/server/api/bundle/v1/service_test.go:1979:						"x509_authorities_asn1_sha256.0":    x509BundleHash,
+pkg/server/api/bundle/v1/service_test.go:1982:						"jwt_authority_public_key_sha256.0": jwtKeyHash,
+pkg/server/api/bundle/v1/service_test.go:2003:						"x509_authorities_asn1_sha256.0":    x509BundleHash,
+pkg/server/api/bundle/v1/service_test.go:2006:						"jwt_authority_public_key_sha256.0": jwtKeyHash,
+pkg/server/api/bundle/v1/service_test.go:2038:						"x509_authorities_asn1_sha256.0":    x509BundleHash,
+pkg/server/api/bundle/v1/service_test.go:2041:						"jwt_authority_public_key_sha256.0": jwtKeyHash,
+pkg/server/api/bundle/v1/service_test.go:2081:						"x509_authorities_asn1_sha256.0": api.HashByte([]byte("malformed")),
+pkg/server/api/bundle/v1/service_test.go:2156:						"x509_authorities_asn1_sha256.0":    x509BundleHash,
+pkg/server/api/bundle/v1/service_test.go:2159:						"jwt_authority_public_key_sha256.0": jwtKeyHash,
+pkg/server/api/bundle/v1/service_test.go:2197:						"x509_authorities_asn1_sha256.0":    x509BundleHash,
+pkg/server/api/bundle/v1/service_test.go:2200:						"jwt_authority_public_key_sha256.0": jwtKeyHash,
+pkg/server/api/bundle/v1/service_test.go:2238:						"x509_authorities_asn1_sha256.0":    x509BundleHash,
+pkg/server/api/bundle/v1/service_test.go:2241:						"jwt_authority_public_key_sha256.0": jwtKeyHash,
+pkg/server/api/bundle/v1/service_test.go:2280:						"x509_authorities_asn1_sha256.0":    x509BundleHash,
+pkg/server/api/bundle/v1/service_test.go:2283:						"jwt_authority_public_key_sha256.0": jwtKeyHash,
+pkg/server/api/bundle/v1/service_test.go:2319:						"x509_authorities_asn1_sha256.0":    x509BundleHash,
+pkg/server/api/bundle/v1/service_test.go:2322:						"jwt_authority_public_key_sha256.0": jwtKeyHash,
+pkg/server/api/bundle/v1/service_test.go:2354:						"x509_authorities_asn1_sha256.0":    x509BundleHash,
+pkg/server/api/bundle/v1/service_test.go:2357:						"jwt_authority_public_key_sha256.0": jwtKeyHash,
+pkg/server/api/bundle/v1/service_test.go:2389:						"x509_authorities_asn1_sha256.0":    x509BundleHash,
+pkg/server/api/bundle/v1/service_test.go:2392:						"jwt_authority_public_key_sha256.0": jwtKeyHash,
+pkg/server/api/bundle/v1/service_test.go:2432:						"x509_authorities_asn1_sha256.0": api.HashByte([]byte("malformed")),
+pkg/server/api/bundle/v1/service_test.go:2469:						"x509_authorities_asn1_sha256.0":    x509BundleHash,
+pkg/server/api/bundle/v1/service_test.go:2472:						"jwt_authority_public_key_sha256.0": jwtKeyHash,
+pkg/server/api/bundle/v1/service_test.go:2493:						"x509_authorities_asn1_sha256.0":    x509BundleHash,
+pkg/server/api/bundle/v1/service_test.go:2496:						"jwt_authority_public_key_sha256.0": jwtKeyHash,
+pkg/server/api/bundle/v1/service_test.go:2595:						"x509_authorities_asn1_sha256.0":    x509BundleHash,
+pkg/server/api/bundle/v1/service_test.go:2598:						"jwt_authority_public_key_sha256.0": jwtKeyHash,
+pkg/server/api/bundle/v1/service_test.go:2630:						"x509_authorities_asn1_sha256.0":    x509BundleHash,
+pkg/server/api/bundle/v1/service_test.go:2633:						"jwt_authority_public_key_sha256.0": jwtKeyHash,
+pkg/server/api/bundle/v1/service_test.go:2664:						"x509_authorities_asn1_sha256.0":    x509BundleHash,
+pkg/server/api/bundle/v1/service_test.go:2667:						"jwt_authority_public_key_sha256.0": jwtKeyHash,
+pkg/server/api/bundle/v1/service_test.go:2706:						"x509_authorities_asn1_sha256.0":    x509BundleHash,
+pkg/server/api/bundle/v1/service_test.go:2709:						"jwt_authority_public_key_sha256.0": jwtKeyHash,
+pkg/server/api/bundle/v1/service_test.go:2728:						"x509_authorities_asn1_sha256.0":    x509BundleHash,
+pkg/server/api/bundle/v1/service_test.go:2731:						"jwt_authority_public_key_sha256.0": jwtKeyHash,
+pkg/server/api/bundle/v1/service_test.go:2768:						"x509_authorities_asn1_sha256.0":    x509BundleHash,
+pkg/server/api/bundle/v1/service_test.go:2771:						"jwt_authority_public_key_sha256.0": jwtKeyHash,
+pkg/server/api/bundle/v1/service_test.go:2807:						"x509_authorities_asn1_sha256.0":    x509BundleHash,
+pkg/server/api/bundle/v1/service_test.go:2810:						"jwt_authority_public_key_sha256.0": jwtKeyHash,
+pkg/server/api/bundle/v1/service_test.go:2842:						"x509_authorities_asn1_sha256.0":    x509BundleHash,
+pkg/server/api/bundle/v1/service_test.go:2845:						"jwt_authority_public_key_sha256.0": jwtKeyHash,
+pkg/server/api/bundle/v1/service_test.go:2885:						"x509_authorities_asn1_sha256.0": api.HashByte([]byte("malformed")),
+pkg/server/api/bundle_test.go:280:				"jwt_authority_public_key_sha256.0": pkixHashed,
+pkg/server/api/bundle_test.go:284:				"x509_authorities_asn1_sha256.0":    rootCAHashed,
+pkg/server/api/debug/v1/service_test.go:5:	"crypto/ecdsa"
+pkg/server/api/debug/v1/service_test.go:60:		Key:  x509SVID.PrivateKey.(*ecdsa.PrivateKey),
+pkg/server/api/debug/v1/service_test.go:88:		Key:  svidWithIntermediate.PrivateKey.(*ecdsa.PrivateKey),
+pkg/server/api/svid/v1/service.go:6:	"crypto/ecdsa"
+pkg/server/api/svid/v1/service.go:8:	"crypto/rsa"
+pkg/server/api/svid/v1/service.go:726:	case *rsa.PublicKey:
+pkg/server/api/svid/v1/service.go:730:	case *ecdsa.PublicKey:
+pkg/server/api/svid/v1/service_test.go:6:	"crypto/ecdsa"
+pkg/server/api/svid/v1/service_test.go:1080:			key, err := ecdsa.GenerateKey(elliptic.P256(), rand.Reader)
+pkg/server/api/svid/v1/service_test.go:2925:			name:              "rsa-2048",
+pkg/server/api/svid/v1/service_test.go:2931:			name:              "rsa-4096",
+pkg/server/api/trustdomain/v1/service_test.go:603:						"bundle_jwt_authority_public_key_sha256.0": pkixHashed,
+pkg/server/api/trustdomain/v1/service_test.go:606:						"bundle_x509_authorities_asn1_sha256.0":    x509AuthorityHashed,
+pkg/server/api/trustdomain/v1/service_test.go:664:						"bundle_jwt_authority_public_key_sha256.0": pkixHashed,
+pkg/server/api/trustdomain/v1/service_test.go:667:						"bundle_x509_authorities_asn1_sha256.0":    x509AuthorityHashed,
+pkg/server/api/trustdomain/v1/service_test.go:899:						"bundle_jwt_authority_public_key_sha256.0": pkixHashed,
+pkg/server/api/trustdomain/v1/service_test.go:903:						"bundle_x509_authorities_asn1_sha256.0":    x509AuthorityHashed,
+pkg/server/api/trustdomain/v1/service_test.go:1544:						"bundle_jwt_authority_public_key_sha256.0": api.HashByte(pkixBytes),
+pkg/server/api/trustdomain/v1/service_test.go:1547:						"bundle_x509_authorities_asn1_sha256.0":    api.HashByte(newCARaw),
+pkg/server/api/trustdomain/v1/service_test.go:1853:						"bundle_jwt_authority_public_key_sha256.0": api.HashByte(pkixBytes),
+pkg/server/api/trustdomain/v1/service_test.go:1856:						"bundle_x509_authorities_asn1_sha256.0":    api.HashByte(newCARaw),
+pkg/server/ca/ca_test.go:6:	"crypto/rsa"
+pkg/server/ca/ca_test.go:565:	rsaKey, err := rsa.GenerateKey(rand.Reader, 1024) //nolint:gosec
+pkg/server/ca/ca_test.go:569:		Key: &rsaKey.PublicKey,
+pkg/server/ca/manager/manager_test.go:6:	"crypto/ecdsa"
+pkg/server/ca/manager/manager_test.go:7:	"crypto/rsa"
+pkg/server/ca/manager/manager_test.go:1297:		publicKey, ok := signer.Public().(*rsa.PublicKey)
+pkg/server/ca/manager/manager_test.go:1313:		publicKey, ok := signer.Public().(*ecdsa.PublicKey)
+pkg/server/credtemplate/builder_test.go:6:	"crypto/ecdsa"
+pkg/server/credtemplate/builder_test.go:1275:				signer, err := ecdsa.GenerateKey(elliptic.P256(), rand.Reader)
+pkg/server/endpoints/bundle/internal/acmetest/ca.go:43:	"crypto/ecdsa"
+pkg/server/endpoints/bundle/internal/acmetest/ca.go:46:	"crypto/rsa"
+pkg/server/endpoints/bundle/internal/acmetest/ca.go:143:	key, err := ecdsa.GenerateKey(elliptic.P256(), rand.Reader)
+pkg/server/endpoints/bundle/internal/acmetest/ca.go:145:		panic(fmt.Sprintf("ecdsa.GenerateKey: %v", err))
+pkg/server/endpoints/bundle/internal/acmetest/ca.go:613:		pk, err = rsa.GenerateKey(rand.Reader, 1024)
+pkg/server/endpoints/bundle/internal/acmetest/ca.go:619:		pk, err = ecdsa.GenerateKey(elliptic.P256(), rand.Reader)
+pkg/server/endpoints/bundle/internal/autocert/autocert.go:51:	"crypto/ecdsa"
+pkg/server/endpoints/bundle/internal/autocert/autocert.go:53:	"crypto/rsa"
+pkg/server/endpoints/bundle/internal/autocert/autocert.go:251:		return c.domain + "+rsa"
+pkg/server/endpoints/bundle/internal/autocert/autocert.go:364:		ecdsaOK := false
+pkg/server/endpoints/bundle/internal/autocert/autocert.go:371:				ecdsaOK = true
+pkg/server/endpoints/bundle/internal/autocert/autocert.go:375:		if !ecdsaOK {
+pkg/server/endpoints/bundle/internal/autocert/autocert.go:380:		ecdsaOK := slices.Contains(hello.SupportedCurves, tls.CurveP256)
+pkg/server/endpoints/bundle/internal/autocert/autocert.go:381:		if !ecdsaOK {
+pkg/server/endpoints/bundle/internal/autocert/autocert.go:1170:	case *rsa.PublicKey:
+pkg/server/endpoints/bundle/internal/autocert/autocert.go:1171:		prvPub, ok := key.Public().(*rsa.PublicKey)
+pkg/server/endpoints/bundle/internal/autocert/autocert.go:1181:	case *ecdsa.PublicKey:
+pkg/server/endpoints/bundle/internal/autocert/autocert.go:1182:		prvPub, ok := key.Public().(*ecdsa.PublicKey)
+pkg/server/endpoints/bundle/internal/autocert/autocert.go:1213:	case *ecdsa.PublicKey:
+pkg/server/endpoints/bundle/internal/autocert/autocert.go:1215:	case *rsa.PublicKey:
+pkg/server/plugin/keymanager/awskms/awskms.go:5:	"crypto/sha256"
+pkg/server/plugin/keymanager/awskms/awskms.go:922:		return types.SigningAlgorithmSpecEcdsaSha256, nil
+pkg/server/plugin/keymanager/awskms/awskms.go:924:		return types.SigningAlgorithmSpecEcdsaSha384, nil
+pkg/server/plugin/keymanager/awskms/awskms.go:1007:	s := sha256.Sum256(pkixData)
+pkg/server/plugin/keymanager/awskms/awskms_test.go:5:	"crypto/sha256"
+pkg/server/plugin/keymanager/awskms/awskms_test.go:413:				KeyId:   "bundle-acme-foo.bar+rsa",
+pkg/server/plugin/keymanager/awskms/awskms_test.go:469:				KeyId:   "bundle-acme-foo.bar+rsa",
+pkg/server/plugin/keymanager/awskms/awskms_test.go:474:					AliasName:            aws.String("alias/SPIRE_SERVER/test_example_org/aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee/bundle-acme-foo_2ebar_2brsa"),
+pkg/server/plugin/keymanager/awskms/awskms_test.go:803:	sum256 := sha256.Sum256(nil)
+pkg/server/plugin/keymanager/awskms/awskms_test.go:1112:			keyID: "bundle-acme-foo.bar+rsa",
+pkg/server/plugin/keymanager/awskms/awskms_test.go:1115:					AliasName: aws.String("alias/SPIRE_SERVER/test_example_org/aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee/bundle-acme-foo_2ebar_2brsa"),
+pkg/server/plugin/keymanager/awskms/client_fake.go:6:	"crypto/ecdsa"
+pkg/server/plugin/keymanager/awskms/client_fake.go:8:	"crypto/rsa"
+pkg/server/plugin/keymanager/awskms/client_fake.go:262:		if _, ok := entry.privateKey.(*rsa.PrivateKey); !ok {
+pkg/server/plugin/keymanager/awskms/client_fake.go:268:		if _, ok := entry.privateKey.(*ecdsa.PrivateKey); !ok {
+pkg/server/plugin/keymanager/awskms/client_fake.go:277:		signature, err = signRSA(&rsa.PSSOptions{Hash: crypto.SHA256, SaltLength: rsa.PSSSaltLengthEqualsHash})
+pkg/server/plugin/keymanager/awskms/client_fake.go:279:		signature, err = signRSA(&rsa.PSSOptions{Hash: crypto.SHA384, SaltLength: rsa.PSSSaltLengthEqualsHash})
+pkg/server/plugin/keymanager/awskms/client_fake.go:281:		signature, err = signRSA(&rsa.PSSOptions{Hash: crypto.SHA512, SaltLength: rsa.PSSSaltLengthEqualsHash})
+pkg/server/plugin/keymanager/awskms/client_fake.go:288:	case types.SigningAlgorithmSpecEcdsaSha256:
+pkg/server/plugin/keymanager/awskms/client_fake.go:290:	case types.SigningAlgorithmSpecEcdsaSha384:
+pkg/server/plugin/keymanager/awskms/client_fake.go:292:	case types.SigningAlgorithmSpecEcdsaSha512:
+pkg/server/plugin/keymanager/azurekeyvault/azure_key_vault.go:5:	"crypto/sha256"
+pkg/server/plugin/keymanager/azurekeyvault/azure_key_vault.go:516:// while we expect the RFC3279 ASN.1 DER Format during signature verification (ecdsa.VerifyASN1).
+pkg/server/plugin/keymanager/azurekeyvault/azure_key_vault.go:541:// For example *ecdsa.PublicKey or *rsa.PublicKey etc
+pkg/server/plugin/keymanager/azurekeyvault/azure_key_vault.go:754:	s := sha256.Sum256(pkixData)
+pkg/server/plugin/keymanager/azurekeyvault/azure_key_vault_test.go:6:	"crypto/sha256"
+pkg/server/plugin/keymanager/azurekeyvault/azure_key_vault_test.go:264:				KeyId:   "bundle-acme-foo.bar+rsa",
+pkg/server/plugin/keymanager/azurekeyvault/azure_key_vault_test.go:371:	sum256 := sha256.Sum256(nil)
+pkg/server/plugin/keymanager/azurekeyvault/azure_key_vault_test.go:671:			generatedKeyID: "bundle-acme-foo.bar+rsa",
+pkg/server/plugin/keymanager/azurekeyvault/azure_key_vault_test.go:672:			queriedKeyID:   "bundle-acme-foo.bar+rsa",
+pkg/server/plugin/keymanager/azurekeyvault/azure_key_vault_test.go:1027:func makeFakeKeyEntry(t *testing.T, keyName, trustDomain, serverID string, keyType azkeys.JSONWebKeyType, curveName *azkeys.JSONWebKeyCurveName, rsaKeySize *int) fakeKeyEntry {
+pkg/server/plugin/keymanager/azurekeyvault/azure_key_vault_test.go:1039:	case keyType == azkeys.JSONWebKeyTypeRSA && *rsaKeySize == 2048:
+pkg/server/plugin/keymanager/azurekeyvault/azure_key_vault_test.go:1042:	case keyType == azkeys.JSONWebKeyTypeRSA && *rsaKeySize == 4096:
+pkg/server/plugin/keymanager/azurekeyvault/client_fake.go:6:	"crypto/ecdsa"
+pkg/server/plugin/keymanager/azurekeyvault/client_fake.go:8:	"crypto/rsa"
+pkg/server/plugin/keymanager/azurekeyvault/client_fake.go:46:	rsa2048Key crypto.Signer
+pkg/server/plugin/keymanager/azurekeyvault/client_fake.go:47:	rsa4096Key crypto.Signer
+pkg/server/plugin/keymanager/azurekeyvault/client_fake.go:74:		rsa2048Key: testKeys.NewRSA2048(t),
+pkg/server/plugin/keymanager/azurekeyvault/client_fake.go:75:		rsa4096Key: testKeys.NewRSA4096(t),
+pkg/server/plugin/keymanager/azurekeyvault/client_fake.go:180:		privateKey = k.store.rsa2048Key
+pkg/server/plugin/keymanager/azurekeyvault/client_fake.go:183:		privateKey = k.store.rsa4096Key
+pkg/server/plugin/keymanager/azurekeyvault/client_fake.go:324:		if _, ok := privateKey.(*rsa.PrivateKey); !ok {
+pkg/server/plugin/keymanager/azurekeyvault/client_fake.go:327:		return privateKey.(*rsa.PrivateKey).Sign(rand.Reader, parameters.Value, opts)
+pkg/server/plugin/keymanager/azurekeyvault/client_fake.go:330:		if _, ok := privateKey.(*ecdsa.PrivateKey); !ok {
+pkg/server/plugin/keymanager/azurekeyvault/client_fake.go:334:		key := privateKey.(*ecdsa.PrivateKey)
+pkg/server/plugin/keymanager/azurekeyvault/client_fake.go:341:		r, s, err := ecdsa.Sign(rand.Reader, key, parameters.Value)
+pkg/server/plugin/keymanager/azurekeyvault/client_fake.go:343:			return nil, fmt.Errorf("failed to sign data using ecdsa: %w", err)
+pkg/server/plugin/keymanager/azurekeyvault/client_fake.go:358:		signature, err = signRSA(&rsa.PSSOptions{Hash: crypto.SHA256, SaltLength: rsa.PSSSaltLengthEqualsHash})
+pkg/server/plugin/keymanager/azurekeyvault/client_fake.go:360:		signature, err = signRSA(&rsa.PSSOptions{Hash: crypto.SHA384, SaltLength: rsa.PSSSaltLengthEqualsHash})
+pkg/server/plugin/keymanager/azurekeyvault/client_fake.go:362:		signature, err = signRSA(&rsa.PSSOptions{Hash: crypto.SHA512, SaltLength: rsa.PSSSaltLengthEqualsHash})
+pkg/server/plugin/keymanager/azurekeyvault/client_fake.go:387:	rsaKey := publicKey.(*rsa.PublicKey)
+pkg/server/plugin/keymanager/azurekeyvault/client_fake.go:388:	var s = big.NewInt(int64(rsaKey.E))
+pkg/server/plugin/keymanager/azurekeyvault/client_fake.go:391:		N:      rsaKey.N.Bytes(),
+pkg/server/plugin/keymanager/azurekeyvault/client_fake.go:401:	ecdsaKey := publicKey.(*ecdsa.PublicKey)
+pkg/server/plugin/keymanager/azurekeyvault/client_fake.go:404:		//D:      ecdsaKey.D.Bytes(),
+pkg/server/plugin/keymanager/azurekeyvault/client_fake.go:408:		X:      ecdsaKey.X.Bytes(),
+pkg/server/plugin/keymanager/azurekeyvault/client_fake.go:409:		Y:      ecdsaKey.Y.Bytes(),
+pkg/server/plugin/keymanager/base/keymanagerbase.go:6:	"crypto/ecdsa"
+pkg/server/plugin/keymanager/base/keymanagerbase.go:9:	"crypto/rsa"
+pkg/server/plugin/keymanager/base/keymanagerbase.go:10:	"crypto/sha256"
+pkg/server/plugin/keymanager/base/keymanagerbase.go:182:		signerOpts = &rsa.PSSOptions{
+pkg/server/plugin/keymanager/base/keymanagerbase.go:260:	case *ecdsa.PrivateKey:
+pkg/server/plugin/keymanager/base/keymanagerbase.go:261:		keyType, err := ecdsaKeyType(privateKey)
+pkg/server/plugin/keymanager/base/keymanagerbase.go:266:	case *rsa.PrivateKey:
+pkg/server/plugin/keymanager/base/keymanagerbase.go:267:		keyType, err := rsaKeyType(privateKey)
+pkg/server/plugin/keymanager/base/keymanagerbase.go:277:func rsaKeyType(privateKey *rsa.PrivateKey) (keymanagerv1.KeyType, error) {
+pkg/server/plugin/keymanager/base/keymanagerbase.go:289:func ecdsaKeyType(privateKey *ecdsa.PrivateKey) (keymanagerv1.KeyType, error) {
+pkg/server/plugin/keymanager/base/keymanagerbase.go:304:	return rsa.GenerateKey(rand.Reader, 2048)
+pkg/server/plugin/keymanager/base/keymanagerbase.go:308:	return rsa.GenerateKey(rand.Reader, 4096)
+pkg/server/plugin/keymanager/base/keymanagerbase.go:312:	return ecdsa.GenerateKey(elliptic.P256(), rand.Reader)
+pkg/server/plugin/keymanager/base/keymanagerbase.go:316:	return ecdsa.GenerateKey(elliptic.P384(), rand.Reader)
+pkg/server/plugin/keymanager/base/keymanagerbase.go:341:	s := sha256.Sum256(pkixData)
+pkg/server/plugin/keymanager/gcpkms/client_fake.go:7:	"crypto/ecdsa"
+pkg/server/plugin/keymanager/gcpkms/client_fake.go:9:	"crypto/rsa"
+pkg/server/plugin/keymanager/gcpkms/client_fake.go:408:		if _, ok := fakeCryptoKeyVersion.privateKey.(*rsa.PrivateKey); !ok {
+pkg/server/plugin/keymanager/gcpkms/client_fake.go:414:		if _, ok := fakeCryptoKeyVersion.privateKey.(*ecdsa.PrivateKey); !ok {
+pkg/server/plugin/keymanager/gcpkms/gcpkms.go:6:	"crypto/sha256"
+pkg/server/plugin/keymanager/gcpkms/gcpkms.go:1101:		// with large key sizes. (e.g. when rsa-4096 keys are used).
+pkg/server/plugin/keymanager/gcpkms/gcpkms.go:1129:	s := sha256.Sum256(pkixData)
+pkg/server/plugin/keymanager/gcpkms/gcpkms_test.go:5:	"crypto/sha256"
+pkg/server/plugin/keymanager/gcpkms/gcpkms_test.go:673:				KeyId:   "bundle-acme-foo.bar+rsa",
+pkg/server/plugin/keymanager/gcpkms/gcpkms_test.go:1446:	sum256 := sha256.Sum256(nil)
+pkg/server/plugin/keymanager/keymanager.go:6:	"crypto/ecdsa"
+pkg/server/plugin/keymanager/keymanager.go:9:	"crypto/rsa"
+pkg/server/plugin/keymanager/keymanager.go:53:	case "rsa-2048":
+pkg/server/plugin/keymanager/keymanager.go:55:	case "rsa-4096":
+pkg/server/plugin/keymanager/keymanager.go:62:		return KeyTypeUnset, fmt.Errorf("key type %q is unknown; must be one of [rsa-2048, rsa-4096, ec-p256, ec-p384]", s)
+pkg/server/plugin/keymanager/keymanager.go:70:		return ecdsa.GenerateKey(elliptic.P256(), rand.Reader)
+pkg/server/plugin/keymanager/keymanager.go:72:		return ecdsa.GenerateKey(elliptic.P384(), rand.Reader)
+pkg/server/plugin/keymanager/keymanager.go:74:		return rsa.GenerateKey(rand.Reader, 2048)
+pkg/server/plugin/keymanager/keymanager.go:76:		return rsa.GenerateKey(rand.Reader, 4096)
+pkg/server/plugin/keymanager/keymanager.go:90:		return "rsa-2048"
+pkg/server/plugin/keymanager/keymanager.go:92:		return "rsa-4096"
+pkg/server/plugin/keymanager/test/keymanagertest.go:6:	"crypto/ecdsa"
+pkg/server/plugin/keymanager/test/keymanagertest.go:9:	"crypto/rsa"
+pkg/server/plugin/keymanager/test/keymanagertest.go:10:	"crypto/sha256"
+pkg/server/plugin/keymanager/test/keymanagertest.go:104:	rsaAlgorithms := []x509.SignatureAlgorithm{
+pkg/server/plugin/keymanager/test/keymanagertest.go:113:	ecdsaAlgorithms := []x509.SignatureAlgorithm{
+pkg/server/plugin/keymanager/test/keymanagertest.go:121:		keymanager.ECP256:  ecdsaAlgorithms,
+pkg/server/plugin/keymanager/test/keymanagertest.go:122:		keymanager.ECP384:  ecdsaAlgorithms,
+pkg/server/plugin/keymanager/test/keymanagertest.go:123:		keymanager.RSA2048: rsaAlgorithms,
+pkg/server/plugin/keymanager/test/keymanagertest.go:124:		keymanager.RSA4096: rsaAlgorithms,
+pkg/server/plugin/keymanager/test/keymanagertest.go:177:		digest := sha256.Sum256([]byte("DATA"))
+pkg/server/plugin/keymanager/test/keymanagertest.go:253:	publicKey, ok := key.Public().(*ecdsa.PublicKey)
+pkg/server/plugin/keymanager/test/keymanagertest.go:259:	publicKey, ok := key.Public().(*rsa.PublicKey)
+pkg/server/plugin/keymanager/v1.go:6:	"crypto/rsa"
+pkg/server/plugin/keymanager/v1.go:156:	case *rsa.PSSOptions:
+pkg/server/plugin/keymanager/v1_test.go:7:	"crypto/rsa"
+pkg/server/plugin/keymanager/v1_test.go:280:			signerOpts: &rsa.PSSOptions{
+pkg/server/plugin/nodeattestor/awsiid/awsca.go:10:	"github.com/spiffe/spire/pkg/server/plugin/nodeattestor/awsiid/awsrsa1024"
+pkg/server/plugin/nodeattestor/awsiid/awsca.go:11:	"github.com/spiffe/spire/pkg/server/plugin/nodeattestor/awsiid/awsrsa2048"
+pkg/server/plugin/nodeattestor/awsiid/awsca.go:38:		cert = awsrsa1024.CACerts[region]
+pkg/server/plugin/nodeattestor/awsiid/awsca.go:41:			cert = awsrsa1024.AWSCACert
+pkg/server/plugin/nodeattestor/awsiid/awsca.go:45:		cert, ok = awsrsa2048.CACerts[region]
+pkg/server/plugin/nodeattestor/awsiid/awsrsa1024/cacerts.go:1:package awsrsa1024
+pkg/server/plugin/nodeattestor/awsiid/awsrsa2048/cacerts.go:1:package awsrsa2048
+pkg/server/plugin/nodeattestor/awsiid/iid.go:6:	"crypto/rsa"
+pkg/server/plugin/nodeattestor/awsiid/iid.go:7:	"crypto/sha256"
+pkg/server/plugin/nodeattestor/awsiid/iid.go:477:		if err := verifyRSASignature(caCert.PublicKey.(*rsa.PublicKey), attestationData.Document, signature); err != nil {
+pkg/server/plugin/nodeattestor/awsiid/iid.go:494:func verifyRSASignature(pubKey *rsa.PublicKey, doc string, signature string) error {
+pkg/server/plugin/nodeattestor/awsiid/iid.go:495:	docHash := sha256.Sum256([]byte(doc))
+pkg/server/plugin/nodeattestor/awsiid/iid.go:502:	if err := rsa.VerifyPKCS1v15(pubKey, crypto.SHA256, docHash[:], sigBytes); err != nil {
+pkg/server/plugin/nodeattestor/awsiid/iid_test.go:7:	"crypto/rsa"
+pkg/server/plugin/nodeattestor/awsiid/iid_test.go:8:	"crypto/sha256"
+pkg/server/plugin/nodeattestor/awsiid/iid_test.go:921:	docHash := sha256.Sum256(docBytes)
+pkg/server/plugin/nodeattestor/awsiid/iid_test.go:922:	sig, err := rsa.SignPKCS1v15(rng, testAWSCAKey, crypto.SHA256, docHash[:])
+pkg/server/plugin/nodeattestor/awsiid/iid_test.go:933:func generatePKCS7Signature(t *testing.T, docBytes []byte, key *rsa.PrivateKey) []byte {
+pkg/server/plugin/nodeattestor/azuremsi/msi_test.go:5:	"crypto/rsa"
+pkg/server/plugin/nodeattestor/azuremsi/msi_test.go:68:	key        *rsa.PrivateKey
+pkg/server/plugin/nodeattestor/k8spsat/psat_test.go:6:	"crypto/ecdsa"
+pkg/server/plugin/nodeattestor/k8spsat/psat_test.go:8:	"crypto/rsa"
+pkg/server/plugin/nodeattestor/k8spsat/psat_test.go:46:	fooKey          *rsa.PrivateKey
+pkg/server/plugin/nodeattestor/k8spsat/psat_test.go:48:	barKey          *ecdsa.PrivateKey
+pkg/server/plugin/nodeattestor/tpmdevid/challenge.go:5:	"crypto/ecdsa"
+pkg/server/plugin/nodeattestor/tpmdevid/challenge.go:6:	"crypto/rsa"
+pkg/server/plugin/nodeattestor/tpmdevid/challenge.go:28:	case *rsa.PublicKey:
+pkg/server/plugin/nodeattestor/tpmdevid/challenge.go:30:	case *ecdsa.PublicKey:
+pkg/server/plugin/nodeattestor/tpmdevid/challenge.go:61:	case *rsa.PublicKey:
+pkg/server/plugin/nodeattestor/tpmdevid/devid.go:6:	"crypto/rsa"
+pkg/server/plugin/nodeattestor/tpmdevid/devid.go:377:	keyFromCert, ok := ekCert.PublicKey.(*rsa.PublicKey)
+pkg/server/plugin/nodeattestor/tpmdevid/devid.go:387:	keyFromTemplate, ok := cryptoKey.(*rsa.PublicKey)
+pkg/server/plugin/nodeattestor/tpmdevid/devid.go:436:	rsaKey, ok := key.(*rsa.PublicKey)
+pkg/server/plugin/nodeattestor/tpmdevid/devid.go:463:	return rsa.VerifyPKCS1v15(rsaKey, hash, hashed, sig.RSA.Signature)
+pkg/server/plugin/nodeattestor/x509pop/x509pop.go:5:	"crypto/rsa"
+pkg/server/plugin/nodeattestor/x509pop/x509pop.go:56:	MaxRSAKeySize     *int     `hcl:"max_rsa_key_size"`
+pkg/server/plugin/nodeattestor/x509pop/x509pop.go:141:			status.ReportError("max_rsa_key_size must be greater than 0")
+pkg/server/plugin/nodeattestor/x509pop/x509pop.go:440:	if rsaKey, ok := cert.PublicKey.(*rsa.PublicKey); ok {
+pkg/server/plugin/nodeattestor/x509pop/x509pop.go:441:		keySize := rsaKey.N.BitLen()
+pkg/server/plugin/nodeattestor/x509pop/x509pop_test.go:7:	"crypto/rsa"
+pkg/server/plugin/nodeattestor/x509pop/x509pop_test.go:324:		customConfig := s.createConfiguration("ca_bundle_path", "max_rsa_key_size = 2048")
+pkg/server/plugin/nodeattestor/x509pop/x509pop_test.go:338:		customConfig := s.createConfiguration("ca_bundle_path", "max_rsa_key_size = 2048")
+pkg/server/plugin/nodeattestor/x509pop/x509pop_test.go:443:	s.T().Run("invalid max_rsa_key_size (zero)", func(t *testing.T) {
+pkg/server/plugin/nodeattestor/x509pop/x509pop_test.go:446:		max_rsa_key_size = 0
+pkg/server/plugin/nodeattestor/x509pop/x509pop_test.go:449:		spiretest.RequireGRPCStatusContains(t, err, codes.InvalidArgument, "max_rsa_key_size must be greater than 0")
+pkg/server/plugin/nodeattestor/x509pop/x509pop_test.go:452:	s.T().Run("invalid max_rsa_key_size (negative)", func(t *testing.T) {
+pkg/server/plugin/nodeattestor/x509pop/x509pop_test.go:455:		max_rsa_key_size = -1
+pkg/server/plugin/nodeattestor/x509pop/x509pop_test.go:458:		spiretest.RequireGRPCStatusContains(t, err, codes.InvalidArgument, "max_rsa_key_size must be greater than 0")
+pkg/server/plugin/nodeattestor/x509pop/x509pop_test.go:470:	s.T().Run("custom max_rsa_key_size", func(t *testing.T) {
+pkg/server/plugin/nodeattestor/x509pop/x509pop_test.go:473:		max_rsa_key_size = 8192
+pkg/server/plugin/nodeattestor/x509pop/x509pop_test.go:558:	key, err := rsa.GenerateKey(rand.Reader, keySize)
+pkg/server/plugin/upstreamauthority/awssecret/awslib_fake_test.go:6:	"crypto/ecdsa"
+pkg/server/plugin/upstreamauthority/awssecret/awslib_fake_test.go:28:	rootKey          *ecdsa.PrivateKey
+pkg/server/plugin/upstreamauthority/awssecret/awslib_fake_test.go:30:	alternativeKey   *ecdsa.PrivateKey
+pkg/server/plugin/upstreamauthority/awssecret/awslib_fake_test.go:31:	intermediateKey  *ecdsa.PrivateKey
+pkg/server/plugin/upstreamauthority/awssecret/awslib_fake_test.go:122:func keyToPEMstr(t *testing.T, key *ecdsa.PrivateKey) string {
+pkg/server/plugin/upstreamauthority/disk/disk_test.go:6:	"crypto/ecdsa"
+pkg/server/plugin/upstreamauthority/disk/disk_test.go:7:	"crypto/rsa"
+pkg/server/plugin/upstreamauthority/disk/disk_test.go:392:	rsaRootKey := keys.NewRSA2048(t)
+pkg/server/plugin/upstreamauthority/disk/disk_test.go:393:	rsaRootCert := createCACertificate(t, clk, "spiffe://root", rsaRootKey, nil, nil)
+pkg/server/plugin/upstreamauthority/disk/disk_test.go:408:		RSARootKey:                    filepath.Join(base, "rsa_root_key.pem"),
+pkg/server/plugin/upstreamauthority/disk/disk_test.go:409:		RSARootKeyAsPKCS1:             filepath.Join(base, "rsa_root_key_as_pkcs1.pem"),
+pkg/server/plugin/upstreamauthority/disk/disk_test.go:410:		RSARootCert:                   filepath.Join(base, "rsa_root_cert.pem"),
+pkg/server/plugin/upstreamauthority/disk/disk_test.go:424:	writeFile(t, testData.RSARootKey, pkcs8PEM(t, rsaRootKey))
+pkg/server/plugin/upstreamauthority/disk/disk_test.go:425:	writeFile(t, testData.RSARootKeyAsPKCS1, pkcs1PEM(t, rsaRootKey))
+pkg/server/plugin/upstreamauthority/disk/disk_test.go:426:	writeFile(t, testData.RSARootCert, certPEM(rsaRootCert))
+pkg/server/plugin/upstreamauthority/disk/disk_test.go:459:func pkcs1PEM(t *testing.T, key *rsa.PrivateKey) []byte {
+pkg/server/plugin/upstreamauthority/disk/disk_test.go:465:func ecPEM(t *testing.T, key *ecdsa.PrivateKey) []byte {
+pkg/server/plugin/upstreamauthority/ejbca/ejbca_test.go:6:	"crypto/rsa"
+pkg/server/plugin/upstreamauthority/ejbca/ejbca_test.go:734:	keyBytes, _ := rsa.GenerateKey(rand.Reader, 2048)
+pkg/server/plugin/upstreamauthority/gcpcas/gcpcas.go:5:	"crypto/sha256"
+pkg/server/plugin/upstreamauthority/gcpcas/gcpcas.go:291:	csrSum := sha256.Sum256(csrParsed.RawSubjectPublicKeyInfo)
+pkg/server/plugin/upstreamauthority/gcpcas/gcpcas_test.go:6:	"crypto/ecdsa"
+pkg/server/plugin/upstreamauthority/gcpcas/gcpcas_test.go:191:		key, err := ecdsa.GenerateKey(elliptic.P384(), rand.Reader)
+pkg/server/plugin/upstreamauthority/gcpcas/gcpcas_test.go:202:func generateCert(t *testing.T, cn string, issuer *x509.Certificate, issuerKey crypto.PrivateKey, ttlInHours int, keyfn func(testing.TB) *ecdsa.PrivateKey) (*x509.Certificate, crypto.PrivateKey, error) {
+pkg/server/plugin/upstreamauthority/vault/testdata/generate.go:5:	"crypto/ecdsa"
+pkg/server/plugin/upstreamauthority/vault/testdata/generate.go:56:	key, err := ecdsa.GenerateKey(elliptic.P256(), rand.Reader)
+pkg/server/plugin/upstreamauthority/vault/vault_fake_test.go:377:    "entity_id": "0bee5a2d-efe5-6fd3-9c5a-972266ecccf4",
+pkg/server/plugin/upstreamauthority/vault/vault_fake_test.go:408:    "entity_id": "0bee5a2d-efe5-6fd3-9c5a-972266ecccf4",
+pkg/server/plugin/upstreamauthority/vault/vault_fake_test.go:439:    "entity_id": "0bee5a2d-efe5-6fd3-9c5a-972266ecccf4",
+test/fixture/certs/node_key.pem:12:iR+WVm97pEy4Amd/9tbb4dsakrhx566vcFDdSUr/OAdnz7Z40xwRGJxejmmZd1Jx
+test/fixture/nodeattestor/sshpop/agent_ssh_key-cert.pub:1:ssh-ed25519-cert-v01@openssh.com AAAAIHNzaC1lZDI1NTE5LWNlcnQtdjAxQG9wZW5zc2guY29tAAAAIHKePFvG6YhtFQBeMVEw+5cvlZ65YHP2vYpHJuBI/fVxAAAAIEAWPAsKJ/qMYUIBeH7BLMRCE/bkUvMHX+7OZhANk45SAAAAAAAAAAAAAAACAAAACGZvby1ob3N0AAAADAAAAAhmb28taG9zdAAAAAAAAAAA//////////8AAAAAAAAAAAAAAAAAAAAzAAAAC3NzaC1lZDI1NTE5AAAAIEAWPAsKJ/qMYUIBeH7BLMRCE/bkUvMHX+7OZhANk45SAAAAUwAAAAtzc2gtZWQyNTUxOQAAAEAJGYmukpFo0c0B5lj7OU1Zn4bFA11DFHKwwYgFSJyx0gAdW74KV8wlfIU+wPj6ot0zojZ2F6eDyfETSDESZy4C
+test/fixture/nodeattestor/sshpop/ssh_cert_authority.pub:1:ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEAWPAsKJ/qMYUIBeH7BLMRCE/bkUvMHX+7OZhANk45S
+test/fixture/nodeattestor/x509pop/generate.go:6:	"crypto/rsa"
+test/fixture/nodeattestor/x509pop/generate.go:90:func createRootCertificate(key *rsa.PrivateKey, tmpl *x509.Certificate) *x509.Certificate {
+test/fixture/nodeattestor/x509pop/generate.go:94:func createCertificate(key *rsa.PrivateKey, tmpl *x509.Certificate, parentKey *rsa.PrivateKey, parent *x509.Certificate) *x509.Certificate {
+test/fixture/nodeattestor/x509pop/generate.go:102:func generateRSAKey() *rsa.PrivateKey {
+test/fixture/nodeattestor/x509pop/generate.go:103:	key, err := rsa.GenerateKey(rand.Reader, 2048)
+test/integration/setup/svidstore/plugin/disk_test.go:7:	"crypto/ecdsa"
+test/integration/setup/svidstore/plugin/disk_test.go:49:	key, err := ecdsa.GenerateKey(elliptic.P256(), rand.Reader)
+test/integration/setup/x509pop/gencerts.go:6:	"crypto/ecdsa"
+test/integration/setup/x509pop/gencerts.go:94:	key, err := ecdsa.GenerateKey(elliptic.P256(), rand.Reader)
+test/integration/suites/envoy-sds-v3-spiffe-auth/conf/downstream-federated/envoy/envoy.yaml:87:            ecdh_curves:
+test/integration/suites/envoy-sds-v3-spiffe-auth/conf/downstream-federated/envoy/envoy.yaml:124:            ecdh_curves:
+test/integration/suites/envoy-sds-v3-spiffe-auth/conf/downstream/envoy/envoy.yaml:87:            ecdh_curves:
+test/integration/suites/envoy-sds-v3-spiffe-auth/conf/downstream/envoy/envoy.yaml:124:            ecdh_curves:
+test/integration/suites/envoy-sds-v3-spiffe-auth/conf/upstream/envoy/envoy.yaml:51:             ecdh_curves:
+test/integration/suites/envoy-sds-v3-spiffe-auth/conf/upstream/envoy/envoy.yaml:81:               ecdh_curves:
+test/integration/suites/envoy-sds-v3/conf/downstream-envoy/envoy.yaml:87:            ecdh_curves:
+test/integration/suites/envoy-sds-v3/conf/downstream-envoy/envoy.yaml:124:            ecdh_curves:
+test/integration/suites/envoy-sds-v3/conf/upstream-envoy/envoy.yaml:50:             ecdh_curves:
+test/integration/suites/envoy-sds-v3/conf/upstream-envoy/envoy.yaml:80:               ecdh_curves:
+test/integration/suites/fetch-wit-svids/03-mint-svid:4:  for keySigningAlgCombo in ec-p256:ES256 ec-p384:ES384 rsa-2048:RS256 rsa-4096:RS512; do
+test/integration/suites/k8s-sigstore/00-setup:27:openssl req -new -newkey rsa:4096 -nodes -sha256 \
+test/integration/suites/k8s-sigstore/00-setup:51:# Cosign stores signatures as OCI tags with the format sha256-<hex-digest>.sig.
+test/integration/suites/k8s-sigstore/00-setup:56:sig_tag="sha256-${signed_digest#sha256:}.sig"
+test/integration/suites/upstream-authority-cert-manager/conf/kind-config.yaml:5:  image: kindest/node:v1.21.1@sha256:69860bda5563ac81e3c0057d654b5253219618a22ec3a346306239bba8cfa1a6
+test/integration/suites/upstream-authority-ejbca/03-verify-ca:75:    expected_hash=$(echo "${chain[$i]}" | openssl x509 -noout -modulus | openssl sha256 | awk '{print $2}')
+test/integration/suites/upstream-authority-ejbca/03-verify-ca:78:    actual_hash=$(echo "${certs[$corresponding_certs_index]}" | openssl x509 -noout -modulus | openssl sha256 | awk '{print $2}')
+test/integration/suites/upstream-authority-ejbca/conf/ejbca/staging/certprofile_Authentication-2048-3y-1510586178.xml:191:   <string>availableeccurves</string>
+test/integration/suites/upstream-authority-ejbca/conf/ejbca/staging/certprofile_tlsServerAuth-1841776707.xml:191:   <string>availableeccurves</string>
+test/integration/suites/upstream-authority-ejbca/conf/ejbca/staging/certprofile_tlsServerAuth-1841776707.xml:584:   <string>keyusageforbidencyrptionusageforecc</string>
+test/integration/suites/upstream-authority-vault/01-setup-vault:60:        -sha256 \
+test/testkey/ec384.pem:65:XEFuWh58HnjWDLkVmPSZPFNq5eccC3xx/iDrG6x3npLbEPWhZANiAARXfkKKiczP
+test/testkey/keys.go:4:	"crypto/ecdsa"
+test/testkey/keys.go:7:	"crypto/rsa"
+test/testkey/keys.go:18:	rsa2048Bucket bucket[rsa2048, *rsa.PrivateKey]
+test/testkey/keys.go:19:	rsa4096Bucket bucket[rsa4096, *rsa.PrivateKey]
+test/testkey/keys.go:20:	ec256Bucket   bucket[ec256, *ecdsa.PrivateKey]
+test/testkey/keys.go:21:	ec384Bucket   bucket[ec384, *ecdsa.PrivateKey]
+test/testkey/keys.go:24:func NewRSA2048(tb testing.TB) *rsa.PrivateKey {
+test/testkey/keys.go:47:func MustRSA2048() *rsa.PrivateKey {
+test/testkey/keys.go:70:func NewRSA4096(tb testing.TB) *rsa.PrivateKey {
+test/testkey/keys.go:93:func MustRSA4096() *rsa.PrivateKey {
+test/testkey/keys.go:116:func NewEC256(tb testing.TB) *ecdsa.PrivateKey {
+test/testkey/keys.go:140:func MustEC256() *ecdsa.PrivateKey {
+test/testkey/keys.go:164:func NewEC384(tb testing.TB) *ecdsa.PrivateKey {
+test/testkey/keys.go:188:func MustEC384() *ecdsa.PrivateKey {
+test/testkey/keys.go:214:	rsa2048Idx int
+test/testkey/keys.go:215:	rsa4096Idx int
+test/testkey/keys.go:220:func (ks *Keys) NewRSA2048(tb testing.TB) *rsa.PrivateKey {
+test/testkey/keys.go:226:func (ks *Keys) MustRSA2048() *rsa.PrivateKey {
+test/testkey/keys.go:232:func (ks *Keys) NextRSA2048() (*rsa.PrivateKey, error) {
+test/testkey/keys.go:235:	key, err := rsa2048Bucket.At(ks.rsa2048Idx)
+test/testkey/keys.go:239:	ks.rsa2048Idx++
+test/testkey/keys.go:243:func (ks *Keys) NewRSA4096(tb testing.TB) *rsa.PrivateKey {
+test/testkey/keys.go:249:func (ks *Keys) MustRSA4096() *rsa.PrivateKey {
+test/testkey/keys.go:255:func (ks *Keys) NextRSA4096() (*rsa.PrivateKey, error) {
+test/testkey/keys.go:258:	key, err := rsa4096Bucket.At(ks.rsa4096Idx)
+test/testkey/keys.go:262:	ks.rsa4096Idx++
+test/testkey/keys.go:266:func (ks *Keys) NewEC256(tb testing.TB) *ecdsa.PrivateKey {
+test/testkey/keys.go:272:func (ks *Keys) MustEC256() *ecdsa.PrivateKey {
+test/testkey/keys.go:278:func (ks *Keys) NextEC256() (*ecdsa.PrivateKey, error) {
+test/testkey/keys.go:289:func (ks *Keys) NewEC384(tb testing.TB) *ecdsa.PrivateKey {
+test/testkey/keys.go:295:func (ks *Keys) MustEC384() *ecdsa.PrivateKey {
+test/testkey/keys.go:301:func (ks *Keys) NextEC384() (*ecdsa.PrivateKey, error) {
+test/testkey/keys.go:312:type rsa2048 struct{}
+test/testkey/keys.go:314:func (rsa2048) Path() string { return "rsa2048.pem" }
+test/testkey/keys.go:316:func (rsa2048) GenerateKey() (*rsa.PrivateKey, error) {
+test/testkey/keys.go:317:	return rsa.GenerateKey(rand.Reader, 2048)
+test/testkey/keys.go:320:type rsa4096 struct{}
+test/testkey/keys.go:322:func (rsa4096) Path() string { return "rsa4096.pem" }
+test/testkey/keys.go:324:func (rsa4096) GenerateKey() (*rsa.PrivateKey, error) {
+test/testkey/keys.go:325:	return rsa.GenerateKey(rand.Reader, 4096)
+test/testkey/keys.go:332:func (ec256) GenerateKey() (*ecdsa.PrivateKey, error) {
+test/testkey/keys.go:333:	return ecdsa.GenerateKey(elliptic.P256(), rand.Reader)
+test/testkey/keys.go:340:func (ec384) GenerateKey() (*ecdsa.PrivateKey, error) {
+test/testkey/keys.go:341:	return ecdsa.GenerateKey(elliptic.P384(), rand.Reader)
+test/testkey/rsa4096.pem:84:d/OmCj7MKiXzvlIARBs2VEdbctmoHwsukPNuoaYjhmGfBPWXdsaMz9M35txeHXFX
+test/tpmsimulator/simulator.go:7:	"crypto/rsa"
+test/tpmsimulator/simulator.go:41:	RootKey          *rsa.PrivateKey
+test/tpmsimulator/simulator.go:43:	IntermediateKey  *rsa.PrivateKey
+test/tpmsimulator/simulator.go:49:	RootKey         *rsa.PrivateKey
+test/tpmsimulator/simulator.go:120:	var rootKey *rsa.PrivateKey
+test/tpmsimulator/simulator.go:379:	var privateKey *rsa.PrivateKey
+test/tpmsimulator/simulator.go:403:func createRootCertificate(key *rsa.PrivateKey, tmpl *x509.Certificate) (*x509.Certificate, error) {
+test/tpmsimulator/simulator.go:407:func createCertificate(key any, tmpl *x509.Certificate, parentKey *rsa.PrivateKey, parent *x509.Certificate) (*x509.Certificate, error) {
+test/tpmsimulator/simulator.go:416:func generateRSAKey() (*rsa.PrivateKey, error) {
+test/tpmsimulator/simulator.go:417:	return rsa.GenerateKey(rand.Reader, 2048)
+test/util/cert_fixtures.go:4:	"crypto/ecdsa"
+test/util/cert_fixtures.go:22:func LoadCAFixture() (ca *x509.Certificate, key *ecdsa.PrivateKey, err error) {
+test/util/cert_fixtures.go:27:func LoadSVIDFixture() (svid *x509.Certificate, key *ecdsa.PrivateKey, err error) {
+test/util/cert_fixtures.go:40:func LoadCertAndKey(crtPath, keyPath string) (*x509.Certificate, *ecdsa.PrivateKey, error) {
+test/util/cert_fixtures.go:66:func LoadKey(path string) (*ecdsa.PrivateKey, error) {
+test/util/cert_generation.go:5:	"crypto/ecdsa"
+test/util/cert_generation.go:21:	key, err := ecdsa.GenerateKey(elliptic.P256(), rand.Reader)
+test/util/cert_generation.go:66:func SelfSign(req *x509.Certificate) (*x509.Certificate, *ecdsa.PrivateKey, error) {
+test/util/cert_generation.go:72:func Sign(req, parent *x509.Certificate, signerPrivateKey any) (*x509.Certificate, *ecdsa.PrivateKey, error) {
+test/util/cert_generation.go:74:	var key *ecdsa.PrivateKey
+test/util/cert_generation.go:78:		key, err = ecdsa.GenerateKey(elliptic.P256(), rand.Reader)

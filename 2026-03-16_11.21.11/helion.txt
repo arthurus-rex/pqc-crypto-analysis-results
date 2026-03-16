@@ -1,0 +1,41 @@
+.git/packed-refs:295:74b4afeccef17594d411be1dd433ff82a131c55f refs/remotes/origin/gh/oulgen/8/orig
+.git/packed-refs:313:7f20fbd998db28f91a1b96c792167c16ecc232fe refs/remotes/origin/gh/seemethere/5/orig
+.git/packed-refs:340:8ab255ec2b82d0ecc1f6c09b8fd1c596c5b6ffcf refs/remotes/origin/gh/yf225/4/orig
+.git/packed-refs:394:41d86c6ecc24153e59790b8b445f971105e65039 refs/remotes/origin/inline_triton_ctx
+.git/packed-refs:395:3239714973ecc5a7b972a9914df2556432a3ad7a refs/remotes/origin/inline_triton_indentation
+.git/packed-refs:482:70ea96419ee4242e359b2be26decc0c7259b34f4 refs/remotes/origin/jansel/stack/171
+.git/packed-refs:556:0eb0d008c5cf94b755082eccd93827eb81536490 refs/remotes/origin/jansel/stack/238
+.git/packed-refs:748:f342af0c3b59f4f06b171928f930243768d3aecc refs/remotes/origin/moe_all2all
+.git/packed-refs:854:f06af5df535e201359e1d0cecc6a736efa42aaf8 refs/remotes/origin/oulgen/stack/148
+.git/packed-refs:1036:9187aecc356b709b2f06a6f94fd47641be8c6be6 refs/remotes/origin/oulgen/stack/70
+.git/packed-refs:1066:4198df45d35ecc2f9a231a94eb6f18aa67ca7715 refs/remotes/origin/oulgen/stack/98
+.git/packed-refs:1304:37aecc38a2885d1009055ea73c8746416fdd9c0d refs/remotes/origin/vector_add_profiler_measure
+.git/packed-refs:1393:994aaf94b6b7e6c07e53f4fecc57b050c3476406 refs/tags/v0.1.5
+.git/packed-refs:1402:9d0b8bd8c32a87c753d7fe3bb4dce95ecc65bcc1 refs/tags/v0.2.4
+docs/api/autotuner.md:49:traversal to focus search on parameters the surrogate model has identified as important.
+helion/_compat.py:411:        # Extract base architecture (e.g., "gfx942" from "gfx942:sramecc+:xnack-")
+helion/_compat.py:479:        # Extract base architecture (e.g., "gfx942" from "gfx942:sramecc+:xnack-")
+helion/autotuner/aot_cache.py:354:        return hashlib.sha256(
+helion/autotuner/aot_cache.py:370:    return hashlib.sha256(tensor.numpy().tobytes()).hexdigest()[:8]
+helion/autotuner/aot_cache.py:567:            config_hash = hashlib.sha256(
+helion/autotuner/aot_cache.py:584:        config_hash = hashlib.sha256(
+helion/autotuner/aot_cache.py:851:        shape_hash = hashlib.sha256(
+helion/autotuner/base_cache.py:62:    combined_hash = hashlib.sha256()
+helion/autotuner/base_cache.py:77:    return hashlib.sha256(full_key.encode("utf-8")).hexdigest()
+helion/autotuner/base_cache.py:86:        return hashlib.sha256(repr(self).encode("utf-8")).hexdigest()
+helion/autotuner/base_cache.py:124:        return hashlib.sha256(repr(self).encode("utf-8")).hexdigest()
+helion/autotuner/config_spec.py:627:        return hashlib.sha256(
+helion/autotuner/de_surrogate_hybrid.py:146:        self.log(f"Candidate oversampling: {self.candidate_ratio}× per slot")
+helion/autotuner/local_cache.py:67:    Corrupt or unparsable files are skipped with a warning.
+helion/autotuner/local_cache.py:121:        kernel_source_hash = hashlib.sha256(kernel_source.encode("utf-8")).hexdigest()
+helion/autotuner/logger.py:520:    return hashlib.sha256(normalized.encode()).hexdigest()[:16]
+helion/autotuner/surrogate_pattern_search.py:550:    candidate configurations via greedy decision tree traversal.
+helion/autotuner/surrogate_pattern_search.py:560:        4. For subsequent generations, generate neighbors via greedy tree traversal:
+helion/autotuner/surrogate_pattern_search.py:575:    The tree-guided traversal focuses search on parameters the surrogate has identified
+helion/autotuner/surrogate_pattern_search.py:599:        num_neighbors: Number of greedy tree traversal trials to run per generation.
+helion/autotuner/surrogate_pattern_search.py:603:            each parameter during tree traversal. For power-of-two parameters, this
+helion/autotuner/surrogate_pattern_search.py:683:        Generate neighbors via greedy tree traversal with incremental encoding.
+helion/autotuner/surrogate_pattern_search.py:744:            # 5. Greedy traversal with incremental encoding
+test/test_best_available.py:348:        fp_hash = hashlib.sha256(repr(fingerprint).encode("utf-8")).hexdigest()
+test/test_best_available.py:423:        fp_hash = hashlib.sha256(repr(fingerprint).encode("utf-8")).hexdigest()
+test/test_best_available.py:470:        fp_hash = hashlib.sha256(repr(fingerprint).encode("utf-8")).hexdigest()
