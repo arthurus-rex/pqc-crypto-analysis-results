@@ -1,0 +1,115 @@
+1:agent-service/internal/store/agents.go:42:	store.loadSampleAgents(trustDomain)
+2:agent-service/internal/store/agents.go:46:func (s *AgentStore) loadSampleAgents(trustDomain string) {
+4:deploy/k8s/base/realm-spiffe-demo.json:535:  "webAuthnPolicyAvoidSameAuthenticatorRegister": false,
+5:deploy/k8s/base/realm-spiffe-demo.json:549:  "webAuthnPolicyPasswordlessAvoidSameAuthenticatorRegister": false,
+6:deploy/k8s/base/realm-spiffe-demo.json:1732:            "oidc-sha256-pairwise-sub-mapper"
+7:deploy/k8s/base/realm-spiffe-demo.json:1753:            "oidc-sha256-pairwise-sub-mapper",
+8:deploy/k8s/base/realm-spiffe-demo.json:1848:        "name": "rsa-generated",
+9:deploy/k8s/base/realm-spiffe-demo.json:1849:        "providerId": "rsa-generated",
+10:deploy/k8s/base/realm-spiffe-demo.json:1859:        "name": "aes-generated",
+11:deploy/k8s/base/realm-spiffe-demo.json:1860:        "providerId": "aes-generated",
+12:deploy/k8s/base/realm-spiffe-demo.json:1870:        "name": "rsa-enc-generated",
+13:deploy/k8s/base/realm-spiffe-demo.json:1871:        "providerId": "rsa-enc-generated",
+14:deploy/k8s/base/realm-spiffe-demo.json:1878:            "RSA-OAEP"
+15:deploy/k8s/overlays/openshift-authbridge/agent-service-authbridge-openshift-patch.yaml:22:          image: ghcr.io/kagenti/kagenti-extensions/proxy-init@sha256:401885edb969a53ef21f4ced1ba02e5141469fe0b32bb461ab4daec9d6a47cfe
+16:deploy/k8s/overlays/openshift-authbridge/ai-agents-sidecars-patch.yaml:21:          image: ghcr.io/kagenti/kagenti-extensions/proxy-init@sha256:401885edb969a53ef21f4ced1ba02e5141469fe0b32bb461ab4daec9d6a47cfe
+17:deploy/k8s/overlays/openshift-authbridge/ai-agents-sidecars-patch.yaml:229:          image: ghcr.io/kagenti/kagenti-extensions/proxy-init@sha256:401885edb969a53ef21f4ced1ba02e5141469fe0b32bb461ab4daec9d6a47cfe
+18:docs/ARCHITECTURE.md:1181:🟡 [mTLS-HANDSHAKE] Handshake complete - TLS 1.3, ECDHE-RSA-AES256-GCM-SHA384
+19:docs/ARCHITECTURE.md:2020:│ Cipher: ECDHE-RSA-AES256-GCM-SHA384          │
+20:docs/ARCHITECTURE.md:2189:        Signature Algorithm: sha256WithRSAEncryption
+21:docs/ARCHITECTURE.md:2196:            Public Key Algorithm: rsaEncryption
+22:docs/ARCHITECTURE.md:2197:                RSA Public-Key: (2048 bit)
+26:docs/dev/CREDENTIAL_GATEWAY_RESEARCH.md:300:Tokens use Ed25519 public key cryptography (not HMAC like
+27:docs/dev/CREDENTIAL_GATEWAY_RESEARCH.md:308:| Crypto          | Public key (Ed25519)           | HMAC (shared secret)        |
+29:docs/dev/realm-export-kagenti-demo-realm.json:445:  "webAuthnPolicyAvoidSameAuthenticatorRegister": false,
+30:docs/dev/realm-export-kagenti-demo-realm.json:459:  "webAuthnPolicyPasswordlessAvoidSameAuthenticatorRegister": false,
+31:docs/dev/realm-export-kagenti-demo-realm.json:622:      "id": "f24aeccb-048e-476f-96a8-e932e017179b",
+32:docs/dev/realm-export-kagenti-demo-realm.json:1690:            "oidc-sha256-pairwise-sub-mapper",
+33:docs/dev/realm-export-kagenti-demo-realm.json:1752:            "oidc-sha256-pairwise-sub-mapper",
+34:docs/dev/realm-export-kagenti-demo-realm.json:1789:        "name": "rsa-enc-generated",
+35:docs/dev/realm-export-kagenti-demo-realm.json:1790:        "providerId": "rsa-enc-generated",
+36:docs/dev/realm-export-kagenti-demo-realm.json:1797:            "RSA-OAEP"
+37:docs/dev/realm-export-kagenti-demo-realm.json:1803:        "name": "aes-generated",
+38:docs/dev/realm-export-kagenti-demo-realm.json:1804:        "providerId": "aes-generated",
+39:docs/dev/realm-export-kagenti-demo-realm.json:1814:        "name": "rsa-generated",
+40:docs/dev/realm-export-kagenti-demo-realm.json:1815:        "providerId": "rsa-generated",
+41:docs/dev/realm-export-kagenti-demo-realm.json:1910:      "id": "fa0185f2-c355-456a-b3e6-b3b42edcecc6",
+42:docs/dev/realm-export-kagenti-demo.json:658:  "webAuthnPolicyAvoidSameAuthenticatorRegister": false,
+43:docs/dev/realm-export-kagenti-demo.json:672:  "webAuthnPolicyPasswordlessAvoidSameAuthenticatorRegister": false,
+44:docs/dev/realm-export-kagenti-demo.json:1273:          "id": "0bd1e1bc-06ac-46de-8ec5-eccdd2a1dfcb",
+45:docs/dev/realm-export-kagenti-demo.json:1862:            "oidc-sha256-pairwise-sub-mapper",
+46:docs/dev/realm-export-kagenti-demo.json:1939:            "oidc-sha256-pairwise-sub-mapper"
+47:docs/dev/realm-export-kagenti-demo.json:1959:        "name": "rsa-enc-generated",
+48:docs/dev/realm-export-kagenti-demo.json:1960:        "providerId": "rsa-enc-generated",
+49:docs/dev/realm-export-kagenti-demo.json:1967:            "RSA-OAEP"
+50:docs/dev/realm-export-kagenti-demo.json:1973:        "name": "aes-generated",
+51:docs/dev/realm-export-kagenti-demo.json:1974:        "providerId": "aes-generated",
+52:docs/dev/realm-export-kagenti-demo.json:1984:        "name": "rsa-generated",
+53:docs/dev/realm-export-kagenti-demo.json:1985:        "providerId": "rsa-generated",
+54:docs/dev/realm-export-kagenti-demo.json:2461:      "id": "e8123ecc-dd94-440a-aea5-61e6718de344",
+55:document-service/internal/store/documents.go:23:	store.loadSampleDocuments()
+56:document-service/internal/store/documents.go:27:func (s *DocumentStore) loadSampleDocuments() {
+57:go.mod:119:	github.com/x448/float16 v0.8.4 // indirect
+58:go.sum:272:github.com/tchap/go-patricia/v2 v2.3.3 h1:xfNEsODumaEcCcY3gI0hYPZ/PcpVv5ju6RMAhgwZDDc=
+59:go.sum:288:github.com/x448/float16 v0.8.4 h1:qLwI1I70+NjRFUR3zs1JPUCgaCXSh3SW62uAKT1mSBM=
+60:go.sum:289:github.com/x448/float16 v0.8.4/go.mod h1:14CWIYCyZA/cWjXOioeEpHeN/83MdbZDRQHoFcYsOfg=
+61:learn/envoy-ext-proc/go.sum:40:google.golang.org/genproto/googleapis/rpc v0.0.0-20250728155136-f173205681a0/go.mod h1:qQ0YXyHHx3XkvlzUtpXDkS29lDSafHMZBAZDc03LQ3A=
+62:learn/jwt-validation/README.md:266:func FetchJWKS(jwksURL string) (map[string]*rsa.PublicKey, error)
+63:learn/jwt-validation/README.md:275:- Use `crypto/rsa` and `math/big` for key construction
+64:learn/jwt-validation/README.md:280:- [ ] Returns at least one RSA public key
+65:learn/jwt-validation/README.md:286:- Make sure to filter for `kty: "RSA"` and `use: "sig"` (signing keys only)
+66:learn/jwt-validation/README.md:299:// VerifySignature validates the JWT signature using RSA-SHA256.
+67:learn/jwt-validation/README.md:301:func VerifySignature(tokenString string, publicKey *rsa.PublicKey) error
+68:learn/jwt-validation/README.md:306:- RS256 = RSA with SHA-256
+69:learn/jwt-validation/README.md:309:- Use `crypto/rsa.VerifyPKCS1v15` with `crypto.SHA256`
+70:learn/jwt-validation/jwks.go:5:	"crypto/rsa"
+71:learn/jwt-validation/jwks.go:24://	      "kty": "RSA",
+72:learn/jwt-validation/jwks.go:36://  3. For each key with kty="RSA" and use="sig":
+73:learn/jwt-validation/jwks.go:39://     c. Construct rsa.PublicKey{N: n, E: e}
+74:learn/jwt-validation/jwks.go:46:// - The exponent "AQAB" decodes to 65537 (standard RSA exponent)
+75:learn/jwt-validation/jwks.go:50://	"crypto/rsa"
+76:learn/jwt-validation/jwks.go:57:func FetchJWKS(jwksURL string) (map[string]*rsa.PublicKey, error) {
+77:learn/jwt-validation/jwks.go:71:	publicKeys := make(map[string]*rsa.PublicKey)
+78:learn/jwt-validation/jwks.go:73:		if key.Kty == "RSA" && key.Use == "sig" {
+79:learn/jwt-validation/jwks.go:87:				publicKey := rsa.PublicKey{N: n, E: int(e.Int64())}
+80:learn/jwt-validation/jwks.go:103:	Kty string `json:"kty"` // Key Type (RSA)
+81:learn/jwt-validation/jwt.go:6:	"crypto/rsa"
+82:learn/jwt-validation/jwt.go:7:	"crypto/sha256"
+83:learn/jwt-validation/jwt.go:71:// VerifySignature validates the JWT signature using RSA-SHA256.
+84:learn/jwt-validation/jwt.go:77:// 3. Verify the signature using RSA PKCS1v15
+85:learn/jwt-validation/jwt.go:81:// - Use crypto/sha256 to hash the signed content
+86:learn/jwt-validation/jwt.go:82:// - Use crypto/rsa.VerifyPKCS1v15 for verification
+87:learn/jwt-validation/jwt.go:88://	"crypto/rsa"
+88:learn/jwt-validation/jwt.go:89://	"crypto/sha256"
+89:learn/jwt-validation/jwt.go:92:func VerifySignature(tokenString string, publicKey *rsa.PublicKey) error {
+90:learn/jwt-validation/jwt.go:98:	hash := sha256.Sum256([]byte(content))
+91:learn/jwt-validation/jwt.go:103:	if err := rsa.VerifyPKCS1v15(publicKey, crypto.SHA256, hash[:], signature); err != nil {
+92:learn/jwt-validation/jwt_test.go:5:	"crypto/rsa"
+93:learn/jwt-validation/jwt_test.go:14:	token := "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJpNEhJYWtaTjkyZHYzREhVQ1Q4NHNucGx6c2hoejAtQlNUamtyam1leXd3In0.eyJleHAiOjE3NzAxODExOTcsImlhdCI6MTc3MDE4MDg5NywianRpIjoidHJydGNjOjYxYmI0MGJjLTM0ODktOWZlNS1kYTEwLTUxM2ZiNDlmNGRjZCIsImlzcyI6Imh0dHA6Ly9rZXljbG9hay5sb2NhbHRlc3QubWU6ODA4MC9yZWFsbXMvZGVtbyIsImF1ZCI6InNwaWZmZTovL2xvY2FsdGVzdC5tZS9ucy9hdXRoYnJpZGdlL3NhL2FnZW50Iiwic3ViIjoiMzhlYjI5ZjEtMGYzZS00NTIzLTg4ODQtOTgzMzczZTQ5NzllIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoic3BpZmZlOi8vbG9jYWx0ZXN0Lm1lL25zL2F1dGhicmlkZ2Uvc2EvYWdlbnQiLCJhY3IiOiIxIiwic2NvcGUiOiJlbWFpbCBhZ2VudC1zcGlmZmUtYXVkIHByb2ZpbGUiLCJjbGllbnRIb3N0IjoiMTI3LjAuMC4xIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJzZXJ2aWNlLWFjY291bnQtc3BpZmZlOi8vbG9jYWx0ZXN0Lm1lL25zL2F1dGhicmlkZ2Uvc2EvYWdlbnQiLCJjbGllbnRBZGRyZXNzIjoiMTI3LjAuMC4xIiwiY2xpZW50X2lkIjoic3BpZmZlOi8vbG9jYWx0ZXN0Lm1lL25zL2F1dGhicmlkZ2Uvc2EvYWdlbnQifQ.umNBELXXbGyOh_6Brm3YKreJ4x-Uyzw5qO1CV1IKnuZi32_N5Bi7iYKhLAhqxnWkPEf0kZ1meYQ1ipLOxRoZHhYR9Qdg-amcWQX6Ez-ZePWalhuKNTedilj4yW6LIxVI_cRSAaJtWrcUnibIUWgwGTP9cymF_ourwwzfSXiGorDcNjL-O_tdU-aMa1CeKp8OZeG6MjHb9-aZ2TLYLPEHo0gqEqbt85mzNv7T73-McyEeQ4K4tSP-Aj0RuJMWvPhPTyJFIuJaebQg9m-yn3k5RTmHHh51iJ4ryA--4T8zWue9VA58wB6cc4EsR2mG4gNKO8eejw7A7vjzk-DNkOi-xQ"
+94:learn/jwt-validation/jwt_test.go:28:	token := "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJpNEhJYWtaTjkyZHYzREhVQ1Q4NHNucGx6c2hoejAtQlNUamtyam1leXd3In0eyJleHAiOjE3NzAxODExOTcsImlhdCI6MTc3MDE4MDg5NywianRpIjoidHJydGNjOjYxYmI0MGJjLTM0ODktOWZlNS1kYTEwLTUxM2ZiNDlmNGRjZCIsImlzcyI6Imh0dHA6Ly9rZXljbG9hay5sb2NhbHRlc3QubWU6ODA4MC9yZWFsbXMvZGVtbyIsImF1ZCI6InNwaWZmZTovL2xvY2FsdGVzdC5tZS9ucy9hdXRoYnJpZGdlL3NhL2FnZW50Iiwic3ViIjoiMzhlYjI5ZjEtMGYzZS00NTIzLTg4ODQtOTgzMzczZTQ5NzllIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoic3BpZmZlOi8vbG9jYWx0ZXN0Lm1lL25zL2F1dGhicmlkZ2Uvc2EvYWdlbnQiLCJhY3IiOiIxIiwic2NvcGUiOiJlbWFpbCBhZ2VudC1zcGlmZmUtYXVkIHByb2ZpbGUiLCJjbGllbnRIb3N0IjoiMTI3LjAuMC4xIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJzZXJ2aWNlLWFjY291bnQtc3BpZmZlOi8vbG9jYWx0ZXN0Lm1lL25zL2F1dGhicmlkZ2Uvc2EvYWdlbnQiLCJjbGllbnRBZGRyZXNzIjoiMTI3LjAuMC4xIiwiY2xpZW50X2lkIjoic3BpZmZlOi8vbG9jYWx0ZXN0Lm1lL25zL2F1dGhicmlkZ2Uvc2EvYWdlbnQifQ.umNBELXXbGyOh_6Brm3YKreJ4x-Uyzw5qO1CV1IKnuZi32_N5Bi7iYKhLAhqxnWkPEf0kZ1meYQ1ipLOxRoZHhYR9Qdg-amcWQX6Ez-ZePWalhuKNTedilj4yW6LIxVI_cRSAaJtWrcUnibIUWgwGTP9cymF_ourwwzfSXiGorDcNjL-O_tdU-aMa1CeKp8OZeG6MjHb9-aZ2TLYLPEHo0gqEqbt85mzNv7T73-McyEeQ4K4tSP-Aj0RuJMWvPhPTyJFIuJaebQg9m-yn3k5RTmHHh51iJ4ryA--4T8zWue9VA58wB6cc4EsR2mG4gNKO8eejw7A7vjzk-DNkOi-xQ"
+95:learn/jwt-validation/jwt_test.go:36:	token := "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJpNEhJYWtaTjkyZHYzREhVQ1Q4NHNucGx6c2hoejAtQlNUamtyam1leXd3In0XXX.eyJleHAiOjE3NzAxODExOTcsImlhdCI6MTc3MDE4MDg5NywianRpIjoidHJydGNjOjYxYmI0MGJjLTM0ODktOWZlNS1kYTEwLTUxM2ZiNDlmNGRjZCIsImlzcyI6Imh0dHA6Ly9rZXljbG9hay5sb2NhbHRlc3QubWU6ODA4MC9yZWFsbXMvZGVtbyIsImF1ZCI6InNwaWZmZTovL2xvY2FsdGVzdC5tZS9ucy9hdXRoYnJpZGdlL3NhL2FnZW50Iiwic3ViIjoiMzhlYjI5ZjEtMGYzZS00NTIzLTg4ODQtOTgzMzczZTQ5NzllIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoic3BpZmZlOi8vbG9jYWx0ZXN0Lm1lL25zL2F1dGhicmlkZ2Uvc2EvYWdlbnQiLCJhY3IiOiIxIiwic2NvcGUiOiJlbWFpbCBhZ2VudC1zcGlmZmUtYXVkIHByb2ZpbGUiLCJjbGllbnRIb3N0IjoiMTI3LjAuMC4xIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJzZXJ2aWNlLWFjY291bnQtc3BpZmZlOi8vbG9jYWx0ZXN0Lm1lL25zL2F1dGhicmlkZ2Uvc2EvYWdlbnQiLCJjbGllbnRBZGRyZXNzIjoiMTI3LjAuMC4xIiwiY2xpZW50X2lkIjoic3BpZmZlOi8vbG9jYWx0ZXN0Lm1lL25zL2F1dGhicmlkZ2Uvc2EvYWdlbnQifQ.umNBELXXbGyOh_6Brm3YKreJ4x-Uyzw5qO1CV1IKnuZi32_N5Bi7iYKhLAhqxnWkPEf0kZ1meYQ1ipLOxRoZHhYR9Qdg-amcWQX6Ez-ZePWalhuKNTedilj4yW6LIxVI_cRSAaJtWrcUnibIUWgwGTP9cymF_ourwwzfSXiGorDcNjL-O_tdU-aMa1CeKp8OZeG6MjHb9-aZ2TLYLPEHo0gqEqbt85mzNv7T73-McyEeQ4K4tSP-Aj0RuJMWvPhPTyJFIuJaebQg9m-yn3k5RTmHHh51iJ4ryA--4T8zWue9VA58wB6cc4EsR2mG4gNKO8eejw7A7vjzk-DNkOi-xQ"
+96:learn/jwt-validation/jwt_test.go:61:	token := "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJpNEhJYWtaTjkyZHYzREhVQ1Q4NHNucGx6c2hoejAtQlNUamtyam1leXd3In0.eyJleHAiOjE3NzAxODExOTcsImlhdCI6MTc3MDE4MDg5NywianRpIjoidHJydGNjOjYxYmI0MGJjLTM0ODktOWZlNS1kYTEwLTUxM2ZiNDlmNGRjZCIsImlzcyI6Imh0dHA6Ly9rZXljbG9hay5sb2NhbHRlc3QubWU6ODA4MC9yZWFsbXMvZGVtbyIsImF1ZCI6InNwaWZmZTovL2xvY2FsdGVzdC5tZS9ucy9hdXRoYnJpZGdlL3NhL2FnZW50Iiwic3ViIjoiMzhlYjI5ZjEtMGYzZS00NTIzLTg4ODQtOTgzMzczZTQ5NzllIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoic3BpZmZlOi8vbG9jYWx0ZXN0Lm1lL25zL2F1dGhicmlkZ2Uvc2EvYWdlbnQiLCJhY3IiOiIxIiwic2NvcGUiOiJlbWFpbCBhZ2VudC1zcGlmZmUtYXVkIHByb2ZpbGUiLCJjbGllbnRIb3N0IjoiMTI3LjAuMC4xIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJzZXJ2aWNlLWFjY291bnQtc3BpZmZlOi8vbG9jYWx0ZXN0Lm1lL25zL2F1dGhicmlkZ2Uvc2EvYWdlbnQiLCJjbGllbnRBZGRyZXNzIjoiMTI3LjAuMC4xIiwiY2xpZW50X2lkIjoic3BpZmZlOi8vbG9jYWx0ZXN0Lm1lL25zL2F1dGhicmlkZ2Uvc2EvYWdlbnQifQ.umNBELXXbGyOh_6Brm3YKreJ4x-Uyzw5qO1CV1IKnuZi32_N5Bi7iYKhLAhqxnWkPEf0kZ1meYQ1ipLOxRoZHhYR9Qdg-amcWQX6Ez-ZePWalhuKNTedilj4yW6LIxVI_cRSAaJtWrcUnibIUWgwGTP9cymF_ourwwzfSXiGorDcNjL-O_tdU-aMa1CeKp8OZeG6MjHb9-aZ2TLYLPEHo0gqEqbt85mzNv7T73-McyEeQ4K4tSP-Aj0RuJMWvPhPTyJFIuJaebQg9m-yn3k5RTmHHh51iJ4ryA--4T8zWue9VA58wB6cc4EsR2mG4gNKO8eejw7A7vjzk-DNkOi-xQ"
+97:learn/jwt-validation/jwt_test.go:78:	var jwtKey, err = rsa.GenerateKey(rand.Reader, 2048)
+98:learn/jwt-validation/scaffolding/jwks.go:15://	      "kty": "RSA",
+99:learn/jwt-validation/scaffolding/jwks.go:27://  3. For each key with kty="RSA" and use="sig":
+100:learn/jwt-validation/scaffolding/jwks.go:30://     c. Construct rsa.PublicKey{N: n, E: e}
+101:learn/jwt-validation/scaffolding/jwks.go:37:// - The exponent "AQAB" decodes to 65537 (standard RSA exponent)
+102:learn/jwt-validation/scaffolding/jwks.go:41://	"crypto/rsa"
+103:learn/jwt-validation/scaffolding/jwks.go:61:	Kty string `json:"kty"` // Key Type (RSA)
+104:learn/jwt-validation/scaffolding/jwt.go:44:// VerifySignature validates the JWT signature using RSA-SHA256.
+105:learn/jwt-validation/scaffolding/jwt.go:50:// 3. Verify the signature using RSA PKCS1v15
+106:learn/jwt-validation/scaffolding/jwt.go:54:// - Use crypto/sha256 to hash the signed content
+107:learn/jwt-validation/scaffolding/jwt.go:55:// - Use crypto/rsa.VerifyPKCS1v15 for verification
+108:learn/jwt-validation/scaffolding/jwt.go:61://	"crypto/rsa"
+109:learn/jwt-validation/scaffolding/jwt.go:62://	"crypto/sha256"
+110:learn/jwt-validation/testhelpers_test.go:5:	"crypto/rsa"
+111:learn/jwt-validation/testhelpers_test.go:12:// TestKeyPair holds an RSA key pair for testing.
+112:learn/jwt-validation/testhelpers_test.go:15:	PrivateKey *rsa.PrivateKey
+113:learn/jwt-validation/testhelpers_test.go:16:	PublicKey  *rsa.PublicKey
+114:learn/jwt-validation/testhelpers_test.go:20:// GenerateTestKeyPair creates a new RSA key pair for testing.
+115:learn/jwt-validation/testhelpers_test.go:23:	privateKey, err := rsa.GenerateKey(rand.Reader, 2048)
+116:learn/jwt-validation/testhelpers_test.go:25:		t.Fatalf("Failed to generate RSA key: %v", err)
+118:pkg/storage/mock.go:23:	m.loadSampleDocuments()
+119:pkg/storage/mock.go:35:func (m *MockStorage) loadSampleDocuments() {
+120:user-service/internal/store/users.go:23:	store.loadSampleUsers(trustDomain)
+121:user-service/internal/store/users.go:27:func (s *UserStore) loadSampleUsers(trustDomain string) {

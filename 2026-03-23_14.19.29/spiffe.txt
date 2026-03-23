@@ -1,0 +1,23 @@
+3:ssc/README.md:21:**Mariusz Sabath** (@mrsabath)  
+4:ssc/README.md:22:[GitHub](https://github.com/mrsabath) | [LinkedIn](https://www.linkedin.com/in/mariusz-sabath-b36b0b20/)  
+8:ssc/elections/2024H1/MARIUSZ_SABATH.md:5:**GitHub Handle:** @mrsabath  
+9:ssc/elections/2024H1/MARIUSZ_SABATH.md:6:**Email Address:** mrsabath@gmail.com  
+10:ssc/elections/2025H1/MARIUSZ_SABATH.md:5:**GitHub Handle:** @mrsabath  
+11:ssc/elections/2025H1/MARIUSZ_SABATH.md:6:**Email Address:** mrsabath@gmail.com  
+12:standards/JWT-SVID.md:50:RS256 | RSASSA-PKCS1-v1_5 using SHA-256
+13:standards/JWT-SVID.md:51:RS384 | RSASSA-PKCS1-v1_5 using SHA-384
+14:standards/JWT-SVID.md:52:RS512 | RSASSA-PKCS1-v1_5 using SHA-512
+15:standards/JWT-SVID.md:53:ES256 | ECDSA using P-256 and SHA-256
+16:standards/JWT-SVID.md:54:ES384 | ECDSA using P-384 and SHA-384
+17:standards/JWT-SVID.md:55:ES512 | ECDSA using P-521 and SHA-512
+18:standards/JWT-SVID.md:56:PS256 | RSASSA-PSS using SHA-256 and MGF1 with SHA-256
+19:standards/JWT-SVID.md:57:PS384 | RSASSA-PSS using SHA-384 and MGF1 with SHA-384
+20:standards/JWT-SVID.md:58:PS512 | RSASSA-PSS using SHA-512 and MGF1 with SHA-512
+23:standards/SPIFFE_Trust_Domain_and_Bundle.md:132:    Signature Algorithm: sha256WithRSAEncryption
+24:standards/SPIFFE_Trust_Domain_and_Bundle.md:161:                        "kty": "RSA",
+25:standards/SPIFFE_Trust_Domain_and_Bundle.md:180:    Signature Algorithm: sha256WithRSAEncryption
+26:standards/SPIFFE_Trust_Domain_and_Bundle.md:204:                        "kty": “RSA”,
+27:standards/SPIFFE_Trust_Domain_and_Bundle.md:211:                        "kty": “RSA”,
+28:standards/SPIFFE_Trust_Domain_and_Bundle.md:233:          "kty": "RSA",
+29:standards/SPIFFE_Trust_Domain_and_Bundle.md:240:          "kty": "RSA",
+30:standards/X509-SVID.md:80:Leaf SVIDs MUST set `digitalSignature`. They MAY set `keyEncipherment` and/or `keyAgreement`; these mostly make sense only for certificates for RSA keys, and usually they aren't needed even then. Leaf SVIDs MUST NOT set `keyCertSign` or `cRLSign`.

@@ -1,0 +1,35 @@
+1:.git/packed-refs:311:74b4afeccef17594d411be1dd433ff82a131c55f refs/remotes/origin/gh/oulgen/8/orig
+2:.git/packed-refs:329:7f20fbd998db28f91a1b96c792167c16ecc232fe refs/remotes/origin/gh/seemethere/5/orig
+3:.git/packed-refs:356:8ab255ec2b82d0ecc1f6c09b8fd1c596c5b6ffcf refs/remotes/origin/gh/yf225/4/orig
+4:.git/packed-refs:411:41d86c6ecc24153e59790b8b445f971105e65039 refs/remotes/origin/inline_triton_ctx
+5:.git/packed-refs:412:3239714973ecc5a7b972a9914df2556432a3ad7a refs/remotes/origin/inline_triton_indentation
+6:.git/packed-refs:500:70ea96419ee4242e359b2be26decc0c7259b34f4 refs/remotes/origin/jansel/stack/171
+7:.git/packed-refs:574:0eb0d008c5cf94b755082eccd93827eb81536490 refs/remotes/origin/jansel/stack/238
+8:.git/packed-refs:776:f342af0c3b59f4f06b171928f930243768d3aecc refs/remotes/origin/moe_all2all
+9:.git/packed-refs:882:f06af5df535e201359e1d0cecc6a736efa42aaf8 refs/remotes/origin/oulgen/stack/148
+10:.git/packed-refs:1064:9187aecc356b709b2f06a6f94fd47641be8c6be6 refs/remotes/origin/oulgen/stack/70
+11:.git/packed-refs:1094:4198df45d35ecc2f9a231a94eb6f18aa67ca7715 refs/remotes/origin/oulgen/stack/98
+12:.git/packed-refs:1349:37aecc38a2885d1009055ea73c8746416fdd9c0d refs/remotes/origin/vector_add_profiler_measure
+13:.git/packed-refs:1457:994aaf94b6b7e6c07e53f4fecc57b050c3476406 refs/tags/v0.1.5
+14:.git/packed-refs:1466:9d0b8bd8c32a87c753d7fe3bb4dce95ecc65bcc1 refs/tags/v0.2.4
+16:helion/_compat.py:414:        # Extract base architecture (e.g., "gfx942" from "gfx942:sramecc+:xnack-")
+17:helion/_compat.py:482:        # Extract base architecture (e.g., "gfx942" from "gfx942:sramecc+:xnack-")
+25:helion/autotuner/aot_cache.py:354:        return hashlib.sha256(
+26:helion/autotuner/aot_cache.py:360:    """Compute SHA256 hash (first 8 chars) of tensor bytes."""
+27:helion/autotuner/aot_cache.py:370:    return hashlib.sha256(tensor.numpy().tobytes()).hexdigest()[:8]
+28:helion/autotuner/aot_cache.py:382:    # SHA256 hashes (first 8 chars) for correctness verification:
+29:helion/autotuner/aot_cache.py:567:            config_hash = hashlib.sha256(
+30:helion/autotuner/aot_cache.py:584:        config_hash = hashlib.sha256(
+31:helion/autotuner/aot_cache.py:851:        shape_hash = hashlib.sha256(
+32:helion/autotuner/base_cache.py:62:    combined_hash = hashlib.sha256()
+33:helion/autotuner/base_cache.py:77:    return hashlib.sha256(full_key.encode("utf-8")).hexdigest()
+34:helion/autotuner/base_cache.py:86:        return hashlib.sha256(repr(self).encode("utf-8")).hexdigest()
+35:helion/autotuner/base_cache.py:124:        return hashlib.sha256(repr(self).encode("utf-8")).hexdigest()
+36:helion/autotuner/config_spec.py:626:        return hashlib.sha256(
+39:helion/autotuner/local_cache.py:122:        kernel_source_hash = hashlib.sha256(kernel_source.encode("utf-8")).hexdigest()
+40:helion/autotuner/logger.py:520:    return hashlib.sha256(normalized.encode()).hexdigest()[:16]
+48:helion/runtime/__init__.py:939:    source_hash = hashlib.sha256(msl_source.encode()).digest()
+49:scripts/runpod.py:190:    digest = hashlib.sha256(str(repo_root).encode("utf-8")).hexdigest()[:10]
+50:test/test_best_available.py:348:        fp_hash = hashlib.sha256(repr(fingerprint).encode("utf-8")).hexdigest()
+51:test/test_best_available.py:423:        fp_hash = hashlib.sha256(repr(fingerprint).encode("utf-8")).hexdigest()
+52:test/test_best_available.py:470:        fp_hash = hashlib.sha256(repr(fingerprint).encode("utf-8")).hexdigest()

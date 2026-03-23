@@ -1,0 +1,617 @@
+1:.git/packed-refs:10:0e0eddb0569a2c3ecc2edfe98009eea684c6fadf refs/remotes/origin/dependabot/github_actions/step-security/harden-runner-2.16.0
+2:Cargo.lock:22:name = "aes"
+3:Cargo.lock:34:name = "aes"
+4:Cargo.lock:45:name = "aes-gcm"
+5:Cargo.lock:51: "aes 0.8.4",
+6:Cargo.lock:59:name = "aes-keywrap"
+7:Cargo.lock:64: "aes 0.9.0-rc.2",
+8:Cargo.lock:69:name = "aes-kw"
+9:Cargo.lock:74: "aes 0.8.4",
+10:Cargo.lock:215:checksum = "7c02d123df017efcdfbd739ef81735b36c5ba83ec3c59c80a9d7ecc718f92e50"
+11:Cargo.lock:221:checksum = "8824ecca2e851cec16968d54a01dd372ef8f95b244fb84b84e70128be347c3c6"
+12:Cargo.lock:562:checksum = "77c6d128af408d8ebd08331f0331cf2cf20d19e6c44a7aec58791641ecc8c0b5"
+13:Cargo.lock:718:checksum = "0700ddab506f33b20a03b13996eccd309a48e5ff77d0d95926aa0210fb4e95f1"
+14:Cargo.lock:942:checksum = "1628fb46dfa0b37568d12e5edd512553eccf6a22a78e8bde00bb4aed84d5bdbf"
+15:Cargo.lock:1227: "aes-gcm",
+16:Cargo.lock:1388: "tiny-keccak",
+17:Cargo.lock:1404:checksum = "1d57c2eccfb16dbac1f4e61e206105db5820c9d26c3c472bc17c774259ef7744"
+18:Cargo.lock:1612: "aes-gcm",
+19:Cargo.lock:1613: "aes-kw",
+20:Cargo.lock:1624: "rsa",
+21:Cargo.lock:1761:checksum = "c0efa6142b5ecc05f6d3eaa39e6af4888b9d3939273fb592c92b7088a8cf3fdb"
+22:Cargo.lock:2126:checksum = "31951f49556e34d90ed28342e1df7e1cb7a229c4cab0aecc627b5d91edd41d07"
+23:Cargo.lock:2143:name = "dsa"
+24:Cargo.lock:2212:name = "ecdsa"
+25:Cargo.lock:2226:name = "ed25519"
+26:Cargo.lock:2236:name = "ed25519-compact"
+27:Cargo.lock:2246:name = "ed25519-dalek"
+28:Cargo.lock:2252: "ed25519",
+29:Cargo.lock:2350:checksum = "186e05a59d4c50738528153b83b0b0194d3a29507dfec16eccd4b342903397d0"
+30:Cargo.lock:2871:name = "hmac-sha256"
+31:Cargo.lock:3586: "rsa",
+32:Cargo.lock:3679:checksum = "6204285f77fe7d9784db3fdc449ecce1a0114927a51d5a41c4c7a292011c015f"
+33:Cargo.lock:3701: "ed25519-compact",
+34:Cargo.lock:3703: "hmac-sha256",
+35:Cargo.lock:3723: "ecdsa",
+36:Cargo.lock:3806:name = "keccak"
+37:Cargo.lock:3870: "tiny-keccak",
+38:Cargo.lock:4492: "aes 0.8.4",
+39:Cargo.lock:4493: "aes-gcm",
+40:Cargo.lock:4566: "ed25519-dalek",
+41:Cargo.lock:4575: "rsa",
+42:Cargo.lock:4624:checksum = "3f1787d533e03597a7934fd0a765f0d28e94ecc5fb7789f8053b1e699a56f709"
+43:Cargo.lock:4690: "ecdsa",
+44:Cargo.lock:4702: "ecdsa",
+45:Cargo.lock:4715: "ecdsa",
+46:Cargo.lock:5084: "aes 0.8.4",
+49:Cargo.lock:5898:name = "rsa"
+50:Cargo.lock:6055:checksum = "1d99feebc72bae7ab76ba994bb5e121b8d83d910ca40b36e0921f53becc41784"
+51:Cargo.lock:6213:checksum = "22fc4f90c27b57691bbaf11d8ecc7cfbfe98a4da6dbe60226115d322aa80c06e"
+52:Cargo.lock:6242:checksum = "d3e97a565f76233a6003f9f5c54be1d9c5bdfa3eccfb189469f11ec4901c47dc"
+53:Cargo.lock:6282:checksum = "6ce2691df843ecc5d231c0b14ece2acc3efb62c0a398c7e1d875f3983ce020e3"
+54:Cargo.lock:6300: "aes 0.8.4",
+55:Cargo.lock:6301: "aes-gcm",
+56:Cargo.lock:6317: "dsa",
+57:Cargo.lock:6321: "ecdsa",
+58:Cargo.lock:6322: "ed25519",
+59:Cargo.lock:6323: "ed25519-dalek",
+60:Cargo.lock:6344: "rsa",
+61:Cargo.lock:6347: "sha3",
+62:Cargo.lock:6351: "x25519-dalek",
+63:Cargo.lock:6462:checksum = "175ee3e80ae9982737ca543e96133087cbd9a485eecc3bc4de9c1a37b47ea59c"
+64:Cargo.lock:6664:name = "sha3"
+65:Cargo.lock:6670: "keccak",
+66:Cargo.lock:6734: "ecdsa",
+67:Cargo.lock:6735: "ed25519",
+68:Cargo.lock:6736: "ed25519-dalek",
+69:Cargo.lock:6749: "rsa",
+70:Cargo.lock:6950:checksum = "13c2bddecc57b384dee18652358fb23172facb8a2c51ccc10d74c157bdea3292"
+71:Cargo.lock:6958: "aes-gcm",
+72:Cargo.lock:6959: "aes-keywrap",
+73:Cargo.lock:6961: "hmac-sha256",
+74:Cargo.lock:6964: "rsa",
+75:Cargo.lock:7200:name = "tiny-keccak"
+76:Cargo.lock:7232:checksum = "09b3661f17e86524eccd4371ab0429194e0d7c008abb45f7a7495b1719463c71"
+77:Cargo.lock:7353:checksum = "cf92845e79fc2e2def6a5d828f0801e29a2f8acc037becc5ab08595c7d5e9863"
+79:Cargo.lock:7878:checksum = "06abde3611657adf66d383f00b093d7faecc7fa57071cce2578660c9f1010821"
+80:Cargo.lock:8077:checksum = "15053d8d85c7eccdbefef60f06769760a563c7f0a9d6902a13d35c7800b0ad65"
+81:Cargo.lock:8547:name = "x25519-dalek"
+82:Cargo.toml:21:aes = "0.8.3"
+83:Cargo.toml:22:aes-gcm = "0.10.2"
+84:Cargo.toml:50:rsa = "0.9.10"
+85:api-server-rest/build.rs:21:                example = json!({"token": "eyJhbGciOiJFUzI1NiI...", "tee_keypair": "-----BEGIN RSA... "})),
+86:api-server-rest/openapi/api.json:121:                  "tee_keypair": "-----BEGIN RSA... ",
+87:attestation-agent/attestation-agent/config.example.json:8:	    "tee_key_algorithm": "ECDH-ES+A256KW-P256",
+88:attestation-agent/attestation-agent/config.example.toml:8:tee_key_algorithm = "ECDH-ES+A256KW-P256"
+89:attestation-agent/attestation-agent/src/config/mod.rs:24:pub const DEFAULT_EVENTLOG_HASH: &str = "sha384";
+90:attestation-agent/attestation-agent/src/config/mod.rs:184:                tee_key_algorithm: kbs_protocol::TeeKeyAlgorithm::EcdhEsA256KwP256,
+91:attestation-agent/attestation-agent/src/config/mod.rs:226:                tee_key_algorithm: kbs_protocol::TeeKeyAlgorithm::EcdhEsA256KwP256,
+92:attestation-agent/attestation-agent/src/config/mod.rs:247:                tee_key_algorithm: kbs_protocol::TeeKeyAlgorithm::EcdhEsA256KwP256,
+93:attestation-agent/attestation-agent/src/config/mod.rs:266:                tee_key_algorithm: kbs_protocol::TeeKeyAlgorithm::EcdhEsA256KwP256,
+94:attestation-agent/attestation-agent/src/eventlog/mod.rs:347:            alg: HashAlgorithm::Sha384,
+95:attestation-agent/attestation-agent/src/eventlog/mod.rs:381:        HashAlgorithm::Sha256
+96:attestation-agent/attestation-agent/src/eventlog/mod.rs:383:    #[case("domain", "operation", "content", "dad5f0e226318ffa9839b75a472c6aa7fdb5834949d0a0a22990cf04d5692440fb00f3aa0609db7e49cd8d793f670d02", HashAlgorithm::Sha384)]
+97:attestation-agent/attestation-agent/src/eventlog/tcg2.rs:15:    Sha256 = 0xB,
+98:attestation-agent/attestation-agent/src/eventlog/tcg2.rs:18:    Sha384 = 0xC,
+99:attestation-agent/attestation-agent/src/eventlog/tcg2.rs:30:            HashAlgorithm::Sha256 => TcgAlgorithm::Sha256,
+100:attestation-agent/attestation-agent/src/eventlog/tcg2.rs:31:            HashAlgorithm::Sha384 => TcgAlgorithm::Sha384,
+101:attestation-agent/attester/README.md:67:tpm2_createak -C 0x81010001 -c ak.ctx -G rsa -g sha256 -s rsassa -u ak.pub -f pem
+102:attestation-agent/attester/README.md:85:tpm2_pcrread sha256:11
+103:attestation-agent/attester/README.md:88:tpm2_pcrextend 11:sha256=6ea40aa7267bb71251c1de1c3605a3df759b86b22fa9f62aa298d4197cd88a3
+104:attestation-agent/attester/src/az_snp_vtpm/mod.rs:34:/// - `signature` - RSA signature over the quote message
+105:attestation-agent/attester/src/az_snp_vtpm/mod.rs:50:        let pcrs = quote.pcrs_sha256().map(|p| p.to_vec()).collect();
+106:attestation-agent/attester/src/az_snp_vtpm/mod.rs:134:        HashAlgorithm::Sha256
+107:attestation-agent/attester/src/az_snp_vtpm/mod.rs:147:        let sha256_digest: [u8; 32] = digest.try_into().context("expected sha256 digest")?;
+108:attestation-agent/attester/src/az_snp_vtpm/mod.rs:151:        info!("Extending PCR {} with {}", pcr, hex::encode(sha256_digest));
+109:attestation-agent/attester/src/az_snp_vtpm/mod.rs:152:        vtpm::extend_pcr(pcr, &sha256_digest)?;
+110:attestation-agent/attester/src/az_tdx_vtpm/mod.rs:95:        HashAlgorithm::Sha256
+111:attestation-agent/attester/src/sgx_dcap/mod.rs:52:            bail!("SGX Attester: Report data should be SHA384 base64 String");
+112:attestation-agent/attester/src/tdx/mod.rs:175:            Path::new(TDX_RTMR_PATH).join(format!("rtmr{rtmr_index}:sha384")),
+113:attestation-agent/attester/src/tdx/mod.rs:231:        HashAlgorithm::Sha384
+114:attestation-agent/attester/src/tdx/report.rs:39:    /// SHA384 hash of TEE TCB INFO.
+115:attestation-agent/attester/src/tdx/report.rs:42:    /// SHA384 hash of TDINFO_STRUCT.
+116:attestation-agent/attester/src/tpm/mod.rs:20:const TPM_HASH_ALGORITHM: &str = "SHA256";
+117:attestation-agent/attester/src/tpm/utils.rs:98:            hashing_algorithm: HashingAlgorithm::Sha256,
+118:attestation-agent/attester/src/tpm/utils.rs:100:        HashingAlgorithm::Sha256,
+119:attestation-agent/attester/src/tpm/utils.rs:116:        "SHA256" => PcrSelectionListBuilder::new()
+120:attestation-agent/attester/src/tpm/utils.rs:117:            .with_selection(HashingAlgorithm::Sha256, &TPM_QUOTE_PCR_SLOTS)
+121:attestation-agent/attester/src/tpm/utils.rs:138:        HashingAlgorithm::Sha256,
+122:attestation-agent/attester/src/tpm/utils.rs:154:        "SHA256" => HashingAlgorithm::Sha256,
+123:attestation-agent/attester/src/tpm/utils.rs:185:            TpmSignatureScheme::RsaSsa {
+124:attestation-agent/attester/src/tpm/utils.rs:186:                hash_scheme: HashScheme::new(HashingAlgorithm::Sha256),
+125:attestation-agent/attester/src/tpm/utils.rs:198:    let Signature::RsaSsa(_) = signature.clone() else {
+126:attestation-agent/attester/src/tpm/utils.rs:226:    let DecodedKey::RsaPublicKey(ak_pk_tss) = decoded_key else {
+127:attestation-agent/attester/src/tpm/utils.rs:227:        bail!("AK is not an RSA key");
+128:attestation-agent/attester/src/tpm/utils.rs:236:    let ak_pk = SubjectPublicKeyInfo::new_rsa_key(modulus, public_exponent);
+129:attestation-agent/attester/src/utils.rs:29:/// 2. Digest sizes with sha384 -> 0x30; sm3 -> 0x20;
+130:attestation-agent/attester/src/utils.rs:32:/// - tdx supports sha384.
+131:attestation-agent/coco_keyprovider/Cargo.toml:10:aes-gcm.workspace = true
+132:attestation-agent/coco_keyprovider/README.md:138:Use key of path `key1`, and keyid `kbs:///default/key/key_id1` to encrypt an image. In this way sample is disabled, and will use A256GCM (AES-256-GCM):
+133:attestation-agent/coco_keyprovider/README.md:157:    "Digest": "sha256:28d649e5c1fb00b5a2cfdc8a0e95057a17addf80797ce2a6b45d89964b35b968",
+134:attestation-agent/coco_keyprovider/README.md:165:        "sha256:4d7ebe01f6574c525dc52ad6506d19aac1ad14eb783955cc1df93fda14073ae1"
+135:attestation-agent/coco_keyprovider/README.md:170:            "Digest": "sha256:4d7ebe01f6574c525dc52ad6506d19aac1ad14eb783955cc1df93fda14073ae1",
+136:attestation-agent/coco_keyprovider/README.md:194:{"cipher":"AES_256_CTR_HMAC_SHA256","hmac":"P3O+CYaDcR6BmxJouiEWIX3NW7Yv6NTpJyvhe6PflP8=","cipheroptions":{}}
+137:attestation-agent/coco_keyprovider/src/enc_mods/crypto.rs:8:use aes_gcm::{aead::Aead, aes::Aes256, Aes256Gcm, Key, Nonce};
+138:attestation-agent/coco_keyprovider/src/enc_mods/crypto.rs:42:            use aes_gcm::KeyInit;
+139:attestation-agent/coco_keyprovider/src/enc_mods/crypto.rs:43:            let encryption_key = Key::<Aes256Gcm>::from_slice(key);
+140:attestation-agent/coco_keyprovider/src/enc_mods/crypto.rs:44:            let cipher = Aes256Gcm::new(encryption_key);
+141:attestation-agent/coco_keyprovider/src/enc_mods/crypto.rs:53:            let mut cipher = ctr::Ctr128BE::<Aes256>::new(key.into(), iv.into());
+142:attestation-agent/coco_keyprovider/src/enc_mods/kbs.rs:7:use jwt_simple::prelude::{Claims, Duration, Ed25519KeyPair, EdDSAKeyPairLike};
+143:attestation-agent/coco_keyprovider/src/enc_mods/kbs.rs:16:    private_key: &Ed25519KeyPair,
+144:attestation-agent/coco_keyprovider/src/enc_mods/mod.rs:10:use jwt_simple::prelude::Ed25519KeyPair;
+145:attestation-agent/coco_keyprovider/src/enc_mods/mod.rs:58:    /// - `A256GCM`: aes 256 gcm (default)
+146:attestation-agent/coco_keyprovider/src/enc_mods/mod.rs:59:    /// - `A256CTR`: aes 256 ctr
+147:attestation-agent/coco_keyprovider/src/enc_mods/mod.rs:189:    kbs_parameter: (&Option<Url>, &Option<Ed25519KeyPair>),
+148:attestation-agent/coco_keyprovider/src/grpc/mod.rs:9:use jwt_simple::prelude::Ed25519KeyPair;
+149:attestation-agent/coco_keyprovider/src/grpc/mod.rs:26:    auth_private_key: Option<Ed25519KeyPair>,
+150:attestation-agent/coco_keyprovider/src/grpc/mod.rs:31:    pub fn new(auth_private_key: Option<Ed25519KeyPair>, kbs: Option<String>) -> Result<Self> {
+151:attestation-agent/coco_keyprovider/src/grpc/mod.rs:147:            Some(Ed25519KeyPair::from_pem(&pem)?)
+152:attestation-agent/deps/crypto/Cargo.toml:10:aes-gcm = { workspace = true, optional = true }
+153:attestation-agent/deps/crypto/Cargo.toml:11:aes-kw = { version = "0.2.1", optional = true }
+154:attestation-agent/deps/crypto/Cargo.toml:18:p256 = { version = "0.13.1", features = ["ecdh", "pem"], optional = true }
+155:attestation-agent/deps/crypto/Cargo.toml:19:p521 = { version = "0.13.3", features = ["ecdh", "pem"], optional = true }
+156:attestation-agent/deps/crypto/Cargo.toml:24:rsa = { workspace = true, optional = true }
+157:attestation-agent/deps/crypto/Cargo.toml:37:    "dep:aes-gcm",
+158:attestation-agent/deps/crypto/Cargo.toml:39:    "rsa/sha2",
+159:attestation-agent/deps/crypto/Cargo.toml:40:    "aes-kw",
+160:attestation-agent/deps/crypto/src/asymmetric.rs:6:// This lint checker is for [`rsa::PaddingMode::PKCS1v15`]
+161:attestation-agent/deps/crypto/src/asymmetric.rs:9:pub mod rsa {
+162:attestation-agent/deps/crypto/src/asymmetric.rs:11:    pub use crate::native::rsa::*;
+163:attestation-agent/deps/crypto/src/asymmetric.rs:14:    pub use crate::rust::rsa::*;
+164:attestation-agent/deps/crypto/src/asymmetric.rs:21:        /// RSAES OAEP using SHA-256 and MGF1 with SHA-256
+165:attestation-agent/deps/crypto/src/asymmetric.rs:22:        #[strum(serialize = "RSA-OAEP-256")]
+166:attestation-agent/deps/crypto/src/asymmetric.rs:25:        /// RSA PKCS#1 v1.5
+167:attestation-agent/deps/crypto/src/asymmetric.rs:27:        #[strum(serialize = "RSA1_5")]
+168:attestation-agent/deps/crypto/src/asymmetric.rs:31:    pub const RSA_PUBKEY_LENGTH: usize = 2048;
+169:attestation-agent/deps/crypto/src/asymmetric.rs:33:    pub const RSA_KTY: &str = "RSA";
+170:attestation-agent/deps/crypto/src/asymmetric.rs:51:        /// ECDH-ES using Concat KDF and CEK wrapped with "A256KW"
+171:attestation-agent/deps/crypto/src/asymmetric.rs:52:        #[strum(serialize = "ECDH-ES+A256KW")]
+172:attestation-agent/deps/crypto/src/asymmetric.rs:53:        EcdhEsA256Kw,
+173:attestation-agent/deps/crypto/src/native/aes256ctr.rs:6://! This mod implements aes-256-ctr encryption & decryption.
+174:attestation-agent/deps/crypto/src/native/aes256ctr.rs:12:    let cipher = Cipher::aes_256_ctr();
+175:attestation-agent/deps/crypto/src/native/aes256ctr.rs:19:    let cipher = Cipher::aes_256_ctr();
+176:attestation-agent/deps/crypto/src/native/aes256gcm.rs:6://! This mod implements aes-256-gcm encryption & decryption.
+177:attestation-agent/deps/crypto/src/native/aes256gcm.rs:21:    let cipher = Cipher::aes_256_gcm();
+178:attestation-agent/deps/crypto/src/native/aes256gcm.rs:34:    let cipher = Cipher::aes_256_gcm();
+179:attestation-agent/deps/crypto/src/native/aes256gcm.rs:41:    let cipher = Cipher::aes_256_gcm();
+180:attestation-agent/deps/crypto/src/native/aes256gcm.rs:52:    let cipher = Cipher::aes_256_gcm();
+181:attestation-agent/deps/crypto/src/native/ec.rs:8:    aes::{self, AesKey},
+182:attestation-agent/deps/crypto/src/native/ec.rs:20:    AES_GCM_256_KEY_BITS,
+183:attestation-agent/deps/crypto/src/native/ec.rs:107:            KeyWrapAlgorithm::EcdhEsA256Kw => {
+184:attestation-agent/deps/crypto/src/native/ec.rs:112:                    KeyWrapAlgorithm::EcdhEsA256Kw.as_ref(),
+185:attestation-agent/deps/crypto/src/native/ec.rs:113:                    AES_GCM_256_KEY_BITS as usize / 8,
+186:attestation-agent/deps/crypto/src/native/ec.rs:117:                let unwrapping_key = AesKey::new_decrypt(&shared_key)
+187:attestation-agent/deps/crypto/src/native/ec.rs:118:                    .map_err(|e| anyhow!("failed to create AES unwrapping key: {e:?}"))?;
+188:attestation-agent/deps/crypto/src/native/ec.rs:119:                aes::unwrap_key(&unwrapping_key, None, &mut key, &encrypted_key)
+189:attestation-agent/deps/crypto/src/native/ec.rs:132:    let md = MessageDigest::sha256();
+190:attestation-agent/deps/crypto/src/native/mod.rs:8:pub mod aes256ctr;
+191:attestation-agent/deps/crypto/src/native/mod.rs:9:pub mod aes256gcm;
+192:attestation-agent/deps/crypto/src/native/mod.rs:12:pub mod rsa;
+193:attestation-agent/deps/crypto/src/native/rsa.rs:9:    rsa::{Padding, Rsa},
+194:attestation-agent/deps/crypto/src/native/rsa.rs:13:use crate::rsa::{PaddingMode, RSA_PUBKEY_LENGTH};
+195:attestation-agent/deps/crypto/src/native/rsa.rs:16:pub struct RSAKeyPair {
+196:attestation-agent/deps/crypto/src/native/rsa.rs:17:    private_key: Rsa<Private>,
+197:attestation-agent/deps/crypto/src/native/rsa.rs:20:impl RSAKeyPair {
+198:attestation-agent/deps/crypto/src/native/rsa.rs:21:    pub fn new() -> Result<RSAKeyPair> {
+199:attestation-agent/deps/crypto/src/native/rsa.rs:22:        let private_key = Rsa::generate(RSA_PUBKEY_LENGTH as u32)?;
+200:attestation-agent/deps/crypto/src/native/rsa.rs:27:        let mut plaintext = [0; RSA_PUBKEY_LENGTH];
+201:attestation-agent/deps/crypto/src/native/rsa.rs:29:            // TODO: Update to OAEP + Sha256 API
+202:attestation-agent/deps/crypto/src/native/rsa.rs:31:            // `RSA_public_encrypt` in openssl
+203:attestation-agent/deps/crypto/src/native/rsa.rs:32:            // Due to <https://docs.openssl.org/master/man3/RSA_public_encrypt/#synopsis>
+204:attestation-agent/deps/crypto/src/native/rsa.rs:35:            // sha256.
+205:attestation-agent/deps/crypto/src/native/rsa.rs:38:            // to use RSA OAEP, the rust version of this crate can work normally.
+206:attestation-agent/deps/crypto/src/native/rsa.rs:42:                .map_err(|e| anyhow!("RSA key decrypt OAEP failed: {:?}", e))?,
+207:attestation-agent/deps/crypto/src/native/rsa.rs:47:                .map_err(|e| anyhow!("RSA key pkcs1v15 decrypt failed: {:?}", e))?,
+208:attestation-agent/deps/crypto/src/native/rsa.rs:68:        let private_key = Rsa::<Private>::private_key_from_pem(pem.as_bytes())?;
+209:attestation-agent/deps/crypto/src/rust/aes256ctr.rs:6://! This mod implements aes-256-ctr encryption & decryption.
+210:attestation-agent/deps/crypto/src/rust/aes256ctr.rs:8:use aes_gcm::aes::Aes256;
+211:attestation-agent/deps/crypto/src/rust/aes256ctr.rs:16:    let mut decryptor = Ctr128BE::<Aes256>::new(key.into(), iv.into());
+212:attestation-agent/deps/crypto/src/rust/aes256ctr.rs:21:        .map_err(|e| anyhow!("aes-256-ctr decrypt failed: {:?}", e))?;
+213:attestation-agent/deps/crypto/src/rust/aes256ctr.rs:26:    let mut encryptor = Ctr128BE::<Aes256>::new(key.into(), iv.into());
+214:attestation-agent/deps/crypto/src/rust/aes256gcm.rs:6://! This mod implements aes-256-gcm encryption & decryption.
+215:attestation-agent/deps/crypto/src/rust/aes256gcm.rs:8:use aes_gcm::{aead::Aead, AeadInPlace, Aes256Gcm, Key, KeyInit, Nonce};
+216:attestation-agent/deps/crypto/src/rust/aes256gcm.rs:17:    let encrypting_key = Key::<Aes256Gcm>::from_slice(key);
+217:attestation-agent/deps/crypto/src/rust/aes256gcm.rs:18:    let cipher = Aes256Gcm::new(encrypting_key);
+218:attestation-agent/deps/crypto/src/rust/aes256gcm.rs:23:        .map_err(|e| anyhow!("aes-256-gcm encrypt failed: {:?}", e))?
+219:attestation-agent/deps/crypto/src/rust/aes256gcm.rs:35:    let decrypting_key = Key::<Aes256Gcm>::from_slice(key);
+220:attestation-agent/deps/crypto/src/rust/aes256gcm.rs:36:    let cipher = Aes256Gcm::new(decrypting_key);
+221:attestation-agent/deps/crypto/src/rust/aes256gcm.rs:41:        .map_err(|e| anyhow!("aes-256-gcm decrypt failed: {:?}", e))?;
+222:attestation-agent/deps/crypto/src/rust/aes256gcm.rs:47:    let decrypting_key = Key::<Aes256Gcm>::from_slice(key);
+223:attestation-agent/deps/crypto/src/rust/aes256gcm.rs:48:    let cipher = Aes256Gcm::new(decrypting_key);
+224:attestation-agent/deps/crypto/src/rust/aes256gcm.rs:52:        .map_err(|e| anyhow!("aes-256-gcm decrypt failed: {:?}", e))?;
+225:attestation-agent/deps/crypto/src/rust/aes256gcm.rs:58:    let encrypting_key = Key::<Aes256Gcm>::from_slice(key);
+226:attestation-agent/deps/crypto/src/rust/aes256gcm.rs:59:    let cipher = Aes256Gcm::new(encrypting_key);
+227:attestation-agent/deps/crypto/src/rust/aes256gcm.rs:63:        .map_err(|e| anyhow!("aes-256-gcm encrypt failed: {:?}", e))?;
+228:attestation-agent/deps/crypto/src/rust/ec.rs:8:    AES_GCM_256_KEY_BITS,
+229:attestation-agent/deps/crypto/src/rust/ec.rs:11:use aes_gcm::aead::generic_array::GenericArray;
+230:attestation-agent/deps/crypto/src/rust/ec.rs:12:use aes_kw::{Kek, KekAes256};
+231:attestation-agent/deps/crypto/src/rust/ec.rs:15:    ecdh::diffie_hellman as diffie_hellman_p256,
+232:attestation-agent/deps/crypto/src/rust/ec.rs:22:    ecdh::diffie_hellman as diffie_hellman_p521, EncodedPoint as P521EncodedPoint,
+233:attestation-agent/deps/crypto/src/rust/ec.rs:87:            KeyWrapAlgorithm::EcdhEsA256Kw => {
+234:attestation-agent/deps/crypto/src/rust/ec.rs:142:                let algorithm_str = KeyWrapAlgorithm::EcdhEsA256Kw.as_ref();
+235:attestation-agent/deps/crypto/src/rust/ec.rs:148:                key_derivation_materials.extend_from_slice(&AES_GCM_256_KEY_BITS.to_be_bytes());
+236:attestation-agent/deps/crypto/src/rust/ec.rs:150:                concat_kdf::derive_key_into::<rsa::sha2::Sha256>(
+237:attestation-agent/deps/crypto/src/rust/ec.rs:158:                    .map_err(|_| anyhow!("invalid bytes length of AES wrapping key"))?;
+238:attestation-agent/deps/crypto/src/rust/ec.rs:159:                let unwrapping_key: KekAes256 = Kek::new(&GenericArray::from(unwrapping_key));
+239:attestation-agent/deps/crypto/src/rust/mod.rs:8:pub mod aes256ctr;
+240:attestation-agent/deps/crypto/src/rust/mod.rs:9:pub mod aes256gcm;
+241:attestation-agent/deps/crypto/src/rust/mod.rs:12:pub mod rsa;
+242:attestation-agent/deps/crypto/src/rust/rsa.rs:9:use rsa::{
+243:attestation-agent/deps/crypto/src/rust/rsa.rs:10:    pkcs1::{DecodeRsaPrivateKey, EncodeRsaPrivateKey},
+244:attestation-agent/deps/crypto/src/rust/rsa.rs:13:    Oaep, Pkcs1v15Encrypt, RsaPrivateKey, RsaPublicKey,
+245:attestation-agent/deps/crypto/src/rust/rsa.rs:17:use crate::rsa::{PaddingMode, RSA_PUBKEY_LENGTH};
+246:attestation-agent/deps/crypto/src/rust/rsa.rs:20:pub struct RSAKeyPair {
+247:attestation-agent/deps/crypto/src/rust/rsa.rs:21:    private_key: RsaPrivateKey,
+248:attestation-agent/deps/crypto/src/rust/rsa.rs:22:    public_key: RsaPublicKey,
+249:attestation-agent/deps/crypto/src/rust/rsa.rs:25:impl RSAKeyPair {
+250:attestation-agent/deps/crypto/src/rust/rsa.rs:26:    pub fn new() -> Result<RSAKeyPair> {
+251:attestation-agent/deps/crypto/src/rust/rsa.rs:27:        let mut rng = rsa::rand_core::OsRng;
+252:attestation-agent/deps/crypto/src/rust/rsa.rs:29:        let private_key = RsaPrivateKey::new(&mut rng, RSA_PUBKEY_LENGTH)?;
+253:attestation-agent/deps/crypto/src/rust/rsa.rs:30:        let public_key = RsaPublicKey::from(&private_key);
+254:attestation-agent/deps/crypto/src/rust/rsa.rs:32:        Ok(RSAKeyPair {
+255:attestation-agent/deps/crypto/src/rust/rsa.rs:42:                .decrypt(Oaep::new::<sha2::Sha256>(), &cipher_text)
+256:attestation-agent/deps/crypto/src/rust/rsa.rs:43:                .map_err(|e| anyhow!("RSA key decrypt OAEP failed: {:?}", e)),
+257:attestation-agent/deps/crypto/src/rust/rsa.rs:48:                .map_err(|e| anyhow!("RSA key pkcs1v15 decrypt failed: {:?}", e)),
+258:attestation-agent/deps/crypto/src/rust/rsa.rs:66:        let private_key = RsaPrivateKey::from_pkcs1_pem(pem)?;
+259:attestation-agent/deps/crypto/src/rust/rsa.rs:67:        let public_key = RsaPublicKey::from(&private_key);
+260:attestation-agent/deps/crypto/src/symmetric.rs:18:pub const AES_GCM_256_KEY_BITS: u32 = 256;
+261:attestation-agent/deps/crypto/src/symmetric.rs:29:    Aes256Gcm,
+262:attestation-agent/deps/crypto/src/symmetric.rs:34:    Aes256Ctr,
+263:attestation-agent/deps/crypto/src/symmetric.rs:48:        WrapType::Aes256Gcm => aes256gcm::decrypt(&key, &ciphertext, &iv),
+264:attestation-agent/deps/crypto/src/symmetric.rs:49:        WrapType::Aes256Ctr => aes256ctr::decrypt(&key, &ciphertext, &iv),
+265:attestation-agent/deps/crypto/src/symmetric.rs:53:/// Decrypt the given `ciphertext` with AES256-GCM algorithm.
+266:attestation-agent/deps/crypto/src/symmetric.rs:63:        WrapType::Aes256Gcm => {
+267:attestation-agent/deps/crypto/src/symmetric.rs:64:            aes256gcm::decrypt_with_aad_detached_tag(&key, &ciphertext, &iv, &aad, &tag)
+268:attestation-agent/deps/crypto/src/symmetric.rs:81:        WrapType::Aes256Gcm => aes256gcm::encrypt(&key, &plaintext, &iv),
+269:attestation-agent/deps/crypto/src/symmetric.rs:82:        WrapType::Aes256Ctr => aes256ctr::encrypt(&key, &plaintext, &iv),
+270:attestation-agent/deps/crypto/src/symmetric.rs:103:        WrapType::Aes256Gcm => {
+271:attestation-agent/deps/crypto/src/symmetric.rs:104:            aes256gcm::encrypt_with_aad_detached_tag(&key, &plaintext, &iv, &aad)
+272:attestation-agent/docs/IMAGE_ENCRYPTION.md:21:3. The symmetric key together with other private information is contained in a struct named `PrivateLayerBlockCipherOptions`, s.t. [PLBCO](https://github.com/opencontainers/image-spec/pull/775/commits/bc0fcd698946be7e8bb1fa88f178ed2c66274aa2#diff-ecf63e7090e873922f62c4749c01f63f7eccd42912c1465fbee515cb7c4916c1R362).
+273:attestation-agent/docs/IMAGE_ENCRYPTION.md:48:As stated [in ocicrypt](https://github.com/opencontainers/image-spec/pull/775/commits/bc0fcd698946be7e8bb1fa88f178ed2c66274aa2#diff-ecf63e7090e873922f62c4749c01f63f7eccd42912c1465fbee515cb7c4916c1R423), a specified protocol to decrypt `PLBCO` should have an annotation key-value pair in the image layer's [OciDescriptor](https://github.com/opencontainers/image-spec/blob/main/descriptor.md) of the image's [manifest](https://github.com/opencontainers/image-spec/blob/main/manifest.md).
+274:attestation-agent/docs/IMAGE_ENCRYPTION.md:85:We can overload some of the parameters in specific scheme (like we use `iv` as `nonce` in `aes-256-gcm`).
+275:attestation-agent/docs/IMAGE_ENCRYPTION.md:91:* `A256GCM`: AES with 256-bit key length in Galois Counter Mode. To reuse of the `decrypt` api, we agree that
+276:attestation-agent/docs/IMAGE_ENCRYPTION.md:92:    * `wrapped_data := ciphertext | Tag`. `Tag` is authentication tag and is 16 bytes in `aes-256-gcm`.
+277:attestation-agent/docs/IMAGE_ENCRYPTION.md:94:* `A256CTR`: AES with 256-bit key length in CTR mode.
+279:attestation-agent/kbc/src/online_sev_kbc/README.md:11:Today only `aes_gcm_256` is supported as the encryption scheme.
+280:attestation-agent/kbc/src/online_sev_kbc/mod.rs:119:            WrapType::Aes256Gcm,
+281:attestation-agent/kbc/src/sample_kbc/mod.rs:77:            WrapType::Aes256Gcm,
+282:attestation-agent/kbs_protocol/src/bin/trustee-attester/trustee-attester.1:56:algorithm = "sha256"
+283:attestation-agent/kbs_protocol/src/client/rcar_client.rs:47:const DEFAULT_HASH_ALGORITHM: HashAlgorithm = HashAlgorithm::Sha384;
+284:attestation-agent/kbs_protocol/src/client/rcar_client.rs:551:    #[case(json!({SELECTED_HASH_ALGORITHM_JSON_KEY: "sha256"}), Ok(HashAlgorithm::Sha256))]
+285:attestation-agent/kbs_protocol/src/client/rcar_client.rs:552:    #[case(json!({SELECTED_HASH_ALGORITHM_JSON_KEY: "SHA256"}), Ok(HashAlgorithm::Sha256))]
+286:attestation-agent/kbs_protocol/src/client/rcar_client.rs:553:    #[case(json!({SELECTED_HASH_ALGORITHM_JSON_KEY: "sha384"}), Ok(HashAlgorithm::Sha384))]
+287:attestation-agent/kbs_protocol/src/client/rcar_client.rs:554:    #[case(json!({SELECTED_HASH_ALGORITHM_JSON_KEY: "SHA384"}), Ok(HashAlgorithm::Sha384))]
+288:attestation-agent/kbs_protocol/src/keypair.rs:11:    rsa::{PaddingMode, RSAKeyPair},
+289:attestation-agent/kbs_protocol/src/keypair.rs:25:    Rsa(Box<RSAKeyPair>),
+290:attestation-agent/kbs_protocol/src/keypair.rs:32:    #[serde(rename = "ECDH-ES+A256KW-P256")]
+291:attestation-agent/kbs_protocol/src/keypair.rs:33:    EcdhEsA256KwP256,
+292:attestation-agent/kbs_protocol/src/keypair.rs:34:    #[serde(rename = "ECDH-ES+A256KW-P521")]
+293:attestation-agent/kbs_protocol/src/keypair.rs:35:    EcdhEsA256KwP521,
+294:attestation-agent/kbs_protocol/src/keypair.rs:36:    #[serde(rename = "RSA-OAEP-256")]
+295:attestation-agent/kbs_protocol/src/keypair.rs:37:    RsaOaep256,
+296:attestation-agent/kbs_protocol/src/keypair.rs:48:            TeeKeyAlgorithm::EcdhEsA256KwP256 => {
+297:attestation-agent/kbs_protocol/src/keypair.rs:51:            TeeKeyAlgorithm::EcdhEsA256KwP521 => {
+298:attestation-agent/kbs_protocol/src/keypair.rs:54:            TeeKeyAlgorithm::RsaOaep256 => TeeKey::Rsa(Box::new(RSAKeyPair::new()?)),
+299:attestation-agent/kbs_protocol/src/keypair.rs:62:            TeeKey::Rsa(key) => {
+300:attestation-agent/kbs_protocol/src/keypair.rs:66:                Ok(TeePubKey::RSA {
+301:attestation-agent/kbs_protocol/src/keypair.rs:78:                    alg: KeyWrapAlgorithm::EcdhEsA256Kw.as_ref().to_string(),
+302:attestation-agent/kbs_protocol/src/keypair.rs:90:            warn!("Use deprecated Rsa PKCSv1.5 algorithm!");
+303:attestation-agent/kbs_protocol/src/keypair.rs:91:            let TeeKey::Rsa(key) = &self.key else {
+304:attestation-agent/kbs_protocol/src/keypair.rs:92:                bail!("Unmatched key. Must be RSA key");
+305:attestation-agent/kbs_protocol/src/keypair.rs:98:            let TeeKey::Rsa(key) = &self.key else {
+306:attestation-agent/kbs_protocol/src/keypair.rs:99:                bail!("Unmatched key. Must be RSA key");
+307:attestation-agent/kbs_protocol/src/keypair.rs:104:        } else if &header.alg[..] == KeyWrapAlgorithm::EcdhEsA256Kw.as_ref() {
+308:attestation-agent/kbs_protocol/src/keypair.rs:141:            let cek = key.unwrap_key(wrapped_cek, x, y, KeyWrapAlgorithm::EcdhEsA256Kw)?;
+309:attestation-agent/kbs_protocol/src/keypair.rs:150:        if let Ok(keypair) = RSAKeyPair::from_pkcs1_pem(pem) {
+310:attestation-agent/kbs_protocol/src/keypair.rs:152:                key: TeeKey::Rsa(Box::new(keypair)),
+311:attestation-agent/kbs_protocol/src/keypair.rs:157:            .context("private key is not RSA (PKCS#1) nor EC P256/P521 (PKCS#8)")?;
+312:attestation-agent/kbs_protocol/src/keypair.rs:166:            TeeKey::Rsa(keypair) => keypair.to_pkcs1_pem(),
+313:attestation-agent/kbs_protocol/src/keypair.rs:182:            crypto::WrapType::Aes256Gcm,
+314:attestation-agent/kbs_protocol/src/keypair.rs:205:            TeeKeyPair::new_with_algorithm(TeeKeyAlgorithm::EcdhEsA256KwP521).expect("new keypair");
+315:attestation-agent/kbs_protocol/src/keypair.rs:213:    fn new_with_rsa_exports_rsa_oaep() {
+316:attestation-agent/kbs_protocol/src/keypair.rs:215:            TeeKeyPair::new_with_algorithm(TeeKeyAlgorithm::RsaOaep256).expect("new keypair");
+317:attestation-agent/kbs_protocol/src/keypair.rs:216:        let TeePubKey::RSA { alg, .. } = keypair.export_pubkey().expect("export key") else {
+318:attestation-agent/kbs_protocol/src/keypair.rs:217:            panic!("must be rsa key")
+319:attestation-agent/kbs_protocol/src/keypair.rs:219:        assert_eq!(alg, "RSA-OAEP-256");
+320:attestation-agent/kbs_protocol/src/keypair.rs:224:        let p256: TeeKeyAlgorithm = serde_json::from_str("\"ECDH-ES+A256KW-P256\"")
+321:attestation-agent/kbs_protocol/src/keypair.rs:225:            .expect("ECDH-ES+A256KW-P256 algorithm should parse");
+322:attestation-agent/kbs_protocol/src/keypair.rs:226:        assert_eq!(p256, TeeKeyAlgorithm::EcdhEsA256KwP256);
+323:attestation-agent/kbs_protocol/src/keypair.rs:228:        let p521: TeeKeyAlgorithm = serde_json::from_str("\"ECDH-ES+A256KW-P521\"")
+324:attestation-agent/kbs_protocol/src/keypair.rs:229:            .expect("ECDH-ES+A256KW-P521 algorithm should parse");
+325:attestation-agent/kbs_protocol/src/keypair.rs:230:        assert_eq!(p521, TeeKeyAlgorithm::EcdhEsA256KwP521);
+326:attestation-agent/kbs_protocol/src/keypair.rs:232:        let rsa_oaep256: TeeKeyAlgorithm =
+327:attestation-agent/kbs_protocol/src/keypair.rs:233:            serde_json::from_str("\"RSA-OAEP-256\"").expect("RSA-OAEP-256 algorithm should parse");
+328:attestation-agent/kbs_protocol/src/keypair.rs:234:        assert_eq!(rsa_oaep256, TeeKeyAlgorithm::RsaOaep256);
+329:confidential-data-hub/docs/SEALED_SECRET.md:88:`A256GCM` (AES256-GCM) preferred.
+330:confidential-data-hub/docs/use-cases/secure-mount-with-block-device.md:165:	--cipher aes-xts-plain64 "$storage_key_path"
+331:confidential-data-hub/docs/use-cases/secure-mount-with-block-device.md:197:	--cipher aes-xts-plain64 "$storage_key_path"
+332:confidential-data-hub/hub/src/bin/secret_cli.rs:254:                WrapType::Aes256Gcm,
+333:confidential-data-hub/hub/src/bin/secret_cli.rs:267:                wrap_type: WrapType::Aes256Gcm,
+334:confidential-data-hub/hub/src/secret/error.rs:30:    SignatureError(#[from] p256::ecdsa::Error),
+335:confidential-data-hub/hub/src/secret/mod.rs:12:use jose_jwk::{EcCurves, Jwk};
+336:confidential-data-hub/hub/src/secret/mod.rs:14:use p256::ecdsa::{signature::Signer, SigningKey};
+337:confidential-data-hub/hub/src/secret/mod.rs:15:use p256::ecdsa::{signature::Verifier, Signature, VerifyingKey};
+339:confidential-data-hub/hub/src/secret/mod.rs:175:            jose_jwk::Key::Ec(ec) if ec.crv == EcCurves::P256 => ec
+340:confidential-data-hub/hub/src/secret/mod.rs:197:            jose_jwk::Key::Ec(ec) if ec.crv == EcCurves::P256 => ec
+341:confidential-data-hub/hub/src/secret/mod.rs:254:            wrap_type: WrapType::Aes256Gcm,
+342:confidential-data-hub/hub/src/storage/drivers/luks2.rs:33:const HMAC_SHA256: &str = "hmac(sha256)";
+343:confidential-data-hub/hub/src/storage/drivers/luks2.rs:127:            params.integrity = Some(HMAC_SHA256.to_string());
+344:confidential-data-hub/hub/src/storage/drivers/luks2.rs:133:            ("aes", "xts-plain"),
+345:confidential-data-hub/hub/src/storage/drivers/luks2.rs:166:            params.integrity = Some(HMAC_SHA256.to_string());
+346:confidential-data-hub/hub/src/storage/drivers/zfs.rs:62:pub const DEFAULT_ENCRYPTION_ALGORITHM: &str = "aes-256-gcm";
+347:confidential-data-hub/kms/src/plugins/aliyun/client/client_key_client/credential.rs:11:use ring::{rand::SystemRandom, rsa::KeyPair, signature::RSA_PKCS1_SHA256};
+348:confidential-data-hub/kms/src/plugins/aliyun/client/client_key_client/credential.rs:47:            .map_err(|_| anyhow!("read RSA private key failed"))?;
+349:confidential-data-hub/kms/src/plugins/aliyun/client/client_key_client/credential.rs:51:                &RSA_PKCS1_SHA256,
+350:confidential-data-hub/kms/src/plugins/aliyun/client/client_key_client/mod.rs:16:use sha2::{Digest, Sha256};
+351:confidential-data-hub/kms/src/plugins/aliyun/client/client_key_client/mod.rs:154:            algorithm: "AES_GCM".into(),
+352:confidential-data-hub/kms/src/plugins/aliyun/client/client_key_client/mod.rs:215:            algorithm: "AES_GCM".into(),
+353:confidential-data-hub/kms/src/plugins/aliyun/client/client_key_client/mod.rs:285:    const SIGNATURE_METHOD: &'static str = "RSA_PKCS1_SHA_256";
+354:confidential-data-hub/kms/src/plugins/aliyun/client/client_key_client/mod.rs:309:        let sha256 = {
+355:confidential-data-hub/kms/src/plugins/aliyun/client/client_key_client/mod.rs:310:            let mut hasher = Sha256::new();
+356:confidential-data-hub/kms/src/plugins/aliyun/client/client_key_client/mod.rs:314:        headers.insert("Content-Sha256", sha256.parse()?);
+357:confidential-data-hub/kms/src/plugins/aliyun/client/client_key_client/mod.rs:331:            sha256,
+358:confidential-data-hub/kms/src/plugins/ehsm/client.rs:165:        let key_spec = "EH_AES_GCM_256";
+359:confidential-data-hub/kms/src/plugins/ehsm/client.rs:190:        let key_spec = "EH_AES_GCM_256";
+360:confidential-data-hub/kms/src/plugins/kbs/sev/client.rs:140:            WrapType::Aes256Gcm,
+361:image-rs/docs/ccv1_image_security_design.md:68:which is called [`PublicLayerBlockCipherOptions`](https://github.com/opencontainers/image-spec/pull/775/commits/bc0fcd698946be7e8bb1fa88f178ed2c66274aa2#diff-ecf63e7090e873922f62c4749c01f63f7eccd42912c1465fbee515cb7c4916c1R362), and the other is used to record secret information
+362:image-rs/docs/ccv1_image_security_design.md:69:(such as symmetric key used for encryption), which is called [`PrivateLayerBlockCipherOptions`](https://github.com/opencontainers/image-spec/pull/775/commits/bc0fcd698946be7e8bb1fa88f178ed2c66274aa2#diff-ecf63e7090e873922f62c4749c01f63f7eccd42912c1465fbee515cb7c4916c1R362).
+363:image-rs/docs/ccv1_image_security_design.md:76:      "cipher": "AES_256_CTR_HMAC_SHA256",
+364:image-rs/docs/ccv1_image_security_design.md:128:Then, add the ["+encrypted" suffix](https://github.com/opencontainers/image-spec/pull/775/commits/bc0fcd698946be7e8bb1fa88f178ed2c66274aa2#diff-ecf63e7090e873922f62c4749c01f63f7eccd42912c1465fbee515cb7c4916c1R7) to the `mediaType` field of this layer.
+365:image-rs/docs/ccv1_image_security_design.md:138:        "digest": "sha256:ef87d9f0...",
+366:image-rs/docs/ccv1_image_security_design.md:144:            "digest": "sha256:f69ae40...",
+367:image-rs/src/digest.rs:7:pub const DIGEST_SHA256_PREFIX: &str = "sha256:";
+368:image-rs/src/digest.rs:17:    Sha256(sha2::Sha256),
+369:image-rs/src/digest.rs:24:            LayerDigestHasher::Sha256(hasher) => {
+370:image-rs/src/digest.rs:35:            LayerDigestHasher::Sha256(hasher) => {
+371:image-rs/src/digest.rs:36:                format!("{}{:x}", DIGEST_SHA256_PREFIX, hasher.finalize())
+372:image-rs/src/image.rs:160:    /// Usually in form `sha256:xxxxxx`
+373:image-rs/src/image.rs:165:    /// Usually in form `sha256:xxxxxx`
+374:image-rs/src/pull.rs:250:            "nginx@sha256:9700d098d545f9d2ee0660dfb155fe64f4447720a0a763a93f2cf08997227279";
+375:image-rs/src/resource/kbs/mod.rs:20:use sha2::{Digest, Sha256};
+376:image-rs/src/resource/kbs/mod.rs:107:        let mut sha256 = Sha256::new();
+377:image-rs/src/resource/kbs/mod.rs:108:        sha256.update(uri.as_bytes());
+378:image-rs/src/resource/kbs/mod.rs:109:        let filename = format!("{:x}", sha256.finalize());
+379:image-rs/src/signature/image/digest.rs:15:    #[strum(serialize = "sha256", props(Length = "64"))]
+380:image-rs/src/signature/image/digest.rs:16:    Sha256,
+381:image-rs/src/signature/image/digest.rs:17:    #[strum(serialize = "sha384", props(Length = "96"))]
+382:image-rs/src/signature/image/digest.rs:18:    Sha384,
+383:image-rs/src/signature/image/digest.rs:53:// 	sha256:7173b809ca12ec5dee4506cd86be934c4596dd234ee82c0662eac04a8c2c71dc
+384:image-rs/src/signature/image/digest.rs:105:            Result::Ok(Algorithm::Sha256) => Algorithm::Sha256.get_str("Length"),
+385:image-rs/src/signature/image/digest.rs:106:            Result::Ok(Algorithm::Sha384) => Algorithm::Sha384.get_str("Length"),
+386:image-rs/src/signature/image/digest.rs:153:                digest: "sha256@:12345@&:67890",
+387:image-rs/src/signature/image/digest.rs:158:                digest: "sha256:",
+388:image-rs/src/signature/image/digest.rs:173:                digest: "sha256:69704ef328d05a9f806b6b8502915e6a0a4faa4d72018dc42343f511490d",
+389:image-rs/src/signature/image/digest.rs:178:                digest: "sha384:69704ef328d05a9f806b6b8502915e6a0a4faa4d72018dc42343f511490daf8a",
+390:image-rs/src/signature/image/digest.rs:188:                digest: "sha256:gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
+391:image-rs/src/signature/image/digest.rs:195:            digest: "sha256:69704ef328d05a9f806b6b8502915e6a0a4faa4d72018dc42343f511490daf8a",
+392:image-rs/src/signature/image/digest.rs:198:                algorithm: "sha256".to_string(),
+393:image-rs/src/signature/image/mod.rs:119:            "repo@@@sha256:ffffffffffffffffffffffffffffffffff",
+394:image-rs/src/signature/image/mod.rs:122:            "@sha256:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+395:image-rs/src/signature/image/mod.rs:123:            "repo@sha256:ffffffffffffffffffffffffffffffffff",
+396:image-rs/src/signature/image/mod.rs:170:                        "test:5000/library/busybox@sha256:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+397:image-rs/src/signature/payload/simple_signing.rs:139:                    "docker-manifest-digest": "sha256:69704ef328d05a9f806b6b8502915e6a0a4faa4d72018dc42343f511490daf8a"
+398:image-rs/src/signature/payload/simple_signing.rs:154:                        "sha256:69704ef328d05a9f806b6b8502915e6a0a4faa4d72018dc42343f511490daf8a"
+399:image-rs/src/signature/payload/simple_signing.rs:180:                    "docker-manifest-digest": "sha256:69704ef328d05a9f806b6b8502915e6a0a4faa4d72018dc42343f511490daf8a"
+400:image-rs/src/signature/payload/simple_signing.rs:199:            "sha256:69704ef328d05a9f806b6b8502915e6a0a4faa4d72018dc42343f511490daf8a"
+401:image-rs/src/signature/policy/cosign/README.md:57:The digital signature algorithm is ECDSA-P256.
+402:image-rs/src/signature/policy/cosign/README.md:71:            "docker-manifest-digest": "sha256:9b2a28eb47540823042a2ba401386845089bb7b62a9637d55816132c4c3c36eb"
+403:image-rs/src/signature/policy/cosign/README.md:85:sha256 digest is different. We can treat `docker-manifest-digest`
+404:image-rs/src/signature/policy/cosign/README.md:103:* Each component (e.g., filesystem layer) is stored in a sha256-addressed
+405:image-rs/src/signature/policy/cosign/README.md:114:      "digest": "sha256:d7d3d98c851ff3a95dbcb70ce09d186c9aaf7e25d48d55c0f99aae360aecfd53"
+406:image-rs/src/signature/policy/cosign/README.md:120:         "digest": "sha256:530afca65e2ea04227630ae746e0c85b2bd1a179379cbf2b6501b49c4cab2ccc"
+407:image-rs/src/signature/policy/cosign/README.md:151:        "digest": "sha256:eca5f5f99822d62181a93ebe1df31db7eeebdf47c47b0a5515c26adc3abf3226"
+408:image-rs/src/signature/policy/cosign/README.md:157:            "digest": "sha256:a252c3b3b26bad13a82cb65b252d5f409ab72d7db433ceb7242ebdbcf0fd9889",
+409:image-rs/src/signature/policy/cosign/README.md:167:signature for the image using ECDSA P256 algorithm.
+410:image-rs/src/signature/policy/cosign/README.md:169:The layer `sha256:a252c3b3b26bad13a82cb65b252d5f409ab72d7db433ceb7242ebdbcf0fd9889` in
+411:image-rs/src/signature/policy/cosign/README.md:179:            "docker-manifest-digest": "sha256:9b2a28eb47540823042a2ba401386845089bb7b62a9637d55816132c4c3c36eb"
+412:image-rs/src/signature/policy/cosign/README.md:191:- Resolve the image reference tag to the digest `sha256:9b2a28eb47540823042a2ba401386845089bb7b62a9637d55816132c4c3c36eb`. Here
+413:image-rs/src/signature/policy/cosign/README.md:192:the sha256 digest has the same function as a `tag`. They both can be used
+414:image-rs/src/signature/policy/cosign/README.md:193:to find a specific image. And this sha256 digest is for example, not true.
+415:image-rs/src/signature/policy/cosign/README.md:194:- Encoding the digest into a new name `sha256-9b2a28eb47540823042a2ba401386845089bb7b62a9637d55816132c4c3c36eb.sig`. The rule is
+416:image-rs/src/signature/policy/cosign/README.md:197:- Store the "image" in `example.com/alpine:sha256-9b2a28eb47540823042a2ba401386845089bb7b62a9637d55816132c4c3c36eb.sig`
+417:image-rs/src/signature/policy/cosign/mod.rs:166:        // By default, the hashing algorithm is SHA256
+418:image-rs/src/signature/policy/cosign/mod.rs:168:            PublicKeyVerifier::new(&key, &SigningScheme::ECDSA_P256_SHA256_ASN1)?;
+419:image-rs/src/signature/policy/cosign/mod.rs:218:        "sha256:10e0ec4c7663b5f9be6efd16d8ceec760efe5377b9a0762ef3f51101ac08b7e8",
+420:image-rs/src/signature/policy/cosign/mod.rs:235:        "sha256:10e0ec4c7663b5f9be6efd16d8ceec760efe5377b9a0762ef3f51101ac08b7e8",
+421:image-rs/src/signature/policy/cosign/mod.rs:252:        "sha256:ecdf8549dd5f12609e365217a64dedde26ecda26da8f3ff3f82def6749f53051",
+422:image-rs/src/signature/policy/cosign/mod.rs:322:        "sha256:10e0ec4c7663b5f9be6efd16d8ceec760efe5377b9a0762ef3f51101ac08b7e8",
+423:image-rs/src/signature/policy/cosign/mod.rs:335:        "sha256:10e0ec4c7663b5f9be6efd16d8ceec760efe5377b9a0762ef3f51101ac08b7e8",
+424:image-rs/src/signature/policy/cosign/mod.rs:338:        "[PublicKeyVerifier { key: ECDSA_P256_SHA256_ASN1(VerifyingKey { inner: PublicKey { point: AffinePoint { x: FieldElement(0x4D1167C9BBBCDB6CC1C867394D50C1777D5C2FCC46374E6B07819141E8D2CFAF), y: FieldElement(0xDB4E43CA897D2EE05C70836839AF5DBEE8B62EC4B93563FB044D92551FE33EEE), infinity: 0 } } }) }]"
+425:image-rs/src/signature/policy/cosign/mod.rs:352:        "sha256:10e0ec4c7663b5f9be6efd16d8ceec760efe5377b9a0762ef3f51101ac08b7e8",
+426:image-rs/src/signature/policy/cosign/mod.rs:365:        "sha256:10e0ec4c7663b5f9be6efd16d8ceec760efe5377b9a0762ef3f51101ac08b7e8",
+427:image-rs/src/signature/policy/ref_match.rs:180:                    "docker.io/example/busybox@sha256:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+428:image-rs/src/signature/policy/ref_match.rs:243:                    "docker.io/example/busybox@sha256:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+429:image-rs/src/signature/policy/ref_match.rs:245:                signed_reference: "docker.io/example/busybox@sha256:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+430:image-rs/src/signature/policy/simple/sigstore.rs:311:            "sha256:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff".to_string();
+431:image-rs/src/signature/policy/simple/sigstore.rs:322:                formatted_name: "library/busybox@sha256=ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+432:image-rs/src/signature/policy/simple/sigstore.rs:327:                formatted_name: "mylib/busybox@sha256=ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+433:image-rs/src/signature/policy/simple/verify.rs:142:                "docker-manifest-digest": "sha256:69704ef328d05a9f806b6b8502915e6a0a4faa4d72018dc42343f511490daf8a"
+434:image-rs/src/signature/policy/simple/verify.rs:203:            digest: "sha256:69704ef328d05a9f806b6b8502915e6a0a4faa4d72018dc42343f511490daf8a",
+435:image-rs/src/signature/policy/simple/verify.rs:208:            digest: "sha256:abcdeef328d05a9f806b6b8502915e6a0a4faa4d72018dc42343f511490daf8a",
+436:image-rs/src/signature/policy/simple/verify.rs:241:                    "docker-manifest-digest": "sha256:69704ef328d05a9f806b6b8502915e6a0a4faa4d72018dc42343f511490daf8a"
+437:image-rs/src/snapshots/overlay.rs:7:use sha2::{Digest, Sha256};
+438:image-rs/src/snapshots/overlay.rs:36:            let mut hasher = Sha256::new();
+439:image-rs/src/stream/mod.rs:18:use crate::digest::{DigestHasher, LayerDigestHasher, DIGEST_SHA256_PREFIX, DIGEST_SHA512_PREFIX};
+440:image-rs/src/stream/mod.rs:85:    let hasher = if diff_id.starts_with(DIGEST_SHA256_PREFIX) {
+441:image-rs/src/stream/mod.rs:86:        LayerDigestHasher::Sha256(sha2::Sha256::new())
+442:image-rs/src/stream/mod.rs:127:        let data_digest = sha2::Sha256::digest(data.as_slice());
+443:image-rs/src/stream/mod.rs:143:            DIGEST_SHA256_PREFIX,
+444:image-rs/src/stream/mod.rs:144:            sha2::Sha256::digest(layer_data.as_slice())
+445:image-rs/src/stream/mod.rs:150:        let hasher = LayerDigestHasher::Sha256(sha2::Sha256::new());
+446:image-rs/src/stream/mod.rs:163:        let data_digest_new = sha2::Sha256::digest(buffer);
+447:image-rs/src/stream/mod.rs:186:            DIGEST_SHA256_PREFIX,
+448:image-rs/src/stream/mod.rs:187:            sha2::Sha256::digest(layer_data.as_slice())
+449:image-rs/src/verity/dmverity.rs:33:            "sha256" => {
+450:image-rs/src/verity/dmverity.rs:36:                        "Invalid hash value sha256:{} for DmVerity device with sha256",
+451:image-rs/src/verity/dmverity.rs:49:            // TODO: support ["sha224", "sha384", "sha512", "ripemd160"];
+452:image-rs/src/verity/dmverity.rs:92:            parts[2] = parts[2].trim_start_matches("sha256:");
+453:image-rs/src/verity/dmverity.rs:95:            hashtype: "sha256".to_string(),
+454:image-rs/src/verity/dmverity.rs:110:        let option = if value.contains("sha256:") {
+455:image-rs/src/verity/dmverity.rs:161:    // algorithm: The cryptographic hash algorithm used for this device. This should be the name of the algorithm, like "sha256".
+456:image-rs/src/verity/dmverity.rs:223:            hashtype: "sha256".to_string(),
+457:image-rs/src/verity/dmverity.rs:250:            "1024,524288,sha256:9de18652fe74edfb9b805aaed72ae2aa48f94333f1ba5c452ac33b1c39325174";
+458:image-rs/src/verity/dmverity.rs:252:        assert_eq!(decoded.hashtype, "sha256");
+459:image-rs/src/verity/dmverity.rs:276:                hashtype: "sha256".to_string(),
+460:image-rs/src/verity/dmverity.rs:285:                hashtype: "sha256".to_string(),
+461:image-rs/src/verity/dmverity.rs:294:                hashtype: "sha256".to_string(),
+462:image-rs/src/verity/dmverity.rs:303:                hashtype: "sha256".to_string(),
+463:image-rs/src/verity/dmverity.rs:312:                hashtype: "sha256".to_string(),
+464:image-rs/src/verity/dmverity.rs:321:                hashtype: "sha256".to_string(),
+465:image-rs/src/verity/dmverity.rs:330:                hashtype: "sha256".to_string(),
+466:image-rs/src/verity/dmverity.rs:339:                hashtype: "sha256".to_string(),
+467:image-rs/src/verity/dmverity.rs:348:                hashtype: "sha256".to_string(),
+468:image-rs/src/verity/dmverity.rs:357:                hashtype: "sha256".to_string(),
+469:image-rs/src/verity/dmverity.rs:370:            hashtype: "sha256".to_string(),
+470:image-rs/src/verity/dmverity.rs:403:                hashtype: "sha256".to_string(),
+471:image-rs/src/verity/mod.rs:74:        let default_hash_type = "sha256";
+472:image-rs/test_data/generate_test_data.md:5:$ openssl genrsa -out private_key_for_tests.pem
+473:image-rs/test_data/generate_test_data.md:10:$ openssl rsa -inform pem -outform pem -pubout -in private_key_for_tests.pem -out public_key_for_tests.pem
+474:image-rs/test_data/offline-fs-kbc/aa-offline_fs_kbc-resources-for-icr.json:4:  "default/gpg-public-key/test": "LS0tLS1CRUdJTiBQR1AgUFVCTElDIEtFWSBCTE9DSy0tLS0tCgptUUdOQkdUd2MzRUJEQURvbHowcmxwTGRkR2R1SENaZERnSEd1Y1lKeFh0elAwRE9zMkEvOTlKN1lhd3VjcTNSCmhlaHVUcmdRWkhpNCtmM28zU3V4QmUzeFdSc1F5dDRCbDBaVFJ6bmdqdXoyTWFxNzV4M0RNSUYzMElSbzlkcm4KWVg5T0ZGaXJMTTRwT0orY0pJaExJb1EyZXk2YnNwNGdpQnVGYlVYQ255T2dEQSs2cVNZMm5zR1R4TmdSam5wbgpWd28zc2tOaitjS21wUzdEbkpFeGZuL25jZDJrR0pOQXBHa1gzSDR2dXd0dUIrMnhQR21nL1U0QWdSeDZxKzErCm1rZGNIMFFWdW9tQ2FJUTFxRzMybTgxaG8xWTBlWlpMbVUycmVtNThqSkNUU0xEMkVHKzd3WTVDMkRETWlNRG0KSGhhOGoyTjdMUWJmVERwZVd4Z0lxVjlHWUl6cGc1MUtLcW1wVEFDOXkwRFZkbzlYNGlIZDFjYkNUTkFhNGtGQwpNUUkwK1BQT0hhVWRoUzE3S2h6dmwzSm11bTkvMWtyNWdCMmd2ajNXUHdMSzZxMzRZWmExdXVnc1ZkOHpzQ001CjlaWHNFUlhiam5neGpJWUJocUMzV2N3bXprNjRPK0ZjM1JKby80K2x3eFhaNXlTNCtMV25mMDNkblVKdzRIZVoKWldGZUdFdSsvMzNMSlhjQUVRRUFBYlFrVFdGMGRHaGxkeUJCY201dmJHUWdQRzFoZEhSaGNtNXZRSFZyTG1saQpiUzVqYjIwK2lRSFVCQk1CQ2dBK0ZpRUVYYjRnM3Q0azJPcmVyb3d2aGt0NFRPWmhKUFlGQW1Ud2MzRUNHd01GCkNRUENad0FGQ3drSUJ3SUdGUW9KQ0FzQ0JCWUNBd0VDSGdFQ0Y0QUFDZ2tRaGt0NFRPWmhKUGJWend3QXFDZUwKd2hzL3h0ek1uSG9aMk5BZys0TTl5elQ3RVZTOUo3MDgxTmFHdjFBckQvUEtUcTNQcCtXbm5XK2VwMlNxUWkzSgp1cjUrWlNSZ1BDYmpVOFRpVGhFRXU0MzFONEZsZnhCOGdORWNtOXRYTFZLMDJFU2Y5VnloTGZmZ2wrbHRpa1AyCk1DaXBrdmVaUGN3MUtnZVNyUnc2a1FRcXFadEN1dlM2Vm9lbGxSTEdvV0hoaHpGYXRmblpnNDVEZ1k1ZVVxNXYKSmczUHlKSDB4Mkhqa1Z4K0Q3QWRZSDRhT29oNGJhd2JXcHQrRERWZjBoUEJFZEtlR0ZGZEQ4OW1FSExDRnNCOQplTUF2cDU2ZDZxTUV5a0VWQ3dYMnVwQmhzc1RQdDBvdEZheFh2WGNJZXZLL05uOXNlbFozNWZETmVlaDZyMHduCm8rV3VURjBmWXNqN2k2MlZxa0hZZkR1eHhjZ09qY1RLeE5pTVB1eWNSOTJuZUdmVzVkK3FBaDQ5bDRrZVgxU0sKSTVDTi9ITFJwS1NjMUVaRDBVYXZjbjFLOHZ6NHVVRTBBbVM5dVB4OVdJMExoSkZiYlBseGNma2dBVFBhQUtrZQo5ZFc0VGZScVoycHFWQzB3dXdXck1nQVA1blJ0eWNqb1d3U3IxcXY1NDNqSkJEait4aGIwTmFLaUQ1Rnd1UUdOCkJHVHdjM0VCREFEU3I3K2RWcUdkS1R2dDV5Mi9oZzVHYkRKZlh4UUFqM0VnZmNvUXMzUWJkdDBmbVkwb0xGTXkKekpiS1BwTTRhS3dZdXE4YmszQkpMKyszUUZOU0tmd09IVEJBYWZWQWttVk5MU1NkN3hTNm1LTlUxcUZva2x2agp6U0VsRnVhVFhWUmlma01nWkdMS1NubExYOVlUN0xGb2piTGF5OHBEWFFreDFxSjN0SFBURTk5L00xN3J6MTlICkpEdnhkcnRTcXZldkRleVA3OGMvZTFpKzZ1bnEwaU1lUHZlNXN4WVA4RXRmcHJzeEYvQldBaEQ2ZnVHbnBhcXQKZGRSR0FEcnhQaFBrMCtLTGtSM1NxZGdjTGlyRWN5UEpyR3lwdlBDemNmTjZ6OVZOdk55M1BaYWs5UXB0OTBGbQprR2hUM1lCbjZnOFpBdTRZcVMzeEtWcTB6dzhVbXdra2VFTkNydU9rTG41Rk83SnRQdkVjN1J0amtSZW00d2dtCklORXJ4NU9zTzJUM2Z1QktXVklpOGpOdjBQYWowZk9VTHgxSzFtVzFSbVpIMmRHa0xTWmJzYXJxV1gwSW04MjMKeEsvdzFWN3owRXZuNHcraXZUVDUzQ29XMldNNndZTlY1TStFV2FMZjBHVmRCRDhZVlRkdGhwZlZwQjdvM2ZlWgpBelk4TkdHVWtUY0FFUUVBQVlrQnZBUVlBUW9BSmhZaEJGMitJTjdlSk5qcTNxNk1MNFpMZUV6bVlTVDJCUUprCjhITnhBaHNNQlFrRHdtY0FBQW9KRUlaTGVFem1ZU1QyS0NFTUFOY2NLQVJUSWdvcHBHTTBmNktsK2RNQ1cyd2UKcWFCdkNESzhvTUhJdDBMTWpMbDJvMEczZDI2Q0ZpaXVFazJlS0lFWkxDUjhyWFhXK2FBVmxsZHo2RzZMSThUZgpTUTA2c3R5dXROQTFNNmUyY1NxU0FRWWVOYXVwdkRaM0Y3a0M4WnEzeEYzOEZ0ckhHUHRrT0NwS0lxbzJ3THUrCloyTjZzait4cW1lMTA4aWFkc3hXbEc4K0lIR0FuWEtPcjZiOHpULzRGZVdXVCsxcnpDY01nREgwS3BkSkZ6OC8KTEZrQUsvTWYyQWlwUGltUU0rblJvT2grNlhwWExuNjlqSmNXREY4Wmw1YXNyL3pmZUtVWUNEUi9RRGpEblFMdwo3ekdETi81REtPSmNBcmlqN2lyU3FISkhRRW5xaDllOFdWUFJMTzBMcENsa2xwUlhmUk1lSVdJTnNkQVgxeEpWCkZVUUt1dUFoWkVwOWZFWmdlaVFadVZreFlYa0ptTWwrYzg0K2pBSkVjNmRjOVhIUTFxd0lSQUgvOTdScitzYXMKZFNOTUtuSkM1dGdFb0tINWloeklVcnZjV0tTcnNkaHdkcmovSDF6QTN0WmNSN3VLeVp6TEorZ05VeElDTUppeAp3djNVdUkzNUU2QkdCTWlySXcwL3UzbS8rdHZDTkFuWmE4YitjQT09Cj1ocjVvCi0tLS0tRU5EIFBHUCBQVUJMSUMgS0VZIEJMT0NLLS0tLS0K",
+475:image-rs/test_data/private_key_for_tests.pem:1:-----BEGIN RSA PRIVATE KEY-----
+476:image-rs/test_data/private_key_for_tests.pem:27:-----END RSA PRIVATE KEY-----
+477:ocicrypt-rs/Cargo.toml:13:aes = { workspace = true, optional = true }
+478:ocicrypt-rs/Cargo.toml:39:aes-gcm.workspace = true
+479:ocicrypt-rs/Cargo.toml:52:    "aes",
+480:ocicrypt-rs/Cargo.toml:64:    "aes",
+481:ocicrypt-rs/data/RSA_private.jwk:2:    "kty": "RSA",
+482:ocicrypt-rs/data/RSA_public.jwk:2:    "kty": "RSA",
+483:ocicrypt-rs/data/generate_keys.md:4:openssl genrsa -out private_key.pem
+484:ocicrypt-rs/data/generate_keys.md:7:openssl rsa -inform pem -outform der -in private_key.pem -out private_key.der
+485:ocicrypt-rs/data/generate_keys.md:16:openssl rsa -inform pem -outform pem -pubout -in private_key.pem -out public_key.pem
+486:ocicrypt-rs/data/generate_keys.md:25:openssl req -x509 -newkey rsa:2048 -keyout certificate_key.pem -out certificate.pem -days 365 -nodes -subj '/CN=localhost'
+487:ocicrypt-rs/data/generate_keys.md:31:openssl x509 -req -in private_csr.csr -CA certificate.pem  -CAkey certificate_key.pem -CAcreateserial -out public_certificate.pem -days 100 -sha256
+488:ocicrypt-rs/data/private_key.pem:1:-----BEGIN RSA PRIVATE KEY-----
+489:ocicrypt-rs/data/private_key.pem:27:-----END RSA PRIVATE KEY-----
+490:ocicrypt-rs/src/blockcipher/aes_ctr.rs:10:use sha2::Sha256;
+491:ocicrypt-rs/src/blockcipher/aes_ctr.rs:16:const AES256_KEY_SIZE: usize = 32;
+492:ocicrypt-rs/src/blockcipher/aes_ctr.rs:17:const AES256_NONCE_SIZE: usize = 16;
+493:ocicrypt-rs/src/blockcipher/aes_ctr.rs:18:type Aes256Ctr = ctr::Ctr128BE<aes::Aes256>;
+494:ocicrypt-rs/src/blockcipher/aes_ctr.rs:19:type HmacSha256 = Hmac<Sha256>;
+495:ocicrypt-rs/src/blockcipher/aes_ctr.rs:22:    struct AESCTRBlockCipherState<R> {
+496:ocicrypt-rs/src/blockcipher/aes_ctr.rs:24:        cipher: Aes256Ctr,
+497:ocicrypt-rs/src/blockcipher/aes_ctr.rs:26:        hmac: HmacSha256,
+498:ocicrypt-rs/src/blockcipher/aes_ctr.rs:32:/// Implementation of the AES CTR stream cipher.
+499:ocicrypt-rs/src/blockcipher/aes_ctr.rs:33:pub struct AESCTRBlockCipher<R> {
+500:ocicrypt-rs/src/blockcipher/aes_ctr.rs:36:    state: Option<AESCTRBlockCipherState<R>>,
+501:ocicrypt-rs/src/blockcipher/aes_ctr.rs:39:impl<R> AESCTRBlockCipher<R> {
+502:ocicrypt-rs/src/blockcipher/aes_ctr.rs:40:    /// Create a new instance of `AESCTRBlockCipher`.
+503:ocicrypt-rs/src/blockcipher/aes_ctr.rs:41:    pub fn new(bits: usize) -> Result<AESCTRBlockCipher<R>> {
+504:ocicrypt-rs/src/blockcipher/aes_ctr.rs:42:        if bits != AES256_KEY_SIZE * 8 {
+505:ocicrypt-rs/src/blockcipher/aes_ctr.rs:43:            return Err(anyhow!("AES CTR bit count not supported"));
+506:ocicrypt-rs/src/blockcipher/aes_ctr.rs:46:        Ok(AESCTRBlockCipher {
+507:ocicrypt-rs/src/blockcipher/aes_ctr.rs:47:            key_len: AES256_KEY_SIZE,
+508:ocicrypt-rs/src/blockcipher/aes_ctr.rs:56:        if symmetric_key.len() != AES256_KEY_SIZE {
+509:ocicrypt-rs/src/blockcipher/aes_ctr.rs:60:                AES256_KEY_SIZE
+510:ocicrypt-rs/src/blockcipher/aes_ctr.rs:67:        let mut nonce = vec![0u8; AES256_NONCE_SIZE];
+511:ocicrypt-rs/src/blockcipher/aes_ctr.rs:70:                if v.len() != AES256_NONCE_SIZE {
+512:ocicrypt-rs/src/blockcipher/aes_ctr.rs:74:                        AES256_NONCE_SIZE
+513:ocicrypt-rs/src/blockcipher/aes_ctr.rs:82:        let cipher = Aes256Ctr::new(
+514:ocicrypt-rs/src/blockcipher/aes_ctr.rs:86:        let hmac = HmacSha256::new_from_slice(symmetric_key.as_slice())
+515:ocicrypt-rs/src/blockcipher/aes_ctr.rs:90:        self.state = Some(AESCTRBlockCipherState {
+516:ocicrypt-rs/src/blockcipher/aes_ctr.rs:107:impl<R> LayerBlockCipher<R> for AESCTRBlockCipher<R> {
+517:ocicrypt-rs/src/blockcipher/aes_ctr.rs:123:impl<R> EncryptionFinalizer for AESCTRBlockCipher<R> {
+518:ocicrypt-rs/src/blockcipher/aes_ctr.rs:128:            .ok_or_else(|| anyhow!("The AESCTRBlockCipher object hasn't been initialized yet"))?;
+519:ocicrypt-rs/src/blockcipher/aes_ctr.rs:138:impl<R: Read> Read for AESCTRBlockCipher<R> {
+520:ocicrypt-rs/src/blockcipher/aes_ctr.rs:183:impl<R: tokio::io::AsyncRead> tokio::io::AsyncRead for AESCTRBlockCipher<R> {
+521:ocicrypt-rs/src/blockcipher/aes_ctr.rs:252:    fn test_aes_ctr_block_cipher() {
+522:ocicrypt-rs/src/blockcipher/aes_ctr.rs:256:        let mut aes_ctr_block_cipher = AESCTRBlockCipher::new(256).unwrap();
+523:ocicrypt-rs/src/blockcipher/aes_ctr.rs:259:        assert!(aes_ctr_block_cipher
+524:ocicrypt-rs/src/blockcipher/aes_ctr.rs:263:        let key = aes_ctr_block_cipher.generate_key().unwrap();
+525:ocicrypt-rs/src/blockcipher/aes_ctr.rs:266:        assert!(aes_ctr_block_cipher
+526:ocicrypt-rs/src/blockcipher/aes_ctr.rs:271:        assert!(aes_ctr_block_cipher
+527:ocicrypt-rs/src/blockcipher/aes_ctr.rs:275:        assert!(aes_ctr_block_cipher.state.as_ref().unwrap().done);
+528:ocicrypt-rs/src/blockcipher/aes_ctr.rs:276:        let finalizer = &mut aes_ctr_block_cipher;
+529:ocicrypt-rs/src/blockcipher/aes_ctr.rs:280:        let exp_hmac = aes_ctr_block_cipher
+530:ocicrypt-rs/src/blockcipher/aes_ctr.rs:289:        assert!(aes_ctr_block_cipher
+531:ocicrypt-rs/src/blockcipher/aes_ctr.rs:295:        assert!(aes_ctr_block_cipher
+532:ocicrypt-rs/src/blockcipher/aes_ctr.rs:300:        assert!(aes_ctr_block_cipher
+533:ocicrypt-rs/src/blockcipher/aes_ctr.rs:306:        assert!(aes_ctr_block_cipher
+534:ocicrypt-rs/src/blockcipher/aes_ctr.rs:311:        assert!(aes_ctr_block_cipher.read_to_end(&mut plaintxt_data).is_ok());
+535:ocicrypt-rs/src/blockcipher/aes_ctr.rs:312:        assert!(aes_ctr_block_cipher.state.as_ref().unwrap().done);
+536:ocicrypt-rs/src/blockcipher/aes_ctr.rs:318:    async fn test_async_aes_ctr_block_cipher() {
+537:ocicrypt-rs/src/blockcipher/aes_ctr.rs:321:        let mut aes_ctr_block_cipher = AESCTRBlockCipher::new(256).unwrap();
+538:ocicrypt-rs/src/blockcipher/aes_ctr.rs:324:        assert!(aes_ctr_block_cipher
+539:ocicrypt-rs/src/blockcipher/aes_ctr.rs:328:        let key = aes_ctr_block_cipher.generate_key().unwrap();
+540:ocicrypt-rs/src/blockcipher/aes_ctr.rs:330:        assert!(aes_ctr_block_cipher
+541:ocicrypt-rs/src/blockcipher/aes_ctr.rs:336:            tokio::io::AsyncReadExt::read_exact(&mut aes_ctr_block_cipher, &mut encrypted_data)
+542:ocicrypt-rs/src/blockcipher/aes_ctr.rs:342:            tokio::io::AsyncReadExt::read_buf(&mut aes_ctr_block_cipher, &mut encrypted_data2)
+543:ocicrypt-rs/src/blockcipher/aes_ctr.rs:346:        assert!(aes_ctr_block_cipher.state.as_ref().unwrap().done);
+544:ocicrypt-rs/src/blockcipher/aes_ctr.rs:348:        let finalizer = &mut aes_ctr_block_cipher;
+545:ocicrypt-rs/src/blockcipher/aes_ctr.rs:351:        let exp_hmac = aes_ctr_block_cipher
+546:ocicrypt-rs/src/blockcipher/aes_ctr.rs:360:        assert!(aes_ctr_block_cipher
+547:ocicrypt-rs/src/blockcipher/aes_ctr.rs:366:        assert!(aes_ctr_block_cipher
+548:ocicrypt-rs/src/blockcipher/aes_ctr.rs:370:        assert!(aes_ctr_block_cipher
+549:ocicrypt-rs/src/blockcipher/aes_ctr.rs:376:        assert!(aes_ctr_block_cipher
+550:ocicrypt-rs/src/blockcipher/aes_ctr.rs:382:            tokio::io::AsyncReadExt::read_exact(&mut aes_ctr_block_cipher, &mut plaintxt_data)
+551:ocicrypt-rs/src/blockcipher/aes_ctr.rs:388:            tokio::io::AsyncReadExt::read_buf(&mut aes_ctr_block_cipher, &mut plaintxt_data2)
+552:ocicrypt-rs/src/blockcipher/aes_ctr.rs:392:        assert!(aes_ctr_block_cipher.state.as_ref().unwrap().done);
+553:ocicrypt-rs/src/blockcipher/aes_ctr.rs:407:        let mut crypto_encrypt = Aes256Ctr::new(
+554:ocicrypt-rs/src/blockcipher/aes_ctr.rs:412:        let openssl_cipher = openssl::symm::Cipher::aes_256_ctr();
+555:ocicrypt-rs/src/blockcipher/aes_ctr.rs:430:        let mut crypto_decrypt = Aes256Ctr::new(
+556:ocicrypt-rs/src/blockcipher/aes_ctr.rs:439:        let mut hmac_sha256 =
+557:ocicrypt-rs/src/blockcipher/aes_ctr.rs:440:            HmacSha256::new_from_slice(symmetric_key.as_slice()).expect("hmac use symmetric key");
+558:ocicrypt-rs/src/blockcipher/aes_ctr.rs:441:        hmac_sha256.update(&layer_data);
+559:ocicrypt-rs/src/blockcipher/aes_ctr.rs:442:        let crypto_hmac = hmac_sha256.finalize().into_bytes().to_vec();
+560:ocicrypt-rs/src/blockcipher/aes_ctr.rs:445:        let mut openssl_signer = Signer::new(MessageDigest::sha256(), &openssl_pkey).unwrap();
+561:ocicrypt-rs/src/blockcipher/mod.rs:12:mod aes_ctr;
+562:ocicrypt-rs/src/blockcipher/mod.rs:13:use aes_ctr::AESCTRBlockCipher;
+563:ocicrypt-rs/src/blockcipher/mod.rs:22:pub const AES256CTR: &str = "AES_256_CTR_HMAC_SHA256";
+564:ocicrypt-rs/src/blockcipher/mod.rs:152:    /// AES_256_CTR_HMAC_SHA256
+565:ocicrypt-rs/src/blockcipher/mod.rs:153:    Aes256Ctr(AESCTRBlockCipher<R>),
+566:ocicrypt-rs/src/blockcipher/mod.rs:157:    /// Create a [`LayerBlockCipherHandler`] object with default aes ctr block cipher
+567:ocicrypt-rs/src/blockcipher/mod.rs:159:        let aes_ctr_block_cipher = AESCTRBlockCipher::new(256).unwrap();
+568:ocicrypt-rs/src/blockcipher/mod.rs:160:        LayerBlockCipherHandler::Aes256Ctr(aes_ctr_block_cipher)
+569:ocicrypt-rs/src/blockcipher/mod.rs:173:            LayerBlockCipherHandler::Aes256Ctr(block_cipher) => {
+570:ocicrypt-rs/src/blockcipher/mod.rs:174:                if typ != AES256CTR {
+571:ocicrypt-rs/src/blockcipher/mod.rs:178:                opts.public.cipher_type = AES256CTR.to_string();
+572:ocicrypt-rs/src/blockcipher/mod.rs:195:            LayerBlockCipherHandler::Aes256Ctr(block_cipher) => {
+573:ocicrypt-rs/src/blockcipher/mod.rs:196:                if typ != AES256CTR {
+574:ocicrypt-rs/src/blockcipher/mod.rs:210:            LayerBlockCipherHandler::Aes256Ctr(block_cipher) => block_cipher.finalized_lbco(opts),
+575:ocicrypt-rs/src/blockcipher/mod.rs:218:            LayerBlockCipherHandler::Aes256Ctr(block_cipher) => block_cipher.read(buf),
+576:ocicrypt-rs/src/blockcipher/mod.rs:231:        let aes_ctr_256 = unsafe {
+577:ocicrypt-rs/src/blockcipher/mod.rs:233:                LayerBlockCipherHandler::Aes256Ctr(block_cipher) => block_cipher,
+578:ocicrypt-rs/src/blockcipher/mod.rs:236:        aes_ctr_256.poll_read(cx, buf)
+579:ocicrypt-rs/src/blockcipher/mod.rs:251:            .encrypt(layer_data.as_slice(), AES256CTR, &mut lbco)
+580:ocicrypt-rs/src/blockcipher/mod.rs:256:            .encrypt(layer_data.as_slice(), AES256CTR, &mut lbco)
+581:ocicrypt-rs/src/blockcipher/mod.rs:258:        let LayerBlockCipherHandler::Aes256Ctr(mut encryptor) = lbch;
+582:ocicrypt-rs/src/blockcipher/mod.rs:270:        let LayerBlockCipherHandler::Aes256Ctr(mut decryptor) = lbch;
+583:ocicrypt-rs/src/blockcipher/mod.rs:281:        let LayerBlockCipherHandler::Aes256Ctr(mut decryptor) = lbch;
+584:ocicrypt-rs/src/encryption.rs:13:    PrivateLayerBlockCipherOptions, PublicLayerBlockCipherOptions, AES256CTR,
+585:ocicrypt-rs/src/encryption.rs:239:        lbch.encrypt(layer_reader, AES256CTR, &mut lbco)?;
+586:ocicrypt-rs/src/encryption.rs:306:    use sha2::{Digest, Sha256};
+587:ocicrypt-rs/src/encryption.rs:333:        let digest = format!("sha256:{:x}", Sha256::digest(&layer_data));
+588:ocicrypt-rs/src/encryption.rs:382:        let digest = format!("sha256:{:x}", Sha256::digest(&layer_data));
+589:ocicrypt-rs/src/keywrap/jwe.rs:9:    ECDH_ES_A256KW, RSA_OAEP,
+590:ocicrypt-rs/src/keywrap/jwe.rs:30:            let ecdh_encrypter = match key_info.format() {
+591:ocicrypt-rs/src/keywrap/jwe.rs:31:                KeyFormat::Der { raw: _ } => ECDH_ES_A256KW.encrypter_from_der(pubkey)?,
+592:ocicrypt-rs/src/keywrap/jwe.rs:32:                KeyFormat::Pem { traditional: _ } => ECDH_ES_A256KW.encrypter_from_pem(pubkey)?,
+593:ocicrypt-rs/src/keywrap/jwe.rs:33:                KeyFormat::Jwk => ECDH_ES_A256KW.encrypter_from_jwk(&Jwk::from_bytes(pubkey)?)?,
+594:ocicrypt-rs/src/keywrap/jwe.rs:36:            Ok(ecdh_encrypter.box_clone())
+595:ocicrypt-rs/src/keywrap/jwe.rs:39:            let rsa_encrypter = match key_info.format() {
+596:ocicrypt-rs/src/keywrap/jwe.rs:40:                KeyFormat::Der { raw: _ } => RSA_OAEP.encrypter_from_der(pubkey)?,
+597:ocicrypt-rs/src/keywrap/jwe.rs:41:                KeyFormat::Pem { traditional: _ } => RSA_OAEP.encrypter_from_pem(pubkey)?,
+598:ocicrypt-rs/src/keywrap/jwe.rs:42:                KeyFormat::Jwk => RSA_OAEP.encrypter_from_jwk(&Jwk::from_bytes(pubkey)?)?,
+599:ocicrypt-rs/src/keywrap/jwe.rs:45:            Ok(rsa_encrypter.box_clone())
+600:ocicrypt-rs/src/keywrap/jwe.rs:60:            let ecdh_decrypter = match key_info.format() {
+601:ocicrypt-rs/src/keywrap/jwe.rs:61:                KeyFormat::Der { raw: _ } => ECDH_ES_A256KW.decrypter_from_der(priv_key)?,
+602:ocicrypt-rs/src/keywrap/jwe.rs:62:                KeyFormat::Pem { traditional: _ } => ECDH_ES_A256KW.decrypter_from_pem(priv_key)?,
+603:ocicrypt-rs/src/keywrap/jwe.rs:63:                KeyFormat::Jwk => ECDH_ES_A256KW.decrypter_from_jwk(&Jwk::from_bytes(priv_key)?)?,
+604:ocicrypt-rs/src/keywrap/jwe.rs:66:            Ok(ecdh_decrypter.box_clone())
+605:ocicrypt-rs/src/keywrap/jwe.rs:69:            let rsa_decrypter = match key_info.format() {
+606:ocicrypt-rs/src/keywrap/jwe.rs:70:                KeyFormat::Der { raw: _ } => RSA_OAEP.decrypter_from_der(priv_key)?,
+607:ocicrypt-rs/src/keywrap/jwe.rs:71:                KeyFormat::Pem { traditional: _ } => RSA_OAEP.decrypter_from_pem(priv_key)?,
+608:ocicrypt-rs/src/keywrap/jwe.rs:72:                KeyFormat::Jwk => RSA_OAEP.decrypter_from_jwk(&Jwk::from_bytes(priv_key)?)?,
+609:ocicrypt-rs/src/keywrap/jwe.rs:75:            Ok(rsa_decrypter.box_clone())
+610:ocicrypt-rs/src/keywrap/jwe.rs:147:            format!("{}/{}", path, "RSA_public.jwk"),
+611:ocicrypt-rs/src/keywrap/jwe.rs:176:            format!("{}/{}", path, "RSA_private.jwk"),
+612:ocicrypt-rs/src/keywrap/keyprovider/mod.rs:582:        use aes_gcm::aead::{Aead, KeyInit};
+613:ocicrypt-rs/src/keywrap/keyprovider/mod.rs:583:        use aes_gcm::aes::{Aes256Dec, Aes256Enc};
+614:ocicrypt-rs/src/keywrap/keyprovider/mod.rs:584:        use aes_gcm::{Aes256Gcm, Key, Nonce};
+615:ocicrypt-rs/src/keywrap/keyprovider/mod.rs:591:            let encrypting_key = Key::<Aes256Enc>::from_slice(encrypting_key);
+616:ocicrypt-rs/src/keywrap/keyprovider/mod.rs:592:            let cipher = Aes256Gcm::new(encrypting_key);
+617:ocicrypt-rs/src/keywrap/keyprovider/mod.rs:601:            let decrypting_key = Key::<Aes256Dec>::from_slice(decrypting_key);
+618:ocicrypt-rs/src/keywrap/keyprovider/mod.rs:602:            let cipher = Aes256Gcm::new(decrypting_key);
+619:ocicrypt-rs/src/keywrap/keyprovider/mod.rs:645:                        wrap_type: "AES".to_string(),
+620:ocicrypt-rs/src/keywrap/keyprovider/mod.rs:753:                        wrap_type: "AES".to_string(),
+621:ocicrypt-rs/src/keywrap/keyprovider/mod.rs:885:                        wrap_type: "AES".to_string(),
+622:ocicrypt-rs/src/keywrap/keyprovider/mod.rs:1059:            wrap_type: "AES".to_string(),

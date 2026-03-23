@@ -1,0 +1,51 @@
+1:ARCHITECTURE.md:719:| **etcd Encryption** | None (base64 only) | FIPS-validated AES | ❌ Not Implemented → 🚧 Planned |
+2:CI_FIX_COMPLETE.md:29:  image: kindest/node:v1.28.0@sha256:9f3ff58f19dcf1a0611d11e8ac989fdb30a28f40f236f59f0bea31fb956ccf5c
+3:CLAUDE.md:1014:    "endsAt": "'$(date -u -v+2H +%Y-%m-%dT%H:%M:%SZ)'",
+4:CLAUDE.md:1180:    "endsAt": "'$(date -u -v+2H +%Y-%m-%dT%H:%M:%SZ)'",
+5:TODO_ARGO_CLEANUP.md:196:    style E fill:#2ecc71
+6:TODO_SECURITY.md:256:        ETCD[Encrypted Secret<br/>AES-CBC]
+7:TODO_SECURITY.md:279:- **Both**: etcd encryption at rest (AES-CBC)
+8:TODO_SECURITY.md:417:  - aescbc:
+10:TODO_SECURITY.md:2976:    fd.name in (/etc/shadow, /etc/passwd, /root/.ssh/id_rsa)
+11:TODO_SECURITY.md:3040:      "otpPolicyAlgorithm": "HmacSHA256",
+175:TODO_TESTS.md:6109:|   2025-11-17T04:30:01Z	ERROR	Reconciler error	{"controller": "component", "controllerGroup": "kagenti.operator.dev", "controllerKind": "Component", "Component": {"name":"weather-service","namespace":"team1"}, "namespace": "team1", "name": "weather-service", "reconcileID": "0c2dca94-7db4-4aec-91b7-65ecca4a428c", "error": "failed to load pipeline steps: step ConfigMap github-clone-step not found"} | ✗ ERROR | - |
+176:TODO_TESTS.md:6125:|   2025-11-17T07:06:29Z	ERROR	Reconciler error	{"controller": "component", "controllerGroup": "kagenti.operator.dev", "controllerKind": "Component", "Component": {"name":"weather-service","namespace":"team1"}, "namespace": "team1", "name": "weather-service", "reconcileID": "eeccc2c0-1b13-4e6b-b05b-0b726ed288a4", "error": "failed to load pipeline steps: step ConfigMap github-clone-step not found"} | ✗ ERROR | - |
+184:TODO_TESTS.md:6604:|   2025-11-17T04:30:01Z	ERROR	Reconciler error	{"controller": "component", "controllerGroup": "kagenti.operator.dev", "controllerKind": "Component", "Component": {"name":"weather-service","namespace":"team1"}, "namespace": "team1", "name": "weather-service", "reconcileID": "0c2dca94-7db4-4aec-91b7-65ecca4a428c", "error": "failed to load pipeline steps: step ConfigMap github-clone-step not found"} | ✗ ERROR | - |
+185:TODO_TESTS.md:6620:|   2025-11-17T07:06:29Z	ERROR	Reconciler error	{"controller": "component", "controllerGroup": "kagenti.operator.dev", "controllerKind": "Component", "Component": {"name":"weather-service","namespace":"team1"}, "namespace": "team1", "name": "weather-service", "reconcileID": "eeccc2c0-1b13-4e6b-b05b-0b726ed288a4", "error": "failed to load pipeline steps: step ConfigMap github-clone-step not found"} | ✗ ERROR | - |
+209:TODO_TRACING.md:2942:  "manifest_digest": "sha256:60ec0caf...",
+210:TODO_TRACING.md:2948:  "manifest_digest": "sha256:60ec0caf...",
+211:TODO_TRACING.md:2954:  "manifest_digest": "sha256:ddedb7f3...",
+212:components/00-infrastructure/cert-manager/cert-manager.yaml:398:                      description: "Algorithm is the private key algorithm of the corresponding private key for this certificate. \n If provided, allowed values are either `RSA`, `ECDSA` or `Ed25519`. If `algorithm` is specified and `size` is not provided, key size of 2048 will be used for `RSA` key algorithm and key size of 256 will be used for `ECDSA` key algorithm. key size is ignored when using the `Ed25519` key algorithm."
+213:components/00-infrastructure/cert-manager/cert-manager.yaml:401:                        - RSA
+214:components/00-infrastructure/cert-manager/cert-manager.yaml:402:                        - ECDSA
+215:components/00-infrastructure/cert-manager/cert-manager.yaml:403:                        - Ed25519
+216:components/00-infrastructure/cert-manager/cert-manager.yaml:417:                      description: "Size is the key bit size of the corresponding private key for this certificate. \n If `algorithm` is set to `RSA`, valid values are `2048`, `4096` or `8192`, and will default to `2048` if not specified. If `algorithm` is set to `ECDSA`, valid values are `256`, `384` or `521`, and will default to `256` if not specified. If `algorithm` is set to `Ed25519`, Size is ignored. No other values are allowed."
+217:components/00-infrastructure/cert-manager/cert-manager.yaml:678:                  description: 'The ACME challenge key for this challenge For HTTP01 challenges, this is the value that must be responded with to complete the HTTP01 challenge in the format: `<private key JWK thumbprint>.<key from acme server for challenge>`. For DNS01 challenges, this is the base64 encoded SHA256 sum of the `<private key JWK thumbprint>.<key from acme server for challenge>` text that must be set as the TXT record content.'
+218:components/00-infrastructure/cert-manager/cert-manager.yaml:896:                              description: 'The TSIG Algorithm configured in the DNS supporting RFC2136. Used only when ``tsigSecretSecretRef`` and ``tsigKeyName`` are defined. Supported values are (case-insensitive): ``HMACMD5`` (default), ``HMACSHA1``, ``HMACSHA256`` or ``HMACSHA512``.'
+219:components/00-infrastructure/cert-manager/cert-manager.yaml:2013:                                    description: 'The TSIG Algorithm configured in the DNS supporting RFC2136. Used only when ``tsigSecretSecretRef`` and ``tsigKeyName`` are defined. Supported values are (case-insensitive): ``HMACMD5`` (default), ``HMACSHA1``, ``HMACSHA256`` or ``HMACSHA512``.'
+220:components/00-infrastructure/cert-manager/cert-manager.yaml:3333:                                    description: 'The TSIG Algorithm configured in the DNS supporting RFC2136. Used only when ``tsigSecretSecretRef`` and ``tsigKeyName`` are defined. Supported values are (case-insensitive): ``HMACMD5`` (default), ``HMACSHA1``, ``HMACSHA256`` or ``HMACSHA512``.'
+225:components/00-infrastructure/keycloak/copy-admin-secret-job.yaml:19:  ttlSecondsAfterFinished: 300
+226:components/00-infrastructure/keycloak/db-secret-generation-job.yaml:19:  ttlSecondsAfterFinished: 300
+227:components/00-infrastructure/keycloak/oauth-secrets-extractor-job.yaml:198:  ttlSecondsAfterFinished: 300
+228:components/00-infrastructure/keycloak/realm-import-job.yaml:33:  ttlSecondsAfterFinished: 300
+229:components/00-infrastructure/oauth2-proxy/oauth2-proxy-secrets.yaml:3:# The cookie secret must be 16, 24, or 32 bytes to create an AES cipher
+230:components/01-platform/ollama/model-pull-job.yaml:11:  ttlSecondsAfterFinished: 300
+231:components/02-observability/alertmanager/deployment.yaml:28:        checksum/config: "{{ include (print $.Template.BasePath \"/configmap.yaml\") . | sha256sum }}"
+239:docs/01-infrastructure/cert-manager.md:123:openssl genrsa -out tls.key 2048
+240:docs/01-infrastructure/cert-manager.md:215:    algorithm: RSA
+241:docs/01-infrastructure/cert-manager.md:846:    algorithm: ECDSA
+242:docs/01-infrastructure/cert-manager.md:854:**Use Case**: Long-lived certificate with ECDSA key.
+243:docs/03-authentication/oauth2-proxy.md:1151:- **Istio Integration**: [Keycloak with Istio](https://chrishaessig.medium.com/keycloak-with-istio-and-oauth2-proxy-65227a383c15)
+254:docs/08-security/encryption.md:305:  - aescbc:
+255:docs/08-security/encryption.md:570:        networking.istio.io/tls-ciphersuites: "ECDHE-RSA-AES128-GCM-SHA256,ECDHE-RSA-AES256-GCM-SHA384"
+256:docs/08-security/secrets-management.md:97:**Target State**: ✅ Secrets encrypted at rest with AES-CBC
+257:docs/08-security/secrets-management.md:121:  - aescbc:
+258:docs/08-security/secrets-management.md:131:- **aescbc**: AES-CBC encryption (recommended)
+259:docs/08-security/secrets-management.md:132:- **aes-gcm**: AES-GCM encryption (higher security, Kubernetes 1.24+)
+260:docs/08-security/secrets-management.md:217:# After encryption: Binary data starting with "k8s:enc:aescbc:v1:key1:..."
+261:docs/08-security/secrets-management.md:1167:**✅ Target State**: Secrets encrypted with AES-CBC in etcd
+262:docs/08-security/secrets-management.md:1174:  - aescbc:
+263:docs/08-security/secrets-management.md:1277:**Recommendation**: Use RSA-4096 for Sealed Secrets controller
+264:docs/08-security/secrets-management.md:1281:openssl req -x509 -days 365 -nodes -newkey rsa:4096 \
+265:docs/08-security/security-roadmap.md:207:     - aescbc:
+294:tests/integration/test_alertmanager.py:158:                "endsAt": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime(time.time() + 300))

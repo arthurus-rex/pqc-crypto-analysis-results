@@ -1,0 +1,1505 @@
+1:.git/packed-refs:167:08ed338270102708832d4492ceccb23729ba2628 refs/remotes/origin/context_test
+2:.git/packed-refs:401:ce375ac53189aade6feecca763eb439dce4843e4 refs/remotes/origin/gh/IvanKobzarev/180/head
+3:.git/packed-refs:460:52b0484f8fd17e66063b10918dfca68e853a9ecc refs/remotes/origin/gh/IvanKobzarev/227/head
+4:.git/packed-refs:541:b56baa1b691582162409137cea3beb95a6e6ecc9 refs/remotes/origin/gh/NicolasHug/2/head
+5:.git/packed-refs:549:043638a1dbf969c606da7a1852c38ecca797a278 refs/remotes/origin/gh/NicolasHug/5/base
+6:.git/packed-refs:674:3becc0152a20d00c0ce86644cd0b1c65ef501ebd refs/remotes/origin/gh/NikhilAPatel/47/orig
+7:.git/packed-refs:727:bfbfcc275b5b8d49c2925cbbd74cd209f0816ecc refs/remotes/origin/gh/NikhilAPatel/72/head
+8:.git/packed-refs:729:bfbfcc275b5b8d49c2925cbbd74cd209f0816ecc refs/remotes/origin/gh/NikhilAPatel/73/base
+9:.git/packed-refs:952:599fc777ecc5365ef0e1840e1f7ae24b6555c765 refs/remotes/origin/gh/ZhiweiYan-96/39/orig
+10:.git/packed-refs:1113:073aaabdc655947fc7901fecce54acf4e14ad73d refs/remotes/origin/gh/anijain2305/1039/head
+11:.git/packed-refs:1181:bdbf4a12f3495d6caa74599e5b3d5eccd9769ada refs/remotes/origin/gh/anijain2305/1062/base
+12:.git/packed-refs:1374:126d3b19f25d8d75d690ce26ec0d98f4ecc5457f refs/remotes/origin/gh/anshul-si/109/orig
+13:.git/packed-refs:1396:4019a642e50200f45f0817e727a1cdaecc2e5d39 refs/remotes/origin/gh/anshul-si/87/base
+14:.git/packed-refs:1473:1dc861db13252418f39c7b13bfecccb75f899990 refs/remotes/origin/gh/aorenste/192/base
+15:.git/packed-refs:1478:5fa4d1a2fbaca56c59244cc68705e5641eccef5c refs/remotes/origin/gh/aorenste/193/orig
+16:.git/packed-refs:1571:3a71afd65a7fb2fa5960524ecc39a11c1ce8523f refs/remotes/origin/gh/aorenste/224/orig
+17:.git/packed-refs:1669:7eaecc3b6dfa4a1346a70bdd31820aca29245dca refs/remotes/origin/gh/benjaminglass1/97/base
+18:.git/packed-refs:1764:b51c99d18c33bb17b70053db338d979828d52ecc refs/remotes/origin/gh/clee2000/1/base
+19:.git/packed-refs:1833:7eee3f79b9ff77ecc09f49510fa46b6d85751059 refs/remotes/origin/gh/daisyden/7/orig
+20:.git/packed-refs:1877:c0ecccb2de535a81692e45b668c613bc32bc53c9 refs/remotes/origin/gh/desertfire/662/head
+21:.git/packed-refs:2088:2217decc3b07ab924e3e56fb49fff428052715f3 refs/remotes/origin/gh/eellison/934/head
+22:.git/packed-refs:2126:0ecca00fa122932d6460d2f94a41480343a7d02c refs/remotes/origin/gh/eellison/951/base
+23:.git/packed-refs:2155:1f6a35cda0deb3e0cf7db9f6b705ecc5a434b6b9 refs/remotes/origin/gh/eellison/960/orig
+24:.git/packed-refs:2166:70026a6c9ff18648ca516d4fc49eccf234a1460c refs/remotes/origin/gh/eellison/964/head
+25:.git/packed-refs:2206:ffb08188d04296989aa9356eccc5326107e0ba66 refs/remotes/origin/gh/eellison/979/head
+26:.git/packed-refs:2377:fa2cd1924a3705c8268a7aeccbd19a7827622b46 refs/remotes/origin/gh/ezyang/3279/orig
+27:.git/packed-refs:2413:123d6d9da7b0459b8df60de83ecc83a2343ad551 refs/remotes/origin/gh/fadara01/9/orig
+28:.git/packed-refs:2449:36d1aecc66c27368575075357e7d74f55d736431 refs/remotes/origin/gh/frgossen/1/base
+29:.git/packed-refs:3139:ea14e33230c0976cecc8f710d77867febc52c793 refs/remotes/origin/gh/kwen2501/317/orig
+30:.git/packed-refs:3281:4e7e7b0e90f94b59e035c252051bf4b7ee7ecce1 refs/remotes/origin/gh/laithsakka/416/orig
+31:.git/packed-refs:3316:cf814d582daa136ed968c313ecc734e3cc20af27 refs/remotes/origin/gh/liangel-02/10/head
+32:.git/packed-refs:3450:9710ce46684abecc4e3cb4fa41bb6d2dbfaa7b55 refs/remotes/origin/gh/malfet/721/base
+33:.git/packed-refs:3463:c3cf862e46eccf4a36dda545682a3b0d8afc18a8 refs/remotes/origin/gh/malfet/725/head
+34:.git/packed-refs:3477:54d17808dc99ecc7245e4d9e7500383c10441a08 refs/remotes/origin/gh/malfet/730/orig
+35:.git/packed-refs:3818:9374f0ecc2512eaa03002d9e82ebcf79a9cf24f5 refs/remotes/origin/gh/mlazos/150/head
+36:.git/packed-refs:3859:07e76ecc72ba295ea0a50c219b2f2b7421c9d862 refs/remotes/origin/gh/mlazos/164/base
+37:.git/packed-refs:4006:c595dfe6a9f645572d40017ecc261f5550afd509 refs/remotes/origin/gh/nikitaved/8/head
+38:.git/packed-refs:4043:1733897861c92ac90ecce4b0fda19eacb13ca540 refs/remotes/origin/gh/pianpwk/100/head
+39:.git/packed-refs:4257:386df7f868e0a38becc7a6752aaa8ef72b0d5f9b refs/remotes/origin/gh/rtimpe/44/orig
+40:.git/packed-refs:4607:0ecc3f9b2a77ca36c76de1029a85c2b2b571d661 refs/remotes/origin/gh/tianrengao/18/orig
+41:.git/packed-refs:5060:ef2b0ecce8da908f636d5b96eda69f9c7764d079 refs/remotes/origin/gh/williamwen42/399/orig
+42:.git/packed-refs:5140:10317a24191bd46616d1a1ecc85849da814ee555 refs/remotes/origin/gh/xmfan/327/base
+43:.git/packed-refs:5287:48a3416df1f3754a2edb086ecc057a38b74fda8e refs/remotes/origin/gh/yf225/140/orig
+44:.git/packed-refs:5630:21aa086ecceb006f8a070935af115ce59e68d1ac refs/remotes/origin/mlazos/tuple-fixes2
+45:.git/packed-refs:5639:99840aaf0ecc122d14c21a9a0693c22941d9189e refs/remotes/origin/mnachin/parallel-fatbin-compilation
+46:.git/packed-refs:5643:39733b38d1217a953738ec899ecc67046408e261 refs/remotes/origin/nativert_num_outputs
+47:.git/packed-refs:5671:63f84b64af12e1fb9e4fb792f2eef392111173ce refs/remotes/origin/no-redefine-TORCH_USE_CUDA_DSA
+48:.git/packed-refs:5958:aeca99aecc44c9fcb1f710b5a4af7851167b9891 refs/remotes/origin/whc/pp_fix
+49:.git/packed-refs:6287:3a923938b813c9429ecd10ff1edffe2ecc95f8dc refs/tags/ciflow/inductor/177696
+50:.git/packed-refs:6462:7473e930041ad7b7eb8fecd64a96eccabce8d419 refs/tags/ciflow/rocm-mi300/175648
+51:.git/packed-refs:6486:7473e930041ad7b7eb8fecd64a96eccabce8d419 refs/tags/ciflow/rocm-nightly/175648
+52:.git/packed-refs:6745:7473e930041ad7b7eb8fecd64a96eccabce8d419 refs/tags/ciflow/trunk/175648
+53:.git/packed-refs:6798:3a923938b813c9429ecd10ff1edffe2ecc95f8dc refs/tags/ciflow/trunk/177696
+54:.git/packed-refs:6882:86631eccdaf27f7f018007649f85f16c7f062007 refs/tags/cslpull91
+55:.git/packed-refs:7122:924ecc985950d8b796c754f16200653be75ef244 refs/tags/trunk/924ecc985950d8b796c754f16200653be75ef244
+56:.git/packed-refs:7703:f06e669f6c5a0b1840dc57224fecc1a27d46b049 refs/tags/viable/strict/1760628335
+57:.git/packed-refs:7965:73078f305fb91d8f3e0101aac1c8eccfc98be839 refs/tags/viable/strict/1762467909
+58:.git/packed-refs:8162:31451777c195be25e1e127ca1c6eccd9ae0e45d2 refs/tags/viable/strict/1763696088
+59:.git/packed-refs:8263:e1f51479c89dc67dd0aecc1adac8cd9400beedab refs/tags/viable/strict/1765173081
+60:.git/packed-refs:8343:a205f8aab426171435ecca0d727912b3ad21b8a8 refs/tags/viable/strict/1765736789
+61:.git/packed-refs:8414:d74f9ecce649b52c52bea857c1c7d1e859ff6826 refs/tags/viable/strict/1766184636
+62:.git/packed-refs:8474:3cd6766108c76fac50de3deca135122ecc6837e1 refs/tags/viable/strict/1766569861
+63:.git/packed-refs:8681:75fd1a27b67676af464eccf43d3f59e9a675a95a refs/tags/viable/strict/1768431156
+64:.git/packed-refs:8754:ecc07d082ab3c9837e3b87102d968db36038ca89 refs/tags/viable/strict/1768951552
+65:.git/packed-refs:8758:eccdfecddc887e1c48a73f6cd2e2bf837e2fcb04 refs/tags/viable/strict/1768976844
+66:.git/packed-refs:8793:499d02a39c7b87b9c3ecc406b4366f86d154ea8b refs/tags/viable/strict/1769154702
+67:.git/packed-refs:8911:d232676bfd7f7bd6436fddfeccf6aa4fc5a70259 refs/tags/viable/strict/1770350524
+68:.git/packed-refs:9075:144d14945e2d76f96d5c944a87484d38c11d4ecc refs/tags/viable/strict/1773138509
+69:.git/packed-refs:9108:e552584375eaaec5c412842a21fa1b00ffceccb8 refs/tags/viable/strict/1773478698
+70:.ci/docker/common/install_torch_tpu.sh:129:    # Verify Checksum (SHA256 for v1.27.0 linux-amd64)
+71:.ci/docker/common/install_torch_tpu.sh:131:    echo "e1508323f347ad1465a887bc5d2bfb91cffc232d11e8e997b623227c6b32fb76  ${temp_dir}/bazel" | sha256sum --check
+72:.ci/docker/manywheel/s390_scripts/build.sh:8:# openssl version to build, with expected sha256 hash of .tar.gz
+73:.ci/docker/manywheel/s390_scripts/build.sh:68:# check_sha256sum patchelf-0.9njs2.tar.gz $PATCHELF_HASH
+74:.ci/docker/manywheel/s390_scripts/build_utils.sh:26:function check_sha256sum {
+75:.ci/docker/manywheel/s390_scripts/build_utils.sh:29:    local sha256=$2
+76:.ci/docker/manywheel/s390_scripts/build_utils.sh:30:    check_var ${sha256}
+77:.ci/docker/manywheel/s390_scripts/build_utils.sh:32:    echo "${sha256}  ${fname}" > ${fname}.sha256
+78:.ci/docker/manywheel/s390_scripts/build_utils.sh:33:    sha256sum -c ${fname}.sha256
+79:.ci/docker/manywheel/s390_scripts/build_utils.sh:34:    rm -f ${fname}.sha256
+80:.ci/docker/manywheel/s390_scripts/build_utils.sh:41:    local openssl_sha256=$2
+81:.ci/docker/manywheel/s390_scripts/build_utils.sh:42:    check_var ${openssl_sha256}
+82:.ci/docker/manywheel/s390_scripts/build_utils.sh:45:    check_sha256sum ${openssl_fname}.tar.gz ${openssl_sha256}
+83:.ci/docker/manywheel/s390_scripts/build_utils.sh:62:    local curl_sha256=$2
+84:.ci/docker/manywheel/s390_scripts/build_utils.sh:63:    check_var ${curl_sha256}
+85:.ci/docker/manywheel/s390_scripts/build_utils.sh:66:    check_sha256sum ${curl_fname}.tar.bz2 ${curl_sha256}
+86:.ci/docker/manywheel/s390_scripts/build_utils.sh:83:    local autoconf_sha256=$2
+87:.ci/docker/manywheel/s390_scripts/build_utils.sh:84:    check_var ${autoconf_sha256}
+88:.ci/docker/manywheel/s390_scripts/build_utils.sh:87:    check_sha256sum ${autoconf_fname}.tar.gz ${autoconf_sha256}
+89:.ci/lumen_cli/cli/build_cli/register_build.py:23:def register_build_commands(subparsers: argparse._SubParsersAction) -> None:
+90:.ci/lumen_cli/cli/test_cli/register_test.py:52:def register_test_commands(subparsers: argparse._SubParsersAction) -> None:
+91:.ci/lumen_cli/tests/test_cli_helper.py:49:        if isinstance(a, argparse._SubParsersAction)
+92:.ci/lumen_cli/tests/test_cli_helper.py:64:            if isinstance(a, argparse._SubParsersAction)
+93:.ci/magma/build_magma.sh:23:sha256sum --check < ${PACKAGE_FILES}/magma-${MAGMA_VERSION}.sha256
+94:.ci/magma/build_magma.sh:47:cp ${PACKAGE_FILES}/magma-${MAGMA_VERSION}.sha256 ${PACKAGE_RECIPE}/magma-${MAGMA_VERSION}.sha256
+95:.ci/manywheel/build_common.sh:220:fname_with_sha256() {
+96:.ci/manywheel/build_common.sh:221:    HASH=$(sha256sum $1 | cut -c1-8)
+97:.ci/manywheel/build_common.sh:247:        HASH=$(openssl dgst -sha256 -binary $FPATH | openssl base64 | sed -e 's/+/-/g' | sed -e 's/\//_/g' | sed -e 's/=//g')
+98:.ci/manywheel/build_common.sh:249:        echo "\"$FPATH\",sha256=$HASH,$FSIZE"
+99:.ci/manywheel/build_common.sh:323:                patchedpath=$(fname_with_sha256 $destpath)
+100:.ci/manywheel/build_libtorch.sh:196:fname_with_sha256() {
+101:.ci/manywheel/build_libtorch.sh:197:    HASH=$(sha256sum $1 | cut -c1-8)
+102:.ci/manywheel/build_libtorch.sh:220:        HASH=$(openssl dgst -sha256 -binary $FPATH | openssl base64 | sed -e 's/+/-/g' | sed -e 's/\//_/g' | sed -e 's/=//g')
+103:.ci/manywheel/build_libtorch.sh:222:        echo "\"$FPATH\",sha256=$HASH,$FSIZE"
+104:.ci/manywheel/build_libtorch.sh:267:                patchedpath=$(fname_with_sha256 $destpath)
+105:.ci/pytorch/binary_upload.sh:57:        shm_id=$(sha256sum "${pkg}" | awk '{print $1}')
+106:.ci/pytorch/binary_upload.sh:59:          --metadata "checksum-sha256=${shm_id}"
+107:.ci/pytorch/binary_upload.sh:90:        shm_id=$(sha256sum "${pkg}" | awk '{print $1}')
+108:.ci/pytorch/binary_upload.sh:96:          --metadata "checksum-sha256=${shm_id}" \
+112:.ci/pytorch/win-test-helpers/build_pytorch.bat:54:    call "C:\Program Files (x86)\Microsoft Visual Studio\%VC_YEAR%\%VC_PRODUCT%\VC\Auxiliary\Build\vcvarsall.bat" x64
+113:.ci/pytorch/win-test-helpers/build_pytorch.bat:56:    call "C:\Program Files (x86)\Microsoft Visual Studio\%VC_YEAR%\%VC_PRODUCT%\VC\Auxiliary\Build\vcvarsall.bat" x64 -vcvars_ver=%VC_VERSION%
+114:.ci/pytorch/win-test-helpers/setup_pytorch_env.bat:21:    call "C:\Program Files (x86)\Microsoft Visual Studio\%VC_YEAR%\%VC_PRODUCT%\VC\Auxiliary\Build\vcvarsall.bat" x64
+115:.ci/pytorch/win-test-helpers/setup_pytorch_env.bat:23:    call "C:\Program Files (x86)\Microsoft Visual Studio\%VC_YEAR%\%VC_PRODUCT%\VC\Auxiliary\Build\vcvarsall.bat" x64 -vcvars_ver=%VC_VERSION%
+116:.ci/pytorch/windows/arm64/bootstrap_libuv.bat:10:call "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Auxiliary\Build\vcvarsall.bat" arm64
+117:.ci/pytorch/windows/arm64/bootstrap_openblas.bat:10:call "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Auxiliary\Build\vcvarsall.bat" arm64
+118:.ci/pytorch/windows/arm64/bootstrap_tests.bat:5:call "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Auxiliary\Build\vcvarsall.bat" arm64
+119:.ci/pytorch/windows/arm64/build_libtorch.bat:24:call "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Auxiliary\Build\vcvarsall.bat" arm64
+120:.ci/pytorch/windows/arm64/build_pytorch.bat:24:call "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Auxiliary\Build\vcvarsall.bat" arm64
+121:.ci/pytorch/windows/arm64/smoke_test.bat:36:call "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Auxiliary\Build\vcvarsall.bat" arm64
+122:.ci/pytorch/windows/internal/check_deps.bat:32:if NOT "%VS15INSTALLDIR%" == "" if exist "%VS15INSTALLDIR%\VC\Auxiliary\Build\vcvarsall.bat" (
+123:.ci/pytorch/windows/internal/check_deps.bat:33:    set "VS15VCVARSALL=%VS15INSTALLDIR%\VC\Auxiliary\Build\vcvarsall.bat"
+124:.ci/pytorch/windows/internal/check_deps.bat:38:    if exist "%%i" if exist "%%i\VC\Auxiliary\Build\vcvarsall.bat" (
+125:.ci/pytorch/windows/internal/check_deps.bat:40:        set "VS15VCVARSALL=%%i\VC\Auxiliary\Build\vcvarsall.bat"
+126:.ci/pytorch/windows/internal/check_deps.bat:46:IF "%VS15VCVARSALL%"=="" (
+129:.ci/pytorch/windows/internal/setup.bat:14:    call "%VS15VCVARSALL%" x64
+130:.ci/pytorch/windows/internal/setup.bat:16:    call "%VS15VCVARSALL%" x64 %VSDEVCMD_ARGS%
+131:.ci/pytorch/windows/internal/smoke_test.bat:124:    if exist "%%i" if exist "%%i\VC\Auxiliary\Build\vcvarsall.bat" (
+132:.ci/pytorch/windows/internal/smoke_test.bat:126:        set "VS15VCVARSALL=%%i\VC\Auxiliary\Build\vcvarsall.bat"
+133:.ci/pytorch/windows/internal/smoke_test.bat:132:IF "%VS15VCVARSALL%"=="" (
+134:.ci/pytorch/windows/internal/smoke_test.bat:136:call "%VS15VCVARSALL%" x64
+135:.ci/pytorch/windows/internal/static_lib_test.bat:92:    if exist "%%i" if exist "%%i\VC\Auxiliary\Build\vcvarsall.bat" (
+136:.ci/pytorch/windows/internal/static_lib_test.bat:94:        set "VS15VCVARSALL=%%i\VC\Auxiliary\Build\vcvarsall.bat"
+137:.ci/pytorch/windows/internal/static_lib_test.bat:100:IF "%VS15VCVARSALL%"=="" (
+138:.ci/pytorch/windows/internal/static_lib_test.bat:104:call "%VS15VCVARSALL%" x64
+139:.ci/pytorch/windows/internal/vc_install_helper.bat:7:    if exist "%%i" if exist "%%i\VC\Auxiliary\Build\vcvarsall.bat" (
+142:.git-blame-ignore-revs:70:aecc746fccc4495313167e3a7f94210daf457e1d
+144:.github/actions/linux-test/action.yml:360:        # | GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+146:.github/scripts/generate_binary_build_matrix.py:106:        "oneccl-devel==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | "
+147:.github/scripts/generate_binary_build_matrix.py:107:        "oneccl==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | "
+148:.github/scripts/gitutils.py:417:    m = hashlib.sha256()
+149:.github/scripts/prepare_vllm_wheels.sh:14:    fhash=$(openssl dgst -sha256 -binary $fpath | openssl base64 | sed -e 's/+/-/g' | sed -e 's/\//_/g' | sed -e 's/=//g')
+150:.github/scripts/prepare_vllm_wheels.sh:16:    echo "$fpath,sha256=$fhash,$fsize"
+151:.github/scripts/prepare_vllm_wheels.sh:37:  # Update the version in METADATA and its SHA256 hash
+152:.github/scripts/prepare_vllm_wheels.sh:43:  sed -i '/METADATA,sha256/d' RECORD
+153:.github/scripts/s390x-ci/self-hosted-builder/helpers/app_token.sh:64:    openssl dgst -binary -sha256 -sign <(echo "$1")
+154:.github/scripts/test_trymerge.py:17:from hashlib import sha256
+155:.github/scripts/test_trymerge.py:107:        return f"query_sha={sha256(query.encode('utf-8')).hexdigest()} " + " ".join(
+156:.github/scripts/windows/build_triton.bat:11:call "%VC_INSTALL_PATH%\VC\Auxiliary\Build\vcvarsall.bat" x64
+163:.github/workflows/_win-build.yml:103:              call "C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Auxiliary\Build\vcvarsall.bat" x64
+164:.github/workflows/_win-test.yml:92:              call "C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Auxiliary\Build\vcvarsall.bat" x64
+166:.github/workflows/build-magma-windows.yml:35:        uses: ilammy/msvc-dev-cmd@dd5e2fa0a7de1e7929605d9ecc020e749d9856a3
+167:.github/workflows/generated-linux-binary-manywheel-nightly.yml:716:      PYTORCH_EXTRA_INSTALL_REQUIREMENTS: intel-cmplr-lib-rt==2025.3.2 | intel-cmplr-lib-ur==2025.3.2 | intel-cmplr-lic-rt==2025.3.2 | intel-sycl-rt==2025.3.2 | oneccl-devel==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | oneccl==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | impi-rt==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | onemkl-license==2025.3.1 | onemkl-sycl-blas==2025.3.1 | onemkl-sycl-dft==2025.3.1 | onemkl-sycl-lapack==2025.3.1 | onemkl-sycl-rng==2025.3.1 | onemkl-sycl-sparse==2025.3.1 | dpcpp-cpp-rt==2025.3.2 | intel-opencl-rt==2025.3.2 | mkl==2025.3.1 | intel-openmp==2025.3.2 | tbb==2022.3.1 | tcmlib==1.4.1 | umf==1.0.3 | intel-pti==0.16.0
+168:.github/workflows/generated-linux-binary-manywheel-nightly.yml:1468:      PYTORCH_EXTRA_INSTALL_REQUIREMENTS: intel-cmplr-lib-rt==2025.3.2 | intel-cmplr-lib-ur==2025.3.2 | intel-cmplr-lic-rt==2025.3.2 | intel-sycl-rt==2025.3.2 | oneccl-devel==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | oneccl==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | impi-rt==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | onemkl-license==2025.3.1 | onemkl-sycl-blas==2025.3.1 | onemkl-sycl-dft==2025.3.1 | onemkl-sycl-lapack==2025.3.1 | onemkl-sycl-rng==2025.3.1 | onemkl-sycl-sparse==2025.3.1 | dpcpp-cpp-rt==2025.3.2 | intel-opencl-rt==2025.3.2 | mkl==2025.3.1 | intel-openmp==2025.3.2 | tbb==2022.3.1 | tcmlib==1.4.1 | umf==1.0.3 | intel-pti==0.16.0
+169:.github/workflows/generated-linux-binary-manywheel-nightly.yml:2220:      PYTORCH_EXTRA_INSTALL_REQUIREMENTS: intel-cmplr-lib-rt==2025.3.2 | intel-cmplr-lib-ur==2025.3.2 | intel-cmplr-lic-rt==2025.3.2 | intel-sycl-rt==2025.3.2 | oneccl-devel==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | oneccl==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | impi-rt==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | onemkl-license==2025.3.1 | onemkl-sycl-blas==2025.3.1 | onemkl-sycl-dft==2025.3.1 | onemkl-sycl-lapack==2025.3.1 | onemkl-sycl-rng==2025.3.1 | onemkl-sycl-sparse==2025.3.1 | dpcpp-cpp-rt==2025.3.2 | intel-opencl-rt==2025.3.2 | mkl==2025.3.1 | intel-openmp==2025.3.2 | tbb==2022.3.1 | tcmlib==1.4.1 | umf==1.0.3 | intel-pti==0.16.0
+170:.github/workflows/generated-linux-binary-manywheel-nightly.yml:2972:      PYTORCH_EXTRA_INSTALL_REQUIREMENTS: intel-cmplr-lib-rt==2025.3.2 | intel-cmplr-lib-ur==2025.3.2 | intel-cmplr-lic-rt==2025.3.2 | intel-sycl-rt==2025.3.2 | oneccl-devel==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | oneccl==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | impi-rt==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | onemkl-license==2025.3.1 | onemkl-sycl-blas==2025.3.1 | onemkl-sycl-dft==2025.3.1 | onemkl-sycl-lapack==2025.3.1 | onemkl-sycl-rng==2025.3.1 | onemkl-sycl-sparse==2025.3.1 | dpcpp-cpp-rt==2025.3.2 | intel-opencl-rt==2025.3.2 | mkl==2025.3.1 | intel-openmp==2025.3.2 | tbb==2022.3.1 | tcmlib==1.4.1 | umf==1.0.3 | intel-pti==0.16.0
+171:.github/workflows/generated-linux-binary-manywheel-nightly.yml:3724:      PYTORCH_EXTRA_INSTALL_REQUIREMENTS: intel-cmplr-lib-rt==2025.3.2 | intel-cmplr-lib-ur==2025.3.2 | intel-cmplr-lic-rt==2025.3.2 | intel-sycl-rt==2025.3.2 | oneccl-devel==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | oneccl==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | impi-rt==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | onemkl-license==2025.3.1 | onemkl-sycl-blas==2025.3.1 | onemkl-sycl-dft==2025.3.1 | onemkl-sycl-lapack==2025.3.1 | onemkl-sycl-rng==2025.3.1 | onemkl-sycl-sparse==2025.3.1 | dpcpp-cpp-rt==2025.3.2 | intel-opencl-rt==2025.3.2 | mkl==2025.3.1 | intel-openmp==2025.3.2 | tbb==2022.3.1 | tcmlib==1.4.1 | umf==1.0.3 | intel-pti==0.16.0
+172:.github/workflows/generated-linux-binary-manywheel-nightly.yml:4476:      PYTORCH_EXTRA_INSTALL_REQUIREMENTS: intel-cmplr-lib-rt==2025.3.2 | intel-cmplr-lib-ur==2025.3.2 | intel-cmplr-lic-rt==2025.3.2 | intel-sycl-rt==2025.3.2 | oneccl-devel==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | oneccl==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | impi-rt==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | onemkl-license==2025.3.1 | onemkl-sycl-blas==2025.3.1 | onemkl-sycl-dft==2025.3.1 | onemkl-sycl-lapack==2025.3.1 | onemkl-sycl-rng==2025.3.1 | onemkl-sycl-sparse==2025.3.1 | dpcpp-cpp-rt==2025.3.2 | intel-opencl-rt==2025.3.2 | mkl==2025.3.1 | intel-openmp==2025.3.2 | tbb==2022.3.1 | tcmlib==1.4.1 | umf==1.0.3 | intel-pti==0.16.0
+173:.github/workflows/generated-linux-binary-manywheel-nightly.yml:5228:      PYTORCH_EXTRA_INSTALL_REQUIREMENTS: intel-cmplr-lib-rt==2025.3.2 | intel-cmplr-lib-ur==2025.3.2 | intel-cmplr-lic-rt==2025.3.2 | intel-sycl-rt==2025.3.2 | oneccl-devel==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | oneccl==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | impi-rt==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | onemkl-license==2025.3.1 | onemkl-sycl-blas==2025.3.1 | onemkl-sycl-dft==2025.3.1 | onemkl-sycl-lapack==2025.3.1 | onemkl-sycl-rng==2025.3.1 | onemkl-sycl-sparse==2025.3.1 | dpcpp-cpp-rt==2025.3.2 | intel-opencl-rt==2025.3.2 | mkl==2025.3.1 | intel-openmp==2025.3.2 | tbb==2022.3.1 | tcmlib==1.4.1 | umf==1.0.3 | intel-pti==0.16.0
+174:.github/workflows/generated-windows-binary-wheel-nightly.yml:988:      PYTORCH_EXTRA_INSTALL_REQUIREMENTS: intel-cmplr-lib-rt==2025.3.2 | intel-cmplr-lib-ur==2025.3.2 | intel-cmplr-lic-rt==2025.3.2 | intel-sycl-rt==2025.3.2 | oneccl-devel==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | oneccl==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | impi-rt==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | onemkl-license==2025.3.1 | onemkl-sycl-blas==2025.3.1 | onemkl-sycl-dft==2025.3.1 | onemkl-sycl-lapack==2025.3.1 | onemkl-sycl-rng==2025.3.1 | onemkl-sycl-sparse==2025.3.1 | dpcpp-cpp-rt==2025.3.2 | intel-opencl-rt==2025.3.2 | mkl==2025.3.1 | intel-openmp==2025.3.2 | tbb==2022.3.1 | tcmlib==1.4.1 | umf==1.0.3 | intel-pti==0.16.0
+175:.github/workflows/generated-windows-binary-wheel-nightly.yml:2148:      PYTORCH_EXTRA_INSTALL_REQUIREMENTS: intel-cmplr-lib-rt==2025.3.2 | intel-cmplr-lib-ur==2025.3.2 | intel-cmplr-lic-rt==2025.3.2 | intel-sycl-rt==2025.3.2 | oneccl-devel==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | oneccl==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | impi-rt==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | onemkl-license==2025.3.1 | onemkl-sycl-blas==2025.3.1 | onemkl-sycl-dft==2025.3.1 | onemkl-sycl-lapack==2025.3.1 | onemkl-sycl-rng==2025.3.1 | onemkl-sycl-sparse==2025.3.1 | dpcpp-cpp-rt==2025.3.2 | intel-opencl-rt==2025.3.2 | mkl==2025.3.1 | intel-openmp==2025.3.2 | tbb==2022.3.1 | tcmlib==1.4.1 | umf==1.0.3 | intel-pti==0.16.0
+176:.github/workflows/generated-windows-binary-wheel-nightly.yml:3308:      PYTORCH_EXTRA_INSTALL_REQUIREMENTS: intel-cmplr-lib-rt==2025.3.2 | intel-cmplr-lib-ur==2025.3.2 | intel-cmplr-lic-rt==2025.3.2 | intel-sycl-rt==2025.3.2 | oneccl-devel==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | oneccl==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | impi-rt==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | onemkl-license==2025.3.1 | onemkl-sycl-blas==2025.3.1 | onemkl-sycl-dft==2025.3.1 | onemkl-sycl-lapack==2025.3.1 | onemkl-sycl-rng==2025.3.1 | onemkl-sycl-sparse==2025.3.1 | dpcpp-cpp-rt==2025.3.2 | intel-opencl-rt==2025.3.2 | mkl==2025.3.1 | intel-openmp==2025.3.2 | tbb==2022.3.1 | tcmlib==1.4.1 | umf==1.0.3 | intel-pti==0.16.0
+177:.github/workflows/generated-windows-binary-wheel-nightly.yml:4468:      PYTORCH_EXTRA_INSTALL_REQUIREMENTS: intel-cmplr-lib-rt==2025.3.2 | intel-cmplr-lib-ur==2025.3.2 | intel-cmplr-lic-rt==2025.3.2 | intel-sycl-rt==2025.3.2 | oneccl-devel==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | oneccl==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | impi-rt==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | onemkl-license==2025.3.1 | onemkl-sycl-blas==2025.3.1 | onemkl-sycl-dft==2025.3.1 | onemkl-sycl-lapack==2025.3.1 | onemkl-sycl-rng==2025.3.1 | onemkl-sycl-sparse==2025.3.1 | dpcpp-cpp-rt==2025.3.2 | intel-opencl-rt==2025.3.2 | mkl==2025.3.1 | intel-openmp==2025.3.2 | tbb==2022.3.1 | tcmlib==1.4.1 | umf==1.0.3 | intel-pti==0.16.0
+178:.github/workflows/generated-windows-binary-wheel-nightly.yml:5628:      PYTORCH_EXTRA_INSTALL_REQUIREMENTS: intel-cmplr-lib-rt==2025.3.2 | intel-cmplr-lib-ur==2025.3.2 | intel-cmplr-lic-rt==2025.3.2 | intel-sycl-rt==2025.3.2 | oneccl-devel==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | oneccl==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | impi-rt==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | onemkl-license==2025.3.1 | onemkl-sycl-blas==2025.3.1 | onemkl-sycl-dft==2025.3.1 | onemkl-sycl-lapack==2025.3.1 | onemkl-sycl-rng==2025.3.1 | onemkl-sycl-sparse==2025.3.1 | dpcpp-cpp-rt==2025.3.2 | intel-opencl-rt==2025.3.2 | mkl==2025.3.1 | intel-openmp==2025.3.2 | tbb==2022.3.1 | tcmlib==1.4.1 | umf==1.0.3 | intel-pti==0.16.0
+179:.github/workflows/generated-windows-binary-wheel-nightly.yml:6788:      PYTORCH_EXTRA_INSTALL_REQUIREMENTS: intel-cmplr-lib-rt==2025.3.2 | intel-cmplr-lib-ur==2025.3.2 | intel-cmplr-lic-rt==2025.3.2 | intel-sycl-rt==2025.3.2 | oneccl-devel==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | oneccl==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | impi-rt==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | onemkl-license==2025.3.1 | onemkl-sycl-blas==2025.3.1 | onemkl-sycl-dft==2025.3.1 | onemkl-sycl-lapack==2025.3.1 | onemkl-sycl-rng==2025.3.1 | onemkl-sycl-sparse==2025.3.1 | dpcpp-cpp-rt==2025.3.2 | intel-opencl-rt==2025.3.2 | mkl==2025.3.1 | intel-openmp==2025.3.2 | tbb==2022.3.1 | tcmlib==1.4.1 | umf==1.0.3 | intel-pti==0.16.0
+180:.github/workflows/generated-windows-binary-wheel-nightly.yml:7948:      PYTORCH_EXTRA_INSTALL_REQUIREMENTS: intel-cmplr-lib-rt==2025.3.2 | intel-cmplr-lib-ur==2025.3.2 | intel-cmplr-lic-rt==2025.3.2 | intel-sycl-rt==2025.3.2 | oneccl-devel==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | oneccl==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | impi-rt==2021.17.2; platform_system == 'Linux' and platform_machine == 'x86_64' | onemkl-license==2025.3.1 | onemkl-sycl-blas==2025.3.1 | onemkl-sycl-dft==2025.3.1 | onemkl-sycl-lapack==2025.3.1 | onemkl-sycl-rng==2025.3.1 | onemkl-sycl-sparse==2025.3.1 | dpcpp-cpp-rt==2025.3.2 | intel-opencl-rt==2025.3.2 | mkl==2025.3.1 | intel-openmp==2025.3.2 | tbb==2022.3.1 | tcmlib==1.4.1 | umf==1.0.3 | intel-pti==0.16.0
+182:.github/workflows/win-arm64-build-test.yml:112:          call "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Auxiliary\Build\vcvarsall.bat" arm64
+183:.spin/cmds.py:24:        hash = file_digest(f, "sha256")
+184:.spin/cmds.py:69:        Path(".lintbin/.pytorch-type-stubs.sha256"),
+185:.spin/cmds.py:208:    Path(".lintbin/.lintrunner.sha256"),
+188:Makefile:49:setup-lint .lintbin/.lintrunner.sha256: requirements.txt pyproject.toml .lintrunner.toml
+189:Makefile:53:	@echo "Generating .lintrunner.sha256..."
+190:Makefile:55:	@sha256sum requirements.txt pyproject.toml .lintrunner.toml > .lintbin/.lintrunner.sha256
+191:Makefile:58:lazy-setup-lint: .lintbin/.lintrunner.sha256
+192:README.md:191:$ call "C:\Program Files\Microsoft Visual Studio\<VERSION>\Community\VC\Auxiliary\Build\vcvarsall.bat" x64
+193:README.md:347:for /f "usebackq tokens=*" %i in (`"%ProgramFiles(x86)%\Microsoft Visual Studio\Installer\vswhere.exe" -version [15^,17^) -products * -latest -property installationPath`) do call "%i\VC\Auxiliary\Build\vcvarsall.bat" x64 -vcvars_ver=%CMAKE_GENERATOR_TOOLSET_VERSION%
+195:WORKSPACE:31:    # sha256 = "218efe8ee736d26a3572663b374a253c012b716d8af0c07e842e82f238a0a7ee",
+196:WORKSPACE:195:    sha256 = "59154b30dd74561e90d547f9a3af26c75b6f4546210888f09c9d4db8f4bf9d4c",
+197:WORKSPACE:205:    sha256 = "2af3494a4bebe5ddccfdc43bacc80fcd78d14c1954b81d2c8e3d73b55527af90",
+198:WORKSPACE:215:    # sha256 = "94750828b18044533e98a129003b6a68001204038dc4749f40b195b24c38f49f",
+199:android/pytorch_android/generate_test_torchscripts.py:8:def scriptAndSave(module, fileName):
+200:android/pytorch_android/generate_test_torchscripts.py:152:scriptAndSave(Test(), "test.pt")
+207:aten/src/ATen/core/boxing/impl/kernel_function_legacy_test.cpp:64:TEST(OperatorRegistrationTestLegacyFunctionBasedKernel, givenMultipleOperatorsAndKernels_whenRegisteredInOneRegistrar_thenCallsRightKernel) {
+208:aten/src/ATen/core/boxing/impl/kernel_function_legacy_test.cpp:71:TEST(OperatorRegistrationTestLegacyFunctionBasedKernel, givenMultipleOperatorsAndKernels_whenRegisteredInMultipleRegistrars_thenCallsRightKernel) {
+209:aten/src/ATen/core/boxing/impl/kernel_function_test.cpp:76:TEST(OperatorRegistrationTestFunctionBasedKernel, givenMultipleOperatorsAndKernels_whenRegisteredInOneRegistrar_thenCallsRightKernel) {
+210:aten/src/ATen/core/boxing/impl/kernel_function_test.cpp:85:TEST(OperatorRegistrationTestFunctionBasedKernel, givenMultipleOperatorsAndKernels_whenRegisteredInMultipleRegistrars_thenCallsRightKernel) {
+211:aten/src/ATen/core/boxing/impl/kernel_lambda_legacy_test.cpp:58:TEST(OperatorRegistrationTestLegacyLambdaBasedKernel, givenMultipleOperatorsAndKernels_whenRegisteredInOneRegistrar_thenCallsRightKernel) {
+212:aten/src/ATen/core/boxing/impl/kernel_lambda_legacy_test.cpp:70:TEST(OperatorRegistrationTestLegacyLambdaBasedKernel, givenMultipleOperatorsAndKernels_whenRegisteredInMultipleRegistrars_thenCallsRightKernel) {
+213:aten/src/ATen/core/boxing/impl/kernel_lambda_test.cpp:56:TEST(OperatorRegistrationTestLambdaBasedKernel, givenMultipleOperatorsAndKernels_whenRegisteredInOneRegistrar_thenCallsRightKernel) {
+214:aten/src/ATen/core/boxing/impl/kernel_lambda_test.cpp:65:TEST(OperatorRegistrationTestLambdaBasedKernel, givenMultipleOperatorsAndKernels_whenRegisteredInMultipleRegistrars_thenCallsRightKernel) {
+215:aten/src/ATen/core/boxing/impl/kernel_stackbased_test.cpp:86:TEST(OperatorRegistrationTestStackBasedKernel, givenMultipleOperatorsAndKernels_whenRegisteredInOneRegistrar_thenCallsRightKernel) {
+216:aten/src/ATen/core/boxing/impl/kernel_stackbased_test.cpp:95:TEST(OperatorRegistrationTestStackBasedKernel, givenMultipleOperatorsAndKernels_whenRegisteredInMultipleRegistrars_thenCallsRightKernel) {
+222:aten/src/ATen/core/boxing/impl/make_boxed_from_unboxed_functor_test.cpp:59:TEST(OperatorRegistrationTestFunctorBasedKernel, givenMultipleOperatorsAndKernels_whenRegisteredInOneRegistrar_thenCallsRightKernel) {
+223:aten/src/ATen/core/boxing/impl/make_boxed_from_unboxed_functor_test.cpp:68:TEST(OperatorRegistrationTestFunctorBasedKernel, givenMultipleOperatorsAndKernels_whenRegisteredInMultipleRegistrars_thenCallsRightKernel) {
+227:aten/src/ATen/core/ivalue.h:779:  // This SFINAEs the called constructor exists.
+230:aten/src/ATen/core/op_registration/op_registration_test.cpp:477:TEST(OperatorRegistrationTest, whenRegisteringBackendFallbackKernelAndRegularKernelForSameBackend_thenCallsRegularKernel) {
+231:aten/src/ATen/core/op_registration/op_registration_test.cpp:590:void LazyBackendsAutogradOverridesAutogradKernel(DispatchKey key) {
+232:aten/src/ATen/core/op_registration/op_registration_test.cpp:618:  LazyBackendsAutogradOverridesAutogradKernel(DispatchKey::XLA);
+233:aten/src/ATen/core/op_registration/op_registration_test.cpp:621:void whenRegisterWithLazyBackendsAndCatchAll_AutogradLazyBackendsIsNotFilled(DispatchKey key) {
+234:aten/src/ATen/core/op_registration/op_registration_test.cpp:663:  whenRegisterWithLazyBackendsAndCatchAll_AutogradLazyBackendsIsNotFilled(DispatchKey::XLA);
+235:aten/src/ATen/core/op_registration/op_registration_test.cpp:667:  whenRegisterWithLazyBackendsAndCatchAll_AutogradLazyBackendsIsNotFilled(DispatchKey::Lazy);
+236:aten/src/ATen/core/op_registration/op_registration_test.cpp:1350:TEST(NewOperatorRegistrationTest, whenRegisteringBackendFallbackKernelAndCatchallKernelForSameBackend_thenCallsFallbackKernel) {
+238:aten/src/ATen/cpu/Utils.cpp:130:  capabilities["aes"] = cpuinfo_has_x86_aes();
+239:aten/src/ATen/cpu/Utils.cpp:153:  capabilities["aes"] = cpuinfo_has_arm_aes();
+240:aten/src/ATen/cpu/vec/vec128/vec128_convert.h:322:struct VecConvert<
+241:aten/src/ATen/cpu/vec/vec128/vec128_convert.h:333:struct VecConvert<
+242:aten/src/ATen/cpu/vec/vec128/vec128_convert.h:346:struct VecConvert<float, 2, BFloat16, 1> {
+243:aten/src/ATen/cpu/vec/vec128/vec128_convert.h:364:struct VecConvert<float, 1, BFloat16, 1> {
+244:aten/src/ATen/cpu/vec/vec256/vec256_convert.h:14:struct VecConvert<float, 1, BFloat16, 1> {
+245:aten/src/ATen/cpu/vec/vec256/vec256_convert.h:26:struct VecConvert<float, 1, Half, 1> {
+246:aten/src/ATen/cpu/vec/vec256/vec256_convert.h:37:struct VecConvert<BFloat16, 1, float, 1> {
+247:aten/src/ATen/cpu/vec/vec256/vec256_convert.h:47:struct VecConvert<BFloat16, 1, float, 2> {
+248:aten/src/ATen/cpu/vec/vec256/vec256_convert.h:57:struct VecConvert<float, 2, BFloat16, 1> {
+249:aten/src/ATen/cpu/vec/vec256/vec256_convert.h:67:struct VecConvert<Half, 1, float, 1> {
+250:aten/src/ATen/cpu/vec/vec256/vec256_convert.h:76:struct VecConvert<Half, 1, float, 2> {
+251:aten/src/ATen/cpu/vec/vec256/vec256_convert.h:85:struct VecConvert<float, 2, Half, 1> {
+252:aten/src/ATen/cpu/vec/vec256/vec256_convert.h:98:struct VecConvert<float, 1, int64_t, 2> {
+253:aten/src/ATen/cpu/vec/vec256/vec256_convert.h:111:struct VecConvert<int64_t, 2, float, 1> {
+254:aten/src/ATen/cpu/vec/vec256/vec256_convert.h:134:struct VecConvert<int32_t, 1, int64_t, 2> {
+255:aten/src/ATen/cpu/vec/vec256/vec256_convert.h:146:struct VecConvert<int64_t, 2, int32_t, 1> {
+256:aten/src/ATen/cpu/vec/vec256/vec256_convert.h:157:struct VecConvert<int32_t, 1, int8_t, 1> {
+257:aten/src/ATen/cpu/vec/vec256/vec256_convert.h:166:struct VecConvert<int32_t, 1, uint8_t, 1> {
+258:aten/src/ATen/cpu/vec/vec256/vec256_convert.h:175:struct VecConvert<int32_t, 1, float, 1> {
+259:aten/src/ATen/cpu/vec/vec256/vec256_convert.h:183:struct VecConvert<float, 1, int32_t, 1> {
+260:aten/src/ATen/cpu/vec/vec256/vec256_convert.h:191:struct VecConvert<int16_t, 1, uint8_t, 1> {
+261:aten/src/ATen/cpu/vec/vec256/vec256_convert.h:200:struct VecConvert<
+262:aten/src/ATen/cpu/vec/vec256/vec256_convert.h:210:    VectorizedN<float, 2> tmp_fp32 = VecConvert<float, 2, src_t, 1>::apply(src);
+263:aten/src/ATen/cpu/vec/vec256/vec256_convert.h:211:    return VecConvert<dst_t, 1, float, 2>::apply(tmp_fp32);
+264:aten/src/ATen/cpu/vec/vec256/vec256_convert.h:216:struct VecConvert<
+265:aten/src/ATen/cpu/vec/vec256/vec256_convert.h:235:struct VecConvert<
+266:aten/src/ATen/cpu/vec/vec256/vec256_convert.h:247:struct VecConvert<
+267:aten/src/ATen/cpu/vec/vec256/vec256_convert.h:267:struct VecConvert<
+268:aten/src/ATen/cpu/vec/vec256/vec256_convert.h:276:    return VecConvert<dst_t, 1, int32_t, 1>::apply(
+269:aten/src/ATen/cpu/vec/vec256/vec256_convert.h:277:        VecConvert<int32_t, 1, int64_t, 2>::apply(src));
+270:aten/src/ATen/cpu/vec/vec256/vec256_convert.h:285:struct VecConvert<
+271:aten/src/ATen/cpu/vec/vec256/vec256_convert.h:300:struct VecConvert<float, 1, BFloat16, 1> {
+272:aten/src/ATen/cpu/vec/vec256/vec256_convert.h:318:struct VecConvert<float, 2, BFloat16, 1> {
+273:aten/src/ATen/cpu/vec/vec256/vec256_convert.h:328:struct VecConvert<BFloat16, 1, float, 2> {
+274:aten/src/ATen/cpu/vec/vec256/vec256_convert.h:340:struct VecConvert<
+275:aten/src/ATen/cpu/vec/vec256/vec256_convert.h:353:struct VecConvert<
+276:aten/src/ATen/cpu/vec/vec512/vec512_convert.h:14:struct VecConvert<float, 1, BFloat16, 1> {
+277:aten/src/ATen/cpu/vec/vec512/vec512_convert.h:26:struct VecConvert<float, 1, Half, 1> {
+278:aten/src/ATen/cpu/vec/vec512/vec512_convert.h:37:struct VecConvert<BFloat16, 1, float, 1> {
+279:aten/src/ATen/cpu/vec/vec512/vec512_convert.h:47:struct VecConvert<BFloat16, 1, float, 2> {
+280:aten/src/ATen/cpu/vec/vec512/vec512_convert.h:57:struct VecConvert<float, 2, BFloat16, 1> {
+281:aten/src/ATen/cpu/vec/vec512/vec512_convert.h:67:struct VecConvert<Half, 1, float, 1> {
+282:aten/src/ATen/cpu/vec/vec512/vec512_convert.h:76:struct VecConvert<Half, 1, float, 2> {
+283:aten/src/ATen/cpu/vec/vec512/vec512_convert.h:85:struct VecConvert<float, 2, Half, 1> {
+284:aten/src/ATen/cpu/vec/vec512/vec512_convert.h:94:struct VecConvert<float, 1, int64_t, 2> {
+285:aten/src/ATen/cpu/vec/vec512/vec512_convert.h:105:struct VecConvert<int64_t, 2, float, 1> {
+286:aten/src/ATen/cpu/vec/vec512/vec512_convert.h:119:struct VecConvert<int32_t, 1, int64_t, 2> {
+287:aten/src/ATen/cpu/vec/vec512/vec512_convert.h:130:struct VecConvert<int64_t, 2, int32_t, 1> {
+288:aten/src/ATen/cpu/vec/vec512/vec512_convert.h:141:struct VecConvert<int32_t, 1, int8_t, 1> {
+289:aten/src/ATen/cpu/vec/vec512/vec512_convert.h:150:struct VecConvert<int32_t, 1, uint8_t, 1> {
+290:aten/src/ATen/cpu/vec/vec512/vec512_convert.h:159:struct VecConvert<int32_t, 1, float, 1> {
+291:aten/src/ATen/cpu/vec/vec512/vec512_convert.h:167:struct VecConvert<float, 1, int32_t, 1> {
+292:aten/src/ATen/cpu/vec/vec512/vec512_convert.h:175:struct VecConvert<int16_t, 1, uint8_t, 1> {
+293:aten/src/ATen/cpu/vec/vec512/vec512_convert.h:184:struct VecConvert<int8_t, 1, int32_t, 1> {
+294:aten/src/ATen/cpu/vec/vec512/vec512_convert.h:193:struct VecConvert<int8_t, 1, int16_t, 1> {
+295:aten/src/ATen/cpu/vec/vec512/vec512_convert.h:202:struct VecConvert<
+296:aten/src/ATen/cpu/vec/vec512/vec512_convert.h:212:    VectorizedN<float, 2> tmp_fp32 = VecConvert<float, 2, src_t, 1>::apply(src);
+297:aten/src/ATen/cpu/vec/vec512/vec512_convert.h:213:    return VecConvert<dst_t, 1, float, 2>::apply(tmp_fp32);
+298:aten/src/ATen/cpu/vec/vec512/vec512_convert.h:236:struct VecConvert<
+299:aten/src/ATen/cpu/vec/vec512/vec512_convert.h:255:struct VecConvert<
+300:aten/src/ATen/cpu/vec/vec512/vec512_convert.h:279:struct VecConvert<
+301:aten/src/ATen/cpu/vec/vec512/vec512_convert.h:297:struct VecConvert<
+302:aten/src/ATen/cpu/vec/vec512/vec512_convert.h:309:struct VecConvert<
+303:aten/src/ATen/cpu/vec/vec512/vec512_convert.h:318:    return VecConvert<dst_t, 1, int32_t, 1>::apply(
+304:aten/src/ATen/cpu/vec/vec512/vec512_convert.h:319:        VecConvert<int32_t, 1, int64_t, 2>::apply(src));
+305:aten/src/ATen/cpu/vec/vec512/vec512_convert.h:324:struct VecConvert<Float8_e4m3fn, 1, float, 1> {
+306:aten/src/ATen/cpu/vec/vec512/vec512_convert.h:334:struct VecConvert<float, 1, Float8_e4m3fn, 1> {
+307:aten/src/ATen/cpu/vec/vec512/vec512_convert.h:346:struct VecConvert<Float8_e5m2, 1, float, 1> {
+308:aten/src/ATen/cpu/vec/vec512/vec512_convert.h:356:struct VecConvert<float, 1, Float8_e5m2, 1> {
+309:aten/src/ATen/cpu/vec/vec512/vec512_convert.h:368:struct VecConvert<float, 2, Float8_e4m3fn, 1> {
+310:aten/src/ATen/cpu/vec/vec512/vec512_convert.h:383:struct VecConvert<Float8_e4m3fn, 1, float, 2> {
+311:aten/src/ATen/cpu/vec/vec_convert.h:15:struct VecConvert {
+312:aten/src/ATen/cpu/vec/vec_convert.h:69:  return VecConvert<dst_t, 1, src_t, 1>::apply(src);
+313:aten/src/ATen/cpu/vec/vec_convert.h:79:  return VecConvert<dst_t, dst_n, src_t, src_n>::apply(src);
+314:aten/src/ATen/cpu/vec/vec_convert.h:108:  return VecConvert<dst_t, dst_n, src_t, src_n>::apply(src);
+316:aten/src/ATen/cuda/CUDASparseBlas.cpp:64:  TORCH_CUDASPARSE_CHECK(cusparseCcsrgeam2_bufferSizeExt(
+317:aten/src/ATen/cuda/CUDASparseBlas.cpp:166:  TORCH_CUDASPARSE_CHECK(cusparseCcsrgeam2(
+318:aten/src/ATen/functorch/BatchRulesModules.cpp:261:struct GridSampleBatchRuleHelper;
+319:aten/src/ATen/functorch/BatchRulesModules.cpp:264:struct GridSampleBatchRuleHelper<F, Func, typelist<T1, T2, T...>> {
+320:aten/src/ATen/functorch/BatchRulesModules.cpp:275:struct GridSampleBackwardBatchRuleHelper;
+321:aten/src/ATen/functorch/BatchRulesModules.cpp:278:struct GridSampleBackwardBatchRuleHelper<F, Func, typelist<T1, T2, T3, T...>> {
+322:aten/src/ATen/functorch/BatchRulesModules.cpp:293:struct CudnnGridSampleBackwardBatchRuleHelper {
+323:aten/src/ATen/functorch/BatchRulesModules.cpp:307:    GridSampleBatchRuleHelper<\
+324:aten/src/ATen/functorch/BatchRulesModules.cpp:313:    GridSampleBackwardBatchRuleHelper<\
+325:aten/src/ATen/functorch/BatchRulesModules.cpp:319:    CudnnGridSampleBackwardBatchRuleHelper<decltype(&ATEN_FN(fn)), &ATEN_FN(fn)>::apply
+326:aten/src/ATen/functorch/DynamicLayer.cpp:201:    layer.interpreter().clearSavedLocalDispatchKeySet();
+327:aten/src/ATen/functorch/Interpreter.h:233:  void clearSavedLocalDispatchKeySet() {
+328:aten/src/ATen/native/BlasKernel.cpp:149:    auto vecCol = vdup_n_f16(x[j]);
+329:aten/src/ATen/native/BlasKernel.cpp:155:      resVec = vfma_lane_f16(resVec, matRow, vecCol, 0);
+330:aten/src/ATen/native/BlasKernel.cpp:165:    auto vecCol = vdup_n_f32(x[j]);
+331:aten/src/ATen/native/BlasKernel.cpp:171:      resVec = vfmaq_lane_f32(resVec, matRow, vecCol, 0);
+332:aten/src/ATen/native/DispatchStub.h:388:// `fn`, e.g., grid_sampler_2d_backward_cpu_kernel in GridSampleKernel.h.
+334:aten/src/ATen/native/Distributions.h:94:  // This implements the acceptance-rejection method of Marsaglia and Tsang (2000)
+335:aten/src/ATen/native/ForeachUtils.h:265:using TensorsAndIndicesT = std::pair<nested_optional_tensorvec_t, IndicesT>;
+336:aten/src/ATen/native/ForeachUtils.h:268:    TensorsAndIndicesT,
+337:aten/src/ATen/native/ForeachUtils.h:339:        TensorsAndIndicesT{
+338:aten/src/ATen/native/GridSampler.cpp:2:#include <ATen/native/GridSampler.h>
+339:aten/src/ATen/native/GridSampler.cpp:3:#include <ATen/native/GridSamplerUtils.h>
+340:aten/src/ATen/native/GridSampler.cpp:9:#include <ATen/native/cpu/GridSamplerKernel.h>
+341:aten/src/ATen/native/GridSampler.cpp:37:using at::native::detail::GridSamplerInterpolation;
+342:aten/src/ATen/native/GridSampler.cpp:38:using at::native::detail::GridSamplerPadding;
+343:aten/src/ATen/native/GridSampler.cpp:44:                                  GridSamplerInterpolation interpolation_mode,
+344:aten/src/ATen/native/GridSampler.cpp:45:                                  GridSamplerPadding padding_mode,
+345:aten/src/ATen/native/GridSampler.cpp:101:              if (interpolation_mode == GridSamplerInterpolation::Bilinear) {
+346:aten/src/ATen/native/GridSampler.cpp:181:              } else if (interpolation_mode == GridSamplerInterpolation::Nearest) {
+347:aten/src/ATen/native/GridSampler.cpp:209:                                    GridSamplerInterpolation interpolation_mode,
+348:aten/src/ATen/native/GridSampler.cpp:210:                                    GridSamplerPadding padding_mode,
+349:aten/src/ATen/native/GridSampler.cpp:233:    if (interpolation_mode == GridSamplerInterpolation::Nearest) {
+350:aten/src/ATen/native/GridSampler.cpp:302:              if (interpolation_mode == GridSamplerInterpolation::Bilinear) {
+351:aten/src/ATen/native/GridSampler.cpp:422:              } else if (interpolation_mode == GridSamplerInterpolation::Nearest) {
+352:aten/src/ATen/native/GridSampler.cpp:460:      static_cast<GridSamplerInterpolation>(interpolation_mode_);
+353:aten/src/ATen/native/GridSampler.cpp:464:      interpolation_mode == GridSamplerInterpolation::Bilinear,
+354:aten/src/ATen/native/GridSampler.cpp:466:  auto padding_mode = static_cast<GridSamplerPadding>(padding_mode_);
+355:aten/src/ATen/native/GridSampler.cpp:568:  auto interpolation_mode = static_cast<GridSamplerInterpolation>(interpolation_mode_);
+356:aten/src/ATen/native/GridSampler.cpp:569:  auto padding_mode = static_cast<GridSamplerPadding>(padding_mode_);
+357:aten/src/ATen/native/GridSampler.cpp:612:          if (interpolation_mode == GridSamplerInterpolation::Bilinear) {
+358:aten/src/ATen/native/GridSampler.cpp:653:          } else if (interpolation_mode == GridSamplerInterpolation::Nearest) {
+359:aten/src/ATen/native/GridSampler.cpp:667:          } else if (interpolation_mode == GridSamplerInterpolation::Bicubic) {
+360:aten/src/ATen/native/GridSampler.cpp:724:  const auto interpolation_mode = static_cast<GridSamplerInterpolation>(interpolation_mode_);
+361:aten/src/ATen/native/GridSampler.cpp:725:  const auto padding_mode = static_cast<GridSamplerPadding>(padding_mode_);
+362:aten/src/ATen/native/GridSampler.cpp:736:  if (interpolation_mode == GridSamplerInterpolation::Nearest) {
+363:aten/src/ATen/native/GridSampler.cpp:786:          if (interpolation_mode == GridSamplerInterpolation::Bilinear) {
+364:aten/src/ATen/native/GridSampler.cpp:847:          } else if (interpolation_mode == GridSamplerInterpolation::Nearest) {
+365:aten/src/ATen/native/GridSampler.cpp:859:          } else if (interpolation_mode == GridSamplerInterpolation::Bicubic) {
+366:aten/src/ATen/native/GridSampler.cpp:972:      input, grid, static_cast<GridSamplerInterpolation>(interpolation_mode),
+367:aten/src/ATen/native/GridSampler.cpp:973:      static_cast<GridSamplerPadding>(padding_mode), align_corners);
+368:aten/src/ATen/native/GridSampler.cpp:1036:      static_cast<GridSamplerInterpolation>(interpolation_mode),
+369:aten/src/ATen/native/GridSampler.cpp:1037:      static_cast<GridSamplerPadding>(padding_mode),
+370:aten/src/ATen/native/GridSampler.cpp:1051:      static_cast<GridSamplerInterpolation>(interpolation_mode) ==
+371:aten/src/ATen/native/GridSampler.cpp:1052:        GridSamplerInterpolation::Bilinear &&
+372:aten/src/ATen/native/GridSampler.cpp:1053:      static_cast<GridSamplerPadding>(padding_mode) ==
+373:aten/src/ATen/native/GridSampler.cpp:1054:        GridSamplerPadding::Zeros &&
+374:aten/src/ATen/native/GridSampler.h:8:#include <ATen/native/GridSamplerUtils.h>
+375:aten/src/ATen/native/GridSampler.h:12:using detail::GridSamplerInterpolation;
+376:aten/src/ATen/native/GridSampler.h:13:using detail::GridSamplerPadding;
+377:aten/src/ATen/native/GridSampler.h:143:                                           GridSamplerPadding padding_mode,
+378:aten/src/ATen/native/GridSampler.h:145:  if (padding_mode == GridSamplerPadding::Border) {
+379:aten/src/ATen/native/GridSampler.h:148:  } else if (padding_mode == GridSamplerPadding::Reflection) {
+380:aten/src/ATen/native/GridSampler.h:166:    GridSamplerPadding padding_mode,
+381:aten/src/ATen/native/GridSampler.h:181:    GridSamplerPadding padding_mode,
+382:aten/src/ATen/native/GridSampler.h:186:  if (padding_mode == GridSamplerPadding::Border) {
+383:aten/src/ATen/native/GridSampler.h:190:  } else if (padding_mode == GridSamplerPadding::Reflection) {
+384:aten/src/ATen/native/GridSampler.h:221:    GridSamplerPadding padding_mode,
+385:aten/src/ATen/native/GridSampler.h:265:    GridSamplerPadding padding_mode,
+386:aten/src/ATen/native/GridSamplerUtils.h:13:enum class GridSamplerInterpolation {Bilinear, Nearest, Bicubic};
+387:aten/src/ATen/native/GridSamplerUtils.h:14:enum class GridSamplerPadding {Zeros, Border, Reflection};
+388:aten/src/ATen/native/GridSamplerUtils.h:18:using detail::GridSamplerInterpolation;
+389:aten/src/ATen/native/GridSamplerUtils.h:19:using detail::GridSamplerPadding;
+390:aten/src/ATen/native/GridSamplerUtils.h:85:      static_cast<GridSamplerInterpolation>(interpolation_mode) ==
+391:aten/src/ATen/native/GridSamplerUtils.h:86:        GridSamplerInterpolation::Bicubic),
+392:aten/src/ATen/native/QuantizedLinear.cpp:348:bool CheckAndSaturate(T max_val, T* element) {
+393:aten/src/ATen/native/QuantizedLinear.cpp:367:    if (CheckAndSaturate<float>(kFp16Max, weight + i)) {
+395:aten/src/ATen/native/cpu/GridSamplerKernel.cpp:2:#include <ATen/native/GridSampler.h>
+396:aten/src/ATen/native/cpu/GridSamplerKernel.cpp:3:#include <ATen/native/cpu/GridSamplerKernel.h>
+397:aten/src/ATen/native/cpu/GridSamplerKernel.cpp:30: *   2. `ApplyGridSample` struct
+398:aten/src/ATen/native/cpu/GridSamplerKernel.cpp:47: *      // `ApplyGridSample` struct that processes grid values, extracts and
+399:aten/src/ATen/native/cpu/GridSamplerKernel.cpp:49: *      ApplyGridSample<scalar_t, 2, interp, padding> grid_sample(input_accessor);
+400:aten/src/ATen/native/cpu/GridSamplerKernel.cpp:77: *        template<typename scalar_t, GridSamplerPadding padding>
+401:aten/src/ATen/native/cpu/GridSamplerKernel.cpp:94: *   2. `ApplyGridSample` struct
+402:aten/src/ATen/native/cpu/GridSamplerKernel.cpp:102: *                 GridSamplerInterpolation interp,
+403:aten/src/ATen/native/cpu/GridSamplerKernel.cpp:103: *                 GridSamplerPadding padding>
+404:aten/src/ATen/native/cpu/GridSamplerKernel.cpp:104: *        struct ApplyGridSample {
+405:aten/src/ATen/native/cpu/GridSamplerKernel.cpp:107: *          ApplyGridSample(const TensorAccessor<scalar_t, 4>& input);
+406:aten/src/ATen/native/cpu/GridSamplerKernel.cpp:179:using at::native::detail::GridSamplerInterpolation;
+407:aten/src/ATen/native/cpu/GridSamplerKernel.cpp:180:using at::native::detail::GridSamplerPadding;
+408:aten/src/ATen/native/cpu/GridSamplerKernel.cpp:353:template<typename scalar_t, GridSamplerPadding padding, bool align_corners>
+409:aten/src/ATen/native/cpu/GridSamplerKernel.cpp:357:struct ComputeLocation<scalar_t, GridSamplerPadding::Zeros, align_corners>
+410:aten/src/ATen/native/cpu/GridSamplerKernel.cpp:379:struct ComputeLocation<scalar_t, GridSamplerPadding::Border, align_corners>
+411:aten/src/ATen/native/cpu/GridSamplerKernel.cpp:404:struct ComputeLocation<scalar_t, GridSamplerPadding::Reflection, align_corners>
+412:aten/src/ATen/native/cpu/GridSamplerKernel.cpp:438:// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ApplyGridSample ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+413:aten/src/ATen/native/cpu/GridSamplerKernel.cpp:459:         GridSamplerInterpolation interp,
+414:aten/src/ATen/native/cpu/GridSamplerKernel.cpp:460:         GridSamplerPadding padding,
+415:aten/src/ATen/native/cpu/GridSamplerKernel.cpp:462:struct ApplyGridSample;
+416:aten/src/ATen/native/cpu/GridSamplerKernel.cpp:464:template<typename scalar_t, GridSamplerPadding padding, bool align_corners>
+417:aten/src/ATen/native/cpu/GridSamplerKernel.cpp:465:struct ApplyGridSample<scalar_t, 2, GridSamplerInterpolation::Bilinear,
+418:aten/src/ATen/native/cpu/GridSamplerKernel.cpp:479:  const bool must_in_bound = padding != GridSamplerPadding::Zeros;
+419:aten/src/ATen/native/cpu/GridSamplerKernel.cpp:481:  ApplyGridSample(const TensorAccessor<const scalar_t, 4>& input)
+420:aten/src/ATen/native/cpu/GridSamplerKernel.cpp:707:template<typename scalar_t, GridSamplerPadding padding, bool align_corners>
+421:aten/src/ATen/native/cpu/GridSamplerKernel.cpp:708:struct ApplyGridSample<scalar_t, 2, GridSamplerInterpolation::Nearest,
+422:aten/src/ATen/native/cpu/GridSamplerKernel.cpp:722:  const bool must_in_bound = padding != GridSamplerPadding::Zeros;
+423:aten/src/ATen/native/cpu/GridSamplerKernel.cpp:724:  ApplyGridSample(const TensorAccessor<const scalar_t, 4>& input)
+424:aten/src/ATen/native/cpu/GridSamplerKernel.cpp:815:template<typename scalar_t, GridSamplerPadding padding, bool align_corners>
+425:aten/src/ATen/native/cpu/GridSamplerKernel.cpp:816:struct ApplyGridSample<scalar_t, 2, GridSamplerInterpolation::Bicubic,
+426:aten/src/ATen/native/cpu/GridSamplerKernel.cpp:830:  const bool must_in_bound = padding != GridSamplerPadding::Zeros;
+427:aten/src/ATen/native/cpu/GridSamplerKernel.cpp:836:  ApplyGridSample(const TensorAccessor<const scalar_t, 4>& input)
+428:aten/src/ATen/native/cpu/GridSamplerKernel.cpp:1166:    ApplyGridSample<scalar_t, 2, interp, padding, align_corners>               \
+429:aten/src/ATen/native/cpu/GridSamplerKernel.cpp:1186:    switch (static_cast<GridSamplerPadding>(padding_mode)) {                   \
+430:aten/src/ATen/native/cpu/GridSamplerKernel.cpp:1187:      HANDLE_CASE(interp, GridSamplerPadding::Zeros, align_corners);           \
+431:aten/src/ATen/native/cpu/GridSamplerKernel.cpp:1188:      HANDLE_CASE(interp, GridSamplerPadding::Border, align_corners);          \
+432:aten/src/ATen/native/cpu/GridSamplerKernel.cpp:1189:      HANDLE_CASE(interp, GridSamplerPadding::Reflection, align_corners);      \
+433:aten/src/ATen/native/cpu/GridSamplerKernel.cpp:1199:      switch (static_cast<GridSamplerInterpolation>(interpolation_mode)) {
+434:aten/src/ATen/native/cpu/GridSamplerKernel.cpp:1200:        HANDLE_INTERP(GridSamplerInterpolation::Bilinear, true);
+435:aten/src/ATen/native/cpu/GridSamplerKernel.cpp:1201:        HANDLE_INTERP(GridSamplerInterpolation::Nearest, true);
+436:aten/src/ATen/native/cpu/GridSamplerKernel.cpp:1202:        HANDLE_INTERP(GridSamplerInterpolation::Bicubic, true);
+437:aten/src/ATen/native/cpu/GridSamplerKernel.cpp:1205:      switch (static_cast<GridSamplerInterpolation>(interpolation_mode)) {
+438:aten/src/ATen/native/cpu/GridSamplerKernel.cpp:1206:        HANDLE_INTERP(GridSamplerInterpolation::Bilinear, false);
+439:aten/src/ATen/native/cpu/GridSamplerKernel.cpp:1207:        HANDLE_INTERP(GridSamplerInterpolation::Nearest, false);
+440:aten/src/ATen/native/cpu/GridSamplerKernel.cpp:1208:        HANDLE_INTERP(GridSamplerInterpolation::Bicubic, false);
+441:aten/src/ATen/native/cpu/GridSamplerKernel.cpp:1250:    ApplyGridSample<scalar_t, 2, interp, padding, align_corners>                 \
+442:aten/src/ATen/native/cpu/GridSamplerKernel.cpp:1274:    switch (static_cast<GridSamplerPadding>(padding_mode)) {                \
+443:aten/src/ATen/native/cpu/GridSamplerKernel.cpp:1275:      HANDLE_CASE(interp, GridSamplerPadding::Zeros, align_corners, input_requires_grad);      \
+444:aten/src/ATen/native/cpu/GridSamplerKernel.cpp:1276:      HANDLE_CASE(interp, GridSamplerPadding::Border, align_corners, input_requires_grad);     \
+445:aten/src/ATen/native/cpu/GridSamplerKernel.cpp:1277:      HANDLE_CASE(interp, GridSamplerPadding::Reflection, align_corners, input_requires_grad); \
+446:aten/src/ATen/native/cpu/GridSamplerKernel.cpp:1290:        switch (static_cast<GridSamplerInterpolation>(interpolation_mode)) {
+447:aten/src/ATen/native/cpu/GridSamplerKernel.cpp:1291:          HANDLE_INTERP(GridSamplerInterpolation::Bilinear, true, true);
+448:aten/src/ATen/native/cpu/GridSamplerKernel.cpp:1292:          HANDLE_INTERP(GridSamplerInterpolation::Nearest, true, true);
+449:aten/src/ATen/native/cpu/GridSamplerKernel.cpp:1293:          HANDLE_INTERP(GridSamplerInterpolation::Bicubic, true, true);
+450:aten/src/ATen/native/cpu/GridSamplerKernel.cpp:1296:        switch (static_cast<GridSamplerInterpolation>(interpolation_mode)) {
+451:aten/src/ATen/native/cpu/GridSamplerKernel.cpp:1297:          HANDLE_INTERP(GridSamplerInterpolation::Bilinear, false, true);
+452:aten/src/ATen/native/cpu/GridSamplerKernel.cpp:1298:          HANDLE_INTERP(GridSamplerInterpolation::Nearest, false, true);
+453:aten/src/ATen/native/cpu/GridSamplerKernel.cpp:1299:          HANDLE_INTERP(GridSamplerInterpolation::Bicubic, false, true);
+454:aten/src/ATen/native/cpu/GridSamplerKernel.cpp:1304:        switch (static_cast<GridSamplerInterpolation>(interpolation_mode)) {
+455:aten/src/ATen/native/cpu/GridSamplerKernel.cpp:1305:          HANDLE_INTERP(GridSamplerInterpolation::Bilinear, true, false);
+456:aten/src/ATen/native/cpu/GridSamplerKernel.cpp:1306:          HANDLE_INTERP(GridSamplerInterpolation::Nearest, true, false);
+457:aten/src/ATen/native/cpu/GridSamplerKernel.cpp:1307:          HANDLE_INTERP(GridSamplerInterpolation::Bicubic, true, false);
+458:aten/src/ATen/native/cpu/GridSamplerKernel.cpp:1310:        switch (static_cast<GridSamplerInterpolation>(interpolation_mode)) {
+459:aten/src/ATen/native/cpu/GridSamplerKernel.cpp:1311:          HANDLE_INTERP(GridSamplerInterpolation::Bilinear, false, false);
+460:aten/src/ATen/native/cpu/GridSamplerKernel.cpp:1312:          HANDLE_INTERP(GridSamplerInterpolation::Nearest, false, false);
+461:aten/src/ATen/native/cpu/GridSamplerKernel.cpp:1313:          HANDLE_INTERP(GridSamplerInterpolation::Bicubic, false, false);
+462:aten/src/ATen/native/cpu/int4mm_kernel.cpp:1324:    // Extract weights, sclaes and biases form from packed tensor
+463:aten/src/ATen/native/cuda/GridSampler.cpp:2:#include <ATen/native/cuda/GridSampler.h>
+464:aten/src/ATen/native/cuda/GridSampler.cu:3:#include <ATen/native/cuda/GridSampler.h>
+465:aten/src/ATen/native/cuda/GridSampler.cu:4:#include <ATen/native/GridSamplerUtils.h>
+466:aten/src/ATen/native/cuda/GridSampler.cu:5:#include <ATen/native/cuda/GridSampler.cuh>
+467:aten/src/ATen/native/cuda/GridSampler.cu:20:using at::native::detail::GridSamplerInterpolation;
+468:aten/src/ATen/native/cuda/GridSampler.cu:21:using at::native::detail::GridSamplerPadding;
+469:aten/src/ATen/native/cuda/GridSampler.cu:31:      const GridSamplerInterpolation interpolation_mode,
+470:aten/src/ATen/native/cuda/GridSampler.cu:32:      const GridSamplerPadding padding_mode,
+471:aten/src/ATen/native/cuda/GridSampler.cu:67:      if (interpolation_mode == GridSamplerInterpolation::Bilinear) {
+472:aten/src/ATen/native/cuda/GridSampler.cu:103:      } else if (interpolation_mode == GridSamplerInterpolation::Nearest) {
+473:aten/src/ATen/native/cuda/GridSampler.cu:117:      } else if (interpolation_mode == GridSamplerInterpolation::Bicubic) {
+474:aten/src/ATen/native/cuda/GridSampler.cu:161:      const GridSamplerInterpolation interpolation_mode,
+475:aten/src/ATen/native/cuda/GridSampler.cu:162:      const GridSamplerPadding padding_mode,
+476:aten/src/ATen/native/cuda/GridSampler.cu:205:      if (interpolation_mode == GridSamplerInterpolation::Bilinear) {
+477:aten/src/ATen/native/cuda/GridSampler.cu:285:      } else if (interpolation_mode == GridSamplerInterpolation::Nearest) {
+478:aten/src/ATen/native/cuda/GridSampler.cu:319:      const GridSamplerInterpolation interpolation_mode,
+479:aten/src/ATen/native/cuda/GridSampler.cu:320:      const GridSamplerPadding padding_mode,
+480:aten/src/ATen/native/cuda/GridSampler.cu:370:      if (interpolation_mode == GridSamplerInterpolation::Bilinear) {
+481:aten/src/ATen/native/cuda/GridSampler.cu:432:      } else if (interpolation_mode == GridSamplerInterpolation::Nearest) {
+482:aten/src/ATen/native/cuda/GridSampler.cu:453:      } else if (interpolation_mode == GridSamplerInterpolation::Bicubic) {
+483:aten/src/ATen/native/cuda/GridSampler.cu:525:      const GridSamplerInterpolation interpolation_mode,
+484:aten/src/ATen/native/cuda/GridSampler.cu:526:      const GridSamplerPadding padding_mode,
+485:aten/src/ATen/native/cuda/GridSampler.cu:586:      if (interpolation_mode == GridSamplerInterpolation::Bilinear) {
+486:aten/src/ATen/native/cuda/GridSampler.cu:721:      } else if (interpolation_mode == GridSamplerInterpolation::Nearest) {
+487:aten/src/ATen/native/cuda/GridSampler.cu:774:            static_cast<GridSamplerInterpolation>(interpolation_mode),
+488:aten/src/ATen/native/cuda/GridSampler.cu:775:            static_cast<GridSamplerPadding>(padding_mode),
+489:aten/src/ATen/native/cuda/GridSampler.cu:785:            static_cast<GridSamplerInterpolation>(interpolation_mode),
+490:aten/src/ATen/native/cuda/GridSampler.cu:786:            static_cast<GridSamplerPadding>(padding_mode),
+491:aten/src/ATen/native/cuda/GridSampler.cu:819:            static_cast<GridSamplerInterpolation>(interpolation_mode),
+492:aten/src/ATen/native/cuda/GridSampler.cu:820:            static_cast<GridSamplerPadding>(padding_mode),
+493:aten/src/ATen/native/cuda/GridSampler.cu:830:            static_cast<GridSamplerInterpolation>(interpolation_mode),
+494:aten/src/ATen/native/cuda/GridSampler.cu:831:            static_cast<GridSamplerPadding>(padding_mode),
+495:aten/src/ATen/native/cuda/GridSampler.cu:876:            static_cast<GridSamplerInterpolation>(interpolation_mode),
+496:aten/src/ATen/native/cuda/GridSampler.cu:877:            static_cast<GridSamplerPadding>(padding_mode),
+497:aten/src/ATen/native/cuda/GridSampler.cu:891:            static_cast<GridSamplerInterpolation>(interpolation_mode),
+498:aten/src/ATen/native/cuda/GridSampler.cu:892:            static_cast<GridSamplerPadding>(padding_mode),
+499:aten/src/ATen/native/cuda/GridSampler.cu:935:            static_cast<GridSamplerInterpolation>(interpolation_mode),
+500:aten/src/ATen/native/cuda/GridSampler.cu:936:            static_cast<GridSamplerPadding>(padding_mode),
+501:aten/src/ATen/native/cuda/GridSampler.cu:950:            static_cast<GridSamplerInterpolation>(interpolation_mode),
+502:aten/src/ATen/native/cuda/GridSampler.cu:951:            static_cast<GridSamplerPadding>(padding_mode),
+503:aten/src/ATen/native/cuda/GridSampler.cuh:3:#include <ATen/native/GridSamplerUtils.h>
+504:aten/src/ATen/native/cuda/GridSampler.cuh:7:using detail::GridSamplerInterpolation;
+505:aten/src/ATen/native/cuda/GridSampler.cuh:8:using detail::GridSamplerPadding;
+506:aten/src/ATen/native/cuda/GridSampler.cuh:151:                             GridSamplerPadding padding_mode,
+507:aten/src/ATen/native/cuda/GridSampler.cuh:153:  if (padding_mode == GridSamplerPadding::Border) {
+508:aten/src/ATen/native/cuda/GridSampler.cuh:156:  } else if (padding_mode == GridSamplerPadding::Reflection) {
+509:aten/src/ATen/native/cuda/GridSampler.cuh:177:    GridSamplerPadding padding_mode,
+510:aten/src/ATen/native/cuda/GridSampler.cuh:193:    GridSamplerPadding padding_mode,
+511:aten/src/ATen/native/cuda/GridSampler.cuh:198:  if (padding_mode == GridSamplerPadding::Border) {
+512:aten/src/ATen/native/cuda/GridSampler.cuh:202:  } else if (padding_mode == GridSamplerPadding::Reflection) {
+513:aten/src/ATen/native/cuda/GridSampler.cuh:232:    GridSamplerPadding padding_mode,
+514:aten/src/ATen/native/cuda/GridSampler.cuh:284:    GridSamplerPadding padding_mode,
+547:aten/src/ATen/native/cudnn/Conv_v8.cpp:775:      cudnn_frontend::CudnnFindSamplingTechnique::CUDNN_FIND_SAMPLE_ONCE>(
+548:aten/src/ATen/native/cudnn/Conv_v8.cpp:830:      cudnn_frontend::CudnnFindSamplingTechnique::CUDNN_FIND_SAMPLE_ONCE>(
+549:aten/src/ATen/native/cudnn/GridSampler.cpp:5:#include <ATen/native/GridSamplerUtils.h>
+550:aten/src/ATen/native/hip/bgemm_kernels/bgemm_kernel_template.h:124:      0,                        // BBlockLdsAddExtraN
+551:aten/src/ATen/native/mps/kernels/EmbeddingBag.h:42:struct EmbeddingBagPerSampleWeightsBackwardParams {
+552:aten/src/ATen/native/mps/kernels/EmbeddingBag.metal:46:struct MaybeApplyPerSampleWeight {
+553:aten/src/ATen/native/mps/kernels/EmbeddingBag.metal:58:struct MaybeApplyPerSampleWeight<EmbeddingBagMode::SUM, T> {
+554:aten/src/ATen/native/mps/kernels/EmbeddingBag.metal:203:    weight_val = MaybeApplyPerSampleWeight<M, T>()(
+555:aten/src/ATen/native/mps/kernels/EmbeddingBag.metal:310:        MaybeApplyPerSampleWeight<M, T>()(
+556:aten/src/ATen/native/mps/kernels/EmbeddingBag.metal:400:    constant EmbeddingBagPerSampleWeightsBackwardParams<uint32_t>& params
+557:aten/src/ATen/native/mps/kernels/EmbeddingBag.metal:466:          constant EmbeddingBagPerSampleWeightsBackwardParams<uint32_t> &   \
+558:aten/src/ATen/native/mps/kernels/GridSampler.h:5:struct GridSamplerParams {
+559:aten/src/ATen/native/mps/kernels/GridSampler.metal:1:#include <ATen/native/mps/kernels/GridSampler.h>
+560:aten/src/ATen/native/mps/kernels/GridSampler.metal:9:struct GridSamplerOffsets {
+561:aten/src/ATen/native/mps/kernels/GridSampler.metal:14:  GridSamplerOffsets() : output(0), input(0), grid(0) {}
+562:aten/src/ATen/native/mps/kernels/GridSampler.metal:19:static GridSamplerOffsets find_grid_sampler_offsets(
+563:aten/src/ATen/native/mps/kernels/GridSampler.metal:28:  GridSamplerOffsets offsets;
+564:aten/src/ATen/native/mps/kernels/GridSampler.metal:409:    constant GridSamplerParams<4>& params [[buffer(3)]],
+565:aten/src/ATen/native/mps/kernels/GridSampler.metal:570:    constant GridSamplerParams<5>& params [[buffer(3)]],
+566:aten/src/ATen/native/mps/kernels/GridSampler.metal:612:      constant GridSamplerParams<4> & params [[buffer(3)]],             \
+567:aten/src/ATen/native/mps/kernels/GridSampler.metal:626:      constant GridSamplerParams<5> & params [[buffer(3)]],   \
+568:aten/src/ATen/native/mps/operations/Activation.mm:732:      NSArray<MPSGraphTensor*>* outputTensorsArray = [mpsGraph splitTensor:inputTensor
+569:aten/src/ATen/native/mps/operations/Activation.mm:736:      MPSGraphTensor* firstHalf = outputTensorsArray[0];
+570:aten/src/ATen/native/mps/operations/Activation.mm:737:      MPSGraphTensor* secondHalf = [mpsGraph sigmoidWithTensor:outputTensorsArray[1] name:nil];
+571:aten/src/ATen/native/mps/operations/Activation.mm:776:      NSArray<MPSGraphTensor*>* inputTensorsArray = [mpsGraph splitTensor:inputTensor
+572:aten/src/ATen/native/mps/operations/Activation.mm:782:      MPSGraphTensor* sigmoidOutputTensor = [mpsGraph sigmoidWithTensor:inputTensorsArray[1] name:nil];
+573:aten/src/ATen/native/mps/operations/Activation.mm:797:                                                         secondaryTensor:inputTensorsArray[0]
+574:aten/src/ATen/native/mps/operations/Distributions.mm:637:      MPSGraphTensor* binnedSamplesTensor = [mpsGraph multiplicationWithPrimaryTensor:categoriesTensor
+575:aten/src/ATen/native/mps/operations/Distributions.mm:640:      MPSGraphTensor* reducedTensor = [mpsGraph reductionSumWithTensor:binnedSamplesTensor axis:-1 name:nil];
+576:aten/src/ATen/native/mps/operations/EmbeddingBag.mm:264:  EmbeddingBagPerSampleWeightsBackwardParams params;
+577:aten/src/ATen/native/mps/operations/GridSampler.mm:3:#include <ATen/native/GridSamplerUtils.h>
+578:aten/src/ATen/native/mps/operations/GridSampler.mm:6:#include <ATen/native/mps/kernels/GridSampler.h>
+579:aten/src/ATen/native/mps/operations/GridSampler.mm:22:#include <ATen/native/mps/GridSampler_metallib.h>
+580:aten/src/ATen/native/mps/operations/GridSampler.mm:27:static const char* interp_to_string(GridSamplerInterpolation mode) {
+581:aten/src/ATen/native/mps/operations/GridSampler.mm:29:    case GridSamplerInterpolation::Bilinear:
+582:aten/src/ATen/native/mps/operations/GridSampler.mm:31:    case GridSamplerInterpolation::Nearest:
+583:aten/src/ATen/native/mps/operations/GridSampler.mm:33:    case GridSamplerInterpolation::Bicubic:
+584:aten/src/ATen/native/mps/operations/GridSampler.mm:40:static const char* padding_to_string(GridSamplerPadding mode) {
+585:aten/src/ATen/native/mps/operations/GridSampler.mm:42:    case GridSamplerPadding::Zeros:
+586:aten/src/ATen/native/mps/operations/GridSampler.mm:44:    case GridSamplerPadding::Border:
+587:aten/src/ATen/native/mps/operations/GridSampler.mm:46:    case GridSamplerPadding::Reflection:
+588:aten/src/ATen/native/mps/operations/GridSampler.mm:72:  auto interpolation_mode = static_cast<GridSamplerInterpolation>(_interpolation_mode);
+589:aten/src/ATen/native/mps/operations/GridSampler.mm:73:  auto padding_mode = static_cast<GridSamplerPadding>(_padding_mode);
+590:aten/src/ATen/native/mps/operations/GridSampler.mm:77:  GridSamplerParams<4> params;
+591:aten/src/ATen/native/mps/operations/GridSampler.mm:140:  auto interpolation_mode = static_cast<GridSamplerInterpolation>(_interpolation_mode);
+592:aten/src/ATen/native/mps/operations/GridSampler.mm:141:  auto padding_mode = static_cast<GridSamplerPadding>(_padding_mode);
+593:aten/src/ATen/native/mps/operations/GridSampler.mm:144:    case GridSamplerInterpolation::Bilinear:
+594:aten/src/ATen/native/mps/operations/GridSampler.mm:146:    case GridSamplerInterpolation::Nearest:
+595:aten/src/ATen/native/mps/operations/GridSampler.mm:149:    case GridSamplerInterpolation::Bicubic:
+596:aten/src/ATen/native/mps/operations/GridSampler.mm:162:  GridSamplerParams<5> params;
+597:aten/src/ATen/native/native_functions.yaml:2922:# enums defined in `native/GridSampler.h`. `cudnn_grid_sampler` doesn't take in
+598:aten/src/ATen/native/quantized/cpu/QuantUtils.h:37:bool CheckAndSaturate(T max_val, T* element) {
+599:aten/src/ATen/native/quantized/cpu/QuantUtils.h:210:    bool saturate = CheckAndSaturate<float>(kFp16Max, weight + i);
+600:aten/src/ATen/native/quantized/cpu/qnnpack/cmake/DownloadGoogleBenchmark.cmake:14:  URL_HASH SHA256=61ae07eb5d4a0b02753419eb17a82b7d322786bb36ab62bd3df331a4d47c00a7
+601:aten/src/ATen/native/quantized/cpu/qnnpack/cmake/DownloadGoogleTest.cmake:14:  URL_HASH SHA256=94c634d499558a76fa649edb13721dce6e98fb1e7018dfaeba3cd7a083945e91
+602:aten/src/ATen/native/quantized/cpu/qnnpack/deps/clog/cmake/DownloadGoogleTest.cmake:14:  URL_HASH SHA256=94c634d499558a76fa649edb13721dce6e98fb1e7018dfaeba3cd7a083945e91
+603:aten/src/ATen/native/sparse/cuda/SparseSemiStructuredLinear.cu:726:                using Operator = cutlass::arch::OpMultiplyAddSaturate;
+604:aten/src/ATen/native/sparse/cuda/SparseSemiStructuredOps.cu:634:                using Operator = cutlass::arch::OpMultiplyAddSaturate;
+605:aten/src/ATen/native/transformers/cuda/attention.cu:1558:                  " (gfx90a:sramecc+:xnack-/gfx942:sramecc+:xnack-/gfx1100)")
+606:aten/src/ATen/native/transformers/cuda/attention_backward.cu:888:      if (Kernel::kNeedsAccumGradK || Kernel::kNeedsAccumGradV) {
+607:aten/src/ATen/native/transformers/cuda/mem_eff_attention/kernel_backward.h:615:  static constexpr bool kNeedsAccumGradQ = kEnableSplitKeys ||
+608:aten/src/ATen/native/transformers/cuda/mem_eff_attention/kernel_backward.h:617:  static constexpr bool kNeedsAccumGradK = !kOutputInRF &&
+609:aten/src/ATen/native/transformers/cuda/mem_eff_attention/kernel_backward.h:619:  static constexpr bool kNeedsAccumGradV = !kOutputInRF &&
+610:aten/src/ATen/native/transformers/cuda/mem_eff_attention/kernel_backward.h:745:      if (kNeedsAccumGradQ || kNeedsAccumGradK || kNeedsAccumGradV) {
+611:aten/src/ATen/native/transformers/cuda/mem_eff_attention/kernel_backward.h:857:      if (!kNeedsAccumGradK) {
+612:aten/src/ATen/native/transformers/cuda/mem_eff_attention/kernel_backward.h:864:      if (!kNeedsAccumGradV) {
+613:aten/src/ATen/native/transformers/cuda/mem_eff_attention/kernel_backward.h:871:      if (!kNeedsAccumGradQ) {
+614:aten/src/ATen/native/transformers/cuda/mem_eff_attention/kernel_backward.h:1823:        if (isFirstQuery || !kNeedsAccumGradV) {
+615:aten/src/ATen/native/transformers/cuda/mem_eff_attention/kernel_backward.h:1848:        if (kNeedsAccumGradV && !isLastQuery) {
+616:aten/src/ATen/native/transformers/cuda/mem_eff_attention/kernel_backward.h:1855:              isFirstQuery || kNeedsAccumGradV,
+617:aten/src/ATen/native/transformers/cuda/mem_eff_attention/kernel_backward.h:2073:      if (!kNeedsAccumGradQ ||
+618:aten/src/ATen/native/transformers/cuda/mem_eff_attention/kernel_backward.h:2117:      if (kNeedsAccumGradQ && !isLast) {
+619:aten/src/ATen/native/transformers/cuda/mem_eff_attention/kernel_backward.h:2139:        bool direct_store = kNeedsAccumGradQ || key_start == 0 ||
+620:aten/src/ATen/native/transformers/cuda/mem_eff_attention/kernel_backward.h:2209:        if (isFirstQuery || !kNeedsAccumGradK) {
+621:aten/src/ATen/native/transformers/cuda/mem_eff_attention/kernel_backward.h:2246:        if (kNeedsAccumGradK && !isLastQuery) {
+622:aten/src/ATen/native/transformers/cuda/mem_eff_attention/kernel_backward.h:2254:              isFirstQuery || kNeedsAccumGradK,
+624:aten/src/ATen/native/transformers/hip/flash_attn/aot/mha_all_aot.hip:78:                  " (gfx90a:sramecc+:xnack-/gfx942:sramecc+:xnack-/gfx1100)")
+625:aten/src/ATen/native/ts_native_functions.yaml:232:      - TreatScalarsAsConstants
+626:aten/src/ATen/native/vulkan/api/Context.cpp:143:          VULKAN_DESCRIPTOR_POOL_SIZE, // descriptorCombinedSamplerCount
+627:aten/src/ATen/native/vulkan/api/Descriptor.cpp:235:          config_.descriptorCombinedSamplerCount,
+628:aten/src/ATen/native/vulkan/api/Descriptor.h:95:  uint32_t descriptorCombinedSamplerCount;
+629:aten/src/ATen/test/ExclusivelyOwned_test.cpp:77:  auto movedSample = std::move(this->sample);
+630:aten/src/ATen/test/ExclusivelyOwned_test.cpp:79:  assertIsSampleObject(*movedSample);
+631:aten/src/ATen/test/ExclusivelyOwned_test.cpp:85:  c10::ExclusivelyOwned<TypeParam> anotherSample = c10::ExclusivelyOwned<TypeParam>(getSampleValue<TypeParam>());
+632:aten/src/ATen/test/ExclusivelyOwned_test.cpp:86:  anotherSample = std::move(this->sample);
+633:aten/src/ATen/test/ExclusivelyOwned_test.cpp:87:  assertIsSampleObject(*anotherSample);
+634:aten/src/ATen/test/ExclusivelyOwned_test.cpp:91:  c10::ExclusivelyOwned<TypeParam> anotherSample = c10::ExclusivelyOwned<TypeParam>(getSampleValue<TypeParam>());
+635:aten/src/ATen/test/ExclusivelyOwned_test.cpp:92:  anotherSample = getSampleValue<TypeParam>();
+636:aten/src/ATen/test/ExclusivelyOwned_test.cpp:93:  assertIsSampleObject(*anotherSample);
+637:aten/src/ATen/test/vec_test_all_types.cpp:74:    class VecConvertTests : public ::testing::Test {};
+638:aten/src/ATen/test/vec_test_all_types.cpp:76:    class VecConvertTestsReducedFloat : public ::testing::Test {};
+639:aten/src/ATen/test/vec_test_all_types.cpp:131:    TYPED_TEST_SUITE(VecConvertTests, RealFloatIntTestedTypes);
+640:aten/src/ATen/test/vec_test_all_types.cpp:132:    TYPED_TEST_SUITE(VecConvertTestsReducedFloat, ReducedFloatTestedTypes);
+641:aten/src/ATen/test/vec_test_all_types.cpp:2201:// In member function ‘virtual void {anonymous}::VecConvertBFloat16_ExhaustiveToFloat_Test::TestBody()’:
+642:aten/src/ATen/test/vec_test_all_types.cpp:2203:// 2265 |     TEST(VecConvertBFloat16, ExhaustiveToFloat) {
+643:aten/src/ATen/test/vec_test_all_types.cpp:2247:    TYPED_TEST(VecConvertTests, Convert) {
+644:aten/src/ATen/test/vec_test_all_types.cpp:2263:    TYPED_TEST(VecConvertTestsReducedFloat, ConvertReduced) {
+645:aten/src/ATen/test/vec_test_all_types.cpp:2270:    TEST(VecConvertBFloat16, ExhaustiveToFloat) {
+646:build_variables.bzl:1273:    "aten/src/ATen/native/cpu/GridSamplerKernel.cpp",
+647:build_variables.bzl:1434:    "aten/src/ATen/native/GridSampler.cpp",
+648:build_variables.bzl:1583:    "aten/src/ATen/native/cuda/GridSampler.cpp",
+656:c10/cuda/CUDADeviceAssertion.h:8:#ifdef TORCH_USE_CUDA_DSA
+657:c10/cuda/CUDADeviceAssertion.h:14:  // isn't longer than `C10_CUDA_DSA_MAX_STR_LEN-1`
+658:c10/cuda/CUDADeviceAssertion.h:15:  while (*src != '\0' && i++ < C10_CUDA_DSA_MAX_STR_LEN - 1) {
+659:c10/cuda/CUDADeviceAssertion.h:21:static __device__ void dsa_add_new_assertion_failure(
+660:c10/cuda/CUDADeviceAssertion.h:43:  if (nid >= C10_CUDA_DSA_ASSERTION_COUNT) {
+661:c10/cuda/CUDADeviceAssertion.h:79:      c10::cuda::dsa_add_new_assertion_failure(                          \
+662:c10/cuda/CUDADeviceAssertionHost.cpp:9:#ifdef TORCH_USE_CUDA_DSA
+663:c10/cuda/CUDADeviceAssertionHost.cpp:14:#define C10_CUDA_CHECK_WO_DSA(EXPR)                                 \
+664:c10/cuda/CUDADeviceAssertionHost.cpp:30:#ifdef TORCH_USE_CUDA_DSA
+665:c10/cuda/CUDADeviceAssertionHost.cpp:34:int dsa_get_device_id() {
+666:c10/cuda/CUDADeviceAssertionHost.cpp:36:  C10_CUDA_CHECK_WO_DSA(c10::cuda::GetDevice(&device));
+667:c10/cuda/CUDADeviceAssertionHost.cpp:47:int dsa_get_device_compute_capability(const int device_num) {
+668:c10/cuda/CUDADeviceAssertionHost.cpp:49:  C10_CUDA_CHECK_WO_DSA(cudaDeviceGetAttribute(
+669:c10/cuda/CUDADeviceAssertionHost.cpp:58:int dsa_get_device_count() {
+670:c10/cuda/CUDADeviceAssertionHost.cpp:60:  C10_CUDA_CHECK_WO_DSA(c10::cuda::GetDeviceCount(&device_count));
+671:c10/cuda/CUDADeviceAssertionHost.cpp:64:bool dsa_check_if_all_devices_support_managed_memory() {
+672:c10/cuda/CUDADeviceAssertionHost.cpp:71:#ifdef TORCH_USE_CUDA_DSA
+673:c10/cuda/CUDADeviceAssertionHost.cpp:72:  for (const auto i : c10::irange(dsa_get_device_count())) {
+674:c10/cuda/CUDADeviceAssertionHost.cpp:73:    if (dsa_get_device_compute_capability(i) < 6) {
+675:c10/cuda/CUDADeviceAssertionHost.cpp:101:#ifdef TORCH_USE_CUDA_DSA
+676:c10/cuda/CUDADeviceAssertionHost.cpp:134:        C10_CUDA_DSA_ASSERTION_COUNT);
+677:c10/cuda/CUDADeviceAssertionHost.cpp:144:        C10_CUDA_DSA_ASSERTION_COUNT) {
+678:c10/cuda/CUDADeviceAssertionHost.cpp:147:      oss << "Adjust `C10_CUDA_DSA_ASSERTION_COUNT` if you need more assertion failure info"
+679:c10/cuda/CUDADeviceAssertionHost.cpp:191:  return "Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n";
+680:c10/cuda/CUDADeviceAssertionHost.cpp:197:          dsa_check_if_all_devices_support_managed_memory()),
+681:c10/cuda/CUDADeviceAssertionHost.cpp:199:      enabled_at_runtime(check_env_for_dsa_enabled()) {
+682:c10/cuda/CUDADeviceAssertionHost.cpp:200:  for ([[maybe_unused]] const auto _ : c10::irange(dsa_get_device_count())) {
+683:c10/cuda/CUDADeviceAssertionHost.cpp:209:  return env_flag_set("PYTORCH_CUDA_DSA_STACKTRACING");
+684:c10/cuda/CUDADeviceAssertionHost.cpp:212:bool CUDAKernelLaunchRegistry::check_env_for_dsa_enabled() const {
+685:c10/cuda/CUDADeviceAssertionHost.cpp:213:  return env_flag_set("PYTORCH_USE_CUDA_DSA");
+686:c10/cuda/CUDADeviceAssertionHost.cpp:222:#ifdef TORCH_USE_CUDA_DSA
+687:c10/cuda/CUDADeviceAssertionHost.cpp:240:      dsa_get_device_id(),
+688:c10/cuda/CUDADeviceAssertionHost.cpp:270:#ifdef TORCH_USE_CUDA_DSA
+689:c10/cuda/CUDADeviceAssertionHost.cpp:275:  const auto device_num = dsa_get_device_id();
+690:c10/cuda/CUDADeviceAssertionHost.cpp:298:  C10_CUDA_CHECK_WO_DSA(
+691:c10/cuda/CUDADeviceAssertionHost.cpp:316:  C10_CUDA_CHECK_WO_DSA(cudaMemAdvise(
+692:c10/cuda/CUDADeviceAssertionHost.cpp:324:  C10_CUDA_CHECK_WO_DSA(cudaMemAdvise(
+693:c10/cuda/CUDADeviceAssertionHost.h:13:#define TORCH_USE_CUDA_DSA
+694:c10/cuda/CUDADeviceAssertionHost.h:18:constexpr int C10_CUDA_DSA_ASSERTION_COUNT = 10;
+695:c10/cuda/CUDADeviceAssertionHost.h:19:constexpr int C10_CUDA_DSA_MAX_STR_LEN = 512;
+696:c10/cuda/CUDADeviceAssertionHost.h:28:  char assertion_msg[C10_CUDA_DSA_MAX_STR_LEN]{};
+697:c10/cuda/CUDADeviceAssertionHost.h:31:  char filename[C10_CUDA_DSA_MAX_STR_LEN]{};
+698:c10/cuda/CUDADeviceAssertionHost.h:34:  char function_name[C10_CUDA_DSA_MAX_STR_LEN]{};
+699:c10/cuda/CUDADeviceAssertionHost.h:55:  DeviceAssertionData assertions[C10_CUDA_DSA_ASSERTION_COUNT]{};
+700:c10/cuda/CUDADeviceAssertionHost.h:92:#ifdef TORCH_USE_CUDA_DSA
+701:c10/cuda/CUDADeviceAssertionHost.h:111:  bool check_env_for_dsa_enabled() const;
+702:c10/cuda/CUDADeviceAssertionHost.h:135:  /// If not all devices support DSA, we disable it
+703:c10/cuda/CUDADeviceAssertionHost.h:139:  /// Whether or not host-side DSA is enabled or disabled at run-time
+704:c10/cuda/CUDADeviceAssertionHost.h:144:#ifdef TORCH_USE_CUDA_DSA
+705:c10/cuda/CUDADeviceAssertionHost.h:155:// Each kernel launched with TORCH_DSA_KERNEL_LAUNCH
+706:c10/cuda/CUDADeviceAssertionHost.h:158:#define TORCH_DSA_KERNEL_ARGS                                              \
+707:c10/cuda/CUDADeviceAssertionHost.h:162:// This macro can be used to pass the DSA arguments onward to another
+708:c10/cuda/CUDADeviceAssertionHost.h:164:#define TORCH_DSA_KERNEL_ARGS_PASS assertions_data, assertion_caller_id
+709:c10/cuda/CUDAException.cpp:39:        "Device-side assertions were explicitly omitted for this error check; the error probably arose while initializing the DSA handlers.");
+710:c10/cuda/CUDAException.h:75:#define TORCH_DSA_KERNEL_LAUNCH(                                      \
+711:c10/cuda/test/build.bzl:1:dsa_tests = [
+712:c10/cuda/test/build.bzl:23:    for src in dsa_tests:
+713:c10/cuda/test/impl/CUDAAssertionsTest_1_var_test.cu:38:    TORCH_DSA_KERNEL_ARGS) {
+714:c10/cuda/test/impl/CUDAAssertionsTest_1_var_test.cu:48:  TORCH_DSA_KERNEL_LAUNCH(
+715:c10/cuda/test/impl/CUDAAssertionsTest_1_var_test.cu:88:#ifdef TORCH_USE_CUDA_DSA
+716:c10/cuda/test/impl/CUDAAssertionsTest_1_var_test.cu:93:  GTEST_SKIP() << "CUDA device-side assertions (DSA) was not enabled at compile time.";
+717:c10/cuda/test/impl/CUDAAssertionsTest_catches_stream.cu:25:    TORCH_DSA_KERNEL_ARGS) {
+718:c10/cuda/test/impl/CUDAAssertionsTest_catches_stream.cu:40:    TORCH_DSA_KERNEL_ARGS) {
+719:c10/cuda/test/impl/CUDAAssertionsTest_catches_stream.cu:50:  TORCH_DSA_KERNEL_LAUNCH(
+720:c10/cuda/test/impl/CUDAAssertionsTest_catches_stream.cu:93:#ifdef TORCH_USE_CUDA_DSA
+721:c10/cuda/test/impl/CUDAAssertionsTest_catches_stream.cu:97:  GTEST_SKIP() << "CUDA device-side assertions (DSA) was not enabled at compile time.";
+722:c10/cuda/test/impl/CUDAAssertionsTest_catches_thread_and_block_and_device.cu:27:    TORCH_DSA_KERNEL_ARGS) {
+723:c10/cuda/test/impl/CUDAAssertionsTest_catches_thread_and_block_and_device.cu:41:  TORCH_DSA_KERNEL_LAUNCH(
+724:c10/cuda/test/impl/CUDAAssertionsTest_catches_thread_and_block_and_device.cu:80:#ifdef TORCH_USE_CUDA_DSA
+725:c10/cuda/test/impl/CUDAAssertionsTest_catches_thread_and_block_and_device.cu:84:  GTEST_SKIP() << "CUDA device-side assertions (DSA) was not enabled at compile time.";
+726:c10/cuda/test/impl/CUDAAssertionsTest_from_2_processes.cu:17:    "Assertion failure " + std::to_string(C10_CUDA_DSA_ASSERTION_COUNT - 1);
+727:c10/cuda/test/impl/CUDAAssertionsTest_from_2_processes.cu:25:    TORCH_DSA_KERNEL_ARGS) {
+728:c10/cuda/test/impl/CUDAAssertionsTest_from_2_processes.cu:35:    TORCH_DSA_KERNEL_ARGS) {
+729:c10/cuda/test/impl/CUDAAssertionsTest_from_2_processes.cu:56:    TORCH_DSA_KERNEL_LAUNCH(
+730:c10/cuda/test/impl/CUDAAssertionsTest_from_2_processes.cu:80:    TORCH_DSA_KERNEL_LAUNCH(
+731:c10/cuda/test/impl/CUDAAssertionsTest_from_2_processes.cu:96:#ifdef TORCH_USE_CUDA_DSA
+732:c10/cuda/test/impl/CUDAAssertionsTest_from_2_processes.cu:100:  GTEST_SKIP() << "CUDA device-side assertions (DSA) was not enabled at compile time.";
+733:c10/cuda/test/impl/CUDAAssertionsTest_multiple_writes_from_blocks_and_threads.cu:17:    "Assertion failure " + std::to_string(C10_CUDA_DSA_ASSERTION_COUNT - 1);
+734:c10/cuda/test/impl/CUDAAssertionsTest_multiple_writes_from_blocks_and_threads.cu:25:    TORCH_DSA_KERNEL_ARGS) {
+735:c10/cuda/test/impl/CUDAAssertionsTest_multiple_writes_from_blocks_and_threads.cu:44:    TORCH_DSA_KERNEL_LAUNCH(
+736:c10/cuda/test/impl/CUDAAssertionsTest_multiple_writes_from_blocks_and_threads.cu:87:#ifdef TORCH_USE_CUDA_DSA
+737:c10/cuda/test/impl/CUDAAssertionsTest_multiple_writes_from_blocks_and_threads.cu:91:  GTEST_SKIP() << "CUDA device-side assertions (DSA) was not enabled at compile time.";
+738:c10/cuda/test/impl/CUDAAssertionsTest_multiple_writes_from_multiple_blocks.cu:17:    "Assertion failure " + std::to_string(C10_CUDA_DSA_ASSERTION_COUNT - 1);
+739:c10/cuda/test/impl/CUDAAssertionsTest_multiple_writes_from_multiple_blocks.cu:25:    TORCH_DSA_KERNEL_ARGS) {
+740:c10/cuda/test/impl/CUDAAssertionsTest_multiple_writes_from_multiple_blocks.cu:38:  TORCH_DSA_KERNEL_LAUNCH(
+741:c10/cuda/test/impl/CUDAAssertionsTest_multiple_writes_from_multiple_blocks.cu:84:#ifdef TORCH_USE_CUDA_DSA
+742:c10/cuda/test/impl/CUDAAssertionsTest_multiple_writes_from_multiple_blocks.cu:88:  GTEST_SKIP() << "CUDA device-side assertions (DSA) was not enabled at compile time.";
+743:c10/cuda/test/impl/CUDAAssertionsTest_multiple_writes_from_same_block.cu:17:    "Assertion failure " + std::to_string(C10_CUDA_DSA_ASSERTION_COUNT - 1);
+744:c10/cuda/test/impl/CUDAAssertionsTest_multiple_writes_from_same_block.cu:25:    TORCH_DSA_KERNEL_ARGS) {
+745:c10/cuda/test/impl/CUDAAssertionsTest_multiple_writes_from_same_block.cu:37:  TORCH_DSA_KERNEL_LAUNCH(
+746:c10/cuda/test/impl/CUDAAssertionsTest_multiple_writes_from_same_block.cu:72:#ifdef TORCH_USE_CUDA_DSA
+747:c10/cuda/test/impl/CUDAAssertionsTest_multiple_writes_from_same_block.cu:76:  GTEST_SKIP() << "CUDA device-side assertions (DSA) was not enabled at compile time.";
+749:c10/util/Registry.h:212:// definition caes.
+752:caffe2/serialize/crc_alt.h:862:    0x46C49A98,0x4706F0AF,0x45404EF6,0x448224C1,0x41CD3244,0x400F5873,0x4249E62A,0x438B8C1D,
+753:caffe2/serialize/crc_alt.h:907:    0xD8C66675,0x607A0110,0x72CFAEFE,0xCA73C99B,0x57A4F122,0xEF189647,0xFDAD39A9,0x45115ECC,
+754:caffe2/serialize/crc_alt.h:972:    0x1EB014D8,0xD5ECC77D,0x5378B5D3,0x98246676,0x852156CE,0x4E7D856B,0xC8E9F7C5,0x03B52460,
+755:caffe2/serialize/crc_alt.h:1080:    0xDD8DA257,0xCAF6B614,0xF37B8AD1,0xE4009E92,0x8061F35B,0x971AE718,0xAE97DBDD,0xB9ECCF9E,
+756:caffe2/serialize/crc_alt.h:1088:    0x031FA150,0x1464B513,0x2DE989D6,0x3A929D95,0x5EF3F05C,0x4988E41F,0x7005D8DA,0x677ECC99,
+757:caffe2/serialize/crc_alt.h:1177:    0x366FC10E,0xADCA8D61,0xDA545F91,0x41F113FE,0x3569FA71,0xAECCB61E,0xD95264EE,0x42F72881,
+758:caffe2/serialize/crc_alt.h:1198:    0x448DEE14,0xDF28A27B,0xA8B6708B,0x33133CE4,0x478BD56B,0xDC2E9904,0xABB04BF4,0x3015079B,
+759:caffe2/serialize/crc_alt.h:1205:    0xB407A6DA,0x69917F5F,0xD45B1391,0x09CDCA14,0x74BECC4C,0xA92815C9,0x14E27907,0xC974A082,
+760:caffe2/serialize/crc_alt.h:1230:    0xF3E3C10B,0x2E75188E,0x93BF7440,0x4E29ADC5,0x335AAB9D,0xEECC7218,0x53061ED6,0x8E90C753,
+761:caffe2/serialize/crc_alt.h:1252:    0xEA6FB345,0x77605233,0x0B0177E8,0x960E969E,0xF3C33C5E,0x6ECCDD28,0x12ADF8F3,0x8FA21985,
+763:cmake/Codegen.cmake:445:        if(("${NAME}" STREQUAL "native/cpu/GridSamplerKernel.cpp") AND ("${CPU_CAPABILITY}" STREQUAL "DEFAULT"))
+764:cmake/External/aotriton.cmake:34:  set(__AOTRITON_SHA256_LIST
+765:cmake/External/aotriton.cmake:49:  set(__AOTRITON_IMAGE_SHA256_LIST
+766:cmake/External/aotriton.cmake:172:    list(GET __AOTRITON_SHA256_LIST ${index} __AOTRITON_SHA256)
+767:cmake/External/aotriton.cmake:183:      URL_HASH SHA256=${__AOTRITON_SHA256}
+768:cmake/External/aotriton.cmake:198:    list(GET __AOTRITON_IMAGE_SHA256_LIST ${index} __AOTRITON_SHA256)
+769:cmake/External/aotriton.cmake:226:      URL_HASH SHA256=${__AOTRITON_SHA256}
+770:cmake/prioritized_text.txt:142:_ZN3c1010TensorImplC1EONS_7StorageENS_14DispatchKeySetEN6caffe28TypeMetaESt8optionalINS_6DeviceEE
+771:cmake/prioritized_text.txt:308:_ZN12_GLOBAL__N_1L21_cublasAdjustLdLevel3EcclllPlS0_S0_
+772:cmake/prioritized_text.txt:397:_ZN2at6native10gpu_kernelI18__nv_hdl_wrapper_tILb0ELb1ELb0E11__nv_dl_tagIPFvRNS_18TensorIteratorBaseEEXadL_ZNS0_23direct_copy_kernel_cudaES5_EELj18EEFN3c104HalfESA_EJEEEEvS5_RKT_.isra.0
+773:cmake/prioritized_text.txt:398:_ZN2at6native15gpu_kernel_implI18__nv_hdl_wrapper_tILb0ELb1ELb0E11__nv_dl_tagIPFvRNS_18TensorIteratorBaseEEXadL_ZNS0_23direct_copy_kernel_cudaES5_EELj18EEFN3c104HalfESA_EJEEEEvS5_RKT_.isra.0
+774:cmake/prioritized_text.txt:457:_ZN3c1010TensorImpl17set_autograd_metaESt10unique_ptrINS_21AutogradMetaInterfaceESt14default_deleteIS2_EE
+775:cmake/prioritized_text.txt:612:_ZN2at6native10gpu_kernelI18__nv_hdl_wrapper_tILb0ELb1ELb0E11__nv_dl_tagIPFvRNS_18TensorIteratorBaseEEXadL_ZNS0_23direct_copy_kernel_cudaES5_EELj15EEFffEJEEEEvS5_RKT_.isra.0
+776:cmake/prioritized_text.txt:613:_ZN2at6native15gpu_kernel_implI18__nv_hdl_wrapper_tILb0ELb1ELb0E11__nv_dl_tagIPFvRNS_18TensorIteratorBaseEEXadL_ZNS0_23direct_copy_kernel_cudaES5_EELj15EEFffEJEEEEvS5_RKT_.isra.0
+777:cmake/prioritized_text.txt:626:_ZN18__nv_hdl_wrapper_tILb0ELb0ELb0E11__nv_dl_tagIPFvRN2at18TensorIteratorBaseERKS_ILb0ELb1ELb0ES0_IPFvS3_EXadL_ZNS1_6native23direct_copy_kernel_cudaES3_EELj18EEFN3c104HalfES9_EJEEEXadL_ZNS6_22gpu_kernel_impl_nocastISB_EEvS3_RKT_EELj1EEFviEJ16OffsetCalculatorILi2EjLb0EENS1_6detail5ArrayIPcLi2EEESC_EE7managerIZNSG_ISB_EEvS3_SJ_EUliE_E9do_deleteEPv
+778:cmake/prioritized_text.txt:889:_ZN18__nv_hdl_wrapper_tILb0ELb0ELb0E11__nv_dl_tagIPFvRN2at18TensorIteratorBaseERKS_ILb0ELb1ELb0ES0_IPFvS3_EXadL_ZNS1_6native23direct_copy_kernel_cudaES3_EELj18EEFN3c104HalfES9_EJEEEXadL_ZNS6_22gpu_kernel_impl_nocastISB_EEvS3_RKT_EELj1EEFviEJ16OffsetCalculatorILi2EjLb0EENS1_6detail5ArrayIPcLi2EEESC_EE7managerIZNSG_ISB_EEvS3_SJ_EUliE_E7do_copyEPv
+779:cmake/prioritized_text.txt:1148:_ZN18__nv_hdl_wrapper_tILb0ELb0ELb0E11__nv_dl_tagIPFvRN2at18TensorIteratorBaseERKS_ILb0ELb1ELb0ES0_IPFvS3_EXadL_ZNS1_6native15neg_kernel_cudaES3_EELj8EEFN3c104HalfES9_EJEEEXadL_ZNS6_22gpu_kernel_impl_nocastISB_EEvS3_RKT_EELj1EEFviEJ16OffsetCalculatorILi2EjLb0EENS1_6detail5ArrayIPcLi2EEESC_EE7managerIZNSG_ISB_EEvS3_SJ_EUliE_E7do_copyEPv
+780:cmake/prioritized_text.txt:1149:_ZN18__nv_hdl_wrapper_tILb0ELb0ELb0E11__nv_dl_tagIPFvRN2at18TensorIteratorBaseERKS_ILb0ELb1ELb0ES0_IPFvS3_EXadL_ZNS1_6native15neg_kernel_cudaES3_EELj8EEFN3c104HalfES9_EJEEEXadL_ZNS6_22gpu_kernel_impl_nocastISB_EEvS3_RKT_EELj1EEFviEJ16OffsetCalculatorILi2EjLb0EENS1_6detail5ArrayIPcLi2EEESC_EE7managerIZNSG_ISB_EEvS3_SJ_EUliE_E9do_deleteEPv
+781:cmake/prioritized_text.txt:1150:_ZN2at6native10gpu_kernelI18__nv_hdl_wrapper_tILb0ELb1ELb0E11__nv_dl_tagIPFvRNS_18TensorIteratorBaseEEXadL_ZNS0_15cos_kernel_cudaES5_EELj2EEFffEJEEEEvS5_RKT_.isra.0
+782:cmake/prioritized_text.txt:1151:_ZN2at6native10gpu_kernelI18__nv_hdl_wrapper_tILb0ELb1ELb0E11__nv_dl_tagIPFvRNS_18TensorIteratorBaseEEXadL_ZNS0_15neg_kernel_cudaES5_EELj8EEFN3c104HalfESA_EJEEEEvS5_RKT_.isra.0
+783:cmake/prioritized_text.txt:1152:_ZN2at6native10gpu_kernelI18__nv_hdl_wrapper_tILb0ELb1ELb0E11__nv_dl_tagIPFvRNS_18TensorIteratorBaseEEXadL_ZNS0_15sin_kernel_cudaES5_EELj2EEFffEJEEEEvS5_RKT_.isra.0
+784:cmake/prioritized_text.txt:1153:_ZN2at6native10gpu_kernelI18__nv_hdl_wrapper_tILb0ELb1ELb0E11__nv_dl_tagIPFvRNS_18TensorIteratorBaseEEXadL_ZNS0_17rsqrt_kernel_cudaES5_EELj2EEFffEJEEEEvS5_RKT_.isra.0
+785:cmake/prioritized_text.txt:1155:_ZN2at6native15gpu_kernel_implI18__nv_hdl_wrapper_tILb0ELb1ELb0E11__nv_dl_tagIPFvRNS_18TensorIteratorBaseEEXadL_ZNS0_15cos_kernel_cudaES5_EELj2EEFffEJEEEEvS5_RKT_.isra.0
+786:cmake/prioritized_text.txt:1156:_ZN2at6native15gpu_kernel_implI18__nv_hdl_wrapper_tILb0ELb1ELb0E11__nv_dl_tagIPFvRNS_18TensorIteratorBaseEEXadL_ZNS0_15sin_kernel_cudaES5_EELj2EEFffEJEEEEvS5_RKT_.isra.0
+787:cmake/prioritized_text.txt:1157:_ZN2at6native15gpu_kernel_implI18__nv_hdl_wrapper_tILb0ELb1ELb0E11__nv_dl_tagIPFvRNS_18TensorIteratorBaseEEXadL_ZNS0_17rsqrt_kernel_cudaES5_EELj2EEFffEJEEEEvS5_RKT_.isra.0
+788:cmake/prioritized_text.txt:1185:_ZN2at6native10gpu_kernelI18__nv_hdl_wrapper_tILb0ELb1ELb0E11__nv_dl_tagIPFvRNS_18TensorIteratorBaseEEXadL_ZNS0_16tanh_kernel_cudaES5_EELj3EEFN3c104HalfESA_EJEEEEvS5_RKT_.isra.0
+789:cmake/prioritized_text.txt:1186:_ZN2at6native15gpu_kernel_implI18__nv_hdl_wrapper_tILb0ELb1ELb0E11__nv_dl_tagIPFvRNS_18TensorIteratorBaseEEXadL_ZNS0_16tanh_kernel_cudaES5_EELj3EEFN3c104HalfESA_EJEEEEvS5_RKT_.isra.0
+790:cmake/public/cuda.cmake:145:    "import hashlib;hash=hashlib.sha256();hash.update(open('${CUDA_NVRTC_LIB}','rb').read());print(hash.hexdigest()[:8])"
+791:docs/source/autograd.md:315:    profiler_util.MemRecordsAcc
+793:docs/source/conf.py:1673:    "ElasticDistributedSampler",
+794:docs/source/conf.py:1800:    "RelaxedUnspecConstraint",
+795:docs/source/conf.py:2205:    "DistributedSampler",
+796:docs/source/data.md:511:.. autoclass:: torch.utils.data.distributed.DistributedSampler
+797:docs/source/fx.experimental.md:65:    RelaxedUnspecConstraint
+800:docs/source/notes/get_start_xpu.rst:18:   * - Intel® Data Center GPU Max Series (CodeName: Ponte Vecchio)
+803:docs/source/user_guide/torch_compiler/export/joint_with_descriptors.md:78:.. autoclass:: SavedForBackwardsAOTOutput
+804:docs/source/user_guide/torch_compiler/torch.compiler_dynamo_deepdive.md:438:[LocalSource](https://github.com/pytorch/pytorch/blob/40dc0580a69565b06ec5263efe5d87cecc8200f7/torch/_dynamo/source.py#L80-L92)
+805:docs/source/user_guide/torch_compiler/torch.compiler_dynamo_deepdive.md:440:[GetItemSource](https://github.com/pytorch/pytorch/blob/40dc0580a69565b06ec5263efe5d87cecc8200f7/torch/_dynamo/source.py#L302),
+808:scripts/lintrunner.py:41:    """Returns SHA256 hash of a file's contents."""
+809:scripts/lintrunner.py:42:    hasher = hashlib.sha256()
+811:scripts/release_notes/classifier.py:292:    # from imblearn.under_sampling import RandomUnderSampler
+813:test/allowlist_for_publicAPI.json:188:    "DistributedSampler"
+814:test/allowlist_for_publicAPI.json:1994:    "RelaxedUnspecConstraint",
+816:test/cpp/api/autograd.cpp:274:TEST(CustomAutogradTest, CustomFunctionReturnInputAsIsAndSavesIt) {
+817:test/cpp/api/functional.cpp:587:TEST_F(FunctionalTest, GridSample) {
+818:test/cpp/api/functional.cpp:597:  auto options = F::GridSampleFuncOptions()
+819:test/cpp/api/functional.cpp:608:  options = F::GridSampleFuncOptions()
+820:test/cpp/api/functional.cpp:624:  options = F::GridSampleFuncOptions()
+821:test/cpp/api/functional.cpp:635:  options = F::GridSampleFuncOptions()
+822:test/cpp/api/functional.cpp:646:  options = F::GridSampleFuncOptions()
+823:test/cpp/api/functional.cpp:657:  options = F::GridSampleFuncOptions()
+824:test/cpp/api/module.cpp:277:TEST_F(ModuleTest, ParametersAndBuffersAccessorSkipsUndefinedTensor) {
+825:test/cpp/api/modulelist.cpp:64:TEST_F(ModuleListTest, PushBackAddsAnElement) {
+826:test/cpp/api/modules.cpp:61:TEST_F(ModulesTest, Conv1dSameStrided) {
+827:test/cpp/api/modules.cpp:122:TEST_F(ModulesTest, Conv2dSameStrided) {
+828:test/cpp/api/modules.cpp:174:TEST_F(ModulesTest, Conv3dSameStrided) {
+829:test/cpp/api/parameterlist.cpp:36:TEST_F(ParameterListTest, PushBackAddsAnElement) {
+830:test/cpp/api/sequential.cpp:93:TEST_F(SequentialTest, PushBackAddsAnElement) {
+831:test/cpp/jit/README.md:23:TEST(FooTest, NeedsAGpu_CUDA) {
+832:test/cpp/jit/test_argument_spec.cpp:149:  ArgumentSpecCreator arg_spec_creator(*graph);
+833:test/cpp/jit/test_autodiff.cpp:253:  ArgumentSpecCreator asc(*g);
+834:test/cpp/jit/test_misc.cpp:2044:  ArgumentSpecCreator arg_spec_creator(opt_graph);
+835:test/cpp/jit/test_mobile_type_parser.cpp:17:TEST(MobileTypeParserTest, NestedContainersAnnotationStr) {
+836:test/cpp/jit/test_mobile_type_parser.cpp:47:TEST(MobileTypeParserTest, NestedContainersAnnotationStrWithSpaces) {
+860:test/distributed/tensor/test_random_ops.py:313:        class SpecCapturingTracker:
+861:test/distributed/tensor/test_random_ops.py:330:        random_module._rng_tracker = SpecCapturingTracker(random_module._rng_tracker)
+864:test/distributions/test_distributions.py:1385:    def test_rsample_requires_grad(self):
+865:test/distributions/test_distributions.py:1391:                if not dist.has_rsample:
+866:test/distributions/test_distributions.py:1393:                sample = dist.rsample()
+867:test/distributions/test_distributions.py:1396:                    msg=f"{Dist.__name__} example {i + 1}/{len(params)}, .rsample() does not require grad",
+868:test/distributions/test_distributions.py:1543:        self.assertRaises(NotImplementedError, Bernoulli(r).rsample)
+869:test/distributions/test_distributions.py:1594:        self.assertRaises(NotImplementedError, Geometric(r).rsample)
+870:test/distributions/test_distributions.py:1643:        self.assertRaises(NotImplementedError, Binomial(10, p).rsample)
+871:test/distributions/test_distributions.py:1761:        self.assertRaises(NotImplementedError, NegativeBinomial(10, p).rsample)
+872:test/distributions/test_distributions.py:1854:        self.assertRaises(NotImplementedError, Multinomial(10, p).rsample)
+873:test/distributions/test_distributions.py:1933:        self.assertRaises(NotImplementedError, Categorical(p).rsample)
+874:test/distributions/test_distributions.py:1989:        self.assertRaises(NotImplementedError, OneHotCategorical(p).rsample)
+875:test/distributions/test_distributions.py:2100:        # test that rsample doesn't fail
+876:test/distributions/test_distributions.py:2101:        s = RelaxedBernoulli(temp, p).rsample()
+877:test/distributions/test_distributions.py:2126:            s = dist.rsample()
+878:test/distributions/test_distributions.py:2210:            s = dist.rsample()
+879:test/distributions/test_distributions.py:2244:        u = Uniform(low, high).rsample()
+880:test/distributions/test_distributions.py:2295:        c = Cauchy(loc, scale).rsample()
+881:test/distributions/test_distributions.py:2323:        c = HalfCauchy(scale).rsample()
+882:test/distributions/test_distributions.py:2701:        z = Normal(loc, scale).rsample()
+883:test/distributions/test_distributions.py:2913:        samples = d.rsample((100000,))
+884:test/distributions/test_distributions.py:3144:        samples = d.rsample((100000,))
+885:test/distributions/test_distributions.py:3373:        samples = d.rsample((ndim * ndim * 100000,))
+886:test/distributions/test_distributions.py:3394:        z = Exponential(rate).rsample()
+887:test/distributions/test_distributions.py:3461:        z = Laplace(loc, scale).rsample()
+888:test/distributions/test_distributions.py:4125:                    self.assertEqual(indep_dist.has_rsample, base_dist.has_rsample)
+889:test/distributions/test_distributions.py:4126:                    if indep_dist.has_rsample:
+890:test/distributions/test_distributions.py:4587:# reparameterized gradients. Most .rsample() implementations simply rely on
+891:test/distributions/test_distributions.py:4590:class TestRsample(DistributionsTestCase):
+892:test/distributions/test_distributions.py:4599:            x = Gamma(alphas, betas).rsample()
+893:test/distributions/test_distributions.py:4635:            x = Chi2(dfs).rsample()
+894:test/distributions/test_distributions.py:4671:            x = Dirichlet(alphas).rsample()[:, 0]
+895:test/distributions/test_distributions.py:4713:            x = Beta(con1s, con0s).rsample()
+896:test/distributions/test_distributions.py:4753:            x = Beta(con1s, con0s).rsample()
+897:test/distributions/test_distributions.py:4789:            z = Dirichlet(alpha_vec.expand(num_samples, 3)).rsample()
+898:test/distributions/test_distributions.py:4832:            x = Dirichlet(alpha).rsample()
+899:test/distributions/test_distributions.py:6948:    def test_rsample(self):
+900:test/distributions/test_distributions.py:6950:            if not Dist.has_rsample:
+901:test/distributions/test_distributions.py:6956:                return dist.rsample()
+902:test/distributions/test_transforms.py:367:    x = dist.rsample()
+903:test/dynamo/cpython/3_13/test_complex.py:478:        # UndefinedBehaviourSanitizer).
+904:test/dynamo/cpython/3_13/test_enum.py:135:        FLUFL = 'Barry Warsaw'
+907:test/dynamo/test_autograd_function.py:208:class ContextMarkAndSave(torch.autograd.Function):
+908:test/dynamo/test_autograd_function.py:418:        mod = ModuleWithGradFunc(ContextMarkAndSave)
+912:test/dynamo/test_misc.py:10370:                dsamples = self.sample_discrete(logits)
+913:test/dynamo/test_misc.py:10371:                return dsamples
+914:test/dynamo/test_modes.py:743:                b = d.log_prob(d.rsample((10,)))
+915:test/dynamo/test_package.py:680:    class _tempTensorSamplerForQualName:
+916:test/dynamo/test_package.py:721:                TestPackage._tempTensorSamplerForQualName.class_method_that_is_used(x)
+917:test/dynamo/test_repros.py:7836:SavedForBackwardsAOTOutput(idx=0)
+918:test/dynamo/test_repros.py:7837:SavedForBackwardsAOTOutput(idx=1)
+919:test/dynamo/test_repros.py:7838:SavedForBackwardsAOTOutput(idx=2)
+920:test/dynamo/test_repros.py:7854:SavedForBackwardsAOTOutput(idx=0)
+921:test/dynamo/test_repros.py:7855:SavedForBackwardsAOTOutput(idx=1)
+922:test/dynamo/test_repros.py:7856:SavedForBackwardsAOTOutput(idx=2)
+923:test/dynamo/test_repros.py:7859:SavedForBackwardsAOTOutput(idx=5)""",
+924:test/dynamo/test_subclasses.py:2466:            primals_1,  # SavedForBackwardsAOTOutput(idx=0)
+925:test/dynamo/test_subclasses.py:2467:            primals_5,  # SavedForBackwardsAOTOutput(idx=1)
+926:test/dynamo/test_subclasses.py:2468:            primals_7,  # SavedForBackwardsAOTOutput(idx=2)
+927:test/dynamo/test_subclasses.py:2535:            primals_5,  # SavedForBackwardsAOTOutput(idx=0)
+928:test/dynamo/test_subclasses.py:2536:            primals_7,  # SavedForBackwardsAOTOutput(idx=1)
+929:test/dynamo/test_subclasses.py:2607:            primals_1,  # SavedForBackwardsAOTOutput(idx=0)
+930:test/dynamo/test_subclasses.py:2608:            primals_2,  # SavedForBackwardsAOTOutput(idx=1)
+931:test/dynamo/test_subclasses.py:2609:            primals_5,  # SavedForBackwardsAOTOutput(idx=2)
+932:test/dynamo/test_subclasses.py:2610:            primals_7,  # SavedForBackwardsAOTOutput(idx=3)
+933:test/dynamo/test_subclasses.py:2684:            primals_5,  # SavedForBackwardsAOTOutput(idx=0)
+934:test/dynamo/test_subclasses.py:2685:            primals_7,  # SavedForBackwardsAOTOutput(idx=1)
+935:test/dynamo/test_subclasses.py:2750:            primals_5,  # SavedForBackwardsAOTOutput(idx=0)
+936:test/dynamo/test_subclasses.py:2751:            primals_7,  # SavedForBackwardsAOTOutput(idx=1)
+937:test/dynamo/test_subclasses.py:2817:            primals_5,  # SavedForBackwardsAOTOutput(idx=0)
+938:test/dynamo/test_subclasses.py:2818:            primals_7,  # SavedForBackwardsAOTOutput(idx=1)
+939:test/dynamo/test_subclasses.py:2951:            primals_5,  # SavedForBackwardsAOTOutput(idx=0)
+940:test/dynamo/test_subclasses.py:3039:            primals_5,  # SavedForBackwardsAOTOutput(idx=0)
+941:test/dynamo/test_subclasses.py:3266:            primals_1,  # SavedForBackwardsAOTOutput(idx=0)
+942:test/dynamo/test_subclasses.py:3267:            primals_8,  # SavedForBackwardsAOTOutput(idx=1)
+943:test/dynamo/test_subclasses.py:3268:            primals_10,  # SavedForBackwardsAOTOutput(idx=2)
+944:test/dynamo/test_subclasses.py:3343:            primals_8,  # SavedForBackwardsAOTOutput(idx=0)
+945:test/dynamo/test_subclasses.py:3344:            primals_10,  # SavedForBackwardsAOTOutput(idx=1)
+946:test/dynamo/test_subclasses.py:3345:            add_2,  # SavedForBackwardsAOTOutput(idx=2)
+951:test/inductor/test_cpu_repro.py:5911:        Test VecConvert<float,2,Float8_e4m3fn,1> and VecConvert<Float8_e4m3fn,1,float,2>
+973:test/inductor/test_torchinductor.py:8165:        class ExpandGridSampler(torch.nn.Module):
+974:test/inductor/test_torchinductor.py:8191:        model = ExpandGridSampler().to(device)
+975:test/jit/test_attr.py:45:                getattr(x, "x", "fdsa"),
+976:test/onnx/test_onnx_opset.py:628:            ops = {opset_version: [{"op_name": "GridSample"}]}
+977:test/onnx/test_pytorch_onnx_onnxruntime.py:13648:        class GridSampleModule(torch.nn.Module):
+978:test/onnx/test_pytorch_onnx_onnxruntime.py:13663:            GridSampleModule(mode, padding_mode, align_corners),
+979:test/onnx/test_pytorch_onnx_onnxruntime.py:13668:        # ONNX Opset 16 GridSample with 5D volumetric input is not supported.
+980:test/onnx/test_pytorch_onnx_onnxruntime.py:13691:                        GridSampleModule(mode, padding_mode, align_corners),
+981:test/onnx/test_pytorch_onnx_onnxruntime.py:13697:                    GridSampleModule(mode, padding_mode, align_corners),
+982:test/package/package_a/test_module.py:38:class ModWithTwoSubmodsAndTensor(torch.nn.Module):
+983:test/package/test_package_fx.py:133:        from package_a.test_module import ModWithTwoSubmodsAndTensor, SimpleTest
+984:test/package/test_package_fx.py:141:        module = ModWithTwoSubmodsAndTensor(
+985:test/package/test_package_script.py:538:        from package_a.test_module import ModWithTensor, ModWithTwoSubmodsAndTensor
+986:test/package/test_package_script.py:545:        mod1 = ModWithTwoSubmodsAndTensor(shared_tensor, scripted_mod_0, scripted_mod_1)
+987:test/package/test_package_script.py:592:        from package_a.test_module import ModWithTensor, ModWithTwoSubmodsAndTensor
+988:test/package/test_package_script.py:599:        mod1 = ModWithTwoSubmodsAndTensor(shared_tensor, scripted_mod_0, scripted_mod_1)
+990:test/pytest_shard_custom.py:47:    def sha256hash(self, x: str) -> int:
+991:test/pytest_shard_custom.py:48:        return int.from_bytes(hashlib.sha256(x.encode()).digest(), "little")
+992:test/pytest_shard_custom.py:55:            if self.sha256hash(item.nodeid) % num_shards == shard_id - 1
+997:test/test_cuda.py:1538:            "HSA_STATUS_ERROR_EXCEPTION",  # ROCm with TORCH_USE_HIP_DSA
+998:test/test_cuda.py:1539:            "Device-side assertion",  # ROCm with TORCH_USE_HIP_DSA
+999:test/test_cuda.py:1540:            # ROCm without TORCH_USE_HIP_DSA returns a launch failure instead
+1000:test/test_cuda.py:1574:        # ROCm with TORCH_USE_HIP_DSA raises a proper device-side assertion
+1001:test/test_cuda.py:1575:        # ROCm without TORCH_USE_HIP_DSA raises hipErrorLaunchFailure (719)
+1003:test/test_dataloader.py:2283:        from torch.utils.data.distributed import DistributedSampler
+1004:test/test_dataloader.py:2287:            sampler = DistributedSampler(dataset, 3, 3)
+1005:test/test_dataloader.py:2290:            sampler = DistributedSampler(dataset, 3, -1)
+1006:test/test_dataloader.py:2293:        from torch.utils.data.distributed import DistributedSampler
+1007:test/test_dataloader.py:2300:            s = DistributedSampler(data_set, num_processes, i)
+1016:test/test_jit.py:14172:            script_out = self.runAndSaveRNG(cu.test, args_fn())
+1017:test/test_jit.py:14173:            eager_out = self.runAndSaveRNG(init_fn, args_fn())
+1018:test/test_jit.py:14949:        eager_out = self.runAndSaveRNG(lambda: Eager()(*inputs), ())[0]
+1019:test/test_jit.py:14950:        script_out = self.runAndSaveRNG(lambda: M()(*inputs), ())[0]
+1020:test/test_jit.py:14966:        eager_out = self.runAndSaveRNG(lambda x: torch.nn.LSTM(5, 5)(x), (input,))[0]
+1021:test/test_jit.py:14967:        script_out = self.runAndSaveRNG(lambda x: S()(x), (input,))[0]
+1022:test/test_jit.py:14993:        seq_eager_out = self.runAndSaveRNG(lambda x: torch.nn.GRU(5, 5)(x), (seq_input,))[0]
+1023:test/test_jit.py:14994:        seq_script_out = self.runAndSaveRNG(lambda x: SeqLengthGRU()(x), (seq_input,))[0]
+1024:test/test_jit.py:14995:        tensor_eager_out = self.runAndSaveRNG(lambda x: torch.nn.GRU(5, 5)(x), (tensor_input,))[0]
+1025:test/test_jit.py:14996:        tensor_script_out = self.runAndSaveRNG(lambda x: TensorGRU()(x), (tensor_input,))[0]
+1028:test/test_mps.py:1534:        u = Uniform(low, high).rsample()
+1029:test/test_nn.py:8675:        gridsample_ary = torch.nn.functional.grid_sample(
+1030:test/test_nn.py:8682:        self.assertEqual(scipy_ary.mean(), gridsample_ary.mean())
+1031:test/test_nn.py:8683:        self.assertEqual(scipy_ary, gridsample_ary.reshape_as(scipy_ary))
+1032:test/test_nn.py:8725:            gridsample_ary = torch.nn.functional.grid_sample(
+1033:test/test_nn.py:8732:            self.assertEqual(scipy_ary.mean(), gridsample_ary.mean())
+1034:test/test_nn.py:8733:            self.assertEqual(scipy_ary, gridsample_ary.reshape_as(scipy_ary))
+1035:test/test_nn.py:8767:        gridsample_ary = torch.nn.functional.grid_sample(
+1036:test/test_nn.py:8774:        self.assertEqual(scipy_ary, gridsample_ary.reshape_as(scipy_ary))
+1037:test/test_nn.py:8976:            gridsample_ary = torch.nn.functional.grid_sample(
+1038:test/test_nn.py:8990:            self.assertEqual(scipy_ary, gridsample_ary.reshape_as(scipy_ary))
+1039:test/test_nn.py:9032:            gridsample_ary = torch.nn.functional.grid_sample(
+1040:test/test_nn.py:9047:            self.assertEqual(scipy_ary, gridsample_ary.reshape_as(scipy_ary))
+1042:test/test_sparse_csr.py:130:class TestSparseCSRSampler(TestCase):
+1044:test/test_torch.py:5507:                self.assertEqual(b._per_optimizer_states["fdsa"],
+1047:test/torch_np/numpy_tests/core/test_einsum.py:1133:        self.optimize_compare("aab,fa,df,ecc->bde")
+1049:third_party/concurrentqueue/moodycamel/concurrentqueue.h:266:// See https://clang.llvm.org/docs/ThreadSanitizer.html#has-feature-thread-sanitizer
+1050:third_party/miniz-3.0.2/miniz.c:3341:    MZ_ZIP_ECDH_SIG_OFS = 0,
+1051:third_party/miniz-3.0.2/miniz.c:3342:    MZ_ZIP_ECDH_NUM_THIS_DISK_OFS = 4,
+1052:third_party/miniz-3.0.2/miniz.c:3343:    MZ_ZIP_ECDH_NUM_DISK_CDIR_OFS = 6,
+1053:third_party/miniz-3.0.2/miniz.c:3344:    MZ_ZIP_ECDH_CDIR_NUM_ENTRIES_ON_DISK_OFS = 8,
+1054:third_party/miniz-3.0.2/miniz.c:3345:    MZ_ZIP_ECDH_CDIR_TOTAL_ENTRIES_OFS = 10,
+1055:third_party/miniz-3.0.2/miniz.c:3346:    MZ_ZIP_ECDH_CDIR_SIZE_OFS = 12,
+1056:third_party/miniz-3.0.2/miniz.c:3347:    MZ_ZIP_ECDH_CDIR_OFS_OFS = 16,
+1057:third_party/miniz-3.0.2/miniz.c:3348:    MZ_ZIP_ECDH_COMMENT_SIZE_OFS = 20,
+1058:third_party/miniz-3.0.2/miniz.c:3357:    MZ_ZIP64_ECDH_SIG_OFS = 0,                       /* 4 bytes */
+1059:third_party/miniz-3.0.2/miniz.c:3358:    MZ_ZIP64_ECDH_SIZE_OF_RECORD_OFS = 4,            /* 8 bytes */
+1060:third_party/miniz-3.0.2/miniz.c:3359:    MZ_ZIP64_ECDH_VERSION_MADE_BY_OFS = 12,          /* 2 bytes */
+1061:third_party/miniz-3.0.2/miniz.c:3360:    MZ_ZIP64_ECDH_VERSION_NEEDED_OFS = 14,           /* 2 bytes */
+1062:third_party/miniz-3.0.2/miniz.c:3361:    MZ_ZIP64_ECDH_NUM_THIS_DISK_OFS = 16,            /* 4 bytes */
+1063:third_party/miniz-3.0.2/miniz.c:3362:    MZ_ZIP64_ECDH_NUM_DISK_CDIR_OFS = 20,            /* 4 bytes */
+1064:third_party/miniz-3.0.2/miniz.c:3363:    MZ_ZIP64_ECDH_CDIR_NUM_ENTRIES_ON_DISK_OFS = 24, /* 8 bytes */
+1065:third_party/miniz-3.0.2/miniz.c:3364:    MZ_ZIP64_ECDH_CDIR_TOTAL_ENTRIES_OFS = 32,       /* 8 bytes */
+1066:third_party/miniz-3.0.2/miniz.c:3365:    MZ_ZIP64_ECDH_CDIR_SIZE_OFS = 40,                /* 8 bytes */
+1067:third_party/miniz-3.0.2/miniz.c:3366:    MZ_ZIP64_ECDH_CDIR_OFS_OFS = 48,                 /* 8 bytes */
+1068:third_party/miniz-3.0.2/miniz.c:3760:    if (MZ_READ_LE32(pBuf + MZ_ZIP_ECDH_SIG_OFS) != MZ_ZIP_END_OF_CENTRAL_DIR_HEADER_SIG)
+1069:third_party/miniz-3.0.2/miniz.c:3775:                    if (MZ_READ_LE32(pZip64_end_of_central_dir + MZ_ZIP64_ECDH_SIG_OFS) == MZ_ZIP64_END_OF_CENTRAL_DIR_HEADER_SIG)
+1070:third_party/miniz-3.0.2/miniz.c:3784:    pZip->m_total_files = MZ_READ_LE16(pBuf + MZ_ZIP_ECDH_CDIR_TOTAL_ENTRIES_OFS);
+1071:third_party/miniz-3.0.2/miniz.c:3785:    cdir_entries_on_this_disk = MZ_READ_LE16(pBuf + MZ_ZIP_ECDH_CDIR_NUM_ENTRIES_ON_DISK_OFS);
+1072:third_party/miniz-3.0.2/miniz.c:3786:    num_this_disk = MZ_READ_LE16(pBuf + MZ_ZIP_ECDH_NUM_THIS_DISK_OFS);
+1073:third_party/miniz-3.0.2/miniz.c:3787:    cdir_disk_index = MZ_READ_LE16(pBuf + MZ_ZIP_ECDH_NUM_DISK_CDIR_OFS);
+1074:third_party/miniz-3.0.2/miniz.c:3788:    cdir_size = MZ_READ_LE32(pBuf + MZ_ZIP_ECDH_CDIR_SIZE_OFS);
+1075:third_party/miniz-3.0.2/miniz.c:3789:    cdir_ofs = MZ_READ_LE32(pBuf + MZ_ZIP_ECDH_CDIR_OFS_OFS);
+1076:third_party/miniz-3.0.2/miniz.c:3796:        mz_uint64 zip64_cdir_total_entries = MZ_READ_LE64(pZip64_end_of_central_dir + MZ_ZIP64_ECDH_CDIR_TOTAL_ENTRIES_OFS);
+1077:third_party/miniz-3.0.2/miniz.c:3797:        mz_uint64 zip64_cdir_total_entries_on_this_disk = MZ_READ_LE64(pZip64_end_of_central_dir + MZ_ZIP64_ECDH_CDIR_NUM_ENTRIES_ON_DISK_OFS);
+1078:third_party/miniz-3.0.2/miniz.c:3798:        mz_uint64 zip64_size_of_end_of_central_dir_record = MZ_READ_LE64(pZip64_end_of_central_dir + MZ_ZIP64_ECDH_SIZE_OF_RECORD_OFS);
+1079:third_party/miniz-3.0.2/miniz.c:3799:        mz_uint64 zip64_size_of_central_directory = MZ_READ_LE64(pZip64_end_of_central_dir + MZ_ZIP64_ECDH_CDIR_SIZE_OFS);
+1080:third_party/miniz-3.0.2/miniz.c:3824:        num_this_disk = MZ_READ_LE32(pZip64_end_of_central_dir + MZ_ZIP64_ECDH_NUM_THIS_DISK_OFS);
+1081:third_party/miniz-3.0.2/miniz.c:3826:        cdir_disk_index = MZ_READ_LE32(pZip64_end_of_central_dir + MZ_ZIP64_ECDH_NUM_DISK_CDIR_OFS);
+1082:third_party/miniz-3.0.2/miniz.c:3828:        cdir_ofs = MZ_READ_LE64(pZip64_end_of_central_dir + MZ_ZIP64_ECDH_CDIR_OFS_OFS);
+1083:third_party/miniz-3.0.2/miniz.c:7573:        MZ_WRITE_LE32(hdr + MZ_ZIP64_ECDH_SIG_OFS, MZ_ZIP64_END_OF_CENTRAL_DIR_HEADER_SIG);
+1084:third_party/miniz-3.0.2/miniz.c:7574:        MZ_WRITE_LE64(hdr + MZ_ZIP64_ECDH_SIZE_OF_RECORD_OFS, MZ_ZIP64_END_OF_CENTRAL_DIR_HEADER_SIZE - sizeof(mz_uint32) - sizeof(mz_uint64));
+1085:third_party/miniz-3.0.2/miniz.c:7575:        MZ_WRITE_LE16(hdr + MZ_ZIP64_ECDH_VERSION_MADE_BY_OFS, 0x031E); /* TODO: always Unix */
+1086:third_party/miniz-3.0.2/miniz.c:7576:        MZ_WRITE_LE16(hdr + MZ_ZIP64_ECDH_VERSION_NEEDED_OFS, 0x002D);
+1087:third_party/miniz-3.0.2/miniz.c:7577:        MZ_WRITE_LE64(hdr + MZ_ZIP64_ECDH_CDIR_NUM_ENTRIES_ON_DISK_OFS, pZip->m_total_files);
+1088:third_party/miniz-3.0.2/miniz.c:7578:        MZ_WRITE_LE64(hdr + MZ_ZIP64_ECDH_CDIR_TOTAL_ENTRIES_OFS, pZip->m_total_files);
+1089:third_party/miniz-3.0.2/miniz.c:7579:        MZ_WRITE_LE64(hdr + MZ_ZIP64_ECDH_CDIR_SIZE_OFS, central_dir_size);
+1090:third_party/miniz-3.0.2/miniz.c:7580:        MZ_WRITE_LE64(hdr + MZ_ZIP64_ECDH_CDIR_OFS_OFS, central_dir_ofs);
+1091:third_party/miniz-3.0.2/miniz.c:7599:    MZ_WRITE_LE32(hdr + MZ_ZIP_ECDH_SIG_OFS, MZ_ZIP_END_OF_CENTRAL_DIR_HEADER_SIG);
+1092:third_party/miniz-3.0.2/miniz.c:7600:    MZ_WRITE_LE16(hdr + MZ_ZIP_ECDH_CDIR_NUM_ENTRIES_ON_DISK_OFS, MZ_MIN(MZ_UINT16_MAX, pZip->m_total_files));
+1093:third_party/miniz-3.0.2/miniz.c:7601:    MZ_WRITE_LE16(hdr + MZ_ZIP_ECDH_CDIR_TOTAL_ENTRIES_OFS, MZ_MIN(MZ_UINT16_MAX, pZip->m_total_files));
+1094:third_party/miniz-3.0.2/miniz.c:7602:    MZ_WRITE_LE32(hdr + MZ_ZIP_ECDH_CDIR_SIZE_OFS, MZ_MIN(MZ_UINT32_MAX, central_dir_size));
+1095:third_party/miniz-3.0.2/miniz.c:7603:    MZ_WRITE_LE32(hdr + MZ_ZIP_ECDH_CDIR_OFS_OFS, MZ_MIN(MZ_UINT32_MAX, central_dir_ofs));
+1098:tools/build/bazel/requirements.txt:4:    --hash=sha256:6b31f564a415d79ee77df69d757bb49a5bb53bd9f756cbbe24394ffd6fc1f4b2 \
+1099:tools/build/bazel/requirements.txt:5:    --hash=sha256:8ea99dbdfaaf2ba2f9bac77b9249ef62ec5218e7c2b2e903378ed5fccf765995
+1100:tools/build/bazel/requirements.txt:8:    --hash=sha256:005fa3432484527f9732ebd315da8da8001593e2cf46a3d817669f062c3d9ed4 \
+1101:tools/build/bazel/requirements.txt:9:    --hash=sha256:046595208aae0120559a67693ecc65dd75d46f7bf687f159127046628178dc45 \
+1102:tools/build/bazel/requirements.txt:10:    --hash=sha256:0c29de6a1a95f24b9a1aa7aefd27d2487263f00dfd55a77719b530788f75cff7 \
+1103:tools/build/bazel/requirements.txt:11:    --hash=sha256:0c8c57f84ccfc871a48a47321cfa49ae1df56cd1d965a09abe84066f6853b9c0 \
+1104:tools/build/bazel/requirements.txt:12:    --hash=sha256:0f5d9ed7f254402c9e7d35d2f5972c9bbea9040e99cd2861bd77dc68263277c7 \
+1105:tools/build/bazel/requirements.txt:13:    --hash=sha256:18dd2e350387c87dabe711b86f83c9c78af772c748904d372ade190b5c7c9d4d \
+1106:tools/build/bazel/requirements.txt:14:    --hash=sha256:1b1bde144d98e446b056ef98e59c256e9294f6b74d7af6846bf5ffdafd687a7d \
+1107:tools/build/bazel/requirements.txt:15:    --hash=sha256:1c95a1e2902a8b722868587c0e1184ad5c55631de5afc0eb96bc4b0d738092c0 \
+1108:tools/build/bazel/requirements.txt:16:    --hash=sha256:1cad5f45b3146325bb38d6855642f6fd609c3f7cad4dbaf75549bf3b904d3184 \
+1109:tools/build/bazel/requirements.txt:17:    --hash=sha256:21b2899062867b0e1fde9b724f8aecb1af14f2778d69aacd1a5a1853a597a5db \
+1110:tools/build/bazel/requirements.txt:18:    --hash=sha256:24498ba8ed6c2e0b56d4acbf83f2d989720a93b41d712ebd4f4979660db4417b \
+1111:tools/build/bazel/requirements.txt:19:    --hash=sha256:25a23ea5c7edc53e0f29bae2c44fcb5a1aa10591aae107f2a2b2583a9c5cbc64 \
+1112:tools/build/bazel/requirements.txt:20:    --hash=sha256:289200a18fa698949d2b39c671c2cc7a24d44096784e76614899a7ccf2574b7b \
+1113:tools/build/bazel/requirements.txt:21:    --hash=sha256:28a1005facc94196e1fb3e82a3d442a9d9110b8434fc1ded7a24a2983c9888d8 \
+1114:tools/build/bazel/requirements.txt:22:    --hash=sha256:32fc0341d72e0f73f80acb0a2c94216bd704f4f0bce10aedea38f30502b271ff \
+1115:tools/build/bazel/requirements.txt:23:    --hash=sha256:36b31da18b8890a76ec181c3cf44326bf2c48e36d393ca1b72b3f484113ea344 \
+1116:tools/build/bazel/requirements.txt:24:    --hash=sha256:3c21d4fca343c805a52c0c78edc01e3477f6dd1ad7c47653241cf2a206d4fc58 \
+1117:tools/build/bazel/requirements.txt:25:    --hash=sha256:3fddb7e2c84ac87ac3a947cb4e66d143ca5863ef48e4a5ecb83bd48619e4634e \
+1118:tools/build/bazel/requirements.txt:26:    --hash=sha256:43e0933a0eff183ee85833f341ec567c0980dae57c464d8a508e1b2ceb336471 \
+1119:tools/build/bazel/requirements.txt:27:    --hash=sha256:4a476b06fbcf359ad25d34a057b7219281286ae2477cc5ff5e3f70a246971148 \
+1120:tools/build/bazel/requirements.txt:28:    --hash=sha256:4e594135de17ab3866138f496755f302b72157d115086d100c3f19370839dd3a \
+1121:tools/build/bazel/requirements.txt:29:    --hash=sha256:50bf98d5e563b83cc29471fa114366e6806bc06bc7a25fd59641e41445327836 \
+1122:tools/build/bazel/requirements.txt:30:    --hash=sha256:5a9979887252a82fefd3d3ed2a8e3b937a7a809f65dcb1e068b090e165bbe99e \
+1123:tools/build/bazel/requirements.txt:31:    --hash=sha256:5baececa9ecba31eff645232d59845c07aa030f0c81ee70184a90d35099a0e63 \
+1124:tools/build/bazel/requirements.txt:32:    --hash=sha256:5bf4545e3b962767e5c06fe1738f951f77d27967cb2caa64c28be7c4563e162c \
+1125:tools/build/bazel/requirements.txt:33:    --hash=sha256:6333b3aa5a12c26b2a4d4e7335a28f1475e0e5e17d69d55141ee3cab736f66d1 \
+1126:tools/build/bazel/requirements.txt:34:    --hash=sha256:65c981bdbd3f57670af8b59777cbfae75364b483fa8a9f420f08094531d54a01 \
+1127:tools/build/bazel/requirements.txt:35:    --hash=sha256:68a328e5f55ec37c57f19ebb1fdc56a248db2e3e9ad769919a58672958e8f366 \
+1128:tools/build/bazel/requirements.txt:36:    --hash=sha256:6a0289e4589e8bdfef02a80478f1dfcb14f0ab696b5a00e1f4b8a14a307a3c58 \
+1129:tools/build/bazel/requirements.txt:37:    --hash=sha256:6b66f92b17849b85cad91259efc341dce9c1af48e2173bf38a85c6329f1033e5 \
+1130:tools/build/bazel/requirements.txt:38:    --hash=sha256:6c9379d65defcab82d07b2a9dfbfc2e95bc8fe0ebb1b176a3190230a3ef0e07c \
+1131:tools/build/bazel/requirements.txt:39:    --hash=sha256:6fc1f5b51fa4cecaa18f2bd7a003f3dd039dd615cd69a2afd6d3b19aed6775f2 \
+1132:tools/build/bazel/requirements.txt:40:    --hash=sha256:70f7172939fdf8790425ba31915bfbe8335030f05b9913d7ae00a87d4395620a \
+1133:tools/build/bazel/requirements.txt:41:    --hash=sha256:721c76e84fe669be19c5791da68232ca2e05ba5185575086e384352e2c309597 \
+1134:tools/build/bazel/requirements.txt:42:    --hash=sha256:7222ffd5e4de8e57e03ce2cef95a4c43c98fcb72ad86909abdfc2c17d227fc1b \
+1135:tools/build/bazel/requirements.txt:43:    --hash=sha256:75d10d37a47afee94919c4fab4c22b9bc2a8bf7d4f46f87363bcf0573f3ff4f5 \
+1136:tools/build/bazel/requirements.txt:44:    --hash=sha256:76af085e67e56c8816c3ccf256ebd136def2ed9654525348cfa744b6802b69eb \
+1137:tools/build/bazel/requirements.txt:45:    --hash=sha256:770cab594ecf99ae64c236bc9ee3439c3f46be49796e265ce0cc8bc17b10294f \
+1138:tools/build/bazel/requirements.txt:46:    --hash=sha256:7a6ab32f7210554a96cd9e33abe3ddd86732beeafc7a28e9955cdf22ffadbab0 \
+1139:tools/build/bazel/requirements.txt:47:    --hash=sha256:7c48ed483eb946e6c04ccbe02c6b4d1d48e51944b6db70f697e089c193404941 \
+1140:tools/build/bazel/requirements.txt:48:    --hash=sha256:7f56930ab0abd1c45cd15be65cc741c28b1c9a34876ce8c17a2fa107810c0af0 \
+1141:tools/build/bazel/requirements.txt:49:    --hash=sha256:8075c35cd58273fee266c58c0c9b670947c19df5fb98e7b66710e04ad4e9ff86 \
+1142:tools/build/bazel/requirements.txt:50:    --hash=sha256:8272b73e1c5603666618805fe821edba66892e2870058c94c53147602eab29c7 \
+1143:tools/build/bazel/requirements.txt:51:    --hash=sha256:82d8fd25b7f4675d0c47cf95b594d4e7b158aca33b76aa63d07186e13c0e0ab7 \
+1144:tools/build/bazel/requirements.txt:52:    --hash=sha256:844da2b5728b5ce0e32d863af26f32b5ce61bc4273a9c720a9f3aa9df73b1455 \
+1145:tools/build/bazel/requirements.txt:53:    --hash=sha256:8755483f3c00d6c9a77f490c17e6ab0c8729e39e6390328e42521ef175380ae6 \
+1146:tools/build/bazel/requirements.txt:54:    --hash=sha256:915f3849a011c1f593ab99092f3cecfcb4d65d8feb4a64cf1bf2d22074dc0ec4 \
+1147:tools/build/bazel/requirements.txt:55:    --hash=sha256:926ca93accd5d36ccdabd803392ddc3e03e6d4cd1cf17deff3b989ab8e9dbcf0 \
+1148:tools/build/bazel/requirements.txt:56:    --hash=sha256:982bb1e8b4ffda883b3d0a521e23abcd6fd17418f6d2c4118d257a10199c0ce3 \
+1149:tools/build/bazel/requirements.txt:57:    --hash=sha256:98f862da73774290f251b9df8d11161b6cf25b599a66baf087c1ffe340e9bfd1 \
+1150:tools/build/bazel/requirements.txt:58:    --hash=sha256:9cbfacf36cb0ec2897ce0ebc5d08ca44213af24265bd56eca54bee7923c48fd6 \
+1151:tools/build/bazel/requirements.txt:59:    --hash=sha256:a370b3e078e418187da8c3674eddb9d983ec09445c99a3a263c2011993522981 \
+1152:tools/build/bazel/requirements.txt:60:    --hash=sha256:a955b438e62efdf7e0b7b52a64dc5c3396e2634baa62471768a64bc2adb73d5c \
+1153:tools/build/bazel/requirements.txt:61:    --hash=sha256:aa6af9e7d59f9c12b33ae4e9450619cf2488e2bbe9b44030905877f0b2324980 \
+1154:tools/build/bazel/requirements.txt:62:    --hash=sha256:aa88ca0b1932e93f2d961bf3addbb2db902198dca337d88c89e1559e066e7645 \
+1155:tools/build/bazel/requirements.txt:63:    --hash=sha256:aaeeb6a479c7667fbe1099af9617c83aaca22182d6cf8c53966491a0f1b7ffb7 \
+1156:tools/build/bazel/requirements.txt:64:    --hash=sha256:aaf27faa992bfee0264dc1f03f4c75e9fcdda66a519db6b957a3f826e285cf12 \
+1157:tools/build/bazel/requirements.txt:65:    --hash=sha256:b2680962a4848b3c4f155dc2ee64505a9c57186d0d56b43123b17ca3de18f0fa \
+1158:tools/build/bazel/requirements.txt:66:    --hash=sha256:b2d318c11350e10662026ad0eb71bb51c7812fc8590825304ae0bdd4ac283acd \
+1159:tools/build/bazel/requirements.txt:67:    --hash=sha256:b33de11b92e9f75a2b545d6e9b6f37e398d86c3e9e9653c4864eb7e89c5773ef \
+1160:tools/build/bazel/requirements.txt:68:    --hash=sha256:b3daeac64d5b371dea99714f08ffc2c208522ec6b06fbc7866a450dd446f5c0f \
+1161:tools/build/bazel/requirements.txt:69:    --hash=sha256:be1e352acbe3c78727a16a455126d9ff83ea2dfdcbc83148d2982305a04714c2 \
+1162:tools/build/bazel/requirements.txt:70:    --hash=sha256:bee093bf902e1d8fc0ac143c88902c3dfc8941f7ea1d6a8dd2bcb786d33db03d \
+1163:tools/build/bazel/requirements.txt:71:    --hash=sha256:c72fbbe68c6f32f251bdc08b8611c7b3060612236e960ef848e0a517ddbe76c5 \
+1164:tools/build/bazel/requirements.txt:72:    --hash=sha256:c9e36a97bee9b86ef9a1cf7bb96747eb7a15c2f22bdb5b516434b00f2a599f02 \
+1165:tools/build/bazel/requirements.txt:73:    --hash=sha256:cddf7bd982eaa998934a91f69d182aec997c6c468898efe6679af88283b498d3 \
+1166:tools/build/bazel/requirements.txt:74:    --hash=sha256:cf713fe9a71ef6fd5adf7a79670135081cd4431c2943864757f0fa3a65b1fafd \
+1167:tools/build/bazel/requirements.txt:75:    --hash=sha256:d11b54acf878eef558599658b0ffca78138c8c3655cf4f3a4a673c437e67732e \
+1168:tools/build/bazel/requirements.txt:76:    --hash=sha256:d41c4d287cfc69060fa91cae9683eacffad989f1a10811995fa309df656ec214 \
+1169:tools/build/bazel/requirements.txt:77:    --hash=sha256:d524ba3f1581b35c03cb42beebab4a13e6cdad7b36246bd22541fa585a56cccd \
+1170:tools/build/bazel/requirements.txt:78:    --hash=sha256:daac4765328a919a805fa5e2720f3e94767abd632ae410a9062dff5412bae65a \
+1171:tools/build/bazel/requirements.txt:79:    --hash=sha256:db4c7bf0e07fc3b7d89ac2a5880a6a8062056801b83ff56d8464b70f65482b6c \
+1172:tools/build/bazel/requirements.txt:80:    --hash=sha256:dc7039885fa1baf9be153a0626e337aa7ec8bf96b0128605fb0d77788ddc1681 \
+1173:tools/build/bazel/requirements.txt:81:    --hash=sha256:dccab8d5fa1ef9bfba0590ecf4d46df048d18ffe3eec01eeb73a42e0d9e7a8ba \
+1174:tools/build/bazel/requirements.txt:82:    --hash=sha256:dedb8adb91d11846ee08bec4c8236c8549ac721c245678282dcb06b221aab59f \
+1175:tools/build/bazel/requirements.txt:83:    --hash=sha256:e45ba65510e2647721e35323d6ef54c7974959f6081b58d4ef5d87c60c84919a \
+1176:tools/build/bazel/requirements.txt:84:    --hash=sha256:e53efc7c7cee4c1e70661e2e112ca46a575f90ed9ae3fef200f2a25e954f4b28 \
+1177:tools/build/bazel/requirements.txt:85:    --hash=sha256:e635b87f01ebc977342e2697d05b56632f5f879a4f15955dfe8cef2448b51691 \
+1178:tools/build/bazel/requirements.txt:86:    --hash=sha256:e70e990b2137b29dc5564715de1e12701815dacc1d056308e2b17e9095372a82 \
+1179:tools/build/bazel/requirements.txt:87:    --hash=sha256:e8082b26888e2f8b36a042a58307d5b917ef2b1cacab921ad3323ef91901c71a \
+1180:tools/build/bazel/requirements.txt:88:    --hash=sha256:e8323a9b031aa0393768b87f04b4164a40037fb2a3c11ac06a03ffecd3618027 \
+1181:tools/build/bazel/requirements.txt:89:    --hash=sha256:e92fca20c46e9f5e1bb485887d074918b13543b1c2a1185e69bb8d17ab6236a7 \
+1182:tools/build/bazel/requirements.txt:90:    --hash=sha256:eb30abc20df9ab0814b5a2524f23d75dcf83cde762c161917a2b4b7b55b1e518 \
+1183:tools/build/bazel/requirements.txt:91:    --hash=sha256:eba9904b0f38a143592d9fc0e19e2df0fa2e41c3c3745554761c5f6447eedabf \
+1184:tools/build/bazel/requirements.txt:92:    --hash=sha256:ef8de666d6179b009dce7bcb2ad4c4a779f113f12caf8dc77f0162c29d20490b \
+1185:tools/build/bazel/requirements.txt:93:    --hash=sha256:efd387a49825780ff861998cd959767800d54f8308936b21025326de4b5a42b9 \
+1186:tools/build/bazel/requirements.txt:94:    --hash=sha256:f0aa37f3c979cf2546b73e8222bbfa3dc07a641585340179d768068e3455e544 \
+1187:tools/build/bazel/requirements.txt:95:    --hash=sha256:f4074c5a429281bf056ddd4c5d3b740ebca4d43ffffe2ef4bf4d2d05114299da \
+1188:tools/build/bazel/requirements.txt:96:    --hash=sha256:f69a27e45c43520f5487f27627059b64aaf160415589230992cec34c5e18a509 \
+1189:tools/build/bazel/requirements.txt:97:    --hash=sha256:fb707f3e15060adf5b7ada797624a6c6e0138e2a26baa089df64c68ee98e040f \
+1190:tools/build/bazel/requirements.txt:98:    --hash=sha256:fcbe676a55d7445b22c10967bceaaf0ee69407fbe0ece4d032b6eb8d4565982a \
+1191:tools/build/bazel/requirements.txt:99:    --hash=sha256:fdb20a30fe1175ecabed17cbf7812f7b804b8a315a25f24678bcdf120a90077f
+1192:tools/build/bazel/requirements.txt:102:    --hash=sha256:12f65c9b470abda6dc35cf8e63cc574b1c52b11df2c86030af0ac09b01b13ea9 \
+1193:tools/build/bazel/requirements.txt:103:    --hash=sha256:946d195a0d259cbba61165e88e65941f16e9b36ea6ddb97f00452bae8b1287d3
+1194:tools/build/bazel/requirements.txt:106:    --hash=sha256:7a28eb2a9774d00c7bc92411c19a89209d5da7c4c9a9e227be8330a23a25b91f \
+1195:tools/build/bazel/requirements.txt:107:    --hash=sha256:a0b2b9fe80bbcd81a6647ff13108738cfb482d481d826cc0e02f5b35e5c88d2c
+1196:tools/build/bazel/requirements.txt:110:    --hash=sha256:230d388117af870fce5647a3c52401fcf753e94720e6ea6b4197a5355648885e \
+1197:tools/build/bazel/requirements.txt:111:    --hash=sha256:e435dfa75b1d7195c7b8378c3859f0445cd88c6b0375c181ed66823a9ceb7524
+1198:tools/build/bazel/requirements.txt:114:    --hash=sha256:03a8c78d01d9781b28a6989f6fa1bb2c4f2d51201cf99d3dd875df6fbd96b23b \
+1199:tools/build/bazel/requirements.txt:115:    --hash=sha256:08beddf13648eb95f8d867350f6a018a4be2e5ad54c8d8caed89ebca558b2818 \
+1200:tools/build/bazel/requirements.txt:116:    --hash=sha256:1af303d6b2210eb850fcf03064d364652b7120803a0b872f5211f5234b399f20 \
+1201:tools/build/bazel/requirements.txt:117:    --hash=sha256:1dda2e7b4ec9dd512f84935c5f126c8bd8b9f2fc001e9f54af255e8c5f16b0e0 \
+1202:tools/build/bazel/requirements.txt:118:    --hash=sha256:2a02aba9ed12e4ac4eb3ea9421c420301a0c6460d9830d74a9df87efa4912010 \
+1203:tools/build/bazel/requirements.txt:119:    --hash=sha256:2e4ee3380d6de9c9ec04745830fd9e2eccb3e6cf790d39d7b98ffd19b0dd754a \
+1204:tools/build/bazel/requirements.txt:120:    --hash=sha256:3373d5d70a5fe74a2c1bb6d2cfd9609ecf686d47a2d7b1d37a8f3b6bf6003aea \
+1205:tools/build/bazel/requirements.txt:121:    --hash=sha256:47711010ad8555514b434df65f7d7b076bb8261df1ca9bb78f53d3b2db02e95c \
+1206:tools/build/bazel/requirements.txt:122:    --hash=sha256:4c66707fabe114439db9068ee468c26bbdf909cac0fb58686a42a24de1760c71 \
+1207:tools/build/bazel/requirements.txt:123:    --hash=sha256:50193e430acfc1346175fcbdaa28ffec49947a06918b7b92130744e81e640110 \
+1208:tools/build/bazel/requirements.txt:124:    --hash=sha256:52b8b60467cd7dd1e9ed082188b4e6bb35aa5cdd01777621a1658910745b90be \
+1209:tools/build/bazel/requirements.txt:125:    --hash=sha256:60dedbb91afcbfdc9bc0b1f3f402804070deed7392c23eb7a7f07fa857868e8a \
+1210:tools/build/bazel/requirements.txt:126:    --hash=sha256:62b8e4b1e28009ef2846b4c7852046736bab361f7aeadeb6a5b89ebec3c7055a \
+1211:tools/build/bazel/requirements.txt:127:    --hash=sha256:666dbfb6ec68962c033a450943ded891bed2d54e6755e35e5835d63f4f6931d5 \
+1212:tools/build/bazel/requirements.txt:128:    --hash=sha256:675d61ffbfa78604709862923189bad94014bef562cc35cf61d3a07bba02a7ed \
+1213:tools/build/bazel/requirements.txt:129:    --hash=sha256:679b0076f67ecc0138fd2ede3a8fd196dddc2ad3254069bcb9faf9a79b1cebcd \
+1214:tools/build/bazel/requirements.txt:130:    --hash=sha256:7349ab0fa0c429c82442a27a9673fc802ffdb7c7775fad780226cb234965e53c \
+1215:tools/build/bazel/requirements.txt:131:    --hash=sha256:7ab55401287bfec946ced39700c053796e7cc0e3acbef09993a9ad2adba6ca6e \
+1216:tools/build/bazel/requirements.txt:132:    --hash=sha256:7e50d0a0cc3189f9cb0aeb3a6a6af18c16f59f004b866cd2be1c14b36134a4a0 \
+1217:tools/build/bazel/requirements.txt:133:    --hash=sha256:95a7476c59002f2f6c590b9b7b998306fba6a5aa646b1e22ddfeaf8f78c3a29c \
+1218:tools/build/bazel/requirements.txt:134:    --hash=sha256:96ff0b2ad353d8f990b63294c8986f1ec3cb19d749234014f4e7eb0112ceba5a \
+1219:tools/build/bazel/requirements.txt:135:    --hash=sha256:9fad7dcb1aac3c7f0584a5a8133e3a43eeb2fe127f47e3632d43d677c66c102b \
+1220:tools/build/bazel/requirements.txt:136:    --hash=sha256:9ff0f4f29c51e2803569d7a51c2304de5554655a60c5d776e35b4a41413830d0 \
+1221:tools/build/bazel/requirements.txt:137:    --hash=sha256:a354325ee03388678242a4d7ebcd08b5c727033fcff3b2f536aea978e15ee9e6 \
+1222:tools/build/bazel/requirements.txt:138:    --hash=sha256:a4abb4f9001ad2858e7ac189089c42178fcce737e4169dc61321660f1a96c7d2 \
+1223:tools/build/bazel/requirements.txt:139:    --hash=sha256:ab47dbe5cc8210f55aa58e4805fe224dac469cde56b9f731a4c098b91917159a \
+1224:tools/build/bazel/requirements.txt:140:    --hash=sha256:afedb719a9dcfc7eaf2287b839d8198e06dcd4cb5d276a3df279231138e83d30 \
+1225:tools/build/bazel/requirements.txt:141:    --hash=sha256:b3ce300f3644fb06443ee2222c2201dd3a89ea6040541412b8fa189341847218 \
+1226:tools/build/bazel/requirements.txt:142:    --hash=sha256:b97fe8060236edf3662adfc2c633f56a08ae30560c56310562cb4f95500022d5 \
+1227:tools/build/bazel/requirements.txt:143:    --hash=sha256:bfe25acf8b437eb2a8b2d49d443800a5f18508cd811fea3181723922a8a82b07 \
+1228:tools/build/bazel/requirements.txt:144:    --hash=sha256:cd25bcecc4974d09257ffcd1f098ee778f7834c3ad767fe5db785be9a4aa9cb2 \
+1229:tools/build/bazel/requirements.txt:145:    --hash=sha256:d209d8969599b27ad20994c8e41936ee0964e6da07478d6c35016bc386b66ad4 \
+1230:tools/build/bazel/requirements.txt:146:    --hash=sha256:d5241e0a80d808d70546c697135da2c613f30e28251ff8307eb72ba696945764 \
+1231:tools/build/bazel/requirements.txt:147:    --hash=sha256:edd8b5fe47dab091176d21bb6de568acdd906d1887a4584a15a9a96a1dca06ef \
+1232:tools/build/bazel/requirements.txt:148:    --hash=sha256:f870204a840a60da0b12273ef34f7051e98c3b5961b61b0c2c1be6dfd64fbcd3 \
+1233:tools/build/bazel/requirements.txt:149:    --hash=sha256:ffa75af20b44f8dba823498024771d5ac50620e6915abac414251bd971b4529f
+1234:tools/build/bazel/requirements.txt:152:    --hash=sha256:01179a4a8559ab5de078078f37e5c1a30d76bb88519906844fd7bdea1b7729ff \
+1235:tools/build/bazel/requirements.txt:153:    --hash=sha256:0833f8694549e586547b576dcfaba4a6b55b9e96098b36cdc7ebefe667dfed48 \
+1236:tools/build/bazel/requirements.txt:154:    --hash=sha256:0a9a2848a5b7feac301353437eb7d5957887edbf81d56e903999a75a3d743086 \
+1237:tools/build/bazel/requirements.txt:155:    --hash=sha256:0b69e4ce7a131fe56b7e4d770c67429700908fc0752af059838b1cfb41960e4e \
+1238:tools/build/bazel/requirements.txt:156:    --hash=sha256:0ffe8360bab4910ef1b9e87fb812d8bc0a308b0d0eef8c8f44e0254ab3b07133 \
+1239:tools/build/bazel/requirements.txt:157:    --hash=sha256:11d8f3dd2b9c1207dcaf2ee0bbbfd5991f571186ec9cc78427ba5bd32afae4b5 \
+1240:tools/build/bazel/requirements.txt:158:    --hash=sha256:17e311b6c678207928d649faa7cb0d7b4c26a0ba73d41e99c4fff6b6c3276484 \
+1241:tools/build/bazel/requirements.txt:159:    --hash=sha256:1e2120ef853f59c7419231f3bf4e7021f1b936f6ebd222406c3b60212205d2ee \
+1242:tools/build/bazel/requirements.txt:160:    --hash=sha256:1f71ea527786de97d1a0cc0eacd1defc0985dcf6b3f17bb77dcfc8c34bec4dc5 \
+1243:tools/build/bazel/requirements.txt:161:    --hash=sha256:23502f431948090f597378482b4812b0caae32c22213aecf3b55325e049a6c68 \
+1244:tools/build/bazel/requirements.txt:162:    --hash=sha256:24471b829b3bf607e04e88d79542a9d48bb037c2267d7927a874e6c205ca7e9a \
+1245:tools/build/bazel/requirements.txt:163:    --hash=sha256:29717114e51c84ddfba879543fb232a6ed60086602313ca38cce623c1d62cfbf \
+1246:tools/build/bazel/requirements.txt:164:    --hash=sha256:2e99c6826ffa974fe6e27cdb5ed0021786b03fc98e5ee3c5bfe1fd5015f42b99 \
+1247:tools/build/bazel/requirements.txt:165:    --hash=sha256:39693e1f8320ae4f43943590b49779ffb98acb81f788220ea932a6b6c51004d8 \
+1248:tools/build/bazel/requirements.txt:166:    --hash=sha256:3ad2a3decf9aaba3d29c8f537ac4b243e36bef957511b4766cb0057d32b0be85 \
+1249:tools/build/bazel/requirements.txt:167:    --hash=sha256:3b1fdb9dc17f5a7677423d508ab4f243a726dea51fa5e70992e59a7411c89d19 \
+1250:tools/build/bazel/requirements.txt:168:    --hash=sha256:41e4e3953a79407c794916fa277a82531dd93aad34e29c2a514c2c0c5fe971cc \
+1251:tools/build/bazel/requirements.txt:169:    --hash=sha256:43fa96a3ca0d6b1812e01ced1044a003533c47f6ee8aca31724f78e93ccc089a \
+1252:tools/build/bazel/requirements.txt:170:    --hash=sha256:50187695423ffe49e2deacb8cd10510bc361faac997de9efef88badc3bb9e2d1 \
+1253:tools/build/bazel/requirements.txt:171:    --hash=sha256:5ac9328ec4831237bec75defaf839f7d4564be1e6b25ac710bd1a96321cc8317 \
+1254:tools/build/bazel/requirements.txt:172:    --hash=sha256:5d225db5a45f21e78dd9358e58a98702a0302f2659a3c6cd320564b75b86f47c \
+1255:tools/build/bazel/requirements.txt:173:    --hash=sha256:6395c297d42274772abc367baaa79683958044e5d3835486c16da75d2a694631 \
+1256:tools/build/bazel/requirements.txt:174:    --hash=sha256:688ba32a1cffef67fd2e9398a2efebaea461578b0923624778664cc1c914db5d \
+1257:tools/build/bazel/requirements.txt:175:    --hash=sha256:68ccc6023a3400877818152ad9a1033e3db8625d899c72eacb5a668902e4d652 \
+1258:tools/build/bazel/requirements.txt:176:    --hash=sha256:70b189594dbe54f75ab3a1acec5f1e3faa7e8cf2f1e08d9b561cb41b845f69d5 \
+1259:tools/build/bazel/requirements.txt:177:    --hash=sha256:797b4f722ffa07cc8d62053e4cff1486fa6dc094105d13fea7b1de7d8bf71c9e \
+1260:tools/build/bazel/requirements.txt:178:    --hash=sha256:7c36280e6fb8385e520936c3cb3b8042851904eba0e58d277dca80a5cfed590b \
+1261:tools/build/bazel/requirements.txt:179:    --hash=sha256:7e7401d0de89a9a855c839bc697c079a4af81cf878373abd7dc625847d25cbd8 \
+1262:tools/build/bazel/requirements.txt:180:    --hash=sha256:80bab7bfc629882493af4aa31a4cfa43a4c57c83813253626916b8c7ada83476 \
+1263:tools/build/bazel/requirements.txt:181:    --hash=sha256:82d09873e40955485746739bcb8b4586983670466c23382c19cffecbf1fd8706 \
+1264:tools/build/bazel/requirements.txt:182:    --hash=sha256:8388ee1976c416731879ac16da0aff3f63b286ffdd57cdeb95f3f2e085687563 \
+1265:tools/build/bazel/requirements.txt:183:    --hash=sha256:8824b5a04a04a047e72eea5cec3bc266db09e35de6bdfe34c9436ac5ee27d237 \
+1266:tools/build/bazel/requirements.txt:184:    --hash=sha256:8b9c7197f7cb2738065c481a0461e50ad02f18c78cd75775628afb4d7137fb3b \
+1267:tools/build/bazel/requirements.txt:185:    --hash=sha256:9056c1ecd25795207ad294bcf39f2db3d845767be0ea6e6a34d856f006006083 \
+1268:tools/build/bazel/requirements.txt:186:    --hash=sha256:936d68689298c36b53b29f23c6dbb74de12b4ac12ca6cfe0e047bedceea56180 \
+1269:tools/build/bazel/requirements.txt:187:    --hash=sha256:9b22676e8097e9e22e36d6b7bda33190d0d400f345f23d4065d48f4ca7ae0425 \
+1270:tools/build/bazel/requirements.txt:188:    --hash=sha256:a4d3091415f010369ae4ed1fc6b79def9416358877534caf6a0fdd2146c87a3e \
+1271:tools/build/bazel/requirements.txt:189:    --hash=sha256:a8786accb172bd8afb8be14490a16625cbc387036876ab6ba70912730faf8e1f \
+1272:tools/build/bazel/requirements.txt:190:    --hash=sha256:a9f8c2e67970f13b16084e04f134610fd1d374bf477b17ec1599185cf611d725 \
+1273:tools/build/bazel/requirements.txt:191:    --hash=sha256:bc2fa7c6b47d6bc618dd7fb02ef6fdedb1090ec036abab80d4681424b84c1183 \
+1274:tools/build/bazel/requirements.txt:192:    --hash=sha256:c70c95198c015b85feafc136515252a261a84561b7b1d51e3384e0655ddf25ab \
+1275:tools/build/bazel/requirements.txt:193:    --hash=sha256:cc1c1159b3d456576af7a3e4d1ba7e6924cb39de8f67111c735f6fc832082774 \
+1276:tools/build/bazel/requirements.txt:194:    --hash=sha256:ce826d6ef20b1bc864f0a68340c8b3287705cae2f8b4b1d932177dcc76721725 \
+1277:tools/build/bazel/requirements.txt:195:    --hash=sha256:d584d9ec91ad65861cc08d42e834324ef890a082e591037abe114850ff7bbc3e \
+1278:tools/build/bazel/requirements.txt:196:    --hash=sha256:d7fded462629cfa4b685c5416b949ebad6cec74af5e2d42905d41e257e0869f5 \
+1279:tools/build/bazel/requirements.txt:197:    --hash=sha256:d84a1718ee396f54f3a086ea0a66d8e552b2ab2017ef8b420e92edbc841c352d \
+1280:tools/build/bazel/requirements.txt:198:    --hash=sha256:d8e03406cac8513435335dbab54c0d385e4a49e4945d2909a581c83647ca0290 \
+1281:tools/build/bazel/requirements.txt:199:    --hash=sha256:e10ce637b18caea04431ce14fabcf5c64a1c61ec9c56b071a4b7ca131ca52d44 \
+1282:tools/build/bazel/requirements.txt:200:    --hash=sha256:ec031d5d2feb36d1d1a24380e4db6d43695f3748343d99434e6f5f9156aaa2ed \
+1283:tools/build/bazel/requirements.txt:201:    --hash=sha256:ef6107725bd54b262d6dedcc2af448a266975032bc85ef0172c5f059da6325b4 \
+1284:tools/build/bazel/requirements.txt:202:    --hash=sha256:efdca5630322a10774e8e98e1af481aad470dd62c3170801852d752aa7a783ba \
+1285:tools/build/bazel/requirements.txt:203:    --hash=sha256:f753120cb8181e736c57ef7636e83f31b9c0d1722c516f7e86cf15b7aa57ff12 \
+1286:tools/build/bazel/requirements.txt:204:    --hash=sha256:ff3824dc5261f50c9b0dfb3be22b4567a6f938ccce4587b38952d85fd9e9afe4
+1287:tools/build/bazel/requirements.txt:207:    --hash=sha256:27babd3cda2a6d50b30443204ee89830707d396671944c998b5975b031ac2b2c \
+1288:tools/build/bazel/requirements.txt:208:    --hash=sha256:27d0316682c8a29834d3264820024b62a36942083d52caf2f14c0591336d3422
+1289:tools/build/bazel/requirements.txt:211:    --hash=sha256:c3a9c4211ff4c309edb8b8c4f1cbfa7ae324c4ba9f91ff254e3d305b9fd54561 \
+1290:tools/build/bazel/requirements.txt:212:    --hash=sha256:fcc17fd9cd898242f6b4adfaca46137a9edef687f43e6f78469692a5e70d851d
+1291:tools/build/bazel/requirements.txt:215:    --hash=sha256:c3588cd4295d0c0f603d0f2ae780587e64e2efeedb3521e46b9bb1d08d184fa5 \
+1292:tools/build/bazel/requirements.txt:216:    --hash=sha256:ebf595c8dac3e0fdc4152c51878b498396ec7f30e7a914d6071e674d49420fb8
+1293:tools/build/bazel/requirements.txt:219:    --hash=sha256:83f085bd5ca59c80295fc2a82ab5dac679cbe02b9f33f7d83af68e241bea51b0 \
+1294:tools/build/bazel/requirements.txt:220:    --hash=sha256:c1f94d72897edaf4ce775bb7558d5b79d8126906a14ea5ed1635921406c0387a
+1295:tools/build/bazel/requirements.txt:223:    --hash=sha256:3fc47733c7e419d4bc3f6b3dc2b4f890bb743906a30d56ba4a5bfa4bbff92760 \
+1296:tools/build/bazel/requirements.txt:224:    --hash=sha256:e6b01673c0fa6a13e374b50871808eb3bf7046c4b125b216f6bf1cc604cff0dc
+1298:tools/linter/adapters/bazel_linter.py:24:SHA256_REGEX = re.compile(r"\s*sha256\s*=\s*['\"](?P<sha256>[a-zA-Z0-9]{64})['\"]\s*,")
+1299:tools/linter/adapters/bazel_linter.py:86:        checksum_node = rule.find('.//string[@name="sha256"]')
+1300:tools/linter/adapters/bazel_linter.py:111:            m = SHA256_REGEX.match(line)
+1301:tools/linter/adapters/bazel_linter.py:113:                sha256 = m.group("sha256")
+1302:tools/linter/adapters/bazel_linter.py:115:                if sha256 in disallowed_checksums:
+1304:tools/linter/adapters/s3_init.py:34:def compute_file_sha256(path: str) -> str:
+1305:tools/linter/adapters/s3_init.py:35:    """Compute the SHA256 hash of a file and return it as a hex string."""
+1306:tools/linter/adapters/s3_init.py:40:    hash = hashlib.sha256()
+1307:tools/linter/adapters/s3_init.py:73:    existing_binary_hash = compute_file_sha256(str(binary_path))
+1308:tools/linter/adapters/s3_init.py:115:    that it is the right binary by checking its SHA256 hash against the expected hash.
+1309:tools/linter/adapters/s3_init_config.json:5:        "'Hash' is the sha256 of the uploaded file.",
+1310:tools/linter/adapters/s3_init_config.json:20:            "hash": "bfa9ef6eccb372f79ffcb6196af966fd84519ea9567f5ae7b6ad30208cd82109"
+1311:tools/linter/adapters/s3_init_config.json:42:            "hash": "cd6708ca9731002abd8ecc1b616716d8a21cf682a3cb931dd3265c3f3f600d30"
+1312:tools/linter/adapters/update_s3.py:17:def compute_file_sha256(path: str) -> str:
+1313:tools/linter/adapters/update_s3.py:18:    """Compute the SHA256 hash of a file and return it as a hex string."""
+1314:tools/linter/adapters/update_s3.py:23:    hash = hashlib.sha256()
+1315:tools/linter/adapters/update_s3.py:84:    hash_of_new_binary = compute_file_sha256(args.file)
+1320:torch/_dynamo/graph_region_tracker.py:237:        from torch._inductor.codecache import sha256_hash
+1321:torch/_dynamo/graph_region_tracker.py:246:        return sha256_hash(self.input_pickler.dumps(key))
+1329:torch/_dynamo/package.py:532:    sha256_hash = hashlib.sha256()
+1330:torch/_dynamo/package.py:533:    sha256_hash.update(source.encode())
+1331:torch/_dynamo/package.py:534:    return sha256_hash.hexdigest()
+1332:torch/_dynamo/package.py:927:        sha256_hash = hashlib.sha256()
+1333:torch/_dynamo/package.py:928:        sha256_hash.update(innermost_fn_.__qualname__.encode())
+1334:torch/_dynamo/package.py:929:        sha256_hash.update(str(innermost_fn_.__code__.co_firstlineno).encode())
+1335:torch/_dynamo/package.py:930:        return sha256_hash.hexdigest()
+1337:torch/_dynamo/variables/__init__.py:33:    DisabledSavedTensorsHooksVariable,
+1338:torch/_dynamo/variables/builder.py:83:    RelaxedUnspecConstraint,
+1339:torch/_dynamo/variables/builder.py:1815:                        constraint=RelaxedUnspecConstraint(warn_only=False)
+1340:torch/_dynamo/variables/builder.py:3959:                        constraint_size = RelaxedUnspecConstraint(warn_only=False)
+1341:torch/_dynamo/variables/builder.py:3970:                    constraint_size = RelaxedUnspecConstraint(warn_only=False)
+1342:torch/_dynamo/variables/builder.py:3972:                constraint_size = RelaxedUnspecConstraint(warn_only=False)
+1343:torch/_dynamo/variables/builder.py:3976:                    constraint_size = RelaxedUnspecConstraint(warn_only=True)
+1344:torch/_dynamo/variables/builder.py:3978:                    constraint_stride = RelaxedUnspecConstraint(warn_only=True)
+1346:torch/_dynamo/variables/ctx_manager.py:867:class DisabledSavedTensorsHooksVariable(ContextWrappingVariable):
+1347:torch/_dynamo/variables/ctx_manager.py:873:    ) -> "DisabledSavedTensorsHooksVariable":
+1348:torch/_dynamo/variables/ctx_manager.py:874:        var = DisabledSavedTensorsHooksVariable(
+1349:torch/_dynamo/variables/torch.py:497:            DisabledSavedTensorsHooksVariable,
+1350:torch/_dynamo/variables/torch.py:615:            return DisabledSavedTensorsHooksVariable.create(
+1351:torch/_export/non_strict_utils.py:51:    RelaxedUnspecConstraint,
+1352:torch/_export/non_strict_utils.py:195:                    constraint=RelaxedUnspecConstraint(warn_only=False)
+1353:torch/_export/non_strict_utils.py:231:        RelaxedUnspecConstraint,
+1354:torch/_export/non_strict_utils.py:246:            # where a RelaxedUnspecConstraint is created for Dim.DYNAMIC, so constraint violations
+1355:torch/_export/non_strict_utils.py:249:            constraint_sizes[i] = RelaxedUnspecConstraint(warn_only=False)  # type: ignore[call-overload]
+1358:torch/_export/serde/schema_check.py:631:    return hashlib.sha256(s.strip().encode("utf-8")).hexdigest()
+1359:torch/_functorch/_aot_autograd/autograd_cache.py:43:    sha256_hash,
+1360:torch/_functorch/_aot_autograd/autograd_cache.py:1151:        path = os.path.join(subdir, sha256_hash(content))
+1363:torch/_functorch/_aot_autograd/descriptors.py:751:class SavedForBackwardsAOTOutput(AOTOutput):
+1365:torch/_functorch/_aot_autograd/schemas.py:1480:        from hashlib import sha256
+1366:torch/_functorch/_aot_autograd/schemas.py:1482:        return sha256(str(self).encode("utf-8")).hexdigest()
+1367:torch/_functorch/partitioners.py:66:    SavedForBackwardsAOTOutput,
+1368:torch/_functorch/partitioners.py:1135:                else SavedForBackwardsAOTOutput(i)
+1369:torch/_functorch/partitioners.py:1164:                SavedForBackwardsAOTOutput(i)
+1373:torch/_functorch/partitioners.py:3292:        inputs = hashlib.sha256(node_str.encode("utf-8")).hexdigest()
+1384:torch/_inductor/cache.py:7:from hashlib import sha256
+1385:torch/_inductor/cache.py:290:            return self.base_dir / sha256(pickle.dumps(key)).hexdigest()[:32]
+1386:torch/_inductor/cache.py:320:        return sha256(str(OnDiskCache.version).encode()).digest()[:4]
+1387:torch/_inductor/codecache.py:216:        system["hash"] = hashlib.sha256(
+1388:torch/_inductor/codecache.py:335:def sha256_hash(data: bytes) -> str:
+1389:torch/_inductor/codecache.py:337:    return base64.b32encode(hashlib.sha256(data).digest())[:51].decode("utf-8").lower()
+1390:torch/_inductor/codecache.py:345:    return "c" + sha256_hash(hashing_str)
+1391:torch/_inductor/codecache.py:658:        return sha256_hash(serialized_data)
+1392:torch/_inductor/codecache.py:754:                hasher = hashlib.sha256()
+1393:torch/_inductor/codecache.py:1534:        path = os.path.join(subdir, sha256_hash(content))
+1394:torch/_inductor/codecache.py:3575:        return sha256_hash(
+1395:torch/_inductor/codecache.py:3952:    combined_hash = hashlib.sha256()
+1409:torch/_inductor/codegen/cutedsl/cutedsl_scheduling.py:81:            kernel_hash = hashlib.sha256(src_code_str.encode("utf-8")).hexdigest()[:8]
+1410:torch/_inductor/codegen/cutlass/cache.py:41:            return hashlib.sha256(f.read()).hexdigest()
+1411:torch/_inductor/codegen/cutlass/cache.py:56:    return hashlib.sha256(hash_target.encode("utf-8")).hexdigest()[0:8]
+1435:torch/_inductor/codegen/cutlass/scheduling.py:100:            kernel_hash = hashlib.sha256(src_code.encode("utf-8")).hexdigest()[:8]
+1436:torch/_inductor/codegen/cutlass/template.py:98:        return hashlib.sha256(
+1437:torch/_inductor/codegen/cutlass/template.py:207:        kernel_hash = hashlib.sha256(code.encode("utf-8")).hexdigest()[:8]
+1523:torch/_inductor/codegen/pallas.py:4480:        kernel_hash = hashlib.sha256(src_code.encode("utf-8")).hexdigest()[:8]
+1546:torch/_inductor/custom_graph_pass.py:115:    hasher = hashlib.sha256()
+1576:torch/_inductor/runtime/autotune_cache.py:140:        # base of filename is already sha256 hash the source contents
+1577:torch/_inductor/runtime/autotune_cache.py:142:        return hashlib.sha256(key.encode("utf-8")).hexdigest()
+1578:torch/_inductor/runtime/autotune_cache.py:187:        hasher = hashlib.sha256()
+1579:torch/_inductor/runtime/autotune_cache.py:217:        key = hashlib.sha256(key.encode("utf-8")).hexdigest()
+1580:torch/_inductor/runtime/autotune_cache.py:478:        key = hashlib.sha256(key.encode("utf-8")).hexdigest()
+1581:torch/_inductor/runtime/caching/context.py:12:from hashlib import sha256
+1582:torch/_inductor/runtime/caching/context.py:308:    return sha256(
+1583:torch/_inductor/runtime/caching/implementations.py:13:from hashlib import sha256
+1584:torch/_inductor/runtime/caching/implementations.py:229:        return sha256(str(cls._version).encode()).digest()[: cls._version_header_length]
+1585:torch/_inductor/runtime/caching/interfaces.py:17:from hashlib import sha256
+1586:torch/_inductor/runtime/caching/interfaces.py:381:        # Hash the pickled bytes with SHA256
+1587:torch/_inductor/runtime/caching/interfaces.py:382:        hash_obj = sha256(pickled_params)
+1588:torch/_inductor/runtime/triton_heuristics.py:133:    fn_hash = hashlib.sha256(hash_str.encode("utf-8")).hexdigest()
+1589:torch/_inductor/runtime/triton_heuristics.py:2310:    hasher = hashlib.sha256()
+1591:torch/_inductor/select_algorithm.py:2415:        super().__init__(name, hash=hashlib.sha256(source.encode("utf-8")).hexdigest())
+1599:torch/_inductor/tiling_utils.py:25:VarsAndRanges = tuple[list[sympy.Symbol], list[sympy.Expr]]
+1600:torch/_inductor/tiling_utils.py:246:) -> tuple[VarsAndRanges, VarsAndRanges] | None: ...
+1601:torch/_inductor/tiling_utils.py:255:) -> tuple[VarsAndRanges, VarsAndRanges]: ...
+1602:torch/_inductor/tiling_utils.py:263:) -> tuple[VarsAndRanges, VarsAndRanges] | None:
+1612:torch/_meta_registrations.py:5444:class GridSamplerInterpolation(Enum):
+1613:torch/_meta_registrations.py:5462:            and interpolation_mode == GridSamplerInterpolation.BICUBIC.value
+1616:torch/_prims/rng_prims.py:156:    class RunAndSaveRngState(HigherOrderOperator):
+1617:torch/_prims/rng_prims.py:164:    run_and_save_rng_state = RunAndSaveRngState()
+1626:torch/autograd/profiler.py:39:    MemRecordsAcc,
+1627:torch/autograd/profiler.py:56:    "MemRecordsAcc",
+1628:torch/autograd/profiler.py:612:        mem_records_acc = MemRecordsAcc(mem_records)
+1629:torch/autograd/profiler_util.py:22:    "MemRecordsAcc",
+1630:torch/autograd/profiler_util.py:991:class MemRecordsAcc:
+1631:torch/backends/_coreml/preprocess.py:152:        "hash": str(hashlib.sha256(mlmodel).hexdigest()),
+1634:torch/cpu/__init__.py:56:        - Other: f16c, bmi, bmi2, popcnt, lzcnt, aes, sha, clflush, clflushopt, clwb
+1635:torch/cpu/__init__.py:62:        - Other: atomics, fhm, rdm, crc32, aes, sha1, sha2, pmull
+1637:torch/csrc/api/include/torch/data/samplers/distributed.h:22:class DistributedSampler : public Sampler<BatchRequest> {
+1638:torch/csrc/api/include/torch/data/samplers/distributed.h:24:  DistributedSampler(
+1639:torch/csrc/api/include/torch/data/samplers/distributed.h:68:class TORCH_API DistributedRandomSampler : public DistributedSampler<> {
+1640:torch/csrc/api/include/torch/data/samplers/distributed.h:101:class TORCH_API DistributedSequentialSampler : public DistributedSampler<> {
+1641:torch/csrc/api/include/torch/nn/functional/vision.h:58:    GridSampleFuncOptions::mode_t mode,
+1642:torch/csrc/api/include/torch/nn/functional/vision.h:59:    GridSampleFuncOptions::padding_mode_t padding_mode,
+1643:torch/csrc/api/include/torch/nn/functional/vision.h:98:/// See the documentation for `torch::nn::functional::GridSampleFuncOptions`
+1644:torch/csrc/api/include/torch/nn/functional/vision.h:105:/// F::GridSampleFuncOptions().mode(torch::kBilinear).padding_mode(torch::kZeros).align_corners(true));
+1645:torch/csrc/api/include/torch/nn/functional/vision.h:110:    const GridSampleFuncOptions& options = {}) {
+1650:torch/csrc/api/include/torch/nn/options/vision.h:16:/// F::GridSampleFuncOptions().mode(torch::kBilinear).padding_mode(torch::kZeros).align_corners(true));
+1651:torch/csrc/api/include/torch/nn/options/vision.h:18:struct TORCH_API GridSampleFuncOptions {
+1652:torch/csrc/api/src/data/samplers/distributed.cpp:18:    : DistributedSampler(size, num_replicas, rank, allow_duplicates) {
+1653:torch/csrc/api/src/data/samplers/distributed.cpp:99:    : DistributedSampler(size, num_replicas, rank, allow_duplicates) {
+1670:torch/csrc/distributed/rpc/init.cpp:682:        RRefContext::getInstance().delAllUsersAndUnforkedOwners(timeoutMillis);
+1671:torch/csrc/distributed/rpc/rref_context.cpp:237:void RRefContext::delAllUsersAndUnforkedOwners(
+1672:torch/csrc/distributed/rpc/rref_context.h:206:  void delAllUsersAndUnforkedOwners(std::chrono::milliseconds timeoutMillis);
+1682:torch/csrc/jit/codegen/fuser/cpu/fused_kernel.cpp:98:  // Checking whether the activation script `vcvarsall.bat` exists
+1683:torch/csrc/jit/codegen/fuser/cpu/fused_kernel.cpp:104:  path += L"\\vcvarsall.bat";
+1685:torch/csrc/jit/frontend/ir_emitter.cpp:2391:        emitExprsAssign(target_exprs, {sv}, range, /*n_binders=*/1);
+1686:torch/csrc/jit/frontend/ir_emitter.cpp:2417:      emitExprsAssign(
+1687:torch/csrc/jit/frontend/ir_emitter.cpp:3010:    emitExprsAssign(tl.inputs(), outputs, rhs_loc, n_binders);
+1688:torch/csrc/jit/frontend/ir_emitter.cpp:3013:  void emitExprsAssign(
+1689:torch/csrc/jit/frontend/tracer.cpp:423:static void gatherParametersAndBuffers(
+1690:torch/csrc/jit/frontend/tracer.cpp:453:      gatherParametersAndBuffers(
+1691:torch/csrc/jit/frontend/tracer.cpp:482:      gatherParametersAndBuffers(state, self_value, *self, {"__module"});
+1692:torch/csrc/jit/ir/alias_analysis.cpp:1686:        if (auto sameBlock = findSameBlock(use.user, n)) {
+1693:torch/csrc/jit/ir/alias_analysis.cpp:1700:  static Node* findSameBlock(Node* target, Node* n) {
+1694:torch/csrc/jit/ir/attributes.h:117:using TensorsAttr = VectorAttributeValue<at::Tensor, AttributeKind::ts>;
+1696:torch/csrc/jit/ir/ir.h:905:  Node* ts_(Symbol name, TensorsAttr::ConstructorType v) {
+1697:torch/csrc/jit/ir/ir.h:906:    return setAttr<TensorsAttr>(
+1698:torch/csrc/jit/ir/ir.h:907:        name, std::forward<TensorsAttr::ConstructorType>(v));
+1699:torch/csrc/jit/ir/ir.h:909:  const TensorsAttr::ValueType& ts(Symbol name) const {
+1700:torch/csrc/jit/ir/ir.h:910:    return getAttr<TensorsAttr>(name);
+1701:torch/csrc/jit/mobile/import_data.cpp:188:        mobile::internal::kSavedParametersAttributeName) {
+1702:torch/csrc/jit/mobile/import_data.cpp:226:      mobile::internal::kSavedParametersAttributeName,
+1703:torch/csrc/jit/mobile/import_export_common.h:14:constexpr char kSavedParametersAttributeName[] = "data";
+1704:torch/csrc/jit/mobile/train/export_data.cpp:87: * by #internal::kSavedParametersAttributeName, whose value is the provided
+1705:torch/csrc/jit/mobile/train/export_data.cpp:99:      internal::kSavedParametersAttributeName,
+1706:torch/csrc/jit/mobile/train/export_data.cpp:105:  object->setAttr(internal::kSavedParametersAttributeName, dict);
+1708:torch/csrc/jit/passes/graph_fuser.cpp:227:    // prim::ListConstruct, and allUsersAreThisConsumerOrOccurAfterIt would
+1709:torch/csrc/jit/passes/graph_fuser.cpp:239:  bool allUsersAreThisConsumerOrCalcSizes(Node* consumer, Value* producer) {
+1710:torch/csrc/jit/passes/graph_fuser.cpp:723:              allUsersAreThisConsumerOrCalcSizes(chunk, producer_for_chunk);
+1712:torch/csrc/jit/passes/onnx/constant_fold.cpp:80:  auto const& endsAttr = node->is(attr::ends);
+1713:torch/csrc/jit/passes/onnx/constant_fold.cpp:81:  if (startsAttr.size() != endsAttr.size()) {
+1714:torch/csrc/jit/passes/onnx/constant_fold.cpp:94:    int64_t axis = axesAttr[i], start = startsAttr[i], end = endsAttr[i];
+1718:torch/csrc/jit/python/init.cpp:151:static bool opAllowsNumbersAsTensors(c10::Symbol symbol) {
+1719:torch/csrc/jit/python/init.cpp:560:            ArgumentSpecCreator arg_spec_creator(*graph);
+1720:torch/csrc/jit/python/init.cpp:570:            // have a "complete type inference" function in ArguemntSpecCreator.
+1721:torch/csrc/jit/python/init.cpp:1730:          bool allow_numbers_as_tensors = opAllowsNumbersAsTensors(symbol);
+1722:torch/csrc/jit/python/init.cpp:1736:                    ToIValueAllowNumbersAsTensors g(allow_numbers_as_tensors);
+1723:torch/csrc/jit/python/init.cpp:1745:                    ToIValueAllowNumbersAsTensors g(allow_numbers_as_tensors);
+1724:torch/csrc/jit/python/init.cpp:1779:          bool allow_numbers_as_tensors = opAllowsNumbersAsTensors(symbol);
+1725:torch/csrc/jit/python/init.cpp:1780:          ToIValueAllowNumbersAsTensors g(allow_numbers_as_tensors);
+1726:torch/csrc/jit/python/init.cpp:1821:          bool allow_numbers_as_tensors = opAllowsNumbersAsTensors(symbol);
+1727:torch/csrc/jit/python/init.cpp:1826:                ToIValueAllowNumbersAsTensors g(allow_numbers_as_tensors);
+1728:torch/csrc/jit/python/pybind_utils.cpp:25:ToIValueAllowNumbersAsTensors::ToIValueAllowNumbersAsTensors(bool enable)
+1729:torch/csrc/jit/python/pybind_utils.cpp:30:ToIValueAllowNumbersAsTensors::~ToIValueAllowNumbersAsTensors() {
+1730:torch/csrc/jit/python/pybind_utils.h:68:class TORCH_PYTHON_API ToIValueAllowNumbersAsTensors {
+1731:torch/csrc/jit/python/pybind_utils.h:72:  ToIValueAllowNumbersAsTensors(bool enable);
+1732:torch/csrc/jit/python/pybind_utils.h:73:  ~ToIValueAllowNumbersAsTensors();
+1733:torch/csrc/jit/python/python_ir.cpp:778:          [](Node& n, const char* name, TensorsAttr::ValueType v) {
+1734:torch/csrc/jit/runtime/argument_spec.cpp:9:void ArgumentSpecCreator::scan(
+1735:torch/csrc/jit/runtime/argument_spec.cpp:79:    ArgumentSpecCreator::WrittenSlots& written_slots) {
+1736:torch/csrc/jit/runtime/argument_spec.cpp:95:ArgumentSpecCreator::ArgumentSpecCreator(Graph& graph)
+1737:torch/csrc/jit/runtime/argument_spec.cpp:104:void ArgumentSpecCreator::dump() const {
+1738:torch/csrc/jit/runtime/argument_spec.cpp:133:ArgumentSpec ArgumentSpecCreator::create(bool with_grad, const Stack& input)
+1739:torch/csrc/jit/runtime/argument_spec.cpp:190:void ArgumentSpecCreator::specializeTypes(
+1740:torch/csrc/jit/runtime/argument_spec.h:170:// ArgumentSpecCreator takes an initial graph and comes up with a set
+1741:torch/csrc/jit/runtime/argument_spec.h:173:struct TORCH_API ArgumentSpecCreator {
+1742:torch/csrc/jit/runtime/argument_spec.h:193:  ArgumentSpecCreator(Graph& graph);
+1743:torch/csrc/jit/runtime/graph_executor.cpp:784:  ArgumentSpecCreator arg_spec_creator_;
+1753:torch/csrc/jit/tensorexpr/kernel.cpp:656:static bool loopBoundsAllEqual(const std::vector<ForPtr>& loops) {
+1754:torch/csrc/jit/tensorexpr/kernel.cpp:702:    if (!loopBoundsAllEqual(outer_loops)) {
+1763:torch/csrc/lazy/core/metrics.cpp:205:void MetricData::AddSample(int64_t timestamp_ns, double value) {
+1764:torch/csrc/lazy/core/metrics.cpp:272:void Metric::AddSample(int64_t timestamp_ns, double value) {
+1765:torch/csrc/lazy/core/metrics.cpp:273:  GetData()->AddSample(timestamp_ns, value);
+1766:torch/csrc/lazy/core/metrics.cpp:276:void Metric::AddSample(double value) {
+1767:torch/csrc/lazy/core/metrics.cpp:277:  GetData()->AddSample(NowNs(), value);
+1768:torch/csrc/lazy/core/metrics.h:45:  void AddSample(int64_t timestamp_ns, double value);
+1769:torch/csrc/lazy/core/metrics.h:151://     metric->AddSample(ts_nanos, some_value);
+1770:torch/csrc/lazy/core/metrics.h:166:  void AddSample(int64_t timestamp_ns, double value);
+1771:torch/csrc/lazy/core/metrics.h:168:  void AddSample(double value);
+1772:torch/csrc/lazy/core/metrics.h:223:    __metric->AddSample(value);                                      \
+1773:torch/csrc/lazy/core/metrics.h:267:    metric_->AddSample(now, static_cast<double>(now - start_));
+1774:torch/csrc/lazy/core/shape_inference.cpp:852:  // from `aten/src/ATen/native/cpu/GridSamplerKernel.cpp
+1775:torch/csrc/lazy/core/shape_inference.cpp:868:  // from `aten/src/ATen/native/cpu/GridSamplerKernel.cpp
+1778:torch/csrc/profiler/standalone/execution_trace_observer.cpp:7:#include <processthreadsapi.h>
+1779:torch/csrc/profiler/standalone/execution_trace_observer.cpp:162:  std::unordered_set<std::string> nodeListForSavingIntegerTensor;
+1780:torch/csrc/profiler/standalone/execution_trace_observer.cpp:460:        if (ob.nodeListForSavingIntegerTensor.find(functionName) !=
+1781:torch/csrc/profiler/standalone/execution_trace_observer.cpp:461:                ob.nodeListForSavingIntegerTensor.end() &&
+1782:torch/csrc/profiler/standalone/execution_trace_observer.cpp:934:        ob.nodeListForSavingIntegerTensor.insert(token);
+1784:torch/cuda/_sanitizer.py:171:class _TensorsAccessed:
+1785:torch/cuda/_sanitizer.py:348:        self.tensors_accessed = _TensorsAccessed()
+1786:torch/distributed/_pycute/layout.py:348:    sorted_DSA = sorted(zip(flat_stride, flat_shape, suffix_product(flat_shape)))  # type: ignore[arg-type]
+1787:torch/distributed/_pycute/layout.py:349:    for stride, shape, rstride in sorted_DSA:
+1791:torch/distributed/elastic/utils/data/__init__.py:10:from .elastic_distributed_sampler import ElasticDistributedSampler  # noqa: F401
+1792:torch/distributed/elastic/utils/data/elastic_distributed_sampler.py:15:from torch.utils.data.distributed import DistributedSampler
+1793:torch/distributed/elastic/utils/data/elastic_distributed_sampler.py:20:__all__ = ["ElasticDistributedSampler"]
+1794:torch/distributed/elastic/utils/data/elastic_distributed_sampler.py:23:class ElasticDistributedSampler(DistributedSampler[T]):
+1795:torch/distributed/elastic/utils/data/elastic_distributed_sampler.py:30:    process can pass a DistributedSampler instance as a DataLoader sampler,
+1843:torch/distributions/__init__.py:59::meth:`~torch.distributions.Distribution.rsample` method, where the
+1844:torch/distributions/__init__.py:67:    # Any distribution with .has_rsample == True could work based on the application
+1845:torch/distributions/__init__.py:68:    action = m.rsample()
+1846:torch/distributions/beta.py:39:    has_rsample = True
+1847:torch/distributions/beta.py:84:    def rsample(self, sample_shape: _size = ()) -> Tensor:
+1848:torch/distributions/beta.py:85:        return self._dirichlet.rsample(sample_shape).select(-1, 0)
+1849:torch/distributions/cauchy.py:36:    has_rsample = True
+1850:torch/distributions/cauchy.py:76:    def rsample(self, sample_shape: _size = torch.Size()) -> Tensor:
+1851:torch/distributions/continuous_bernoulli.py:53:    has_rsample = True
+1852:torch/distributions/continuous_bernoulli.py:182:    def rsample(self, sample_shape: _size = torch.Size()) -> Tensor:
+1853:torch/distributions/dirichlet.py:59:    has_rsample = True
+1854:torch/distributions/dirichlet.py:85:    def rsample(self, sample_shape: _size = ()) -> Tensor:
+1855:torch/distributions/distribution.py:25:    has_rsample = False
+1856:torch/distributions/distribution.py:173:            return self.rsample(sample_shape)
+1857:torch/distributions/distribution.py:175:    def rsample(self, sample_shape: _size = torch.Size()) -> Tensor:
+1858:torch/distributions/exponential.py:32:    has_rsample = True
+1859:torch/distributions/exponential.py:68:    def rsample(self, sample_shape: _size = torch.Size()) -> Tensor:
+1860:torch/distributions/fishersnedecor.py:34:    has_rsample = True
+1861:torch/distributions/fishersnedecor.py:86:    def rsample(self, sample_shape: _size = torch.Size(())) -> Tensor:
+1862:torch/distributions/fishersnedecor.py:90:        X1 = self._gamma1.rsample(sample_shape).view(shape)
+1863:torch/distributions/fishersnedecor.py:91:        X2 = self._gamma2.rsample(sample_shape).view(shape)
+1864:torch/distributions/gamma.py:42:    has_rsample = True
+1865:torch/distributions/gamma.py:79:    def rsample(self, sample_shape: _size = torch.Size()) -> Tensor:
+1866:torch/distributions/generalized_pareto.py:44:    has_rsample = True
+1867:torch/distributions/generalized_pareto.py:70:    def rsample(self, sample_shape=torch.Size()):
+1868:torch/distributions/half_cauchy.py:36:    has_rsample = True
+1869:torch/distributions/half_normal.py:36:    has_rsample = True
+1870:torch/distributions/independent.py:85:    def has_rsample(self) -> bool:  # type: ignore[override]
+1871:torch/distributions/independent.py:86:        return self.base_dist.has_rsample
+1872:torch/distributions/independent.py:117:    def rsample(self, sample_shape: _size = torch.Size()) -> Tensor:
+1873:torch/distributions/independent.py:118:        return self.base_dist.rsample(sample_shape)
+1874:torch/distributions/inverse_gamma.py:42:    has_rsample = True
+1875:torch/distributions/kumaraswamy.py:48:    has_rsample = True
+1876:torch/distributions/laplace.py:33:    has_rsample = True
+1877:torch/distributions/laplace.py:73:    def rsample(self, sample_shape: _size = torch.Size()) -> Tensor:
+1878:torch/distributions/log_normal.py:36:    has_rsample = True
+1879:torch/distributions/logistic_normal.py:40:    has_rsample = True
+1880:torch/distributions/lowrank_multivariate_normal.py:95:    has_rsample = True
+1881:torch/distributions/lowrank_multivariate_normal.py:214:    def rsample(self, sample_shape: _size = torch.Size()) -> Tensor:
+1882:torch/distributions/mixture_same_family.py:57:    has_rsample = False
+1883:torch/distributions/multivariate_normal.py:133:    has_rsample = True
+1884:torch/distributions/multivariate_normal.py:251:    def rsample(self, sample_shape: _size = torch.Size()) -> Tensor:
+1885:torch/distributions/normal.py:36:    has_rsample = True
+1886:torch/distributions/normal.py:82:    def rsample(self, sample_shape: _size = torch.Size()) -> Tensor:
+1887:torch/distributions/one_hot_categorical.py:138:    has_rsample = True
+1888:torch/distributions/one_hot_categorical.py:140:    def rsample(self, sample_shape: _size = torch.Size()) -> Tensor:
+1889:torch/distributions/relaxed_bernoulli.py:104:    def rsample(self, sample_shape: _size = torch.Size()) -> Tensor:
+1890:torch/distributions/relaxed_bernoulli.py:146:    has_rsample = True
+1891:torch/distributions/relaxed_categorical.py:45:    has_rsample = True
+1892:torch/distributions/relaxed_categorical.py:87:    def rsample(self, sample_shape: _size = torch.Size()) -> Tensor:
+1893:torch/distributions/relaxed_categorical.py:133:    has_rsample = True
+1894:torch/distributions/studentT.py:40:    has_rsample = True
+1895:torch/distributions/studentT.py:87:    def rsample(self, sample_shape: _size = torch.Size()) -> Tensor:
+1896:torch/distributions/studentT.py:97:        Z = self._chi2.rsample(sample_shape)
+1897:torch/distributions/transformed_distribution.py:140:    def has_rsample(self) -> bool:  # type: ignore[override]
+1898:torch/distributions/transformed_distribution.py:141:        return self.base_dist.has_rsample
+1899:torch/distributions/transformed_distribution.py:156:    def rsample(self, sample_shape: _size = torch.Size()) -> Tensor:
+1900:torch/distributions/transformed_distribution.py:163:        x = self.base_dist.rsample(sample_shape)
+1902:torch/distributions/uniform.py:31:    has_rsample = True
+1903:torch/distributions/uniform.py:85:    def rsample(self, sample_shape: _size = torch.Size()) -> Tensor:
+1904:torch/distributions/von_mises.py:131:    has_rsample = False
+1905:torch/distributions/wishart.py:68:    has_rsample = True
+1906:torch/distributions/wishart.py:239:            self._dist_chi2.rsample(sample_shape).sqrt()
+1907:torch/distributions/wishart.py:251:    def rsample(
+1908:torch/distributions/wishart.py:260:            or adjust `max_try_correction` value for argument in `.rsample` accordingly.
+1913:torch/fx/experimental/symbolic_shapes.py:950:IterateExprsAtom: TypeAlias = (
+1914:torch/fx/experimental/symbolic_shapes.py:953:IterateExprs: TypeAlias = IterateExprsAtom | Sequence[IterateExprsAtom]
+1916:torch/fx/experimental/symbolic_shapes.py:2003:    of "RelaxedUnspecConstraint".
+1917:torch/fx/experimental/symbolic_shapes.py:2020:class RelaxedUnspecConstraint(Constraint):
+1918:torch/fx/experimental/symbolic_shapes.py:2033:    makes RelaxedUnspecConstraint useful for eager mode, where your backend compiler
+1919:torch/fx/experimental/symbolic_shapes.py:2041:        return f"RelaxedUnspecConstraint({source.name})"
+1920:torch/fx/experimental/symbolic_shapes.py:2047:DimConstraint = StrictMinMaxConstraint | RelaxedUnspecConstraint | None
+1921:torch/fx/experimental/symbolic_shapes.py:4920:            StrictMinMaxConstraint | RelaxedUnspecConstraint | None
+1922:torch/fx/experimental/symbolic_shapes.py:5588:        self, source: Source, c: StrictMinMaxConstraint | RelaxedUnspecConstraint
+1924:torch/fx/experimental/symbolic_shapes.py:5900:                        constraint, RelaxedUnspecConstraint
+1925:torch/fx/experimental/symbolic_shapes.py:5913:                    elif isinstance(constraint, RelaxedUnspecConstraint):
+1926:torch/fx/experimental/symbolic_shapes.py:5952:                elif isinstance(constraint, RelaxedUnspecConstraint):
+1927:torch/fx/experimental/symbolic_shapes.py:6244:                        elif isinstance(c, RelaxedUnspecConstraint):
+1929:torch/fx/experimental/symbolic_shapes.py:7694:        attempt = int(hashlib.sha256(source_name.encode()).hexdigest(), 16) % 100
+1930:torch/fx/graph_module.py:393:        base64.b32encode(hashlib.sha256(hashing_str).digest())[:51]
+1947:torch/hub.py:718:        hash_prefix (str, optional): If not None, the SHA256 downloaded file should start with ``hash_prefix``.
+1948:torch/hub.py:759:            sha256 = hashlib.sha256() if hash_prefix is not None else None
+1949:torch/hub.py:772:                    if sha256 is not None:
+1950:torch/hub.py:773:                        sha256.update(buffer)
+1951:torch/hub.py:777:            if sha256 is not None and hash_prefix is not None:
+1952:torch/hub.py:778:                digest = sha256.hexdigest()
+1953:torch/hub.py:855:            ``filename-<sha256>.ext`` where ``<sha256>`` is the first eight or more
+1954:torch/hub.py:856:            digits of the SHA256 hash of the contents of the file. The hash is used to
+1955:torch/nativert/OVERVIEW.md:72:      runner.loadSampleInputs(std::move(reader), Placement(device));
+1956:torch/nativert/graph/GraphUtils.cpp:9:bool areAllIOTensorsAttributesOnCpu(const Node& node) {
+1957:torch/nativert/graph/GraphUtils.h:20:bool areAllIOTensorsAttributesOnCpu(const Node& node);
+1958:torch/nativert/kernels/KernelHandlerRegistry.cpp:65:                  !torch::nativert::areAllIOTensorsAttributesOnCpu(node)) {
+1961:torch/nn/parallel/distributed.py:475:    of a :class:`DistributedSampler`.
+1962:torch/nn/utils/_expanded_weights/__init__.py:1:from .conv_expanded_weights import ConvPerSampleGrad
+1963:torch/nn/utils/_expanded_weights/__init__.py:2:from .embedding_expanded_weights import EmbeddingPerSampleGrad
+1964:torch/nn/utils/_expanded_weights/__init__.py:4:from .group_norm_expanded_weights import GroupNormPerSampleGrad
+1965:torch/nn/utils/_expanded_weights/__init__.py:5:from .instance_norm_expanded_weights import InstanceNormPerSampleGrad
+1966:torch/nn/utils/_expanded_weights/__init__.py:6:from .layer_norm_expanded_weights import LayerNormPerSampleGrad
+1967:torch/nn/utils/_expanded_weights/__init__.py:7:from .linear_expanded_weights import LinearPerSampleGrad
+1968:torch/nn/utils/_expanded_weights/conv_expanded_weights.py:25:class ConvPerSampleGrad(torch.autograd.Function):
+1969:torch/nn/utils/_expanded_weights/embedding_expanded_weights.py:15:class EmbeddingPerSampleGrad(torch.autograd.Function):
+1970:torch/nn/utils/_expanded_weights/group_norm_expanded_weights.py:18:class GroupNormPerSampleGrad(torch.autograd.Function):
+1971:torch/nn/utils/_expanded_weights/instance_norm_expanded_weights.py:17:class InstanceNormPerSampleGrad(torch.autograd.Function):
+1972:torch/nn/utils/_expanded_weights/layer_norm_expanded_weights.py:17:class LayerNormPerSampleGrad(torch.autograd.Function):
+1973:torch/nn/utils/_expanded_weights/linear_expanded_weights.py:16:class LinearPerSampleGrad(torch.autograd.Function):
+1984:torch/onnx/_internal/torchscript_exporter/symbolic_opset16.py:9:    GridSample https://github.com/onnx/onnx/pull/3557
+1985:torch/onnx/_internal/torchscript_exporter/symbolic_opset16.py:63:        return symbolic_helper._onnx_unsupported("GridSample with 5D volumetric input")
+1986:torch/onnx/_internal/torchscript_exporter/symbolic_opset16.py:69:        "GridSample",
+1987:torch/onnx/_internal/torchscript_exporter/symbolic_opset20.py:13:    GridSample
+1988:torch/onnx/_internal/torchscript_exporter/symbolic_opset20.py:61:    # mode string changes at https://onnx.ai/onnx/operators/text_diff_GridSample_16_20.html
+1989:torch/onnx/_internal/torchscript_exporter/symbolic_opset20.py:67:        "GridSample",
+1997:torch/testing/_internal/common_cuda.py:61:    # gcnArchName can be complicated strings like gfx90a:sramecc+:xnack-
+2000:torch/testing/_internal/common_jit.py:90:    outputs = self.runAndSaveRNG(reference_func, nograd_inputs, kwargs)
+2001:torch/testing/_internal/common_jit.py:92:        outputs_test = self.runAndSaveRNG(func, nograd_inputs, kwargs)
+2002:torch/testing/_internal/common_jit.py:106:        outputs = output_func(self.runAndSaveRNG(reference_func, recording_inputs, kwargs))
+2003:torch/testing/_internal/common_jit.py:109:        outputs_test = output_func(self.runAndSaveRNG(func, recording_inputs, kwargs))
+2004:torch/testing/_internal/common_jit.py:118:        outputs = output_func(self.runAndSaveRNG(reference_func, recording_inputs, kwargs))
+2005:torch/testing/_internal/common_jit.py:127:        outputs_test = output_func(self.runAndSaveRNG(func, recording_inputs, kwargs))
+2006:torch/testing/_internal/common_jit.py:153:        a = self.runAndSaveRNG(m, inputs)
+2007:torch/testing/_internal/common_jit.py:154:        b = self.runAndSaveRNG(m_import, inputs)
+2008:torch/testing/_internal/common_jit.py:158:    def runAndSaveRNG(self, func, inputs, kwargs=None):
+2009:torch/testing/_internal/common_utils.py:439:                    int.from_bytes(hashlib.sha256(
+2012:torch/testing/_internal/distributed/distributed_test.py:98:from torch.utils.data.distributed import DistributedSampler
+2013:torch/testing/_internal/distributed/distributed_test.py:6657:        def test_DistributedSampler_padding(self):
+2014:torch/testing/_internal/distributed/distributed_test.py:6672:            dist_sampler = DistributedSampler(dataset=dataset, drop_last=True)
+2015:torch/testing/_internal/distributed/distributed_test.py:6705:            dist_sampler_added_samples = DistributedSampler(dataset=dataset)
+2016:torch/testing/_internal/distributed/distributed_test.py:6722:            dist_sampler_added_samples_tiny = DistributedSampler(dataset=dataset_tiny)
+2028:torch/utils/_triton.py:211:                parts.append(f"{name}-{hashlib.sha256(f.read()).hexdigest()}")
+2029:torch/utils/_triton.py:223:    return hashlib.sha256(key.encode("utf-8")).hexdigest().upper()
+2030:torch/utils/collect_env.py:99:    "oneccl",
+2031:torch/utils/collect_env.py:100:    "oneccl-devel",
+2032:torch/utils/collect_env.py:456:#                             pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand
+2033:torch/utils/collect_env.py:460:#                             xsaves wbnoinvd ida arat avx512vbmi pku ospke avx512_vbmi2 gfni vaes vpclmulqdq
+2035:torch/utils/data/__init__.py:32:from torch.utils.data.distributed import DistributedSampler
+2036:torch/utils/data/__init__.py:51:    "DistributedSampler",
+2037:torch/utils/data/distributed.py:11:__all__ = ["DistributedSampler"]
+2038:torch/utils/data/distributed.py:17:class DistributedSampler(Sampler[_T_co]):
+2039:torch/utils/data/distributed.py:22:    process can pass a :class:`~torch.utils.data.DistributedSampler` instance as a
+2040:torch/utils/data/distributed.py:57:        >>> sampler = DistributedSampler(dataset) if is_distributed else None
+2041:torch/utils/hipify/cuda_to_hip_mappings.py:440:    ("CUDA_ERROR_ECC_UNCORRECTABLE", "hipErrorECCNotCorrectable"),
+2042:torch/utils/hipify/cuda_to_hip_mappings.py:441:    ("cudaErrorECCUncorrectable", "hipErrorECCNotCorrectable"),
+2043:torch/utils/hipify/cuda_to_hip_mappings.py:548:    ("CU_TRSA_OVERRIDE_FORMAT", "HIP_TRSA_OVERRIDE_FORMAT"),
+2044:torch/utils/hipify/cuda_to_hip_mappings.py:594:    ("CU_DEVICE_ATTRIBUTE_ECC_ENABLED", "hipDeviceAttributeEccEnabled"),
+2045:torch/utils/hipify/cuda_to_hip_mappings.py:1431:    ("cudaGraphExecChildGraphNodeSetParams", "hipGraphExecChildGraphNodeSetParams"),
+2046:torch/utils/hipify/cuda_to_hip_mappings.py:1596:    ("cudaDevAttrEccEnabled", "hipDeviceAttributeEccEnabled"),
+2047:torch/utils/hipify/cuda_to_hip_mappings.py:2624:    ("cufftExecC2C", "hipfftExecC2C"),
+2048:torch/utils/hipify/cuda_to_hip_mappings.py:2626:    ("cufftExecC2R", "hipfftExecC2R"),
+2049:torch/utils/hipify/cuda_to_hip_mappings.py:2786:    ("cusparseCcsrmm2", "hipsparseCcsrmm2"),
+2050:torch/utils/hipify/cuda_to_hip_mappings.py:2790:    ("cusparseCcsrmm", "hipsparseCcsrmm"),
+2051:torch/utils/hipify/cuda_to_hip_mappings.py:2802:    ("cusparseCcsrgemm", "hipsparseCcsrgemm"),
+2052:torch/utils/hipify/cuda_to_hip_mappings.py:2808:    ("cusparseCcsrgeam", "hipsparseCcsrgeam"),
+2053:torch/utils/hipify/cuda_to_hip_mappings.py:2812:    ("cusparseCcsrgeam2_bufferSizeExt", "hipsparseCcsrgeam2_bufferSizeExt"),
+2054:torch/utils/hipify/cuda_to_hip_mappings.py:2816:    ("cusparseCcsrgeam2", "hipsparseCcsrgeam2"),
+2055:torch/utils/hipify/cuda_to_hip_mappings.py:2834:    ("cusparseCcsrmv", "hipsparseCcsrmv"),
+2056:torch/utils/hipify/cuda_to_hip_mappings.py:2844:    ("cusparseCcsrsv2_bufferSize", "hipsparseCcsrsv2_bufferSize"),
+2057:torch/utils/hipify/cuda_to_hip_mappings.py:2848:    ("cusparseCcsrsv2_analysis", "hipsparseCcsrsv2_analysis"),
+2058:torch/utils/hipify/cuda_to_hip_mappings.py:2852:    ("cusparseCcsrsv2_solve", "hipsparseCcsrsv2_solve"),
+2059:torch/utils/hipify/cuda_to_hip_mappings.py:2859:    ("cusparseCcsrsm2_bufferSizeExt", "hipsparseCcsrsm2_bufferSizeExt"),
+2060:torch/utils/hipify/cuda_to_hip_mappings.py:2863:    ("cusparseCcsrsm2_analysis", "hipsparseCcsrsm2_analysis"),
+2061:torch/utils/hipify/cuda_to_hip_mappings.py:2867:    ("cusparseCcsrsm2_solve", "hipsparseCcsrsm2_solve"),
+2062:torch/utils/hipify/cuda_to_hip_mappings.py:2872:    ("cusparseCcsrgemm2_bufferSizeExt", "hipsparseCcsrgemm2_bufferSizeExt"),
+2063:torch/utils/hipify/cuda_to_hip_mappings.py:2874:    ("cusparseCcsrgemm2", "hipsparseCcsrgemm2"),
+2064:torch/utils/hipify/cuda_to_hip_mappings.py:2878:    ("cusparseCcsc2dense", "hipsparseCcsc2dense"),
+2065:torch/utils/hipify/cuda_to_hip_mappings.py:2883:    ("cusparseCcsr2csc", "hipsparseCcsr2csc"),
+2066:torch/utils/hipify/cuda_to_hip_mappings.py:2887:    ("cusparseCcsr2dense", "hipsparseCcsr2dense"),
+2067:torch/utils/hipify/cuda_to_hip_mappings.py:2895:    ("cusparseCcsr2csr_compress", "hipsparseCcsr2csr_compress"),
+2068:torch/utils/hipify/cuda_to_hip_mappings.py:2922:    ("cusparseCcsrilu02_numericBoost", "hipsparseCcsrilu02_numericBoost"),
+2069:torch/utils/hipify/cuda_to_hip_mappings.py:2927:    ("cusparseCcsrilu02_bufferSize", "hipsparseCcsrilu02_bufferSize"),
+2070:torch/utils/hipify/cuda_to_hip_mappings.py:2931:    ("cusparseCcsrilu02_analysis", "hipsparseCcsrilu02_analysis"),
+2071:torch/utils/hipify/cuda_to_hip_mappings.py:2935:    ("cusparseCcsrilu02", "hipsparseCcsrilu02"),
+2072:torch/utils/hipify/cuda_to_hip_mappings.py:2957:    ("cusparseCcsric02_bufferSize", "hipsparseCcsric02_bufferSize"),
+2073:torch/utils/hipify/cuda_to_hip_mappings.py:2961:    ("cusparseCcsric02_analysis", "hipsparseCcsric02_analysis"),
+2074:torch/utils/hipify/cuda_to_hip_mappings.py:2965:    ("cusparseCcsric02", "hipsparseCcsric02"),
+2076:torchgen/api/lazy.py:92:            if properties.TreatScalarsAsConstants:
+2077:torchgen/api/lazy.py:160:        treat_scalars_as_constants = properties and properties.TreatScalarsAsConstants
+2078:torchgen/api/lazy.py:275:            "TreatScalarsAsConstants",  # Treat Scalars as constants instead of handling like values

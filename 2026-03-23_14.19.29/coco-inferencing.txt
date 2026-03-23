@@ -1,0 +1,22 @@
+1:Makefile:36:	openssl genpkey -algorithm RSA -out private.pem -pkeyopt rsa_keygen_bits:4096
+2:Makefile:37:	openssl rsa -pubout -in private.pem -out public.pem
+3:Makefile:40:	@if [ ! -f ~/.ssh/id_rsa ]; then \
+4:Makefile:42:		ssh-keygen -t rsa -b 4096 -C "coco-inferencing@$(shell hostname)" -f ~/.ssh/id_rsa -N ""; \
+5:Makefile:44:		echo "SSH keypair already exists at ~/.ssh/id_rsa"; \
+6:Makefile:49:	@if [ -f ~/.ssh/id_rsa.pub ]; then \
+7:Makefile:50:		cp ~/.ssh/id_rsa.pub ./model-downloader/authorized_keys; \
+8:README.org:60:BLOBDIR=${REGDIR}/blobs/sha256
+9:README.org:78:openssl genpkey -algorithm RSA -out private.pem -pkeyopt rsa_keygen_bits:4096
+10:README.org:79:openssl rsa -pubout -in private.pem -out public.pem
+11:build-instructions.md:32:# Generate RSA keypair for model encryption
+12:build-instructions.md:114:1. **Model Preparation**: HuggingFace model → modctl OCI artifact → encrypted with RSA key
+13:modctl-to-oci.sh:21:BLOBDIR=${MODCTL_REGDIR}/blobs/sha256
+14:model-downloader/authorized_keys:3:# ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC... your-email@example.com
+15:model-downloader/authorized_keys:6:# ssh-keygen -t rsa -b 4096 -C "your-email@example.com"
+16:model-downloader/authorized_keys:7:# Then copy the contents of ~/.ssh/id_rsa.pub to this file
+17:model-downloader/download-model.sh:94:    layer_file="${layer:7}"  # Remove 'sha256:' prefix
+18:model-downloader/sshd_config:6:HostKey /etc/ssh/ssh_host_rsa_key
+19:model-downloader/sshd_config:7:HostKey /etc/ssh/ssh_host_ecdsa_key
+20:model-downloader/sshd_config:8:HostKey /etc/ssh/ssh_host_ed25519_key
+21:setup-ssh-access.md:7:   ssh-keygen -t rsa -b 4096 -C "your-email@example.com"
+22:setup-ssh-access.md:12:   cat ~/.ssh/id_rsa.pub >> authorized_keys

@@ -1,0 +1,277 @@
+1:.github/actions/install-dependency/action.yml:47:        DEPENDENCY_CACHE_KEY="${{ inputs.package }}-$PYTHON_VERSION-$(echo ${{ steps.commit-id.outputs.commit_id }} ${{ inputs.extra-cache-key }} | sha256sum - | cut -d\  -f1)"
+2:.github/actions/setup-pytorch/action.yml:84:        ONEAPI_KEY=$(sha256sum /opt/intel/installed.txt 2> /dev/null | cut -d\  -f1 || true)
+3:.github/actions/setup-pytorch/action.yml:85:        PYTORCH_CACHE_KEY=$(echo $PYTHON_VERSION $PYTORCH_COMMIT_ID ${{ hashFiles('scripts/patch-pytorch.sh') }} ${{ inputs.mode }}${ONEAPI_KEY}${ONEAPI_LINK} | sha256sum - | cut -d\  -f1)
+4:.github/actions/setup-triton/action.yml:30:        LLVM_CACHE_KEY=$(echo $LLVM_COMMIT_ID ${{ inputs.use_spirv_backend }} | sha256sum - | cut -d\  -f1)
+5:.github/actions/setup-triton/action.yml:84:        TRITON_CACHE_KEY="$(sha256sum setup.py | cut -d\  -f1)"
+6:.github/workflows/build-macos.yml:47:          echo "nvidia=$(sha256sum $nvidia_file | cut -d ' ' -f 1)" >> $GITHUB_OUTPUT
+7:.github/workflows/build-test-windows.yml:120:          Invoke-BatchFile "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\Build\vcvarsall.bat" x64
+8:.github/workflows/build-windows.yml:54:          Invoke-BatchFile "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\Build\vcvarsall.bat" x64
+9:.github/workflows/e2e-reusable.yml:114:          COMPOSITE_KEY=$(echo $PYTHON_VERSION $PYTORCH_VERSION $GITHUB_SHA | sha256sum - | cut -d\  -f1)
+10:.github/workflows/e2e-windows.yml:145:          Invoke-BatchFile "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\Build\vcvarsall.bat" x64
+11:.github/workflows/inductor-tests-windows.yml:123:          Invoke-BatchFile "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\Build\vcvarsall.bat" x64
+15:.github/workflows/integration-tests-amd.yml:73:          echo "nvidia=$(sha256sum $nvidia_file | cut -d ' ' -f 1)" >> $GITHUB_OUTPUT
+16:.github/workflows/integration-tests-nvidia.yml:50:          echo "nvidia=$(sha256sum $nvidia_file | cut -d ' ' -f 1)" >> $GITHUB_OUTPUT
+17:.github/workflows/pip-test-windows.yml:91:          Invoke-BatchFile "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\Build\vcvarsall.bat" x64
+18:.github/workflows/pip-test-windows.yml:118:          Invoke-BatchFile "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\Build\vcvarsall.bat" x64
+19:.github/workflows/pip-test-windows.yml:125:          Invoke-BatchFile "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\Build\vcvarsall.bat" x64
+20:.github/workflows/pip-test-windows.yml:132:          Invoke-BatchFile "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\Build\vcvarsall.bat" x64
+21:.github/workflows/pip-test-windows.yml:139:          Invoke-BatchFile "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\Build\vcvarsall.bat" x64
+22:.github/workflows/pip-test-windows.yml:146:          Invoke-BatchFile "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\Build\vcvarsall.bat" x64
+23:.github/workflows/pip-test-windows.yml:155:          Invoke-BatchFile "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\Build\vcvarsall.bat" x64
+24:.github/workflows/pre-commit.yml:22:          echo "pre_commit_hash=$(sha256sum .pre-commit-config.yaml | cut -d ' ' -f 1)" >> $GITHUB_OUTPUT
+25:.github/workflows/wheels-triton.yml:69:          Invoke-BatchFile "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\Build\vcvarsall.bat" x64
+26:DEVELOPMENT.md:20:### Data Center GPU Max Series (Ponte Vecchio)
+27:bandit.yaml:181:  weak_key_size_dsa_high: 1024
+28:bandit.yaml:182:  weak_key_size_dsa_medium: 2048
+29:bandit.yaml:185:  weak_key_size_rsa_high: 1024
+30:bandit.yaml:186:  weak_key_size_rsa_medium: 2048
+40:benchmarks/third_party/vllm/vllm-fix.patch:1:From 87ecc4f0a92c6192dc3d53bf3ae35d9365586a50 Mon Sep 17 00:00:00 2001
+45:docs/ARCHITECTURE.md:503:* Pytorch distributed modes via oneCCL
+46:docs/ARCHITECTURE.md:529:Going forward, removing SYCL runtime dependency from Triton can be achieved with some joint effort (Triton, upstream work for memory allocation, oneDNN, oneCCL, and runtimes). Without significant changes to runtimes there are two areas of improvement: data allocation and movement API and synchronization with SYCL-based components.
+47:docs/getting-started/architecture.rst:577:* Pytorch distributed modes via oneCCL
+48:docs/getting-started/architecture.rst:604:Going forward, removing SYCL runtime dependency from Triton can be achieved with some joint effort (Triton, upstream work for memory allocation, oneDNN, oneCCL, and runtimes). Without significant changes to runtimes there are two areas of improvement: data allocation and movement API and synchronization with SYCL-based components.
+54:include/triton/Dialect/Gluon/IR/GluonOps.td:15:                                 [SameOperandsAndResultShape,
+55:include/triton/Dialect/Gluon/IR/GluonOps.td:16:                                  SameOperandsAndResultElementType]> {
+56:include/triton/Dialect/Triton/IR/Traits.h:33:verifySameOperandsAndResultEncoding(Operation *op,
+57:include/triton/Dialect/Triton/IR/Traits.h:38:LogicalResult verifySameLoadStoreOperandsAndResultShape(Operation *op);
+58:include/triton/Dialect/Triton/IR/Traits.h:62:class SameOperandsAndResultEncoding
+59:include/triton/Dialect/Triton/IR/Traits.h:63:    : public TraitBase<ConcreteType, SameOperandsAndResultEncoding> {
+60:include/triton/Dialect/Triton/IR/Traits.h:66:    return impl::verifySameOperandsAndResultEncoding(op);
+61:include/triton/Dialect/Triton/IR/Traits.h:89:class SameLoadStoreOperandsAndResultShape
+62:include/triton/Dialect/Triton/IR/Traits.h:90:    : public TraitBase<ConcreteType, SameLoadStoreOperandsAndResultShape> {
+63:include/triton/Dialect/Triton/IR/Traits.h:93:    return impl::verifySameLoadStoreOperandsAndResultShape(op);
+64:include/triton/Dialect/Triton/IR/Traits.h:108:class SameLoadStoreOperandsAndResultEncoding
+65:include/triton/Dialect/Triton/IR/Traits.h:109:    : public TraitBase<ConcreteType, SameLoadStoreOperandsAndResultEncoding> {
+66:include/triton/Dialect/Triton/IR/Traits.h:112:    return impl::verifySameOperandsAndResultEncoding(
+67:include/triton/Dialect/Triton/IR/TritonInterfaces.td:10:def SameOperandsAndResultEncoding : NativeOpTrait<"SameOperandsAndResultEncoding">;
+68:include/triton/Dialect/Triton/IR/TritonInterfaces.td:12:def SameLoadStoreOperandsAndResultShape : NativeOpTrait<"SameLoadStoreOperandsAndResultShape">;
+69:include/triton/Dialect/Triton/IR/TritonInterfaces.td:14:def SameLoadStoreOperandsAndResultEncoding : NativeOpTrait<"SameLoadStoreOperandsAndResultEncoding">;
+70:include/triton/Dialect/Triton/IR/TritonOps.td:14:include "mlir/Interfaces/InferTypeOpInterface.td" // SameOperandsAndResultType
+71:include/triton/Dialect/Triton/IR/TritonOps.td:41:                                         SameOperandsAndResultShape,
+72:include/triton/Dialect/Triton/IR/TritonOps.td:42:                                         SameOperandsAndResultEncoding,
+73:include/triton/Dialect/Triton/IR/TritonOps.td:54:                                         SameOperandsAndResultShape,
+74:include/triton/Dialect/Triton/IR/TritonOps.td:55:                                         SameOperandsAndResultEncoding,
+75:include/triton/Dialect/Triton/IR/TritonOps.td:68:                                     SameOperandsAndResultShape,
+76:include/triton/Dialect/Triton/IR/TritonOps.td:69:                                     SameOperandsAndResultEncoding,
+77:include/triton/Dialect/Triton/IR/TritonOps.td:82:                                     SameOperandsAndResultShape,
+78:include/triton/Dialect/Triton/IR/TritonOps.td:83:                                     SameOperandsAndResultEncoding,
+79:include/triton/Dialect/Triton/IR/TritonOps.td:112:                                   SameOperandsAndResultType,
+80:include/triton/Dialect/Triton/IR/TritonOps.td:143:                                              SameOperandsAndResultType,
+81:include/triton/Dialect/Triton/IR/TritonOps.td:159:                                              SameOperandsAndResultType,
+82:include/triton/Dialect/Triton/IR/TritonOps.td:175:                                     SameOperandsAndResultType,
+83:include/triton/Dialect/Triton/IR/TritonOps.td:196:                         SameOperandsAndResultShape,
+84:include/triton/Dialect/Triton/IR/TritonOps.td:197:                         SameOperandsAndResultEncoding,
+85:include/triton/Dialect/Triton/IR/TritonOps.td:227:  SameLoadStoreOperandsAndResultShape,
+86:include/triton/Dialect/Triton/IR/TritonOps.td:228:  SameLoadStoreOperandsAndResultEncoding,
+87:include/triton/Dialect/Triton/IR/TritonOps.td:351:  SameOperandsAndResultShape,
+88:include/triton/Dialect/Triton/IR/TritonOps.td:352:  SameOperandsAndResultEncoding,
+89:include/triton/Dialect/Triton/IR/TritonOps.td:387:  SameOperandsAndResultShape,
+90:include/triton/Dialect/Triton/IR/TritonOps.td:388:  SameOperandsAndResultEncoding,
+91:include/triton/Dialect/Triton/IR/TritonOps.td:428:                                 SameOperandsAndResultElementType,
+92:include/triton/Dialect/Triton/IR/TritonOps.td:429:                                 SameOperandsAndResultEncoding]> {
+93:include/triton/Dialect/Triton/IR/TritonOps.td:453:                                            SameOperandsAndResultElementType]> {
+94:include/triton/Dialect/Triton/IR/TritonOps.td:467:                                     SameOperandsAndResultElementType]> {
+95:include/triton/Dialect/Triton/IR/TritonOps.td:492:                                         SameOperandsAndResultElementType,
+96:include/triton/Dialect/Triton/IR/TritonOps.td:493:                                         SameOperandsAndResultEncoding]> {
+97:include/triton/Dialect/Triton/IR/TritonOps.td:516:                             SameOperandsAndResultElementType]> {
+98:include/triton/Dialect/Triton/IR/TritonOps.td:569:                                 SameOperandsAndResultElementType]> {
+99:include/triton/Dialect/Triton/IR/TritonOps.td:775:                        SameOperandsAndResultEncoding,
+100:include/triton/Dialect/Triton/IR/TritonOps.td:776:                        SameOperandsAndResultShape,
+101:include/triton/Dialect/Triton/IR/TritonOps.td:805:def TT_MapElementwiseOp: TT_Op<"map_elementwise", [SameOperandsAndResultEncoding,
+102:include/triton/Dialect/Triton/IR/TritonOps.td:806:                                                   SameOperandsAndResultShape,
+103:include/triton/Dialect/Triton/IR/TritonOps.td:827:                                                          SameOperandsAndResultEncoding,
+104:include/triton/Dialect/Triton/IR/TritonOps.td:881:  SameOperandsAndResultEncoding,
+105:include/triton/Dialect/TritonGPU/IR/TritonGPUOps.td:15:include "mlir/Interfaces/InferTypeOpInterface.td"  // SameOperandsAndResultType
+106:include/triton/Dialect/TritonGPU/IR/TritonGPUOps.td:31:                                 [SameOperandsAndResultShape,
+107:include/triton/Dialect/TritonGPU/IR/TritonGPUOps.td:32:                                  SameOperandsAndResultElementType,
+108:include/triton/Dialect/TritonGPU/IR/TritonGPUOps.td:254:                                                  SameOperandsAndResultElementType]> {
+109:include/triton/Dialect/TritonGPU/IR/TritonGPUOps.td:276:                                                      SameOperandsAndResultElementType]> {
+110:include/triton/Dialect/TritonGPU/Transforms/MMAv5PipelineUtility.h:29:bool hasLoadsAfterMMA(MMAv5OpInterface mma, scf::ForOp forOp);
+111:include/triton/Dialect/TritonGPU/Transforms/Utility.h:214:getSharedEncIfAllUsersAreDotEnc(Value val, bool &incompatible);
+112:include/triton/Dialect/TritonInstrument/IR/Utility.h:65:  void getBuffersAndBarriers(ModuleOp module,
+113:include/triton/Dialect/TritonNvidiaGPU/IR/TritonNvidiaGPUOps.td:37:include "mlir/Interfaces/InferTypeOpInterface.td" // SameOperandsAndResultType
+114:include/triton/Dialect/TritonNvidiaGPU/IR/TritonNvidiaGPUOps.td:460:    $pred `` custom<BarriersAndPreds>($barriers, $barrier_preds)
+115:include/triton/Dialect/TritonNvidiaGPU/IR/TritonNvidiaGPUOps.td:527:    `` custom<BarriersAndPreds>($barriers, $barrier_preds)
+117:lib/Conversion/TritonGPUToLLVM/FuncOpToLLVM.cpp:42:          (filterArgAttrs && attr.getName() == op.getArgAttrsAttrName()))
+118:lib/Conversion/TritonGPUToLLVM/FuncOpToLLVM.cpp:89:          rewriter.getNamedAttr(funcOp.getArgAttrsAttrName(),
+120:lib/Dialect/Triton/IR/Ops.cpp:908:  // Strip tensor shapes; SameOperandsAndResultShape guarantees shapes match.
+121:lib/Dialect/Triton/IR/Ops.cpp:1056:      getArgAttrsAttrName(state.name), getResAttrsAttrName(state.name));
+122:lib/Dialect/Triton/IR/Ops.cpp:1068:      getArgAttrsAttrName(result.name), getResAttrsAttrName(result.name));
+123:lib/Dialect/Triton/IR/Ops.cpp:1074:      getArgAttrsAttrName(), getResAttrsAttrName());
+124:lib/Dialect/Triton/IR/Traits.cpp:101:LogicalResult OpTrait::impl::verifySameOperandsAndResultEncoding(
+125:lib/Dialect/Triton/IR/Traits.cpp:237:OpTrait::impl::verifySameLoadStoreOperandsAndResultShape(Operation *op) {
+126:lib/Dialect/TritonGPU/IR/Dialect.cpp:1025:  // We can either have BroadcastOp with SameOperandsAndResultEncoding, or keep
+131:lib/Dialect/TritonGPU/Transforms/Pipeliner/AssignLatencies.cpp:96:    getSharedEncIfAllUsersAreDotEnc(op.getResult(), incompatible);
+132:lib/Dialect/TritonGPU/Transforms/Pipeliner/AssignLatencies.cpp:181:             !ttng::hasLoadsAfterMMA(mma, forOp))) {
+133:lib/Dialect/TritonGPU/Transforms/Pipeliner/MMAv5PipelineUtility.cpp:271:bool ttng::hasLoadsAfterMMA(ttng::MMAv5OpInterface mma, scf::ForOp forOp) {
+134:lib/Dialect/TritonGPU/Transforms/Pipeliner/PipeliningUtility.cpp:654:      getSharedEncIfAllUsersAreDotEnc(op->getResult(0), incompatible)
+135:lib/Dialect/TritonGPU/Transforms/RemoveLayoutConversions.cpp:308:    if (user->hasTrait<OpTrait::SameOperandsAndResultEncoding>() ||
+136:lib/Dialect/TritonGPU/Transforms/RemoveLayoutConversions.cpp:736:  if (op->hasTrait<OpTrait::SameOperandsAndResultEncoding>() ||
+137:lib/Dialect/TritonGPU/Transforms/Utility.cpp:530:  if (op->hasTrait<mlir::OpTrait::SameOperandsAndResultEncoding>() ||
+138:lib/Dialect/TritonGPU/Transforms/Utility.cpp:531:      op->hasTrait<mlir::OpTrait::SameLoadStoreOperandsAndResultEncoding>() ||
+139:lib/Dialect/TritonGPU/Transforms/Utility.cpp:566:  if (op->hasTrait<mlir::OpTrait::SameOperandsAndResultEncoding>() ||
+140:lib/Dialect/TritonGPU/Transforms/Utility.cpp:567:      op->hasTrait<mlir::OpTrait::SameLoadStoreOperandsAndResultEncoding>() ||
+141:lib/Dialect/TritonGPU/Transforms/Utility.cpp:1128:getSharedEncIfAllUsersAreDotEnc(Value val, bool &incompatible) {
+142:lib/Dialect/TritonGPU/Transforms/Utility.cpp:1143:      if (!getSharedEncIfAllUsersAreDotEnc(user->getResult(0), incompatible)
+143:lib/Dialect/TritonGPU/Transforms/WarpSpecialization/PartitionScheduling.cpp:173:  SmallVector<Operation *> loadsAndAllocs;
+144:lib/Dialect/TritonGPU/Transforms/WarpSpecialization/PartitionScheduling.cpp:179:    loadsAndAllocs.push_back(&op);
+145:lib/Dialect/TritonGPU/Transforms/WarpSpecialization/PartitionScheduling.cpp:188:          loadsAndAllocs.push_back(alloc);
+146:lib/Dialect/TritonGPU/Transforms/WarpSpecialization/PartitionScheduling.cpp:192:        loadsAndAllocs.push_back(user);
+147:lib/Dialect/TritonGPU/Transforms/WarpSpecialization/PartitionScheduling.cpp:241:  if (loadsAndAllocs.empty() && mmas.empty())
+148:lib/Dialect/TritonGPU/Transforms/WarpSpecialization/PartitionScheduling.cpp:260:  for (Operation *loadOrAlloc : loadsAndAllocs)
+150:lib/Dialect/TritonInstrument/IR/Utility.cpp:361:  getBuffersAndBarriers(module, bufValues, barrierValues);
+151:lib/Dialect/TritonInstrument/IR/Utility.cpp:470:void AuxDataMap::getBuffersAndBarriers(
+152:lib/Dialect/TritonNvidiaGPU/IR/Ops.cpp:239:parseBarriersAndPreds(OpAsmParser &p,
+153:lib/Dialect/TritonNvidiaGPU/IR/Ops.cpp:249:static void printBarriersAndPreds(OpAsmPrinter &p, Operation *op,
+154:python/test/backend/test_device_backend.py:57:        key = hashlib.sha256(src.encode("utf-8")).hexdigest()
+155:python/triton/compiler/compiler.py:76:        return hashlib.sha256(key.encode("utf-8")).hexdigest()
+156:python/triton/compiler/compiler.py:115:        return hashlib.sha256(self.src.encode("utf-8")).hexdigest()
+157:python/triton/compiler/compiler.py:252:    hash = hashlib.sha256(key.encode("utf-8")).hexdigest()
+158:python/triton/runtime/autotuner.py:190:        cache_key = hashlib.sha256("-".join(cache_key).encode("utf-8")).hexdigest()
+159:python/triton/runtime/build.py:130:    key = hashlib.sha256((src + platform_key()).encode("utf-8")).hexdigest()
+160:python/triton/runtime/cache.py:275:    key = hashlib.sha256(key.encode("utf-8")).hexdigest()
+161:python/triton/runtime/cache.py:286:        contents += [hashlib.sha256(f.read()).hexdigest()]
+162:python/triton/runtime/cache.py:295:                contents += [hashlib.sha256(f.read()).hexdigest()]
+163:python/triton/runtime/cache.py:298:    libtriton_hash = hashlib.sha256()
+164:python/triton/runtime/cache.py:311:            contents += [hashlib.sha256(f.read()).hexdigest()]
+165:python/triton/runtime/jit.py:49:        self.hasher = hashlib.sha256(src.encode("utf-8"))
+166:python/triton/runtime/jit.py:498:            self.hash = hashlib.sha256(self.hash.encode("utf-8")).hexdigest()
+167:python/triton/tools/compile.py:106:        m = hashlib.sha256()
+168:python/tutorials/04-low-memory-dropout.py:174:# .. [SALMON2011] John K. Salmon, Mark A. Moraes, Ron O. Dror, and David E. Shaw, "Parallel Random Numbers: As Easy as 1, 2, 3", 2011
+170:scripts/install-pti.sh:44:  LEVEL_ZERO_SHA256=b77e6e28623134ee4e99e2321c127b554bdd5bfa3e80064922eba293041c6c52
+171:scripts/install-pti.sh:47:  echo "${LEVEL_ZERO_SHA256}  v${LEVEL_ZERO_VERSION}.tar.gz" > "v${LEVEL_ZERO_VERSION}.tar.gz.sha256"
+172:scripts/install-pti.sh:48:  sha256sum -c "v${LEVEL_ZERO_VERSION}.tar.gz.sha256"
+173:test/TritonGPU/amd/amd-canonicalize-pointers-dont-run-mlir-canonicalizer.mlir:58:  tt.func @ifOpTwoYieldsAndNonPtr(%arg0: !tt.ptr<f32>, %arg1: tensor<1024xf32>, %arg2: i1) -> (tensor<1024xf32>, tensor<1024xf32>, i32) {
+174:test/TritonGPU/amd/amd-canonicalize-pointers-dont-run-mlir-canonicalizer.mlir:80:// CHECK-LABEL:   tt.func @ifOpTwoYieldsAndNonPtr(
+175:test/TritonGPU/amd/amd-canonicalize-pointers-dont-run-mlir-canonicalizer.mlir:112:  tt.func @ifOpTwoYieldsAndNonPtrReordered(%arg0: !tt.ptr<f32>, %arg1: tensor<1024xf32>, %arg2: i1) -> (tensor<1024xf32>, tensor<1024xf32>, i32) {
+176:test/TritonGPU/amd/amd-canonicalize-pointers-dont-run-mlir-canonicalizer.mlir:134:// CHECK-LABEL:   tt.func @ifOpTwoYieldsAndNonPtrReordered(
+180:third_party/amd/backend/compiler.py:96:        return hashlib.sha256(key.encode("utf-8")).hexdigest()
+181:third_party/amd/backend/include/hip/amd_detail/hip_api_trace.hpp:310:typedef hipError_t (*t_hipGraphExecChildGraphNodeSetParams)(hipGraphExec_t hGraphExec,
+182:third_party/amd/backend/include/hip/amd_detail/hip_api_trace.hpp:1132:  t_hipGraphExecChildGraphNodeSetParams hipGraphExecChildGraphNodeSetParams_fn;
+183:third_party/amd/backend/include/hip/amd_detail/hip_prof_str.h:286:  HIP_API_ID_hipGraphExecChildGraphNodeSetParams = 266,
+184:third_party/amd/backend/include/hip/amd_detail/hip_prof_str.h:595:    case HIP_API_ID_hipGraphExecChildGraphNodeSetParams: return "hipGraphExecChildGraphNodeSetParams";
+185:third_party/amd/backend/include/hip/amd_detail/hip_prof_str.h:989:  if (strcmp("hipGraphExecChildGraphNodeSetParams", name) == 0) return HIP_API_ID_hipGraphExecChildGraphNodeSetParams;
+186:third_party/amd/backend/include/hip/amd_detail/hip_prof_str.h:2007:    } hipGraphExecChildGraphNodeSetParams;
+187:third_party/amd/backend/include/hip/amd_detail/hip_prof_str.h:4313:// hipGraphExecChildGraphNodeSetParams[('hipGraphExec_t', 'hGraphExec'), ('hipGraphNode_t', 'node'), ('hipGraph_t', 'childGraph')]
+188:third_party/amd/backend/include/hip/amd_detail/hip_prof_str.h:4314:#define INIT_hipGraphExecChildGraphNodeSetParams_CB_ARGS_DATA(cb_data) { \
+189:third_party/amd/backend/include/hip/amd_detail/hip_prof_str.h:4315:  cb_data.args.hipGraphExecChildGraphNodeSetParams.hGraphExec = (hipGraphExec_t)hGraphExec; \
+190:third_party/amd/backend/include/hip/amd_detail/hip_prof_str.h:4316:  cb_data.args.hipGraphExecChildGraphNodeSetParams.node = (hipGraphNode_t)node; \
+191:third_party/amd/backend/include/hip/amd_detail/hip_prof_str.h:4317:  cb_data.args.hipGraphExecChildGraphNodeSetParams.childGraph = (hipGraph_t)childGraph; \
+192:third_party/amd/backend/include/hip/amd_detail/hip_prof_str.h:6508:// hipGraphExecChildGraphNodeSetParams[('hipGraphExec_t', 'hGraphExec'), ('hipGraphNode_t', 'node'), ('hipGraph_t', 'childGraph')]
+193:third_party/amd/backend/include/hip/amd_detail/hip_prof_str.h:6509:    case HIP_API_ID_hipGraphExecChildGraphNodeSetParams:
+194:third_party/amd/backend/include/hip/amd_detail/hip_prof_str.h:8520:    case HIP_API_ID_hipGraphExecChildGraphNodeSetParams:
+195:third_party/amd/backend/include/hip/amd_detail/hip_prof_str.h:8521:      oss << "hipGraphExecChildGraphNodeSetParams(";
+196:third_party/amd/backend/include/hip/amd_detail/hip_prof_str.h:8522:      oss << "hGraphExec="; roctracer::hip_support::detail::operator<<(oss, data->args.hipGraphExecChildGraphNodeSetParams.hGraphExec);
+197:third_party/amd/backend/include/hip/amd_detail/hip_prof_str.h:8523:      oss << ", node="; roctracer::hip_support::detail::operator<<(oss, data->args.hipGraphExecChildGraphNodeSetParams.node);
+198:third_party/amd/backend/include/hip/amd_detail/hip_prof_str.h:8524:      oss << ", childGraph="; roctracer::hip_support::detail::operator<<(oss, data->args.hipGraphExecChildGraphNodeSetParams.childGraph);
+199:third_party/amd/backend/include/hip/driver_types.h:53:#define HIP_TRSA_OVERRIDE_FORMAT 0x01
+200:third_party/amd/backend/include/hip/hip_deprecated.h:58:  int ECCEnabled;                 ///< Device has ECC support enabled
+201:third_party/amd/backend/include/hip/hip_runtime_api.h:153:    int ECCEnabled;                ///< Device has ECC support enabled
+202:third_party/amd/backend/include/hip/hip_runtime_api.h:327:    hipErrorECCNotCorrectable = 214,
+203:third_party/amd/backend/include/hip/hip_runtime_api.h:410:    hipDeviceAttributeEccEnabled = hipDeviceAttributeCudaCompatibleBegin, ///< Whether ECC support is enabled.
+204:third_party/amd/backend/include/hip/hip_runtime_api.h:6322: * @param [in] flags  Flags should be set as HIP_TRSA_OVERRIDE_FORMAT, as a valid value.
+205:third_party/amd/backend/include/hip/hip_runtime_api.h:6747: * @param [in] Flags  Flags should be set as HIP_TRSA_OVERRIDE_FORMAT, as a valid value.
+206:third_party/amd/backend/include/hip/hip_runtime_api.h:7747:hipError_t hipGraphExecChildGraphNodeSetParams(hipGraphExec_t hGraphExec, hipGraphNode_t node,
+207:third_party/amd/backend/include/hsa/amd_hsa_elf.h:168:  // Indicates if the "sramecc" target feature is enabled for all code
+208:third_party/amd/backend/include/hsa/amd_hsa_elf.h:172:  EF_AMDGPU_FEATURE_SRAMECC_V3 = 0x200,
+209:third_party/amd/backend/include/hsa/amd_hsa_elf.h:187:  // SRAMECC selection mask for EF_AMDGPU_FEATURE_SRAMECC_* values.
+210:third_party/amd/backend/include/hsa/amd_hsa_elf.h:190:  EF_AMDGPU_FEATURE_SRAMECC_V4 = 0xc00,
+211:third_party/amd/backend/include/hsa/amd_hsa_elf.h:191:  // SRAMECC is not supported.
+212:third_party/amd/backend/include/hsa/amd_hsa_elf.h:192:  EF_AMDGPU_FEATURE_SRAMECC_UNSUPPORTED_V4 = 0x000,
+213:third_party/amd/backend/include/hsa/amd_hsa_elf.h:193:  // SRAMECC is any/default/unspecified.
+214:third_party/amd/backend/include/hsa/amd_hsa_elf.h:194:  EF_AMDGPU_FEATURE_SRAMECC_ANY_V4 = 0x400,
+215:third_party/amd/backend/include/hsa/amd_hsa_elf.h:195:  // SRAMECC is off.
+216:third_party/amd/backend/include/hsa/amd_hsa_elf.h:196:  EF_AMDGPU_FEATURE_SRAMECC_OFF_V4 = 0x800,
+217:third_party/amd/backend/include/hsa/amd_hsa_elf.h:197:  // SRAMECC is on.
+218:third_party/amd/backend/include/hsa/amd_hsa_elf.h:198:  EF_AMDGPU_FEATURE_SRAMECC_ON_V4 = 0xc00,
+230:third_party/amd/backend/include/hsa/hsa_ext_amd.h:2304:  // DRAM ECC failure.
+231:third_party/amd/backend/include/hsa/hsa_ext_amd.h:2305:  HSA_AMD_MEMORY_FAULT_DRAMECC = 1 << 4,
+232:third_party/amd/backend/include/hsa/hsa_ext_amd.h:2308:  // SRAM ECC failure (ie registers, no fault address).
+233:third_party/amd/backend/include/hsa/hsa_ext_amd.h:2309:  HSA_AMD_MEMORY_FAULT_SRAMECC = 1 << 6,
+234:third_party/amd/backend/include/hsa/hsa_ext_amd.h:2347:  // SRAM ECC
+235:third_party/amd/backend/include/hsa/hsa_ext_amd.h:2348:  HSA_AMD_HW_EXCEPTION_CAUSE_ECC = 1 << 1,
+244:third_party/amd/backend/include/roctracer/hip_ostream_ops.h:546:    if (std::string("hipDeviceProp_tR0600::ECCEnabled").find(HIP_structs_regex) != std::string::npos)   {
+245:third_party/amd/backend/include/roctracer/hip_ostream_ops.h:547:      std::operator<<(out, "ECCEnabled=");
+246:third_party/amd/backend/include/roctracer/hip_ostream_ops.h:548:      roctracer::hip_support::detail::operator<<(out, v.ECCEnabled);
+247:third_party/amd/backend/include/roctracer/hip_ostream_ops.h:3649:    if (std::string("hipDeviceProp_tR0000::ECCEnabled").find(HIP_structs_regex) != std::string::npos)   {
+248:third_party/amd/backend/include/roctracer/hip_ostream_ops.h:3650:      std::operator<<(out, "ECCEnabled=");
+249:third_party/amd/backend/include/roctracer/hip_ostream_ops.h:3651:      roctracer::hip_support::detail::operator<<(out, v.ECCEnabled);
+251:third_party/amd/include/Dialect/TritonAMDGPU/IR/TritonAMDGPUOps.td:284:  SameLoadStoreOperandsAndResultEncoding,
+252:third_party/amd/include/Dialect/TritonAMDGPU/IR/TritonAMDGPUOps.td:366:  SameLoadStoreOperandsAndResultEncoding,
+253:third_party/amd/include/Dialect/TritonAMDGPU/IR/TritonAMDGPUOps.td:412:  SameLoadStoreOperandsAndResultEncoding,
+254:third_party/amd/include/Dialect/TritonAMDGPU/IR/TritonAMDGPUOps.td:613:    SameOperandsAndResultShape,
+255:third_party/amd/include/Dialect/TritonAMDGPU/IR/TritonAMDGPUOps.td:614:    SameOperandsAndResultEncoding,
+256:third_party/amd/lib/TritonAMDGPUDialectToLLVM/ConcatOpToLLVM.cpp:105:      auto elemCoordsArray =
+257:third_party/amd/lib/TritonAMDGPUDialectToLLVM/ConcatOpToLLVM.cpp:112:              elemCoordsArray, srcShape, std::divides<unsigned>());
+258:third_party/amd/lib/TritonAMDGPUToLLVM/LoadStoreOpToLLVM.cpp:537:    Value ldsAddr = b.gep(ptrTy, vecTy, shmemAddr, laneId);
+259:third_party/amd/lib/TritonAMDGPUToLLVM/LoadStoreOpToLLVM.cpp:539:      ldsAddr = b.gep(ptrTy, vecTy, ldsAddr, swizzleLaneOffset);
+260:third_party/amd/lib/TritonAMDGPUToLLVM/LoadStoreOpToLLVM.cpp:540:    llStore(rewriter, loc, ldsAddr, storeVal, b.icmp_ne(mask, b.true_val()),
+261:third_party/amd/lib/TritonAMDGPUToLLVM/TDMUtility.cpp:178:  Value ldsAddr = b.ptrtoint(i32_ty, dstPtr);
+262:third_party/amd/lib/TritonAMDGPUToLLVM/TDMUtility.cpp:180:  group0[1] = ldsAddr;
+275:third_party/amd/lib/TritonAMDGPUTransforms/LowerLoops.cpp:129:// lib/Dialect/TritonGPU/Transforms/Utility.cpp::getSharedEncIfAllUsersAreDotEnc
+276:third_party/amd/lib/TritonAMDGPUTransforms/LowerLoops.cpp:136:std::optional<ttg::SharedEncodingTrait> getSharedEncIfAllUsersAreDotEnc(
+277:third_party/amd/lib/TritonAMDGPUTransforms/LowerLoops.cpp:143:    LDBG(" getSharedEncIfAllUsersAreDotEnc current user: " << *user);
+278:third_party/amd/lib/TritonAMDGPUTransforms/LowerLoops.cpp:157:          !getSharedEncIfAllUsersAreDotEnc(user, axisInfoAnalysis, targetInfo,
+279:third_party/amd/lib/TritonAMDGPUTransforms/LowerLoops.cpp:765:          getSharedEncIfAllUsersAreDotEnc(load, axisInfoAnalysis, targetInfo,
+281:third_party/intel/backend/compiler.py:63:        return hashlib.sha256(key.encode("utf-8")).hexdigest()
+282:third_party/intel/backend/driver.py:266:    hasher = hashlib.sha256(__CACHE_VERSION.encode("utf-8"))
+284:third_party/intel/backend/proton/include/pti/pti_runtime_sycl_api_ids.h:115:    urSamplerCreate_id=101,
+285:third_party/intel/backend/proton/include/pti/pti_runtime_sycl_api_ids.h:116:    urSamplerRetain_id=102,
+286:third_party/intel/backend/proton/include/pti/pti_runtime_sycl_api_ids.h:117:    urSamplerRelease_id=103,
+287:third_party/intel/backend/proton/include/pti/pti_runtime_sycl_api_ids.h:118:    urSamplerGetInfo_id=104,
+288:third_party/intel/backend/proton/include/pti/pti_runtime_sycl_api_ids.h:119:    urSamplerGetNativeHandle_id=105,
+289:third_party/intel/backend/proton/include/pti/pti_runtime_sycl_api_ids.h:120:    urSamplerCreateWithNativeHandle_id=106,
+290:third_party/intel/include/Dialect/TritonGEN/IR/TritonGENOps.td:23:include "mlir/Interfaces/InferTypeOpInterface.td" // SameOperandsAndResultType
+291:third_party/intel/include/Dialect/TritonGEN/IR/TritonGENOps.td:433:    : TritonGEN_Op<"f_to_tf32", [SameOperandsAndResultType]> {
+292:third_party/intel/include/Dialect/TritonIntelGPU/IR/TritonIntelGPUOps.td:140:// same as tt.broadcast except that we don't require SameOperandsAndResultEncoding
+293:third_party/intel/include/Dialect/TritonIntelGPU/IR/TritonIntelGPUOps.td:141:def TTIG_BroadcastOp : TTIG_Op<"broadcast", [Pure, SameOperandsAndResultElementType]> {
+294:third_party/intel/lib/GPUToTritonGEN/OpToFuncCallLowering.h:50:    static_assert(std::is_base_of<OpTrait::SameOperandsAndResultType<SourceOp>,
+295:third_party/intel/lib/TritonIntelGPUToLLVM/PipelineManager.h:64:          (filterArgAttrs && attr.getName() == op.getArgAttrsAttrName()))
+296:third_party/intel/lib/TritonIntelGPUToLLVM/PipelineManager.h:117:          rewriter.getNamedAttr(funcOp.getArgAttrsAttrName(),
+297:third_party/intel/lib/TritonIntelGPUTransforms/MaterializeBlockPointer.cpp:251:    auto allUsersAreConvertOps = [](Operation::user_range users) {
+298:third_party/intel/lib/TritonIntelGPUTransforms/MaterializeBlockPointer.cpp:267:    if (!users.empty() && allUsersAreConvertOps(users) &&
+299:third_party/intel/lib/TritonIntelGPUTransforms/RemoveLayoutConversions.cpp:361:    if (user->hasTrait<OpTrait::SameOperandsAndResultEncoding>() ||
+300:third_party/intel/lib/TritonIntelGPUTransforms/RemoveLayoutConversions.cpp:956:  if (op->hasTrait<OpTrait::SameOperandsAndResultEncoding>() ||
+301:third_party/nvidia/backend/compiler.py:96:        return hashlib.sha256(f.read()).hexdigest()
+302:third_party/nvidia/backend/compiler.py:147:        return hashlib.sha256(key.encode("utf-8")).hexdigest()
+304:third_party/nvidia/include/Dialect/NVGPU/IR/NVGPUOps.td:28:include "mlir/Interfaces/InferTypeOpInterface.td" // SameOperandsAndResultType
+305:third_party/nvidia/include/Dialect/NVWS/IR/NVWSOps.td:27:include "mlir/Interfaces/InferTypeOpInterface.td" // SameOperandsAndResultType
+306:third_party/nvidia/include/Dialect/NVWS/IR/NVWSOps.td:30:include "mlir/Interfaces/InferTypeOpInterface.td"  // SameOperandsAndResultType
+307:third_party/nvidia/include/NVGPUToLLVM/NVGPUToLLVMPass.h:23:using OperandsAndConstraints = std::vector<std::pair<Value, std::string>>;
+308:third_party/nvidia/include/NVGPUToLLVM/NVGPUToLLVMPass.h:28:                const OperandsAndConstraints &operandsAndConstraints = {},
+309:third_party/nvidia/lib/NVGPUToLLVM/NVGPUToLLVMPass.cpp:16:using ttn::OperandsAndConstraints;
+310:third_party/nvidia/lib/NVGPUToLLVM/NVGPUToLLVMPass.cpp:85:OperandsAndConstraints
+311:third_party/nvidia/lib/NVGPUToLLVM/NVGPUToLLVMPass.cpp:86:unpackOperands(const OperandsAndConstraints &operandsAndConstraints,
+312:third_party/nvidia/lib/NVGPUToLLVM/NVGPUToLLVMPass.cpp:90:  OperandsAndConstraints unpackedOperands;
+313:third_party/nvidia/lib/NVGPUToLLVM/NVGPUToLLVMPass.cpp:91:  for (const auto &[operand, constraint] : operandsAndConstraints) {
+314:third_party/nvidia/lib/NVGPUToLLVM/NVGPUToLLVMPass.cpp:118:getPtxOperands(const OperandsAndConstraints &operandsAndConstraints,
+315:third_party/nvidia/lib/NVGPUToLLVM/NVGPUToLLVMPass.cpp:122:  auto unpackedOperandsAndConstraints =
+316:third_party/nvidia/lib/NVGPUToLLVM/NVGPUToLLVMPass.cpp:123:      unpackOperands(operandsAndConstraints, ptxBuilder, loc, rewriter);
+317:third_party/nvidia/lib/NVGPUToLLVM/NVGPUToLLVMPass.cpp:124:  for (auto &[operand, constraint] : unpackedOperandsAndConstraints) {
+318:third_party/nvidia/lib/NVGPUToLLVM/NVGPUToLLVMPass.cpp:183:    OperandsAndConstraints operandsAndConstraints;
+319:third_party/nvidia/lib/NVGPUToLLVM/NVGPUToLLVMPass.cpp:185:      operandsAndConstraints.push_back(
+320:third_party/nvidia/lib/NVGPUToLLVM/NVGPUToLLVMPass.cpp:188:    return rewriteAsPtxAsm(op, rewriter, ptxAsm, operandsAndConstraints,
+321:third_party/nvidia/lib/NVGPUToLLVM/NVGPUToLLVMPass.cpp:298:                           getOperandsAndConstraints(op),
+322:third_party/nvidia/lib/NVGPUToLLVM/NVGPUToLLVMPass.cpp:310:  OperandsAndConstraints
+323:third_party/nvidia/lib/NVGPUToLLVM/NVGPUToLLVMPass.cpp:311:  getOperandsAndConstraints(ttn::WGMMAWaitGroupOp op) const {
+324:third_party/nvidia/lib/NVGPUToLLVM/NVGPUToLLVMPass.cpp:312:    OperandsAndConstraints operandsAndConstraints;
+325:third_party/nvidia/lib/NVGPUToLLVM/NVGPUToLLVMPass.cpp:314:    operandsAndConstraints.push_back({input, "0"});
+326:third_party/nvidia/lib/NVGPUToLLVM/NVGPUToLLVMPass.cpp:315:    return operandsAndConstraints;
+327:third_party/nvidia/lib/NVGPUToLLVM/NVGPUToLLVMPass.cpp:339:                           getOperandsAndConstraints(op),
+328:third_party/nvidia/lib/NVGPUToLLVM/NVGPUToLLVMPass.cpp:356:  OperandsAndConstraints getOperandsAndConstraints(ttn::WGMMAOp op) const {
+329:third_party/nvidia/lib/NVGPUToLLVM/NVGPUToLLVMPass.cpp:357:    OperandsAndConstraints operandsAndConstraints;
+330:third_party/nvidia/lib/NVGPUToLLVM/NVGPUToLLVMPass.cpp:368:      operandsAndConstraints.push_back({opC, "0"});
+331:third_party/nvidia/lib/NVGPUToLLVM/NVGPUToLLVMPass.cpp:371:      operandsAndConstraints.push_back({opA, "r"});
+332:third_party/nvidia/lib/NVGPUToLLVM/NVGPUToLLVMPass.cpp:373:      operandsAndConstraints.push_back({opA, "l"});
+333:third_party/nvidia/lib/NVGPUToLLVM/NVGPUToLLVMPass.cpp:377:    operandsAndConstraints.push_back({opB, "l"});
+334:third_party/nvidia/lib/NVGPUToLLVM/NVGPUToLLVMPass.cpp:381:      operandsAndConstraints.push_back({opScaleD, "b"});
+335:third_party/nvidia/lib/NVGPUToLLVM/NVGPUToLLVMPass.cpp:383:    return operandsAndConstraints;
+336:third_party/nvidia/lib/NVGPUToLLVM/NVGPUToLLVMPass.cpp:647:                       const OperandsAndConstraints &operandsAndConstraints,
+337:third_party/nvidia/lib/NVGPUToLLVM/NVGPUToLLVMPass.cpp:657:      getPtxOperands(operandsAndConstraints, ptxBuilder, loc, rewriter);
+338:third_party/proton/csrc/include/Data/Metric.h:203:    NumStalledSamples,
+339:third_party/proton/csrc/include/Data/Metric.h:229:                   uint64_t stalledSamples)
+340:third_party/proton/csrc/include/Data/Metric.h:231:    this->values[kind] = stalledSamples;
+341:third_party/proton/csrc/include/Data/Metric.h:233:    this->values[PCSamplingMetricKind::NumStalledSamples] = stalledSamples;
+351:third_party/proton/csrc/lib/Profiler/Cupti/CuptiPCSampling.cpp:157:      /*droppedSamples=*/0,
+352:third_party/proton/csrc/lib/Profiler/Cupti/CuptiPCSampling.cpp:397:          auto stalledSamples =
+353:third_party/proton/csrc/lib/Profiler/Cupti/CuptiPCSampling.cpp:403:                                                           stalledSamples);

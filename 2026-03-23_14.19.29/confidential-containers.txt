@@ -1,0 +1,8 @@
+1:demos/ssh-demo/Dockerfile:3:RUN ssh-keygen -t ed25519 -f /etc/ssh/ssh_host_ed25519_key -P ""
+2:demos/ssh-demo/Dockerfile:7:# Generate with `ssh-keygen -t ed25519 -f ccv0-ssh -P "" -C ""`
+3:demos/ssh-demo/README.md:19:The host key fingerprint is `SHA256:wK7uOpqpYQczcgV00fGCh+X97sJL3f6G1Ku4rvlwtR0`.
+4:demos/ssh-demo/README.md:34:$ ssh-keygen -t ed25519 -f ccv0-ssh -P "" -C ""
+5:guides/coco-dev.md:109:openssl genpkey -algorithm ed25519 > config/private.key
+6:guides/ephemeral_storage.md:82:  cipher:  aes-xts-plain64
+7:guides/troubleshooting.md:134:  Normal   Pulled     5s (x3 over 19s)  kubelet            Container image "docker.io/wainersm/coco-fedora_sshd@sha256:a7108f9f0080c429beb66e2cf0abff143c9eb9c7cf4dcde3241bc56c938d33b9" already present on machine
+8:releases/v0.13.0.md:16:* Trustee uses ECDH keys by default for KBS protocol.

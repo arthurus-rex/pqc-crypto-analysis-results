@@ -1,0 +1,5 @@
+1:README.md:47:key_name: "slurm-cluster-key"  # Your SSH key pair name. Expects key to be on your local system as ~/.ssh/id_rsa
+2:README.md:87:ssh -i ~/.ssh/slurm-cluster-key.rsa ec2-user@<controller-public-ip>
+9:playbook.yml:130:        ansible_ssh_private_key_file: "~/.ssh/id_rsa"
+10:playbook.yml:154:          ansible_ssh_private_key_file=~/.ssh/id_rsa
+11:slurm-on-ocp/SLURM_ON_OCP.md:78:| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |

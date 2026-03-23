@@ -1,0 +1,25 @@
+1:README.md:267:openssl genpkey -algorithm ed25519 > privateKey
+2:README.md:311:                "alg": "sha256",
+4:docs/ibmse.md:17:│   └── DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl
+5:docs/ibmse.md:22:└── rsa
+6:docs/ita.md:45:openssl genpkey -algorithm ed25519 > privateKey
+7:docs/sticky-sessions.md:26:openssl genpkey -algorithm ed25519 > privateKey
+8:docs/token-configuration.md:35:    algorithm: ECDSA
+9:go.mod:61:	github.com/x448/float16 v0.8.4 // indirect
+10:go.sum:137:github.com/x448/float16 v0.8.4 h1:qLwI1I70+NjRFUR3zs1JPUCgaCXSh3SW62uAKT1mSBM=
+11:go.sum:138:github.com/x448/float16 v0.8.4/go.mod h1:14CWIYCyZA/cWjXOioeEpHeN/83MdbZDRQHoFcYsOfg=
+12:internal/controller/crypto_helper.go:20:	"crypto/ed25519"
+13:internal/controller/crypto_helper.go:25:// encodeEd25519PrivateKeyToPEM encodes an Ed25519 private key to PEM format
+14:internal/controller/crypto_helper.go:26:func encodeEd25519PrivateKeyToPEM(privateKey ed25519.PrivateKey) ([]byte, error) {
+15:internal/controller/crypto_helper.go:42:// encodeEd25519PublicKeyToPEM encodes an Ed25519 public key to PEM format
+16:internal/controller/crypto_helper.go:43:func encodeEd25519PublicKeyToPEM(publicKey ed25519.PublicKey) ([]byte, error) {
+19:internal/controller/trusteeconfig_controller.go:21:	"crypto/ed25519"
+20:internal/controller/trusteeconfig_controller.go:666:	// Generate Ed25519 key pair
+21:internal/controller/trusteeconfig_controller.go:667:	publicKey, privateKey, err := ed25519.GenerateKey(rand.Reader)
+22:internal/controller/trusteeconfig_controller.go:669:		r.log.Error(err, "Failed to generate Ed25519 key pair")
+23:internal/controller/trusteeconfig_controller.go:674:	privateKeyPEM, err := encodeEd25519PrivateKeyToPEM(privateKey)
+24:internal/controller/trusteeconfig_controller.go:681:	publicKeyPEM, err := encodeEd25519PublicKeyToPEM(publicKey)
+25:tests/e2e/sample-attester-https/01-auth-secret.yaml:5:  - script: openssl genpkey -algorithm ed25519 > privateKey
+26:tests/e2e/sample-attester-https/01-auth-secret.yaml:9:  - script: 'openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout https.key -out https.crt -config kbs-service-509.conf -passin pass: -subj "/C=UK/ST=England/L=Bristol/O=Red Hat/OU=Development/CN=kbs-service"'
+27:tests/e2e/sample-attester/01-auth-secret.yaml:4:  - script: openssl genpkey -algorithm ed25519 > privateKey
+28:tests/scripts/config-trustee.sh:3:openssl genpkey -algorithm ed25519 > privateKey

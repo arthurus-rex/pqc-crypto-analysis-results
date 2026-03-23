@@ -1,0 +1,40 @@
+1:include/cuda_tile/Dialect/CudaTile/IR/Dialect.td:23:class Table<string labelArg, string descriptionArg, list<TableHeader> headersArg, list<TableRow> rowsArg> {
+2:include/cuda_tile/Dialect/CudaTile/IR/Dialect.td:26:  list<TableHeader> headers = headersArg;
+3:include/cuda_tile/Dialect/CudaTile/IR/Ops.td:72:    [Pure, SameOperandsAndResultShape, AllTypesMatch<["source", "result"]>]> {
+4:include/cuda_tile/Dialect/CudaTile/IR/Ops.td:93:    [Pure, SameOperandsAndResultShape, AllTypesMatch<["source", "result"]>]> {
+5:include/cuda_tile/Dialect/CudaTile/IR/Ops.td:550:    [Pure, SameOperandsAndResultElementType,
+6:include/cuda_tile/Dialect/CudaTile/IR/Ops.td:3137:    Pure, Elementwise, SameOperandsAndResultShape,
+7:include/cuda_tile/Dialect/CudaTile/IR/Ops.td:3432:    Pure, SameOperandsAndResultElementType,
+8:include/cuda_tile/Dialect/CudaTile/IR/SharedFuncParserAndPrinter.h:56:  result.addAttribute(OpTy::getArgAttrsAttrName(result.name),
+9:include/cuda_tile/Dialect/CudaTile/IR/SharedFuncParserAndPrinter.h:95:      {op.getArgAttrsAttrName(), op.getFunctionTypeAttrName(),
+10:include/cuda_tile/Dialect/CudaTile/IR/SharedFuncParserAndPrinter.h:96:       SymbolTable::getSymbolAttrName(), op.getResAttrsAttrName()});
+11:lib/Dialect/CudaTile/IR/CudaTile.cpp:249:      printer, inputs, funcOp.getArgAttrsAttr(),
+12:lib/Dialect/CudaTile/IR/CudaTile.cpp:2208:  result.addAttribute(getArgAttrsAttrName(result.name),
+13:lib/Dialect/CudaTile/IR/CudaTile.cpp:2261:      {getArgAttrsAttrName(), getFunctionTypeAttrName(),
+14:lib/Dialect/CudaTile/IR/CudaTile.cpp:2262:       SymbolTable::getSymbolAttrName(), getResAttrsAttrName(),
+15:lib/Dialect/CudaTile/IR/CudaTile.cpp:3931:  // Note: Element type is verified by `SameOperandsAndResultElementType`.
+16:tools/cuda-tile-tblgen/CudaTileOp.cpp:74:      {"SameOperandsAndResultType",
+17:tools/cuda-tile-tblgen/CudaTileOp.cpp:229:    } else if (def.getName() == "SameOperandsAndResultElementType") {
+18:tools/cuda-tile-tblgen/CudaTileOp.cpp:230:      llvm::errs() << "Processing SameOperandsAndResultElementType trait\n";
+19:tools/cuda-tile-tblgen/CudaTileOp.cpp:247:          SameOperandsAndResultElementType{names, types[0]}));
+20:tools/cuda-tile-tblgen/CudaTileOp.cpp:265:    } else if (def.getName() == "SameOperandsAndResultShape") {
+21:tools/cuda-tile-tblgen/CudaTileOp.cpp:266:      llvm::errs() << "Processing SameOperandsAndResultShape trait\n";
+22:tools/cuda-tile-tblgen/CudaTileOp.cpp:275:          OperationConstraint(SameOperandsAndResultShape{names}));
+23:tools/cuda-tile-tblgen/CudaTileOp.h:107:struct SameOperandsAndResultShape {
+24:tools/cuda-tile-tblgen/CudaTileOp.h:109:  SameOperandsAndResultShape() : names() {}
+25:tools/cuda-tile-tblgen/CudaTileOp.h:110:  SameOperandsAndResultShape(std::vector<std::string> names)
+26:tools/cuda-tile-tblgen/CudaTileOp.h:114:struct SameOperandsAndResultElementType {
+27:tools/cuda-tile-tblgen/CudaTileOp.h:117:  SameOperandsAndResultElementType() : names(), type() {}
+28:tools/cuda-tile-tblgen/CudaTileOp.h:118:  SameOperandsAndResultElementType(std::vector<std::string> names,
+29:tools/cuda-tile-tblgen/CudaTileOp.h:131:    std::variant<AllTypesMatch, AllElementTypeMatch, SameOperandsAndResultShape,
+30:tools/cuda-tile-tblgen/CudaTileOp.h:132:                 TypesMatchWith, AnyTypeOf, SameOperandsAndResultElementType,
+31:tools/cuda-tile-tblgen/SpecGen.cpp:311:emitSameOperandsAndResultShape(SpecEmitter &emitter,
+32:tools/cuda-tile-tblgen/SpecGen.cpp:312:                               const SameOperandsAndResultShape &arg) {
+33:tools/cuda-tile-tblgen/SpecGen.cpp:328:static void emitSameOperandsAndResultElementType(
+34:tools/cuda-tile-tblgen/SpecGen.cpp:329:    SpecEmitter &emitter, const SameOperandsAndResultElementType &arg) {
+35:tools/cuda-tile-tblgen/SpecGen.cpp:361:          [&](const SameOperandsAndResultShape &arg) {
+36:tools/cuda-tile-tblgen/SpecGen.cpp:362:            emitSameOperandsAndResultShape(emitter, arg);
+37:tools/cuda-tile-tblgen/SpecGen.cpp:364:          [&](const SameOperandsAndResultElementType &arg) {
+38:tools/cuda-tile-tblgen/SpecGen.cpp:365:            emitSameOperandsAndResultElementType(emitter, arg);
+39:tools/cuda-tile-tblgen/cuda-tile-tblgen.cpp:33:static cl::OptionCategory opDefSpecCat("Options for specification generation.");
+40:tools/cuda-tile-tblgen/cuda-tile-tblgen.cpp:38:    llvm::cl::cat(opDefSpecCat));
