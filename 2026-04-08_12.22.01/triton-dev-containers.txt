@@ -1,0 +1,23 @@
+1:examples/flash_attention_demo.ipynb:10:    "This notebook benchmarks PyTorch's scaled_dot_product_attention (SDPA) against a vLLMs Triton-based flash attention kernel.\n",
+2:examples/flash_attention_demo.ipynb:41:    "This notebook benchmarks PyTorch's scaled_dot_product_attention (SDPA) against a vLLMs Triton-based flash attention kernel.\n",
+3:venv/lib/python3.11/site-packages/distlib/database.py:501:                       ``'sha512'``. If no hasher is specified, the ``hasher``
+4:venv/lib/python3.11/site-packages/pip-22.3.1.dist-info/RECORD:510:pip/_vendor/packaging/__about__.py,sha256=ugASIO2w1oUyH8_COqQ2X_s0rDhjbhQC3yJocD03h2c,661
+5:venv/lib/python3.11/site-packages/pip-22.3.1.dist-info/RECORD:529:pip/_vendor/packaging/tags.py,sha256=lmsnGNiJ8C4D_Pf9PbM0qgbZvD9kmB9lpZBQUZa3R_Y,15699
+6:venv/lib/python3.11/site-packages/pip/_internal/models/link.py:40:_SUPPORTED_HASHES = ("sha512", "sha384", "sha256", "sha224", "sha1", "md5")
+7:venv/lib/python3.11/site-packages/pip/_internal/utils/hashes.py:22:STRONG_HASHES = ["sha256", "sha384", "sha512"]
+8:venv/lib/python3.11/site-packages/pip/_vendor/distlib/database.py:514:                       ``'sha512'``. If no hasher is specified, the ``hasher``
+9:venv/lib/python3.11/site-packages/pip/_vendor/requests/auth.py:167:        elif _algorithm == "SHA-512":
+10:venv/lib/python3.11/site-packages/pip/_vendor/requests/auth.py:169:            def sha512_utf8(x):
+11:venv/lib/python3.11/site-packages/pip/_vendor/requests/auth.py:172:                return hashlib.sha512(x).hexdigest()
+12:venv/lib/python3.11/site-packages/pip/_vendor/requests/auth.py:174:            hash_utf8 = sha512_utf8
+13:venv/lib/python3.11/site-packages/pip/_vendor/rich/_emoji_codes.py:1700:    "palms_up_together": "🤲",
+14:venv/lib/python3.11/site-packages/pip/_vendor/rich/_emoji_codes.py:1701:    "palms_up_together_dark_skin_tone": "🤲🏿",
+15:venv/lib/python3.11/site-packages/pip/_vendor/rich/_emoji_codes.py:1702:    "palms_up_together_light_skin_tone": "🤲🏻",
+16:venv/lib/python3.11/site-packages/pip/_vendor/rich/_emoji_codes.py:1703:    "palms_up_together_medium-dark_skin_tone": "🤲🏾",
+17:venv/lib/python3.11/site-packages/pip/_vendor/rich/_emoji_codes.py:1704:    "palms_up_together_medium-light_skin_tone": "🤲🏼",
+18:venv/lib/python3.11/site-packages/pip/_vendor/rich/_emoji_codes.py:1705:    "palms_up_together_medium_skin_tone": "🤲🏽",
+19:venv/lib/python3.11/site-packages/setuptools-65.5.1.dist-info/RECORD:45:pkg_resources/_vendor/packaging/__about__.py,sha256=ugASIO2w1oUyH8_COqQ2X_s0rDhjbhQC3yJocD03h2c,661
+20:venv/lib/python3.11/site-packages/setuptools-65.5.1.dist-info/RECORD:64:pkg_resources/_vendor/packaging/tags.py,sha256=lmsnGNiJ8C4D_Pf9PbM0qgbZvD9kmB9lpZBQUZa3R_Y,15699
+21:venv/lib/python3.11/site-packages/setuptools-65.5.1.dist-info/RECORD:304:setuptools/_vendor/packaging/__about__.py,sha256=ugASIO2w1oUyH8_COqQ2X_s0rDhjbhQC3yJocD03h2c,661
+22:venv/lib/python3.11/site-packages/setuptools-65.5.1.dist-info/RECORD:323:setuptools/_vendor/packaging/tags.py,sha256=lmsnGNiJ8C4D_Pf9PbM0qgbZvD9kmB9lpZBQUZa3R_Y,15699
+23:venv/lib/python3.11/site-packages/setuptools/package_index.py:273:        r'(?P<hash_name>sha1|sha224|sha384|sha256|sha512|md5)='

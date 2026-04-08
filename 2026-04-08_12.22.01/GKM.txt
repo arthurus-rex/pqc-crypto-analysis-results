@@ -1,0 +1,608 @@
+1:docs/Architecture.md:21:large language models (LLMs) that use GPU Kernels.
+2:docs/design/architechture_v1.md:16:Plugin is to reduce the startup time of large language models (LLMs) that use
+3:docs/design/kserve-integration-proposal.md:17:When serving Large Language Models (LLMs), frameworks like vLLM, PyTorch and
+4:docs/design/kserve-integration-rfc.md:12:When serving Large Language Models (LLMs), frameworks like vLLM, PyTorch and
+5:go.sum:597:github.com/tchap/go-patricia/v2 v2.3.3/go.mod h1:VZRHKAb53DLaG+nA9EaYYiaEx6YztwDlLElMsnSHD4k=
+6:mcv/go.sum:303:github.com/tchap/go-patricia/v2 v2.3.3/go.mod h1:VZRHKAb53DLaG+nA9EaYYiaEx6YztwDlLElMsnSHD4k=
+7:vendor/github.com/asaskevich/govalidator/README.md:190:func IsSHA512(str string) bool
+8:vendor/github.com/asaskevich/govalidator/validator.go:683:// Algorithm is one of ['md4', 'md5', 'sha1', 'sha256', 'sha384', 'sha512', 'ripemd128', 'ripemd160', 'tiger128', 'tiger160', 'tiger192', 'crc32', 'crc32b']
+9:vendor/github.com/asaskevich/govalidator/validator.go:702:	} else if algo == "sha512" || algo == "sha3-512" {
+10:vendor/github.com/asaskevich/govalidator/validator.go:731:// IsSHA512 checks is a string is a SHA512 hash. Alias for `IsHash(str, "sha512")`
+11:vendor/github.com/asaskevich/govalidator/validator.go:732:func IsSHA512(str string) bool {
+12:vendor/github.com/asaskevich/govalidator/validator.go:733:	return IsHash(str, "sha512")
+13:vendor/github.com/containers/libtrust/hash.go:6:	_ "crypto/sha512" // Registrer SHA384 and SHA512
+14:vendor/github.com/containers/libtrust/hash.go:26:	rs512 = &signatureAlgorithm{"RS512", crypto.SHA512}
+15:vendor/github.com/containers/libtrust/hash.go:29:	es512 = &signatureAlgorithm{"ES512", crypto.SHA512}
+16:vendor/github.com/containers/libtrust/hash.go:47:	case hashID == crypto.SHA512:
+17:vendor/github.com/containers/ocicrypt/blockcipher/blockcipher.go:32:	AES256CTR LayerCipherType = "AES_256_CTR_HMAC_SHA256"
+18:vendor/github.com/containers/ocicrypt/blockcipher/blockcipher.go:154:	h.cipherMap[AES256CTR], err = NewAESCTRLayerBlockCipher(256)
+19:vendor/github.com/containers/ocicrypt/blockcipher/blockcipher.go:156:		return nil, fmt.Errorf("unable to set up Cipher AES-256-CTR: %w", err)
+20:vendor/github.com/containers/ocicrypt/encryption.go:121:		encLayerReader, bcFin, err = commonEncryptLayer(encOrPlainLayerReader, desc.Digest, blockcipher.AES256CTR)
+21:vendor/github.com/containers/ocicrypt/keywrap/pgp/keywrapper_gpg.go:50:		DefaultCipher:     packet.CipherAES256,
+22:vendor/github.com/containers/ocicrypt/utils/testing.go:78:		block, err = x509.EncryptPEMBlock(rand.Reader, typ, privData, password, x509.PEMCipherAES256) //nolint:staticcheck // ignore SA1019, which is kept for backward compatibility
+23:vendor/github.com/coreos/go-oidc/v3/oidc/jose.go:11:	RS512 = "RS512" // RSASSA-PKCS-v1.5 using SHA-512
+24:vendor/github.com/coreos/go-oidc/v3/oidc/jose.go:14:	ES512 = "ES512" // ECDSA using P-521 and SHA-512
+25:vendor/github.com/coreos/go-oidc/v3/oidc/jose.go:17:	PS512 = "PS512" // RSASSA-PSS using SHA512 and MGF1-SHA512
+26:vendor/github.com/coreos/go-oidc/v3/oidc/jose.go:18:	EdDSA = "EdDSA" // Ed25519 using SHA-512
+27:vendor/github.com/coreos/go-oidc/v3/oidc/oidc.go:7:	"crypto/sha512"
+28:vendor/github.com/coreos/go-oidc/v3/oidc/oidc.go:488:		h = sha512.New384()
+29:vendor/github.com/coreos/go-oidc/v3/oidc/oidc.go:490:		h = sha512.New()
+30:vendor/github.com/digitorus/pkcs7/decrypt.go:18:var ErrUnsupportedAlgorithm = errors.New("pkcs7: cannot decrypt data: only RSA, DES, DES-EDE3, AES-256-CBC and AES-128-GCM supported")
+31:vendor/github.com/digitorus/pkcs7/decrypt.go:59:		!alg.Equal(OIDEncryptionAlgorithmAES256CBC) &&
+32:vendor/github.com/digitorus/pkcs7/decrypt.go:62:		!alg.Equal(OIDEncryptionAlgorithmAES256GCM) {
+33:vendor/github.com/digitorus/pkcs7/decrypt.go:96:	case alg.Equal(OIDEncryptionAlgorithmAES256CBC), alg.Equal(OIDEncryptionAlgorithmAES256GCM):
+34:vendor/github.com/digitorus/pkcs7/decrypt.go:106:	if alg.Equal(OIDEncryptionAlgorithmAES128GCM) || alg.Equal(OIDEncryptionAlgorithmAES256GCM) {
+35:vendor/github.com/digitorus/pkcs7/encrypt.go:49:	// EncryptionAlgorithmAES256CBC is the AES 256 bits with CBC encryption algorithm
+36:vendor/github.com/digitorus/pkcs7/encrypt.go:51:	EncryptionAlgorithmAES256CBC
+37:vendor/github.com/digitorus/pkcs7/encrypt.go:56:	// EncryptionAlgorithmAES256GCM is the AES 256 bits with GCM encryption algorithm
+38:vendor/github.com/digitorus/pkcs7/encrypt.go:57:	EncryptionAlgorithmAES256GCM
+39:vendor/github.com/digitorus/pkcs7/encrypt.go:87:	case EncryptionAlgorithmAES256GCM:
+40:vendor/github.com/digitorus/pkcs7/encrypt.go:89:		algID = OIDEncryptionAlgorithmAES256GCM
+41:vendor/github.com/digitorus/pkcs7/encrypt.go:201:	case EncryptionAlgorithmAES256CBC:
+42:vendor/github.com/digitorus/pkcs7/encrypt.go:203:		algID = OIDEncryptionAlgorithmAES256CBC
+43:vendor/github.com/digitorus/pkcs7/encrypt.go:273:	case EncryptionAlgorithmAES256CBC:
+44:vendor/github.com/digitorus/pkcs7/encrypt.go:277:	case EncryptionAlgorithmAES256GCM:
+45:vendor/github.com/digitorus/pkcs7/encrypt.go:347:	case EncryptionAlgorithmAES256GCM:
+46:vendor/github.com/digitorus/pkcs7/pkcs7.go:56:	OIDDigestAlgorithmSHA512 = asn1.ObjectIdentifier{2, 16, 840, 1, 101, 3, 4, 2, 3}
+47:vendor/github.com/digitorus/pkcs7/pkcs7.go:64:	OIDDigestAlgorithmECDSASHA512 = asn1.ObjectIdentifier{1, 2, 840, 10045, 4, 3, 4}
+48:vendor/github.com/digitorus/pkcs7/pkcs7.go:71:	OIDEncryptionAlgorithmRSASHA512 = asn1.ObjectIdentifier{1, 2, 840, 113549, 1, 1, 13}
+49:vendor/github.com/digitorus/pkcs7/pkcs7.go:82:	OIDEncryptionAlgorithmAES256CBC  = asn1.ObjectIdentifier{2, 16, 840, 1, 101, 3, 4, 1, 42}
+50:vendor/github.com/digitorus/pkcs7/pkcs7.go:85:	OIDEncryptionAlgorithmAES256GCM  = asn1.ObjectIdentifier{2, 16, 840, 1, 101, 3, 4, 1, 46}
+51:vendor/github.com/digitorus/pkcs7/pkcs7.go:98:	case oid.Equal(OIDDigestAlgorithmSHA512), oid.Equal(OIDDigestAlgorithmECDSASHA512):
+52:vendor/github.com/digitorus/pkcs7/pkcs7.go:99:		return crypto.SHA512, nil
+53:vendor/github.com/digitorus/pkcs7/pkcs7.go:114:	case x509.SHA512WithRSA, x509.ECDSAWithSHA512, x509.PureEd25519:
+54:vendor/github.com/digitorus/pkcs7/pkcs7.go:115:		return OIDDigestAlgorithmSHA512, nil
+55:vendor/github.com/digitorus/pkcs7/pkcs7.go:145:		case OIDDigestAlg.Equal(OIDDigestAlgorithmSHA512):
+56:vendor/github.com/digitorus/pkcs7/pkcs7.go:146:			return OIDEncryptionAlgorithmRSASHA512, nil
+57:vendor/github.com/digitorus/pkcs7/pkcs7.go:156:		case OIDDigestAlg.Equal(OIDDigestAlgorithmSHA512):
+58:vendor/github.com/digitorus/pkcs7/pkcs7.go:157:			return OIDDigestAlgorithmECDSASHA512, nil
+59:vendor/github.com/digitorus/pkcs7/verify.go:298:	case digestEncryption.Algorithm.Equal(OIDDigestAlgorithmECDSASHA512):
+60:vendor/github.com/digitorus/pkcs7/verify.go:299:		return x509.ECDSAWithSHA512, nil
+61:vendor/github.com/digitorus/pkcs7/verify.go:304:		digestEncryption.Algorithm.Equal(OIDEncryptionAlgorithmRSASHA512):
+62:vendor/github.com/digitorus/pkcs7/verify.go:312:		case digest.Algorithm.Equal(OIDDigestAlgorithmSHA512):
+63:vendor/github.com/digitorus/pkcs7/verify.go:313:			return x509.SHA512WithRSA, nil
+64:vendor/github.com/digitorus/pkcs7/verify.go:339:		case digest.Algorithm.Equal(OIDDigestAlgorithmSHA512):
+65:vendor/github.com/digitorus/pkcs7/verify.go:340:			return x509.ECDSAWithSHA512, nil
+66:vendor/github.com/digitorus/pkcs7/verify_test_dsa.go:40:dG9uIFN0YXRlMRAwDgYDVQQHEwdTZWF0dGxlMSAwHgYDVQQKExdBbWF6b24gV2Vi
+67:vendor/github.com/digitorus/pkcs7/verify_test_dsa.go:49:FwYDVQQIExBXYXNoaW5ndG9uIFN0YXRlMRAwDgYDVQQHEwdTZWF0dGxlMSAwHgYD
+68:vendor/github.com/digitorus/pkcs7/verify_test_dsa.go:52:IFN0YXRlMRAwDgYDVQQHEwdTZWF0dGxlMSAwHgYDVQQKExdBbWF6b24gV2ViIFNl
+69:vendor/github.com/digitorus/timestamp/borrowed.go:15:	crypto.SHA512: asn1.ObjectIdentifier([]int{2, 16, 840, 1, 101, 3, 4, 2, 3}),
+70:vendor/github.com/digitorus/timestamp/timestamp.go:617:	case crypto.SHA512:
+71:vendor/github.com/digitorus/timestamp/timestamp.go:618:		return pkcs7.OIDDigestAlgorithmSHA512, nil
+72:vendor/github.com/docker/cli/AUTHORS:801:squeegels <lmscrewy@gmail.com>
+73:vendor/github.com/emicklei/go-restful/v3/CHANGES.md:133:- added JWT HMAC with SHA-512 authentication code example (thanks Amim Knabben <amim.knabben@gmail.com>)
+74:vendor/github.com/go-jose/go-jose/v4/asymmetric.go:272:		hash = crypto.SHA512
+75:vendor/github.com/go-jose/go-jose/v4/asymmetric.go:318:		hash = crypto.SHA512
+76:vendor/github.com/go-jose/go-jose/v4/asymmetric.go:514:		hash = crypto.SHA512
+77:vendor/github.com/go-jose/go-jose/v4/asymmetric.go:571:		hash = crypto.SHA512
+78:vendor/github.com/go-jose/go-jose/v4/cipher/cbc_hmac.go:24:	"crypto/sha512"
+79:vendor/github.com/go-jose/go-jose/v4/cipher/cbc_hmac.go:51:		hash = sha512.New384
+80:vendor/github.com/go-jose/go-jose/v4/cipher/cbc_hmac.go:53:		hash = sha512.New
+81:vendor/github.com/go-jose/go-jose/v4/shared.go:63:	// encrypt with AES-256 but passing only a 128-bit key as input.
+82:vendor/github.com/go-jose/go-jose/v4/shared.go:104:	PBES2_HS512_A256KW = KeyAlgorithm("PBES2-HS512+A256KW") // PBES2 + HMAC-SHA512 + AES key wrap (256)
+83:vendor/github.com/go-jose/go-jose/v4/shared.go:112:	HS512 = SignatureAlgorithm("HS512") // HMAC using SHA-512
+84:vendor/github.com/go-jose/go-jose/v4/shared.go:115:	RS512 = SignatureAlgorithm("RS512") // RSASSA-PKCS-v1.5 using SHA-512
+85:vendor/github.com/go-jose/go-jose/v4/shared.go:118:	ES512 = SignatureAlgorithm("ES512") // ECDSA using P-521 and SHA-512
+86:vendor/github.com/go-jose/go-jose/v4/shared.go:121:	PS512 = SignatureAlgorithm("PS512") // RSASSA-PSS using SHA512 and MGF1-SHA512
+87:vendor/github.com/go-jose/go-jose/v4/shared.go:128:	A256CBC_HS512 = ContentEncryption("A256CBC-HS512") // AES-CBC + HMAC-SHA512 (256)
+88:vendor/github.com/go-jose/go-jose/v4/symmetric.go:27:	"crypto/sha512"
+89:vendor/github.com/go-jose/go-jose/v4/symmetric.go:145:		return 24, sha512.New384
+90:vendor/github.com/go-jose/go-jose/v4/symmetric.go:147:		return 32, sha512.New
+91:vendor/github.com/go-jose/go-jose/v4/symmetric.go:507:		hash = sha512.New384
+92:vendor/github.com/go-jose/go-jose/v4/symmetric.go:512:		hash = sha512.New
+93:vendor/github.com/go-openapi/runtime/go.work.sum:45:golang.org/x/crypto v0.42.0/go.mod h1:4+rDnOTJhQCx2q7/j6rAN5XDw8kPjeaXEUR2eL94ix8=
+94:vendor/github.com/go-openapi/validate/schema_messages.go:50:func mustValidateOnlyOneSchemaMsg(path, additionalMsg string) errors.Error {
+95:vendor/github.com/go-openapi/validate/schema_messages.go:51:	return errors.New(errors.CompositeErrorCode, MustValidateOnlyOneSchemaError, path, additionalMsg)
+96:vendor/github.com/go-openapi/validate/schema_messages.go:56:func mustValidateAllSchemasMsg(path, additionalMsg string) errors.Error {
+97:vendor/github.com/go-openapi/validate/schema_messages.go:57:	return errors.New(errors.CompositeErrorCode, MustValidateAllSchemasError, path, additionalMsg)
+98:vendor/github.com/google/certificate-transparency-go/tls/signature.go:26:	_ "crypto/sha512" // For registration side-effect
+99:vendor/github.com/google/certificate-transparency-go/tls/signature.go:52:	case SHA512:
+100:vendor/github.com/google/certificate-transparency-go/tls/signature.go:53:		hashType = crypto.SHA512
+101:vendor/github.com/google/certificate-transparency-go/tls/types.go:54:	SHA512 HashAlgorithm = 6
+102:vendor/github.com/google/certificate-transparency-go/tls/types.go:71:	case SHA512:
+103:vendor/github.com/google/certificate-transparency-go/tls/types.go:72:		return "SHA512"
+104:vendor/github.com/google/certificate-transparency-go/x509/pem_decrypt.go:32:	PEMCipherAES256
+105:vendor/github.com/google/certificate-transparency-go/x509/pem_decrypt.go:71:	cipher:     PEMCipherAES256,
+106:vendor/github.com/google/certificate-transparency-go/x509/pem_decrypt.go:72:	name:       "AES-256-CBC",
+107:vendor/github.com/google/certificate-transparency-go/x509/root_darwin_armx.go:557:/3UPi790hqc/7bIYLS2X+an7mEoj39WN4IzGMhwWLQdC1i22bi+n9fzGhYJdld61
+108:vendor/github.com/google/certificate-transparency-go/x509/root_darwin_armx.go:705:gQcPOJAZ0xH+hrTy0V4eHpbNgGzOOzGTtvKg0KmVEn2lmsxryIRWijOp5yIVUxbw
+109:vendor/github.com/google/certificate-transparency-go/x509/root_darwin_armx.go:775:g081lLMSVX3l4kLr5JyTCcBMWwerx20RoFAXlCOotQqSD7J6wWAsOMwaplv/8gzj
+110:vendor/github.com/google/certificate-transparency-go/x509/root_darwin_armx.go:2058:FDqahQcQZyi27/a9BUFuIMGU2g/eMA0GCSqGSIb3DQEBCwUAA4IBAQCZ21151fmX
+111:vendor/github.com/google/certificate-transparency-go/x509/root_darwin_armx.go:2947:b25hMRMwEQYDVQQHEwpTY290dHNkYWxlMSUwIwYDVQQKExxTdGFyZmllbGQgVGVj
+112:vendor/github.com/google/certificate-transparency-go/x509/root_darwin_armx.go:2970:VQQIEwdBcml6b25hMRMwEQYDVQQHEwpTY290dHNkYWxlMSUwIwYDVQQKExxTdGFy
+113:vendor/github.com/google/certificate-transparency-go/x509/root_darwin_armx.go:3263:zXJPleiP9ve4Pl7Oz54RyawDKUiKqbamNLmsQP/EtnM3scd/qVHbSypHX0AkB4gG
+114:vendor/github.com/google/certificate-transparency-go/x509/root_darwin_armx.go:3711:1t6XZFhJ+wBHQCpJobq/BjqLWUA86upsDbfwnePtmIPRCemeXkY0qabC+2Qmd2Fe
+115:vendor/github.com/google/certificate-transparency-go/x509/x509.go:59:	_ "crypto/sha512"
+116:vendor/github.com/google/certificate-transparency-go/x509/x509.go:249:	SHA512WithRSA
+117:vendor/github.com/google/certificate-transparency-go/x509/x509.go:255:	ECDSAWithSHA512
+118:vendor/github.com/google/certificate-transparency-go/x509/x509.go:258:	SHA512WithRSAPSS
+119:vendor/github.com/google/certificate-transparency-go/x509/x509.go:297:	case SHA256WithRSAPSS, SHA384WithRSAPSS, SHA512WithRSAPSS:
+120:vendor/github.com/google/certificate-transparency-go/x509/x509.go:371:// sha512WithRSAEncryption OBJECT IDENTIFIER ::= { pkcs-1 13 }
+121:vendor/github.com/google/certificate-transparency-go/x509/x509.go:388:// ecdsa-with-SHA512 OBJECT IDENTIFIER ::= { iso(1) member-body(2)
+122:vendor/github.com/google/certificate-transparency-go/x509/x509.go:402:	oidSignatureSHA512WithRSA   = asn1.ObjectIdentifier{1, 2, 840, 113549, 1, 1, 13}
+123:vendor/github.com/google/certificate-transparency-go/x509/x509.go:409:	oidSignatureECDSAWithSHA512 = asn1.ObjectIdentifier{1, 2, 840, 10045, 4, 3, 4}
+124:vendor/github.com/google/certificate-transparency-go/x509/x509.go:415:	oidSHA512 = asn1.ObjectIdentifier{2, 16, 840, 1, 101, 3, 4, 2, 3}
+125:vendor/github.com/google/certificate-transparency-go/x509/x509.go:438:	{SHA512WithRSA, "SHA512-RSA", oidSignatureSHA512WithRSA, RSA, crypto.SHA512},
+126:vendor/github.com/google/certificate-transparency-go/x509/x509.go:441:	{SHA512WithRSAPSS, "SHA512-RSAPSS", oidSignatureRSAPSS, RSA, crypto.SHA512},
+127:vendor/github.com/google/certificate-transparency-go/x509/x509.go:447:	{ECDSAWithSHA512, "ECDSA-SHA512", oidSignatureECDSAWithSHA512, ECDSA, crypto.SHA512},
+128:vendor/github.com/google/certificate-transparency-go/x509/x509.go:473:	case crypto.SHA512:
+129:vendor/github.com/google/certificate-transparency-go/x509/x509.go:474:		hashOID = oidSHA512
+130:vendor/github.com/google/certificate-transparency-go/x509/x509.go:559:	case params.Hash.Algorithm.Equal(oidSHA512) && params.SaltLength == 64:
+131:vendor/github.com/google/certificate-transparency-go/x509/x509.go:560:		return SHA512WithRSAPSS
+132:vendor/github.com/google/certificate-transparency-go/x509/x509.go:2647:			hashFunc = crypto.SHA512
+133:vendor/github.com/google/certificate-transparency-go/x509/x509.go:2648:			sigAlgo.Algorithm = oidSignatureECDSAWithSHA512
+134:vendor/github.com/in-toto/attestation/go/v1/resource_descriptor.go:25:	AlgorithmSHA512_224 HashAlgorithm = "sha512_224"
+135:vendor/github.com/in-toto/attestation/go/v1/resource_descriptor.go:27:	AlgorithmSHA512_256 HashAlgorithm = "sha512_256"
+136:vendor/github.com/in-toto/attestation/go/v1/resource_descriptor.go:29:	AlgorithmSHA512     HashAlgorithm = "sha512"
+137:vendor/github.com/in-toto/attestation/go/v1/resource_descriptor.go:47:	"sha512_224": AlgorithmSHA512_224,
+138:vendor/github.com/in-toto/attestation/go/v1/resource_descriptor.go:49:	"sha512_256": AlgorithmSHA512_256,
+139:vendor/github.com/in-toto/attestation/go/v1/resource_descriptor.go:51:	"sha512":     AlgorithmSHA512,
+140:vendor/github.com/in-toto/attestation/go/v1/resource_descriptor.go:70:	case AlgorithmSHA224, AlgorithmSHA512_224, AlgorithmSHA3_224:
+141:vendor/github.com/in-toto/attestation/go/v1/resource_descriptor.go:72:	case AlgorithmSHA256, AlgorithmSHA512_256, AlgorithmSHA3_256, AlgorithmDirHash:
+142:vendor/github.com/in-toto/attestation/go/v1/resource_descriptor.go:76:	case AlgorithmSHA512, AlgorithmSHA3_512:
+143:vendor/github.com/in-toto/in-toto-golang/in_toto/hashlib.go:5:	"crypto/sha512"
+144:vendor/github.com/in-toto/in-toto-golang/in_toto/hashlib.go:16:		"sha512": sha512.New,
+145:vendor/github.com/in-toto/in-toto-golang/in_toto/hashlib.go:17:		"sha384": sha512.New384,
+146:vendor/github.com/in-toto/in-toto-golang/in_toto/keylib.go:58:	return NewSet("sha256", "sha512")
+147:vendor/github.com/in-toto/in-toto-golang/in_toto/keylib.go:366:	keyIDHashAlgorithms = []string{"sha256", "sha512"}
+148:vendor/github.com/in-toto/in-toto-golang/in_toto/keylib.go:519:			hashed = hashToHex(hashMapping["sha512"](), signable)
+149:vendor/github.com/in-toto/in-toto-golang/in_toto/keylib.go:628:			hashed = hashToHex(hashMapping["sha512"](), unverified)
+150:vendor/github.com/kevinburke/ssh_config/validators.go:94:	strings.ToLower("Ciphers"):                   "chacha20-poly1305@openssh.com,aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,aes256-gcm@openssh.com,aes128-cbc,aes192-cbc,aes256-cbc",
+151:vendor/github.com/mattn/go-sqlite3/README.md:106:| UA - Crypt | `_auth_crypt` | <ul><li>SHA1</li><li>SSHA1</li><li>SHA256</li><li>SSHA256</li><li>SHA384</li><li>SSHA384</li><li>SHA512</li><li>SSHA512</li></ul> | Password encoder to use for User Authentication, for more information see [User Authentication](#user-authentication) |
+152:vendor/github.com/mattn/go-sqlite3/README.md:402:- SHA512
+153:vendor/github.com/mattn/go-sqlite3/README.md:403:- SSHA512 (salted SHA512)
+154:vendor/github.com/mattn/go-sqlite3/sqlite3.go:1557:		case "SHA512":
+155:vendor/github.com/mattn/go-sqlite3/sqlite3.go:1558:			if err := conn.RegisterFunc("sqlite_crypt", CryptEncoderSHA512, true); err != nil {
+156:vendor/github.com/mattn/go-sqlite3/sqlite3.go:1559:				return nil, fmt.Errorf("CryptEncoderSHA512: %s", err)
+157:vendor/github.com/mattn/go-sqlite3/sqlite3.go:1561:		case "SSHA512":
+158:vendor/github.com/mattn/go-sqlite3/sqlite3.go:1563:				return nil, fmt.Errorf("_auth_crypt=ssha512, requires _auth_salt")
+159:vendor/github.com/mattn/go-sqlite3/sqlite3.go:1565:			if err := conn.RegisterFunc("sqlite_crypt", CryptEncoderSSHA512(authSalt), true); err != nil {
+160:vendor/github.com/mattn/go-sqlite3/sqlite3.go:1566:				return nil, fmt.Errorf("CryptEncoderSSHA512: %s", err)
+161:vendor/github.com/mattn/go-sqlite3/sqlite3_func_crypt.go:11:	"crypto/sha512"
+162:vendor/github.com/mattn/go-sqlite3/sqlite3_func_crypt.go:88:	h := sha512.Sum384(pass)
+163:vendor/github.com/mattn/go-sqlite3/sqlite3_func_crypt.go:98:		h := sha512.Sum384(p)
+164:vendor/github.com/mattn/go-sqlite3/sqlite3_func_crypt.go:103:// CryptEncoderSHA512 encodes a password with SHA512
+165:vendor/github.com/mattn/go-sqlite3/sqlite3_func_crypt.go:104:func CryptEncoderSHA512(pass []byte, hash any) []byte {
+166:vendor/github.com/mattn/go-sqlite3/sqlite3_func_crypt.go:105:	h := sha512.Sum512(pass)
+167:vendor/github.com/mattn/go-sqlite3/sqlite3_func_crypt.go:109:// CryptEncoderSSHA512 encodes a password with SHA512
+168:vendor/github.com/mattn/go-sqlite3/sqlite3_func_crypt.go:111:func CryptEncoderSSHA512(salt string) func(pass []byte, hash any) []byte {
+169:vendor/github.com/mattn/go-sqlite3/sqlite3_func_crypt.go:115:		h := sha512.Sum512(p)
+170:vendor/github.com/miekg/pkcs11/pkcs11t.h:378:#define CKK_SHA512_HMAC         0x0000002DUL
+171:vendor/github.com/miekg/pkcs11/pkcs11t.h:617:#define CKM_DSA_SHA512                 0x00000016UL
+172:vendor/github.com/miekg/pkcs11/pkcs11t.h:633:#define CKM_SHA512_RSA_PKCS            0x00000042UL
+173:vendor/github.com/miekg/pkcs11/pkcs11t.h:636:#define CKM_SHA512_RSA_PKCS_PSS        0x00000045UL
+174:vendor/github.com/miekg/pkcs11/pkcs11t.h:641:#define CKM_SHA512_224                 0x00000048UL
+175:vendor/github.com/miekg/pkcs11/pkcs11t.h:642:#define CKM_SHA512_224_HMAC            0x00000049UL
+176:vendor/github.com/miekg/pkcs11/pkcs11t.h:643:#define CKM_SHA512_224_HMAC_GENERAL    0x0000004AUL
+177:vendor/github.com/miekg/pkcs11/pkcs11t.h:644:#define CKM_SHA512_224_KEY_DERIVATION  0x0000004BUL
+178:vendor/github.com/miekg/pkcs11/pkcs11t.h:645:#define CKM_SHA512_256                 0x0000004CUL
+179:vendor/github.com/miekg/pkcs11/pkcs11t.h:646:#define CKM_SHA512_256_HMAC            0x0000004DUL
+180:vendor/github.com/miekg/pkcs11/pkcs11t.h:647:#define CKM_SHA512_256_HMAC_GENERAL    0x0000004EUL
+181:vendor/github.com/miekg/pkcs11/pkcs11t.h:648:#define CKM_SHA512_256_KEY_DERIVATION  0x0000004FUL
+182:vendor/github.com/miekg/pkcs11/pkcs11t.h:650:#define CKM_SHA512_T                   0x00000050UL
+183:vendor/github.com/miekg/pkcs11/pkcs11t.h:651:#define CKM_SHA512_T_HMAC              0x00000051UL
+184:vendor/github.com/miekg/pkcs11/pkcs11t.h:652:#define CKM_SHA512_T_HMAC_GENERAL      0x00000052UL
+185:vendor/github.com/miekg/pkcs11/pkcs11t.h:653:#define CKM_SHA512_T_KEY_DERIVATION    0x00000053UL
+186:vendor/github.com/miekg/pkcs11/pkcs11t.h:735:#define CKM_SHA512                     0x00000270UL
+187:vendor/github.com/miekg/pkcs11/pkcs11t.h:736:#define CKM_SHA512_HMAC                0x00000271UL
+188:vendor/github.com/miekg/pkcs11/pkcs11t.h:737:#define CKM_SHA512_HMAC_GENERAL        0x00000272UL
+189:vendor/github.com/miekg/pkcs11/pkcs11t.h:825:#define CKM_SHA512_KEY_DERIVATION      0x00000395UL
+190:vendor/github.com/miekg/pkcs11/pkcs11t.h:938:#define CKM_ECDSA_SHA512               0x00001046UL
+191:vendor/github.com/miekg/pkcs11/pkcs11t.h:1291:#define CKG_MGF1_SHA512       0x00000004UL
+192:vendor/github.com/miekg/pkcs11/pkcs11t.h:1341:#define CKD_SHA512_KDF           0x00000008UL
+193:vendor/github.com/miekg/pkcs11/pkcs11t.h:1769:#define CKP_PKCS5_PBKD2_HMAC_SHA512        0x00000006UL
+194:vendor/github.com/miekg/pkcs11/pkcs11t.h:1770:#define CKP_PKCS5_PBKD2_HMAC_SHA512_224    0x00000007UL
+195:vendor/github.com/miekg/pkcs11/pkcs11t.h:1771:#define CKP_PKCS5_PBKD2_HMAC_SHA512_256    0x00000008UL
+196:vendor/github.com/miekg/pkcs11/vendor.go:18:	CKM_NC_SHA512_HMAC_KEY_GEN = CKM_NCIPHER + 0x27 /* no params */
+197:vendor/github.com/miekg/pkcs11/vendor.go:93:	CKM_NSS_HKDF_SHA512                       = CKM_NSS + 6
+198:vendor/github.com/miekg/pkcs11/vendor.go:97:	CKM_NSS_JPAKE_ROUND1_SHA512               = CKM_NSS + 10
+199:vendor/github.com/miekg/pkcs11/vendor.go:101:	CKM_NSS_JPAKE_ROUND2_SHA512               = CKM_NSS + 14
+200:vendor/github.com/miekg/pkcs11/vendor.go:105:	CKM_NSS_JPAKE_FINAL_SHA512                = CKM_NSS + 18
+201:vendor/github.com/miekg/pkcs11/vendor.go:119:	CKM_NSS_PKCS12_PBE_SHA512_HMAC_KEY_GEN    = CKM_NSS + 32
+202:vendor/github.com/miekg/pkcs11/zconst.go:100:	CKK_SHA512_HMAC                      = 0x0000002D
+203:vendor/github.com/miekg/pkcs11/zconst.go:260:	CKM_DSA_SHA512                       = 0x00000016
+204:vendor/github.com/miekg/pkcs11/zconst.go:273:	CKM_SHA512_RSA_PKCS                  = 0x00000042
+205:vendor/github.com/miekg/pkcs11/zconst.go:276:	CKM_SHA512_RSA_PKCS_PSS              = 0x00000045
+206:vendor/github.com/miekg/pkcs11/zconst.go:279:	CKM_SHA512_224                       = 0x00000048
+207:vendor/github.com/miekg/pkcs11/zconst.go:280:	CKM_SHA512_224_HMAC                  = 0x00000049
+208:vendor/github.com/miekg/pkcs11/zconst.go:281:	CKM_SHA512_224_HMAC_GENERAL          = 0x0000004A
+209:vendor/github.com/miekg/pkcs11/zconst.go:282:	CKM_SHA512_224_KEY_DERIVATION        = 0x0000004B
+210:vendor/github.com/miekg/pkcs11/zconst.go:283:	CKM_SHA512_256                       = 0x0000004C
+211:vendor/github.com/miekg/pkcs11/zconst.go:284:	CKM_SHA512_256_HMAC                  = 0x0000004D
+212:vendor/github.com/miekg/pkcs11/zconst.go:285:	CKM_SHA512_256_HMAC_GENERAL          = 0x0000004E
+213:vendor/github.com/miekg/pkcs11/zconst.go:286:	CKM_SHA512_256_KEY_DERIVATION        = 0x0000004F
+214:vendor/github.com/miekg/pkcs11/zconst.go:287:	CKM_SHA512_T                         = 0x00000050
+215:vendor/github.com/miekg/pkcs11/zconst.go:288:	CKM_SHA512_T_HMAC                    = 0x00000051
+216:vendor/github.com/miekg/pkcs11/zconst.go:289:	CKM_SHA512_T_HMAC_GENERAL            = 0x00000052
+217:vendor/github.com/miekg/pkcs11/zconst.go:290:	CKM_SHA512_T_KEY_DERIVATION          = 0x00000053
+218:vendor/github.com/miekg/pkcs11/zconst.go:356:	CKM_SHA512                           = 0x00000270
+219:vendor/github.com/miekg/pkcs11/zconst.go:357:	CKM_SHA512_HMAC                      = 0x00000271
+220:vendor/github.com/miekg/pkcs11/zconst.go:358:	CKM_SHA512_HMAC_GENERAL              = 0x00000272
+221:vendor/github.com/miekg/pkcs11/zconst.go:439:	CKM_SHA512_KEY_DERIVATION            = 0x00000395
+222:vendor/github.com/miekg/pkcs11/zconst.go:539:	CKM_ECDSA_SHA512                     = 0x00001046
+223:vendor/github.com/miekg/pkcs11/zconst.go:727:	CKG_MGF1_SHA512                      = 0x00000004
+224:vendor/github.com/miekg/pkcs11/zconst.go:737:	CKD_SHA512_KDF                       = 0x00000008
+225:vendor/github.com/miekg/pkcs11/zconst.go:748:	CKP_PKCS5_PBKD2_HMAC_SHA512          = 0x00000006
+226:vendor/github.com/miekg/pkcs11/zconst.go:749:	CKP_PKCS5_PBKD2_HMAC_SHA512_224      = 0x00000007
+227:vendor/github.com/miekg/pkcs11/zconst.go:750:	CKP_PKCS5_PBKD2_HMAC_SHA512_256      = 0x00000008
+228:vendor/github.com/opencontainers/go-digest/README.md:54:        _ "crypto/sha512"
+229:vendor/github.com/opencontainers/go-digest/algorithm.go:35:	SHA512 Algorithm = "sha512" // sha512 with hex encoding (lower case only)
+230:vendor/github.com/opencontainers/go-digest/algorithm.go:53:		SHA512: crypto.SHA512,
+231:vendor/github.com/opencontainers/go-digest/algorithm.go:61:		SHA512: regexp.MustCompile(`^[a-f0-9]{128}$`),
+232:vendor/github.com/sassoftware/relic/lib/x509tools/digests.go:35:	OidDigestSHA512 = asn1.ObjectIdentifier{2, 16, 840, 1, 101, 3, 4, 2, 3}
+233:vendor/github.com/sassoftware/relic/lib/x509tools/digests.go:44:	crypto.SHA512: OidDigestSHA512,
+234:vendor/github.com/sassoftware/relic/lib/x509tools/digests.go:53:	crypto.SHA512: "SHA-512",
+235:vendor/github.com/sassoftware/relic/lib/x509tools/pkix.go:41:	oidSignatureSHA512WithRSA   = asn1.ObjectIdentifier{1, 2, 840, 113549, 1, 1, 13}
+236:vendor/github.com/sassoftware/relic/lib/x509tools/pkix.go:47:	oidSignatureECDSAWithSHA512 = asn1.ObjectIdentifier{1, 2, 840, 10045, 4, 3, 4}
+237:vendor/github.com/sassoftware/relic/lib/x509tools/pkix.go:75:	{oidSignatureSHA512WithRSA, x509.RSA, crypto.SHA512},
+238:vendor/github.com/sassoftware/relic/lib/x509tools/pkix.go:81:	{oidSignatureECDSAWithSHA512, x509.ECDSA, crypto.SHA512},
+239:vendor/github.com/secure-systems-lab/go-securesystemslib/signerverifier/ecdsa.go:9:	"crypto/sha512"
+240:vendor/github.com/secure-systems-lab/go-securesystemslib/signerverifier/ecdsa.go:113:		return hashBeforeSigning(data, sha512.New384())
+241:vendor/github.com/secure-systems-lab/go-securesystemslib/signerverifier/ecdsa.go:115:		return hashBeforeSigning(data, sha512.New())
+242:vendor/github.com/secure-systems-lab/go-securesystemslib/signerverifier/signerverifier.go:13:var KeyIDHashAlgorithms = []string{"sha256", "sha512"}
+243:vendor/github.com/sigstore/cosign/v3/pkg/blob/load.go:19:	"crypto/sha512"
+244:vendor/github.com/sigstore/cosign/v3/pkg/blob/load.go:90:		case "sha512":
+245:vendor/github.com/sigstore/cosign/v3/pkg/blob/load.go:91:			checksumAlgo = sha512.New()
+246:vendor/github.com/sigstore/cosign/v3/pkg/cosign/tlog.go:277:	case crypto.SHA512:
+247:vendor/github.com/sigstore/cosign/v3/pkg/cosign/tlog.go:278:		return models.HashedrekordV001SchemaDataHashAlgorithmSha512
+248:vendor/github.com/sigstore/protobuf-specs/gen/pb-go/common/v1/sigstore_common.pb.go:161:	// LMS and LM-OTS
+249:vendor/github.com/sigstore/protobuf-specs/gen/pb-go/common/v1/sigstore_common.pb.go:168:	// USER WARNING: LMS and LM-OTS are both stateful signature schemes.
+250:vendor/github.com/sigstore/protobuf-specs/gen/pb-go/common/v1/sigstore_common.pb.go:177:	PublicKeyDetails_LMS_SHA256 PublicKeyDetails = 14
+251:vendor/github.com/sigstore/protobuf-specs/gen/pb-go/common/v1/sigstore_common.pb.go:180:	// ML-DSA
+252:vendor/github.com/sigstore/protobuf-specs/gen/pb-go/common/v1/sigstore_common.pb.go:182:	// These ML_DSA_65 and ML-DSA_87 algorithms are the pure variants that
+253:vendor/github.com/sigstore/protobuf-specs/gen/pb-go/common/v1/sigstore_common.pb.go:183:	// take data to sign rather than the prehash variants (HashML-DSA), which
+254:vendor/github.com/sigstore/protobuf-specs/gen/pb-go/common/v1/sigstore_common.pb.go:219:		14: "LMS_SHA256",
+255:vendor/github.com/sigstore/protobuf-specs/gen/pb-go/common/v1/sigstore_common.pb.go:244:		"LMS_SHA256":                     14,
+256:vendor/github.com/sigstore/rekor/pkg/generated/models/hashedrekord_v001_schema.go:305:	// Enum: ["sha256","sha384","sha512"]
+257:vendor/github.com/sigstore/rekor/pkg/generated/models/hashedrekord_v001_schema.go:335:	if err := json.Unmarshal([]byte(`["sha256","sha384","sha512"]`), &res); err != nil {
+258:vendor/github.com/sigstore/rekor/pkg/generated/models/hashedrekord_v001_schema.go:351:	// HashedrekordV001SchemaDataHashAlgorithmSha512 captures enum value "sha512"
+259:vendor/github.com/sigstore/rekor/pkg/generated/models/hashedrekord_v001_schema.go:352:	HashedrekordV001SchemaDataHashAlgorithmSha512 string = "sha512"
+260:vendor/github.com/sigstore/rekor/pkg/generated/models/helm.go:47:	Spec HelmSchema `json:"spec"`
+261:vendor/github.com/sigstore/rekor/pkg/generated/models/helm.go:70:		Spec HelmSchema `json:"spec"`
+262:vendor/github.com/sigstore/rekor/pkg/generated/models/helm.go:121:		Spec HelmSchema `json:"spec"`
+263:vendor/github.com/sigstore/rekor/pkg/generated/models/helm_schema.go:24:// HelmSchema Helm Schema
+264:vendor/github.com/sigstore/rekor/pkg/generated/models/helm_schema.go:28:// swagger:model helmSchema
+265:vendor/github.com/sigstore/rekor/pkg/generated/models/helm_schema.go:29:type HelmSchema any
+266:vendor/github.com/sigstore/rekor/pkg/generated/models/search_index.go:45:	// Pattern: ^(sha512:)?[0-9a-fA-F]{128}$|^(sha256:)?[0-9a-fA-F]{64}$|^(sha1:)?[0-9a-fA-F]{40}$
+267:vendor/github.com/sigstore/rekor/pkg/generated/models/search_index.go:99:	if err := validate.Pattern("hash", "body", m.Hash, `^(sha512:)?[0-9a-fA-F]{128}$|^(sha256:)?[0-9a-fA-F]{64}$|^(sha1:)?[0-9a-fA-F]{40}$`); err != nil {
+268:vendor/github.com/sigstore/rekor/pkg/pki/ssh/encode.go:83:	// TODO: check the format here (should be rsa-sha512)
+269:vendor/github.com/sigstore/rekor/pkg/pki/ssh/sign.go:21:	"crypto/sha512"
+270:vendor/github.com/sigstore/rekor/pkg/pki/ssh/sign.go:49:	defaultHashAlgorithm = "sha512"
+271:vendor/github.com/sigstore/rekor/pkg/pki/ssh/sign.go:54:	"sha512": sha512.New,
+272:vendor/github.com/sigstore/rekor/pkg/pki/ssh/sign.go:58:	hf := sha512.New()
+273:vendor/github.com/sigstore/rekor/pkg/pki/ssh/sign.go:78:		algo = ssh.KeyAlgoRSASHA512
+274:vendor/github.com/sigstore/rekor/pkg/types/hashedrekord/v0.0.1/entry.go:241:	case models.HashedrekordV001SchemaDataHashAlgorithmSha512:
+275:vendor/github.com/sigstore/rekor/pkg/types/hashedrekord/v0.0.1/entry.go:242:		if len(*hash.Value) != crypto.SHA512.Size()*2 {
+276:vendor/github.com/sigstore/rekor/pkg/types/hashedrekord/v0.0.1/entry.go:245:		alg = crypto.SHA512
+277:vendor/github.com/sigstore/rekor/pkg/types/hashedrekord/v0.0.1/entry.go:268:	case crypto.SHA512:
+278:vendor/github.com/sigstore/rekor/pkg/types/hashedrekord/v0.0.1/entry.go:269:		return models.HashedrekordV001SchemaDataHashAlgorithmSha512
+279:vendor/github.com/sigstore/rekor/pkg/types/hashedrekord/v0.0.1/hashedrekord_v0_0_1_schema.json:41:                            "enum": [ "sha256", "sha384", "sha512" ]
+280:vendor/github.com/sigstore/rekor/pkg/util/sha.go:40:		prefix = "sha512:"
+281:vendor/github.com/sigstore/rekor/pkg/util/sha.go:60:		case "sha512":
+282:vendor/github.com/sigstore/rekor/pkg/util/sha.go:61:			return crypto.SHA512, sha
+283:vendor/github.com/sigstore/rekor/pkg/util/sha.go:75:		return crypto.SHA512, sha
+284:vendor/github.com/sigstore/sigstore-go/pkg/root/trusted_root.go:446:			h = crypto.SHA512
+285:vendor/github.com/sigstore/sigstore-go/pkg/root/trusted_root.go:451:		h = crypto.SHA512
+286:vendor/github.com/sigstore/sigstore-go/pkg/root/trusted_root_create.go:212:	case crypto.SHA512:
+287:vendor/github.com/sigstore/sigstore-go/pkg/sign/keys.go:25:	_ "crypto/sha512" // if user chooses SHA2-384 or SHA2-512 for hash
+288:vendor/github.com/sigstore/sigstore-go/pkg/tuf/repository/root.json:36:     "sha512"
+289:vendor/github.com/sigstore/sigstore-go/pkg/tuf/repository/root.json:56:     "sha512"
+290:vendor/github.com/sigstore/sigstore-go/pkg/tuf/repository/root.json:68:     "sha512"
+291:vendor/github.com/sigstore/sigstore-go/pkg/tuf/repository/root.json:80:     "sha512"
+292:vendor/github.com/sigstore/sigstore-go/pkg/tuf/repository/root.json:92:     "sha512"
+293:vendor/github.com/sigstore/sigstore-go/pkg/verify/signature.go:456:	case "sha512":
+294:vendor/github.com/sigstore/sigstore-go/pkg/verify/signature.go:457:		return crypto.SHA512, nil
+295:vendor/github.com/sigstore/sigstore-go/pkg/verify/signature.go:470:	supportedHashFuncs := []crypto.Hash{crypto.SHA512, crypto.SHA384, crypto.SHA256}
+296:vendor/github.com/sigstore/sigstore/pkg/signature/algorithm_registry.go:164:	{v1.PublicKeyDetails_PKIX_ECDSA_P521_SHA_512, ECDSA, crypto.SHA512, v1.HashAlgorithm_SHA2_512, elliptic.P521(), "ecdsa-sha2-512-nistp521"},
+297:vendor/github.com/sigstore/sigstore/pkg/signature/algorithm_registry.go:167:	{v1.PublicKeyDetails_PKIX_ED25519_PH, ED25519, crypto.SHA512, v1.HashAlgorithm_SHA2_512, nil, "ed25519-ph"},
+298:vendor/github.com/sigstore/sigstore/pkg/signature/ecdsa.go:35:	crypto.SHA512,
+299:vendor/github.com/sigstore/sigstore/pkg/signature/ecdsa.go:43:	crypto.SHA512,
+300:vendor/github.com/sigstore/sigstore/pkg/signature/ed25519ph.go:30:	crypto.SHA512,
+301:vendor/github.com/sigstore/sigstore/pkg/signature/ed25519ph.go:69:	digest, _, err := ComputeDigestForSigning(message, crypto.SHA512, ed25519phSupportedHashFuncs, opts...)
+302:vendor/github.com/sigstore/sigstore/pkg/signature/ed25519ph.go:74:	return e.priv.Sign(nil, digest, crypto.SHA512)
+303:vendor/github.com/sigstore/sigstore/pkg/signature/ed25519ph.go:140:	digest, _, err := ComputeDigestForVerifying(message, crypto.SHA512, ed25519phSupportedHashFuncs, opts...)
+304:vendor/github.com/sigstore/sigstore/pkg/signature/ed25519ph.go:150:	if err := ed25519.VerifyWithOptions(e.publicKey, digest, sigBytes, &ed25519.Options{Hash: crypto.SHA512}); err != nil {
+305:vendor/github.com/sigstore/sigstore/pkg/signature/rsapkcs1v15.go:37:// hf must be either SHA256, SHA388, or SHA512.
+306:vendor/github.com/sigstore/sigstore/pkg/signature/rsapkcs1v15.go:120:// hf must be either SHA256, SHA388, or SHA512.
+307:vendor/github.com/sigstore/sigstore/pkg/signature/rsapss.go:33:	crypto.SHA512,
+308:vendor/github.com/sigstore/sigstore/pkg/signature/rsapss.go:41:	crypto.SHA512,
+309:vendor/github.com/sigstore/sigstore/pkg/signature/rsapss.go:56:// hf must be either SHA256, SHA388, or SHA512. opts.Hash is ignored.
+310:vendor/github.com/sigstore/sigstore/pkg/signature/rsapss.go:146:// hf must be either SHA256, SHA388, or SHA512. opts.Hash is ignored.
+311:vendor/github.com/sigstore/sigstore/pkg/signature/signer.go:30:	_ "crypto/sha512"
+312:vendor/github.com/sigstore/sigstore/pkg/tuf/client.go:378:		"sha256", "sha512")
+313:vendor/github.com/sigstore/sigstore/pkg/tuf/repository/root.json:32:     "sha512"
+314:vendor/github.com/sigstore/sigstore/pkg/tuf/repository/root.json:44:     "sha512"
+315:vendor/github.com/sigstore/sigstore/pkg/tuf/repository/root.json:56:     "sha512"
+316:vendor/github.com/sigstore/sigstore/pkg/tuf/repository/root.json:68:     "sha512"
+317:vendor/github.com/sigstore/sigstore/pkg/tuf/repository/root.json:80:     "sha512"
+318:vendor/github.com/sigstore/sigstore/pkg/tuf/repository/root.json:92:     "sha512"
+319:vendor/github.com/sigstore/timestamp-authority/v2/pkg/verification/verify_request.go:25:var ErrWeakHashAlg = errors.New("weak hash algorithm: must be SHA-256, SHA-384, or SHA-512")
+320:vendor/github.com/sigstore/timestamp-authority/v2/pkg/verification/verify_request.go:30:	// only SHA-1, SHA-256, SHA-384, and SHA-512 are supported by the underlying library
+321:vendor/github.com/sigstore/timestamp-authority/v2/pkg/verification/verify_request.go:34:	case crypto.SHA256, crypto.SHA384, crypto.SHA512:
+322:vendor/github.com/skeema/knownhosts/knownhosts.go:214:			// KeyAlgoRSASHA256 and KeyAlgoRSASHA512 are only public key algorithms,
+323:vendor/github.com/skeema/knownhosts/knownhosts.go:217:			addAlgo(ssh.KeyAlgoRSASHA512, key.Cert)
+324:vendor/github.com/skeema/knownhosts/knownhosts.go:231:	case ssh.KeyAlgoRSASHA512:
+325:vendor/github.com/skeema/knownhosts/knownhosts.go:232:		return ssh.CertAlgoRSASHA512v01
+326:vendor/github.com/smallstep/pkcs7/decrypt.go:19:var ErrUnsupportedAlgorithm = errors.New("pkcs7: cannot decrypt data: only RSA, DES, DES-EDE3, AES-256-CBC and AES-128-GCM supported")
+327:vendor/github.com/smallstep/pkcs7/decrypt.go:95:	case params.HashFunc.Algorithm.Equal(OIDDigestAlgorithmSHA512):
+328:vendor/github.com/smallstep/pkcs7/decrypt.go:96:		return crypto.SHA512, nil
+329:vendor/github.com/smallstep/pkcs7/decrypt.go:116:		!alg.Equal(OIDEncryptionAlgorithmAES256CBC) &&
+330:vendor/github.com/smallstep/pkcs7/decrypt.go:119:		!alg.Equal(OIDEncryptionAlgorithmAES256GCM) {
+331:vendor/github.com/smallstep/pkcs7/decrypt.go:152:	case alg.Equal(OIDEncryptionAlgorithmAES256CBC), alg.Equal(OIDEncryptionAlgorithmAES256GCM):
+332:vendor/github.com/smallstep/pkcs7/decrypt.go:162:	if alg.Equal(OIDEncryptionAlgorithmAES128GCM) || alg.Equal(OIDEncryptionAlgorithmAES256GCM) {
+333:vendor/github.com/smallstep/pkcs7/encrypt.go:50:	// EncryptionAlgorithmAES256CBC is the AES 256 bits with CBC encryption algorithm
+334:vendor/github.com/smallstep/pkcs7/encrypt.go:52:	EncryptionAlgorithmAES256CBC
+335:vendor/github.com/smallstep/pkcs7/encrypt.go:57:	// EncryptionAlgorithmAES256GCM is the AES 256 bits with GCM encryption algorithm
+336:vendor/github.com/smallstep/pkcs7/encrypt.go:58:	EncryptionAlgorithmAES256GCM
+337:vendor/github.com/smallstep/pkcs7/encrypt.go:106:	case EncryptionAlgorithmAES256GCM:
+338:vendor/github.com/smallstep/pkcs7/encrypt.go:108:		algID = OIDEncryptionAlgorithmAES256GCM
+339:vendor/github.com/smallstep/pkcs7/encrypt.go:220:	case EncryptionAlgorithmAES256CBC:
+340:vendor/github.com/smallstep/pkcs7/encrypt.go:222:		algID = OIDEncryptionAlgorithmAES256CBC
+341:vendor/github.com/smallstep/pkcs7/encrypt.go:278://	ContentEncryptionAlgorithm = EncryptionAlgorithmAES256GCM
+342:vendor/github.com/smallstep/pkcs7/encrypt.go:292:	case EncryptionAlgorithmAES256CBC:
+343:vendor/github.com/smallstep/pkcs7/encrypt.go:296:	case EncryptionAlgorithmAES256GCM:
+344:vendor/github.com/smallstep/pkcs7/encrypt.go:382:	case crypto.SHA512:
+345:vendor/github.com/smallstep/pkcs7/encrypt.go:383:		params.HashFunc = pkix.AlgorithmIdentifier{Algorithm: OIDDigestAlgorithmSHA512}
+346:vendor/github.com/smallstep/pkcs7/encrypt.go:415:	case EncryptionAlgorithmAES256GCM:
+347:vendor/github.com/smallstep/pkcs7/internal/legacy/x509/x509.go:38:	_ "crypto/sha512"
+348:vendor/github.com/smallstep/pkcs7/internal/legacy/x509/x509.go:57:	SHA512WithRSA
+349:vendor/github.com/smallstep/pkcs7/internal/legacy/x509/x509.go:63:	ECDSAWithSHA512
+350:vendor/github.com/smallstep/pkcs7/internal/legacy/x509/x509.go:66:	SHA512WithRSAPSS
+351:vendor/github.com/smallstep/pkcs7/internal/legacy/x509/x509.go:129://	sha512WithRSAEncryption OBJECT IDENTIFIER ::= { pkcs-1 13 }
+352:vendor/github.com/smallstep/pkcs7/internal/legacy/x509/x509.go:145://	ecdsa-with-SHA512 OBJECT IDENTIFIER ::= { iso(1) member-body(2)
+353:vendor/github.com/smallstep/pkcs7/internal/legacy/x509/x509.go:156:	oidSignatureSHA512WithRSA   = asn1.ObjectIdentifier{1, 2, 840, 113549, 1, 1, 13}
+354:vendor/github.com/smallstep/pkcs7/internal/legacy/x509/x509.go:163:	oidSignatureECDSAWithSHA512 = asn1.ObjectIdentifier{1, 2, 840, 10045, 4, 3, 4}
+355:vendor/github.com/smallstep/pkcs7/internal/legacy/x509/x509.go:168:	oidSHA512 = asn1.ObjectIdentifier{2, 16, 840, 1, 101, 3, 4, 2, 3}
+356:vendor/github.com/smallstep/pkcs7/internal/legacy/x509/x509.go:192:	{SHA512WithRSA, "SHA512-RSA", oidSignatureSHA512WithRSA, asn1.NullRawValue, RSA, crypto.SHA512, false},
+357:vendor/github.com/smallstep/pkcs7/internal/legacy/x509/x509.go:195:	{SHA512WithRSAPSS, "SHA512-RSAPSS", oidSignatureRSAPSS, pssParametersSHA512, RSA, crypto.SHA512, true},
+358:vendor/github.com/smallstep/pkcs7/internal/legacy/x509/x509.go:201:	{ECDSAWithSHA512, "ECDSA-SHA512", oidSignatureECDSAWithSHA512, emptyRawValue, ECDSA, crypto.SHA512, false},
+359:vendor/github.com/smallstep/pkcs7/internal/legacy/x509/x509.go:208:// SHA256, SHA384, and SHA512 hashes as defined in RFC 3447, Appendix A.2.3.
+360:vendor/github.com/smallstep/pkcs7/internal/legacy/x509/x509.go:217:	pssParametersSHA512 = asn1.RawValue{FullBytes: []byte{48, 52, 160, 15, 48, 13, 6, 9, 96, 134, 72, 1, 101, 3, 4, 2, 3, 5, 0, 161, 28, 48, 26, 6, 9, 42, 134, 72, 134, 247, 13, 1, 1, 8, 48, 13, 6, 9, 96, 134, 72, 1, 101, 3, 4, 2, 3, 5, 0, 162, 3, 2, 1, 64}}
+361:vendor/github.com/smallstep/pkcs7/internal/legacy/x509/x509.go:281:	case params.Hash.Algorithm.Equal(oidSHA512) && params.SaltLength == 64:
+362:vendor/github.com/smallstep/pkcs7/internal/legacy/x509/x509.go:282:		return stdx509.SHA512WithRSAPSS
+363:vendor/github.com/smallstep/pkcs7/pkcs7.go:58:	OIDDigestAlgorithmSHA512 = asn1.ObjectIdentifier{2, 16, 840, 1, 101, 3, 4, 2, 3}
+364:vendor/github.com/smallstep/pkcs7/pkcs7.go:67:	OIDDigestAlgorithmECDSASHA512 = asn1.ObjectIdentifier{1, 2, 840, 10045, 4, 3, 4}
+365:vendor/github.com/smallstep/pkcs7/pkcs7.go:74:	OIDEncryptionAlgorithmRSASHA512 = asn1.ObjectIdentifier{1, 2, 840, 113549, 1, 1, 13} // ditto
+366:vendor/github.com/smallstep/pkcs7/pkcs7.go:88:	OIDEncryptionAlgorithmAES256CBC  = asn1.ObjectIdentifier{2, 16, 840, 1, 101, 3, 4, 1, 42} // see https://www.rfc-editor.org/rfc/rfc3565.html#section-4.1
+367:vendor/github.com/smallstep/pkcs7/pkcs7.go:91:	OIDEncryptionAlgorithmAES256GCM  = asn1.ObjectIdentifier{2, 16, 840, 1, 101, 3, 4, 1, 46} // see https://www.rfc-editor.org/rfc/rfc5084.html#section-3.2
+368:vendor/github.com/smallstep/pkcs7/pkcs7.go:104:	case oid.Equal(OIDDigestAlgorithmSHA512), oid.Equal(OIDDigestAlgorithmECDSASHA512):
+369:vendor/github.com/smallstep/pkcs7/pkcs7.go:105:		return crypto.SHA512, nil
+370:vendor/github.com/smallstep/pkcs7/pkcs7.go:120:	case x509.SHA512WithRSA, x509.ECDSAWithSHA512:
+371:vendor/github.com/smallstep/pkcs7/pkcs7.go:121:		return OIDDigestAlgorithmSHA512, nil
+372:vendor/github.com/smallstep/pkcs7/pkcs7.go:142:		case OIDDigestAlg.Equal(OIDDigestAlgorithmSHA512):
+373:vendor/github.com/smallstep/pkcs7/pkcs7.go:143:			return OIDEncryptionAlgorithmRSASHA512, nil
+374:vendor/github.com/smallstep/pkcs7/pkcs7.go:153:		case OIDDigestAlg.Equal(OIDDigestAlgorithmSHA512):
+375:vendor/github.com/smallstep/pkcs7/pkcs7.go:154:			return OIDDigestAlgorithmECDSASHA512, nil
+376:vendor/github.com/smallstep/pkcs7/verify.go:295:	case digestEncryption.Algorithm.Equal(OIDDigestAlgorithmECDSASHA512):
+377:vendor/github.com/smallstep/pkcs7/verify.go:296:		return x509.ECDSAWithSHA512, nil
+378:vendor/github.com/smallstep/pkcs7/verify.go:301:		digestEncryption.Algorithm.Equal(OIDEncryptionAlgorithmRSASHA512):
+379:vendor/github.com/smallstep/pkcs7/verify.go:309:		case digest.Algorithm.Equal(OIDDigestAlgorithmSHA512), digest.Algorithm.Equal(OIDEncryptionAlgorithmRSASHA512):
+380:vendor/github.com/smallstep/pkcs7/verify.go:310:			return x509.SHA512WithRSA, nil
+381:vendor/github.com/smallstep/pkcs7/verify.go:336:		case digest.Algorithm.Equal(OIDDigestAlgorithmSHA512):
+382:vendor/github.com/smallstep/pkcs7/verify.go:337:			return x509.ECDSAWithSHA512, nil
+383:vendor/github.com/sylabs/sif/v2/pkg/sif/descriptor.go:270:	case hashSHA512:
+384:vendor/github.com/sylabs/sif/v2/pkg/sif/descriptor.go:271:		return crypto.SHA512, nil
+385:vendor/github.com/sylabs/sif/v2/pkg/sif/descriptor_input.go:207:	case crypto.SHA512:
+386:vendor/github.com/sylabs/sif/v2/pkg/sif/descriptor_input.go:208:		return hashSHA512
+387:vendor/github.com/sylabs/sif/v2/pkg/sif/sif.go:231:	hashSHA512
+388:vendor/github.com/theupdateframework/go-tuf/data/types.go:39:	HashAlgorithmSHA512 HashAlgorithm = "sha512"
+389:vendor/github.com/theupdateframework/go-tuf/data/types.go:43:	HashAlgorithms           = []HashAlgorithm{HashAlgorithmSHA256, HashAlgorithmSHA512}
+390:vendor/github.com/theupdateframework/go-tuf/util/util.go:7:	"crypto/sha512"
+391:vendor/github.com/theupdateframework/go-tuf/util/util.go:99:		case "sha512":
+392:vendor/github.com/theupdateframework/go-tuf/util/util.go:100:			h = sha512.New()
+393:vendor/github.com/theupdateframework/go-tuf/util/util.go:184:const defaultHashAlgorithm = "sha512"
+394:vendor/github.com/theupdateframework/go-tuf/util/util.go:196:		case "sha512":
+395:vendor/github.com/theupdateframework/go-tuf/util/util.go:197:			h = sha512.New()
+396:vendor/github.com/theupdateframework/go-tuf/v2/metadata/metadata.go:26:	"crypto/sha512"
+397:vendor/github.com/theupdateframework/go-tuf/v2/metadata/metadata.go:512:		case "sha512":
+398:vendor/github.com/theupdateframework/go-tuf/v2/metadata/metadata.go:513:			hasher = sha512.New()
+399:vendor/github.com/theupdateframework/go-tuf/v2/metadata/metadata.go:871:		case "sha512":
+400:vendor/github.com/theupdateframework/go-tuf/v2/metadata/metadata.go:872:			hasher = sha512.New()
+401:vendor/go.podman.io/image/v5/signature/internal/rekor_api_types.go:85:	RekorHashedrekordV001SchemaDataHashAlgorithmSha512 string = "sha512"
+402:vendor/go.podman.io/image/v5/signature/internal/rekor_set.go:205:	// FIXME: Rekor 1.3.5 has added SHA-386 and SHA-512 as recognized values.
+403:vendor/golang.org/x/crypto/ocsp/ocsp.go:18:	_ "crypto/sha512"
+404:vendor/golang.org/x/crypto/ocsp/ocsp.go:147:	oidSignatureSHA512WithRSA   = asn1.ObjectIdentifier{1, 2, 840, 113549, 1, 1, 13}
+405:vendor/golang.org/x/crypto/ocsp/ocsp.go:153:	oidSignatureECDSAWithSHA512 = asn1.ObjectIdentifier{1, 2, 840, 10045, 4, 3, 4}
+406:vendor/golang.org/x/crypto/ocsp/ocsp.go:160:	crypto.SHA512: asn1.ObjectIdentifier([]int{2, 16, 840, 1, 101, 3, 4, 2, 3}),
+407:vendor/golang.org/x/crypto/ocsp/ocsp.go:175:	{x509.SHA512WithRSA, oidSignatureSHA512WithRSA, x509.RSA, crypto.SHA512},
+408:vendor/golang.org/x/crypto/ocsp/ocsp.go:181:	{x509.ECDSAWithSHA512, oidSignatureECDSAWithSHA512, x509.ECDSA, crypto.SHA512},
+409:vendor/golang.org/x/crypto/ocsp/ocsp.go:208:			hashFunc = crypto.SHA512
+410:vendor/golang.org/x/crypto/ocsp/ocsp.go:209:			sigAlgo.Algorithm = oidSignatureECDSAWithSHA512
+411:vendor/golang.org/x/crypto/ocsp/ocsp.go:364:	// Valid values are crypto.SHA1, crypto.SHA256, crypto.SHA384, and crypto.SHA512.
+412:vendor/golang.org/x/crypto/openpgp/packet/packet.go:487:	CipherAES256 CipherFunction = 9
+413:vendor/golang.org/x/crypto/openpgp/packet/packet.go:501:	case CipherAES256:
+414:vendor/golang.org/x/crypto/openpgp/packet/packet.go:514:	case CipherAES128, CipherAES192, CipherAES256:
+415:vendor/golang.org/x/crypto/openpgp/packet/packet.go:527:	case CipherAES128, CipherAES192, CipherAES256:
+416:vendor/golang.org/x/crypto/openpgp/packet/public_key.go:16:	_ "crypto/sha512"
+417:vendor/golang.org/x/crypto/openpgp/s2k/s2k.go:244:	{10, crypto.SHA512, "SHA512"},
+418:vendor/golang.org/x/crypto/openpgp/write.go:268:		uint8(packet.CipherAES256),
+419:vendor/golang.org/x/crypto/openpgp/write.go:275:		hashToHashId(crypto.SHA512),
+420:vendor/golang.org/x/crypto/openpgp/write.go:354:		hashToHashId(crypto.SHA512),
+421:vendor/golang.org/x/crypto/pbkdf2/pbkdf2.go:15:Hash Functions SHA-1, SHA-224, SHA-256, SHA-384 and SHA-512 for HMAC. To
+422:vendor/golang.org/x/crypto/pbkdf2/pbkdf2.go:32:// can get a derived key for e.g. AES-256 (which needs a 32-byte key) by
+423:vendor/golang.org/x/crypto/scrypt/scrypt.go:186:// For example, you can get a derived key for e.g. AES-256 (which needs a
+424:vendor/golang.org/x/crypto/ssh/agent/client.go:41:	SignatureFlagRsaSha512
+425:vendor/golang.org/x/crypto/ssh/agent/client.go:792:	case ssh.KeyAlgoRSASHA512:
+426:vendor/golang.org/x/crypto/ssh/agent/client.go:793:		flags = SignatureFlagRsaSha512
+427:vendor/golang.org/x/crypto/ssh/agent/client.go:810:	ssh.CertAlgoRSASHA512v01:   ssh.KeyAlgoRSASHA512,
+428:vendor/golang.org/x/crypto/ssh/agent/keyring.go:218:					case SignatureFlagRsaSha512:
+429:vendor/golang.org/x/crypto/ssh/agent/keyring.go:219:						algorithm = ssh.KeyAlgoRSASHA512
+430:vendor/golang.org/x/crypto/ssh/certs.go:37:	// CertAlgoRSASHA256v01 and CertAlgoRSASHA512v01 can't appear as a
+431:vendor/golang.org/x/crypto/ssh/certs.go:41:	CertAlgoRSASHA512v01 = "rsa-sha2-512-cert-v01@openssh.com"
+432:vendor/golang.org/x/crypto/ssh/certs.go:49:	// Deprecated: use CertAlgoRSASHA512v01.
+433:vendor/golang.org/x/crypto/ssh/certs.go:50:	CertSigAlgoRSASHA2512v01 = CertAlgoRSASHA512v01
+434:vendor/golang.org/x/crypto/ssh/certs.go:478:		// Default to KeyAlgoRSASHA512 for ssh-rsa signers.
+435:vendor/golang.org/x/crypto/ssh/certs.go:480:		sig, err := v.SignWithAlgorithm(rand, c.bytesForSigning(), KeyAlgoRSASHA512)
+436:vendor/golang.org/x/crypto/ssh/certs.go:503:	CertAlgoRSASHA512v01:   KeyAlgoRSASHA512,
+437:vendor/golang.org/x/crypto/ssh/cipher.go:105:	cipherModes[CipherAES256CTR] = &cipherMode{32, aes.BlockSize, streamCipherMode(0, newAESCTR)}
+438:vendor/golang.org/x/crypto/ssh/cipher.go:111:	cipherModes[CipherAES256GCM] = &cipherMode{32, 12, newGCMCipher}
+439:vendor/golang.org/x/crypto/ssh/common.go:19:	_ "crypto/sha512"
+440:vendor/golang.org/x/crypto/ssh/common.go:34:	CipherAES256GCM            = "aes256-gcm@openssh.com"
+441:vendor/golang.org/x/crypto/ssh/common.go:38:	CipherAES256CTR            = "aes256-ctr"
+442:vendor/golang.org/x/crypto/ssh/common.go:54:	KeyExchangeDH16SHA512        = "diffie-hellman-group16-sha512"
+443:vendor/golang.org/x/crypto/ssh/common.go:61:	// KeyExchangeMLKEM768X25519 is supported from Go 1.24.
+444:vendor/golang.org/x/crypto/ssh/common.go:62:	KeyExchangeMLKEM768X25519 = "mlkem768x25519-sha256"
+445:vendor/golang.org/x/crypto/ssh/common.go:76:	HMACSHA512ETM      = "hmac-sha2-512-etm@openssh.com"
+446:vendor/golang.org/x/crypto/ssh/common.go:78:	HMACSHA512         = "hmac-sha2-512"
+447:vendor/golang.org/x/crypto/ssh/common.go:87:		KeyExchangeMLKEM768X25519,
+448:vendor/golang.org/x/crypto/ssh/common.go:93:		KeyExchangeDH16SHA512,
+449:vendor/golang.org/x/crypto/ssh/common.go:99:		KeyExchangeMLKEM768X25519,
+450:vendor/golang.org/x/crypto/ssh/common.go:118:		CipherAES256GCM,
+451:vendor/golang.org/x/crypto/ssh/common.go:122:		CipherAES256CTR,
+452:vendor/golang.org/x/crypto/ssh/common.go:140:		HMACSHA512ETM,
+453:vendor/golang.org/x/crypto/ssh/common.go:142:		HMACSHA512,
+454:vendor/golang.org/x/crypto/ssh/common.go:149:		HMACSHA512ETM,
+455:vendor/golang.org/x/crypto/ssh/common.go:151:		HMACSHA512,
+456:vendor/golang.org/x/crypto/ssh/common.go:165:		CertAlgoRSASHA512v01,
+457:vendor/golang.org/x/crypto/ssh/common.go:171:		KeyAlgoRSASHA512,
+458:vendor/golang.org/x/crypto/ssh/common.go:181:		CertAlgoRSASHA512v01,
+459:vendor/golang.org/x/crypto/ssh/common.go:192:		KeyAlgoRSASHA512,
+460:vendor/golang.org/x/crypto/ssh/common.go:216:		KeyAlgoRSASHA512,
+461:vendor/golang.org/x/crypto/ssh/common.go:230:		KeyAlgoRSASHA512,
+462:vendor/golang.org/x/crypto/ssh/common.go:279:	case KeyAlgoRSASHA512, KeyAlgoECDSA521:
+463:vendor/golang.org/x/crypto/ssh/common.go:280:		return crypto.SHA512, nil
+464:vendor/golang.org/x/crypto/ssh/common.go:327:		return []string{KeyAlgoRSASHA256, KeyAlgoRSASHA512, KeyAlgoRSA}
+465:vendor/golang.org/x/crypto/ssh/common.go:329:		return []string{CertAlgoRSASHA256v01, CertAlgoRSASHA512v01, CertAlgoRSAv01}
+466:vendor/golang.org/x/crypto/ssh/common.go:340:	case KeyAlgoRSA, KeyAlgoRSASHA256, KeyAlgoRSASHA512:
+467:vendor/golang.org/x/crypto/ssh/common.go:342:	case CertAlgoRSAv01, CertAlgoRSASHA256v01, CertAlgoRSASHA512v01:
+468:vendor/golang.org/x/crypto/ssh/common.go:440:	case CipherAES128CTR, CipherAES192CTR, CipherAES256CTR, CipherAES128GCM, CipherAES256GCM, InsecureCipherAES128CBC:
+469:vendor/golang.org/x/crypto/ssh/common.go:451:	CipherAES256GCM:        true,
+470:vendor/golang.org/x/crypto/ssh/internal/bcrypt_pbkdf/bcrypt_pbkdf.go:12:	"crypto/sha512"
+471:vendor/golang.org/x/crypto/ssh/internal/bcrypt_pbkdf/bcrypt_pbkdf.go:38:	h := sha512.New()
+472:vendor/golang.org/x/crypto/ssh/internal/bcrypt_pbkdf/bcrypt_pbkdf.go:42:	shasalt := make([]byte, 0, sha512.Size)
+473:vendor/golang.org/x/crypto/ssh/kex.go:30:	// This is the group called diffie-hellman-group15-sha512 in RFC 8268 and
+474:vendor/golang.org/x/crypto/ssh/kex.go:33:	// This is the group called diffie-hellman-group16-sha512 in RFC 8268 and
+475:vendor/golang.org/x/crypto/ssh/kex.go:397:	return crypto.SHA512
+476:vendor/golang.org/x/crypto/ssh/kex.go:406:	// mlkem768x25519-sha256 we'll work with fips140=on but not fips140=only
+477:vendor/golang.org/x/crypto/ssh/kex.go:408:	kexAlgoMap[KeyExchangeMLKEM768X25519] = &mlkem768WithCurve25519sha256{}
+478:vendor/golang.org/x/crypto/ssh/kex.go:447:	kexAlgoMap[KeyExchangeDH16SHA512] = &dhGroup{
+479:vendor/golang.org/x/crypto/ssh/kex.go:451:		hashFunc: crypto.SHA512,
+480:vendor/golang.org/x/crypto/ssh/keys.go:54:	// KeyAlgoRSASHA256 and KeyAlgoRSASHA512 are only public key algorithms, not
+481:vendor/golang.org/x/crypto/ssh/keys.go:58:	KeyAlgoRSASHA512 = "rsa-sha2-512"
+482:vendor/golang.org/x/crypto/ssh/keys.go:66:	// Deprecated: use KeyAlgoRSASHA512.
+483:vendor/golang.org/x/crypto/ssh/keys.go:67:	SigAlgoRSASHA2512 = KeyAlgoRSASHA512
+484:vendor/golang.org/x/crypto/ssh/keys.go:1422:		case "aes256-ctr":
+485:vendor/golang.org/x/crypto/ssh/keys.go:1425:		case "aes256-cbc":
+486:vendor/golang.org/x/crypto/ssh/keys.go:1432:			return nil, fmt.Errorf("ssh: unknown cipher %q, only supports %q or %q", cipherName, "aes256-ctr", "aes256-cbc")
+487:vendor/golang.org/x/crypto/ssh/keys.go:1477:		return dst, "aes256-ctr", "bcrypt", string(Marshal(opts)), nil
+488:vendor/golang.org/x/crypto/ssh/mac.go:14:	"crypto/sha512"
+489:vendor/golang.org/x/crypto/ssh/mac.go:57:	macModes[HMACSHA512ETM] = &macMode{64, true, func(key []byte) hash.Hash {
+490:vendor/golang.org/x/crypto/ssh/mac.go:58:		return hmac.New(sha512.New, key)
+491:vendor/golang.org/x/crypto/ssh/mac.go:63:	macModes[HMACSHA512] = &macMode{64, false, func(key []byte) hash.Hash {
+492:vendor/golang.org/x/crypto/ssh/mac.go:64:		return hmac.New(sha512.New, key)
+493:vendor/golang.org/x/crypto/ssh/mlkem.go:9:	"crypto/mlkem"
+494:vendor/golang.org/x/crypto/ssh/mlkem.go:18:// mlkem768WithCurve25519sha256 implements the hybrid ML-KEM768 with
+495:vendor/golang.org/x/crypto/ssh/mlkem.go:21:type mlkem768WithCurve25519sha256 struct{}
+496:vendor/golang.org/x/crypto/ssh/mlkem.go:23:func (kex *mlkem768WithCurve25519sha256) Client(c packetConn, rand io.Reader, magics *handshakeMagics) (*kexResult, error) {
+497:vendor/golang.org/x/crypto/ssh/mlkem.go:29:	seed := make([]byte, mlkem.SeedSize)
+498:vendor/golang.org/x/crypto/ssh/mlkem.go:34:	mlkemDk, err := mlkem.NewDecapsulationKey768(seed)
+499:vendor/golang.org/x/crypto/ssh/mlkem.go:39:	hybridKey := append(mlkemDk.EncapsulationKey().Bytes(), c25519kp.pub[:]...)
+500:vendor/golang.org/x/crypto/ssh/mlkem.go:54:	if len(reply.EphemeralPubKey) != mlkem.CiphertextSize768+32 {
+501:vendor/golang.org/x/crypto/ssh/mlkem.go:55:		return nil, errors.New("ssh: peer's mlkem768x25519 public value has wrong length")
+502:vendor/golang.org/x/crypto/ssh/mlkem.go:58:	// Perform KEM decapsulate operation to obtain shared key from ML-KEM.
+503:vendor/golang.org/x/crypto/ssh/mlkem.go:59:	mlkem768Secret, err := mlkemDk.Decapsulate(reply.EphemeralPubKey[:mlkem.CiphertextSize768])
+504:vendor/golang.org/x/crypto/ssh/mlkem.go:65:	c25519Secret, err := curve25519.X25519(c25519kp.priv[:], reply.EphemeralPubKey[mlkem.CiphertextSize768:])
+505:vendor/golang.org/x/crypto/ssh/mlkem.go:67:		return nil, fmt.Errorf("ssh: peer's mlkem768x25519 public value is not valid: %w", err)
+506:vendor/golang.org/x/crypto/ssh/mlkem.go:71:	h.Write(mlkem768Secret)
+507:vendor/golang.org/x/crypto/ssh/mlkem.go:94:func (kex *mlkem768WithCurve25519sha256) Server(c packetConn, rand io.Reader, magics *handshakeMagics, priv AlgorithmSigner, algo string) (*kexResult, error) {
+508:vendor/golang.org/x/crypto/ssh/mlkem.go:105:	if len(kexInit.ClientPubKey) != mlkem.EncapsulationKeySize768+32 {
+509:vendor/golang.org/x/crypto/ssh/mlkem.go:106:		return nil, errors.New("ssh: peer's ML-KEM768/curve25519 public value has wrong length")
+510:vendor/golang.org/x/crypto/ssh/mlkem.go:109:	encapsulationKey, err := mlkem.NewEncapsulationKey768(kexInit.ClientPubKey[:mlkem.EncapsulationKeySize768])
+511:vendor/golang.org/x/crypto/ssh/mlkem.go:111:		return nil, fmt.Errorf("ssh: peer's ML-KEM768 encapsulation key is not valid: %w", err)
+512:vendor/golang.org/x/crypto/ssh/mlkem.go:114:	mlkem768Secret, mlkem768Ciphertext := encapsulationKey.Encapsulate()
+513:vendor/golang.org/x/crypto/ssh/mlkem.go:122:	c25519Secret, err := curve25519.X25519(c25519kp.priv[:], kexInit.ClientPubKey[mlkem.EncapsulationKeySize768:])
+514:vendor/golang.org/x/crypto/ssh/mlkem.go:124:		return nil, fmt.Errorf("ssh: peer's ML-KEM768/curve25519 public value is not valid: %w", err)
+515:vendor/golang.org/x/crypto/ssh/mlkem.go:126:	hybridKey := append(mlkem768Ciphertext, c25519kp.pub[:]...)
+516:vendor/golang.org/x/crypto/ssh/mlkem.go:130:	h.Write(mlkem768Secret)
+517:vendor/golang.org/x/crypto/ssh/mux.go:286:		failMsg := channelOpenFailureMsg{
+518:vendor/golang.org/x/crypto/ssh/mux.go:292:		return m.sendMessage(failMsg)
+519:vendor/golang.org/x/crypto/ssh/session.go:255:type signalMsg struct {
+520:vendor/golang.org/x/crypto/ssh/session.go:262:	msg := signalMsg{
+521:vendor/golang.org/x/sys/cpu/cpu.go:107:	HasSHA512   bool // SHA512 hardware implementation
+522:vendor/golang.org/x/sys/cpu/cpu.go:212:	HasSHA512 bool // K{I,L}MD-SHA-512 functions
+523:vendor/golang.org/x/sys/cpu/cpu.go:240:	HasZvkn           bool // NIST Algorithm Suite (AES/SHA256/SHA512)
+524:vendor/golang.org/x/sys/cpu/cpu_arm64.go:27:		{Name: "sha512", Feature: &ARM64.HasSHA512},
+525:vendor/golang.org/x/sys/cpu/cpu_arm64.go:91:		ARM64.HasSHA512 = true
+526:vendor/golang.org/x/sys/cpu/cpu_linux_arm64.go:35:	hwcap_SHA512   = 1 << 21
+527:vendor/golang.org/x/sys/cpu/cpu_linux_arm64.go:108:	ARM64.HasSHA512 = isSet(hwCap, hwcap_SHA512)
+528:vendor/golang.org/x/sys/cpu/cpu_s390x.go:26:		{Name: "sha512", Feature: &S390X.HasSHA512},
+529:vendor/golang.org/x/sys/cpu/cpu_s390x.go:93:	aes256 function = 20 // AES-256
+530:vendor/golang.org/x/sys/cpu/cpu_s390x.go:98:	sha512   function = 3  // SHA-512
+531:vendor/golang.org/x/sys/cpu/cpu_s390x.go:141:		aes := []function{aes128, aes192, aes256}
+532:vendor/golang.org/x/sys/cpu/cpu_s390x.go:164:		S390X.HasSHA512 = kimd.Has(sha512) && klmd.Has(sha512)
+533:vendor/golang.org/x/sys/plan9/mkerrors.sh:95:		$2 ~ /^(NETLINK|NLM|NLMSG|NLA|IFA|IFAN|RT|RTCF|RTN|RTPROT|RTNH|ARPHRD|ETH_P)_/ ||
+534:vendor/golang.org/x/sys/unix/mkerrors.sh:571:		$2 ~ /^(NETLINK|NLM|NLMSG|NLA|IFA|IFAN|RT|RTC|RTCF|RTN|RTPROT|RTNH|ARPHRD|ETH_P|NETNSA)_/ ||
+535:vendor/golang.org/x/sys/unix/zerrors_linux.go:996:	EPOLLMSG                                    = 0x400
+536:vendor/golang.org/x/sys/unix/zerrors_linux.go:1419:	FS_VERITY_HASH_ALG_SHA512                   = 0x2
+537:vendor/golang.org/x/sys/unix/zerrors_linux.go:2332:	NLMSG_ALIGNTO                               = 0x4
+538:vendor/golang.org/x/sys/unix/zerrors_linux.go:2333:	NLMSG_DONE                                  = 0x3
+539:vendor/golang.org/x/sys/unix/zerrors_linux.go:2334:	NLMSG_ERROR                                 = 0x2
+540:vendor/golang.org/x/sys/unix/zerrors_linux.go:2335:	NLMSG_HDRLEN                                = 0x10
+541:vendor/golang.org/x/sys/unix/zerrors_linux.go:2336:	NLMSG_MIN_TYPE                              = 0x10
+542:vendor/golang.org/x/sys/unix/zerrors_linux.go:2337:	NLMSG_NOOP                                  = 0x1
+543:vendor/golang.org/x/sys/unix/zerrors_linux.go:2338:	NLMSG_OVERRUN                               = 0x4
+544:vendor/golang.org/x/sys/unix/zsyscall_aix_ppc64.go:1279:	_, e1 := callmsync(uintptr(unsafe.Pointer(_p0)), len(b), flags)
+545:vendor/golang.org/x/sys/unix/zsyscall_aix_ppc64_gc.go:1101:func callmsync(_p0 uintptr, _lenp0 int, flags int) (r1 uintptr, e1 Errno) {
+546:vendor/golang.org/x/sys/unix/zsyscall_aix_ppc64_gccgo.go:969:func callmsync(_p0 uintptr, _lenp0 int, flags int) (r1 uintptr, e1 Errno) {
+547:vendor/golang.org/x/sys/unix/ztypes_linux.go:687:	SizeofNlMsghdr     = 0x10
+548:vendor/golang.org/x/sys/unix/ztypes_linux.go:688:	SizeofNlMsgerr     = 0x14
+549:vendor/golang.org/x/sys/unix/ztypes_linux.go:694:	SizeofIfAddrlblmsg = 0xc
+550:vendor/golang.org/x/sys/unix/ztypes_linux.go:702:type NlMsghdr struct {
+551:vendor/golang.org/x/sys/unix/ztypes_linux.go:710:type NlMsgerr struct {
+552:vendor/golang.org/x/sys/unix/ztypes_linux.go:712:	Msg   NlMsghdr
+553:vendor/golang.org/x/sys/unix/ztypes_linux.go:746:type IfAddrlblmsg struct {
+554:vendor/golang.org/x/sys/unix/ztypes_linux.go:998:type Genlmsghdr struct {
+555:vendor/golang.org/x/sys/unix/ztypes_linux.go:4335:	NLMSGERR_ATTR_MSG    = 0x1
+556:vendor/golang.org/x/sys/unix/ztypes_linux.go:4336:	NLMSGERR_ATTR_OFFS   = 0x2
+557:vendor/golang.org/x/sys/unix/ztypes_linux.go:4337:	NLMSGERR_ATTR_COOKIE = 0x3
+558:vendor/golang.org/x/sys/windows/security_windows.go:939:	SE_LMSHARE                 = 5
+559:vendor/golang.org/x/sys/windows/setupapi_windows.go:241:	InstallMsgHandler        uintptr
+560:vendor/golang.org/x/sys/windows/setupapi_windows.go:242:	InstallMsgHandlerContext uintptr
+561:vendor/golang.org/x/tools/internal/stdlib/deps.go:64:	{"crypto/internal/fips140/mldsa", "\x03\x1b\x04\x05\x02\x0e\x01\x03\x053\x95\x017"},
+562:vendor/golang.org/x/tools/internal/stdlib/deps.go:65:	{"crypto/internal/fips140/mlkem", "\x03\x1f\x05\x02\x0f\x03\x053\xcc\x01"},
+563:vendor/golang.org/x/tools/internal/stdlib/deps.go:72:	{"crypto/internal/fips140/sha512", "\x03\x1f\x1e\x01\a+\x16\x7f"},
+564:vendor/golang.org/x/tools/internal/stdlib/deps.go:92:	{"crypto/mlkem", "\x0e$"},
+565:vendor/golang.org/x/tools/internal/stdlib/deps.go:93:	{"crypto/mlkem/mlkemtest", "2\x1b&"},
+566:vendor/golang.org/x/tools/internal/stdlib/deps.go:101:	{"crypto/sha512", "\x0e\f\x1fP"},
+567:vendor/golang.org/x/tools/internal/stdlib/manifest.go:554:		{"SHA512", Const, 0, ""},
+568:vendor/golang.org/x/tools/internal/stdlib/manifest.go:555:		{"SHA512_224", Const, 5, ""},
+569:vendor/golang.org/x/tools/internal/stdlib/manifest.go:556:		{"SHA512_256", Const, 5, ""},
+570:vendor/golang.org/x/tools/internal/stdlib/manifest.go:765:	"crypto/mlkem": {
+571:vendor/golang.org/x/tools/internal/stdlib/manifest.go:795:	"crypto/mlkem/mlkemtest": {
+572:vendor/golang.org/x/tools/internal/stdlib/manifest.go:796:		{"Encapsulate1024", Func, 26, "func(ek *mlkem.EncapsulationKey1024, random []byte) (sharedKey []byte, ciphertext []byte, err error)"},
+573:vendor/golang.org/x/tools/internal/stdlib/manifest.go:797:		{"Encapsulate768", Func, 26, "func(ek *mlkem.EncapsulationKey768, random []byte) (sharedKey []byte, ciphertext []byte, err error)"},
+574:vendor/golang.org/x/tools/internal/stdlib/manifest.go:921:	"crypto/sha512": {
+575:vendor/golang.org/x/tools/internal/stdlib/manifest.go:1093:		{"ECDSAWithP521AndSHA512", Const, 8, ""},
+576:vendor/golang.org/x/tools/internal/stdlib/manifest.go:1112:		{"PKCS1WithSHA512", Const, 8, ""},
+577:vendor/golang.org/x/tools/internal/stdlib/manifest.go:1115:		{"PSSWithSHA512", Const, 8, ""},
+578:vendor/golang.org/x/tools/internal/stdlib/manifest.go:1202:		{"X25519MLKEM768", Const, 24, ""},
+579:vendor/golang.org/x/tools/internal/stdlib/manifest.go:1332:		{"ECDSAWithSHA512", Const, 1, ""},
+580:vendor/golang.org/x/tools/internal/stdlib/manifest.go:1388:		{"PEMCipherAES256", Const, 1, ""},
+581:vendor/golang.org/x/tools/internal/stdlib/manifest.go:1435:		{"SHA512WithRSA", Const, 0, ""},
+582:vendor/golang.org/x/tools/internal/stdlib/manifest.go:1436:		{"SHA512WithRSAPSS", Const, 8, ""},
+583:vendor/golang.org/x/tools/internal/stdlib/manifest.go:7596:		{"Lmsgprefix", Const, 14, ""},
+584:vendor/golang.org/x/tools/internal/stdlib/manifest.go:12094:		{"EPOLLMSG", Const, 0, ""},
+585:vendor/golang.org/x/tools/internal/stdlib/manifest.go:14037:		{"NLMSG_ALIGNTO", Const, 0, ""},
+586:vendor/golang.org/x/tools/internal/stdlib/manifest.go:14038:		{"NLMSG_DONE", Const, 0, ""},
+587:vendor/golang.org/x/tools/internal/stdlib/manifest.go:14039:		{"NLMSG_ERROR", Const, 0, ""},
+588:vendor/golang.org/x/tools/internal/stdlib/manifest.go:14040:		{"NLMSG_HDRLEN", Const, 0, ""},
+589:vendor/golang.org/x/tools/internal/stdlib/manifest.go:14041:		{"NLMSG_MIN_TYPE", Const, 0, ""},
+590:vendor/golang.org/x/tools/internal/stdlib/manifest.go:14042:		{"NLMSG_NOOP", Const, 0, ""},
+591:vendor/golang.org/x/tools/internal/stdlib/manifest.go:14043:		{"NLMSG_OVERRUN", Const, 0, ""},
+592:vendor/golang.org/x/tools/internal/stdlib/manifest.go:14138:		{"NlMsgerr", Type, 0, ""},
+593:vendor/golang.org/x/tools/internal/stdlib/manifest.go:14139:		{"NlMsgerr.Error", Field, 0, ""},
+594:vendor/golang.org/x/tools/internal/stdlib/manifest.go:14140:		{"NlMsgerr.Msg", Field, 0, ""},
+595:vendor/golang.org/x/tools/internal/stdlib/manifest.go:14141:		{"NlMsghdr", Type, 0, ""},
+596:vendor/golang.org/x/tools/internal/stdlib/manifest.go:14142:		{"NlMsghdr.Flags", Field, 0, ""},
+597:vendor/golang.org/x/tools/internal/stdlib/manifest.go:14143:		{"NlMsghdr.Len", Field, 0, ""},
+598:vendor/golang.org/x/tools/internal/stdlib/manifest.go:14144:		{"NlMsghdr.Pid", Field, 0, ""},
+599:vendor/golang.org/x/tools/internal/stdlib/manifest.go:14145:		{"NlMsghdr.Seq", Field, 0, ""},
+600:vendor/golang.org/x/tools/internal/stdlib/manifest.go:14146:		{"NlMsghdr.Type", Field, 0, ""},
+601:vendor/golang.org/x/tools/internal/stdlib/manifest.go:16360:		{"SizeofNlMsgerr", Const, 0, ""},
+602:vendor/golang.org/x/tools/internal/stdlib/manifest.go:16361:		{"SizeofNlMsghdr", Const, 0, ""},
+603:vendor/k8s.io/client-go/util/cert/csr.go:67:			return x509.SHA512WithRSA
+604:vendor/k8s.io/kube-openapi/pkg/handler3/handler.go:21:	"crypto/sha512"
+605:vendor/k8s.io/kube-openapi/pkg/handler3/handler.go:125:	return fmt.Sprintf("%X", sha512.Sum512(data))
+606:vendor/sigs.k8s.io/controller-runtime/pkg/envtest/binaries.go:24:	"crypto/sha512"
+607:vendor/sigs.k8s.io/controller-runtime/pkg/envtest/binaries.go:98://	    		hash: <sha512-hash>
+608:vendor/sigs.k8s.io/controller-runtime/pkg/envtest/binaries.go:321:	hasher := sha512.New()

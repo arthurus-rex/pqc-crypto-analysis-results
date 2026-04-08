@@ -1,0 +1,93 @@
+1:deploy/k8s/base/realm-spiffe-demo.json:150:          "name": "query-realms",
+2:deploy/k8s/base/realm-spiffe-demo.json:151:          "description": "${role_query-realms}",
+3:deploy/k8s/base/realm-spiffe-demo.json:175:                "query-realms",
+4:deploy/k8s/base/realm-spiffe-demo.json:702:      "baseUrl": "/realms/spiffe-demo/account/",
+5:deploy/k8s/base/realm-spiffe-demo.json:708:        "/realms/spiffe-demo/account/*"
+6:deploy/k8s/base/realm-spiffe-demo.json:736:      "baseUrl": "/realms/spiffe-demo/account/",
+7:deploy/k8s/base/realm-spiffe-demo.json:742:        "/realms/spiffe-demo/account/*"
+8:deploy/k8s/overlays/authbridge-ai-agents-remote-kc/settings.yaml.example:25:  issuer-url: "https://keycloak.example.com/realms/spiffe-demo"
+9:deploy/k8s/overlays/authbridge-ai-agents-remote-kc/settings.yaml.example:28:  token-url: "https://keycloak.example.com/realms/spiffe-demo/protocol/openid-connect/token"
+10:deploy/k8s/overlays/authbridge-remote-kc/settings.yaml.example:25:  issuer-url: "https://keycloak.example.com/realms/spiffe-demo"
+11:deploy/k8s/overlays/authbridge-remote-kc/settings.yaml.example:28:  token-url: "https://keycloak.example.com/realms/spiffe-demo/protocol/openid-connect/token"
+12:deploy/k8s/overlays/authbridge/authbridge-secrets.yaml:9:  TOKEN_URL: "http://keycloak:8080/realms/spiffe-demo/protocol/openid-connect/token"
+13:deploy/k8s/overlays/authbridge/authbridge-secrets.yaml:10:  ISSUER: "http://keycloak.localtest.me:8080/realms/spiffe-demo"
+14:deploy/k8s/overlays/authbridge/document-service-jwt-patch.yaml:18:              value: "http://keycloak.localtest.me:8080/realms/spiffe-demo"
+15:deploy/k8s/overlays/local/kustomization.yaml:335:          value: "http://keycloak:8080/realms/spiffe-demo"
+16:deploy/k8s/overlays/mock/kustomization.yaml:250:          value: "http://host.containers.internal:8180/realms/spiffe-demo"
+17:deploy/k8s/overlays/openshift-authbridge/authbridge-secrets.yaml:12:  TOKEN_URL: "http://keycloak:8080/realms/spiffe-demo/protocol/openid-connect/token"
+18:deploy/k8s/overlays/openshift-authbridge/authbridge-secrets.yaml:13:  ISSUER: "http://keycloak.localtest.me:8080/realms/spiffe-demo"
+19:deploy/k8s/overlays/openshift-authbridge/document-service-jwt-patch.yaml:20:              value: "http://keycloak.localtest.me:8080/realms/spiffe-demo"
+20:deploy/k8s/overlays/openshift-authbridge/settings.yaml.example:32:  issuer-url: "https://keycloak-spiffe-demo.CLUSTER_DOMAIN/realms/spiffe-demo"
+21:deploy/k8s/overlays/openshift-authbridge/settings.yaml.example:35:  token-url: "https://keycloak-spiffe-demo.CLUSTER_DOMAIN/realms/spiffe-demo/protocol/openid-connect/token"
+22:deploy/k8s/overlays/openshift-oidc/oidc-urls-configmap.yaml.template:18:  SPIFFE_DEMO_OIDC_ISSUER_URL: "https://keycloak-spiffe-demo.CLUSTER_DOMAIN/realms/spiffe-demo"
+23:docs/AUTHBRIDGE.md:220:| Token issuer | `http://keycloak.localtest.me:8080/realms/...` | `https://keycloak.example.com/realms/...` |
+24:docs/AUTHBRIDGE.md:443:| `ISSUER` | `http://keycloak.localtest.me:8080/realms/spiffe-demo` | `authbridge-proxy-config` secret |
+25:docs/AUTHBRIDGE_INTEGRATION_LEARNING.md:227:http://keycloak-service.keycloak.svc:8080/realms/demo/protocol/openid-connect/certs
+26:docs/AUTHBRIDGE_INTEGRATION_LEARNING.md:421:jwksURL := "http://keycloak-service.keycloak.svc:8080/realms/demo/protocol/openid-connect/certs"
+27:docs/KEYCLOAK_TOKEN_EXCHANGE_SETUP.md:218:AGENT_TOKEN=$(curl -s -X POST "$KEYCLOAK_URL/realms/spiffe-demo/protocol/openid-connect/token" \
+28:docs/KEYCLOAK_TOKEN_EXCHANGE_SETUP.md:232:curl -s -X POST "$KEYCLOAK_URL/realms/spiffe-demo/protocol/openid-connect/token" \
+29:docs/KEYCLOAK_TOKEN_EXCHANGE_SETUP.md:245:curl -s -X POST "$KEYCLOAK_URL/realms/spiffe-demo/protocol/openid-connect/token" \
+30:docs/deployment/KAGENTI_ON_OPENSHIFT.md:137:  --from-literal=ISSUER="${KEYCLOAK_URL}/realms/${REALM}" \
+31:docs/deployment/KAGENTI_ON_OPENSHIFT.md:138:  --from-literal=TOKEN_URL="${KEYCLOAK_URL}/realms/${REALM}/protocol/openid-connect/token" \
+32:docs/deployment/KAGENTI_ON_OPENSHIFT.md:595:  --from-literal=ISSUER="${KEYCLOAK_URL}/realms/${REALM}" \
+33:docs/deployment/KAGENTI_ON_OPENSHIFT.md:596:  --from-literal=TOKEN_URL="${KEYCLOAK_URL}/realms/${REALM}/protocol/openid-connect/token" \
+34:docs/dev/ACT_CLAIM_CHAINING_SUMMARY.md:170:curl -s "$KEYCLOAK_URL/admin/realms/spiffe-demo/users/$UUID" \
+35:docs/dev/PHASE5_AI_AGENTS.md:382:  --oidc-issuer-url "http://localhost:8180/realms/spiffe-demo" \
+36:docs/dev/PHASE5_AI_AGENTS.md:401:  --oidc-issuer-url "https://keycloak.apps.your-cluster.example.com/realms/spiffe-demo" \
+37:docs/dev/PHASE5_AI_AGENTS.md:413:    value: "https://keycloak.apps.your-cluster.example.com/realms/spiffe-demo"
+38:docs/dev/realm-export-kagenti-demo-realm.json:129:          "name": "query-realms",
+39:docs/dev/realm-export-kagenti-demo-realm.json:130:          "description": "${role_query-realms}",
+40:docs/dev/realm-export-kagenti-demo-realm.json:271:                "query-realms",
+41:docs/dev/realm-export-kagenti-demo-realm.json:521:      "baseUrl": "/realms/demo/account/",
+42:docs/dev/realm-export-kagenti-demo-realm.json:527:        "/realms/demo/account/*"
+43:docs/dev/realm-export-kagenti-demo-realm.json:568:      "baseUrl": "/realms/demo/account/",
+44:docs/dev/realm-export-kagenti-demo-realm.json:574:        "/realms/demo/account/*"
+45:docs/dev/realm-export-kagenti-demo.json:72:              "query-realms",
+46:docs/dev/realm-export-kagenti-demo.json:93:              "query-realms",
+47:docs/dev/realm-export-kagenti-demo.json:163:          "name": "query-realms",
+48:docs/dev/realm-export-kagenti-demo.json:164:          "description": "${role_query-realms}",
+49:docs/dev/realm-export-kagenti-demo.json:365:          "name": "query-realms",
+50:docs/dev/realm-export-kagenti-demo.json:366:          "description": "${role_query-realms}",
+51:docs/dev/realm-export-kagenti-demo.json:700:      "baseUrl": "/realms/master/account/",
+52:docs/dev/realm-export-kagenti-demo.json:706:        "/realms/master/account/*"
+53:docs/dev/realm-export-kagenti-demo.json:747:      "baseUrl": "/realms/master/account/",
+54:docs/dev/realm-export-kagenti-demo.json:753:        "/realms/master/account/*"
+55:go.sum:253:github.com/tchap/go-patricia/v2 v2.3.3/go.mod h1:VZRHKAb53DLaG+nA9EaYYiaEx6YztwDlLElMsnSHD4k=
+56:learn/jwt-validation/Makefile:11:		--jwks-url http://localhost:8080/realms/demo/protocol/openid-connect/certs
+57:learn/jwt-validation/Makefile:20:	@curl -sX POST http://localhost:8080/realms/demo/protocol/openid-connect/token \
+58:learn/jwt-validation/Makefile:36:	curl -s http://localhost:8080/realms/demo/protocol/openid-connect/certs | jq .
+59:learn/jwt-validation/README.md:153:- The token endpoint is: `http://localhost:8080/realms/demo/protocol/openid-connect/token`
+60:learn/jwt-validation/README.md:271:- Keycloak's JWKS URL: `http://localhost:8080/realms/demo/protocol/openid-connect/certs`
+61:learn/jwt-validation/README.md:368:./jwt-validation validate --token-file test-token.txt --jwks-url http://localhost:8080/realms/demo/protocol/openid-connect/certs
+62:learn/jwt-validation/README.md:371:JWT_TOKEN="eyJ..." ./jwt-validation validate --jwks-url http://localhost:8080/realms/demo/protocol/openid-connect/certs
+63:learn/jwt-validation/claims.go:19://	  "iss": "http://localhost:8080/realms/demo",
+64:learn/jwt-validation/claims_test.go:16:		WithIssuer("http://keycloak.example.com/realms/demo").
+65:learn/jwt-validation/jwks_test.go:8:	jwks, err := FetchJWKS("http://localhost:8080/realms/demo/protocol/openid-connect/certs")
+66:learn/jwt-validation/jwt_test.go:62:	jwks, err := FetchJWKS("http://localhost:8080/realms/demo/protocol/openid-connect/certs")
+67:learn/jwt-validation/scaffolding/claims.go:10://	  "iss": "http://localhost:8080/realms/demo",
+68:learn/sts-token-exchange/README.md:117:curl -s http://localhost:8080/realms/demo/.well-known/openid-configuration | jq '.grant_types_supported'
+69:learn/sts-token-exchange/README.md:164:- Token URL: `http://localhost:8080/realms/demo/protocol/openid-connect/token`
+70:learn/sts-token-exchange/commands.md:6:export ADMIN_TOKEN=$(curl -sX POST -d 'client_id=admin-cli' -d 'username=admin' -d 'password=SECRET_ADMIN_PASSWORD' -d 'grant_type=password' https://KEYCLOAK_URL/realms/master/protocol/openid-connect/token | jq -r '.access_token')
+71:learn/sts-token-exchange/commands.md:15:  curl -s -X POST "https://keycloak.example.com/realms/master/protocol/openid-connect/token" \
+72:learn/sts-token-exchange/commands.md:26:  curl -s -X POST "https://keycloak.example.com/realms/master/protocol/openid-connect/token" \
+73:learn/sts-token-exchange/commands.md:40:curl -X POST "https://keycloak.example.com/admin/realms/spiffe-demo/clients" \
+74:learn/sts-token-exchange/commands.md:57:curl -X POST "https://keycloak.example.com/admin/realms/spiffe-demo/clients" \
+75:learn/sts-token-exchange/commands.md:73:curl -s "https://keycloak.example.com/admin/realms/spiffe-demo/clients" \
+76:learn/sts-token-exchange/commands.md:80:CLIENT_UUID=$(curl -s "https://keycloak.example.com/admin/realms/spiffe-demo/clients?clientId=agent-service" \
+77:learn/sts-token-exchange/commands.md:87:curl -s "https://keycloak.example.com/admin/realms/spiffe-demo/clients/$CLIENT_UUID/client-secret" \
+78:learn/sts-token-exchange/commands.md:97:  AGENT_TOKEN=$(curl -s -X POST "https://keycloak.example.com/realms/spiffe-demo/protocol/openid-connect/token" \
+79:learn/sts-token-exchange/commands.md:106:  curl -s -X POST "https://keycloak.example.com/realms/spiffe-demo/protocol/openid-connect/token" \
+80:learn/sts-token-exchange/config.go:14:	DefaultTokenURL = "https://keycloak.example.com/realms/spiffe-demo/protocol/openid-connect/token"
+81:learn/sts-token-exchange/config.go:41:// - TOKEN_URL: Keycloak token endpoint (default: http://localhost:8080/realms/demo/protocol/openid-connect/token)
+82:learn/sts-token-exchange/scaffolding/config.go:35:// - TOKEN_URL: Keycloak token endpoint (default: http://localhost:8080/realms/demo/protocol/openid-connect/token)
+83:scripts/keycloak-post-import.sh:34:  curl -sf -X POST "${KEYCLOAK_URL}/realms/master/protocol/openid-connect/token" \
+84:scripts/keycloak-post-import.sh:43:  curl -sf "${KEYCLOAK_URL}/admin/realms/${REALM}/client-scopes" \
+85:scripts/keycloak-post-import.sh:49:  curl -sf "${KEYCLOAK_URL}/admin/realms/${REALM}/clients?clientId=${client_id}" \
+86:scripts/keycloak-post-import.sh:58:  existing=$(curl -sf "${KEYCLOAK_URL}/admin/realms/${REALM}/client-scopes/${scope_id}/protocol-mappers/models" \
+87:scripts/keycloak-post-import.sh:64:    current_aud=$(curl -sf "${KEYCLOAK_URL}/admin/realms/${REALM}/client-scopes/${scope_id}/protocol-mappers/models" \
+88:scripts/keycloak-post-import.sh:75:      "${KEYCLOAK_URL}/admin/realms/${REALM}/client-scopes/${scope_id}/protocol-mappers/models/${existing}" \
+89:scripts/keycloak-post-import.sh:85:    "${KEYCLOAK_URL}/admin/realms/${REALM}/client-scopes/${scope_id}/protocol-mappers/models" \
+90:scripts/keycloak-post-import.sh:114:    "${KEYCLOAK_URL}/admin/realms/${REALM}/clients/${client_uuid}/optional-client-scopes/${scope_id}" \
+91:scripts/keycloak-post-import.sh:202:ALICE_TOKEN=$(curl -sf -X POST "${KEYCLOAK_URL}/realms/${REALM}/protocol/openid-connect/token" \
+92:scripts/test-authbridge.sh:21:TOKEN_ENDPOINT="$KEYCLOAK_URL/realms/$REALM/protocol/openid-connect/token"
+93:web-dashboard/cmd/serve.go:41:	serveCmd.Flags().String("oidc-issuer-url", "http://localhost:8180/realms/spiffe-demo", "OIDC issuer URL")

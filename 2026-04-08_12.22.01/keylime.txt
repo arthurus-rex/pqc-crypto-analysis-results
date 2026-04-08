@@ -1,0 +1,90 @@
+1:docs/man/keylime-policy.1.rst:71:   **--algo** *{sha1,sha256,sha384,sha512,sm3_256}*
+2:docs/rest_apis/2_1/agent.rst:183:    :>json string hash_alg: Used hash algorithm used in the quote (e.g. sha1, sha256, sha512).
+3:docs/rest_apis/2_1/registrar.rst:70:          "aik_tpm": "ARgAAQALAAUAcgAAABAAFAALCAAAAAAAAQCg5mMzNFqdlUbW8uI/GuMcIIvOXXTohHFTas59JlwrJQVed+5klWP+j7tI7492YPmCnoZvP4T4YdT1PN7tHHGfF81AeMnuw5GV5RkW/QeSD+ssB4f6AfuzYJgBkc28zKmpRRHUbwN4rb/HnJgRXdXsuIcnOqGcC39pD0kiu5TrN6hekjxTQtfAbIlQwwDwHCxKWdtH5x7avd15hqc6cBc2gjTQksXrk+OiMwOFTJ68n0qY+dQYuBTjE66YXn9S8cdU9sbjCTSdLRqFEpAyfkSV8F2An7N3DWNIA+PW/mVmd8XhPeYUoMlweXBOwc3e9zM9lZmMvregrFHKYc7CXChz",
+4:docs/rest_apis/2_1/verifier.rst:26:              "sha512",
+5:docs/rest_apis/2_1/verifier.rst:105:            "sha512",
+6:docs/rest_apis/2_2/agent.rst:211:    :>json string hash_alg: Used hash algorithm used in the quote (e.g. sha1, sha256, sha512).
+7:docs/rest_apis/2_2/registrar.rst:73:          "aik_tpm": "ARgAAQALAAUAcgAAABAAFAALCAAAAAAAAQCg5mMzNFqdlUbW8uI/GuMcIIvOXXTohHFTas59JlwrJQVed+5klWP+j7tI7492YPmCnoZvP4T4YdT1PN7tHHGfF81AeMnuw5GV5RkW/QeSD+ssB4f6AfuzYJgBkc28zKmpRRHUbwN4rb/HnJgRXdXsuIcnOqGcC39pD0kiu5TrN6hekjxTQtfAbIlQwwDwHCxKWdtH5x7avd15hqc6cBc2gjTQksXrk+OiMwOFTJ68n0qY+dQYuBTjE66YXn9S8cdU9sbjCTSdLRqFEpAyfkSV8F2An7N3DWNIA+PW/mVmd8XhPeYUoMlweXBOwc3e9zM9lZmMvregrFHKYc7CXChz",
+8:docs/rest_apis/2_2/verifier.rst:26:              "sha512",
+9:docs/rest_apis/2_2/verifier.rst:105:            "sha512",
+10:docs/rest_apis/2_3/agent.rst:212:    :>json string hash_alg: Used hash algorithm used in the quote (e.g. sha1, sha256, sha512).
+11:docs/rest_apis/2_3/registrar.rst:73:          "aik_tpm": "ARgAAQALAAUAcgAAABAAFAALCAAAAAAAAQCg5mMzNFqdlUbW8uI/GuMcIIvOXXTohHFTas59JlwrJQVed+5klWP+j7tI7492YPmCnoZvP4T4YdT1PN7tHHGfF81AeMnuw5GV5RkW/QeSD+ssB4f6AfuzYJgBkc28zKmpRRHUbwN4rb/HnJgRXdXsuIcnOqGcC39pD0kiu5TrN6hekjxTQtfAbIlQwwDwHCxKWdtH5x7avd15hqc6cBc2gjTQksXrk+OiMwOFTJ68n0qY+dQYuBTjE66YXn9S8cdU9sbjCTSdLRqFEpAyfkSV8F2An7N3DWNIA+PW/mVmd8XhPeYUoMlweXBOwc3e9zM9lZmMvregrFHKYc7CXChz",
+12:docs/rest_apis/2_3/verifier.rst:26:              "sha512",
+13:docs/rest_apis/2_3/verifier.rst:105:            "sha512",
+14:docs/rest_apis/2_4/agent.rst:212:    :>json string hash_alg: Used hash algorithm used in the quote (e.g. sha1, sha256, sha512).
+15:docs/rest_apis/2_4/registrar.rst:73:          "aik_tpm": "ARgAAQALAAUAcgAAABAAFAALCAAAAAAAAQCg5mMzNFqdlUbW8uI/GuMcIIvOXXTohHFTas59JlwrJQVed+5klWP+j7tI7492YPmCnoZvP4T4YdT1PN7tHHGfF81AeMnuw5GV5RkW/QeSD+ssB4f6AfuzYJgBkc28zKmpRRHUbwN4rb/HnJgRXdXsuIcnOqGcC39pD0kiu5TrN6hekjxTQtfAbIlQwwDwHCxKWdtH5x7avd15hqc6cBc2gjTQksXrk+OiMwOFTJ68n0qY+dQYuBTjE66YXn9S8cdU9sbjCTSdLRqFEpAyfkSV8F2An7N3DWNIA+PW/mVmd8XhPeYUoMlweXBOwc3e9zM9lZmMvregrFHKYc7CXChz",
+16:docs/rest_apis/2_4/verifier.rst:26:              "sha512",
+17:docs/rest_apis/2_4/verifier.rst:105:            "sha512",
+18:docs/rest_apis/2_5/agent.rst:226:    :>json string hash_alg: Hash algorithm used in the quote. Supported values: ``sha1``, ``sha256``, ``sha384``, ``sha512``, ``sm3_256``.
+19:docs/rest_apis/2_5/registrar.rst:73:          "aik_tpm": "ARgAAQALAAUAcgAAABAAFAALCAAAAAAAAQCg5mMzNFqdlUbW8uI/GuMcIIvOXXTohHFTas59JlwrJQVed+5klWP+j7tI7492YPmCnoZvP4T4YdT1PN7tHHGfF81AeMnuw5GV5RkW/QeSD+ssB4f6AfuzYJgBkc28zKmpRRHUbwN4rb/HnJgRXdXsuIcnOqGcC39pD0kiu5TrN6hekjxTQtfAbIlQwwDwHCxKWdtH5x7avd15hqc6cBc2gjTQksXrk+OiMwOFTJ68n0qY+dQYuBTjE66YXn9S8cdU9sbjCTSdLRqFEpAyfkSV8F2An7N3DWNIA+PW/mVmd8XhPeYUoMlweXBOwc3e9zM9lZmMvregrFHKYc7CXChz",
+20:docs/rest_apis/2_5/verifier.rst:26:              "sha512",
+21:docs/rest_apis/2_5/verifier.rst:105:            "sha512",
+22:docs/rest_apis/3_0/registrar.rst:109:          "aik_tpm": "ARgAAQALAAUAcgAAABAAFAALCAAAAAAAAQCg5mMzNFqdlUbW8uI/GuMcIIvOXXTohHFTas59JlwrJQVed+5klWP+j7tI7492YPmCnoZvP4T4YdT1PN7tHHGfF81AeMnuw5GV5RkW/QeSD+ssB4f6AfuzYJgBkc28zKmpRRHUbwN4rb/HnJgRXdXsuIcnOqGcC39pD0kiu5TrN6hekjxTQtfAbIlQwwDwHCxKWdtH5x7avd15hqc6cBc2gjTQksXrk+OiMwOFTJ68n0qY+dQYuBTjE66YXn9S8cdU9sbjCTSdLRqFEpAyfkSV8F2An7N3DWNIA+PW/mVmd8XhPeYUoMlweXBOwc3e9zM9lZmMvregrFHKYc7CXChz",
+23:docs/rest_apis/3_0/verifier.rst:40:                    "hash_algorithms": ["sha256", "sha384", "sha512"],
+24:docs/rest_apis/3_0/verifier.rst:49:                        "allowable_hash_algorithms": ["sha256", "sha384", "sha512"],
+25:docs/user_guide/configuration.rst:717:      - ``['sha512', 'sha384', 'sha256']``
+26:docs/user_guide/idevid_and_iak.rst:58:H-4         ECC NIST P521    SHA512
+27:docs/user_guide/push_model.rst:129:     - TPM hash algorithm (``sha256``, ``sha384``, ``sha512``).
+28:keylime/common/algorithms.py:31:    SHA512 = "sha512"
+29:keylime/ima/file_signatures.py:58:    HASH_ALGO_SHA512 = 6
+30:keylime/ima/file_signatures.py:97:    HashAlgo.HASH_ALGO_SHA512: hashes.SHA512(),
+31:keylime/ima/ima.py:84:                "log_hash_alg": {"type": "string", "enum": ["sha1", "sha256", "sha384", "sha512"]},
+32:keylime/ima/types.py:70:    log_hash_alg: Required[Literal["sha1", "sha256", "sha384", "sha512"]]
+33:keylime/models/verifier/auth_session.py:556:            "sha512",
+34:keylime/tee/snp.py:105:    sha512 = hashlib.sha512()
+35:keylime/tee/snp.py:107:    sha512.update(tee_pubkey_x)
+36:keylime/tee/snp.py:108:    sha512.update(tee_pubkey_y)
+37:keylime/tee/snp.py:109:    sha512.update(nonce)
+38:keylime/tee/snp.py:111:    digest = sha512.digest()
+39:keylime/tpm/tpm2_objects.py:50:TPM_ALG_SHA512 = 0x000D
+40:keylime/tpm/tpm2_objects.py:90:    TPM_ALG_SHA512: hashes.SHA512(),
+41:keylime/tpm/tpm2_objects.py:432:    if nameAlg == TPM_ALG_SHA512:
+42:keylime/tpm/tpm2_objects.py:433:        return hashlib.sha512()
+43:keylime/tpm/tpm_main.py:77:        Hash.SHA512: tpm2_objects.TPM_ALG_SHA512,
+44:keylime/tpm/tpm_util.py:246:            # Always advance by the size of TPMU_HA (= size of SHA512)
+45:scripts/create_runtime_policy.sh:24:      128) hashalgo=sha512sum ;;
+46:scripts/create_runtime_policy.sh:62:ALGO_LIST=("sha1sum" "sha256sum" "sha512sum")
+47:templates/2.0/agent.j2:155:# Accepted values: sha512, sha384, sha256, sha1
+48:templates/2.0/mapping.json:484:                "default": "sha512, sha384, sha256"
+49:templates/2.0/tenant.j2:66:# Accepted values: sha512, sha384, sha256, sha1
+50:templates/2.1/agent.j2:155:# Accepted values: sha512, sha384, sha256, sha1
+51:templates/2.1/agent.j2:181:# iak_idevid_name_alg:        sha256, sm3_256, sha384, sha512
+52:templates/2.1/mapping.json:514:                "default": "sha512, sha384, sha256"
+53:templates/2.1/tenant.j2:66:# Accepted values: sha512, sha384, sha256, sha1
+54:templates/2.2/agent.j2:155:# Accepted values: sha512, sha384, sha256, sha1
+55:templates/2.2/agent.j2:181:# iak_idevid_name_alg:        sha256, sm3_256, sha384, sha512
+56:templates/2.2/tenant.j2:66:# Accepted values: sha512, sha384, sha256, sha1
+57:templates/2.3/agent.j2:155:# Accepted values: sha512, sha384, sha256, sha1
+58:templates/2.3/agent.j2:184:# iak_idevid_name_alg:        sha256, sm3_256, sha384, sha512
+59:templates/2.3/mapping.json:28:                    "default": "['sha512', 'sha384', 'sha256']"
+60:templates/2.3/tenant.j2:66:# Accepted values: sha512, sha384, sha256, sha1
+61:templates/2.4/agent.j2:165:# Accepted values: sha512, sha384, sha256, sha1
+62:templates/2.4/agent.j2:194:# iak_idevid_name_alg:        sha256, sm3_256, sha384, sha512
+63:templates/2.4/tenant.j2:66:# Accepted values: sha512, sha384, sha256, sha1
+64:templates/2.5/agent.j2:222:# Accepted values: sha512, sha384, sha256, sha1
+65:templates/2.5/agent.j2:251:# iak_idevid_name_alg:        sha256, sm3_256, sha384, sha512
+66:templates/2.5/tenant.j2:66:# Accepted values: sha512, sha384, sha256, sha1
+67:templates/2.6/agent.j2:222:# Accepted values: sha512, sha384, sha256, sha1
+68:templates/2.6/agent.j2:251:# iak_idevid_name_alg:        sha256, sm3_256, sha384, sha512
+69:templates/2.6/tenant.j2:66:# Accepted values: sha512, sha384, sha256, sha1
+70:test-data/emulator-inputs.txt:1685:        "file://quoteSignature": "eJwBBgH5/gAUAAsBAGi5yzsU86sdTiKlSIFEnjWVBqhpfR7X6tKm5dqEX0gvqMLIZOUQusx8Xzat3giRbxKhFwrodaNAu24/CD32ZCq/fAZgOTiQccWTxxMdlI7or9hhGiLQwNVGqYw+ZrjM8PvHQcpomPIpFcr2OJldDEAT0ablXKufAOC5COXox3TRMWW1vPJbb2iXJnARGM4UujGDb5e1YmA6IAoYbOftAnThkRUqjYBAvPeaIehpFQ/f6xuFzqwzpBRDWmB7QshA+uIhHo1sUrQyVFXJTGc1NYPMDqw18DoJHtzAEjKHGmR6I1sT/fkcfSCkByYKsTchiqdrM9d1qlhXj0pFigztfftiInhZ"
+71:test/data/create-runtime-policy/ima-log-sha512:1:10 0000000000000000000000000000000000000000 ima-ng sha512:00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 boot_aggregate
+72:test/data/create-runtime-policy/ima-log-sha512:2:10 edc4bec94ffdeb86c4062d9841b41da5c94c7a5d ima-ng sha512:4fb914b8ed30ff69c65551573ce096aaf0c3507896cce44868d7a7e553891043c68a3889f3fc8056ef8c6bc3a54a9db83cd8112928ad51c5cd9e1a4ef332de53 /data
+73:test/data/ima_keys/secp256k1.pem:5:MHQCAQEEILc/A0FYFdnC0qqKGPvoxNWXIpSnNWkfCsBpWPUMIDm7oAcGBSuBBAAK
+74:test/data/mb_log.b64:257:CwBizXbTHKPRDXQuRsb/FxBGzhndkPNhqCf+xlceWcJHlBoAAABncnViX2NtZDogaW5zbW9kIHBh
+75:test/test_algorithms.py:10:        for algo in ["sha256", "sha384", "sha512"]:
+76:test/test_algorithms.py:24:        self.assertTrue(Hash.SHA512 in Hash)
+77:test/test_algorithms.py:61:            {"hash": "sha512", "len": 128},
+78:test/test_algorithms.py:87:                "hash": "sha512",
+79:test/test_create_runtime_policy.py:232:                "alg": "sha512",
+80:test/test_create_runtime_policy.py:596:                "expected_algorithm": "sha512",
+81:test/test_create_runtime_policy.py:636:                "expected_algorithm": "sha512",
+82:test/test_create_runtime_policy.py:700:        for algo in ["sha1", "sha256", "sha384", "sha512", "sm3_256"]:
+83:test/test_create_runtime_policy.py:820:        for algo in ["sha1", "sha384", "sha512"]:
+84:test/test_create_runtime_policy.py:886:        for algo in ["sha256", "sha384", "sha512", "sm3_256"]:
+85:test/test_verifier_db.py:21:    "revocation_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDs1onKjLZHDnqu\nnrsCb5aZohK2FU+jjU4NT23x1UzYzpFU9wBZ0avj+HeFYbQiAKanSbS7PvhjJMdE\naWMgRMgigr2K1xx+ZhBu4zTPFMy11msxMIL/HPROSYx/9wUZrhf4z/rBsuppFVs3\nKfKmQHuptjZX+D+m+nANO8WOILyW2+5YO5FNw1XJ3gVO6elJJ/CzQcYWIioONuTM\nQ+g8OQc+yTZruwedcSpOX56GpBImWUKXzTz3zoX7AlYxjEBjT86rxoBVXo3ZIwYx\n+mJk7NADN2qvLSXxTnLBxISHdsUDBP5DfurFQPhZC5oARN6/Y4zPESnhm8iwlG5o\n2ZjxVzphAgMBAAECggEBAKVKudImUJTY8yBp4aS6koXYymxQBUvlM8MwW1A7iK2L\nxXxiAtms7uVlJK1vWhOdFrKMS1mfgiVXpscFMkx0FKWZT4XVyaohu3hYlCOupYyH\nADrNW6+G2q7EwA0TLnkUuuBI7v4+y0DZydZ/LT2ApY31gIn21R3JjWh+/crK6DP0\nJO51hLO+z4GAMbWimRzA3lnYltUSJEvam3EHnj/pW+hlczjdI6AfJTWRWx6+gqP3\nRBvLcjBA9ZIx4JzYab5tnvwnd8ZzVItYBQJ8UhxzNsrSzEGguUEO4G/jYQTtYi6T\nufksmewcIClp48AfDThKSCMQXgFwpVI4EPxwmfd6Mt0CgYEA+i+2jjeFREMNam4p\nEBf5tmY2xvg3HXGgCjBfllepZQZHQatfv/kEqhFW497W+okyjTXflMR1TkjMKAqO\nahA+D1lItycPxsvTTiZ85KgrybbQT7Y+s2ET2f68wZh2XyiJIYE/MNi3ZclIBFaY\npyXicj0RIB6IY9PIHNgdEHI4casCgYEA8ldrcbWof8YpwJ6KFVuMvkYKniVF0aXH\nsQUWL/dyjBYIq/jg3Z4J+b0360DhZVpp1SaO4jFISxVMRzkDf3/gbKxH9F4a9Id8\nDmGH15v1ooKBYfkk7GwEB3AOY4gN3RMnWb1hxxhjsM9pmeTffqgqYzHYzv1ArjHe\ntYkjWOqPECMCgYBT//kXPuTrymeSuHHpCWO6Lg9uNqCqrh/BzAQMAlrJpJYAIn3/\ngqhiQXgfAg7EB5SFfPUYie2o3yBMwV6XleSAWsXjWKYfZQgJUTrVuvEYxNykJthe\nedWkd7cAeSQlRwLj0PVafSj2b+JSMpEGbd3d5Ur+scGxYsXpiVYY04DICQKBgBPZ\nhTtzHbIZkSHt2nGVZhnPst7xPp7FbW3adM7I/eDrjRpI8GI2p6qFDSd/0PZ0SWbk\nGZ/9WWaNAAp1aQvwdXlxQxOJAbw1vLuQ0Yefhqcg+WgE+DlFP688RnFwm3IYN4jq\nMjAUl1XMJ2IrlQLS02X8lz2dEMcz3oIQEY0e6UjxAoGAFeiOjFF2i4wRRUKx8kpb\nnBKRmFaMXdkeMV2IQALJ4skNNflf0YdDFVniFUyq9vfbq2drJSnMiy8Dvju0j5PC\n+MALz22fsNoIV2h6gz0i1lXiyVgpoAhYCbbPv0wO6iHKPBzH3Onv6BKrVMy1pnzh\n6QsfbhjzBfFg1Zxp/h1tBqA=\n-----END PRIVATE KEY-----\n",
+86:test/test_verifier_db.py:22:    "accept_tpm_hash_algs": ["sha512", "sha384", "sha256", "sha1"],
+87:test/test_verifier_db.py:93:            "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDs1onKjLZHDnqu\nnrsCb5aZohK2FU+jjU4NT23x1UzYzpFU9wBZ0avj+HeFYbQiAKanSbS7PvhjJMdE\naWMgRMgigr2K1xx+ZhBu4zTPFMy11msxMIL/HPROSYx/9wUZrhf4z/rBsuppFVs3\nKfKmQHuptjZX+D+m+nANO8WOILyW2+5YO5FNw1XJ3gVO6elJJ/CzQcYWIioONuTM\nQ+g8OQc+yTZruwedcSpOX56GpBImWUKXzTz3zoX7AlYxjEBjT86rxoBVXo3ZIwYx\n+mJk7NADN2qvLSXxTnLBxISHdsUDBP5DfurFQPhZC5oARN6/Y4zPESnhm8iwlG5o\n2ZjxVzphAgMBAAECggEBAKVKudImUJTY8yBp4aS6koXYymxQBUvlM8MwW1A7iK2L\nxXxiAtms7uVlJK1vWhOdFrKMS1mfgiVXpscFMkx0FKWZT4XVyaohu3hYlCOupYyH\nADrNW6+G2q7EwA0TLnkUuuBI7v4+y0DZydZ/LT2ApY31gIn21R3JjWh+/crK6DP0\nJO51hLO+z4GAMbWimRzA3lnYltUSJEvam3EHnj/pW+hlczjdI6AfJTWRWx6+gqP3\nRBvLcjBA9ZIx4JzYab5tnvwnd8ZzVItYBQJ8UhxzNsrSzEGguUEO4G/jYQTtYi6T\nufksmewcIClp48AfDThKSCMQXgFwpVI4EPxwmfd6Mt0CgYEA+i+2jjeFREMNam4p\nEBf5tmY2xvg3HXGgCjBfllepZQZHQatfv/kEqhFW497W+okyjTXflMR1TkjMKAqO\nahA+D1lItycPxsvTTiZ85KgrybbQT7Y+s2ET2f68wZh2XyiJIYE/MNi3ZclIBFaY\npyXicj0RIB6IY9PIHNgdEHI4casCgYEA8ldrcbWof8YpwJ6KFVuMvkYKniVF0aXH\nsQUWL/dyjBYIq/jg3Z4J+b0360DhZVpp1SaO4jFISxVMRzkDf3/gbKxH9F4a9Id8\nDmGH15v1ooKBYfkk7GwEB3AOY4gN3RMnWb1hxxhjsM9pmeTffqgqYzHYzv1ArjHe\ntYkjWOqPECMCgYBT//kXPuTrymeSuHHpCWO6Lg9uNqCqrh/BzAQMAlrJpJYAIn3/\ngqhiQXgfAg7EB5SFfPUYie2o3yBMwV6XleSAWsXjWKYfZQgJUTrVuvEYxNykJthe\nedWkd7cAeSQlRwLj0PVafSj2b+JSMpEGbd3d5Ur+scGxYsXpiVYY04DICQKBgBPZ\nhTtzHbIZkSHt2nGVZhnPst7xPp7FbW3adM7I/eDrjRpI8GI2p6qFDSd/0PZ0SWbk\nGZ/9WWaNAAp1aQvwdXlxQxOJAbw1vLuQ0Yefhqcg+WgE+DlFP688RnFwm3IYN4jq\nMjAUl1XMJ2IrlQLS02X8lz2dEMcz3oIQEY0e6UjxAoGAFeiOjFF2i4wRRUKx8kpb\nnBKRmFaMXdkeMV2IQALJ4skNNflf0YdDFVniFUyq9vfbq2drJSnMiy8Dvju0j5PC\n+MALz22fsNoIV2h6gz0i1lXiyVgpoAhYCbbPv0wO6iHKPBzH3Onv6BKrVMy1pnzh\n6QsfbhjzBfFg1Zxp/h1tBqA=\n-----END PRIVATE KEY-----\n",
+88:test/test_verifier_db.py:95:        self.assertEqual(agent.accept_tpm_hash_algs, ["sha512", "sha384", "sha256", "sha1"])
+89:tpm_cert_store/IFX_RSA_RT.pem:8:bm9sb2dpZXMgQUcxDDAKBgNVBAsTA0FJTTEbMBkGA1UEAxMSSUZYIFRQTSBFSyBS
+90:tpm_cert_store/Nationz_TPM_EK.pem:54:UE0gRGV2aWNlMSkwJwYDVQQDDCBOYXRpb256IFRQTSBNYW51ZmFjdHVyaW5nIENB

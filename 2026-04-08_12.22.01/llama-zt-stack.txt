@@ -1,0 +1,5 @@
+1:docs/MODULE2.md:69:        uri: ${env.KEYCLOAK_JWKS_URI:=http://localhost:8080/realms/lls-auth/protocol/openid-connect/certs}
+2:docs/MODULE2.md:70:      issuer: ${env.KEYCLOAK_ISSUER:=http://localhost:8080/realms/lls-auth}
+3:lls_auth_client/config.py:14:        f"{KEYCLOAK_BASE_URL}/realms/{KEYCLOAK_REALM}/protocol/openid-connect/token"
+4:run.yaml:25:        uri: ${env.KEYCLOAK_JWKS_URI:=http://localhost:8080/realms/lls-auth/protocol/openid-connect/certs}
+5:run.yaml:26:      issuer: ${env.KEYCLOAK_ISSUER:=http://localhost:8080/realms/lls-auth}

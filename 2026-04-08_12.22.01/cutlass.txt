@@ -1,0 +1,6 @@
+1:PUBLICATIONS.md:29:- ["A Speed Odyssey for Deployable Quantization of LLMs"](https://arxiv.org/abs/2311.09550). Qingyuan Li, Ran Meng, Yiduo Li, Bo Zhang, Liang Li, Yifan Lu, Xiangxiang Chu, Yerui Sun, Yuchen Xie. _arXiv_, November 2023.
+2:examples/77_blackwell_fmha/77_blackwell_fmha_bwd.cu:42:    attention (FMHA) is a foundational kernel for large language models (LLMs) since it
+3:examples/77_blackwell_fmha/collective/sm100_fmha_fwd_mainloop_tma_warpspecialized.hpp:922:    // sequence: LLMSLMSLMSS
+4:examples/77_blackwell_fmha/collective/sm100_fmha_gen_mainloop_warpspecialized.hpp:936:    // sequence: LLMSLMSLMSS
+5:examples/77_blackwell_fmha/collective/sm100_fmha_mla_fwd_mainloop_tma_warpspecialized.hpp:932:    // sequence: LLMSLMSLMSS
+6:examples/88_hopper_fmha/88_hopper_fmha.cu:42:    attention (FMHA) is a foundational kernel for large language models (LLMs) since it

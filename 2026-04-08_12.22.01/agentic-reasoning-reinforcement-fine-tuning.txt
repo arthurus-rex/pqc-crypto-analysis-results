@@ -1,0 +1,12 @@
+1:README.md:20:4. Microsoft Research. Agentic Reasoning and Tool Integration for LLMs via Reinforcement Learning ([https://arxiv.org/pdf/2505.01441](https://arxiv.org/pdf/2505.01441)), "introduce(s) ARTIST, a framework unifying agentic reasoning, reinforcement learning, and tool integration for LLMs.“
+2:grpo_wordle/reward_funcitons.py:11:- https://learn.deeplearning.ai/courses/reinforcement-fine-tuning-llms-grpo
+3:grpo_wordle/valid_guesses.csv:647:balms
+4:grpo_wordle/valid_guesses.csv:1374:calms
+5:grpo_wordle/valid_guesses.csv:1990:culms
+6:grpo_wordle/valid_guesses.csv:3052:films
+7:grpo_wordle/valid_guesses.csv:3895:halms
+8:grpo_wordle/valid_guesses.csv:3999:helms
+9:grpo_wordle/valid_guesses.csv:4124:holms
+10:grpo_wordle/valid_guesses.csv:5477:malms
+11:grpo_wordle/valid_guesses.csv:6566:palms
+12:grpo_wordle/valid_guesses.csv:10448:yelms

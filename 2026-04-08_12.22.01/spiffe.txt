@@ -1,0 +1,3 @@
+1:standards/JWT-SVID.md:52:RS512 | RSASSA-PKCS1-v1_5 using SHA-512
+2:standards/JWT-SVID.md:55:ES512 | ECDSA using P-521 and SHA-512
+3:standards/JWT-SVID.md:58:PS512 | RSASSA-PSS using SHA-512 and MGF1 with SHA-512

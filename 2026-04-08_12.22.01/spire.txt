@@ -1,0 +1,116 @@
+1:CHANGELOG.md:11:- The `RequirePQKEM` TLS policy now uses the standardized `X25519MLKEM768` instead of the draft `x25519Kyber768Draft00` (#6703)
+2:go.sum:167:github.com/aws/aws-sdk-go-v2/service/rolesanywhere v1.22.2/go.mod h1:sQ5OnD0CJ+iMo7iZLmsXhyG7oGzQ78AbPSQ7Jl37bp0=
+3:go.sum:837:github.com/tchap/go-patricia/v2 v2.3.3/go.mod h1:VZRHKAb53DLaG+nA9EaYYiaEx6YztwDlLElMsnSHD4k=
+4:pkg/agent/plugin/keymanager/test/keymanagertest.go:107:		x509.SHA512WithRSA,
+5:pkg/agent/plugin/keymanager/test/keymanagertest.go:110:		x509.SHA512WithRSAPSS,
+6:pkg/agent/plugin/keymanager/test/keymanagertest.go:116:		x509.ECDSAWithSHA512,
+7:pkg/common/catalog/configure.go:5:	"crypto/sha512"
+8:pkg/common/catalog/configure.go:187:	h := sha512.New()
+9:pkg/common/tlspolicy/tlspolicy.go:36:			tls.X25519MLKEM768,
+10:pkg/common/tlspolicy/tlspolicy_test.go:25:			tls.X25519MLKEM768, tls.CurveP256,
+11:pkg/common/tlspolicy/tlspolicy_test.go:33:	require.Equal(tlsConfig.CurvePreferences, []tls.CurveID{tls.X25519MLKEM768})
+12:pkg/server/endpoints/bundle/internal/autocert/autocert.go:370:				tls.ECDSAWithP384AndSHA384, tls.ECDSAWithP521AndSHA512:
+13:pkg/server/plugin/keymanager/awskms/awskms.go:929:	case isRSA && !isPSS && hashAlgo == keymanagerv1.HashAlgorithm_SHA512:
+14:pkg/server/plugin/keymanager/awskms/awskms.go:930:		return types.SigningAlgorithmSpecRsassaPkcs1V15Sha512, nil
+15:pkg/server/plugin/keymanager/awskms/awskms.go:935:	case isRSA && isPSS && hashAlgo == keymanagerv1.HashAlgorithm_SHA512:
+16:pkg/server/plugin/keymanager/awskms/awskms.go:936:		return types.SigningAlgorithmSpecRsassaPssSha512, nil
+17:pkg/server/plugin/keymanager/awskms/awskms_test.go:6:	"crypto/sha512"
+18:pkg/server/plugin/keymanager/awskms/awskms_test.go:113:		keymanager.ECP256: {x509.ECDSAWithSHA384, x509.ECDSAWithSHA512},
+19:pkg/server/plugin/keymanager/awskms/awskms_test.go:114:		keymanager.ECP384: {x509.ECDSAWithSHA256, x509.ECDSAWithSHA512},
+20:pkg/server/plugin/keymanager/awskms/awskms_test.go:804:	sum384 := sha512.Sum384(nil)
+21:pkg/server/plugin/keymanager/awskms/awskms_test.go:805:	sum512 := sha512.Sum512(nil)
+22:pkg/server/plugin/keymanager/awskms/awskms_test.go:877:					HashAlgorithm: keymanagerv1.HashAlgorithm_SHA512,
+23:pkg/server/plugin/keymanager/awskms/awskms_test.go:926:						HashAlgorithm: keymanagerv1.HashAlgorithm_SHA512,
+24:pkg/server/plugin/keymanager/awskms/awskms_test.go:1010:					HashAlgorithm: keymanagerv1.HashAlgorithm_SHA512,
+25:pkg/server/plugin/keymanager/awskms/awskms_test.go:1013:			err:  "unsupported combination of keytype: EC_P256 and hashing algorithm: SHA512",
+26:pkg/server/plugin/keymanager/awskms/client_fake.go:280:	case types.SigningAlgorithmSpecRsassaPssSha512:
+27:pkg/server/plugin/keymanager/awskms/client_fake.go:281:		signature, err = signRSA(&rsa.PSSOptions{Hash: crypto.SHA512, SaltLength: rsa.PSSSaltLengthEqualsHash})
+28:pkg/server/plugin/keymanager/awskms/client_fake.go:286:	case types.SigningAlgorithmSpecRsassaPkcs1V15Sha512:
+29:pkg/server/plugin/keymanager/awskms/client_fake.go:287:		signature, err = signRSA(crypto.SHA512)
+30:pkg/server/plugin/keymanager/awskms/client_fake.go:292:	case types.SigningAlgorithmSpecEcdsaSha512:
+31:pkg/server/plugin/keymanager/awskms/client_fake.go:293:		signature, err = signECDSA(crypto.SHA512)
+32:pkg/server/plugin/keymanager/azurekeyvault/azure_key_vault.go:791:	case isRSA && !isPSS && hashAlgo == keymanagerv1.HashAlgorithm_SHA512:
+33:pkg/server/plugin/keymanager/azurekeyvault/azure_key_vault.go:797:	case isRSA && isPSS && hashAlgo == keymanagerv1.HashAlgorithm_SHA512:
+34:pkg/server/plugin/keymanager/azurekeyvault/azure_key_vault_test.go:7:	"crypto/sha512"
+35:pkg/server/plugin/keymanager/azurekeyvault/azure_key_vault_test.go:85:		keymanager.ECP256: {x509.ECDSAWithSHA384, x509.ECDSAWithSHA512},
+36:pkg/server/plugin/keymanager/azurekeyvault/azure_key_vault_test.go:86:		keymanager.ECP384: {x509.ECDSAWithSHA256, x509.ECDSAWithSHA512},
+37:pkg/server/plugin/keymanager/azurekeyvault/azure_key_vault_test.go:371:	sum384 := sha512.Sum384(nil)
+38:pkg/server/plugin/keymanager/azurekeyvault/azure_key_vault_test.go:372:	sum512 := sha512.Sum512(nil)
+39:pkg/server/plugin/keymanager/azurekeyvault/azure_key_vault_test.go:444:					HashAlgorithm: keymanagerv1.HashAlgorithm_SHA512,
+40:pkg/server/plugin/keymanager/azurekeyvault/azure_key_vault_test.go:493:						HashAlgorithm: keymanagerv1.HashAlgorithm_SHA512,
+41:pkg/server/plugin/keymanager/azurekeyvault/azure_key_vault_test.go:577:					HashAlgorithm: keymanagerv1.HashAlgorithm_SHA512,
+42:pkg/server/plugin/keymanager/azurekeyvault/azure_key_vault_test.go:580:			err:  "unsupported combination of key type: EC_P256 and hashing algorithm: SHA512",
+43:pkg/server/plugin/keymanager/azurekeyvault/client_fake.go:361:		signature, err = signRSA(&rsa.PSSOptions{Hash: crypto.SHA512, SaltLength: rsa.PSSSaltLengthEqualsHash})
+44:pkg/server/plugin/keymanager/azurekeyvault/client_fake.go:367:		signature, err = signRSA(crypto.SHA512)
+45:pkg/server/plugin/keymanager/gcpkms/gcpkms_test.go:6:	"crypto/sha512"
+46:pkg/server/plugin/keymanager/gcpkms/gcpkms_test.go:1367:		keymanager.ECP256:  {x509.ECDSAWithSHA384, x509.ECDSAWithSHA512},
+47:pkg/server/plugin/keymanager/gcpkms/gcpkms_test.go:1368:		keymanager.ECP384:  {x509.ECDSAWithSHA256, x509.ECDSAWithSHA512},
+48:pkg/server/plugin/keymanager/gcpkms/gcpkms_test.go:1369:		keymanager.RSA2048: {x509.SHA256WithRSAPSS, x509.SHA384WithRSAPSS, x509.SHA512WithRSAPSS, x509.SHA384WithRSA, x509.SHA512WithRSA},
+49:pkg/server/plugin/keymanager/gcpkms/gcpkms_test.go:1370:		keymanager.RSA4096: {x509.SHA256WithRSAPSS, x509.SHA384WithRSAPSS, x509.SHA512WithRSAPSS, x509.SHA384WithRSA, x509.SHA512WithRSA},
+50:pkg/server/plugin/keymanager/gcpkms/gcpkms_test.go:1447:	sum384 := sha512.Sum384(nil)
+51:pkg/server/plugin/keymanager/test/keymanagertest.go:107:		x509.SHA512WithRSA,
+52:pkg/server/plugin/keymanager/test/keymanagertest.go:110:		x509.SHA512WithRSAPSS,
+53:pkg/server/plugin/keymanager/test/keymanagertest.go:116:		x509.ECDSAWithSHA512,
+54:pkg/server/plugin/nodeattestor/awsiid/awsrsa1024/cacerts.go:50:BAYTAlVTMRMwEQYDVQQIDApXYXNoaW5ndG9uMRAwDgYDVQQHDAdTZWF0dGxlMSAw
+55:pkg/server/plugin/nodeattestor/awsiid/awsrsa1024/cacerts.go:54:dGxlMSAwHgYDVQQKDBdBbWF6b24gV2ViIFNlcnZpY2VzIExMQzEaMBgGA1UEAwwR
+56:pkg/server/plugin/nodeattestor/awsiid/awsrsa1024/cacerts.go:91:dGxlMSAwHgYDVQQKExdBbWF6b24gV2ViIFNlcnZpY2VzIExMQzAgFw0xOTExMjcw
+57:pkg/server/plugin/nodeattestor/awsiid/awsrsa1024/cacerts.go:108:dGxlMSAwHgYDVQQKExdBbWF6b24gV2ViIFNlcnZpY2VzIExMQzAgFw0xOTEwMjQx
+58:pkg/server/plugin/nodeattestor/awsiid/awsrsa1024/cacerts.go:228:dGxlMSAwHgYDVQQKExdBbWF6b24gV2ViIFNlcnZpY2VzIExMQzAeFw0yMTA3MTQx
+59:pkg/server/plugin/nodeattestor/awsiid/awsrsa1024/cacerts.go:230:YXNoaW5ndG9uIFN0YXRlMRAwDgYDVQQHEwdTZWF0dGxlMSAwHgYDVQQKExdBbWF6
+60:pkg/server/plugin/nodeattestor/awsiid/awsrsa2048/cacerts.go:10:dGxlMSAwHgYDVQQKExdBbWF6b24gV2ViIFNlcnZpY2VzIExMQzAgFw0xNTA4MTQw
+61:pkg/server/plugin/nodeattestor/awsiid/awsrsa2048/cacerts.go:22:YXNoaW5ndG9uIFN0YXRlMRAwDgYDVQQHEwdTZWF0dGxlMSAwHgYDVQQKExdBbWF6
+62:pkg/server/plugin/nodeattestor/awsiid/awsrsa2048/cacerts.go:37:dGxlMSAwHgYDVQQKExdBbWF6b24gV2ViIFNlcnZpY2VzIExMQzAgFw0xNjA2MTAx
+63:pkg/server/plugin/nodeattestor/awsiid/awsrsa2048/cacerts.go:49:YXNoaW5ndG9uIFN0YXRlMRAwDgYDVQQHEwdTZWF0dGxlMSAwHgYDVQQKExdBbWF6
+64:pkg/server/plugin/nodeattestor/awsiid/awsrsa2048/cacerts.go:64:dGxlMSAwHgYDVQQKExdBbWF6b24gV2ViIFNlcnZpY2VzIExMQzAgFw0xNTA4MTQw
+65:pkg/server/plugin/nodeattestor/awsiid/awsrsa2048/cacerts.go:76:YXNoaW5ndG9uIFN0YXRlMRAwDgYDVQQHEwdTZWF0dGxlMSAwHgYDVQQKExdBbWF6
+66:pkg/server/plugin/nodeattestor/awsiid/awsrsa2048/cacerts.go:91:dGxlMSAwHgYDVQQKExdBbWF6b24gV2ViIFNlcnZpY2VzIExMQzAgFw0xNTEwMjkw
+67:pkg/server/plugin/nodeattestor/awsiid/awsrsa2048/cacerts.go:103:YXNoaW5ndG9uIFN0YXRlMRAwDgYDVQQHEwdTZWF0dGxlMSAwHgYDVQQKExdBbWF6
+68:pkg/server/plugin/nodeattestor/awsiid/awsrsa2048/cacerts.go:118:dGxlMSAwHgYDVQQKExdBbWF6b24gV2ViIFNlcnZpY2VzIExMQzAgFw0xNjA3Mjkx
+69:pkg/server/plugin/nodeattestor/awsiid/awsrsa2048/cacerts.go:141:dGxlMSAwHgYDVQQKExdBbWF6b24gV2ViIFNlcnZpY2VzIExMQzAgFw0xNTA4MTQw
+70:pkg/server/plugin/nodeattestor/awsiid/awsrsa2048/cacerts.go:153:YXNoaW5ndG9uIFN0YXRlMRAwDgYDVQQHEwdTZWF0dGxlMSAwHgYDVQQKExdBbWF6
+71:pkg/server/plugin/nodeattestor/awsiid/awsrsa2048/cacerts.go:168:dGxlMSAwHgYDVQQKExdBbWF6b24gV2ViIFNlcnZpY2VzIExMQzAgFw0xNTA4MTQw
+72:pkg/server/plugin/nodeattestor/awsiid/awsrsa2048/cacerts.go:180:YXNoaW5ndG9uIFN0YXRlMRAwDgYDVQQHEwdTZWF0dGxlMSAwHgYDVQQKExdBbWF6
+73:pkg/server/plugin/nodeattestor/awsiid/awsrsa2048/cacerts.go:195:dGxlMSAwHgYDVQQKExdBbWF6b24gV2ViIFNlcnZpY2VzIExMQzAgFw0yMjA3MTgx
+74:pkg/server/plugin/nodeattestor/awsiid/awsrsa2048/cacerts.go:207:YXNoaW5ndG9uIFN0YXRlMRAwDgYDVQQHEwdTZWF0dGxlMSAwHgYDVQQKExdBbWF6
+75:pkg/server/plugin/nodeattestor/awsiid/awsrsa2048/cacerts.go:222:dGxlMSAwHgYDVQQKExdBbWF6b24gV2ViIFNlcnZpY2VzIExMQzAgFw0xNjA4MTEx
+76:pkg/server/plugin/nodeattestor/awsiid/awsrsa2048/cacerts.go:245:dGxlMSAwHgYDVQQKExdBbWF6b24gV2ViIFNlcnZpY2VzIExMQzAgFw0xNzA1MzEx
+77:pkg/server/plugin/nodeattestor/awsiid/awsrsa2048/cacerts.go:268:dGxlMSAwHgYDVQQKExdBbWF6b24gV2ViIFNlcnZpY2VzIExMQzAgFw0xNTEwMjkw
+78:pkg/server/plugin/nodeattestor/awsiid/awsrsa2048/cacerts.go:280:YXNoaW5ndG9uIFN0YXRlMRAwDgYDVQQHEwdTZWF0dGxlMSAwHgYDVQQKExdBbWF6
+79:pkg/server/plugin/nodeattestor/awsiid/awsrsa2048/cacerts.go:295:dGxlMSAwHgYDVQQKExdBbWF6b24gV2ViIFNlcnZpY2VzIExMQzAgFw0xOTA0Mjky
+80:pkg/server/plugin/nodeattestor/awsiid/awsrsa2048/cacerts.go:318:dGxlMSAwHgYDVQQKExdBbWF6b24gV2ViIFNlcnZpY2VzIExMQzAgFw0yMjA3MTgx
+81:pkg/server/plugin/nodeattestor/awsiid/awsrsa2048/cacerts.go:330:YXNoaW5ndG9uIFN0YXRlMRAwDgYDVQQHEwdTZWF0dGxlMSAwHgYDVQQKExdBbWF6
+82:pkg/server/plugin/nodeattestor/awsiid/awsrsa2048/cacerts.go:345:dGxlMSAwHgYDVQQKExdBbWF6b24gV2ViIFNlcnZpY2VzIExMQzAgFw0xODA0MTAx
+83:pkg/server/plugin/nodeattestor/awsiid/awsrsa2048/cacerts.go:368:dGxlMSAwHgYDVQQKExdBbWF6b24gV2ViIFNlcnZpY2VzIExMQzAgFw0xOTAyMDUx
+84:pkg/server/plugin/nodeattestor/awsiid/awsrsa2048/cacerts.go:391:dGxlMSAwHgYDVQQKExdBbWF6b24gV2ViIFNlcnZpY2VzIExMQzAgFw0yMjA0MTEx
+85:pkg/server/plugin/nodeattestor/awsiid/awsrsa2048/cacerts.go:403:YXNoaW5ndG9uIFN0YXRlMRAwDgYDVQQHEwdTZWF0dGxlMSAwHgYDVQQKExdBbWF6
+86:pkg/server/plugin/nodeattestor/awsiid/awsrsa2048/cacerts.go:418:dGxlMSAwHgYDVQQKExdBbWF6b24gV2ViIFNlcnZpY2VzIExMQzAgFw0xOTA2MDQx
+87:pkg/server/plugin/nodeattestor/awsiid/awsrsa2048/cacerts.go:441:dGxlMSAwHgYDVQQKExdBbWF6b24gV2ViIFNlcnZpY2VzIExMQzAgFw0xNTEwMjkw
+88:pkg/server/plugin/nodeattestor/awsiid/awsrsa2048/cacerts.go:453:YXNoaW5ndG9uIFN0YXRlMRAwDgYDVQQHEwdTZWF0dGxlMSAwHgYDVQQKExdBbWF6
+89:pkg/server/plugin/nodeattestor/awsiid/awsrsa2048/cacerts.go:468:dGxlMSAwHgYDVQQKExdBbWF6b24gV2ViIFNlcnZpY2VzIExMQzAgFw0xNTA4MTQw
+90:pkg/server/plugin/nodeattestor/awsiid/awsrsa2048/cacerts.go:480:YXNoaW5ndG9uIFN0YXRlMRAwDgYDVQQHEwdTZWF0dGxlMSAwHgYDVQQKExdBbWF6
+91:pkg/server/plugin/nodeattestor/awsiid/awsrsa2048/cacerts.go:495:dGxlMSAwHgYDVQQKExdBbWF6b24gV2ViIFNlcnZpY2VzIExMQzAgFw0xNTA5MTQx
+92:pkg/server/plugin/nodeattestor/awsiid/awsrsa2048/cacerts.go:518:dGxlMSAwHgYDVQQKExdBbWF6b24gV2ViIFNlcnZpY2VzIExMQzAgFw0xNzA3MTkx
+93:pkg/server/plugin/nodeattestor/awsiid/awsrsa2048/cacerts.go:541:dGxlMSAwHgYDVQQKExdBbWF6b24gV2ViIFNlcnZpY2VzIExMQzAgFw0xNjAzMDcx
+94:pkg/server/plugin/nodeattestor/awsiid/awsrsa2048/cacerts.go:549:w9RVHm24BGhlLxLHLmsOIxvbrF277uX9Dxu1HfKfu5D2kimTY7xSZDNLR2dt+kNY
+95:pkg/server/plugin/nodeattestor/awsiid/awsrsa2048/cacerts.go:564:dGxlMSAwHgYDVQQKExdBbWF6b24gV2ViIFNlcnZpY2VzIExMQzAgFw0xODA3MjAw
+96:pkg/server/plugin/nodeattestor/awsiid/awsrsa2048/cacerts.go:587:dGxlMSAwHgYDVQQKExdBbWF6b24gV2ViIFNlcnZpY2VzIExMQzAgFw0xNTEwMjkw
+97:pkg/server/plugin/nodeattestor/awsiid/awsrsa2048/cacerts.go:599:YXNoaW5ndG9uIFN0YXRlMRAwDgYDVQQHEwdTZWF0dGxlMSAwHgYDVQQKExdBbWF6
+98:pkg/server/plugin/nodeattestor/awsiid/awsrsa2048/cacerts.go:614:dGxlMSAwHgYDVQQKExdBbWF6b24gV2ViIFNlcnZpY2VzIExMQzAgFw0yMjA0MDgx
+99:pkg/server/plugin/nodeattestor/awsiid/awsrsa2048/cacerts.go:626:YXNoaW5ndG9uIFN0YXRlMRAwDgYDVQQHEwdTZWF0dGxlMSAwHgYDVQQKExdBbWF6
+100:pkg/server/plugin/nodeattestor/awsiid/awsrsa2048/cacerts.go:641:dGxlMSAwHgYDVQQKExdBbWF6b24gV2ViIFNlcnZpY2VzIExMQzAgFw0yMjA3MTMx
+101:pkg/server/plugin/nodeattestor/awsiid/awsrsa2048/cacerts.go:653:YXNoaW5ndG9uIFN0YXRlMRAwDgYDVQQHEwdTZWF0dGxlMSAwHgYDVQQKExdBbWF6
+102:pkg/server/plugin/nodeattestor/awsiid/awsrsa2048/cacerts.go:668:dGxlMSAwHgYDVQQKExdBbWF6b24gV2ViIFNlcnZpY2VzIExMQzAgFw0yMjA3MDQx
+103:pkg/server/plugin/nodeattestor/awsiid/awsrsa2048/cacerts.go:680:YXNoaW5ndG9uIFN0YXRlMRAwDgYDVQQHEwdTZWF0dGxlMSAwHgYDVQQKExdBbWF6
+104:pkg/server/plugin/nodeattestor/awsiid/awsrsa2048/cacerts.go:695:dGxlMSAwHgYDVQQKExdBbWF6b24gV2ViIFNlcnZpY2VzIExMQzAgFw0xNTEyMDMy
+105:pkg/server/plugin/nodeattestor/awsiid/awsrsa2048/cacerts.go:718:dGxlMSAwHgYDVQQKExdBbWF6b24gV2ViIFNlcnZpY2VzIExMQzAgFw0xNTA4MTQx
+106:pkg/server/plugin/nodeattestor/awsiid/awsrsa2048/cacerts.go:741:dGxlMSAwHgYDVQQKExdBbWF6b24gV2ViIFNlcnZpY2VzIExMQzAgFw0xNTA5MTAx
+107:pkg/server/plugin/nodeattestor/awsiid/awsrsa2048/cacerts.go:764:dGxlMSAwHgYDVQQKExdBbWF6b24gV2ViIFNlcnZpY2VzIExMQzAgFw0xODA0MTAx
+108:script/generate_dummy_ca.sh:13:default_md = sha512
+109:test/fixture/certs/blog_key.pem:13:KkJBxSkPXKbyYMhedkJLmS/B9UJlj2skews3YzyFeukCgYEA5MC+hhKUJUh0ZGLs
+110:test/fixture/nodeattestor/x509pop/leaf-crt-bundle.pem:5:pK7cWQS14stZzIhgtDX8jTWpSLaBSbbpAvCrM8osKHDcUhqC/UKUr2a2fIUsB7qF
+111:test/fixture/nodeattestor/x509pop/leaf.pem:5:pK7cWQS14stZzIhgtDX8jTWpSLaBSbbpAvCrM8osKHDcUhqC/UKUr2a2fIUsB7qF
+112:test/fixture/nodeattestor/x509pop/svidexchange.pem:5:pK7cWQS14stZzIhgtDX8jTWpSLaBSbbpAvCrM8osKHDcUhqC/UKUr2a2fIUsB7qF
+113:test/fixture/nodeattestor/x509pop/svidreg.pem:5:pK7cWQS14stZzIhgtDX8jTWpSLaBSbbpAvCrM8osKHDcUhqC/UKUr2a2fIUsB7qF
+114:test/integration/common:273:    if [ -x "${HELMPATH}" ] && "${HELMPATH}" version | grep -q "${HELMSION}"; then
+115:test/integration/suites/force-rotation-upstream-authority/00-setup:15:default_md = sha512
+116:test/testkey/ec256.pem:216:tzAlmSuDNzJoxlB5YEmGRji7/STjBK9P3qdy5vDbCVcWQNhc8fBJRv3x

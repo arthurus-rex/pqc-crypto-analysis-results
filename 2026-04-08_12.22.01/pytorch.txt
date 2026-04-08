@@ -1,0 +1,31 @@
+1:CONTRIBUTING.md:285:PyTorch encourages the use of AI in its development, however, PyTorch is a large and technically complex project and it is easy for current LLMs,
+2:c10/util/Logging.h:199:std::string enforceFailMsgImpl(const T1& x, const T2& y) {
+3:c10/util/Logging.h:204:std::string enforceFailMsgImpl(const T1& x, const T2& y, const Args&... args) {
+4:c10/util/Logging.h:208:template <typename Pred, typename T1, typename T2, typename GetFailMsgFunc>
+5:c10/util/Logging.h:217:    GetFailMsgFunc getFailMsg) {
+6:c10/util/Logging.h:219:    ::c10::ThrowEnforceNotMet(file, line, expr, getFailMsg(lhs, rhs), caller);
+7:c10/util/Logging.h:233:        return ::c10::enforce_detail::enforceFailMsgImpl( \
+8:c10/util/Logging.h:247:        return ::c10::enforce_detail::enforceFailMsgImpl(            \
+9:test/inductor/test_torchinductor_opinfo_properties.py:16:Focuses on ops commonly used in LLMs from unary_ufuncs, binary_ufuncs, and op_db.
+10:test/jit/test_typing.py:262:    def test_sum_list_diff_elms(self):
+11:test/test_jit.py:11886:    def test_sum_list_diff_elms(self):
+12:tools/experimental/torchfuzz/operators/nn_functional.py:432:    RMSNorm is commonly used in modern LLMs like LLaMA. It normalizes by the RMS of the input.
+13:torch/_higher_order_ops/invoke_leaf_function.py:130:    def _lms_to_attr_dict(val: Any) -> Any:
+14:torch/_higher_order_ops/invoke_leaf_function.py:144:        _lms_to_attr_dict,
+15:torch/_inductor/codecache.py:2981:                ("openssl", "sha512", filename), capture_output=True, text=True
+16:torch/ao/quantization/fx/match_utils.py:22:_MatchResultWithQConfig = tuple[
+17:torch/ao/quantization/fx/prepare.py:40:from .match_utils import _find_matches, _MatchResultWithQConfig
+18:torch/ao/quantization/fx/prepare.py:1197:    node_name_to_match_result_with_qconfig: dict[str, _MatchResultWithQConfig],
+19:torch/ao/quantization/fx/prepare.py:1227:    node_name_to_match_result_with_qconfig: dict[str, _MatchResultWithQConfig],
+20:torch/ao/quantization/fx/prepare.py:1398:    node_name_to_match_result_with_qconfig: dict[str, _MatchResultWithQConfig],
+21:torch/csrc/jit/python/init.cpp:192:      const auto& originalMsg = e.getOriginalMsg();
+22:torch/csrc/jit/python/init.cpp:193:      JITException::setCaughtOriginalMsg(originalMsg.value_or(""));
+23:torch/csrc/jit/python/init.cpp:208:      JITException::getCaughtOriginalMsg);
+24:torch/csrc/jit/runtime/jit_exception.cpp:5:static thread_local std::string caughtOriginalMsg;
+25:torch/csrc/jit/runtime/jit_exception.cpp:16:const std::string& JITException::getCaughtOriginalMsg() {
+26:torch/csrc/jit/runtime/jit_exception.cpp:17:  return caughtOriginalMsg;
+27:torch/csrc/jit/runtime/jit_exception.cpp:22:void JITException::setCaughtOriginalMsg(const std::string& msg) {
+28:torch/csrc/jit/runtime/jit_exception.cpp:23:  caughtOriginalMsg = msg;
+29:torch/csrc/jit/runtime/jit_exception.h:24:  std::optional<std::string> getOriginalMsg() const {
+30:torch/csrc/jit/runtime/jit_exception.h:28:  static const std::string& getCaughtOriginalMsg();
+31:torch/csrc/jit/runtime/jit_exception.h:30:  static void setCaughtOriginalMsg(const std::string& msg);

@@ -1,0 +1,116 @@
+1:Cargo.lock:2879:name = "hmac-sha512"
+2:Cargo.lock:3706: "hmac-sha512",
+3:Cargo.lock:6966: "hmac-sha512",
+4:attestation-agent/attestation-agent/src/eventlog/mod.rs:384:    #[case("domain", "operation", "content", "b708d222ca8bd44dfe6ba0c4ca2cbb72379276fba8091025217064be45a813e5d6124ccf073219edb617d1faf007d55061465bdf34b7437dbdc9a7405bd4e9c0", HashAlgorithm::Sha512)]
+5:attestation-agent/attestation-agent/src/eventlog/tcg2.rs:20:    #[serde(rename = "SHA-512")]
+6:attestation-agent/attestation-agent/src/eventlog/tcg2.rs:21:    Sha512 = 0xD,
+7:attestation-agent/attestation-agent/src/eventlog/tcg2.rs:32:            HashAlgorithm::Sha512 => TcgAlgorithm::Sha512,
+8:attestation-agent/coco_keyprovider/README.md:138:Use key of path `key1`, and keyid `kbs:///default/key/key_id1` to encrypt an image. In this way sample is disabled, and will use A256GCM (AES-256-GCM):
+9:attestation-agent/coco_keyprovider/src/enc_mods/crypto.rs:8:use aes_gcm::{aead::Aead, aes::Aes256, Aes256Gcm, Key, Nonce};
+10:attestation-agent/coco_keyprovider/src/enc_mods/crypto.rs:43:            let encryption_key = Key::<Aes256Gcm>::from_slice(key);
+11:attestation-agent/coco_keyprovider/src/enc_mods/crypto.rs:44:            let cipher = Aes256Gcm::new(encryption_key);
+12:attestation-agent/coco_keyprovider/src/enc_mods/crypto.rs:53:            let mut cipher = ctr::Ctr128BE::<Aes256>::new(key.into(), iv.into());
+13:attestation-agent/deps/crypto/src/native/aes256ctr.rs:6://! This mod implements aes-256-ctr encryption & decryption.
+14:attestation-agent/deps/crypto/src/native/aes256gcm.rs:6://! This mod implements aes-256-gcm encryption & decryption.
+15:attestation-agent/deps/crypto/src/native/mod.rs:8:pub mod aes256ctr;
+16:attestation-agent/deps/crypto/src/native/mod.rs:9:pub mod aes256gcm;
+17:attestation-agent/deps/crypto/src/rust/aes256ctr.rs:6://! This mod implements aes-256-ctr encryption & decryption.
+18:attestation-agent/deps/crypto/src/rust/aes256ctr.rs:8:use aes_gcm::aes::Aes256;
+19:attestation-agent/deps/crypto/src/rust/aes256ctr.rs:16:    let mut decryptor = Ctr128BE::<Aes256>::new(key.into(), iv.into());
+20:attestation-agent/deps/crypto/src/rust/aes256ctr.rs:21:        .map_err(|e| anyhow!("aes-256-ctr decrypt failed: {:?}", e))?;
+21:attestation-agent/deps/crypto/src/rust/aes256ctr.rs:26:    let mut encryptor = Ctr128BE::<Aes256>::new(key.into(), iv.into());
+22:attestation-agent/deps/crypto/src/rust/aes256gcm.rs:6://! This mod implements aes-256-gcm encryption & decryption.
+23:attestation-agent/deps/crypto/src/rust/aes256gcm.rs:8:use aes_gcm::{aead::Aead, AeadInPlace, Aes256Gcm, Key, KeyInit, Nonce};
+24:attestation-agent/deps/crypto/src/rust/aes256gcm.rs:17:    let encrypting_key = Key::<Aes256Gcm>::from_slice(key);
+25:attestation-agent/deps/crypto/src/rust/aes256gcm.rs:18:    let cipher = Aes256Gcm::new(encrypting_key);
+26:attestation-agent/deps/crypto/src/rust/aes256gcm.rs:23:        .map_err(|e| anyhow!("aes-256-gcm encrypt failed: {:?}", e))?
+27:attestation-agent/deps/crypto/src/rust/aes256gcm.rs:35:    let decrypting_key = Key::<Aes256Gcm>::from_slice(key);
+28:attestation-agent/deps/crypto/src/rust/aes256gcm.rs:36:    let cipher = Aes256Gcm::new(decrypting_key);
+29:attestation-agent/deps/crypto/src/rust/aes256gcm.rs:41:        .map_err(|e| anyhow!("aes-256-gcm decrypt failed: {:?}", e))?;
+30:attestation-agent/deps/crypto/src/rust/aes256gcm.rs:47:    let decrypting_key = Key::<Aes256Gcm>::from_slice(key);
+31:attestation-agent/deps/crypto/src/rust/aes256gcm.rs:48:    let cipher = Aes256Gcm::new(decrypting_key);
+32:attestation-agent/deps/crypto/src/rust/aes256gcm.rs:52:        .map_err(|e| anyhow!("aes-256-gcm decrypt failed: {:?}", e))?;
+33:attestation-agent/deps/crypto/src/rust/aes256gcm.rs:58:    let encrypting_key = Key::<Aes256Gcm>::from_slice(key);
+34:attestation-agent/deps/crypto/src/rust/aes256gcm.rs:59:    let cipher = Aes256Gcm::new(encrypting_key);
+35:attestation-agent/deps/crypto/src/rust/aes256gcm.rs:63:        .map_err(|e| anyhow!("aes-256-gcm encrypt failed: {:?}", e))?;
+36:attestation-agent/deps/crypto/src/rust/ec.rs:12:use aes_kw::{Kek, KekAes256};
+37:attestation-agent/deps/crypto/src/rust/ec.rs:159:                let unwrapping_key: KekAes256 = Kek::new(&GenericArray::from(unwrapping_key));
+38:attestation-agent/deps/crypto/src/rust/mod.rs:8:pub mod aes256ctr;
+39:attestation-agent/deps/crypto/src/rust/mod.rs:9:pub mod aes256gcm;
+40:attestation-agent/deps/crypto/src/symmetric.rs:29:    Aes256Gcm,
+41:attestation-agent/deps/crypto/src/symmetric.rs:34:    Aes256Ctr,
+42:attestation-agent/deps/crypto/src/symmetric.rs:48:        WrapType::Aes256Gcm => aes256gcm::decrypt(&key, &ciphertext, &iv),
+43:attestation-agent/deps/crypto/src/symmetric.rs:49:        WrapType::Aes256Ctr => aes256ctr::decrypt(&key, &ciphertext, &iv),
+44:attestation-agent/deps/crypto/src/symmetric.rs:53:/// Decrypt the given `ciphertext` with AES256-GCM algorithm.
+45:attestation-agent/deps/crypto/src/symmetric.rs:63:        WrapType::Aes256Gcm => {
+46:attestation-agent/deps/crypto/src/symmetric.rs:64:            aes256gcm::decrypt_with_aad_detached_tag(&key, &ciphertext, &iv, &aad, &tag)
+47:attestation-agent/deps/crypto/src/symmetric.rs:81:        WrapType::Aes256Gcm => aes256gcm::encrypt(&key, &plaintext, &iv),
+48:attestation-agent/deps/crypto/src/symmetric.rs:82:        WrapType::Aes256Ctr => aes256ctr::encrypt(&key, &plaintext, &iv),
+49:attestation-agent/deps/crypto/src/symmetric.rs:103:        WrapType::Aes256Gcm => {
+50:attestation-agent/deps/crypto/src/symmetric.rs:104:            aes256gcm::encrypt_with_aad_detached_tag(&key, &plaintext, &iv, &aad)
+51:attestation-agent/docs/IMAGE_ENCRYPTION.md:85:We can overload some of the parameters in specific scheme (like we use `iv` as `nonce` in `aes-256-gcm`).
+52:attestation-agent/docs/IMAGE_ENCRYPTION.md:92:    * `wrapped_data := ciphertext | Tag`. `Tag` is authentication tag and is 16 bytes in `aes-256-gcm`.
+53:attestation-agent/kbc/src/online_sev_kbc/mod.rs:119:            WrapType::Aes256Gcm,
+54:attestation-agent/kbc/src/sample_kbc/mod.rs:77:            WrapType::Aes256Gcm,
+55:attestation-agent/kbs_protocol/src/client/rcar_client.rs:584:    #[case(json!({SELECTED_HASH_ALGORITHM_JSON_KEY: "sha512"}), Ok(HashAlgorithm::Sha512))]
+56:attestation-agent/kbs_protocol/src/client/rcar_client.rs:585:    #[case(json!({SELECTED_HASH_ALGORITHM_JSON_KEY: "SHA512"}), Ok(HashAlgorithm::Sha512))]
+57:attestation-agent/kbs_protocol/src/keypair.rs:182:            crypto::WrapType::Aes256Gcm,
+58:confidential-data-hub/docs/SEALED_SECRET.md:88:`A256GCM` (AES256-GCM) preferred.
+59:confidential-data-hub/hub/src/bin/secret_cli.rs:254:                WrapType::Aes256Gcm,
+60:confidential-data-hub/hub/src/bin/secret_cli.rs:267:                wrap_type: WrapType::Aes256Gcm,
+61:confidential-data-hub/hub/src/secret/mod.rs:254:            wrap_type: WrapType::Aes256Gcm,
+62:confidential-data-hub/hub/src/storage/drivers/zfs.rs:62:pub const DEFAULT_ENCRYPTION_ALGORITHM: &str = "aes-256-gcm";
+63:confidential-data-hub/kms/src/plugins/kbs/sev/client.rs:140:            WrapType::Aes256Gcm,
+64:image-rs/src/digest.rs:8:pub const DIGEST_SHA512_PREFIX: &str = "sha512:";
+65:image-rs/src/digest.rs:18:    Sha512(sha2::Sha512),
+66:image-rs/src/digest.rs:27:            LayerDigestHasher::Sha512(hasher) => {
+67:image-rs/src/digest.rs:38:            LayerDigestHasher::Sha512(hasher) => {
+68:image-rs/src/digest.rs:39:                format!("{}{:x}", DIGEST_SHA512_PREFIX, hasher.finalize())
+69:image-rs/src/signature/image/digest.rs:19:    #[strum(serialize = "sha512", props(Length = "128"))]
+70:image-rs/src/signature/image/digest.rs:20:    Sha512,
+71:image-rs/src/signature/image/digest.rs:107:            Result::Ok(Algorithm::Sha512) => Algorithm::Sha512.get_str("Length"),
+72:image-rs/src/signature/image/digest.rs:183:                digest: "sha512:69704ef328d05a9f806b6b8502915e6a0a4faa4d72018dc42343f511490daf8a",
+73:image-rs/src/stream/mod.rs:18:use crate::digest::{DigestHasher, LayerDigestHasher, DIGEST_SHA256_PREFIX, DIGEST_SHA512_PREFIX};
+74:image-rs/src/stream/mod.rs:87:    } else if diff_id.starts_with(DIGEST_SHA512_PREFIX) {
+75:image-rs/src/stream/mod.rs:88:        LayerDigestHasher::Sha512(sha2::Sha512::new())
+76:image-rs/src/stream/mod.rs:202:            DIGEST_SHA512_PREFIX,
+77:image-rs/src/stream/mod.rs:203:            sha2::Sha512::digest(layer_data.as_slice())
+78:image-rs/src/verity/dmverity.rs:49:            // TODO: support ["sha224", "sha384", "sha512", "ripemd160"];
+79:ocicrypt-rs/src/blockcipher/aes_ctr.rs:16:const AES256_KEY_SIZE: usize = 32;
+80:ocicrypt-rs/src/blockcipher/aes_ctr.rs:17:const AES256_NONCE_SIZE: usize = 16;
+81:ocicrypt-rs/src/blockcipher/aes_ctr.rs:18:type Aes256Ctr = ctr::Ctr128BE<aes::Aes256>;
+82:ocicrypt-rs/src/blockcipher/aes_ctr.rs:24:        cipher: Aes256Ctr,
+83:ocicrypt-rs/src/blockcipher/aes_ctr.rs:42:        if bits != AES256_KEY_SIZE * 8 {
+84:ocicrypt-rs/src/blockcipher/aes_ctr.rs:47:            key_len: AES256_KEY_SIZE,
+85:ocicrypt-rs/src/blockcipher/aes_ctr.rs:56:        if symmetric_key.len() != AES256_KEY_SIZE {
+86:ocicrypt-rs/src/blockcipher/aes_ctr.rs:60:                AES256_KEY_SIZE
+87:ocicrypt-rs/src/blockcipher/aes_ctr.rs:67:        let mut nonce = vec![0u8; AES256_NONCE_SIZE];
+88:ocicrypt-rs/src/blockcipher/aes_ctr.rs:70:                if v.len() != AES256_NONCE_SIZE {
+89:ocicrypt-rs/src/blockcipher/aes_ctr.rs:74:                        AES256_NONCE_SIZE
+90:ocicrypt-rs/src/blockcipher/aes_ctr.rs:82:        let cipher = Aes256Ctr::new(
+91:ocicrypt-rs/src/blockcipher/aes_ctr.rs:407:        let mut crypto_encrypt = Aes256Ctr::new(
+92:ocicrypt-rs/src/blockcipher/aes_ctr.rs:430:        let mut crypto_decrypt = Aes256Ctr::new(
+93:ocicrypt-rs/src/blockcipher/mod.rs:22:pub const AES256CTR: &str = "AES_256_CTR_HMAC_SHA256";
+94:ocicrypt-rs/src/blockcipher/mod.rs:153:    Aes256Ctr(AESCTRBlockCipher<R>),
+95:ocicrypt-rs/src/blockcipher/mod.rs:160:        LayerBlockCipherHandler::Aes256Ctr(aes_ctr_block_cipher)
+96:ocicrypt-rs/src/blockcipher/mod.rs:173:            LayerBlockCipherHandler::Aes256Ctr(block_cipher) => {
+97:ocicrypt-rs/src/blockcipher/mod.rs:174:                if typ != AES256CTR {
+98:ocicrypt-rs/src/blockcipher/mod.rs:178:                opts.public.cipher_type = AES256CTR.to_string();
+99:ocicrypt-rs/src/blockcipher/mod.rs:195:            LayerBlockCipherHandler::Aes256Ctr(block_cipher) => {
+100:ocicrypt-rs/src/blockcipher/mod.rs:196:                if typ != AES256CTR {
+101:ocicrypt-rs/src/blockcipher/mod.rs:210:            LayerBlockCipherHandler::Aes256Ctr(block_cipher) => block_cipher.finalized_lbco(opts),
+102:ocicrypt-rs/src/blockcipher/mod.rs:218:            LayerBlockCipherHandler::Aes256Ctr(block_cipher) => block_cipher.read(buf),
+103:ocicrypt-rs/src/blockcipher/mod.rs:233:                LayerBlockCipherHandler::Aes256Ctr(block_cipher) => block_cipher,
+104:ocicrypt-rs/src/blockcipher/mod.rs:251:            .encrypt(layer_data.as_slice(), AES256CTR, &mut lbco)
+105:ocicrypt-rs/src/blockcipher/mod.rs:256:            .encrypt(layer_data.as_slice(), AES256CTR, &mut lbco)
+106:ocicrypt-rs/src/blockcipher/mod.rs:258:        let LayerBlockCipherHandler::Aes256Ctr(mut encryptor) = lbch;
+107:ocicrypt-rs/src/blockcipher/mod.rs:270:        let LayerBlockCipherHandler::Aes256Ctr(mut decryptor) = lbch;
+108:ocicrypt-rs/src/blockcipher/mod.rs:281:        let LayerBlockCipherHandler::Aes256Ctr(mut decryptor) = lbch;
+109:ocicrypt-rs/src/encryption.rs:13:    PrivateLayerBlockCipherOptions, PublicLayerBlockCipherOptions, AES256CTR,
+110:ocicrypt-rs/src/encryption.rs:239:        lbch.encrypt(layer_reader, AES256CTR, &mut lbco)?;
+111:ocicrypt-rs/src/keywrap/keyprovider/mod.rs:583:        use aes_gcm::aes::{Aes256Dec, Aes256Enc};
+112:ocicrypt-rs/src/keywrap/keyprovider/mod.rs:584:        use aes_gcm::{Aes256Gcm, Key, Nonce};
+113:ocicrypt-rs/src/keywrap/keyprovider/mod.rs:591:            let encrypting_key = Key::<Aes256Enc>::from_slice(encrypting_key);
+114:ocicrypt-rs/src/keywrap/keyprovider/mod.rs:592:            let cipher = Aes256Gcm::new(encrypting_key);
+115:ocicrypt-rs/src/keywrap/keyprovider/mod.rs:601:            let decrypting_key = Key::<Aes256Dec>::from_slice(decrypting_key);
+116:ocicrypt-rs/src/keywrap/keyprovider/mod.rs:602:            let cipher = Aes256Gcm::new(decrypting_key);

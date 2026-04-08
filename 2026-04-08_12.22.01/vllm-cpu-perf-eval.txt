@@ -1,0 +1,5 @@
+1:docs/methodology/overview.md:26:(SLMs), Tiny Models, and Embedding models. This evaluation is structured into
+2:docs/methodology/overview.md:36:  CPU inferencing capabilities for various SLMs
+3:docs/methodology/overview.md:56:Language Models (LLMs). By simulating real-world inference workloads, GuideLLM
+4:docs/methodology/overview.md:58:implications of deploying LLMs on various hardware configurations.
+5:docs/methodology/overview.md:175:- Concurrency levels: {1, 2, 4, 8, 16, 32} for LLMs

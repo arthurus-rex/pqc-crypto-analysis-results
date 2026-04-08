@@ -1,0 +1,2 @@
+1:README.md:147:**Hybrid** (local SLM + external LLMs — edit endpoints and keys):
+2:config/router.yaml.example:10:# SLM (fast, no network); specialized queries go to external LLMs.

@@ -1,0 +1,82 @@
+1:keylime-agent.conf:278:# - hashing:    sha512, sha384, sha256 or sha1
+2:keylime-agent.conf:311:# iak_idevid_name_alg:        sha256, sm3_256, sha384, sha512
+3:keylime-agent/src/keys_handler.rs:633:    // Enough length for testing both AES-128 and AES-256
+4:keylime-agent/src/payloads.rs:356:    // Enough length for testing both AES-128 and AES-256
+5:keylime-push-model-agent/src/struct_filler.rs:203:                    HashAlgorithm::Sha512 => pcr_banks_builder.sha512(banks),
+6:keylime/src/algorithms.rs:38:    Sha512,
+7:keylime/src/algorithms.rs:50:        HashAlgorithm::Sha512 => HashingAlgorithm::Sha512,
+8:keylime/src/algorithms.rs:66:            tss_esapi::interface_types::algorithm::HashingAlgorithm::Sha512 => Ok(HashAlgorithm::Sha512),
+9:keylime/src/algorithms.rs:83:            "sha512" => Ok(HashAlgorithm::Sha512),
+10:keylime/src/algorithms.rs:97:            HashAlgorithm::Sha512 => "sha512",
+11:keylime/src/algorithms.rs:110:            HashAlgorithm::Sha512 => HashingAlgorithm::Sha512,
+12:keylime/src/algorithms.rs:122:            HashAlgorithm::Sha512 => MessageDigest::sha512(),
+13:keylime/src/algorithms.rs:433:        let result = HashAlgorithm::try_from("sha512");
+14:keylime/src/algorithms.rs:482:            (HashAlgorithm::Sha512, HashingAlgorithm::Sha512),
+15:keylime/src/crypto.rs:545:/// If a passphrase is provided, the key will be stored encrypted using AES-256-CBC
+16:keylime/src/crypto.rs:1606:        let h = hash(input, MessageDigest::sha512());
+17:keylime/src/crypto/x509.rs:417:            .hash_algorithm(MessageDigest::sha512())
+18:keylime/src/crypto/x509.rs:427:        assert_eq!(sig_alg.digest, openssl::nid::Nid::SHA512);
+19:keylime/src/structures/capabilities_negotiation.rs:74:    pub sha512: Option<Vec<u32>>,
+20:keylime/src/structures/capabilities_negotiation.rs:103:    sha512: Option<Vec<u32>>,
+21:keylime/src/structures/capabilities_negotiation.rs:131:    /// Set SHA512 PCR banks (empty vectors are set to None)
+22:keylime/src/structures/capabilities_negotiation.rs:132:    pub fn sha512(mut self, slots: Vec<u32>) -> Self {
+23:keylime/src/structures/capabilities_negotiation.rs:133:        self.sha512 = if slots.is_empty() { None } else { Some(slots) };
+24:keylime/src/structures/capabilities_negotiation.rs:149:            sha512: self.sha512,
+25:keylime/src/structures/capabilities_negotiation.rs:168:        if let Some(v) = &self.sha512 {
+26:keylime/src/structures/capabilities_negotiation.rs:169:            map.insert("sha512".to_string(), v.clone());
+27:keylime/src/structures/capabilities_negotiation.rs:317:                                    sha512: Some(vec![0x0A, 0x0B, 0x0C]),
+28:keylime/src/structures/capabilities_negotiation.rs:378:              "sha512": [
+29:keylime/src/structures/capabilities_negotiation.rs:494:                                    sha512: Some(vec![0x0A, 0x0B, 0x0C]),
+30:keylime/src/structures/capabilities_negotiation.rs:573:              "sha512": [
+31:keylime/src/structures/capabilities_negotiation.rs:690:                assert!(capabilities.available_subjects.sha512.is_none());
+32:keylime/src/structures/capabilities_negotiation.rs:821:                                    sha512: Some(vec![0x0A, 0x0B, 0x0C]),
+33:keylime/src/structures/capabilities_negotiation.rs:884:              "sha512": [
+34:keylime/src/structures/capabilities_negotiation.rs:916:                                    sha512: Some(vec![0x0A, 0x0B, 0x0C]),
+35:keylime/src/structures/capabilities_negotiation.rs:996:              "sha512": [
+36:keylime/src/structures/capabilities_negotiation.rs:1112:                    params.selected_subjects.clone().unwrap().sha512, //#[allow_ci]
+37:keylime/src/structures/capabilities_negotiation.rs:1229:        assert_eq!(banks.sha512, None);
+38:keylime/src/structures/capabilities_negotiation.rs:1239:            .sha512(vec![10, 11, 12])
+39:keylime/src/structures/capabilities_negotiation.rs:1246:        assert_eq!(banks.sha512, Some(vec![10, 11, 12]));
+40:keylime/src/structures/capabilities_negotiation.rs:1257:        assert_eq!(banks.sha512, None);
+41:keylime/src/structures/capabilities_negotiation.rs:1267:            .sha512(vec![]) // Empty vector should be set to None
+42:keylime/src/structures/capabilities_negotiation.rs:1273:        assert_eq!(banks.sha512, None);
+43:keylime/src/structures/capabilities_negotiation.rs:1283:            .sha512(vec![10, 11, 12])
+44:keylime/src/structures/capabilities_negotiation.rs:1289:        assert_eq!(banks.sha512, Some(vec![10, 11, 12]));
+45:keylime/src/structures/capabilities_negotiation.rs:1303:        assert_eq!(banks.sha512, None);
+46:keylime/src/structures/capabilities_negotiation.rs:1317:        assert_eq!(banks.sha512, None);
+47:keylime/src/structures/capabilities_negotiation.rs:1329:        assert_eq!(banks.sha512, None);
+48:keylime/src/structures/capabilities_negotiation.rs:1345:        assert_eq!(banks.sha512, None);
+49:keylime/src/structures/capabilities_negotiation.rs:1356:        assert_eq!(banks.sha512, None);
+50:keylime/src/structures/capabilities_negotiation.rs:1369:        assert_eq!(banks.sha512, None);
+51:keylime/src/structures/capabilities_negotiation.rs:1378:            .sha512(vec![4, 5, 6])
+52:keylime/src/structures/capabilities_negotiation.rs:1384:        assert_eq!(banks.sha512, Some(vec![4, 5, 6]));
+53:keylime/src/structures/evidence_handling.rs:888:                                        sha512: None,
+54:keylime/src/structures/evidence_handling.rs:902:                                            sha512: None,
+55:keylime/src/structures/evidence_handling.rs:953:                                            sha512: None,
+56:keylime/src/tpm.rs:85:const IDEVID_AUTH_POLICY_SHA512: [u8; 64] = [
+57:keylime/src/tpm.rs:107:const IAK_AUTH_POLICY_SHA512: [u8; 64] = [
+58:keylime/src/tpm.rs:139:const POLICY_A_SHA512: [u8; 64] = [
+59:keylime/src/tpm.rs:158:const POLICY_C_SHA512: [u8; 64] = [
+60:keylime/src/tpm.rs:602:        TssEsapiHashingAlgorithm::Sha512 => Ok("sha512".to_string()),
+61:keylime/src/tpm.rs:1010:            HashingAlgorithm::Sha512 => (
+62:keylime/src/tpm.rs:1011:                IDEVID_AUTH_POLICY_SHA512[0..64].to_vec(),
+63:keylime/src/tpm.rs:1228:            HashingAlgorithm::Sha512 => (
+64:keylime/src/tpm.rs:1229:                IAK_AUTH_POLICY_SHA512[0..64].to_vec(),
+65:keylime/src/tpm.rs:1417:            HashingAlgorithm::Sha512 => {
+66:keylime/src/tpm.rs:1419:                    .add(Digest::try_from(POLICY_A_SHA512.as_slice())?)?;
+67:keylime/src/tpm.rs:1421:                    .add(Digest::try_from(POLICY_C_SHA512.as_slice())?)?;
+68:keylime/src/tpm.rs:2336:        HashingAlgorithm::Sha512 => Ok(MessageDigest::sha512()),
+69:keylime/src/tpm.rs:2457:        "H-4" => (AsymmetricAlgorithm::Ecc, HashingAlgorithm::Sha512),
+70:keylime/src/tpm.rs:3015:            ("H-4", (AsymmetricAlgorithm::Ecc, HashingAlgorithm::Sha512)),
+71:keylime/src/tpm.rs:3104:            //HashingAlgorithm::Sha512, // Not supported by swtpm
+72:keylime/src/tpm.rs:3151:            //HashingAlgorithm::Sha512, // Not supported by swtpm
+73:keylime/src/tpm.rs:3185:            //HashingAlgorithm::Sha512, // Not supported by swtpm
+74:keylime/src/uefi/uefi_log_handler.rs:30:const TPM_ALG_SHA512: u16 = 0x000D;
+75:keylime/src/uefi/uefi_log_handler.rs:292:            TPM_ALG_SHA512 => 64,
+76:keylime/src/uefi/uefi_log_handler.rs:335:            "sha512" => TPM_ALG_SHA512,
+77:keylime/src/uefi/uefi_log_handler.rs:345:            TPM_ALG_SHA512 => "sha512",
+78:keylime/src/uefi/uefi_log_handler.rs:568:            (TPM_ALG_SHA512, 64),
+79:keylime/src/uefi/uefi_log_handler.rs:591:            (TPM_ALG_SHA512, "sha512"),
+80:keylime/src/uefi/uefi_log_handler.rs:692:            ("sha512", TPM_ALG_SHA512),
+81:tests/generate-iak-idevid-certs.sh:106:            -aes256 \
+82:tests/generate-iak-idevid-certs.sh:133:            -aes256 \

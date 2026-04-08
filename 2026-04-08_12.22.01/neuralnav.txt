@@ -1,0 +1,8 @@
+1:CLAUDE.md:89:Deploying LLMs in production is complex - users struggle to:
+2:docs/AGENTIC_DESIGN.md:43:An **AI Agent** is an autonomous system that uses one or more LLMs to reason, plan, and take actions toward achieving a goal.
+3:docs/AGENTIC_DESIGN.md:51:- **LLM-powered core**: Uses LLMs for reasoning, planning, decision-making, and/or generation
+4:docs/ARCHITECTURE.md:28:Deploying LLMs in production environments remains complex and error-prone:
+5:src/planner/capacity_planner.py:292:    Returns text config (for LLMs)
+6:src/planner/intent_extraction/extractor.py:70:            f.write("Copy everything above this line to test in other LLMs\n")
+7:src/planner/llm/prompts.py:60:    prompt = f"""You are an expert AI assistant for Planner helping users deploy Large Language Models (LLMs) for production use cases.
+8:ui/helpers.py:18:    "falcon": "TII",
