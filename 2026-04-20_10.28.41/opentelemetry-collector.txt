@@ -1,0 +1,273 @@
+1:.git/packed-refs:10:fb9d80d3c44c9007f2064baecc59687588d48499 refs/remotes/origin/release/0.99.x
+2:.git/packed-refs:208:ecc61b6cbf3ad502fb38d0a8d455e68069862ec6 refs/tags/client/v1.33.0
+3:.git/packed-refs:436:^226dc13a52a9f3ed4487fa4e1fdc7649a8b48ad1
+4:.git/packed-refs:520:^fb9d80d3c44c9007f2064baecc59687588d48499
+5:.git/packed-refs:691:52d22bc026217f4c9ecc538181a5fb7837b4b6a1 refs/tags/cmd/mdatagen/v0.150.0
+6:.git/packed-refs:744:^fb9d80d3c44c9007f2064baecc59687588d48499
+7:.git/packed-refs:798:^226dc13a52a9f3ed4487fa4e1fdc7649a8b48ad1
+8:.git/packed-refs:1087:90f498418393426329e0ceccea1bb3f82007e0a3 refs/tags/component/v0.78.1
+9:.git/packed-refs:1136:^fb9d80d3c44c9007f2064baecc59687588d48499
+10:.git/packed-refs:1273:8eccad061e33bd7e8db10b73eb479e458c9d14a0 refs/tags/config/configauth/v0.131.0
+11:.git/packed-refs:1328:^fb9d80d3c44c9007f2064baecc59687588d48499
+12:.git/packed-refs:1431:20f770dd4f821e4f82690e380eccb60a864e03ed refs/tags/config/configcompression/v1.27.0
+13:.git/packed-refs:1500:^fb9d80d3c44c9007f2064baecc59687588d48499
+14:.git/packed-refs:1527:3b0e21c7ae38ce652951397630a42485eccc4a01 refs/tags/config/configgrpc/v0.108.0
+15:.git/packed-refs:1664:^fb9d80d3c44c9007f2064baecc59687588d48499
+16:.git/packed-refs:1711:2cf5b0e06bf6ad04f4d8ac527a8ecc54164fc661 refs/tags/config/confighttp/v0.120.0
+17:.git/packed-refs:1713:157e3f7f35793fd5425b6eb295f4aa0ecc870e84 refs/tags/config/confighttp/v0.121.0
+18:.git/packed-refs:1779:b962d1897c82db6ecc9664b2a7186d02cf183007 refs/tags/config/confighttp/v0.80.0
+19:.git/packed-refs:1822:^fb9d80d3c44c9007f2064baecc59687588d48499
+20:.git/packed-refs:1887:b2633428de5e9445e79dd3a43ccceccfb5d3f0cd refs/tags/config/confighttp/xconfighttp/v0.146.0
+21:.git/packed-refs:2022:^fb9d80d3c44c9007f2064baecc59687588d48499
+22:.git/packed-refs:2163:1dacacc84314603b17080c7b86b692dcfeecc0c3 refs/tags/config/configopaque/v1.19.0
+23:.git/packed-refs:2252:^fb9d80d3c44c9007f2064baecc59687588d48499
+24:.git/packed-refs:2331:528269c8ac804c0d1b112868fcea9d419b2eccf3 refs/tags/config/configretry/v0.98.0
+25:.git/packed-refs:2334:^fb9d80d3c44c9007f2064baecc59687588d48499
+26:.git/packed-refs:2590:^fb9d80d3c44c9007f2064baecc59687588d48499
+27:.git/packed-refs:2646:^fb9d80d3c44c9007f2064baecc59687588d48499
+28:.git/packed-refs:2787:982cecc3d042d86a75d451871393cb54047dc140 refs/tags/config/internal/v0.82.0
+29:.git/packed-refs:2826:^fb9d80d3c44c9007f2064baecc59687588d48499
+30:.git/packed-refs:2849:110eecc433d0583bb3e1ea1cb2aea3b26c7d76be refs/tags/confmap/converter/expandconverter/v0.108.1
+31:.git/packed-refs:2870:^fb9d80d3c44c9007f2064baecc59687588d48499
+32:.git/packed-refs:2907:^fb9d80d3c44c9007f2064baecc59687588d48499
+33:.git/packed-refs:3032:^fb9d80d3c44c9007f2064baecc59687588d48499
+34:.git/packed-refs:3139:4a9b51d5b05df2bb8998b46ecc56105b3bfe4107 refs/tags/confmap/provider/httpprovider/v0.107.0
+35:.git/packed-refs:3160:^fb9d80d3c44c9007f2064baecc59687588d48499
+36:.git/packed-refs:3191:ecc93df8cad457a40c401e870a59ac0319d1ff3c refs/tags/confmap/provider/httpprovider/v1.31.0
+37:.git/packed-refs:3284:^fb9d80d3c44c9007f2064baecc59687588d48499
+38:.git/packed-refs:3381:9404c225c2becc464a61c1a37603c32d0c20bdf8 refs/tags/confmap/provider/yamlprovider/v0.105.0
+39:.git/packed-refs:3408:^fb9d80d3c44c9007f2064baecc59687588d48499
+40:.git/packed-refs:3590:^fb9d80d3c44c9007f2064baecc59687588d48499
+41:.git/packed-refs:3789:f1eabb0f1b2ecc46556264df4b956b8b2154df3c refs/tags/connector/connectortest/v0.120.0
+42:.git/packed-refs:4046:^fb9d80d3c44c9007f2064baecc59687588d48499
+43:.git/packed-refs:4204:^fb9d80d3c44c9007f2064baecc59687588d48499
+44:.git/packed-refs:4239:8c869e74eccfd3d45c3aab0a95f6fe2b4435a197 refs/tags/connector/xconnector/v0.131.0
+45:.git/packed-refs:4503:11df5c99db84683d77ecca45e7caff763546905a refs/tags/consumer/consumertest/v0.116.0
+46:.git/packed-refs:4567:37d06a59c47fb92789d808e35231fdd3642eecc1 refs/tags/consumer/consumertest/v0.146.0
+47:.git/packed-refs:4696:^fb9d80d3c44c9007f2064baecc59687588d48499
+48:.git/packed-refs:4821:56502a12270ef1c5840ceccf0a2000e3ffcb191f refs/tags/consumer/xconsumer/v0.138.0
+49:.git/packed-refs:4877:32bca09f78b2bf7c3c4561fafe584aecc9455714 refs/tags/examples/demo/app/v0.31.0
+50:.git/packed-refs:5032:^fb9d80d3c44c9007f2064baecc59687588d48499
+51:.git/packed-refs:5185:f0898cecc604223f2599be015f08de3560e78659 refs/tags/exporter/exportertest/v0.116.0
+52:.git/packed-refs:5294:^226dc13a52a9f3ed4487fa4e1fdc7649a8b48ad1
+53:.git/packed-refs:5341:ec91a108d1be82a698eccd6e7ecc89d7c67e2334 refs/tags/exporter/loggingexporter/v0.83.0
+54:.git/packed-refs:5378:^fb9d80d3c44c9007f2064baecc59687588d48499
+55:.git/packed-refs:5387:d6f1749edecc41cc13b7ce4e9097c29ebf2e66c4 refs/tags/exporter/nopexporter/v0.103.0
+56:.git/packed-refs:5498:^fb9d80d3c44c9007f2064baecc59687588d48499
+57:.git/packed-refs:5618:^226dc13a52a9f3ed4487fa4e1fdc7649a8b48ad1
+58:.git/packed-refs:5702:^fb9d80d3c44c9007f2064baecc59687588d48499
+59:.git/packed-refs:5822:^226dc13a52a9f3ed4487fa4e1fdc7649a8b48ad1
+60:.git/packed-refs:5851:737c5aad07b5e629476d493d8eccbf0b57fe9ccb refs/tags/exporter/otlphttpexporter/v0.76.1
+61:.git/packed-refs:5906:^fb9d80d3c44c9007f2064baecc59687588d48499
+62:.git/packed-refs:6005:9faf132dc5bb0823ecce3feb852747a0ce4068fd refs/tags/exporter/v0.78.2
+63:.git/packed-refs:6052:^fb9d80d3c44c9007f2064baecc59687588d48499
+64:.git/packed-refs:6266:^fb9d80d3c44c9007f2064baecc59687588d48499
+65:.git/packed-refs:6292:^226dc13a52a9f3ed4487fa4e1fdc7649a8b48ad1
+66:.git/packed-refs:6376:^fb9d80d3c44c9007f2064baecc59687588d48499
+67:.git/packed-refs:6681:a0aee0d5ecc3b0036e1e169f39cbe7c08548feaf refs/tags/extension/extensionmiddleware/v0.130.0
+68:.git/packed-refs:6936:^fb9d80d3c44c9007f2064baecc59687588d48499
+69:.git/packed-refs:6977:fbffdfd8604fd49de4ecb0964ecc5fea0d0a0ff7 refs/tags/extension/v0.117.0
+70:.git/packed-refs:7028:^fb9d80d3c44c9007f2064baecc59687588d48499
+71:.git/packed-refs:7211:fa511a6c8ebdaacdfeccccc4075b76749e10f7e0 refs/tags/extension/zpagesextension/v0.119.0
+72:.git/packed-refs:7282:^226dc13a52a9f3ed4487fa4e1fdc7649a8b48ad1
+73:.git/packed-refs:7366:^fb9d80d3c44c9007f2064baecc59687588d48499
+74:.git/packed-refs:7526:^fb9d80d3c44c9007f2064baecc59687588d48499
+75:.git/packed-refs:7641:f329cecca7b73fe8c25cc0afe20ef7b414381596 refs/tags/filter/v0.148.0
+76:.git/packed-refs:7648:^fb9d80d3c44c9007f2064baecc59687588d48499
+77:.git/packed-refs:7883:4b7acff762fe048ee2deccb317b0694a6e26d196 refs/tags/internal/sharedcomponent/v0.127.0
+78:.git/packed-refs:8130:^226dc13a52a9f3ed4487fa4e1fdc7649a8b48ad1
+79:.git/packed-refs:8283:9f44211eccd2957ec43ada23053d7defe4b422f9 refs/tags/otelcol/otelcoltest/v0.148.0
+80:.git/packed-refs:8434:^fb9d80d3c44c9007f2064baecc59687588d48499
+81:.git/packed-refs:8633:df34455ecc61c21a8c009eca1d9da6e8728440b2 refs/tags/pdata/testdata/v0.139.0
+82:.git/packed-refs:8657:33e65ef757349eccab630e3ad72c011b81e1479a refs/tags/pdata/testdata/v0.150.0
+83:.git/packed-refs:8662:^fb9d80d3c44c9007f2064baecc59687588d48499
+84:.git/packed-refs:8702:^226dc13a52a9f3ed4487fa4e1fdc7649a8b48ad1
+85:.git/packed-refs:8860:^fb9d80d3c44c9007f2064baecc59687588d48499
+86:.git/packed-refs:8979:06689decc26f0cfaaba14fe554c3df8880bbf3cb refs/tags/pipeline/v1.41.0
+87:.git/packed-refs:9202:^226dc13a52a9f3ed4487fa4e1fdc7649a8b48ad1
+88:.git/packed-refs:9286:^fb9d80d3c44c9007f2064baecc59687588d48499
+89:.git/packed-refs:9402:^226dc13a52a9f3ed4487fa4e1fdc7649a8b48ad1
+90:.git/packed-refs:9453:cb6d6e7270cecc2ee1257f31dbd24a6ed3989e15 refs/tags/processor/memorylimiterprocessor/v0.85.0
+91:.git/packed-refs:9481:953aef9ecc86de5a30a8d5fb1ef57e9fa2b33c08 refs/tags/processor/memorylimiterprocessor/v0.97.0
+92:.git/packed-refs:9486:^fb9d80d3c44c9007f2064baecc59687588d48499
+93:.git/packed-refs:9543:55023a3055ecc63e4a2bfbcfa51bfc87fd3a2c7b refs/tags/processor/processorhelper/v0.146.0
+94:.git/packed-refs:9553:e5d48cbecc892c3a4b97000d360c2af00bc0daf3 refs/tags/processor/processorhelper/v0.150.0
+95:.git/packed-refs:9834:^fb9d80d3c44c9007f2064baecc59687588d48499
+96:.git/packed-refs:9923:edc816e86cbda45eccc3273e069af647fea3441d refs/tags/processor/xprocessor/v0.130.0
+97:.git/packed-refs:9945:304694cd6ecc7b2c95faf37ccd5a9ff53e6dd97b refs/tags/processor/xprocessor/v0.140.0
+98:.git/packed-refs:10081:30eeccecec51c39fe9b195ceae43b212771fb6a1 refs/tags/receiver/nopreceiver/v0.150.0
+99:.git/packed-refs:10088:^fb9d80d3c44c9007f2064baecc59687588d48499
+100:.git/packed-refs:10204:^226dc13a52a9f3ed4487fa4e1fdc7649a8b48ad1
+101:.git/packed-refs:10288:^fb9d80d3c44c9007f2064baecc59687588d48499
+102:.git/packed-refs:10570:^fb9d80d3c44c9007f2064baecc59687588d48499
+103:.git/packed-refs:10645:cf467232cae25fecccd28b9452d1feed260b179e refs/tags/receiver/xreceiver/v0.122.0
+104:.git/packed-refs:11053:96f00bcc24b3d6a798c2929ecce7bb099b6c456d refs/tags/semconv/v0.56.0
+105:.git/packed-refs:11078:^226dc13a52a9f3ed4487fa4e1fdc7649a8b48ad1
+106:.git/packed-refs:11115:97f1e6128c0bf2789835c565ecc083c9b903e492 refs/tags/semconv/v0.78.2
+107:.git/packed-refs:11147:274307cc69a2c6aecce73eea56d7855d9c9c4bfa refs/tags/semconv/v0.93.0
+108:.git/packed-refs:11162:^fb9d80d3c44c9007f2064baecc59687588d48499
+109:.git/packed-refs:11203:3e412f1109a677a43f3589fae417f15d3decccf2 refs/tags/service/hostcapabilities/v0.139.0
+110:.git/packed-refs:11273:d95d4ffe631fbd8b86bcb01146dbe8459ffecc7d refs/tags/service/v0.106.1
+111:.git/packed-refs:11287:9cfe40ecc4078ed2e5a49f342fa8f103f2672cd5 refs/tags/service/v0.112.0
+112:.git/packed-refs:11367:41588b66a118481cefa2f866c50df25ecc4cd1f6 refs/tags/service/v0.149.0
+113:.git/packed-refs:11402:^fb9d80d3c44c9007f2064baecc59687588d48499
+114:.git/packed-refs:11427:ed6ed44854707748a24020700ac9998f150eee21 refs/tags/v0.108.0
+115:.git/packed-refs:11660:^226dc13a52a9f3ed4487fa4e1fdc7649a8b48ad1
+116:.git/packed-refs:11750:^fb9d80d3c44c9007f2064baecc59687588d48499
+117:CHANGELOG.md:496:- `configtls`: Enable X25519MLKEM768 as per draft-ietf-tls-ecdhe-mlkem (#13670)
+122:CHANGELOG.md:1100:- `configtls`: Allow users to mention their preferred curve types for ECDHE handshake (#12174)
+123:README.md:152:[{"critical":{"identity":{"docker-reference":"ghcr.io/open-telemetry/opentelemetry-collector-releases/opentelemetry-collector-contrib"},"image":{"docker-manifest-digest":"sha256:5cea85bcbc734a3c0a641368e5a4ea9d31b472997e9f2feca57eeb4a147fcf1a"},"type":"cosign container image signature"},"optional":{"1.3.6.1.4.1.57264.1.1":"https://token.actions.githubusercontent.com","1.3.6.1.4.1.57264.1.2":"push","1.3.6.1.4.1.57264.1.3":"9e20bf5c142e53070ccb8320a20315fffb41469e","1.3.6.1.4.1.57264.1.4":"Release Contrib","1.3.6.1.4.1.57264.1.5":"open-telemetry/opentelemetry-collector-releases","1.3.6.1.4.1.57264.1.6":"refs/tags/v0.98.0","Bundle":{"SignedEntryTimestamp":"MEUCIQDdlmNeKXQrHnonwWiHLhLLwFDVDNoOBCn2sv85J9P8mgIgDQFssWJImo1hn38VlojvSCL7Qq5FMmtnGu0oLsNdOm8=","Payload":{"body":"eyJhcGlWZXJzaW9uIjoiMC4wLjEiLCJraW5kIjoiaGFzaGVkcmVrb3JkIiwic3BlYyI6eyJkYXRhIjp7Imhhc2giOnsiYWxnb3JpdGhtIjoic2hhMjU2IiwidmFsdWUiOiIxMzVjY2RlN2YzZTNhYjU2NmFmYzJhYWU3MDljYmJlNmFhMDZlZWMzNDA2MWNkZjMyNmRhYzM2MmY0NWM4Yjg4In19LCJzaWduYXR1cmUiOnsiY29udGVudCI6Ik1FVUNJUURFbDV6N0diMWRVYkM5KzR4c1VvbDhMcWZNV2hiTzhkdEpwdExyMXhUNWZnSWdTdEwwN1I0ZDA5R2x0ZkV0azJVbmlJSlJhQVdrVDJNWDVtRXJNSlplc2pRPSIsInB1YmxpY0tleSI6eyJjb250ZW50IjoiTFMwdExTMUNSVWRKVGlCRFJWSlVTVVpKUTBGVVJTMHRMUzB0Q2sxSlNVaG9ha05EUW5jeVowRjNTVUpCWjBsVlNETkNjRFZTYlVSU1VpOXphMWg0YVdWUFlrcFhSbmRrUjNNNGQwTm5XVWxMYjFwSmVtb3dSVUYzVFhjS1RucEZWazFDVFVkQk1WVkZRMmhOVFdNeWJHNWpNMUoyWTIxVmRWcEhWakpOVWpSM1NFRlpSRlpSVVVSRmVGWjZZVmRrZW1SSE9YbGFVekZ3WW01U2JBcGpiVEZzV2tkc2FHUkhWWGRJYUdOT1RXcFJkMDVFUlhoTlJGRjRUMFJOTlZkb1kwNU5hbEYzVGtSRmVFMUVVWGxQUkUwMVYycEJRVTFHYTNkRmQxbElDa3R2V2tsNmFqQkRRVkZaU1V0dldrbDZhakJFUVZGalJGRm5RVVZyWlRsSE1ubHNjMjkzYVZZMmRFOVZSazlRVVhNd2NXY3hTSEV5WmpsVUx6UTJZbEFLU1ZSNE0ybFRkVXBhV0hGc1dEUldWV2Q1VlZndmNVazJhblZ2WlZSVEswaG5XVUoyYjBseVNERTFUeTltZEd0VmVtRlBRMEpwZDNkbloxbHZUVUUwUndwQk1WVmtSSGRGUWk5M1VVVkJkMGxJWjBSQlZFSm5UbFpJVTFWRlJFUkJTMEpuWjNKQ1owVkdRbEZqUkVGNlFXUkNaMDVXU0ZFMFJVWm5VVlZHTkRrMUNrdDFNRWhqTm5rek1rNUNTVTFFU21ReVpuWkxNMHBCZDBoM1dVUldVakJxUWtKbmQwWnZRVlV6T1ZCd2VqRlphMFZhWWpWeFRtcHdTMFpYYVhocE5Ga0tXa1E0ZDJkWldVZEJNVlZrUlZGRlFpOTNVamhOU0hGSFpVZG9NR1JJUW5wUGFUaDJXakpzTUdGSVZtbE1iVTUyWWxNNWRtTkhWblZNV0ZKc1lrZFdkQXBhV0ZKNVpWTTVkbU5IVm5Wa1IxWnpXbGN4YkdSSVNqVk1WMDUyWWtkNGJGa3pVblpqYVRGNVdsZDRiRmxZVG14amVUaDFXakpzTUdGSVZtbE1NMlIyQ21OdGRHMWlSemt6WTNrNWFWbFlUbXhNV0Vwc1lrZFdhR015VlhWbFYwWjBZa1ZDZVZwWFducE1NMUpvV2pOTmRtUnFRWFZQVkdkMVRVUkJOVUpuYjNJS1FtZEZSVUZaVHk5TlFVVkNRa04wYjJSSVVuZGplbTkyVEROU2RtRXlWblZNYlVacVpFZHNkbUp1VFhWYU1td3dZVWhXYVdSWVRteGpiVTUyWW01U2JBcGlibEYxV1RJNWRFMUNTVWREYVhOSFFWRlJRbWMzT0hkQlVVbEZRa2hDTVdNeVozZE9aMWxMUzNkWlFrSkJSMFIyZWtGQ1FYZFJiMDlYVlhsTlIwcHRDazVYVFhoT1JFcHNUbFJOZDA1NlFtcFpNa2swVFhwSmQxbFVTWGROZWtVeFdtMWFiVmxxVVhoT1JGazFXbFJCWkVKbmIzSkNaMFZGUVZsUEwwMUJSVVVLUWtFNVUxcFhlR3haV0U1c1NVVk9kbUp1VW5saFYwbDNVRkZaUzB0M1dVSkNRVWRFZG5wQlFrSlJVWFppTTBKc1lta3hNRnBYZUd4aVYxWXdZMjVyZGdwaU0wSnNZbTVTYkdKSFZuUmFXRko1WlZNeGFtSXllSE5hVjA0d1lqTkpkR050Vm5OYVYwWjZXbGhOZDBoM1dVdExkMWxDUWtGSFJIWjZRVUpDWjFGU0NtTnRWbTFqZVRrd1dWZGtla3d6V1hkTWFtczBUR3BCZDA5M1dVdExkMWxDUWtGSFJIWjZRVUpEUVZGMFJFTjBiMlJJVW5kamVtOTJURE5TZG1FeVZuVUtURzFHYW1SSGJIWmliazExV2pKc01HRklWbWxrV0U1c1kyMU9kbUp1VW14aWJsRjFXVEk1ZEUxSlIwbENaMjl5UW1kRlJVRlpUeTlOUVVWS1FraHZUUXBsUjJnd1pFaENlazlwT0haYU1td3dZVWhXYVV4dFRuWmlVemwyWTBkV2RVeFlVbXhpUjFaMFdsaFNlV1ZUT1haalIxWjFaRWRXYzFwWE1XeGtTRW8xQ2t4WFRuWmlSM2hzV1ROU2RtTnBNWGxhVjNoc1dWaE9iR041T0hWYU1td3dZVWhXYVV3elpIWmpiWFJ0WWtjNU0yTjVPV2xaV0U1c1RGaEtiR0pIVm1nS1l6SlZkV1ZYUm5SaVJVSjVXbGRhZWt3elVtaGFNMDEyWkdwQmRVOVVaM1ZOUkVFMFFtZHZja0puUlVWQldVOHZUVUZGUzBKRGIwMUxSR3hzVFdwQ2FRcGFhbFpxVFZSUmVWcFVWWHBOUkdOM1dUSk9hVTlFVFhsTlIwVjVUVVJOZUU1WFdtMWFiVWt3VFZSUk1rOVhWWGRJVVZsTFMzZFpRa0pCUjBSMmVrRkNDa04zVVZCRVFURnVZVmhTYjJSWFNYUmhSemw2WkVkV2EwMUdTVWREYVhOSFFWRlJRbWMzT0hkQlVYZEZVa0Y0UTJGSVVqQmpTRTAyVEhrNWJtRllVbThLWkZkSmRWa3lPWFJNTWpsM1dsYzBkR1JIVm5OYVZ6RnNaRWhLTlV3eU9YZGFWelV3V2xkNGJHSlhWakJqYm10MFdUSTVjMkpIVm1wa1J6bDVURmhLYkFwaVIxWm9ZekpXZWsxRVowZERhWE5IUVZGUlFtYzNPSGRCVVRCRlMyZDNiMDlYVlhsTlIwcHRUbGROZUU1RVNteE9WRTEzVG5wQ2Fsa3lTVFJOZWtsM0NsbFVTWGROZWtVeFdtMWFiVmxxVVhoT1JGazFXbFJCYUVKbmIzSkNaMFZGUVZsUEwwMUJSVTlDUWsxTlJWaEtiRnB1VFhaa1IwWnVZM2s1TWsxRE5EVUtUME0wZDAxQ2EwZERhWE5IUVZGUlFtYzNPSGRCVVRoRlEzZDNTazVFUVhkTmFsVjZUbXBqTWsxRVJVZERhWE5IUVZGUlFtYzNPSGRCVWtGRlNYZDNhQXBoU0ZJd1kwaE5Oa3g1T1c1aFdGSnZaRmRKZFZreU9YUk1NamwzV2xjMGRHUkhWbk5hVnpGc1pFaEtOVTFDWjBkRGFYTkhRVkZSUW1jM09IZEJVa1ZGQ2tObmQwbE9SR3MxVDFSbmQwMUVTWGRuV1hOSFEybHpSMEZSVVVKbk56aDNRVkpKUldaUmVEZGhTRkl3WTBoTk5reDVPVzVoV0ZKdlpGZEpkVmt5T1hRS1RESTVkMXBYTkhSa1IxWnpXbGN4YkdSSVNqVk1NamwzV2xjMU1GcFhlR3hpVjFZd1kyNXJkRmt5T1hOaVIxWnFaRWM1ZVV4WVNteGlSMVpvWXpKV2VncE1lVFZ1WVZoU2IyUlhTWFprTWpsNVlUSmFjMkl6WkhwTU0wcHNZa2RXYUdNeVZYUlpNamwxWkVoS2NGbHBOVFZaVnpGelVVaEtiRnB1VFhaa1IwWnVDbU41T1RKTlF6UTFUME0wZDAxRVowZERhWE5IUVZGUlFtYzNPSGRCVWsxRlMyZDNiMDlYVlhsTlIwcHRUbGROZUU1RVNteE9WRTEzVG5wQ2Fsa3lTVFFLVFhwSmQxbFVTWGROZWtVeFdtMWFiVmxxVVhoT1JGazFXbFJCVlVKbmIzSkNaMFZGUVZsUEwwMUJSVlZDUVZsTlFraENNV015WjNka1VWbExTM2RaUWdwQ1FVZEVkbnBCUWtaUlVtNUVSMVp2WkVoU2QyTjZiM1pNTW1Sd1pFZG9NVmxwTldwaU1qQjJZak5DYkdKcE1UQmFWM2hzWWxkV01HTnVhM1ppTTBKc0NtSnVVbXhpUjFaMFdsaFNlV1ZUTVdwaU1uaHpXbGRPTUdJelNYUmpiVlp6V2xkR2VscFlUWFpaVjA0d1lWYzVkV041T1hsa1Z6VjZUSHBuTWs1RVJYZ0tUbnBGTVU1cVkzWlpXRkl3V2xjeGQyUklUWFpOYWtGWFFtZHZja0puUlVWQldVOHZUVUZGVjBKQlowMUNia0l4V1cxNGNGbDZRMEpwWjFsTFMzZFpRZ3BDUVVoWFpWRkpSVUZuVWpoQ1NHOUJaVUZDTWtGT01EbE5SM0pIZUhoRmVWbDRhMlZJU214dVRuZExhVk5zTmpRemFubDBMelJsUzJOdlFYWkxaVFpQQ2tGQlFVSnFjM1JvUlVOUlFVRkJVVVJCUldOM1VsRkpaMWg2Y2xaME0xQjRkU3ROWVZKRkswUkdORzlGUldNMGVucHphSGR1VDJ4bGMwZGlla2xwYnpNS0wxWmpRMGxSUkZNelJ6QmlNemRhYUhRNGFITjJUSEozYkc1UFFXYzJWRXh1U1ZSS09HTjNkMVEzTW5sMVRVdFlUbFJCUzBKblozRm9hMnBQVUZGUlJBcEJkMDV1UVVSQ2EwRnFRWGxFUkZSYVFqQlRPVXBGYkZsSGJuTnZWVmhLYm04MU5Fc3ZUVUZUTlN0RFFVMU9lbWRqUWpWQ2JrRk5OMWhNUjBoV01HRnhDbVpaY21weFkyOXFia3RaUTAxSFRWRnFjalpUVGt0Q2NVaEtZVGwxTDBSTlQySlpNa0pKTVV0ME4yTnhOemhFT0VOcVMzQmFVblJoYnpadFVVMUVZMk1LUms5M2VYWnhWalJPVld0dlpsRTlQUW90TFMwdExVVk9SQ0JEUlZKVVNVWkpRMEZVUlMwdExTMHRDZz09In19fX0=","integratedTime":1712809120,"logIndex":84797936,"logID":"c0d23d6ad406973f9559f3ba2d1ca01f84147d8ffc5b8445c224f98b9591801d"}},"Issuer":"https://token.actions.githubusercontent.com","Subject":"https://github.com/open-telemetry/opentelemetry-collector-releases/.github/workflows/base-release.yaml@refs/tags/v0.98.0","githubWorkflowName":"Release Contrib","githubWorkflowRef":"refs/tags/v0.98.0","githubWorkflowRepository":"open-telemetry/opentelemetry-collector-releases","githubWorkflowSha":"9e20bf5c142e53070ccb8320a20315fffb41469e","githubWorkflowTrigger":"push"}},{"critical":{"identity":{"docker-reference":"ghcr.io/open-telemetry/opentelemetry-collector-releases/opentelemetry-collector-contrib"},"image":{"docker-manifest-digest":"sha256:5cea85bcbc734a3c0a641368e5a4ea9d31b472997e9f2feca57eeb4a147fcf1a"},"type":"cosign container image signature"},"optional":{"1.3.6.1.4.1.57264.1.1":"https://token.actions.githubusercontent.com","1.3.6.1.4.1.57264.1.2":"push","1.3.6.1.4.1.57264.1.3":"9e20bf5c142e53070ccb8320a20315fffb41469e","1.3.6.1.4.1.57264.1.4":"Release Contrib","1.3.6.1.4.1.57264.1.5":"open-telemetry/opentelemetry-collector-releases","1.3.6.1.4.1.57264.1.6":"refs/tags/v0.98.0","Bundle":{"SignedEntryTimestamp":"MEUCIQD1ehDnPO6fzoPIpeQ3KFuYHHBiX7RcEbpo9B2r7JAlzwIgZ1bsuQz7gAXbNU1IEdsTQgfAnRk3xVXO16GnKXM2sAQ=","Payload":{"body":"eyJhcGlWZXJzaW9uIjoiMC4wLjEiLCJraW5kIjoiaGFzaGVkcmVrb3JkIiwic3BlYyI6eyJkYXRhIjp7Imhhc2giOnsiYWxnb3JpdGhtIjoic2hhMjU2IiwidmFsdWUiOiIxMzVjY2RlN2YzZTNhYjU2NmFmYzJhYWU3MDljYmJlNmFhMDZlZWMzNDA2MWNkZjMyNmRhYzM2MmY0NWM4Yjg4In19LCJzaWduYXR1cmUiOnsiY29udGVudCI6Ik1FUUNJRU92QXl0aE5RVGNvNHFMdG9GZUVOV0toNCtEK2I5SUxyYWhoa09WMmVBM0FpQjNEL2FpUGd1T05zUlB5alhaWk1hdnlCam0vMkVxNFNUMkZJWHozTnpyYWc9PSIsInB1YmxpY0tleSI6eyJjb250ZW50IjoiTFMwdExTMUNSVWRKVGlCRFJWSlVTVVpKUTBGVVJTMHRMUzB0Q2sxSlNVaHBSRU5EUW5jMlowRjNTVUpCWjBsVlZuRlRLMnd4WXpoMWVFUktOWEppZDAxMlVuaDBSR3hXVW1nMGQwTm5XVWxMYjFwSmVtb3dSVUYzVFhjS1RucEZWazFDVFVkQk1WVkZRMmhOVFdNeWJHNWpNMUoyWTIxVmRWcEhWakpOVWpSM1NFRlpSRlpSVVVSRmVGWjZZVmRrZW1SSE9YbGFVekZ3WW01U2JBcGpiVEZzV2tkc2FHUkhWWGRJYUdOT1RXcFJkMDVFUlhoTlJGRjRUMFJSZVZkb1kwNU5hbEYzVGtSRmVFMUVVWGxQUkZGNVYycEJRVTFHYTNkRmQxbElDa3R2V2tsNmFqQkRRVkZaU1V0dldrbDZhakJFUVZGalJGRm5RVVYyWlRCdGJrRkdRVzl1TVZoUGRIVlRMMXBNT0djeE5YUlJkVmxPTmtRemVUUlBWM0FLT1ZSTFMwUlVkRkJHU2xST1ZrWlJkVTlKUWs1bVJqWk1ORTlGYkd4dlZuUndaSE5uYjB0NVZGTnlPR3hTV1c1S1JIRlBRMEpwTUhkbloxbHdUVUUwUndwQk1WVmtSSGRGUWk5M1VVVkJkMGxJWjBSQlZFSm5UbFpJVTFWRlJFUkJTMEpuWjNKQ1owVkdRbEZqUkVGNlFXUkNaMDVXU0ZFMFJVWm5VVlZDSzFkSENuVmtlRE5IZUcxS1RWUkpUVVJyYW13clJtdzFXRzkzZDBoM1dVUldVakJxUWtKbmQwWnZRVlV6T1ZCd2VqRlphMFZhWWpWeFRtcHdTMFpYYVhocE5Ga0tXa1E0ZDJkWldVZEJNVlZrUlZGRlFpOTNVamhOU0hGSFpVZG9NR1JJUW5wUGFUaDJXakpzTUdGSVZtbE1iVTUyWWxNNWRtTkhWblZNV0ZKc1lrZFdkQXBhV0ZKNVpWTTVkbU5IVm5Wa1IxWnpXbGN4YkdSSVNqVk1WMDUyWWtkNGJGa3pVblpqYVRGNVdsZDRiRmxZVG14amVUaDFXakpzTUdGSVZtbE1NMlIyQ21OdGRHMWlSemt6WTNrNWFWbFlUbXhNV0Vwc1lrZFdhR015VlhWbFYwWjBZa1ZDZVZwWFducE1NMUpvV2pOTmRtUnFRWFZQVkdkMVRVUkJOVUpuYjNJS1FtZEZSVUZaVHk5TlFVVkNRa04wYjJSSVVuZGplbTkyVEROU2RtRXlWblZNYlVacVpFZHNkbUp1VFhWYU1td3dZVWhXYVdSWVRteGpiVTUyWW01U2JBcGlibEYxV1RJNWRFMUNTVWREYVhOSFFWRlJRbWMzT0hkQlVVbEZRa2hDTVdNeVozZE9aMWxMUzNkWlFrSkJSMFIyZWtGQ1FYZFJiMDlYVlhsTlIwcHRDazVYVFhoT1JFcHNUbFJOZDA1NlFtcFpNa2swVFhwSmQxbFVTWGROZWtVeFdtMWFiVmxxVVhoT1JGazFXbFJCWkVKbmIzSkNaMFZGUVZsUEwwMUJSVVVLUWtFNVUxcFhlR3haV0U1c1NVVk9kbUp1VW5saFYwbDNVRkZaUzB0M1dVSkNRVWRFZG5wQlFrSlJVWFppTTBKc1lta3hNRnBYZUd4aVYxWXdZMjVyZGdwaU0wSnNZbTVTYkdKSFZuUmFXRko1WlZNeGFtSXllSE5hVjA0d1lqTkpkR050Vm5OYVYwWjZXbGhOZDBoM1dVdExkMWxDUWtGSFJIWjZRVUpDWjFGU0NtTnRWbTFqZVRrd1dWZGtla3d6V1hkTWFtczBUR3BCZDA5M1dVdExkMWxDUWtGSFJIWjZRVUpEUVZGMFJFTjBiMlJJVW5kamVtOTJURE5TZG1FeVZuVUtURzFHYW1SSGJIWmliazExV2pKc01HRklWbWxrV0U1c1kyMU9kbUp1VW14aWJsRjFXVEk1ZEUxSlIwbENaMjl5UW1kRlJVRlpUeTlOUVVWS1FraHZUUXBsUjJnd1pFaENlazlwT0haYU1td3dZVWhXYVV4dFRuWmlVemwyWTBkV2RVeFlVbXhpUjFaMFdsaFNlV1ZUT1haalIxWjFaRWRXYzFwWE1XeGtTRW8xQ2t4WFRuWmlSM2hzV1ROU2RtTnBNWGxhVjNoc1dWaE9iR041T0hWYU1td3dZVWhXYVV3elpIWmpiWFJ0WWtjNU0yTjVPV2xaV0U1c1RGaEtiR0pIVm1nS1l6SlZkV1ZYUm5SaVJVSjVXbGRhZWt3elVtaGFNMDEyWkdwQmRVOVVaM1ZOUkVFMFFtZHZja0puUlVWQldVOHZUVUZGUzBKRGIwMUxSR3hzVFdwQ2FRcGFhbFpxVFZSUmVWcFVWWHBOUkdOM1dUSk9hVTlFVFhsTlIwVjVUVVJOZUU1WFdtMWFiVWt3VFZSUk1rOVhWWGRJVVZsTFMzZFpRa0pCUjBSMmVrRkNDa04zVVZCRVFURnVZVmhTYjJSWFNYUmhSemw2WkVkV2EwMUdTVWREYVhOSFFWRlJRbWMzT0hkQlVYZEZVa0Y0UTJGSVVqQmpTRTAyVEhrNWJtRllVbThLWkZkSmRWa3lPWFJNTWpsM1dsYzBkR1JIVm5OYVZ6RnNaRWhLTlV3eU9YZGFWelV3V2xkNGJHSlhWakJqYm10MFdUSTVjMkpIVm1wa1J6bDVURmhLYkFwaVIxWm9ZekpXZWsxRVowZERhWE5IUVZGUlFtYzNPSGRCVVRCRlMyZDNiMDlYVlhsTlIwcHRUbGROZUU1RVNteE9WRTEzVG5wQ2Fsa3lTVFJOZWtsM0NsbFVTWGROZWtVeFdtMWFiVmxxVVhoT1JGazFXbFJCYUVKbmIzSkNaMFZGUVZsUEwwMUJSVTlDUWsxTlJWaEtiRnB1VFhaa1IwWnVZM2s1TWsxRE5EVUtUME0wZDAxQ2EwZERhWE5IUVZGUlFtYzNPSGRCVVRoRlEzZDNTazVFUVhkTmFsVjZUbXBqTWsxRVJVZERhWE5IUVZGUlFtYzNPSGRCVWtGRlNYZDNhQXBoU0ZJd1kwaE5Oa3g1T1c1aFdGSnZaRmRKZFZreU9YUk1NamwzV2xjMGRHUkhWbk5hVnpGc1pFaEtOVTFDWjBkRGFYTkhRVkZSUW1jM09IZEJVa1ZGQ2tObmQwbE9SR3MxVDFSbmQwMUVTWGRuV1hOSFEybHpSMEZSVVVKbk56aDNRVkpKUldaUmVEZGhTRkl3WTBoTk5reDVPVzVoV0ZKdlpGZEpkVmt5T1hRS1RESTVkMXBYTkhSa1IxWnpXbGN4YkdSSVNqVk1NamwzV2xjMU1GcFhlR3hpVjFZd1kyNXJkRmt5T1hOaVIxWnFaRWM1ZVV4WVNteGlSMVpvWXpKV2VncE1lVFZ1WVZoU2IyUlhTWFprTWpsNVlUSmFjMkl6WkhwTU0wcHNZa2RXYUdNeVZYUlpNamwxWkVoS2NGbHBOVFZaVnpGelVVaEtiRnB1VFhaa1IwWnVDbU41T1RKTlF6UTFUME0wZDAxRVowZERhWE5IUVZGUlFtYzNPSGRCVWsxRlMyZDNiMDlYVlhsTlIwcHRUbGROZUU1RVNteE9WRTEzVG5wQ2Fsa3lTVFFLVFhwSmQxbFVTWGROZWtVeFdtMWFiVmxxVVhoT1JGazFXbFJCVlVKbmIzSkNaMFZGUVZsUEwwMUJSVlZDUVZsTlFraENNV015WjNka1VWbExTM2RaUWdwQ1FVZEVkbnBCUWtaUlVtNUVSMVp2WkVoU2QyTjZiM1pNTW1Sd1pFZG9NVmxwTldwaU1qQjJZak5DYkdKcE1UQmFWM2hzWWxkV01HTnVhM1ppTTBKc0NtSnVVbXhpUjFaMFdsaFNlV1ZUTVdwaU1uaHpXbGRPTUdJelNYUmpiVlp6V2xkR2VscFlUWFpaVjA0d1lWYzVkV041T1hsa1Z6VjZUSHBuTWs1RVJYZ0tUbnBGTVU1cVkzWlpXRkl3V2xjeGQyUklUWFpOYWtGWFFtZHZja0puUlVWQldVOHZUVUZGVjBKQlowMUNia0l4V1cxNGNGbDZRMEpwZDFsTFMzZFpRZ3BDUVVoWFpWRkpSVUZuVWpsQ1NITkJaVkZDTTBGT01EbE5SM0pIZUhoRmVWbDRhMlZJU214dVRuZExhVk5zTmpRemFubDBMelJsUzJOdlFYWkxaVFpQQ2tGQlFVSnFjM1JvUjJKSlFVRkJVVVJCUldkM1VtZEphRUZQZUZNM2RteDRjVzVGYTBKVVRtSlZVRUpsUkZSbk0waGtlRlkyY0cxWk9FdGliREV6TjNBS1lWUnViMEZwUlVFelMyMUxVbU5uYWxBeVQzSmxORVpyVm5vNU4xaENNWGRsUzBOeWFXazFTMWx2UTB0bVkxRktSREJSZDBObldVbExiMXBKZW1vd1JRcEJkMDFFWVVGQmQxcFJTWGhCUzNwcVpHMUZTV2gzV21Kb1lVSlNlalk1Y1N0MWVrNVZSMmxhYlRWVk4xcE5aWFJMUTFSM1VFTkljRkZQVldvdlVERkJDa2R0YWt3elJucFFObTVpYkRGblNYZFNUbXN6UkhkNWMwOUJUMHhoUVVoR09IaHhZV0ZzT0U5WGNGRmFhRGh4TTJVMVNVSmFXR0ZWVkhocFlWbGFTM29LUXpWS1RGVlNWbnBMTURsd04wVjBUd290TFMwdExVVk9SQ0JEUlZKVVNVWkpRMEZVUlMwdExTMHRDZz09In19fX0=","integratedTime":1712809122,"logIndex":84797940,"logID":"c0d23d6ad406973f9559f3ba2d1ca01f84147d8ffc5b8445c224f98b9591801d"}},"Issuer":"https://token.actions.githubusercontent.com","Subject":"https://github.com/open-telemetry/opentelemetry-collector-releases/.github/workflows/base-release.yaml@refs/tags/v0.98.0","githubWorkflowName":"Release Contrib","githubWorkflowRef":"refs/tags/v0.98.0","githubWorkflowRepository":"open-telemetry/opentelemetry-collector-releases","githubWorkflowSha":"9e20bf5c142e53070ccb8320a20315fffb41469e","githubWorkflowTrigger":"push"}}]
+124:client/go.sum:31:go.opentelemetry.io/proto/slim/otlp/profiles/v1development v0.3.0 h1:CQvJSldHRUN6Z8jsUeYv8J0lXRvygALXIzsmAeCcZE0=
+125:cmd/builder/go.sum:17:github.com/knadh/koanf/providers/file v1.2.1 h1:bEWbtQwYrA+W2DtdBrQWyXqJaJSG3KrP3AESOJYp9wM=
+126:cmd/builder/internal/builder/main_test.go:243:			// X25519 curves are not supported when GODEBUG=fips140=only is set, so we
+127:cmd/mdatagen/go.sum:101:go.opentelemetry.io/proto/slim/otlp/profiles/v1development v0.3.0 h1:CQvJSldHRUN6Z8jsUeYv8J0lXRvygALXIzsmAeCcZE0=
+128:cmd/mdatagen/internal/command_test.go:1269:func TestGenerateConfigGoStruct_BothFileErrorsAccumulated(t *testing.T) {
+129:cmd/mdatagen/internal/metadata_test.go:255:				Type: "aes",
+131:cmd/mdatagen/internal/samplescraper/config.schema.json:754:                        "description": "contains the elliptic curves that will be used in an ECDHE handshake, in preference order Defaults to empty list and \"crypto/tls\" defaults are used, internally.",
+135:cmd/otelcorecol/go.sum:183:go.opentelemetry.io/proto/slim/otlp/profiles/v1development v0.3.0 h1:CQvJSldHRUN6Z8jsUeYv8J0lXRvygALXIzsmAeCcZE0=
+136:component/componentstatus/go.sum:47:go.opentelemetry.io/proto/slim/otlp/profiles/v1development v0.3.0 h1:CQvJSldHRUN6Z8jsUeYv8J0lXRvygALXIzsmAeCcZE0=
+137:component/componenttest/go.sum:54:go.opentelemetry.io/proto/slim/otlp/profiles/v1development v0.3.0 h1:CQvJSldHRUN6Z8jsUeYv8J0lXRvygALXIzsmAeCcZE0=
+138:component/go.sum:47:go.opentelemetry.io/proto/slim/otlp/profiles/v1development v0.3.0 h1:CQvJSldHRUN6Z8jsUeYv8J0lXRvygALXIzsmAeCcZE0=
+139:component/identifiable_test.go:273:		{name: "solarwindsapmsettings"},
+140:config/configauth/go.sum:47:go.opentelemetry.io/proto/slim/otlp/profiles/v1development v0.3.0 h1:CQvJSldHRUN6Z8jsUeYv8J0lXRvygALXIzsmAeCcZE0=
+141:config/configgrpc/go.sum:86:go.opentelemetry.io/proto/slim/otlp/profiles/v1development v0.3.0 h1:CQvJSldHRUN6Z8jsUeYv8J0lXRvygALXIzsmAeCcZE0=
+142:config/configgrpc/testdata/client.key:1:-----BEGIN RSA PRIVATE KEY-----
+143:config/configgrpc/testdata/client.key:27:-----END RSA PRIVATE KEY-----
+144:config/configgrpc/testdata/server.key:1:-----BEGIN RSA PRIVATE KEY-----
+145:config/configgrpc/testdata/server.key:27:-----END RSA PRIVATE KEY-----
+146:config/confighttp/go.sum:90:go.opentelemetry.io/proto/slim/otlp/profiles/v1development v0.3.0 h1:CQvJSldHRUN6Z8jsUeYv8J0lXRvygALXIzsmAeCcZE0=
+147:config/confighttp/testdata/client.key:1:-----BEGIN RSA PRIVATE KEY-----
+148:config/confighttp/testdata/client.key:27:-----END RSA PRIVATE KEY-----
+149:config/confighttp/testdata/server.key:1:-----BEGIN RSA PRIVATE KEY-----
+150:config/confighttp/testdata/server.key:15:HI2IaD42+OJY5RdRfS7cvczIFrW9XECCTkhr08CxZTO7W7VCP0OnpPMCgYEAzWGQ
+151:config/confighttp/testdata/server.key:27:-----END RSA PRIVATE KEY-----
+152:config/confighttp/xconfighttp/go.sum:90:go.opentelemetry.io/proto/slim/otlp/profiles/v1development v0.3.0 h1:CQvJSldHRUN6Z8jsUeYv8J0lXRvygALXIzsmAeCcZE0=
+153:config/configmiddleware/go.sum:55:go.opentelemetry.io/proto/slim/otlp/profiles/v1development v0.3.0 h1:CQvJSldHRUN6Z8jsUeYv8J0lXRvygALXIzsmAeCcZE0=
+154:config/configtls/README.md:18:  be used in an ECDHE handshake, in preference order. Accepted values are:
+155:config/configtls/README.md:19:  - X25519
+156:config/configtls/README.md:69:    - TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+157:config/configtls/README.md:70:    - TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384
+158:config/configtls/README.md:71:    - TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256
+159:config/configtls/config.schema.yaml:39:        description: contains the elliptic curves that will be used in an ECDHE handshake, in preference order Defaults to empty list and "crypto/tls" defaults are used, internally.
+160:config/configtls/configtls.go:77:	// an ECDHE handshake, in preference order
+161:config/configtls/configtls_test.go:709:				CipherSuites: []string{"TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA"},
+162:config/configtls/configtls_test.go:711:			result: []uint16{tls.TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA},
+163:config/configtls/configtls_test.go:917:	// X25519 curves are not supported when GODEBUG=fips140=only is set, so we
+164:config/configtls/configtls_test.go:922:				name:             "X25519MLKEM768",
+165:config/configtls/configtls_test.go:923:				preferences:      []string{"X25519MLKEM768"},
+166:config/configtls/configtls_test.go:924:				expectedCurveIDs: []tls.CurveID{tls.X25519MLKEM768},
+167:config/configtls/configtls_test.go:927:				name:             "X25519",
+168:config/configtls/configtls_test.go:928:				preferences:      []string{"X25519"},
+169:config/configtls/configtls_test.go:929:				expectedCurveIDs: []tls.CurveID{tls.X25519},
+170:config/configtls/curves_fips.go:15:	// The following X25519 curves are not available in FIPS mode, so we remove them from the map.
+171:config/configtls/curves_fips.go:16:	// See also https://cs.opensource.google/go/go/+/refs/tags/go1.24.6:src/crypto/ecdh/x25519.go
+172:config/configtls/curves_fips.go:17:	//"X25519": tls.X25519,
+173:config/configtls/curves_fips.go:18:	//"X25519MLKEM768": tls.X25519MLKEM768,
+174:config/configtls/curves_nofips.go:14:	"X25519":         tls.X25519,
+175:config/configtls/curves_nofips.go:15:	"X25519MLKEM768": tls.X25519MLKEM768,
+176:config/configtls/testdata/client-1.key:1:-----BEGIN RSA PRIVATE KEY-----
+177:config/configtls/testdata/client-1.key:27:-----END RSA PRIVATE KEY-----
+178:config/configtls/testdata/client-2.key:1:-----BEGIN RSA PRIVATE KEY-----
+179:config/configtls/testdata/client-2.key:27:-----END RSA PRIVATE KEY-----
+180:config/configtls/testdata/server-1.key:1:-----BEGIN RSA PRIVATE KEY-----
+181:config/configtls/testdata/server-1.key:27:-----END RSA PRIVATE KEY-----
+182:config/configtls/testdata/server-2.key:1:-----BEGIN RSA PRIVATE KEY-----
+183:config/configtls/testdata/server-2.key:27:-----END RSA PRIVATE KEY-----
+184:config/configtls/tpm_test.go:73:	h := crypto.SHA256.New()
+185:config/configtls/tpm_test.go:79:	signature, _ := signer.Sign(io.Reader(nil), b, crypto.SHA256)
+186:config/configtls/tpm_test.go:84:	ok, err := loadedTPMKey.Verify(crypto.SHA256, b, signature)
+187:config/configtls/tpm_test.go:195:	tpmKey, err := keyfile.NewLoadableKey(tpm, tpm2.TPMAlgECC, 256, []byte(""))
+188:confmap/provider/internal/configurablehttpprovider/provider_test.go:9:	"crypto/rsa"
+189:confmap/provider/internal/configurablehttpprovider/provider_test.go:56:	priv, err := rsa.GenerateKey(rand.Reader, 2048)
+190:connector/connectortest/go.sum:54:go.opentelemetry.io/proto/slim/otlp/profiles/v1development v0.3.0 h1:CQvJSldHRUN6Z8jsUeYv8J0lXRvygALXIzsmAeCcZE0=
+191:connector/forwardconnector/go.sum:68:go.opentelemetry.io/proto/slim/otlp/profiles/v1development v0.3.0 h1:CQvJSldHRUN6Z8jsUeYv8J0lXRvygALXIzsmAeCcZE0=
+192:connector/go.sum:47:go.opentelemetry.io/proto/slim/otlp/profiles/v1development v0.3.0 h1:CQvJSldHRUN6Z8jsUeYv8J0lXRvygALXIzsmAeCcZE0=
+193:connector/xconnector/go.sum:47:go.opentelemetry.io/proto/slim/otlp/profiles/v1development v0.3.0 h1:CQvJSldHRUN6Z8jsUeYv8J0lXRvygALXIzsmAeCcZE0=
+194:consumer/consumererror/go.sum:40:go.opentelemetry.io/proto/slim/otlp/profiles/v1development v0.3.0 h1:CQvJSldHRUN6Z8jsUeYv8J0lXRvygALXIzsmAeCcZE0=
+195:consumer/consumererror/xconsumererror/go.sum:35:go.opentelemetry.io/proto/slim/otlp/profiles/v1development v0.3.0 h1:CQvJSldHRUN6Z8jsUeYv8J0lXRvygALXIzsmAeCcZE0=
+196:consumer/consumertest/go.sum:35:go.opentelemetry.io/proto/slim/otlp/profiles/v1development v0.3.0 h1:CQvJSldHRUN6Z8jsUeYv8J0lXRvygALXIzsmAeCcZE0=
+197:consumer/go.sum:32:go.opentelemetry.io/proto/slim/otlp/profiles/v1development v0.3.0 h1:CQvJSldHRUN6Z8jsUeYv8J0lXRvygALXIzsmAeCcZE0=
+198:consumer/xconsumer/go.sum:35:go.opentelemetry.io/proto/slim/otlp/profiles/v1development v0.3.0 h1:CQvJSldHRUN6Z8jsUeYv8J0lXRvygALXIzsmAeCcZE0=
+204:exporter/debugexporter/go.sum:74:go.opentelemetry.io/proto/slim/otlp/profiles/v1development v0.3.0 h1:CQvJSldHRUN6Z8jsUeYv8J0lXRvygALXIzsmAeCcZE0=
+205:exporter/exporterhelper/go.sum:74:go.opentelemetry.io/proto/slim/otlp/profiles/v1development v0.3.0 h1:CQvJSldHRUN6Z8jsUeYv8J0lXRvygALXIzsmAeCcZE0=
+206:exporter/exporterhelper/xexporterhelper/go.sum:74:go.opentelemetry.io/proto/slim/otlp/profiles/v1development v0.3.0 h1:CQvJSldHRUN6Z8jsUeYv8J0lXRvygALXIzsmAeCcZE0=
+207:exporter/exporterhelper/xexporterhelper/profiles_test.go:376:		failedToSendSampleRecords := int64(0)
+208:exporter/exporterhelper/xexporterhelper/profiles_test.go:379:			failedToSendSampleRecords = 1
+209:exporter/exporterhelper/xexporterhelper/profiles_test.go:382:		require.Containsf(t, sd.Attributes(), attribute.KeyValue{Key: internal.ItemsFailed, Value: attribute.Int64Value(failedToSendSampleRecords)}, "SpanData %v", sd)
+210:exporter/exportertest/go.sum:74:go.opentelemetry.io/proto/slim/otlp/profiles/v1development v0.3.0 h1:CQvJSldHRUN6Z8jsUeYv8J0lXRvygALXIzsmAeCcZE0=
+211:exporter/go.sum:73:go.opentelemetry.io/proto/slim/otlp/profiles/v1development v0.3.0 h1:CQvJSldHRUN6Z8jsUeYv8J0lXRvygALXIzsmAeCcZE0=
+212:exporter/nopexporter/go.sum:74:go.opentelemetry.io/proto/slim/otlp/profiles/v1development v0.3.0 h1:CQvJSldHRUN6Z8jsUeYv8J0lXRvygALXIzsmAeCcZE0=
+213:exporter/otlpexporter/go.sum:90:go.opentelemetry.io/proto/slim/otlp/profiles/v1development v0.3.0 h1:CQvJSldHRUN6Z8jsUeYv8J0lXRvygALXIzsmAeCcZE0=
+214:exporter/otlphttpexporter/go.sum:94:go.opentelemetry.io/proto/slim/otlp/profiles/v1development v0.3.0 h1:CQvJSldHRUN6Z8jsUeYv8J0lXRvygALXIzsmAeCcZE0=
+215:exporter/xexporter/go.sum:65:go.opentelemetry.io/proto/slim/otlp/profiles/v1development v0.3.0 h1:CQvJSldHRUN6Z8jsUeYv8J0lXRvygALXIzsmAeCcZE0=
+216:extension/extensionauth/extensionauthtest/go.sum:47:go.opentelemetry.io/proto/slim/otlp/profiles/v1development v0.3.0 h1:CQvJSldHRUN6Z8jsUeYv8J0lXRvygALXIzsmAeCcZE0=
+217:extension/extensioncapabilities/go.sum:61:go.opentelemetry.io/proto/slim/otlp/profiles/v1development v0.3.0 h1:CQvJSldHRUN6Z8jsUeYv8J0lXRvygALXIzsmAeCcZE0=
+218:extension/extensionmiddleware/extensionmiddlewaretest/go.sum:55:go.opentelemetry.io/proto/slim/otlp/profiles/v1development v0.3.0 h1:CQvJSldHRUN6Z8jsUeYv8J0lXRvygALXIzsmAeCcZE0=
+219:extension/extensiontest/go.sum:54:go.opentelemetry.io/proto/slim/otlp/profiles/v1development v0.3.0 h1:CQvJSldHRUN6Z8jsUeYv8J0lXRvygALXIzsmAeCcZE0=
+220:extension/go.sum:47:go.opentelemetry.io/proto/slim/otlp/profiles/v1development v0.3.0 h1:CQvJSldHRUN6Z8jsUeYv8J0lXRvygALXIzsmAeCcZE0=
+221:extension/memorylimiterextension/go.sum:86:go.opentelemetry.io/proto/slim/otlp/profiles/v1development v0.3.0 h1:CQvJSldHRUN6Z8jsUeYv8J0lXRvygALXIzsmAeCcZE0=
+222:extension/xextension/go.sum:54:go.opentelemetry.io/proto/slim/otlp/profiles/v1development v0.3.0 h1:CQvJSldHRUN6Z8jsUeYv8J0lXRvygALXIzsmAeCcZE0=
+223:extension/zpagesextension/go.sum:92:go.opentelemetry.io/proto/slim/otlp/profiles/v1development v0.3.0 h1:CQvJSldHRUN6Z8jsUeYv8J0lXRvygALXIzsmAeCcZE0=
+224:internal/buildscripts/gen-certs.sh:90:openssl genrsa -out "$tmp_dir/ca${suffix}.key"  2048
+225:internal/buildscripts/gen-certs.sh:94:openssl genrsa -out "$tmp_dir/server${suffix}.key" 2048
+226:internal/buildscripts/gen-certs.sh:95:openssl genrsa -out "$tmp_dir/client${suffix}.key" 2048
+227:internal/buildscripts/gen-certs.sh:103:             -sha256 \
+228:internal/buildscripts/gen-certs.sh:113:             -sha256 \
+229:internal/cmd/pdatagen/go.sum:2:github.com/ettle/strcase v0.2.0/go.mod h1:DajmHElDSaX76ITe3/VHVyMin4LWSJN5Z909Wp+ED1A=
+230:internal/componentalias/go.sum:47:go.opentelemetry.io/proto/slim/otlp/profiles/v1development v0.3.0 h1:CQvJSldHRUN6Z8jsUeYv8J0lXRvygALXIzsmAeCcZE0=
+231:internal/e2e/go.sum:183:go.opentelemetry.io/proto/slim/otlp/profiles/v1development v0.3.0 h1:CQvJSldHRUN6Z8jsUeYv8J0lXRvygALXIzsmAeCcZE0=
+232:internal/fanoutconsumer/go.sum:35:go.opentelemetry.io/proto/slim/otlp/profiles/v1development v0.3.0 h1:CQvJSldHRUN6Z8jsUeYv8J0lXRvygALXIzsmAeCcZE0=
+233:internal/memorylimiter/go.sum:77:go.opentelemetry.io/proto/slim/otlp/profiles/v1development v0.3.0 h1:CQvJSldHRUN6Z8jsUeYv8J0lXRvygALXIzsmAeCcZE0=
+234:internal/sharedcomponent/go.sum:54:go.opentelemetry.io/proto/slim/otlp/profiles/v1development v0.3.0 h1:CQvJSldHRUN6Z8jsUeYv8J0lXRvygALXIzsmAeCcZE0=
+235:internal/telemetry/go.sum:47:go.opentelemetry.io/proto/slim/otlp/profiles/v1development v0.3.0 h1:CQvJSldHRUN6Z8jsUeYv8J0lXRvygALXIzsmAeCcZE0=
+236:internal/tools/go.sum:151:github.com/ettle/strcase v0.2.0/go.mod h1:DajmHElDSaX76ITe3/VHVyMin4LWSJN5Z909Wp+ED1A=
+237:internal/tools/go.sum:653:golang.org/x/sys v0.0.0-20210330210617-4fbd30eecc44/go.mod h1:h1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=
+238:otelcol/go.sum:171:go.opentelemetry.io/proto/slim/otlp/profiles/v1development v0.3.0 h1:CQvJSldHRUN6Z8jsUeYv8J0lXRvygALXIzsmAeCcZE0=
+239:otelcol/otelcoltest/go.sum:171:go.opentelemetry.io/proto/slim/otlp/profiles/v1development v0.3.0 h1:CQvJSldHRUN6Z8jsUeYv8J0lXRvygALXIzsmAeCcZE0=
+240:pdata/go.sum:55:go.opentelemetry.io/proto/slim/otlp/profiles/v1development v0.3.0 h1:CQvJSldHRUN6Z8jsUeYv8J0lXRvygALXIzsmAeCcZE0=
+243:pdata/pprofile/go.sum:55:go.opentelemetry.io/proto/slim/otlp/profiles/v1development v0.3.0 h1:CQvJSldHRUN6Z8jsUeYv8J0lXRvygALXIzsmAeCcZE0=
+246:pdata/testdata/go.sum:29:go.opentelemetry.io/proto/slim/otlp/profiles/v1development v0.3.0 h1:CQvJSldHRUN6Z8jsUeYv8J0lXRvygALXIzsmAeCcZE0=
+247:pdata/xpdata/go.sum:39:go.opentelemetry.io/proto/slim/otlp/profiles/v1development v0.3.0 h1:CQvJSldHRUN6Z8jsUeYv8J0lXRvygALXIzsmAeCcZE0=
+248:processor/batchprocessor/go.sum:70:go.opentelemetry.io/proto/slim/otlp/profiles/v1development v0.3.0 h1:CQvJSldHRUN6Z8jsUeYv8J0lXRvygALXIzsmAeCcZE0=
+249:processor/go.sum:47:go.opentelemetry.io/proto/slim/otlp/profiles/v1development v0.3.0 h1:CQvJSldHRUN6Z8jsUeYv8J0lXRvygALXIzsmAeCcZE0=
+250:processor/memorylimiterprocessor/go.sum:86:go.opentelemetry.io/proto/slim/otlp/profiles/v1development v0.3.0 h1:CQvJSldHRUN6Z8jsUeYv8J0lXRvygALXIzsmAeCcZE0=
+251:processor/processorhelper/go.sum:54:go.opentelemetry.io/proto/slim/otlp/profiles/v1development v0.3.0 h1:CQvJSldHRUN6Z8jsUeYv8J0lXRvygALXIzsmAeCcZE0=
+252:processor/processorhelper/xprocessorhelper/go.sum:54:go.opentelemetry.io/proto/slim/otlp/profiles/v1development v0.3.0 h1:CQvJSldHRUN6Z8jsUeYv8J0lXRvygALXIzsmAeCcZE0=
+253:processor/processortest/go.sum:54:go.opentelemetry.io/proto/slim/otlp/profiles/v1development v0.3.0 h1:CQvJSldHRUN6Z8jsUeYv8J0lXRvygALXIzsmAeCcZE0=
+254:processor/xprocessor/go.sum:47:go.opentelemetry.io/proto/slim/otlp/profiles/v1development v0.3.0 h1:CQvJSldHRUN6Z8jsUeYv8J0lXRvygALXIzsmAeCcZE0=
+255:receiver/go.sum:47:go.opentelemetry.io/proto/slim/otlp/profiles/v1development v0.3.0 h1:CQvJSldHRUN6Z8jsUeYv8J0lXRvygALXIzsmAeCcZE0=
+256:receiver/nopreceiver/go.sum:70:go.opentelemetry.io/proto/slim/otlp/profiles/v1development v0.3.0 h1:CQvJSldHRUN6Z8jsUeYv8J0lXRvygALXIzsmAeCcZE0=
+257:receiver/otlpreceiver/go.sum:94:go.opentelemetry.io/proto/slim/otlp/profiles/v1development v0.3.0 h1:CQvJSldHRUN6Z8jsUeYv8J0lXRvygALXIzsmAeCcZE0=
+258:receiver/receiverhelper/go.sum:56:go.opentelemetry.io/proto/slim/otlp/profiles/v1development v0.3.0 h1:CQvJSldHRUN6Z8jsUeYv8J0lXRvygALXIzsmAeCcZE0=
+259:receiver/receiverhelper/obsreport_test.go:449:				var acceptedSamples, refusedSamples, failedSamples int
+260:receiver/receiverhelper/obsreport_test.go:454:						acceptedSamples += params[i].items
+261:receiver/receiverhelper/obsreport_test.go:462:							refusedSamples += params[i].items
+262:receiver/receiverhelper/obsreport_test.go:466:							failedSamples += params[i].items
+263:receiver/receiverhelper/obsreport_test.go:481:							Value: int64(acceptedSamples),
+264:receiver/receiverhelper/obsreport_test.go:490:							Value: int64(refusedSamples),
+265:receiver/receiverhelper/obsreport_test.go:499:							Value: int64(failedSamples),
+266:receiver/receivertest/go.sum:56:go.opentelemetry.io/proto/slim/otlp/profiles/v1development v0.3.0 h1:CQvJSldHRUN6Z8jsUeYv8J0lXRvygALXIzsmAeCcZE0=
+267:receiver/xreceiver/go.sum:47:go.opentelemetry.io/proto/slim/otlp/profiles/v1development v0.3.0 h1:CQvJSldHRUN6Z8jsUeYv8J0lXRvygALXIzsmAeCcZE0=
+268:scraper/go.sum:54:go.opentelemetry.io/proto/slim/otlp/profiles/v1development v0.3.0 h1:CQvJSldHRUN6Z8jsUeYv8J0lXRvygALXIzsmAeCcZE0=
+269:scraper/scrapererror/scrapeerror_test.go:15:func TestScrapeErrorsAddPartial(t *testing.T) {
+270:scraper/scrapererror/scrapeerror_test.go:29:func TestScrapeErrorsAdd(t *testing.T) {
+271:scraper/scraperhelper/go.sum:56:go.opentelemetry.io/proto/slim/otlp/profiles/v1development v0.3.0 h1:CQvJSldHRUN6Z8jsUeYv8J0lXRvygALXIzsmAeCcZE0=
+272:scraper/scraperhelper/xscraperhelper/go.sum:56:go.opentelemetry.io/proto/slim/otlp/profiles/v1development v0.3.0 h1:CQvJSldHRUN6Z8jsUeYv8J0lXRvygALXIzsmAeCcZE0=
+273:scraper/scrapertest/go.sum:48:go.opentelemetry.io/proto/slim/otlp/profiles/v1development v0.3.0 h1:CQvJSldHRUN6Z8jsUeYv8J0lXRvygALXIzsmAeCcZE0=
+274:scraper/xscraper/go.sum:54:go.opentelemetry.io/proto/slim/otlp/profiles/v1development v0.3.0 h1:CQvJSldHRUN6Z8jsUeYv8J0lXRvygALXIzsmAeCcZE0=
+276:service/go.sum:179:go.opentelemetry.io/proto/slim/otlp/profiles/v1development v0.3.0 h1:CQvJSldHRUN6Z8jsUeYv8J0lXRvygALXIzsmAeCcZE0=
+277:service/hostcapabilities/go.sum:43:go.opentelemetry.io/proto/slim/otlp/profiles/v1development v0.3.0 h1:CQvJSldHRUN6Z8jsUeYv8J0lXRvygALXIzsmAeCcZE0=
+278:service/internal/graph/graph.go:103:	connectorsAsExporter := make(map[component.ID][]pipeline.ID)
+279:service/internal/graph/graph.go:104:	connectorsAsReceiver := make(map[component.ID][]pipeline.ID)
+280:service/internal/graph/graph.go:107:	// Also populates the connectors, connectorsAsExporter and connectorsAsReceiver maps.
+281:service/internal/graph/graph.go:114:				connectorsAsReceiver[recvID] = append(connectorsAsReceiver[recvID], pipelineID)
+282:service/internal/graph/graph.go:133:				connectorsAsExporter[exprID] = append(connectorsAsExporter[exprID], pipelineID)
+283:service/internal/graph/graph.go:149:		for _, pipelineID := range connectorsAsExporter[connID] {
+284:service/internal/graph/graph.go:156:		for _, pipelineID := range connectorsAsReceiver[connID] {
+285:service/internal/graph/graph.go:177:			return fmt.Errorf("connector %q used as exporter in %v pipeline but not used in any supported receiver pipeline", connID, formatPipelineNamesWithSignal(connectorsAsExporter[connID], expType))
+286:service/internal/graph/graph.go:183:			return fmt.Errorf("connector %q used as receiver in %v pipeline but not used in any supported exporter pipeline", connID, formatPipelineNamesWithSignal(connectorsAsReceiver[connID], recType))
+287:service/internal/graph/graph.go:186:		for _, eID := range connectorsAsExporter[connID] {
+288:service/internal/graph/graph.go:187:			for _, rID := range connectorsAsReceiver[connID] {
+289:service/internal/graph/graph_test.go:886:							recConn, ok := rec.(*connectorNode)
+290:service/internal/graph/graph_test.go:887:							if !ok || recConn.ID() != expConn.ID() {
+293:service/telemetry/telemetrytest/go.sum:112:go.opentelemetry.io/proto/slim/otlp/profiles/v1development v0.3.0 h1:CQvJSldHRUN6Z8jsUeYv8J0lXRvygALXIzsmAeCcZE0=
