@@ -1,0 +1,56 @@
+1:CHANGELOG.md:495:<!-- cspell:ignore MLKEM mlkem -->
+2:CHANGELOG.md:496:- `configtls`: Enable X25519MLKEM768 as per draft-ietf-tls-ecdhe-mlkem (#13670)
+3:client/client.go:58://	    issuer_url: http://localhost:8080/auth/realms/opentelemetry
+4:cmd/builder/internal/builder/main_test.go:247:				t.Setenv("GODEBUG", os.Getenv("GODEBUG")+",tlsmlkem=0")
+5:config/configauth/README.md:33:    issuer_url: http://localhost:8080/auth/realms/opentelemetry
+6:config/configtls/configtls_test.go:922:				name:             "X25519MLKEM768",
+7:config/configtls/configtls_test.go:923:				preferences:      []string{"X25519MLKEM768"},
+8:config/configtls/configtls_test.go:924:				expectedCurveIDs: []tls.CurveID{tls.X25519MLKEM768},
+9:config/configtls/curves_fips.go:18:	//"X25519MLKEM768": tls.X25519MLKEM768,
+10:config/configtls/curves_nofips.go:15:	"X25519MLKEM768": tls.X25519MLKEM768,
+11:config/configtls/testdata/server-2.key:14:yWV7taJyAVhdXAhKLMpqsE6wLMskRp8FZwkFZc+1Wt5QE4XfNmme2s/tSltQ2uG+
+12:exporter/debugexporter/internal/otlptext/metrics.go:25:		ilms := rm.ScopeMetrics()
+13:exporter/debugexporter/internal/otlptext/metrics.go:26:		for j := 0; j < ilms.Len(); j++ {
+14:exporter/debugexporter/internal/otlptext/metrics.go:28:			ilm := ilms.At(j)
+15:internal/cmd/pdatagen/internal/pdata/templates/primitive_slice.go.tmpl:96:// Equivalent of {{ .lowerStructName }} = append({{ .lowerStructName }}, elms...)
+16:internal/cmd/pdatagen/internal/pdata/templates/primitive_slice.go.tmpl:97:func (ms {{ .structName }}) Append(elms ...{{ .itemType }}) {
+17:internal/cmd/pdatagen/internal/pdata/templates/primitive_slice.go.tmpl:99:	*ms.getOrig() = append(*ms.getOrig(), elms...)
+18:pdata/pcommon/generated_byteslice.go:97:// Equivalent of byteSlice = append(byteSlice, elms...)
+19:pdata/pcommon/generated_byteslice.go:98:func (ms ByteSlice) Append(elms ...byte) {
+20:pdata/pcommon/generated_byteslice.go:100:	*ms.getOrig() = append(*ms.getOrig(), elms...)
+21:pdata/pcommon/generated_float64slice.go:97:// Equivalent of float64Slice = append(float64Slice, elms...)
+22:pdata/pcommon/generated_float64slice.go:98:func (ms Float64Slice) Append(elms ...float64) {
+23:pdata/pcommon/generated_float64slice.go:100:	*ms.getOrig() = append(*ms.getOrig(), elms...)
+24:pdata/pcommon/generated_int32slice.go:97:// Equivalent of int32Slice = append(int32Slice, elms...)
+25:pdata/pcommon/generated_int32slice.go:98:func (ms Int32Slice) Append(elms ...int32) {
+26:pdata/pcommon/generated_int32slice.go:100:	*ms.getOrig() = append(*ms.getOrig(), elms...)
+27:pdata/pcommon/generated_int64slice.go:97:// Equivalent of int64Slice = append(int64Slice, elms...)
+28:pdata/pcommon/generated_int64slice.go:98:func (ms Int64Slice) Append(elms ...int64) {
+29:pdata/pcommon/generated_int64slice.go:100:	*ms.getOrig() = append(*ms.getOrig(), elms...)
+30:pdata/pcommon/generated_stringslice.go:97:// Equivalent of stringSlice = append(stringSlice, elms...)
+31:pdata/pcommon/generated_stringslice.go:98:func (ms StringSlice) Append(elms ...string) {
+32:pdata/pcommon/generated_stringslice.go:100:	*ms.getOrig() = append(*ms.getOrig(), elms...)
+33:pdata/pcommon/generated_uint64slice.go:97:// Equivalent of uInt64Slice = append(uInt64Slice, elms...)
+34:pdata/pcommon/generated_uint64slice.go:98:func (ms UInt64Slice) Append(elms ...uint64) {
+35:pdata/pcommon/generated_uint64slice.go:100:	*ms.getOrig() = append(*ms.getOrig(), elms...)
+36:pdata/pmetric/metrics.go:22:		ilms := rm.ScopeMetrics()
+37:pdata/pmetric/metrics.go:23:		for j := 0; j < ilms.Len(); j++ {
+38:pdata/pmetric/metrics.go:24:			ilm := ilms.At(j)
+39:pdata/pmetric/metrics.go:36:		ilms := rm.ScopeMetrics()
+40:pdata/pmetric/metrics.go:37:		for j := 0; j < ilms.Len(); j++ {
+41:pdata/pmetric/metrics.go:38:			ilm := ilms.At(j)
+42:pdata/pmetric/metrics_test.go:64:	ilms := md.ResourceMetrics().At(0).ScopeMetrics()
+43:pdata/pmetric/metrics_test.go:65:	ilms.AppendEmpty()
+44:pdata/pmetric/metrics_test.go:69:	ilms.At(0).Metrics().AppendEmpty()
+45:pdata/pmetric/metrics_test.go:72:	intSum := ilms.At(0).Metrics().At(0).SetEmptySum()
+46:pdata/pmetric/metrics_test.go:84:	ilms = rms.At(2).ScopeMetrics()
+47:pdata/pmetric/metrics_test.go:85:	ilm := ilms.At(0).Metrics()
+48:processor/batchprocessor/batch_processor_test.go:687:			ilms := rms.At(i).ScopeMetrics()
+49:processor/batchprocessor/batch_processor_test.go:688:			for j := 0; j < ilms.Len(); j++ {
+50:processor/batchprocessor/batch_processor_test.go:689:				metrics := ilms.At(j).Metrics()
+51:processor/batchprocessor/batch_processor_test.go:995:			ilms := rms.At(i).ScopeLogs()
+52:processor/batchprocessor/batch_processor_test.go:996:			for j := 0; j < ilms.Len(); j++ {
+53:processor/batchprocessor/batch_processor_test.go:997:				logs := ilms.At(j).LogRecords()
+54:processor/batchprocessor/splitmetrics.go:83:	ilms := rs.ScopeMetrics()
+55:processor/batchprocessor/splitmetrics.go:84:	for k := 0; k < ilms.Len(); k++ {
+56:processor/batchprocessor/splitmetrics.go:85:		dataPointCount += scopeMetricsDPC(ilms.At(k))

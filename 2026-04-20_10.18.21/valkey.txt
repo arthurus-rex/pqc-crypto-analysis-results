@@ -1,0 +1,33 @@
+1:deps/jemalloc/build-aux/config.guess:475:    *falcon*:*MiNT:*:* | *falcon*:*mint:*:* | *falcon*:*TOS:*:*)
+2:deps/jemalloc/src/emap.c:121:emap_rtree_leaf_elms_lookup(tsdn_t *tsdn, emap_t *emap, rtree_ctx_t *rtree_ctx,
+3:deps/jemalloc/src/emap.c:164:	bool err = emap_rtree_leaf_elms_lookup(tsdn, emap, rtree_ctx, edata,
+4:deps/jemalloc/src/emap.c:189:		bool err = emap_rtree_leaf_elms_lookup(tsdn, emap, rtree_ctx,
+5:deps/jemalloc/src/emap.c:229:	emap_rtree_leaf_elms_lookup(tsdn, emap, rtree_ctx, edata,
+6:deps/jemalloc/src/emap.c:297:	emap_rtree_leaf_elms_lookup(tsdn, emap, rtree_ctx, &lead, false, true,
+7:deps/jemalloc/src/emap.c:299:	emap_rtree_leaf_elms_lookup(tsdn, emap, rtree_ctx, trail, false, true,
+8:deps/jemalloc/src/emap.c:330:	emap_rtree_leaf_elms_lookup(tsdn, emap, rtree_ctx, lead, true, false,
+9:deps/jemalloc/src/emap.c:332:	emap_rtree_leaf_elms_lookup(tsdn, emap, rtree_ctx, trail, true, false,
+10:deps/jemalloc/src/rtree.c:31:rtree_node_alloc(tsdn_t *tsdn, rtree_t *rtree, size_t nelms) {
+11:deps/jemalloc/src/rtree.c:33:	    nelms * sizeof(rtree_node_elm_t), CACHELINE);
+12:deps/jemalloc/src/rtree.c:37:rtree_leaf_alloc(tsdn_t *tsdn, rtree_t *rtree, size_t nelms) {
+13:deps/jemalloc/src/rtree.c:39:	    nelms * sizeof(rtree_leaf_elm_t), CACHELINE);
+14:deps/lua/src/loadlib.c:236:#define DLMSG	"dynamic libraries not enabled; check your Lua installation"
+15:deps/lua/src/loadlib.c:246:  lua_pushliteral(L, DLMSG);
+16:deps/lua/src/loadlib.c:253:  lua_pushliteral(L, DLMSG);
+17:deps/lua/src/lua.c:165:    size_t lmsg;
+18:deps/lua/src/lua.c:166:    const char *msg = lua_tolstring(L, -1, &lmsg);
+19:deps/lua/src/lua.c:167:    const char *tp = msg + lmsg - (sizeof(LUA_QL("<eof>")) - 1);
+20:src/lolwut6.c:35: * Thanks to Michele Hiki Falcone for the original image that inspired
+21:src/sha256.c:8:              specification. The others, SHA-384 and SHA-512, are not
+22:tests/unit/acl.tcl:733:        catch {r PUBLISH somechannelnotallowed nullmsg}
+23:tests/unit/tls.tcl:61:            set s [valkey [srv 0 host] [srv 0 port] 0 1 {-cipher "-ALL:AES256-SHA256"}]
+24:tests/unit/tls.tcl:77:            r CONFIG SET tls-ciphers "AES128-SHA256:AES256-SHA256"
+25:tests/unit/tls.tcl:79:            set s [valkey [srv 0 host] [srv 0 port] 0 1 {-cipher "AES256-SHA256:AES128-SHA256"}]
+26:tests/unit/tls.tcl:83:            assert_equal "AES256-SHA256" [dict get [::tls::status [$s channel]] cipher]
+27:tests/unit/tls.tcl:87:            set s [valkey [srv 0 host] [srv 0 port] 0 1 {-cipher "AES256-SHA256:AES128-SHA256"}]
+28:tests/unit/tls.tcl:147:            exec -ignorestderr openssl rsa -in $keyfile -out $keyfile_encrypted -aes256 -passout pass:1234 2>/dev/null
+29:utils/reply-schema-linter/package-lock.json:17:      "integrity": "sha512-PlXPeEWMXMZ7sPYOHqmDyCJzcfNrUr3fGNKtezX14ykXOEIvyK81d+qydx89KY5O71FKMPaQ2vBfBFI5NHR63A==",
+30:utils/reply-schema-linter/package-lock.json:32:      "integrity": "sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q=="
+31:utils/reply-schema-linter/package-lock.json:37:      "integrity": "sha512-iPeeDKJSWf4IEOasVVrknXpaBV0IApz/gp7S2bb7Z4Lljbl2MGJRqInZiUrQwV16cpzw/D3S5j5Julj/gT52AA==",
+32:utils/reply-schema-linter/package-lock.json:52:      "integrity": "sha512-NM8/P9n3XjXhIZn1lLhkFaACTOURQXjWhV4BA/RnOv8xvgqtqpAX9IO4mRQxSx1Rlo4tqzeqb0sOlruaOy3dug=="
+33:utils/reply-schema-linter/package-lock.json:57:      "integrity": "sha512-Xf0nWe6RseziFMu+Ap9biiUbmplq6S9/p+7w7YXP/JBHhrUDDUhwa+vANyubuqfZWTveU//DYVGsDG7RKL/vEw==",

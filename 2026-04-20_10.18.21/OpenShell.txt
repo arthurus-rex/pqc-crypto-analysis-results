@@ -1,0 +1,40 @@
+1:Cargo.lock:2520:name = "libcrux-ml-kem"
+2:Cargo.lock:4220: "libcrux-ml-kem",
+3:THIRD-PARTY-NOTICES:11039:  - libcrux-ml-kem 0.0.4  (https://github.com/cryspen/libcrux)
+4:architecture/system-architecture.md:78:        LMStudio["LM Studio"]
+5:architecture/system-architecture.md:138:    InferenceRouter -- "HTTP/HTTPS<br/>(model ID + auth<br/>rewritten)" --> LMStudio
+6:architecture/system-architecture.md:171:    class Anthropic,OpenAI,NVIDIA_API,GitHub,GitLab,PyPI,NPM,LMStudio,VLLM,GHCR external
+7:crates/openshell-ocsf/schemas/ocsf/v1.7.0/objects/evidences.json:38:                "description": "The naming convention or type identifier of the evidence associated with the security detection. For example, the <code>@odata.type</code> from Microsoft Graph Alerts V2 or <code>display_name</code> from CrowdStrike Falcon Incident Behaviors.",
+8:crates/openshell-ocsf/schemas/ocsf/v1.7.0/objects/evidences.json:103:                "description": "The unique identifier of the evidence associated with the security detection. For example, the <code>activity_id</code> from CrowdStrike Falcon Alerts or <code>behavior_id</code> from CrowdStrike Falcon Incident Behaviors.",
+9:crates/openshell-server/src/grpc/sandbox.rs:33:use russh::ChannelMsg;
+10:crates/openshell-server/src/grpc/sandbox.rs:878:            ChannelMsg::Data { data } => {
+11:crates/openshell-server/src/grpc/sandbox.rs:889:            ChannelMsg::ExtendedData { data, .. } => {
+12:crates/openshell-server/src/grpc/sandbox.rs:900:            ChannelMsg::ExitStatus { exit_status } => {
+13:crates/openshell-server/src/grpc/sandbox.rs:904:            ChannelMsg::Close => break,
+14:docs/get-started/tutorials/index.mdx:30:<Card title="Local Inference with LM Studio" href="/get-started/tutorials/local-inference-lmstudio">
+15:docs/get-started/tutorials/local-inference-lmstudio.mdx:6:slug: "get-started/tutorials/local-inference-lmstudio"
+16:docs/get-started/tutorials/local-inference-lmstudio.mdx:27:[Install the LM Studio app](https://lmstudio.ai/download). Make sure that your LM Studio is running in the same environment as your gateway.
+17:docs/get-started/tutorials/local-inference-lmstudio.mdx:29:If you prefer to work without having to keep the LM Studio app open, download llmster (headless LM Studio) with the following command:
+18:docs/get-started/tutorials/local-inference-lmstudio.mdx:34:curl -fsSL https://lmstudio.ai/install.sh | bash
+19:docs/get-started/tutorials/local-inference-lmstudio.mdx:40:irm https://lmstudio.ai/install.ps1 | iex
+20:docs/get-started/tutorials/local-inference-lmstudio.mdx:45:And start llmster:
+21:docs/get-started/tutorials/local-inference-lmstudio.mdx:47:lms daemon up
+22:docs/get-started/tutorials/local-inference-lmstudio.mdx:60:If you're using llmster in headless mode, run `lms server start --bind 0.0.0.0`.
+23:docs/get-started/tutorials/local-inference-lmstudio.mdx:68:lms get qwen/qwen3.5-2b
+24:docs/get-started/tutorials/local-inference-lmstudio.mdx:69:lms load qwen/qwen3.5-2b
+25:docs/get-started/tutorials/local-inference-lmstudio.mdx:83:    --name lmstudio \
+26:docs/get-started/tutorials/local-inference-lmstudio.mdx:85:    --credential OPENAI_API_KEY=lmstudio \
+27:docs/get-started/tutorials/local-inference-lmstudio.mdx:99:    --name lmstudio-anthropic \
+28:docs/get-started/tutorials/local-inference-lmstudio.mdx:101:    --credential ANTHROPIC_API_KEY=lmstudio \
+29:docs/get-started/tutorials/local-inference-lmstudio.mdx:121:openshell inference set --provider lmstudio --model qwen/qwen3.5-2b
+30:docs/get-started/tutorials/local-inference-lmstudio.mdx:131:openshell inference set --provider lmstudio-anthropic --model qwen/qwen3.5-2b
+31:docs/get-started/tutorials/local-inference-lmstudio.mdx:150:You should see either `Provider: lmstudio` or `Provider: lmstudio-anthropic`, along with `Model: qwen/qwen3.5-2b`.
+32:docs/get-started/tutorials/local-inference-lmstudio.mdx:204:openshell provider get lmstudio
+33:docs/get-started/tutorials/local-inference-lmstudio.mdx:205:openshell provider get lmstudio-anthropic
+34:docs/get-started/tutorials/local-inference-lmstudio.mdx:210:- To learn more about using the LM Studio CLI, refer to [LM Studio docs](https://lmstudio.ai/docs/cli)
+35:docs/index.mdx:43:<llms-ignore>
+36:docs/index.mdx:69:</llms-ignore>
+37:docs/index.mdx:71:<llms-only>
+38:docs/index.mdx:78:</llms-only>
+39:docs/inference/configure.mdx:194:- To follow a complete LM Studio-based local setup, refer to [Local Inference Lmstudio](/tutorials/local-inference-lmstudio).
+40:docs/sandboxes/manage-providers.mdx:184:| LM Studio (local) | `lmstudio` | `openai` | `http://host.openshell.internal:1234/v1` | `OPENAI_API_KEY` |
