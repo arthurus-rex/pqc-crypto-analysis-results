@@ -1,0 +1,284 @@
+1:Cargo.lock:3352:name = "ml-kem"
+2:Cargo.lock:5460: "ml-kem",
+3:MODULE.bazel.lock:924:      "ml-kem_0.3.2": "{\"dependencies\":[{\"features\":[\"ctutils\",\"extra-sizes\"],\"name\":\"array\",\"package\":\"hybrid-array\",\"req\":\"^0.4.8\"},{\"default_features\":false,\"features\":[\"db\"],\"name\":\"const-oid\",\"optional\":true,\"req\":\"^0.10.1\"},{\"kind\":\"dev\",\"name\":\"criterion\",\"req\":\"^0.7\"},{\"features\":[\"sys_rng\"],\"kind\":\"dev\",\"name\":\"getrandom\",\"req\":\"^0.4\"},{\"features\":[\"serde\"],\"kind\":\"dev\",\"name\":\"hex\",\"req\":\"^0.4.3\"},{\"kind\":\"dev\",\"name\":\"hex-literal\",\"req\":\"^1\"},{\"name\":\"kem\",\"req\":\"^0.3\"},{\"features\":[\"ctutils\"],\"name\":\"module-lattice\",\"req\":\"^0.2.3\"},{\"default_features\":false,\"features\":[\"num-bigint\"],\"kind\":\"dev\",\"name\":\"num-rational\",\"req\":\"^0.4.2\"},{\"default_features\":false,\"name\":\"pkcs8\",\"optional\":true,\"req\":\"^0.11\"},{\"name\":\"rand_core\",\"req\":\"^0.10\"},{\"features\":[\"derive\"],\"kind\":\"dev\",\"name\":\"serde\",\"req\":\"^1.0.208\"},{\"kind\":\"dev\",\"name\":\"serde_json\",\"req\":\"^1.0.125\"},{\"default_features\":false,\"name\":\"sha3\",\"req\":\"^0.11\"},{\"default_features\":false,\"name\":\"zeroize\",\"optional\":true,\"req\":\"^1.8.1\"}],\"features\":{\"alloc\":[\"module-lattice/alloc\",\"pkcs8?/alloc\"],\"default\":[\"alloc\"],\"getrandom\":[\"kem/getrandom\"],\"hazmat\":[],\"pem\":[\"pkcs8/pem\"],\"pkcs8\":[\"dep:const-oid\",\"dep:pkcs8\"],\"zeroize\":[\"module-lattice/zeroize\",\"dep:zeroize\"]}}",
+4:MODULE.bazel.lock:966:      "p521_0.14.0-rc.10": "{\"dependencies\":[{\"name\":\"base16ct\",\"req\":\"^1\"},{\"kind\":\"dev\",\"name\":\"criterion\",\"req\":\"^0.7\"},{\"default_features\":false,\"features\":[\"der\"],\"name\":\"ecdsa-core\",\"optional\":true,\"package\":\"ecdsa\",\"req\":\"^0.17.0-rc.17\"},{\"default_features\":false,\"features\":[\"dev\"],\"kind\":\"dev\",\"name\":\"ecdsa-core\",\"package\":\"ecdsa\",\"req\":\"^0.17.0-rc.17\"},{\"default_features\":false,\"features\":[\"sec1\"],\"name\":\"elliptic-curve\",\"req\":\"^0.14.0-rc.33\"},{\"name\":\"hash2curve\",\"optional\":true,\"req\":\"^0.14.0-rc.12\"},{\"name\":\"hex-literal\",\"optional\":true,\"req\":\"^1\"},{\"kind\":\"dev\",\"name\":\"hex-literal\",\"req\":\"^1\"},{\"name\":\"primefield\",\"optional\":true,\"req\":\"^0.14.0-rc.10\"},{\"name\":\"primeorder\",\"optional\":true,\"req\":\"^0.14.0-rc.10\"},{\"features\":[\"dev\"],\"kind\":\"dev\",\"name\":\"primeorder\",\"req\":\"^0.14.0-rc.10\"},{\"kind\":\"dev\",\"name\":\"proptest\",\"req\":\"^1.11\"},{\"default_features\":false,\"name\":\"rand_core\",\"optional\":true,\"req\":\"^0.10\"},{\"default_features\":false,\"name\":\"serdect\",\"optional\":true,\"req\":\"^0.4\"},{\"default_features\":false,\"name\":\"sha2\",\"optional\":true,\"req\":\"^0.11\"}],\"features\":{\"alloc\":[\"ecdsa-core?/alloc\",\"elliptic-curve/alloc\",\"primeorder?/alloc\"],\"arithmetic\":[\"dep:primefield\",\"dep:primeorder\"],\"default\":[\"arithmetic\",\"ecdsa\",\"pem\",\"precomputed-tables\",\"std\"],\"digest\":[\"ecdsa-core/digest\",\"ecdsa-core/hazmat\"],\"ecdh\":[\"arithmetic\",\"elliptic-curve/ecdh\"],\"ecdsa\":[\"arithmetic\",\"ecdsa-core/algorithm\",\"sha512\"],\"expose-field\":[\"arithmetic\"],\"getrandom\":[\"ecdsa-core?/getrandom\",\"elliptic-curve/getrandom\"],\"group-digest\":[\"hash2curve\",\"dep:sha2\"],\"hash2curve\":[\"arithmetic\",\"dep:hash2curve\",\"primeorder/hash2curve\"],\"oprf\":[\"group-digest\"],\"pem\":[\"elliptic-curve/pem\",\"pkcs8\"],\"pkcs8\":[\"ecdsa-core?/pkcs8\",\"elliptic-curve/pkcs8\"],\"precomputed-tables\":[\"arithmetic\",\"primeorder/basepoint-table\"],\"serde\":[\"ecdsa-core?/serde\",\"elliptic-curve/serde\",\"primeorder?/serde\",\"serdect\"],\"sha512\":[\"digest\",\"dep:sha2\"],\"std\":[\"alloc\",\"ecdsa-core?/std\",\"elliptic-curve/std\",\"getrandom\"],\"test-vectors\":[\"dep:hex-literal\"]}}",
+6:MODULE.bazel.lock:1308:      "winapi_0.3.9": "{\"dependencies\":[{\"name\":\"winapi-i686-pc-windows-gnu\",\"req\":\"^0.4\",\"target\":\"i686-pc-windows-gnu\"},{\"name\":\"winapi-x86_64-pc-windows-gnu\",\"req\":\"^0.4\",\"target\":\"x86_64-pc-windows-gnu\"}],\"features\":{\"accctrl\":[],\"aclapi\":[],\"activation\":[],\"adhoc\":[],\"appmgmt\":[],\"audioclient\":[],\"audiosessiontypes\":[],\"avrt\":[],\"basetsd\":[],\"bcrypt\":[],\"bits\":[],\"bits10_1\":[],\"bits1_5\":[],\"bits2_0\":[],\"bits2_5\":[],\"bits3_0\":[],\"bits4_0\":[],\"bits5_0\":[],\"bitscfg\":[],\"bitsmsg\":[],\"bluetoothapis\":[],\"bluetoothleapis\":[],\"bthdef\":[],\"bthioctl\":[],\"bthledef\":[],\"bthsdpdef\":[],\"bugcodes\":[],\"cderr\":[],\"cfg\":[],\"cfgmgr32\":[],\"cguid\":[],\"combaseapi\":[],\"coml2api\":[],\"commapi\":[],\"commctrl\":[],\"commdlg\":[],\"commoncontrols\":[],\"consoleapi\":[],\"corecrt\":[],\"corsym\":[],\"d2d1\":[],\"d2d1_1\":[],\"d2d1_2\":[],\"d2d1_3\":[],\"d2d1effectauthor\":[],\"d2d1effects\":[],\"d2d1effects_1\":[],\"d2d1effects_2\":[],\"d2d1svg\":[],\"d2dbasetypes\":[],\"d3d\":[],\"d3d10\":[],\"d3d10_1\":[],\"d3d10_1shader\":[],\"d3d10effect\":[],\"d3d10misc\":[],\"d3d10sdklayers\":[],\"d3d10shader\":[],\"d3d11\":[],\"d3d11_1\":[],\"d3d11_2\":[],\"d3d11_3\":[],\"d3d11_4\":[],\"d3d11on12\":[],\"d3d11sdklayers\":[],\"d3d11shader\":[],\"d3d11tokenizedprogramformat\":[],\"d3d12\":[],\"d3d12sdklayers\":[],\"d3d12shader\":[],\"d3d9\":[],\"d3d9caps\":[],\"d3d9types\":[],\"d3dcommon\":[],\"d3dcompiler\":[],\"d3dcsx\":[],\"d3dkmdt\":[],\"d3dkmthk\":[],\"d3dukmdt\":[],\"d3dx10core\":[],\"d3dx10math\":[],\"d3dx10mesh\":[],\"datetimeapi\":[],\"davclnt\":[],\"dbghelp\":[],\"dbt\":[],\"dcommon\":[],\"dcomp\":[],\"dcompanimation\":[],\"dcomptypes\":[],\"dde\":[],\"ddraw\":[],\"ddrawi\":[],\"ddrawint\":[],\"debug\":[\"impl-debug\"],\"debugapi\":[],\"devguid\":[],\"devicetopology\":[],\"devpkey\":[],\"devpropdef\":[],\"dinput\":[],\"dinputd\":[],\"dispex\":[],\"dmksctl\":[],\"dmusicc\":[],\"docobj\":[],\"documenttarget\":[],\"dot1x\":[],\"dpa_dsa\":[],\"dpapi\":[],\"dsgetdc\":[],\"dsound\":[],\"dsrole\":[],\"dvp\":[],\"dwmapi\":[],\"dwrite\":[],\"dwrite_1\":[],\"dwrite_2\":[],\"dwrite_3\":[],\"dxdiag\":[],\"dxfile\":[],\"dxgi\":[],\"dxgi1_2\":[],\"dxgi1_3\":[],\"dxgi1_4\":[],\"dxgi1_5\":[],\"dxgi1_6\":[],\"dxgidebug\":[],\"dxgiformat\":[],\"dxgitype\":[],\"dxva2api\":[],\"dxvahd\":[],\"eaptypes\":[],\"enclaveapi\":[],\"endpointvolume\":[],\"errhandlingapi\":[],\"everything\":[],\"evntcons\":[],\"evntprov\":[],\"evntrace\":[],\"excpt\":[],\"exdisp\":[],\"fibersapi\":[],\"fileapi\":[],\"functiondiscoverykeys_devpkey\":[],\"gl-gl\":[],\"guiddef\":[],\"handleapi\":[],\"heapapi\":[],\"hidclass\":[],\"hidpi\":[],\"hidsdi\":[],\"hidusage\":[],\"highlevelmonitorconfigurationapi\":[],\"hstring\":[],\"http\":[],\"ifdef\":[],\"ifmib\":[],\"imm\":[],\"impl-debug\":[],\"impl-default\":[],\"in6addr\":[],\"inaddr\":[],\"inspectable\":[],\"interlockedapi\":[],\"intsafe\":[],\"ioapiset\":[],\"ipexport\":[],\"iphlpapi\":[],\"ipifcons\":[],\"ipmib\":[],\"iprtrmib\":[],\"iptypes\":[],\"jobapi\":[],\"jobapi2\":[],\"knownfolders\":[],\"ks\":[],\"ksmedia\":[],\"ktmtypes\":[],\"ktmw32\":[],\"l2cmn\":[],\"libloaderapi\":[],\"limits\":[],\"lmaccess\":[],\"lmalert\":[],\"lmapibuf\":[],\"lmat\":[],\"lmcons\":[],\"lmdfs\":[],\"lmerrlog\":[],\"lmjoin\":[],\"lmmsg\":[],\"lmremutl\":[],\"lmrepl\":[],\"lmserver\":[],\"lmshare\":[],\"lmstats\":[],\"lmsvc\":[],\"lmuse\":[],\"lmwksta\":[],\"lowlevelmonitorconfigurationapi\":[],\"lsalookup\":[],\"memoryapi\":[],\"minschannel\":[],\"minwinbase\":[],\"minwindef\":[],\"mmdeviceapi\":[],\"mmeapi\":[],\"mmreg\":[],\"mmsystem\":[],\"mprapidef\":[],\"msaatext\":[],\"mscat\":[],\"mschapp\":[],\"mssip\":[],\"mstcpip\":[],\"mswsock\":[],\"mswsockdef\":[],\"namedpipeapi\":[],\"namespaceapi\":[],\"nb30\":[],\"ncrypt\":[],\"netioapi\":[],\"nldef\":[],\"ntddndis\":[],\"ntddscsi\":[],\"ntddser\":[],\"ntdef\":[],\"ntlsa\":[],\"ntsecapi\":[],\"ntstatus\":[],\"oaidl\":[],\"objbase\":[],\"objidl\":[],\"objidlbase\":[],\"ocidl\":[],\"ole2\":[],\"oleauto\":[],\"olectl\":[],\"oleidl\":[],\"opmapi\":[],\"pdh\":[],\"perflib\":[],\"physicalmonitorenumerationapi\":[],\"playsoundapi\":[],\"portabledevice\":[],\"portabledeviceapi\":[],\"portabledevicetypes\":[],\"powerbase\":[],\"powersetting\":[],\"powrprof\":[],\"processenv\":[],\"processsnapshot\":[],\"processthreadsapi\":[],\"processtopologyapi\":[],\"profileapi\":[],\"propidl\":[],\"propkey\":[],\"propkeydef\":[],\"propsys\":[],\"prsht\":[],\"psapi\":[],\"qos\":[],\"realtimeapiset\":[],\"reason\":[],\"restartmanager\":[],\"restrictederrorinfo\":[],\"rmxfguid\":[],\"roapi\":[],\"robuffer\":[],\"roerrorapi\":[],\"rpc\":[],\"rpcdce\":[],\"rpcndr\":[],\"rtinfo\":[],\"sapi\":[],\"sapi51\":[],\"sapi53\":[],\"sapiddk\":[],\"sapiddk51\":[],\"schannel\":[],\"sddl\":[],\"securityappcontainer\":[],\"securitybaseapi\":[],\"servprov\":[],\"setupapi\":[],\"shellapi\":[],\"shellscalingapi\":[],\"shlobj\":[],\"shobjidl\":[],\"shobjidl_core\":[],\"shtypes\":[],\"softpub\":[],\"spapidef\":[],\"spellcheck\":[],\"sporder\":[],\"sql\":[],\"sqlext\":[],\"sqltypes\":[],\"sqlucode\":[],\"sspi\":[],\"std\":[],\"stralign\":[],\"stringapiset\":[],\"strmif\":[],\"subauth\":[],\"synchapi\":[],\"sysinfoapi\":[],\"systemtopologyapi\":[],\"taskschd\":[],\"tcpestats\":[],\"tcpmib\":[],\"textstor\":[],\"threadpoolapiset\":[],\"threadpoollegacyapiset\":[],\"timeapi\":[],\"timezoneapi\":[],\"tlhelp32\":[],\"transportsettingcommon\":[],\"tvout\":[],\"udpmib\":[],\"unknwnbase\":[],\"urlhist\":[],\"urlmon\":[],\"usb\":[],\"usbioctl\":[],\"usbiodef\":[],\"usbscan\":[],\"usbspec\":[],\"userenv\":[],\"usp10\":[],\"utilapiset\":[],\"uxtheme\":[],\"vadefs\":[],\"vcruntime\":[],\"vsbackup\":[],\"vss\":[],\"vsserror\":[],\"vswriter\":[],\"wbemads\":[],\"wbemcli\":[],\"wbemdisp\":[],\"wbemprov\":[],\"wbemtran\":[],\"wct\":[],\"werapi\":[],\"winbase\":[],\"wincodec\":[],\"wincodecsdk\":[],\"wincon\":[],\"wincontypes\":[],\"wincred\":[],\"wincrypt\":[],\"windef\":[],\"windot11\":[],\"windowsceip\":[],\"windowsx\":[],\"winefs\":[],\"winerror\":[],\"winevt\":[],\"wingdi\":[],\"winhttp\":[],\"wininet\":[],\"winineti\":[],\"winioctl\":[],\"winnetwk\":[],\"winnls\":[],\"winnt\":[],\"winreg\":[],\"winsafer\":[],\"winscard\":[],\"winsmcrd\":[],\"winsock2\":[],\"winspool\":[],\"winstring\":[],\"winsvc\":[],\"wintrust\":[],\"winusb\":[],\"winusbio\":[],\"winuser\":[],\"winver\":[],\"wlanapi\":[],\"wlanihv\":[],\"wlanihvtypes\":[],\"wlantypes\":[],\"wlclient\":[],\"wmistr\":[],\"wnnc\":[],\"wow64apiset\":[],\"wpdmtpextensions\":[],\"ws2bth\":[],\"ws2def\":[],\"ws2ipdef\":[],\"ws2spi\":[],\"ws2tcpip\":[],\"wtsapi32\":[],\"wtypes\":[],\"wtypesbase\":[],\"xinput\":[]}}",
+7:THIRD-PARTY-NOTICES:11039:  - libcrux-ml-kem 0.0.4  (https://github.com/cryspen/libcrux)
+8:crates/openshell-cli/src/commands/gateway.rs:2058:                    Some("http://127.0.0.1:1/realms/nonexistent"),
+9:crates/openshell-cli/src/commands/gateway.rs:2099:                    Some("http://127.0.0.1:1/realms/nonexistent"),
+10:crates/openshell-cli/src/oidc_auth.rs:499:        let result = rt.block_on(discover("http://127.0.0.1:1/realms/test", false));
+11:crates/openshell-cli/src/oidc_auth.rs:508:        let result = rt.block_on(discover("https://127.0.0.1:1/realms/test", true));
+12:crates/openshell-core/src/config.rs:570:    /// OIDC issuer URL (e.g., `http://localhost:8180/realms/openshell`).
+13:crates/openshell-driver-db-credstore/src/lib.rs:40:const ALGORITHM: &str = "AES-256-GCM";
+14:crates/openshell-ocsf/schemas/ocsf/v1.7.0/objects/evidences.json:38:                "description": "The naming convention or type identifier of the evidence associated with the security detection. For example, the <code>@odata.type</code> from Microsoft Graph Alerts V2 or <code>display_name</code> from CrowdStrike Falcon Incident Behaviors.",
+15:crates/openshell-ocsf/schemas/ocsf/v1.7.0/objects/evidences.json:103:                "description": "The unique identifier of the evidence associated with the security detection. For example, the <code>activity_id</code> from CrowdStrike Falcon Alerts or <code>behavior_id</code> from CrowdStrike Falcon Incident Behaviors.",
+16:crates/openshell-providers/src/profiles.rs:3099:      token_endpoint: http://keycloak.default.svc.cluster.local/realms/openshell/protocol/openid-connect/token
+17:crates/openshell-providers/src/profiles.rs:3100:      jwt_svid_audience: http://keycloak.default.svc.cluster.local/realms/openshell
+18:crates/openshell-providers/src/profiles.rs:3124:            "http://keycloak.default.svc.cluster.local/realms/openshell"
+19:crates/openshell-server/src/config_file.rs:469:issuer = "https://idp.example.com/realms/openshell"
+20:crates/openshell-server/src/grpc/provider.rs:3650:                token_endpoint: "http://keycloak.default.svc.cluster.local/realms/openshell/protocol/openid-connect/token".to_string(),
+21:crates/openshell-server/src/grpc/provider.rs:3652:                jwt_svid_audience: "http://keycloak.default.svc.cluster.local/realms/openshell"
+22:crates/openshell-server/src/grpc/sandbox.rs:48:use russh::ChannelMsg;
+23:crates/openshell-server/src/grpc/sandbox.rs:1976:    use russh::ChannelMsg;
+24:crates/openshell-server/src/grpc/sandbox.rs:2070:            ChannelMsg::Data { data } => {
+25:crates/openshell-server/src/grpc/sandbox.rs:2082:            ChannelMsg::ExtendedData { data, .. } => {
+26:crates/openshell-server/src/grpc/sandbox.rs:2094:            ChannelMsg::ExitStatus { exit_status } => {
+27:crates/openshell-server/src/grpc/sandbox.rs:2098:            ChannelMsg::Close => break,
+28:crates/openshell-server/src/grpc/sandbox.rs:2239:            ChannelMsg::Data { data } => {
+29:crates/openshell-server/src/grpc/sandbox.rs:2250:            ChannelMsg::ExtendedData { data, .. } => {
+30:crates/openshell-server/src/grpc/sandbox.rs:2261:            ChannelMsg::ExitStatus { exit_status } => {
+31:crates/openshell-server/src/grpc/sandbox.rs:2265:            ChannelMsg::Close => break,
+32:crates/openshell-supervisor-network/src/token_grant.rs:216:    // For Keycloak: https://auth.example.com/realms/openshell/protocol/openid-connect/token
+33:crates/openshell-supervisor-network/src/token_grant.rs:217:    //           -> https://auth.example.com/realms/openshell
+34:crates/openshell-supervisor-network/src/token_grant.rs:455:///   `https://auth.example.com/realms/openshell/protocol/openid-connect/token`
+35:crates/openshell-supervisor-network/src/token_grant.rs:457:///   `https://auth.example.com/realms/openshell`
+36:crates/openshell-supervisor-network/src/token_grant.rs:462:    // For Keycloak, strip everything after /realms/{realm-name}
+37:crates/openshell-supervisor-network/src/token_grant.rs:463:    if let Some(realms_idx) = token_endpoint.find("/realms/") {
+38:crates/openshell-supervisor-network/src/token_grant.rs:465:        let after_realms = &token_endpoint[realms_idx + "/realms/".len()..];
+39:crates/openshell-supervisor-network/src/token_grant.rs:466:        if let Some(slash_idx) = after_realms.find('/') {
+40:crates/openshell-supervisor-network/src/token_grant.rs:468:            let realm_end = realms_idx + "/realms/".len() + slash_idx;
+41:crates/openshell-supervisor-network/src/token_grant.rs:826:            "https://auth.example.com/realms/openshell/protocol/openid-connect/token";
+42:crates/openshell-supervisor-network/src/token_grant.rs:828:        assert_eq!(issuer, "https://auth.example.com/realms/openshell");
+43:crates/openshell-supervisor-network/src/token_grant.rs:834:            "https://auth.example.com/realms/production/protocol/openid-connect/token";
+44:crates/openshell-supervisor-network/src/token_grant.rs:836:        assert_eq!(issuer, "https://auth.example.com/realms/production");
+45:crates/openshell-supervisor-network/src/token_grant.rs:850:            "https://auth.example.com/realms/openshell/protocol/openid-connect/token",
+46:crates/openshell-supervisor-network/src/token_grant.rs:905:            "http://keycloak/realms/openshell/protocol/openid-connect/token",
+47:crates/openshell-supervisor-network/src/token_grant.rs:921:            "https://auth.example.com/realms/openshell/protocol/openid-connect/token",
+48:crates/openshell-supervisor-network/src/token_grant.rs:922:            "https://auth.example.com/realms/openshell",
+49:crates/openshell-supervisor-network/src/token_grant.rs:929:            "https://auth.example.com/realms/openshell/protocol/openid-connect/token",
+50:crates/openshell-supervisor-network/src/token_grant.rs:930:            "https://auth.example.com/realms/openshell",
+51:crates/openshell-supervisor-network/src/token_grant.rs:937:            "https://auth.example.com/realms/openshell/protocol/openid-connect/token",
+52:crates/openshell-supervisor-network/src/token_grant.rs:938:            "https://auth.example.com/realms/openshell",
+53:crates/openshell-supervisor-network/src/token_grant.rs:945:            "https://auth.example.com/realms/openshell/protocol/openid-connect/token",
+54:crates/openshell-supervisor-network/src/token_grant.rs:946:            "https://auth.example.com/realms/openshell",
+55:deploy/helm/openshell/README.md:239:| server.oidc.issuer | string | `""` | OIDC issuer URL (e.g. https://keycloak.example.com/realms/openshell). |
+56:deploy/helm/openshell/ci/values-gateway-tls.yaml:32:    issuer: "https://keycloak.example.com/realms/openshell"
+57:deploy/helm/openshell/ci/values-keycloak.yaml:26:    issuer: "http://keycloak.keycloak.svc.cluster.local/realms/openshell"
+58:deploy/helm/openshell/values.yaml:248:  # AES-256-GCM with a key-encryption key (KEK). By default, the Helm chart
+59:deploy/helm/openshell/values.yaml:348:    # -- OIDC issuer URL (e.g. https://keycloak.example.com/realms/openshell).
+60:docs/get-started/tutorials/index.mdx:35:<Card title="Local Inference with LM Studio" href="/get-started/tutorials/local-inference-lmstudio">
+61:docs/get-started/tutorials/local-inference-lmstudio.mdx:6:slug: "get-started/tutorials/local-inference-lmstudio"
+62:docs/get-started/tutorials/local-inference-lmstudio.mdx:27:[Install the LM Studio app](https://lmstudio.ai/download). Make sure that your LM Studio is running in the same environment as your gateway.
+64:docs/get-started/tutorials/local-inference-lmstudio.mdx:34:curl -fsSL https://lmstudio.ai/install.sh | bash
+65:docs/get-started/tutorials/local-inference-lmstudio.mdx:40:irm https://lmstudio.ai/install.ps1 | iex
+67:docs/get-started/tutorials/local-inference-lmstudio.mdx:48:lms daemon up
+69:docs/get-started/tutorials/local-inference-lmstudio.mdx:70:lms get qwen/qwen3.5-2b
+70:docs/get-started/tutorials/local-inference-lmstudio.mdx:71:lms load qwen/qwen3.5-2b
+71:docs/get-started/tutorials/local-inference-lmstudio.mdx:85:    --name lmstudio \
+72:docs/get-started/tutorials/local-inference-lmstudio.mdx:87:    --credential OPENAI_API_KEY=lmstudio \
+73:docs/get-started/tutorials/local-inference-lmstudio.mdx:101:    --name lmstudio-anthropic \
+74:docs/get-started/tutorials/local-inference-lmstudio.mdx:103:    --credential ANTHROPIC_API_KEY=lmstudio \
+75:docs/get-started/tutorials/local-inference-lmstudio.mdx:123:openshell inference set --provider lmstudio --model qwen/qwen3.5-2b
+76:docs/get-started/tutorials/local-inference-lmstudio.mdx:133:openshell inference set --provider lmstudio-anthropic --model qwen/qwen3.5-2b
+77:docs/get-started/tutorials/local-inference-lmstudio.mdx:152:You should see either `Provider: lmstudio` or `Provider: lmstudio-anthropic`, along with `Model: qwen/qwen3.5-2b`.
+78:docs/get-started/tutorials/local-inference-lmstudio.mdx:206:openshell provider get lmstudio
+79:docs/get-started/tutorials/local-inference-lmstudio.mdx:207:openshell provider get lmstudio-anthropic
+80:docs/get-started/tutorials/local-inference-lmstudio.mdx:212:- To learn more about using the LM Studio CLI, refer to [LM Studio docs](https://lmstudio.ai/docs/cli)
+85:docs/kubernetes/access-control.mdx:39:  --set server.oidc.issuer=https://your-idp.example.com/realms/openshell \
+86:docs/kubernetes/access-control.mdx:68:  --set server.oidc.issuer=https://your-idp.example.com/realms/openshell \
+87:docs/kubernetes/setup.mdx:135:  --oidc-issuer https://your-idp.example.com/realms/openshell \
+88:docs/reference/gateway-auth.mdx:81:  --oidc-issuer https://idp.example.com/realms/openshell \
+89:docs/reference/gateway-auth.mdx:105:    issuer: https://idp.example.com/realms/openshell
+90:docs/reference/gateway-auth.mdx:118:  --oidc-issuer https://idp.example.com/realms/openshell \
+91:docs/reference/gateway-config.mdx:164:issuer        = "https://idp.example.com/realms/openshell"
+92:docs/reference/gateway-config.mdx:342:For the default encrypted database store, OpenShell stores provider credentials as JSON envelopes encrypted with AES-256-GCM in the gateway database. Each credential gets a random data-encryption key; the gateway wraps that key with a local key-encryption key. By default, the key-encryption key is created at `$XDG_STATE_HOME/openshell/gateway/credentials/key-encryption-key.bin` with owner-only permissions. Use `[openshell.gateway.credential_storage] key_encryption_key_env` instead of `key_encryption_key_path` to load a base64-encoded 32-byte key-encryption key from an environment variable. Back up the database and key-encryption key together; losing either makes stored credentials unrecoverable. In Kubernetes, the Helm chart creates a retained Secret containing the shared key-encryption key, injects it as `OPENSHELL_GATEWAY_CREDENTIAL_KEY_ENCRYPTION_KEY`, and renders `key_encryption_key_env` for the gateway when no external credential driver is enabled. Multi-replica deployments need every replica to use the same database and key-encryption key; the chart default handles the key-encryption key side.
+93:docs/sandboxes/inference-routing.mdx:337:- To follow a complete LM Studio-based local setup, refer to [Local Inference LM Studio](/get-started/tutorials/local-inference-lmstudio).
+94:docs/sandboxes/manage-providers.mdx:368:| LM Studio (local) | `lmstudio` | `openai` | `http://host.openshell.internal:1234/v1` | `OPENAI_API_KEY` |
+95:docs/sandboxes/providers-v2.mdx:220:      token_endpoint: https://login.example.com/realms/custom/protocol/openid-connect/token
+96:docs/sandboxes/providers-v2.mdx:222:      jwt_svid_audience: https://login.example.com/realms/custom
+97:docs/sandboxes/providers-v2.mdx:435:handles. By default, the gateway stores AES-256-GCM encrypted credential
+98:e2e/python/oidc/helpers.py:39:        idx = issuer.find("/realms/")
+99:e2e/python/oidc/helpers.py:50:            idx = issuer.find("/realms/")
+100:e2e/python/oidc/helpers.py:57:    f"{keycloak_url()}/realms/{KEYCLOAK_REALM}/protocol/openid-connect/token"
+101:e2e/rust/tests/oidc_pkce.rs:964:        .unwrap_or_else(|_| "http://localhost:8180/realms/openshell".to_string());
+102:e2e/with-keycloak.sh:52:export OPENSHELL_E2E_OIDC_ISSUER="${OPENSHELL_E2E_OIDC_ISSUER:-http://localhost:${KEYCLOAK_PORT}/realms/openshell}"
+103:proto/openshell.proto:1435:  // OAuth2 token endpoint URL (e.g., https://keycloak.example.com/realms/my-realm/protocol/openid-connect/token)
+104:python/openshell/sandbox_test.py:287:                "issuer": "https://idp.example/realms/openshell",
+105:python/openshell/sandbox_test.py:533:    issuer: str = "https://idp.example/realms/openshell",
+106:python/openshell/sandbox_test.py:547:DEFAULT_ISSUER = "https://idp.example/realms/openshell"
+107:python/openshell/sandbox_test.py:549:    "https://idp.example/realms/openshell/protocol/openid-connect/token"
+108:python/openshell/sandbox_test.py:704:    new_issuer = "https://other-idp.example/realms/openshell"
+109:python/openshell/sandbox_test.py:1025:            "issuer": "https://evil.example/realms/openshell",
+110:rfc/0003-gateway-configuration/README.md:106:issuer        = "https://idp.example.com/realms/openshell"
+111:scripts/keycloak-dev.sh:107:            "http://localhost:${KEYCLOAK_PORT}/realms/openshell/.well-known/openid-configuration" \
+112:scripts/keycloak-dev.sh:149:    local issuer="http://localhost:${KEYCLOAK_PORT}/realms/openshell"
+113:scripts/lint-mermaid/package-lock.json:18:      "integrity": "sha512-MGQsmw10ZyI+EJo45CdSER4zEb+p31LpDAFp2Z3gkSd1yqVZGi0Ebx++YTEMonJy4oChEMLsxZ64j8FH6sSqtQ==",
+114:scripts/lint-mermaid/package-lock.json:31:      "integrity": "sha512-K1A6z8tS3XsmCMM86xoWdn7Fkdn9m6RSVtocUrJYIwZnFVkng/PvkEoWtOWmP+Scc6saYWHWZYbndEEXxl24jw==",
+115:scripts/lint-mermaid/package-lock.json:44:      "integrity": "sha512-jigsZK+sMF/cuiB7sERuo9V7N9jx+dhmHHnQyDSVdpZwVutaBu7WvNYqMDLSgFgfB30n452TP3vjDAvFC973mA==",
+116:scripts/lint-mermaid/package-lock.json:50:      "integrity": "sha512-U+HFai5+zmJCkK86QsaJtoITlboZHBqrVketcO2ROv865xfCMSFpELQoz1GkX5GzME8pTa+3kbKrZHQtI0gdbw=="
+117:scripts/lint-mermaid/package-lock.json:55:      "integrity": "sha512-S11EXWJyy0Mz5SYvRmY8nJYTFFd1LCNV+7cXyAgQtOOuzb4EsgfqDufL+9esx72/eLhsRdGZwaldu/h+E4t4BA==",
+118:scripts/lint-mermaid/package-lock.json:74:      "integrity": "sha512-3N8oaj+0juUw/1H3YwmDDJXCgTB1gKU6Hc/bB502u9zR0q2vd786XJH9QfrKIEgFlZmhZiq6epXl4rHqhzsIgQ==",
+119:scripts/lint-mermaid/package-lock.json:97:      "integrity": "sha512-nbtKwh3a6xNVIp/VRuXV64yTKnb1IjTAEEh3irzS+HkKjAOYLTGNb9pmVNntZ8iVBHcWDA2Dof0QtPgFI1BaTA==",
+120:scripts/lint-mermaid/package-lock.json:124:      "integrity": "sha512-DaDeUkXZKjdGhgYaHNJTV9pV7Y9B3b644jCLs9Upc3VeNGg6LWARAT6O+Q+/COo+2gg/bM5rhpMAtf70WqfBdQ==",
+121:scripts/lint-mermaid/package-lock.json:146:      "integrity": "sha512-Vd/9EVDiu6PPJt9yAh6roZP6El1xHrdvIVGjyBsHR0RYwNHgL7FJPyIIW4fANJNG6FtyZfvlRPpFI4ZM/lubvw==",
+122:scripts/lint-mermaid/package-lock.json:165:      "integrity": "sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==",
+123:scripts/lint-mermaid/package-lock.json:171:      "integrity": "sha512-Zlzem1ZXhI1iHeeERabLNzBHdOa4VhQbqAcOQaMKuTuyZCpwKbC2R4Dd0Zo3g9EAc+Y4fiarO8HIHRAth7+skw==",
+124:scripts/lint-mermaid/package-lock.json:182:      "integrity": "sha512-oYPyv8A4As1yH5Bx+04iQEQxXuIQDe0GKCNSRgao6z8AM9jixXIfP0vsppRLvGf+nKIOb9/LdpWA4YuJiVvESA==",
+125:scripts/lint-mermaid/package-lock.json:190:      "integrity": "sha512-lZXZ9ckh5R8uiFVt8ogUNf+pIrK4EsWrx2Np75WvF/eTpJ0FMHNhjXk8CKEx/+gpHbNQyJWehbFaTvqmHWB3ww==",
+126:scripts/lint-mermaid/package-lock.json:228:      "integrity": "sha512-hOLWVbm7uRza0BYXpIIW5pxfrKe0W+D5lrFiAEYR+pb6w3N2SwSMaJbXdUfSEv+dT4MfHBLtn5js0LAWaO6otw==",
+127:scripts/lint-mermaid/package-lock.json:234:      "integrity": "sha512-pYeijfZuBd87T0hGn0FO1vQ/cgLk6E1ALJjfkC0oJ8cbwkZl3TpgS8bVBLZN+2jjGgg38epgxb2zmoGtSfvgMw==",
+128:scripts/lint-mermaid/package-lock.json:243:      "integrity": "sha512-nH60IZNNxEcrh6L1ZSMNA28rj27ut/2ZmI3r96Zd+1jrZD++zD3LsMIjWlvg4AYrHn/Pqz4CF3veCxGjtbqt7A==",
+129:scripts/lint-mermaid/package-lock.json:252:      "integrity": "sha512-LFYWWd8nwfwEmTZG9PfQxd17HbNPksHBiJHaKuY1XeqscXacsS2tyoo6OdRsjf+NQYeB6XrNL3a25E3gH69lcg==",
+130:scripts/lint-mermaid/package-lock.json:258:      "integrity": "sha512-iO90scth9WAbmgv7ogoq57O9YpKmFBbmoEoCHDB2xMBY0+/KVrqAaCDyCE16dUspeOvIxFFRI+0sEtqDqy2b4A==",
+131:scripts/lint-mermaid/package-lock.json:264:      "integrity": "sha512-BjzLgXGnCWjUSYGfH1cpdo41/hgdWETu4YxpezoztawmqsvCeep+8QGfiY6YbDvfgHz/DkjeIkkZVJavB4a3rg==",
+132:scripts/lint-mermaid/package-lock.json:274:      "integrity": "sha512-ZMaSKu4THYCU6sV64Lhg6qjf1orxBthaC161plr5KuPHo3CNm8DTHiLw/5Eq2b6TsNP0W0iJrUOFscY6Q450Hw==",
+133:scripts/lint-mermaid/package-lock.json:280:      "integrity": "sha512-5o9OIAdKkhN1QItV2oqaE5KMIiXAvDWBDPrD85e58Qlz1c1kI/J0NcqbEG88CoTwJrYe7ntUCVfeUl2UJKbWgA==",
+134:scripts/lint-mermaid/package-lock.json:286:      "integrity": "sha512-HE3jVKlzU9AaMazNufooRJ5ZpWmLIoc90A37WU2JMmeq28w1FQqCZswHZ3xR+SuxYftzHq6WU6KJHvqxKzTxxQ==",
+135:scripts/lint-mermaid/package-lock.json:295:      "integrity": "sha512-n6QBF9/+XASqcKK6waudgL0pf/S5XHPPI8APyMLLUHd8NqouBGLsU8MgtO7NINGtPBtk9Kko/W4ea0oAspwh9g==",
+136:scripts/lint-mermaid/package-lock.json:301:      "integrity": "sha512-NcV1JjO5oDzoK26oMzbILE6HW7uVXOHLQvHshBUW4UMdZGfiY6v5BeQwh9a9tCzv+CeefZQHJt5SRgK154RtiA==",
+137:scripts/lint-mermaid/package-lock.json:307:      "integrity": "sha512-fTAfNmxSb9SOWNB9IoG5c8Hg6R+AzUHDRlsXsDZsNp6sxAEOP0tkP3gKkNSO/qmHPoBFTxNrjDprVHDQDvo5aA==",
+138:scripts/lint-mermaid/package-lock.json:316:      "integrity": "sha512-ZYeSaCF3p73RdOKcjj+swRlZfnYpK1EbaDiYICEEp5Q6sUiqFaFQ9qgoshp5CzIyyb/yD09kD9o2zEltCexlgw==",
+139:scripts/lint-mermaid/package-lock.json:322:      "integrity": "sha512-fALi2aI6shfg7vM5KiR1wNJnZ7r6UuggVqtDA+xiEdPZQwy/trcQaHnwShLuLdta2rTymCNpxYTiMZX/e09F4g==",
+140:scripts/lint-mermaid/package-lock.json:328:      "integrity": "sha512-856sckF0oP/diXtS4jNsiQw/UuK5fQG8l/a9VVLeSouf1/PPbBE1i1W852zVwKwYCBkFJJB7nCFTbk6UMEXBOQ==",
+141:scripts/lint-mermaid/package-lock.json:337:      "integrity": "sha512-tJFtNoYBtRtkNysX1Xq4sxtjK8YgoWUNpIiUee0/jHGRwqvzYxkq0hGVbbOGSz+JgFxxRu4K8nb3YpG3CMARtg==",
+142:scripts/lint-mermaid/package-lock.json:343:      "integrity": "sha512-mgLPETlrpVV1YRJIglr4Ez47g7Yxjl1lj7YKsiMCb27VJH9W8NVM6Bb9d8kkpG/uAQS5AmbA48q2IAolKKo1MA==",
+143:scripts/lint-mermaid/package-lock.json:352:      "integrity": "sha512-VMZBYyQvbGmWyWVea0EHs/BwLgxc+MKi1zLDCONksozI4YJMcTt8ZEuIR4Sb1MMTE8MMW49v0IwI5+b7RmfWlg==",
+144:scripts/lint-mermaid/package-lock.json:358:      "integrity": "sha512-ZuWOtMaHCkN9xoeEMr1ubW2nGWsp4nIql+OPQRstu4ypeZ+zk3YKqQT0CXVe/PYqrKpZAi+J9mTs05TKwjXSRA==",
+145:scripts/lint-mermaid/package-lock.json:364:      "integrity": "sha512-oUzyO1/Zm6rsxKRHA1vH0NEDG58HrT5icx/azi9MF1TWdtttWl0UIUsjEQBBh+SIkrpd21ZjEv7ptxWys1ncsg==",
+146:scripts/lint-mermaid/package-lock.json:370:      "integrity": "sha512-Imagg1vJ3y76Y2ea0871wpabqp613+8/r0mCLEBfdtqC7xMSfj9idOnmBYyMoULfHePJyxMAw3nWhJxzc+LFwQ==",
+147:scripts/lint-mermaid/package-lock.json:376:      "integrity": "sha512-dLmtwB8zkAeO/juAMfnV+sItKjlsw2lKdZVVy6LRr0cBmegxSABiLEpGVmSJJ8O08i4+sGR6qQtb6WtuwJdvVw==",
+148:scripts/lint-mermaid/package-lock.json:385:      "integrity": "sha512-iWMJgwkK7yTRmWqRB5plb1kadXyQ5Sj8V/zYlFGMUBbIPKQScw+Dku9cAAMgJG+z5GYDoMjWGLVOvjghDEFnKQ==",
+149:scripts/lint-mermaid/package-lock.json:391:      "integrity": "sha512-bhAXu23DJWsrI45xafYpkQ4NtcKMwWnAC/vKrd2l+nxMFuvOT3XMYTIj2opv8vq8AO5Yh7Qac/nSeP/3zjTK0w==",
+150:scripts/lint-mermaid/package-lock.json:397:      "integrity": "sha512-lae0iWfcDeR7qt7rA88BNiqdvPS5pFVPpo5OfjElwNaT2yyekbM0C9vK+yqBqEmHr6lDkRnYNoTBYlAgJa7a4w==",
+151:scripts/lint-mermaid/package-lock.json:406:      "integrity": "sha512-yuzZug1nkAAaBlBBikKZTgzCeA+k1uy4ZFwWANOfKw5z5LRhV0gNA7gNkKm7HoK+HRN0wX3EkxGk0fpbWhmB7g==",
+152:scripts/lint-mermaid/package-lock.json:412:      "integrity": "sha512-5xg9rC+wWL8kdDj153qZcsJ0FWiFt0J5RB6LYUNZjwSnesfblqrI/bJ1wBdJ8OQfncgbJG5+2F+qfqnqyzYxyg==",
+153:scripts/lint-mermaid/package-lock.json:418:      "integrity": "sha512-Ps3T8E8dZDam6fUyNiMkekK3XUsaUEik+idO9/YjPtfj2qruF8tFBXS7XhtE4iIXBLxhmLjP3SXpLhVf21I9Lw==",
+154:scripts/lint-mermaid/package-lock.json:424:      "integrity": "sha512-uZS5shfxzO3rGlu0cC3bjmMFKsXv+SmZZcgp0KD22ts4uGXp5EVYGzu/0YdwZeKmddhcAccYtREJKkPfXkZuCg==",
+155:scripts/lint-mermaid/package-lock.json:433:      "integrity": "sha512-iqMC4/YlFCSlO8+2Ii1GGGliCAY4XdeG748w5vQUbevlbDu0zSjH/+jojorQVBK/se0j6DUFNPBGSqD3YWYnDw==",
+156:scripts/lint-mermaid/package-lock.json:443:      "integrity": "sha512-6C8nqWur3j98U6+lXDfTUWIfgvZU+EumvpHKcYjujKH7woYyLj2sUmff0tRhrqM7BohUw7Pz3ZB1jj2gW9Fvmg==",
+157:scripts/lint-mermaid/package-lock.json:449:      "integrity": "sha512-ScaPdn1dQczgbl0QFTeTOmVHFULt394XJgOQNoyVhZ6r2vLnMLJfBPd53SB52T/3G36VI1/g2MZaX0cwDuXsfw==",
+158:scripts/lint-mermaid/package-lock.json:456:      "integrity": "sha512-WbBhLrooyePuQ1VZxrJjtLvTc4NVfpOyKx0sKqioq9bX1C1m7Jgykkn8gLrtwumBioXIqam8DLxp88Adbue6Hw==",
+159:scripts/lint-mermaid/package-lock.json:466:      "integrity": "sha512-UVJyE9MttOsBQIDKw1skb9nAwQuR5wuGD3+82K6JgJlm/Y+KI92oNsMNGZCYdDsVtRHSak0pcV5Dno5+4jh9sw==",
+160:scripts/lint-mermaid/package-lock.json:478:      "integrity": "sha512-MnA+YT8fwfJPgBx3m60MNqakm30XOkyIoH1y6huTQvC0PwZG7ki8NacLBcrPbNoo8vEZy7Jpuk7+jMO+CUovTQ==",
+161:scripts/lint-mermaid/package-lock.json:487:      "integrity": "sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==",
+162:scripts/lint-mermaid/package-lock.json:493:      "integrity": "sha512-Sp1ablJ0ivDkSzjcaJdxEunN5/XvksFJ2sMBFfq6x0ryhQV/2b/KwFe21cMpmHtPOSij8K99/wSfoEuTObmuMQ==",
+163:scripts/lint-mermaid/package-lock.json:506:      "integrity": "sha512-FQN4MRfuJeHf7cBbBMJFXhKSDq+2kAArBlmRBvcvFE5BB1HZKXtSFASDhdlz9zOYwxh8lDdnvmMOe/+5cdoEdg==",
+164:scripts/lint-mermaid/package-lock.json:518:      "integrity": "sha512-QrWXB+ZQSVPmIWIhtEO9H+gwHaMGYiF5ChvoJ+K9ZGHG/sVsa6yiesAD1GC/x46sET00Xlwo1u49RVVVzvcSkw==",
+165:scripts/lint-mermaid/package-lock.json:527:      "integrity": "sha512-RMtmw0iFkeR4YV+fUOSucriAQNb9g8zFR52MWCtl+cCZOFRNL6zeB395vPzFhEjjn4fMxXudmELnl/KF/WrK6w==",
+166:scripts/lint-mermaid/package-lock.json:533:      "integrity": "sha512-s9whTXInMSgAp/NVXVNuVxVKzGH2qck3aQlVHxDCdAEPgtMKwc4Wq6/QKhgdEdgbLSi9rBTAcPoRa6JpiG4ksg==",
+167:scripts/lint-mermaid/package-lock.json:542:      "integrity": "sha512-2z+rWdzbbSZv6/rhtvzvqeZQHrBaqgogqt85sqFNbabZOuFbCVFb8kPeEtZjiKkbrm395irpNKiYeFeLiQnFPg==",
+168:scripts/lint-mermaid/package-lock.json:555:      "integrity": "sha512-guoltQEx+9aMf2gDZ0s62EcV8lsXR+0w8915TC3ITdn2YueuNjdAYh/levpU9nFaoChh9RUS5ZdQMrKfVEN9tw==",
+169:scripts/lint-mermaid/package-lock.json:561:      "integrity": "sha512-62rNSrioXw93uliKFBwjukeQyeWwH2PqDrTac31r2P6464u3AUvTk0xS4LVvT251g7IgkFunrI48ZEZGjywSOg==",
+170:scripts/lint-mermaid/package-lock.json:569:      "integrity": "sha512-wgQlVIUJF13Quxiv5e1gstZ08rnZj2XaLHGoFMYXz7SkNfCDOOteKBE6SYRfA9WxxI/iBc3ajfDoc6hb/MRAHQ==",
+171:scripts/lint-mermaid/package-lock.json:581:      "integrity": "sha512-ki1/VuRIHFCzxWNrsshHYPs6L7TvLu3DL+TyIGEsRcvVERmxokbf5Gdk7mFxZnTdiGtnA4cfSmjZJMviqSuZrQ==",
+172:scripts/lint-mermaid/package-lock.json:593:      "integrity": "sha512-AzlgcsCbUMymkADOJtQm3wO9S3ltPfYOFD5033keQn9NJzIbtnZj+UdBJe7DYml/8TdbtHJW3j58SOnKhWY/5g==",
+173:scripts/lint-mermaid/package-lock.json:602:      "integrity": "sha512-dp3s92+uNI1hWIpPGH3jK2kxE2lMjdXdr+DH8ynZHpd6PUlH6x6cbuXnoMmiNumznqaNO31xu9e79F0uuZ0JFg==",
+174:scripts/lint-mermaid/package-lock.json:608:      "integrity": "sha512-e1U46jVP+w7Iut8Jt8ri1YsPOvFpg46k+K8TpCb0P+zjCkjkPnV7WzfDJzMHy1LnA+wj5pLT1wjO901gLXeEhA==",
+175:scripts/lint-mermaid/package-lock.json:649:      "integrity": "sha512-tdQAmyA18i4J7wprpYq8ClcxZy3SC31QMeByyCFyRt7BVHdREQZ5lpzoe5mFEYZUWe+oq8HBvk9JjpibyEV4Jg==",
+176:scripts/lint-mermaid/package-lock.json:661:      "integrity": "sha512-IH5tgjV4jE/GhHkRV0HiVYPDtvfjHQlQfJHs0usq7M30XcSBvOotpmH1IgkcXsO/5gEQZD43B//fc7SRT5S+xw==",
+177:scripts/lint-mermaid/package-lock.json:670:      "integrity": "sha512-ALnjWlVYkXsVIGlOsuWH1+3udkYFI48Ljihfnh8FZPF2QS9o+PzGLBslO0PjzVoHLZ2KCVgAM8NVkXPJB2aNnQ==",
+178:scripts/lint-mermaid/package-lock.json:686:      "integrity": "sha512-VE5S6TNa+j8msksl7HwjxMHDM2yNK3XCkusIlpX5kwauBfXuyLAtNg9jCp/iHH61tgI4sb6R/EIMWCqEIdjT/g==",
+179:scripts/lint-mermaid/package-lock.json:698:      "integrity": "sha512-zg/chbXyeBtMQ1LbD/WSoW2DpC3I0mpmPdW+ynRTj/x2DAWYrIY7qeZIHidozwV24m4iavr15lNwIwLxRmOxhA==",
+180:scripts/lint-mermaid/package-lock.json:707:      "integrity": "sha512-4EzFTRIikzs47RGmdxbeUvLWtGedDUNkTcmzoeyg4sP/dvCexO47AaQL7VKy/gul85TOxw+IBgA8US2xwbToNA==",
+181:scripts/lint-mermaid/package-lock.json:719:      "integrity": "sha512-mdjtIZ1XLAM8bm/hx3WwjfHt6Sggek7qH043O8KEjDXN40xi3vx/6pYSVTwLjEgiXQTbvaouWKynLBiUZ6SK6A==",
+182:scripts/lint-mermaid/package-lock.json:731:      "integrity": "sha512-rzUyPU/S7rwUflMyLc1ETDeBj0NRuHKKAcvukozwhshr6g6c5d8zh4c2gQjY2bZ0dXeGLWc1PF174P2tVvKhfg==",
+183:scripts/lint-mermaid/package-lock.json:740:      "integrity": "sha512-pWbUJLdETVA8lQNJecMxoXfH6x+mO2UQo8rSmZ+QqxcbyA3hfeprFgIT//HW2nlHChWeIIMwS2Fq+gEARkhTkg==",
+184:scripts/lint-mermaid/package-lock.json:753:      "integrity": "sha512-UG6OvdI5afDIFP9w4G0mNq50dSOsXHJaRE8arAS5o9ApWnIElp8GZw1Dun8vP8OyHOZ/QJUKUJwxiiCCnUwm+Q==",
+185:scripts/lint-mermaid/package-lock.json:778:      "integrity": "sha512-wR/XK3D3XcLIZwpbvQwQ5fK+8Ykds1ip7A2Txe0yxncXSdq1L9skcG7blcedkOX+ZcgxGAmLX1FrRGbADwzi0w==",
+186:scripts/lint-mermaid/package-lock.json:787:      "integrity": "sha512-kpkQIM20n3oLVBKGg6oHrUchHM3xODkTzjMoj7aWQFq5QEM+R6E4WkzT5+tojDY7yjez8KgCBRoj4aEr99Fdqw==",
+187:scripts/lint-mermaid/package-lock.json:799:      "integrity": "sha512-zxV/SsA+U4yte8051P4ECydjD/S+qeYtnaIyAs9tgHCqfguma/aAQDjo85A9Z6EKhBirHRJHXIgJUlffT4wdLg==",
+188:scripts/lint-mermaid/package-lock.json:813:      "integrity": "sha512-AJDdYOdnyRDV5b6ArilzCPPwc1ejkHcoyFarqlPqT7zRYjhavcT3uSrqcMvsgh2CgoPbK3RCwyHaVyxYcP2Arg==",
+189:scripts/lint-mermaid/package-lock.json:822:      "integrity": "sha512-637ln3gXKXOwhalDzinUgY83KzNWZRKbYubaG+fGVuc/dxO64RRljtCTnf5ecMyE1RIdtqpkVcq0IbtU2S8j2Q==",
+190:scripts/lint-mermaid/package-lock.json:834:      "integrity": "sha512-FX/9frcub54beBdugHjDCdikxThEqjnR93Qt7PvQTOHxyiNCAlvMrHhclk3cD5VeAaq9fxmfRp+CnWw9rEMBuA==",
+191:scripts/lint-mermaid/package-lock.json:843:      "integrity": "sha512-3bYs1rOD33uo8aqJfKP3JWPAibgw8Zm2+L9vBKEHJ2Rg+viTR7o5Mmv5mZcieN+FRYaAOWX5SJATX6k1PWz72g==",
+192:scripts/lint-mermaid/package-lock.json:855:      "integrity": "sha512-p3KP5HCf/bvjBSSKuXid6Zqijx7wIfNW+J/maPs+iwR35at5JCbLUT0LzF1cnjbCHWhqzQTIN2Jpe8pRebIEFQ==",
+193:scripts/lint-mermaid/package-lock.json:864:      "integrity": "sha512-3vbA7vXYwfe1SYhED++fPUQlWSYTTGmFmQiany/gdbiWgU/iEyQzyymwL9SkJjFFuCS4902BSzewVGsHHmHtXg==",
+194:scripts/lint-mermaid/package-lock.json:873:      "integrity": "sha512-04xDrxQTDTCFwP5H6hRhsRcb9xxv2RzkcsygFzmkSIOJy3PeRJP7sNk3VRIbKXcog561P9oU0/rVH6vDROAgUw==",
+195:scripts/lint-mermaid/package-lock.json:882:      "integrity": "sha512-FXMe9GfxTxqd5D6jFsQ+DJ8BJS4E/fT5mqqdjovykEB2oFbTMDVdg1MGFxfQW+FBOGoB++k8swBrgwSHT1cUXQ==",
+196:scripts/lint-mermaid/package-lock.json:891:      "integrity": "sha512-nQhsBRmM19Ax5xEIPLMY9ZmJ/cDvd1BG3UVvt5h3WRxKg5zGRbvnteTyWAbzeSvlh3tW7ZEmq4VwR5mB3tutmQ==",
+197:scripts/lint-mermaid/package-lock.json:901:      "integrity": "sha512-B0ErZK/66mHtEsR1TkPEEkwdy+WDesimkM5gpZr5Dsg54BiTA5RXtYW5qTLIAcekaS9xfZrzBLF/OAkB3Qn1YQ==",
+198:scripts/lint-mermaid/package-lock.json:910:      "integrity": "sha512-VLaYcn81dtHVTjEHd8B+pbe9yHWpXKZUC87PzoFmsFrJqgFwDe/qxfp5MlfsfM1V5E/iVt0MmEbWQ7FVIXh/bg==",
+199:scripts/lint-mermaid/package-lock.json:916:      "integrity": "sha512-EUkvKjqPFUAZyOlhY5gzCxCeI0Aep04LwIRpsZ/mLFelJiUfnK56jo5JMDSE7yyP2kLSb6LtF+S5chMk7uqPqw==",
+200:scripts/lint-mermaid/package-lock.json:925:      "integrity": "sha512-lDB5YccMydFBtasVtxnZ3MRBHuaoE8GKsppq+EchKL2U4nK/DmEpPHNH8MZe5HkMtpSiTSOZwfN0tzYjO/lJEw==",
+201:scripts/lint-mermaid/package-lock.json:931:      "integrity": "sha512-GZW464g1SH7ag3Y7hXjf8RoUuAFIqklOAq3MRl4OaWabTFJY9PN/E1YklhXLh+OQ3fM9yS2nOkCoS+WLZ6kvxQ==",
+202:scripts/lint-mermaid/package-lock.json:947:      "integrity": "sha512-A3s5PWiZ9YCXFye1o246KoscMWqf8BsD9eRiJ3He7C9OBaxKhAd5TFCdEx/7VbKtxxTsu//1mMJFrEt572cEyQ==",
+203:scripts/lint-mermaid/package-lock.json:960:      "integrity": "sha512-fmTRWbNMmsmWq6xJV8D19U/gw/bwrHfNXxrIN+HfZgnzqTHp9jOmKMhsTUjXOJnZOdZY9Q28y4yebKzqDKlxlQ==",
+204:scripts/lint-mermaid/package-lock.json:969:      "integrity": "sha512-SaLBuwGm3MOViRq2ABk3eLoxwZELpH6zhl3FbAoJ7Vm1gofKx6El1Ib5z23NUEhF9AsGl7y+dzLe5Cw2AArGTA==",
+205:scripts/lint-mermaid/package-lock.json:981:      "integrity": "sha512-VqKjzBLejbSMT4IgbmVgDjpkYrNWUYJnbCGo874u7MMKIWsILRX+OpX/gTk8MqjpT1A/c6HY2dCA77ZN0lkQ2Q==",
+206:scripts/lint-mermaid/package-lock.json:993:      "integrity": "sha512-dJxPBlzC7NugB2PDLwo9Q8JiTR3M3e4/XANkreKSUxF8vvXKqm1Yfq4Q5dl8budlunRVlUUaDUgFt7eA8D6NLg==",
+207:scripts/lint-mermaid/package-lock.json:1005:      "integrity": "sha512-ndfJ/JxxMd3nw31uyKoY2naivF+r29V+Lc0svZxe1JvvIRmi8hUsrMvdOwgS1o6uBHmiz91geQ0ylPP0aj1VUA==",
+208:scripts/lint-mermaid/package-lock.json:1014:      "integrity": "sha512-ApKvfjsSR6tg06xrL434C0WydLr7JewBB3V+/39RMHsaXTOG0zmt/OAXeng5M5LBm0ojmxJrpomQVZ1aPvBL4w==",
+209:scripts/lint-mermaid/package-lock.json:1033:      "integrity": "sha512-b8AmV3kfQaqWAuacbPuNbL6vahnOJflOhexLzMMNLga62+/nh0JzvJ0aO/5a5MVgUFGS7Hu1P9P03o3fJkDCyw==",
+210:scripts/lint-mermaid/package-lock.json:1049:      "integrity": "sha512-P4rFMVq9ESWqmOgK+dlXvOtLwYg0i7u0HBGJER0LZDJT2VHIPAMZ/riPxqJceWMStH5+E61QxFra9kIS3AqdMg==",
+211:scripts/lint-mermaid/package-lock.json:1059:      "integrity": "sha512-ZYP5VBHshaDAiVZxjbRVcFJpc+4xGgT0bK3vzy1HLN8jTO975HEbuYzZJcHoQEY5K1a0z8YayJkyVETa08eNTg==",
+212:scripts/lint-mermaid/package-lock.json:1072:      "integrity": "sha512-YbwwqR/uYpeoP4pu043q+LTDLFBLApUP6VxRihdfNTqu4ubqMlGDLd6ErXhEgsyvY0K6nCs7nggYumAN+9uEuQ==",
+213:scripts/lint-mermaid/package-lock.json:1078:      "integrity": "sha512-RGwwWnwQvkVfavKVt22FGLw+xYSdzARwm0ru6DhTVA3umU5hZc28V3kO4stgYryrTlLpuvgI9GiijltAjNbcqA==",
+214:scripts/lint-mermaid/package-lock.json:1095:      "integrity": "sha512-YpgQiITW3JXGntzdUmyUR1V812Hn8T1YVXhCu+wO3OpS4eU9l4YdD3qjyiKdV6mvV29zapkMeD390UVEf2lkUg==",
+215:scripts/lint-mermaid/package-lock.json:1101:      "integrity": "sha512-AGrQ4QSgssa1NGmWmLPqN5NY2KajF5MqxetNEO+o0n3ZwZZeTmt7bBnvzHWrmkZFxGgr4HdyFgelzgi06otLuQ==",
+216:scripts/lint-mermaid/package-lock.json:1110:      "integrity": "sha512-ZySD7Nf91aLB0RxL4KGrKHBXl7Eds1DAmEdcoVawXnLD7SDhpNgtuII2aAkg7a7QS41jxPSZ17p4VdGnMHk3MQ==",
+217:scripts/lint-mermaid/package-lock.json:1119:      "integrity": "sha512-zQvGet8Z2sWbQhCmfFz/T5QWH2oBmjnqK3qvOjaqaNLrLEF912WamU+ohnTp0TCep/MFVHpdJuCZEdFOdTnEFg==",
+218:scripts/lint-mermaid/package-lock.json:1128:      "integrity": "sha512-KIN/nDJBQRcXw0MLVhZE9iQHmG68qAVIBg9CqmUYjmQIhgij9U5MFvrqkUL5FbtyyzZuOeOt0zdeRe4UY7ct+A==",
+219:scripts/lint-mermaid/package-lock.json:1142:      "integrity": "sha512-aN97NXWF6AWBTahfVOIrB/NShkzi5H7F9r1s9mD3cDj4Ko5f2qhhVoYMibXF7GlLveb/D2ioWay8lxI97Ven3g==",
+220:scripts/lint-mermaid/package-lock.json:1154:      "integrity": "sha512-e3nRfgfUZ4rNGL232gUgX06QNyyez04KdjFrF+LTRoOXmrOgFKDg4BCdsjW8EnT69eqdYGmRpJwiPVYNrCaW3g==",
+221:scripts/lint-mermaid/package-lock.json:1163:      "integrity": "sha512-Zf5H2Kxt2xjTvbJvP2ZWLEICxA6j+hAmMzIlypy4xcBg1vKVnx89Wy0GbS+kf5cwCVFFzdCFh2XSCFNULS6csw==",
+222:scripts/lint-mermaid/package-lock.json:1172:      "integrity": "sha512-FGgH2h8zKNim9ljj7dankFPcICIK9Cp5bm+c2gQSYePhpaG5+esrLODihIorn+Pe6FGJzWhXQotPv73jTaldXA==",
+223:scripts/lint-mermaid/package-lock.json:1184:      "integrity": "sha512-j6vWzfrGVfyXxge+O0x5sh6cvxAog0a/4Rdd2K36zCMV5eJ+/+tOAngRO8cODMNWbVRdVlmGZQL2YS3yR8bIUA==",
+224:scripts/lint-mermaid/package-lock.json:1199:      "integrity": "sha512-OyZKhUVvEep9ITEiwHn8GKnMRQIVqoSIX7WnRbkWgJkllCujilqP2rD0u979tkl8wqyc8ICwlc1UBVv/Sl1G6w=="
+225:scripts/lint-mermaid/package-lock.json:1204:      "integrity": "sha512-vKatAh4SlVfgbv+YtmhiRjhEMJsYpsG1Y2rMQtR+SVSbytsSD1YGzDIcrAJmdFec88u/+VoGmxnl+80gL1tRCQ==",
+226:scripts/lint-mermaid/package-lock.json:1219:      "integrity": "sha512-7XHNxH7qX9xG5mIwxkhumTox/MIRNcOgDrxWsMt2pAr23WHp6MrRlN7FBSFpCpr+oVO0F744iUgR82nJMfG2SA==",
+227:scripts/lint-mermaid/package-lock.json:1228:      "integrity": "sha512-9fSjSaos/fRIVIp+xSJlE6lfwhES7LNtKaCBIamHsjr2na1BiABJPo0mOjjz8GJDURarmCPGqaiVg5mfjb98CQ==",
+228:scripts/lint-mermaid/package-lock.json:1252:      "integrity": "sha512-sTSfBjoXBp89JvIKIefqw7U2CCebsc74kiY6awiGogKtoSGbgjYE/G/+l9sF3MWFPNc9IcoOC4ODfKHfxFmp0g==",
+229:scripts/lint-mermaid/package-lock.json:1265:      "integrity": "sha512-ZUKRh6/kUFoAiTAtTYPZJ3hw9wNxx+BIBOijnlG9PnrJsCcSjs1wyyD6vJpaYtgnzDrKYRSqf3OO6Rfa93xsRg==",
+230:scripts/lint-mermaid/package-lock.json:1277:      "integrity": "sha512-3GKBOn+m2LX9iq+JC1064cSFprJY4jL1jCXTcpnfER5HYE2l/4EfWSGzkPa/ZDBmYI0ZOEj5VHV/eKnPGkHuOg==",
+231:scripts/lint-mermaid/package-lock.json:1283:      "integrity": "sha512-1cDNdwJ2Jaohmb3sg4OmKaMBwuC48sYni5HUw2DvsC8LjGTLK9h+eb1X6RyuOHe4hT0ULCW68iomhjUoKUqlPQ==",
+232:scripts/lint-mermaid/package-lock.json:1295:      "integrity": "sha512-NqADB8VjPFLM2V0VvHUewwwsw0ZWBaIdgo+ieHtK3hasLz4qeCRjYcqfB6AQrBggRKppKF8L52/VqdVsO47Dlw==",
+233:scripts/lint-mermaid/package-lock.json:1310:      "integrity": "sha512-T2UbfbBEF32wiepXIsMlTW9+dDYC6wMh/t/vYA4tuOMKqWz/n3vr1NFSxQiyP+zk2mXsoMA/i/7qV6LKut1t1A==",
+234:scripts/lint-mermaid/package-lock.json:1321:      "integrity": "sha512-Y22oTqIU4uuPgEemfz7NDJz6OeKf12Lsu+QC+s3BVpda64lTiMYCyGwg5ki4vFxkMwQdeZDl2adZoqUgdFuTgQ==",
+235:scripts/lint-mermaid/package-lock.json:1333:      "integrity": "sha512-T1gkAiYYDWYx3V5Bmyu7HcfcvL7mUrTWiM6yOfa3PIphViJ/gFPbvidQ+veqSOHci/PxBcDabeUNCzpOODJZig==",
+236:scripts/lint-mermaid/package-lock.json:1346:      "integrity": "sha512-vK9P5/iUfdl95AI+JVyUuIcVtd4ofvtrOr3HNtM2yxC9bnMbEdp3x01OhQNnjb8IJYi38VlTE3mBXwcfvywuSw==",
+237:scripts/lint-mermaid/package-lock.json:1359:      "integrity": "sha512-4fCk79wshMdzMp2rH06qWrJE4iolqLhCUH+OiuIgU++RB0+94NlDL81atO7GX55uUKueo0txHNtvEyI6D7WdMw==",
+238:scripts/lint-mermaid/package-lock.json:1371:      "integrity": "sha512-5Hh7Y1wQbvY5ooGgPbDaL5iYLAPzMTUrjMulskHLH6wnv/A+1q5rgEaiuqEjB+oxGXIVZs1FF+R/KPN3ZSQYYg==",
+239:scripts/lint-mermaid/package-lock.json:1380:      "integrity": "sha512-bCYeRA2rVibKZd+s2625gGnGF/t7DSqDs4dP7CrLA1m7jKWz6pps0LpYLJN8Q64HtmPKJ1hrN3nzPNKFEKOUiQ==",
+240:scripts/lint-mermaid/package-lock.json:1386:      "integrity": "sha512-8i7LzZj7BF8uplX+ZyOlIz86V6TAsSs+np6m1kpW9u0JWi4z/1t+FzcK1aek+ybTnAC4KhBL4uXCNT0wcUIeCw==",
+241:scripts/lint-mermaid/package-lock.json:1426:      "integrity": "sha512-pQpZbdBu7wCTmQUh7ufPmLr0pFoObnGUoL/yhtwJDgmmQpbkg/0HSVti25Fu4rmd1oCR6NGWe9vqTWuWv3GcNA==",
+242:scripts/lint-mermaid/package-lock.json:1442:      "integrity": "sha512-OkTL9umf+He2DZkUq8f8J9of7yL6RJKI24dVITBmNfZBmri9zYZQrKkuXiKhyfPSu8tUhnVBB1iKXevvnlR4Ww==",
+243:scripts/lint-mermaid/package-lock.json:1451:      "integrity": "sha512-Ls993zuzfayK269Svk9hzpeGUKob/sIgZzyHYdjQoAdQetRKpOLj+k/QQQ/6Qi0Yz65mlROrfd+Ev+1+7dz9Kw=="
+244:scripts/lint-mermaid/package-lock.json:1456:      "integrity": "sha512-8h2oVEZNktL4BH2JCOI90iD1yXwL6iNW7KcCKT2QZgQJR2vbqDsldCTPRU9NifTCqHZci57XvQQ15YTu+sTYPg==",
+245:scripts/lint-mermaid/package-lock.json:1462:      "integrity": "sha512-J8xewKD/Gk22OZbhpOVSwcs60zhd95ESDwezOFuA3/099925PdHJ7OFHNTGtajL3AlZkykD32HykiMo+BIBI8A==",
+246:scripts/lint-mermaid/package-lock.json:1468:      "integrity": "sha512-JNAzZcXrCt42VGLuYz0zfAzDfAvJWW6AfYlDBQyDV5DClI2m5sAmK+OIO7s59XfsRsWHp02jAJrRadPRGTt6SQ==",
+247:scripts/lint-mermaid/package-lock.json:1474:      "integrity": "sha512-TI3V8YYWvkVf3KJe1dRkpnjs68JUPyEa5vjKrp1XEEJUAOaQc+Qj+L1qWbPd0SJuAdQkFU0h73sXXqwDYxsiDA==",
+248:scripts/lint-mermaid/package-lock.json:1486:      "integrity": "sha512-/IXtbwEk5HTPyEwyKX6hGkYXxM9nbj64B+ilVJnC/R6B0pH5G4V3b0pVbL7DBj4tkhBAppbQUlf6F6Xl9LHu1g==",
+249:scripts/lint-mermaid/package-lock.json:1495:      "integrity": "sha512-Zvm3kbstgdpvIJPPItlL7fppIZ3kibvc1oZIGxdvk9t6UFz6flv+Jw7FtRGKwfcI8OckmH04LqG6LlS6X4B1pA==",
+250:scripts/lint-mermaid/package-lock.json:1523:      "integrity": "sha512-sPU4uV7dYlvtWJxwwxHD0PuihVNiE7TyAbQ5SWxDCB9mUYvOgroQOwYQQOKPJ8CIbE+1ETVlOoK1UC2nU3gYvg==",
+251:scripts/lint-mermaid/package-lock.json:1532:      "integrity": "sha512-ZDY+bPm5zTTF+YpCrAU9nK0UgICYPT0QtT1NZWFv4s++TNkcgVaT0g6+4R2uI4MjQjzysHB1zxuWL50hzaeXiw==",
+252:scripts/lint-mermaid/package-lock.json:1544:      "integrity": "sha512-d+ObxMQFmbt10sretNDytwt85VrbkhhUA/JBGm1MPaWJ65Cl4wOgLaB1NYvJSZ0Ef03MMEU/0xpPMXUIQ29UfA==",
+253:scripts/lint-mermaid/package-lock.json:1556:      "integrity": "sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==",
+254:scripts/lint-mermaid/package-lock.json:1562:      "integrity": "sha512-7wfH4sLbt4M0gCDzGE6vzQBo0bfTKjU7Sfpqy/7gs1qBfYz2vEJH6vXcBKpO3+6Yu1telwd0t9HpyOoLEQQbIQ==",
+255:scripts/lint-mermaid/package-lock.json:1568:      "integrity": "sha512-61A5ThoTiDG/C8s8UMZwSorAGwMJ0ERVGj2OjoW5pAalsNOg15+iQiPzrLJ4jhZ1HJzmC2PIHT2oEiH3R5fzNA==",
+256:scripts/lint-mermaid/package-lock.json:1574:      "integrity": "sha512-IInvU7fabl34qmi9gY8XOVxhYyMyuH2xUNpb2q8/Y+7552KlejkRvqvD19nMoUW/uQGGbqNpA6Tufu5FL5BZgw==",
+257:scripts/lint-mermaid/package-lock.json:1586:      "integrity": "sha512-NOnmBpt5Y2RWbuv0LMzsayp3lVylAHLPUTut412ZA3l+C4uw4ZVkQbjShYCQ8TCpUMdPapr4YjUqLYD6v68j+w==",
+258:scripts/lint-mermaid/package-lock.json:1592:      "integrity": "sha512-WUjGcAqP1gQacoQe+OBJsFA7Ld4DyXuUIjZ5cc75cLHvJ7dtNsTugphxIADwspS+AraAUePCKrSVtPLFj/F88w==",
+259:scripts/lint-mermaid/package-lock.json:1598:      "integrity": "sha512-/Jm5M4RvtBFVkKWRu2BLUTNP8/M2a+UwuAX+ae4770q1qVGtfjG+WTCupoZixokjmHiry8uI+dlY8KXYV5HVVQ==",
+260:scripts/lint-mermaid/package-lock.json:1609:      "integrity": "sha512-0mYKnYYe9ZcqMCWhUjItv/oHjvgEsfKvnUTg8sAtnHr3GVy7rGkXCb6d5cSyqrWqL4k81b9CPg3urd+T7aop3A==",
+261:scripts/lint-mermaid/package-lock.json:1615:      "integrity": "sha512-25ClnWWuw7JbWZcgqY/gJ4FQWadKxGWk+3kR/7kD0tCaDtPPMj7oHu2ToLaVhfpnHrZzYby2w6tUA0eOIuUg8g==",
+262:scripts/lint-mermaid/package-lock.json:1625:      "integrity": "sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==",
+263:scripts/lint-mermaid/package-lock.json:1634:      "integrity": "sha512-NS3levdsRIUOmiJ8FZWCP7LG3QpJyrs/TE0Zpf1yvZu8cAJJ6QMW92H1c7kWpdIHo8RvmLxN/o2JXTKHp74lUA==",
+264:scripts/lint-mermaid/package-lock.json:1640:      "integrity": "sha512-ZUz/69+SYpFN/g/lUlo2FXcIjRkSu3nDarreVdGGndHEBJ6cXPdKguS8JGxwj5HA5xIbVKSmLgr5b3AWxtRfvQ==",
+265:scripts/lint-mermaid/package-lock.json:1652:      "integrity": "sha512-TrEMa7JGdVm0UThDJSx7ddw5nVm3UJS9o9CCIZ72B1vSyEZoziDqBYP3XIoi/12lKrJR8rE3jeFHMok2F/Mnsg==",
+266:scripts/lint-mermaid/package-lock.json:1658:      "integrity": "sha512-PdhdWy89SiZogBLaw42zdeqtRJ//zFd2PgQavcICDUgJT5oW10QCRKbJ6bg4r0/UY2M6BWd5tkxuGFRvCkgfHQ==",
+267:scripts/lint-mermaid/package-lock.json:1664:      "integrity": "sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==",
+268:scripts/lint-mermaid/package-lock.json:1670:      "integrity": "sha512-xAg7SOnEhrm5zI3puOOKyy1OMcMlIJZYNJY7xLBwSze0UjhPLnWfj2GF2EpT0jmzaJKIWKHLsaSSajf35bcYnA==",
+269:scripts/lint-mermaid/package-lock.json:1682:      "integrity": "sha512-5Z9ZpRzfuH6l/UAvCPAPUo3665Nk2wLaZU3x+TLHKVzIz33+sbJqbtrYoC3KD4/uVOr2Zp+L0LySezP9OHV9yA==",
+270:scripts/lint-mermaid/package-lock.json:1688:      "integrity": "sha512-9QNk5KwDF+Bvz+PyObkmSYjI5ksVUYtjW7AU22r2NKcfLJcXp96hkDWU3+XndOsUb+AQ9QhfzfCT2O+CNWT5Tw==",
+271:scripts/lint-mermaid/package-lock.json:1694:      "integrity": "sha512-VKS/ZaQhhkKFMANmAOhhXVoIfBXblQxGX1myCQ2faQrfmobMftXeJPcZGp0gS07ocvGJWDLZGyOZDadDBqYIJg==",
+272:scripts/lint-mermaid/package-lock.json:1703:      "integrity": "sha512-WMi/OQ2axVTf/ykqCQgXiIct+mSQDFdH2fkwhPwgEwvJ1kSzZRiinb0zF2Xb8u4+OqPChmyI6MEu4EezNJz+FQ==",
+273:scripts/lint-mermaid/package-lock.json:1715:      "integrity": "sha512-Je6p7pkk+KMzMv2XXKmAE3McmolOQFdxkKw0R8EYNr7sELW46JqnNeTX8ybPiQgvg1ymCoF8LXs5fzFaZvJPTA==",
+274:scripts/lint-mermaid/package-lock.json:1721:      "integrity": "sha512-FVDYdxtnj0G6Qm/DhNPSb8Ju59ULcup3tuJxkFb5K8Bv2pUXILbf0xZWU8PX8Ov19OXljbUyveOFwRMwkXzO+A==",
+275:scripts/lint-mermaid/package-lock.json:1733:      "integrity": "sha512-hdF5ZgjTqgAntKkklYw0R03MG2x/bSzTtkxmIRw/sTNV8YXsCJ1tfLAX23lhxhHJlEf3CRCOCGGWw3vI3GaSPw==",
+276:scripts/lint-mermaid/package-lock.json:1745:      "integrity": "sha512-q5W7tVM71e2xjHZTlgfTDoPF/SmqKG5hddq9SzR49CH2hayqRKJtQ4mtRlSxKaJlR/+9rEM+mnBHf7I2/BQcpQ==",
+277:scripts/lint-mermaid/package-lock.json:1754:      "integrity": "sha512-yDJTmhydvl5lJzBmy/hyOAA0d+aqCBuwl818haVdYCRrWV84o7YyeVm4QlVHStqNrrJSTb6jKuFAVqAFsr+K3Q==",
+278:scripts/lint-mermaid/package-lock.json:1760:      "integrity": "sha512-6ZxzVpzDXDa3bJWaHilVayA+BH/1zmxCJoVgvmqJnid/gPoKHxUrS/aC/T6LGQtNHT+XHG9fXPJB4d+IrU30Ew==",
+279:scripts/lint-mermaid/package-lock.json:1772:      "integrity": "sha512-o8qghlI8NZHU1lLPrpi2+Uq7abh4GGPpYANlalzWxyWteJOCsr/P+oPBA49TOLu5FTZO4d3F9MnWJfiMo4BkmA==",
+280:scripts/lint-mermaid/package-lock.json:1784:      "integrity": "sha512-VwddBukDzu71offAQR975unBIGqfKZpM+8ZX6ySk8nYhVoo5CYaZyzt3YBvYtRtO+aoGlqxPg/B87NGVZ/fu6g==",
+281:scripts/lint-mermaid/package-lock.json:1793:      "integrity": "sha512-6qN4hJdMwfYBtE3YBTTHhoeuUrDBPZmbQaxWAqSALV/MeEnR5z1xd8UKud2RAkFoPkmB+hli1TZSnyi84xz1vQ==",
+282:scripts/lint-mermaid/package-lock.json:1806:      "integrity": "sha512-QaKxh0eNIi2mE9p2vEdzfagOKHCcj1pJ56EEHGQOVxp8r9/iszLUUV7v89x9O1p/T+NlTM5W7jW6+cz4Fq1YVg==",
+283:scripts/lint-mermaid/package-lock.json:1815:      "integrity": "sha512-De72GdQZzNTUBBChsXueQUnPKDkg/5A5zp7pFDuQAj5UFoENpiACU0wlCvzpAGnTkj++ihpKwKyYewn/XNUbKw==",
+284:scripts/lint-mermaid/package-lock.json:1828:      "integrity": "sha512-54dMVAo4WIe6SKy3vBgN+9bJZqqQ8IMRevAkOLQALhi49qkkQDQfWdAZ8KQlXiEabw88ARXXdUrlvtbKQX+aKw==",
+285:scripts/lint-mermaid/package-lock.json:1848:      "integrity": "sha512-EvGK8EJ3DhaHfbRlETOWAS5pO9MZITeauHKJyb8wyajUfQUenkIg2MvLDTZ4T/TgIcm3HU0TFBgWWboAZ30UHg==",
+286:scripts/lint-mermaid/package-lock.json:1857:      "integrity": "sha512-JZnDKK8B0RCDw84FNdDAIpZK+JuJw+s7Lz8nksI7SIuU3UXJJslUthsi+uWBUYOwPFwW7W7PRLRfUKpxjtjFCw==",
+287:sdk/go/proto/openshellv1/openshell.pb.go:5106:	// OAuth2 token endpoint URL (e.g., https://keycloak.example.com/realms/my-realm/protocol/openid-connect/token)
+288:tasks/scripts/keycloak-k8s-setup.sh:23:#   curl -s -X POST http://localhost:9090/realms/openshell/protocol/openid-connect/token \
+289:tasks/scripts/keycloak-k8s-setup.sh:107:              path: /realms/master
+290:tasks/scripts/keycloak-k8s-setup.sh:150:ISSUER="http://${SVC_HOSTNAME}/realms/openshell"
+291:tasks/scripts/keycloak-k8s-setup.sh:164:echo "  Test users (token endpoint: http://localhost:${SETUP_PORT}/realms/openshell/protocol/openid-connect/token):"
+292:tasks/scripts/keycloak-k8s-setup.sh:169:echo "    curl -s -X POST http://localhost:${SETUP_PORT}/realms/openshell/protocol/openid-connect/token \\"
